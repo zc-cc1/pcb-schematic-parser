@@ -1,0 +1,77 @@
+{
+  "image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+  "size": [
+    1405,
+    910
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "3354e4e555a3be95cddc8da245e9d62611b7e1fc8b59b81a43b24f87b8f05908",
+  "input_network_sha256": "32059e9d924fc2fc49a37d6671b7e81f23b963e44b091a18ef353aef4749aef0",
+  "input_OCR_sha256": "e578aac20b73fb53de8673e845749579fef4290b911445f8a03f765a37d8fdcc",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "before": {
+    "exported_components": 18,
+    "exported_pins": 31,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 36,
+      "pin_number_unresolved": 74,
+      "pin_name_unresolved": 70
+    }
+  },
+  "conservative": {
+    "exported_components": 18,
+    "exported_pins": 31,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 36,
+      "pin_number_unresolved": 74,
+      "pin_name_unresolved": 70
+    }
+  },
+  "candidate": {
+    "exported_components": 18,
+    "exported_pins": 31,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 36,
+      "pin_number_unresolved": 74,
+      "pin_name_unresolved": 70
+    }
+  },
+  "name_completion": {
+    "ordinary_label_names_added": 0,
+    "candidate_passive_names_added": 0,
+    "candidate_passive_names_by_type": {},
+    "new_observed_number_glyphs": 0,
+    "automatic_two_terminal_numbers": 0,
+    "power_component_identities_invented": 0,
+    "blank_names_filled": 0,
+    "tip_coordinates_changed": 0,
+    "network_members_changed": 0,
+    "recognition_accuracy_gain_claimed": false
+  },
+  "power_guard": {
+    "power_components": 23,
+    "power_without_owned_tip": 4,
+    "networks_with_possible_omitted_power_member": 4,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  },
+  "candidate_edge_geometry": {
+    "input_pixel_segments": 0,
+    "output_segments": 0,
+    "tolerance_original_px": 1.0
+  },
+  "pre_guard_candidate_network_ids": [],
+  "candidate_exported_network_ids": [],
+  "power_guard_excluded_candidate_network_ids": [],
+  "all_tip_points_owner_indices_numbers_and_network_members_preserved": true,
+  "input_contract": "PNG and image-model predictions only; no source annotations, reference JSON or Golden reads",
+  "new_training": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "complete_competition_JSON": false,
+  "wall_seconds": 0.13029890006873757
+}

@@ -1,0 +1,158 @@
+{
+  "image_sha256": "a37816e5f8eea79d9e9812e5afadaafc8e2295ec05406d793c367f44a0736536",
+  "size": [
+    1089,
+    581
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "4af4adcb24f2232a2b8852127c20a4c55508530f29d86af2a03b3cf0563755a8",
+  "input_network_sha256": "05a4d26ae6869d2824b3d1c50351b81a8a82712aed2d98d336e23ec2dd8d1289",
+  "input_OCR_sha256": "9c54f3a444f452f774f7f4e671c3bd9590ee2f84f584f776ecd850167c129b20",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "detection_index": 4,
+      "component_id": "UNRESOLVED_DET_0005",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        429.539,
+        524.222,
+        494.332,
+        575.977
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00010",
+      "detection_index": 5,
+      "component_id": "UNRESOLVED_DET_0006",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        87.389,
+        524.733,
+        151.645,
+        575.711
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    }
+  ],
+  "components": [
+    {
+      "detection_index": 4,
+      "component_id": "UNRESOLVED_DET_0005",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        429.539,
+        524.222,
+        494.332,
+        575.977
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0017"
+      ],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00009"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 5,
+      "component_id": "UNRESOLVED_DET_0006",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        87.389,
+        524.733,
+        151.645,
+        575.711
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0016"
+      ],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00010"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 9,
+      "component_id": "UNRESOLVED_DET_0010",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        828.637,
+        380.951,
+        889.717,
+        424.679
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 10,
+      "component_id": "UNRESOLVED_DET_0011",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        843.909,
+        42.502,
+        873.787,
+        65.445
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0025"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 11,
+      "component_id": "UNRESOLVED_DET_0012",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        105.887,
+        43.581,
+        134.613,
+        60.121
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0015"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 5,
+    "power_without_owned_tip": 1,
+    "networks_with_possible_omitted_power_member": 2,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

@@ -1,0 +1,5002 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    1127,
+    509
+  ],
+  "components": [
+    {
+      "component_id": "C74",
+      "detection_index": 0,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        981.636,
+        272.18,
+        1012.778,
+        330.905
+      ],
+      "confidence": 0.907939,
+      "designator": "C74",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0002",
+      "detection_index": 1,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        207.348,
+        184.34,
+        245.202,
+        220.27
+      ],
+      "confidence": 0.899111,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "IC2",
+      "detection_index": 2,
+      "class_name": "ic",
+      "type": "ic",
+      "bbox_top_left": [
+        418.528,
+        94.314,
+        692.638,
+        480.684
+      ],
+      "confidence": 0.884262,
+      "designator": "IC2",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0004",
+      "detection_index": 3,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        1064.906,
+        323.531,
+        1104.72,
+        358.043
+      ],
+      "confidence": 0.883585,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0005",
+      "detection_index": 4,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        8.431,
+        446.094,
+        46.644,
+        482.107
+      ],
+      "confidence": 0.878968,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "C82",
+      "detection_index": 5,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        0.0,
+        336.385,
+        57.017,
+        388.775
+      ],
+      "confidence": 0.876628,
+      "designator": "C82",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0007",
+      "detection_index": 6,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        306.671,
+        444.315,
+        344.508,
+        481.637
+      ],
+      "confidence": 0.876413,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "C87",
+      "detection_index": 7,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        196.233,
+        100.713,
+        255.584,
+        152.483
+      ],
+      "confidence": 0.872315,
+      "designator": "C87",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "C81",
+      "detection_index": 8,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        121.036,
+        335.768,
+        181.277,
+        389.442
+      ],
+      "confidence": 0.850283,
+      "designator": "C81",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "C83",
+      "detection_index": 9,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        245.596,
+        336.45,
+        306.063,
+        389.981
+      ],
+      "confidence": 0.838303,
+      "designator": "C83",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "C86",
+      "detection_index": 10,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        970.774,
+        122.877,
+        1018.123,
+        181.133
+      ],
+      "confidence": 0.837473,
+      "designator": "C86",
+      "identity_status": "OCR_prediction"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "detection_index": 11,
+      "class_name": "voltage_source",
+      "type": "vcc",
+      "bbox_top_left": [
+        204.541,
+        30.555,
+        246.965,
+        54.363
+      ],
+      "confidence": 0.622639,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "X2",
+      "detection_index": 12,
+      "class_name": "crystal",
+      "type": "crystal",
+      "bbox_top_left": [
+        798.944,
+        204.246,
+        874.943,
+        247.77
+      ],
+      "confidence": 0.493121,
+      "designator": "X2",
+      "identity_status": "OCR_prediction"
+    }
+  ],
+  "pin_candidates": [
+    {
+      "candidate_id": "PIN_CAND_0001",
+      "point": [
+        835.3745865225792,
+        252.10320817679167
+      ],
+      "confidence": 0.9707545042037964,
+      "owner": "X2",
+      "owner_detection_index": 12,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "X2",
+          "detection_index": 12,
+          "component_type": "crystal",
+          "cost_px": 5.346966176791658,
+          "outside_gap_px": 4.333208176791658,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 6.5286,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.995268702507019,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00107",
+          "text": "1",
+          "bbox": [
+            836.0,
+            259.0,
+            848.0,
+            276.0
+          ],
+          "confidence": 0.99976,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 7.814013477420807,
+          "global_assignment_margin": 30.185986522579185,
+          "alternatives": [
+            {
+              "token_id": "PT_00107",
+              "text": "1",
+              "bbox": [
+                836.0,
+                259.0,
+                848.0,
+                276.0
+              ],
+              "confidence": 0.99976,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 7.814013477420807
+            },
+            {
+              "token_id": "PT_00106",
+              "text": "1",
+              "bbox": [
+                836.5,
+                258.5,
+                848.5,
+                275.5
+              ],
+              "confidence": 0.99981,
+              "source_text": "1",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 8.283013477420806
+            },
+            {
+              "token_id": "PT_00108",
+              "text": "1",
+              "bbox": [
+                837.0,
+                257.0,
+                853.5,
+                276.5
+              ],
+              "confidence": 0.99864,
+              "source_text": "1",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 11.041413477420807
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "crystal",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0",
+            "tile_359_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00107",
+            "text": "1",
+            "bbox": [
+              836.0,
+              259.0,
+              848.0,
+              276.0
+            ],
+            "confidence": 0.99976,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 7.814013477420807
+          },
+          {
+            "token_id": "PT_00106",
+            "text": "1",
+            "bbox": [
+              836.5,
+              258.5,
+              848.5,
+              275.5
+            ],
+            "confidence": 0.99981,
+            "source_text": "1",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 8.283013477420806
+          },
+          {
+            "token_id": "PT_00108",
+            "text": "1",
+            "bbox": [
+              837.0,
+              257.0,
+              853.5,
+              276.5
+            ],
+            "confidence": 0.99864,
+            "source_text": "1",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 11.041413477420807
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0002",
+      "point": [
+        835.2233077287674,
+        205.133768633008
+      ],
+      "confidence": 0.9670321941375732,
+      "owner": "X2",
+      "owner_detection_index": 12,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "X2",
+          "detection_index": 12,
+          "component_type": "crystal",
+          "cost_px": 1.191311726601599,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.8877686330079939,
+          "eligible_margin_px": 6.5286,
+          "warning": null
+        }
+      ],
+      "number": "3",
+      "pinname": "3",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9977989792823792,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00055",
+          "text": "3",
+          "bbox": [
+            837.0,
+            176.5,
+            851.5,
+            195.5
+          ],
+          "confidence": 0.9999,
+          "source_text": "3",
+          "source_view": "tile_359_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 10.123452271232605,
+          "global_assignment_margin": 27.876547728767378,
+          "alternatives": [
+            {
+              "token_id": "PT_00055",
+              "text": "3",
+              "bbox": [
+                837.0,
+                176.5,
+                851.5,
+                195.5
+              ],
+              "confidence": 0.9999,
+              "source_text": "3",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.123452271232605
+            },
+            {
+              "token_id": "PT_00054",
+              "text": "3",
+              "bbox": [
+                836.0,
+                176.0,
+                853.0,
+                196.0
+              ],
+              "confidence": 0.99992,
+              "source_text": "3",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.373052271232606
+            },
+            {
+              "token_id": "PT_00056",
+              "text": "3",
+              "bbox": [
+                837.5,
+                175.0,
+                851.5,
+                195.5
+              ],
+              "confidence": 0.99852,
+              "source_text": "3",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 10.446052271232606
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "crystal",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0",
+            "tile_359_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00055",
+            "text": "3",
+            "bbox": [
+              837.0,
+              176.5,
+              851.5,
+              195.5
+            ],
+            "confidence": 0.9999,
+            "source_text": "3",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.123452271232605
+          },
+          {
+            "token_id": "PT_00054",
+            "text": "3",
+            "bbox": [
+              836.0,
+              176.0,
+              853.0,
+              196.0
+            ],
+            "confidence": 0.99992,
+            "source_text": "3",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.373052271232606
+          },
+          {
+            "token_id": "PT_00056",
+            "text": "3",
+            "bbox": [
+              837.5,
+              175.0,
+              851.5,
+              195.5
+            ],
+            "confidence": 0.99852,
+            "source_text": "3",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 10.446052271232606
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0003",
+      "point": [
+        415.7240420281887,
+        252.00448163086548
+      ],
+      "confidence": 0.9640226364135742,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 3.0354339718113144,
+          "outside_gap_px": 2.8039579718113146,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "P7",
+      "pinname": "PLL_VDD",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9807804822921753,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00088",
+          "text": "P7",
+          "bbox": [
+            394.0,
+            230.0,
+            425.0,
+            254.0
+          ],
+          "confidence": 0.99897,
+          "source_text": "P7",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 10.566761630865486,
+          "global_assignment_margin": 27.43323836913447,
+          "alternatives": [
+            {
+              "token_id": "PT_00088",
+              "text": "P7",
+              "bbox": [
+                394.0,
+                230.0,
+                425.0,
+                254.0
+              ],
+              "confidence": 0.99897,
+              "source_text": "P7",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.566761630865486
+            },
+            {
+              "token_id": "PT_00087",
+              "text": "P7",
+              "bbox": [
+                395.5,
+                232.0,
+                422.5,
+                251.5
+              ],
+              "confidence": 0.99898,
+              "source_text": "P7",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.846561630865486
+            },
+            {
+              "token_id": "PT_00089",
+              "text": "P7",
+              "bbox": [
+                395.5,
+                231.5,
+                423.0,
+                251.5
+              ],
+              "confidence": 0.99868,
+              "source_text": "P7",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 11.087561630865487
+            },
+            {
+              "token_id": "PT_00090",
+              "text": "P7",
+              "bbox": [
+                396.5,
+                230.5,
+                423.0,
+                251.0
+              ],
+              "confidence": 0.87972,
+              "source_text": "P7",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 14.186761630865487
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00093",
+          "text": "PLL_VDD",
+          "bbox": [
+            427.0,
+            240.0,
+            508.0,
+            263.0
+          ],
+          "confidence": 0.99955,
+          "source_text": "PLL_VDD",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 3.451801630865482,
+          "global_assignment_margin": 34.548198369134525,
+          "alternatives": [
+            {
+              "token_id": "PT_00093",
+              "text": "PLL_VDD",
+              "bbox": [
+                427.0,
+                240.0,
+                508.0,
+                263.0
+              ],
+              "confidence": 0.99955,
+              "source_text": "PLL_VDD",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.451801630865482
+            },
+            {
+              "token_id": "PT_00095",
+              "text": "PLL_VDD",
+              "bbox": [
+                428.5,
+                241.0,
+                506.0,
+                261.5
+              ],
+              "confidence": 0.99947,
+              "source_text": "PLL_VDD",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.6884016308654837
+            },
+            {
+              "token_id": "PT_00096",
+              "text": "PLL_VDD",
+              "bbox": [
+                429.0,
+                241.0,
+                506.0,
+                261.5
+              ],
+              "confidence": 0.99946,
+              "source_text": "PLL_VDD",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.703601630865483
+            },
+            {
+              "token_id": "PT_00094",
+              "text": "PLL_VDD",
+              "bbox": [
+                428.5,
+                239.5,
+                507.5,
+                263.0
+              ],
+              "confidence": 0.99953,
+              "source_text": "PLL_VDD",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.7322016308654824
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00088",
+            "text": "P7",
+            "bbox": [
+              394.0,
+              230.0,
+              425.0,
+              254.0
+            ],
+            "confidence": 0.99897,
+            "source_text": "P7",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.566761630865486
+          },
+          {
+            "token_id": "PT_00087",
+            "text": "P7",
+            "bbox": [
+              395.5,
+              232.0,
+              422.5,
+              251.5
+            ],
+            "confidence": 0.99898,
+            "source_text": "P7",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.846561630865486
+          },
+          {
+            "token_id": "PT_00089",
+            "text": "P7",
+            "bbox": [
+              395.5,
+              231.5,
+              423.0,
+              251.5
+            ],
+            "confidence": 0.99868,
+            "source_text": "P7",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 11.087561630865487
+          },
+          {
+            "token_id": "PT_00090",
+            "text": "P7",
+            "bbox": [
+              396.5,
+              230.5,
+              423.0,
+              251.0
+            ],
+            "confidence": 0.87972,
+            "source_text": "P7",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 14.186761630865487
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00093",
+            "text": "PLL_VDD",
+            "bbox": [
+              427.0,
+              240.0,
+              508.0,
+              263.0
+            ],
+            "confidence": 0.99955,
+            "source_text": "PLL_VDD",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.451801630865482
+          },
+          {
+            "token_id": "PT_00095",
+            "text": "PLL_VDD",
+            "bbox": [
+              428.5,
+              241.0,
+              506.0,
+              261.5
+            ],
+            "confidence": 0.99947,
+            "source_text": "PLL_VDD",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.6884016308654837
+          },
+          {
+            "token_id": "PT_00096",
+            "text": "PLL_VDD",
+            "bbox": [
+              429.0,
+              241.0,
+              506.0,
+              261.5
+            ],
+            "confidence": 0.99946,
+            "source_text": "PLL_VDD",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.703601630865483
+          },
+          {
+            "token_id": "PT_00094",
+            "text": "PLL_VDD",
+            "bbox": [
+              428.5,
+              239.5,
+              507.5,
+              263.0
+            ],
+            "confidence": 0.99953,
+            "source_text": "PLL_VDD",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.7322016308654824
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0004",
+      "point": [
+        414.2867918908596,
+        301.7165434360504
+      ],
+      "confidence": 0.9630352258682251,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 4.472684109140416,
+          "outside_gap_px": 4.241208109140416,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "N8",
+      "pinname": "XOSC_VDD",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9864512085914612,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00118",
+          "text": "N8",
+          "bbox": [
+            396.0,
+            282.0,
+            423.0,
+            302.0
+          ],
+          "confidence": 0.9997,
+          "source_text": "N8",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 10.264223436050415,
+          "global_assignment_margin": 27.73577656394957,
+          "alternatives": [
+            {
+              "token_id": "PT_00118",
+              "text": "N8",
+              "bbox": [
+                396.0,
+                282.0,
+                423.0,
+                302.0
+              ],
+              "confidence": 0.9997,
+              "source_text": "N8",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.264223436050415
+            },
+            {
+              "token_id": "PT_00117",
+              "text": "N8",
+              "bbox": [
+                396.5,
+                281.5,
+                423.0,
+                301.5
+              ],
+              "confidence": 0.99982,
+              "source_text": "N8",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.746823436050414
+            },
+            {
+              "token_id": "PT_00116",
+              "text": "N8",
+              "bbox": [
+                393.0,
+                280.0,
+                426.0,
+                303.0
+              ],
+              "confidence": 0.99984,
+              "source_text": "N8",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.761423436050418
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00126",
+          "text": "XOSC_VDD",
+          "bbox": [
+            429.5,
+            291.0,
+            519.5,
+            311.0
+          ],
+          "confidence": 0.99115,
+          "source_text": "XOSC_VDD",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 4.251863436050415,
+          "global_assignment_margin": 33.748136563949515,
+          "alternatives": [
+            {
+              "token_id": "PT_00126",
+              "text": "XOSC_VDD",
+              "bbox": [
+                429.5,
+                291.0,
+                519.5,
+                311.0
+              ],
+              "confidence": 0.99115,
+              "source_text": "XOSC_VDD",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 4.251863436050415
+            },
+            {
+              "token_id": "PT_00129",
+              "text": "XOSC_VDD",
+              "bbox": [
+                429.0,
+                291.0,
+                519.5,
+                311.0
+              ],
+              "confidence": 0.98133,
+              "source_text": "XOSC_VDD",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 4.433263436050413
+            },
+            {
+              "token_id": "PT_00128",
+              "text": "XOSC_VDD",
+              "bbox": [
+                428.0,
+                288.0,
+                520.5,
+                313.0
+              ],
+              "confidence": 0.98532,
+              "source_text": "XOSC_VDD",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.853463436050414
+            },
+            {
+              "token_id": "PT_00130",
+              "text": "XOSC_VDD",
+              "bbox": [
+                427.5,
+                288.0,
+                520.0,
+                313.0
+              ],
+              "confidence": 0.97907,
+              "source_text": "XOSC_VDD",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.948463436050414
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00118",
+            "text": "N8",
+            "bbox": [
+              396.0,
+              282.0,
+              423.0,
+              302.0
+            ],
+            "confidence": 0.9997,
+            "source_text": "N8",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.264223436050415
+          },
+          {
+            "token_id": "PT_00117",
+            "text": "N8",
+            "bbox": [
+              396.5,
+              281.5,
+              423.0,
+              301.5
+            ],
+            "confidence": 0.99982,
+            "source_text": "N8",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.746823436050414
+          },
+          {
+            "token_id": "PT_00116",
+            "text": "N8",
+            "bbox": [
+              393.0,
+              280.0,
+              426.0,
+              303.0
+            ],
+            "confidence": 0.99984,
+            "source_text": "N8",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.761423436050418
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00126",
+            "text": "XOSC_VDD",
+            "bbox": [
+              429.5,
+              291.0,
+              519.5,
+              311.0
+            ],
+            "confidence": 0.99115,
+            "source_text": "XOSC_VDD",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 4.251863436050415
+          },
+          {
+            "token_id": "PT_00129",
+            "text": "XOSC_VDD",
+            "bbox": [
+              429.0,
+              291.0,
+              519.5,
+              311.0
+            ],
+            "confidence": 0.98133,
+            "source_text": "XOSC_VDD",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 4.433263436050413
+          },
+          {
+            "token_id": "PT_00128",
+            "text": "XOSC_VDD",
+            "bbox": [
+              428.0,
+              288.0,
+              520.5,
+              313.0
+            ],
+            "confidence": 0.98532,
+            "source_text": "XOSC_VDD",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.853463436050414
+          },
+          {
+            "token_id": "PT_00130",
+            "text": "XOSC_VDD",
+            "bbox": [
+              427.5,
+              288.0,
+              520.0,
+              313.0
+            ],
+            "confidence": 0.97907,
+            "source_text": "XOSC_VDD",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.948463436050414
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0005",
+      "point": [
+        417.0884217694402,
+        451.1983955949545
+      ],
+      "confidence": 0.9622014760971069,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.671054230559846,
+          "outside_gap_px": 1.439578230559846,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "V1",
+      "pinname": "AGND2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9857692718505859,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00180",
+          "text": "V1",
+          "bbox": [
+            392.0,
+            429.0,
+            417.0,
+            449.5
+          ],
+          "confidence": 0.99912,
+          "source_text": "V1",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 12.807675594954492,
+          "global_assignment_margin": 25.192324405045497,
+          "alternatives": [
+            {
+              "token_id": "PT_00180",
+              "text": "V1",
+              "bbox": [
+                392.0,
+                429.0,
+                417.0,
+                449.5
+              ],
+              "confidence": 0.99912,
+              "source_text": "V1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 12.807675594954492
+            },
+            {
+              "token_id": "PT_00181",
+              "text": "V1",
+              "bbox": [
+                390.0,
+                426.0,
+                421.0,
+                451.0
+              ],
+              "confidence": 0.99885,
+              "source_text": "V1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 13.503075594954492
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00185",
+          "text": "AGND2",
+          "bbox": [
+            429.0,
+            439.5,
+            488.5,
+            462.0
+          ],
+          "confidence": 0.99949,
+          "source_text": "AGND2",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 2.8719155949544897,
+          "global_assignment_margin": 35.12808440504557,
+          "alternatives": [
+            {
+              "token_id": "PT_00185",
+              "text": "AGND2",
+              "bbox": [
+                429.0,
+                439.5,
+                488.5,
+                462.0
+              ],
+              "confidence": 0.99949,
+              "source_text": "AGND2",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 2.8719155949544897
+            },
+            {
+              "token_id": "PT_00182",
+              "text": "AGND2",
+              "bbox": [
+                429.0,
+                440.0,
+                488.0,
+                461.0
+              ],
+              "confidence": 0.99987,
+              "source_text": "AGND2",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.0993155949544886
+            },
+            {
+              "token_id": "PT_00184",
+              "text": "AGND2",
+              "bbox": [
+                428.0,
+                438.0,
+                489.0,
+                462.5
+              ],
+              "confidence": 0.99959,
+              "source_text": "AGND2",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.3549155949544898
+            },
+            {
+              "token_id": "PT_00183",
+              "text": "AGND2",
+              "bbox": [
+                426.0,
+                436.0,
+                489.0,
+                464.0
+              ],
+              "confidence": 0.99973,
+              "source_text": "AGND2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.542115594954489
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00180",
+            "text": "V1",
+            "bbox": [
+              392.0,
+              429.0,
+              417.0,
+              449.5
+            ],
+            "confidence": 0.99912,
+            "source_text": "V1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 12.807675594954492
+          },
+          {
+            "token_id": "PT_00181",
+            "text": "V1",
+            "bbox": [
+              390.0,
+              426.0,
+              421.0,
+              451.0
+            ],
+            "confidence": 0.99885,
+            "source_text": "V1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 13.503075594954492
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00185",
+            "text": "AGND2",
+            "bbox": [
+              429.0,
+              439.5,
+              488.5,
+              462.0
+            ],
+            "confidence": 0.99949,
+            "source_text": "AGND2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 2.8719155949544897
+          },
+          {
+            "token_id": "PT_00182",
+            "text": "AGND2",
+            "bbox": [
+              429.0,
+              440.0,
+              488.0,
+              461.0
+            ],
+            "confidence": 0.99987,
+            "source_text": "AGND2",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.0993155949544886
+          },
+          {
+            "token_id": "PT_00184",
+            "text": "AGND2",
+            "bbox": [
+              428.0,
+              438.0,
+              489.0,
+              462.5
+            ],
+            "confidence": 0.99959,
+            "source_text": "AGND2",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.3549155949544898
+          },
+          {
+            "token_id": "PT_00183",
+            "text": "AGND2",
+            "bbox": [
+              426.0,
+              436.0,
+              489.0,
+              464.0
+            ],
+            "confidence": 0.99973,
+            "source_text": "AGND2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.542115594954489
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0006",
+      "point": [
+        26.15052728354931,
+        348.31828957796097
+      ],
+      "confidence": 0.9590552449226379,
+      "owner": "C82",
+      "owner_detection_index": 5,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C82",
+          "detection_index": 5,
+          "component_type": "capacitor",
+          "cost_px": 2.6334019155921955,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 11.933289577960977,
+          "eligible_margin_px": 7.858499999999998,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9968495965003967,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00133",
+          "text": "1",
+          "bbox": [
+            26.0,
+            328.0,
+            42.0,
+            349.0
+          ],
+          "confidence": 0.99992,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 7.977972716450692,
+          "global_assignment_margin": 30.022027283549278,
+          "alternatives": [
+            {
+              "token_id": "PT_00133",
+              "text": "1",
+              "bbox": [
+                26.0,
+                328.0,
+                42.0,
+                349.0
+              ],
+              "confidence": 0.99992,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 7.977972716450692
+            },
+            {
+              "token_id": "PT_00135",
+              "text": "1",
+              "bbox": [
+                29.0,
+                329.0,
+                41.0,
+                347.0
+              ],
+              "confidence": 0.99968,
+              "source_text": "1",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 8.95277271645069
+            },
+            {
+              "token_id": "PT_00134",
+              "text": "1",
+              "bbox": [
+                28.5,
+                329.0,
+                42.0,
+                348.5
+              ],
+              "confidence": 0.99992,
+              "source_text": "1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 9.24297271645069
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00133",
+            "text": "1",
+            "bbox": [
+              26.0,
+              328.0,
+              42.0,
+              349.0
+            ],
+            "confidence": 0.99992,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 7.977972716450692
+          },
+          {
+            "token_id": "PT_00135",
+            "text": "1",
+            "bbox": [
+              29.0,
+              329.0,
+              41.0,
+              347.0
+            ],
+            "confidence": 0.99968,
+            "source_text": "1",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 8.95277271645069
+          },
+          {
+            "token_id": "PT_00134",
+            "text": "1",
+            "bbox": [
+              28.5,
+              329.0,
+              42.0,
+              348.5
+            ],
+            "confidence": 0.99992,
+            "source_text": "1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.24297271645069
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "point": [
+        415.15483947098255,
+        426.0111314198002
+      ],
+      "confidence": 0.9586519002914429,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 3.6046365290174682,
+          "outside_gap_px": 3.3731605290174684,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "U18",
+      "pinname": "AGND1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9808199405670166,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00170",
+          "text": "U18",
+          "bbox": [
+            391.5,
+            403.5,
+            427.0,
+            424.5
+          ],
+          "confidence": 0.99983,
+          "source_text": "U18",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 12.571211419800225,
+          "global_assignment_margin": 25.42878858019975,
+          "alternatives": [
+            {
+              "token_id": "PT_00170",
+              "text": "U18",
+              "bbox": [
+                391.5,
+                403.5,
+                427.0,
+                424.5
+              ],
+              "confidence": 0.99983,
+              "source_text": "U18",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 12.571211419800225
+            },
+            {
+              "token_id": "PT_00171",
+              "text": "U18",
+              "bbox": [
+                389.0,
+                403.0,
+                428.0,
+                425.0
+              ],
+              "confidence": 0.99981,
+              "source_text": "U18",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 12.616611419800224
+            },
+            {
+              "token_id": "PT_00172",
+              "text": "U18",
+              "bbox": [
+                391.5,
+                403.5,
+                426.5,
+                424.0
+              ],
+              "confidence": 0.9998,
+              "source_text": "U18",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 12.836811419800222
+            },
+            {
+              "token_id": "PT_00174",
+              "text": "U18",
+              "bbox": [
+                389.0,
+                401.0,
+                428.5,
+                426.5
+              ],
+              "confidence": 0.99965,
+              "source_text": "U18",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 12.854811419800223
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00176",
+          "text": "AGND1",
+          "bbox": [
+            430.5,
+            416.0,
+            485.0,
+            435.5
+          ],
+          "confidence": 0.99989,
+          "source_text": "AGND1",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 2.6166514198002218,
+          "global_assignment_margin": 35.38334858019982,
+          "alternatives": [
+            {
+              "token_id": "PT_00176",
+              "text": "AGND1",
+              "bbox": [
+                430.5,
+                416.0,
+                485.0,
+                435.5
+              ],
+              "confidence": 0.99989,
+              "source_text": "AGND1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 2.6166514198002218
+            },
+            {
+              "token_id": "PT_00175",
+              "text": "AGND1",
+              "bbox": [
+                430.0,
+                415.0,
+                485.5,
+                436.0
+              ],
+              "confidence": 0.99991,
+              "source_text": "AGND1",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 2.8662514198002214
+            },
+            {
+              "token_id": "PT_00179",
+              "text": "AGND1",
+              "bbox": [
+                428.0,
+                413.0,
+                486.5,
+                437.5
+              ],
+              "confidence": 0.99983,
+              "source_text": "AGND1",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.0878514198002205
+            },
+            {
+              "token_id": "PT_00177",
+              "text": "AGND1",
+              "bbox": [
+                425.0,
+                411.0,
+                487.0,
+                439.0
+              ],
+              "confidence": 0.99986,
+              "source_text": "AGND1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.2622514198002213
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00170",
+            "text": "U18",
+            "bbox": [
+              391.5,
+              403.5,
+              427.0,
+              424.5
+            ],
+            "confidence": 0.99983,
+            "source_text": "U18",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 12.571211419800225
+          },
+          {
+            "token_id": "PT_00171",
+            "text": "U18",
+            "bbox": [
+              389.0,
+              403.0,
+              428.0,
+              425.0
+            ],
+            "confidence": 0.99981,
+            "source_text": "U18",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 12.616611419800224
+          },
+          {
+            "token_id": "PT_00172",
+            "text": "U18",
+            "bbox": [
+              391.5,
+              403.5,
+              426.5,
+              424.0
+            ],
+            "confidence": 0.9998,
+            "source_text": "U18",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 12.836811419800222
+          },
+          {
+            "token_id": "PT_00174",
+            "text": "U18",
+            "bbox": [
+              389.0,
+              401.0,
+              428.5,
+              426.5
+            ],
+            "confidence": 0.99965,
+            "source_text": "U18",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 12.854811419800223
+          },
+          {
+            "token_id": "PT_00181",
+            "text": "V1",
+            "bbox": [
+              390.0,
+              426.0,
+              421.0,
+              451.0
+            ],
+            "confidence": 0.99885,
+            "source_text": "V1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 13.29354858019978
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00176",
+            "text": "AGND1",
+            "bbox": [
+              430.5,
+              416.0,
+              485.0,
+              435.5
+            ],
+            "confidence": 0.99989,
+            "source_text": "AGND1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 2.6166514198002218
+          },
+          {
+            "token_id": "PT_00175",
+            "text": "AGND1",
+            "bbox": [
+              430.0,
+              415.0,
+              485.5,
+              436.0
+            ],
+            "confidence": 0.99991,
+            "source_text": "AGND1",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 2.8662514198002214
+          },
+          {
+            "token_id": "PT_00179",
+            "text": "AGND1",
+            "bbox": [
+              428.0,
+              413.0,
+              486.5,
+              437.5
+            ],
+            "confidence": 0.99983,
+            "source_text": "AGND1",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.0878514198002205
+          },
+          {
+            "token_id": "PT_00177",
+            "text": "AGND1",
+            "bbox": [
+              425.0,
+              411.0,
+              487.0,
+              439.0
+            ],
+            "confidence": 0.99986,
+            "source_text": "AGND1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.2622514198002213
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0008",
+      "point": [
+        414.2332642376423,
+        227.03667375445366
+      ],
+      "confidence": 0.9580471515655518,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 4.526211762357732,
+          "outside_gap_px": 4.294735762357732,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "N7",
+      "pinname": "PLL_VDD_OUT",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9617770314216614,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00078",
+          "text": "N7",
+          "bbox": [
+            395.0,
+            207.0,
+            424.0,
+            228.0
+          ],
+          "confidence": 0.9999,
+          "source_text": "N7",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 10.080353754453661,
+          "global_assignment_margin": 27.919646245546346,
+          "alternatives": [
+            {
+              "token_id": "PT_00078",
+              "text": "N7",
+              "bbox": [
+                395.0,
+                207.0,
+                424.0,
+                228.0
+              ],
+              "confidence": 0.9999,
+              "source_text": "N7",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.080353754453661
+            },
+            {
+              "token_id": "PT_00079",
+              "text": "N7",
+              "bbox": [
+                396.0,
+                207.5,
+                422.0,
+                227.5
+              ],
+              "confidence": 0.99988,
+              "source_text": "N7",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.11075375445366
+            },
+            {
+              "token_id": "PT_00077",
+              "text": "N7",
+              "bbox": [
+                396.5,
+                207.0,
+                423.0,
+                227.0
+              ],
+              "confidence": 0.99992,
+              "source_text": "N7",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.56495375445366
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00083",
+          "text": "PLL_VDD_OUT",
+          "bbox": [
+            425.0,
+            214.0,
+            548.0,
+            240.0
+          ],
+          "confidence": 0.99964,
+          "source_text": "PLL_VDD_OUT",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 4.122193754453658,
+          "global_assignment_margin": 33.87780624554637,
+          "alternatives": [
+            {
+              "token_id": "PT_00083",
+              "text": "PLL_VDD_OUT",
+              "bbox": [
+                425.0,
+                214.0,
+                548.0,
+                240.0
+              ],
+              "confidence": 0.99964,
+              "source_text": "PLL_VDD_OUT",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 4.122193754453658
+            },
+            {
+              "token_id": "PT_00081",
+              "text": "PLL_VDD_OUT",
+              "bbox": [
+                428.5,
+                215.5,
+                546.0,
+                237.0
+              ],
+              "confidence": 0.99971,
+              "source_text": "PLL_VDD_OUT",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 4.915793754453658
+            },
+            {
+              "token_id": "PT_00080",
+              "text": "PLL_VDD_OUT",
+              "bbox": [
+                427.0,
+                213.0,
+                547.0,
+                239.0
+              ],
+              "confidence": 0.99973,
+              "source_text": "PLL_VDD_OUT",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 5.150393754453658
+            },
+            {
+              "token_id": "PT_00082",
+              "text": "PLL_VDD_OUT",
+              "bbox": [
+                427.5,
+                213.0,
+                546.5,
+                238.5
+              ],
+              "confidence": 0.99971,
+              "source_text": "PLL_VDD_OUT",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 5.400793754453659
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00078",
+            "text": "N7",
+            "bbox": [
+              395.0,
+              207.0,
+              424.0,
+              228.0
+            ],
+            "confidence": 0.9999,
+            "source_text": "N7",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.080353754453661
+          },
+          {
+            "token_id": "PT_00079",
+            "text": "N7",
+            "bbox": [
+              396.0,
+              207.5,
+              422.0,
+              227.5
+            ],
+            "confidence": 0.99988,
+            "source_text": "N7",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.11075375445366
+          },
+          {
+            "token_id": "PT_00077",
+            "text": "N7",
+            "bbox": [
+              396.5,
+              207.0,
+              423.0,
+              227.0
+            ],
+            "confidence": 0.99992,
+            "source_text": "N7",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.56495375445366
+          },
+          {
+            "token_id": "PT_00089",
+            "text": "P7",
+            "bbox": [
+              395.5,
+              231.5,
+              423.0,
+              251.5
+            ],
+            "confidence": 0.99868,
+            "source_text": "P7",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 15.046406245546343
+          },
+          {
+            "token_id": "PT_00087",
+            "text": "P7",
+            "bbox": [
+              395.5,
+              232.0,
+              422.5,
+              251.5
+            ],
+            "confidence": 0.99898,
+            "source_text": "P7",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 15.305406245546342
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00083",
+            "text": "PLL_VDD_OUT",
+            "bbox": [
+              425.0,
+              214.0,
+              548.0,
+              240.0
+            ],
+            "confidence": 0.99964,
+            "source_text": "PLL_VDD_OUT",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 4.122193754453658
+          },
+          {
+            "token_id": "PT_00081",
+            "text": "PLL_VDD_OUT",
+            "bbox": [
+              428.5,
+              215.5,
+              546.0,
+              237.0
+            ],
+            "confidence": 0.99971,
+            "source_text": "PLL_VDD_OUT",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 4.915793754453658
+          },
+          {
+            "token_id": "PT_00080",
+            "text": "PLL_VDD_OUT",
+            "bbox": [
+              427.0,
+              213.0,
+              547.0,
+              239.0
+            ],
+            "confidence": 0.99973,
+            "source_text": "PLL_VDD_OUT",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 5.150393754453658
+          },
+          {
+            "token_id": "PT_00082",
+            "text": "PLL_VDD_OUT",
+            "bbox": [
+              427.5,
+              213.0,
+              546.5,
+              238.5
+            ],
+            "confidence": 0.99971,
+            "source_text": "PLL_VDD_OUT",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 5.400793754453659
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0009",
+      "point": [
+        225.31707367300987,
+        110.70804592967033
+      ],
+      "confidence": 0.9564692974090576,
+      "owner": "C87",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C87",
+          "detection_index": 7,
+          "component_type": "capacitor",
+          "cost_px": 2.2543791859340683,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 9.99504592967034,
+          "eligible_margin_px": 7.765500000000001,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9937009811401367,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00010",
+          "text": "1",
+          "bbox": [
+            226.0,
+            93.0,
+            239.0,
+            110.0
+          ],
+          "confidence": 0.99994,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 7.231346326990127,
+          "global_assignment_margin": 30.76865367300985,
+          "alternatives": [
+            {
+              "token_id": "PT_00010",
+              "text": "1",
+              "bbox": [
+                226.0,
+                93.0,
+                239.0,
+                110.0
+              ],
+              "confidence": 0.99994,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 7.231346326990127
+            },
+            {
+              "token_id": "PT_00011",
+              "text": "1",
+              "bbox": [
+                226.5,
+                93.0,
+                240.5,
+                112.0
+              ],
+              "confidence": 0.99398,
+              "source_text": "1",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 8.410546326990127
+            },
+            {
+              "token_id": "PT_00009",
+              "text": "1",
+              "bbox": [
+                228.0,
+                93.5,
+                239.5,
+                111.5
+              ],
+              "confidence": 0.99996,
+              "source_text": "1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 8.540946326990127
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00010",
+            "text": "1",
+            "bbox": [
+              226.0,
+              93.0,
+              239.0,
+              110.0
+            ],
+            "confidence": 0.99994,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 7.231346326990127
+          },
+          {
+            "token_id": "PT_00011",
+            "text": "1",
+            "bbox": [
+              226.5,
+              93.0,
+              240.5,
+              112.0
+            ],
+            "confidence": 0.99398,
+            "source_text": "1",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 8.410546326990127
+          },
+          {
+            "token_id": "PT_00009",
+            "text": "1",
+            "bbox": [
+              228.0,
+              93.5,
+              239.5,
+              111.5
+            ],
+            "confidence": 0.99996,
+            "source_text": "1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 8.540946326990127
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0010",
+      "point": [
+        414.33539056777954,
+        127.06499596685171
+      ],
+      "confidence": 0.9550088047981262,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 4.424085432220479,
+          "outside_gap_px": 4.192609432220479,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "P9",
+      "pinname": "PLL_1V8",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9580873250961304,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00013",
+          "text": "P9",
+          "bbox": [
+            395.5,
+            106.5,
+            423.0,
+            128.0
+          ],
+          "confidence": 0.99816,
+          "source_text": "P9",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 10.408475966851713,
+          "global_assignment_margin": 27.59152403314829,
+          "alternatives": [
+            {
+              "token_id": "PT_00013",
+              "text": "P9",
+              "bbox": [
+                395.5,
+                106.5,
+                423.0,
+                128.0
+              ],
+              "confidence": 0.99816,
+              "source_text": "P9",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.408475966851713
+            },
+            {
+              "token_id": "PT_00014",
+              "text": "P9",
+              "bbox": [
+                396.5,
+                107.0,
+                422.5,
+                127.0
+              ],
+              "confidence": 0.9981,
+              "source_text": "P9",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.644675966851713
+            },
+            {
+              "token_id": "PT_00012",
+              "text": "P9",
+              "bbox": [
+                394.0,
+                103.0,
+                425.0,
+                128.0
+              ],
+              "confidence": 0.99868,
+              "source_text": "P9",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 12.133075966851713
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00030",
+          "text": "PLL_1V8",
+          "bbox": [
+            428.5,
+            117.0,
+            505.0,
+            137.0
+          ],
+          "confidence": 0.99973,
+          "source_text": "PLL_1V8",
+          "source_view": "tile_359_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 2.96371596685171,
+          "global_assignment_margin": 17.637399999999957,
+          "alternatives": [
+            {
+              "token_id": "PT_00030",
+              "text": "PLL_1V8",
+              "bbox": [
+                428.5,
+                117.0,
+                505.0,
+                137.0
+              ],
+              "confidence": 0.99973,
+              "source_text": "PLL_1V8",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 2.96371596685171
+            },
+            {
+              "token_id": "PT_00031",
+              "text": "PLL_1V8",
+              "bbox": [
+                429.0,
+                117.0,
+                505.0,
+                137.0
+              ],
+              "confidence": 0.99972,
+              "source_text": "PLL_1V8",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 2.978915966851709
+            },
+            {
+              "token_id": "PT_00033",
+              "text": "PLL_1V8",
+              "bbox": [
+                427.5,
+                115.0,
+                506.5,
+                138.5
+              ],
+              "confidence": 0.99954,
+              "source_text": "PLL_1V8",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.2325159668517105
+            },
+            {
+              "token_id": "PT_00029",
+              "text": "PLL_1V8",
+              "bbox": [
+                427.0,
+                116.0,
+                506.0,
+                137.0
+              ],
+              "confidence": 0.99973,
+              "source_text": "PLL_1V8",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.44871596685171
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00013",
+            "text": "P9",
+            "bbox": [
+              395.5,
+              106.5,
+              423.0,
+              128.0
+            ],
+            "confidence": 0.99816,
+            "source_text": "P9",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.408475966851713
+          },
+          {
+            "token_id": "PT_00014",
+            "text": "P9",
+            "bbox": [
+              396.5,
+              107.0,
+              422.5,
+              127.0
+            ],
+            "confidence": 0.9981,
+            "source_text": "P9",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.644675966851713
+          },
+          {
+            "token_id": "PT_00012",
+            "text": "P9",
+            "bbox": [
+              394.0,
+              103.0,
+              425.0,
+              128.0
+            ],
+            "confidence": 0.99868,
+            "source_text": "P9",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 12.133075966851713
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00030",
+            "text": "PLL_1V8",
+            "bbox": [
+              428.5,
+              117.0,
+              505.0,
+              137.0
+            ],
+            "confidence": 0.99973,
+            "source_text": "PLL_1V8",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 2.96371596685171
+          },
+          {
+            "token_id": "PT_00031",
+            "text": "PLL_1V8",
+            "bbox": [
+              429.0,
+              117.0,
+              505.0,
+              137.0
+            ],
+            "confidence": 0.99972,
+            "source_text": "PLL_1V8",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 2.978915966851709
+          },
+          {
+            "token_id": "PT_00033",
+            "text": "PLL_1V8",
+            "bbox": [
+              427.5,
+              115.0,
+              506.5,
+              138.5
+            ],
+            "confidence": 0.99954,
+            "source_text": "PLL_1V8",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.2325159668517105
+          },
+          {
+            "token_id": "PT_00029",
+            "text": "PLL_1V8",
+            "bbox": [
+              427.0,
+              116.0,
+              506.0,
+              137.0
+            ],
+            "confidence": 0.99973,
+            "source_text": "PLL_1V8",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.44871596685171
+          },
+          {
+            "token_id": "PT_00021",
+            "text": "OSC",
+            "bbox": [
+              530.5,
+              103.5,
+              569.5,
+              126.0
+            ],
+            "confidence": 0.98011,
+            "source_text": "OSC",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 20.60111596685171
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "point": [
+        225.4165933728218,
+        143.64413744211197
+      ],
+      "confidence": 0.9527311325073242,
+      "owner": "C87",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C87",
+          "detection_index": 7,
+          "component_type": "capacitor",
+          "cost_px": 2.023142511577607,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.838862557888035,
+          "eligible_margin_px": 7.765500000000001,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "ambiguous_text",
+      "nearby_wire_probability_max": 0.9975390434265137,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00051",
+            "text": "2",
+            "bbox": [
+              225.0,
+              145.0,
+              243.0,
+              166.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 8.764626627178192
+          },
+          {
+            "token_id": "PT_00052",
+            "text": "2",
+            "bbox": [
+              228.0,
+              146.5,
+              242.0,
+              164.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.764826627178193
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0012",
+      "point": [
+        685.0135664464906,
+        152.1671698242426
+      ],
+      "confidence": 0.952480137348175,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.7563627107018898,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 7.624433553509448,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "R8",
+      "pinname": "XTALN",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9732626676559448,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00039",
+          "text": "R8",
+          "bbox": [
+            676.5,
+            132.0,
+            704.5,
+            153.0
+          ],
+          "confidence": 0.99993,
+          "source_text": "R8",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 9.796849824242594,
+          "global_assignment_margin": 28.2031501757574,
+          "alternatives": [
+            {
+              "token_id": "PT_00039",
+              "text": "R8",
+              "bbox": [
+                676.5,
+                132.0,
+                704.5,
+                153.0
+              ],
+              "confidence": 0.99993,
+              "source_text": "R8",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 9.796849824242594
+            },
+            {
+              "token_id": "PT_00040",
+              "text": "R8",
+              "bbox": [
+                674.0,
+                130.0,
+                705.0,
+                154.0
+              ],
+              "confidence": 0.99988,
+              "source_text": "R8",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.357849824242594
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00046",
+          "text": "XTALN",
+          "bbox": [
+            609.5,
+            142.0,
+            670.5,
+            162.5
+          ],
+          "confidence": 0.99993,
+          "source_text": "XTALN",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 3.24251017575741,
+          "global_assignment_margin": 34.7574898242425,
+          "alternatives": [
+            {
+              "token_id": "PT_00046",
+              "text": "XTALN",
+              "bbox": [
+                609.5,
+                142.0,
+                670.5,
+                162.5
+              ],
+              "confidence": 0.99993,
+              "source_text": "XTALN",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.24251017575741
+            },
+            {
+              "token_id": "PT_00048",
+              "text": "XTALN",
+              "bbox": [
+                609.0,
+                141.0,
+                671.0,
+                163.0
+              ],
+              "confidence": 0.99992,
+              "source_text": "XTALN",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.327049824242593
+            },
+            {
+              "token_id": "PT_00047",
+              "text": "XTALN",
+              "bbox": [
+                609.0,
+                139.5,
+                671.5,
+                163.5
+              ],
+              "confidence": 0.99993,
+              "source_text": "XTALN",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.811849824242594
+            },
+            {
+              "token_id": "PT_00049",
+              "text": "XTALN",
+              "bbox": [
+                609.5,
+                141.0,
+                670.5,
+                162.0
+              ],
+              "confidence": 0.99991,
+              "source_text": "XTALN",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 3.8272498242425943
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00039",
+            "text": "R8",
+            "bbox": [
+              676.5,
+              132.0,
+              704.5,
+              153.0
+            ],
+            "confidence": 0.99993,
+            "source_text": "R8",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.796849824242594
+          },
+          {
+            "token_id": "PT_00040",
+            "text": "R8",
+            "bbox": [
+              674.0,
+              130.0,
+              705.0,
+              154.0
+            ],
+            "confidence": 0.99988,
+            "source_text": "R8",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.357849824242594
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00046",
+            "text": "XTALN",
+            "bbox": [
+              609.5,
+              142.0,
+              670.5,
+              162.5
+            ],
+            "confidence": 0.99993,
+            "source_text": "XTALN",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.24251017575741
+          },
+          {
+            "token_id": "PT_00048",
+            "text": "XTALN",
+            "bbox": [
+              609.0,
+              141.0,
+              671.0,
+              163.0
+            ],
+            "confidence": 0.99992,
+            "source_text": "XTALN",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.327049824242593
+          },
+          {
+            "token_id": "PT_00047",
+            "text": "XTALN",
+            "bbox": [
+              609.0,
+              139.5,
+              671.5,
+              163.5
+            ],
+            "confidence": 0.99993,
+            "source_text": "XTALN",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.811849824242594
+          },
+          {
+            "token_id": "PT_00049",
+            "text": "XTALN",
+            "bbox": [
+              609.5,
+              141.0,
+              670.5,
+              162.0
+            ],
+            "confidence": 0.99991,
+            "source_text": "XTALN",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.8272498242425943
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "point": [
+        275.28865098953247,
+        348.50941905379295
+      ],
+      "confidence": 0.9524701833724976,
+      "owner": "C83",
+      "owner_detection_index": 9,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C83",
+          "detection_index": 9,
+          "component_type": "capacitor",
+          "cost_px": 2.735277810758593,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 12.059419053792965,
+          "eligible_margin_px": 8.02965,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9961644411087036,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00137",
+          "text": "1",
+          "bbox": [
+            277.0,
+            330.0,
+            289.0,
+            347.0
+          ],
+          "confidence": 0.99993,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 7.835749010467531,
+          "global_assignment_margin": 30.164250989532434,
+          "alternatives": [
+            {
+              "token_id": "PT_00137",
+              "text": "1",
+              "bbox": [
+                277.0,
+                330.0,
+                289.0,
+                347.0
+              ],
+              "confidence": 0.99993,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 7.835749010467531
+            },
+            {
+              "token_id": "PT_00138",
+              "text": "1",
+              "bbox": [
+                278.0,
+                329.0,
+                289.5,
+                347.0
+              ],
+              "confidence": 0.99981,
+              "source_text": "1",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 8.55814901046753
+            },
+            {
+              "token_id": "PT_00136",
+              "text": "1",
+              "bbox": [
+                277.0,
+                329.5,
+                290.5,
+                348.0
+              ],
+              "confidence": 0.99995,
+              "source_text": "1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 8.600349010467529
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00137",
+            "text": "1",
+            "bbox": [
+              277.0,
+              330.0,
+              289.0,
+              347.0
+            ],
+            "confidence": 0.99993,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 7.835749010467531
+          },
+          {
+            "token_id": "PT_00138",
+            "text": "1",
+            "bbox": [
+              278.0,
+              329.0,
+              289.5,
+              347.0
+            ],
+            "confidence": 0.99981,
+            "source_text": "1",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 8.55814901046753
+          },
+          {
+            "token_id": "PT_00136",
+            "text": "1",
+            "bbox": [
+              277.0,
+              329.5,
+              290.5,
+              348.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 8.600349010467529
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0014",
+      "point": [
+        26.143150866031647,
+        383.2035284936428
+      ],
+      "confidence": 0.9500049352645874,
+      "owner": "C82",
+      "owner_detection_index": 5,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C82",
+          "detection_index": 5,
+          "component_type": "capacitor",
+          "cost_px": 1.3610383012714342,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 5.57147150635717,
+          "eligible_margin_px": 7.858499999999998,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9942889213562012,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00162",
+          "text": "2",
+          "bbox": [
+            28.0,
+            382.0,
+            44.0,
+            401.5
+          ],
+          "confidence": 0.99999,
+          "source_text": "2",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 10.035549133968354,
+          "global_assignment_margin": 27.964450866031655,
+          "alternatives": [
+            {
+              "token_id": "PT_00162",
+              "text": "2",
+              "bbox": [
+                28.0,
+                382.0,
+                44.0,
+                401.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.035549133968354
+            },
+            {
+              "token_id": "PT_00161",
+              "text": "2",
+              "bbox": [
+                26.0,
+                380.0,
+                46.0,
+                404.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.050549133968355
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00162",
+            "text": "2",
+            "bbox": [
+              28.0,
+              382.0,
+              44.0,
+              401.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.035549133968354
+          },
+          {
+            "token_id": "PT_00161",
+            "text": "2",
+            "bbox": [
+              26.0,
+              380.0,
+              46.0,
+              404.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.050549133968355
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0015",
+      "point": [
+        979.2784551382065,
+        152.08762285858393
+      ],
+      "confidence": 0.9493770003318787,
+      "owner": "C86",
+      "owner_detection_index": 10,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C86",
+          "detection_index": 10,
+          "component_type": "capacitor",
+          "cost_px": 2.0259450276412965,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.504455138206481,
+          "eligible_margin_px": 7.102350000000007,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9750736355781555,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00044",
+          "text": "1",
+          "bbox": [
+            961.0,
+            133.0,
+            973.0,
+            152.0
+          ],
+          "confidence": 0.99999,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 9.814262858583927,
+          "global_assignment_margin": 28.18573714141604,
+          "alternatives": [
+            {
+              "token_id": "PT_00044",
+              "text": "1",
+              "bbox": [
+                961.0,
+                133.0,
+                973.0,
+                152.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 9.814262858583927
+            },
+            {
+              "token_id": "PT_00045",
+              "text": "1",
+              "bbox": [
+                960.5,
+                132.5,
+                973.5,
+                152.5
+              ],
+              "confidence": 0.99998,
+              "source_text": "1",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 9.814462858583928
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00044",
+            "text": "1",
+            "bbox": [
+              961.0,
+              133.0,
+              973.0,
+              152.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 9.814262858583927
+          },
+          {
+            "token_id": "PT_00045",
+            "text": "1",
+            "bbox": [
+              960.5,
+              132.5,
+              973.5,
+              152.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "1",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.814462858583928
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0016",
+      "point": [
+        979.1592915952206,
+        301.5674906373024
+      ],
+      "confidence": 0.9491140842437744,
+      "owner": "C74",
+      "owner_detection_index": 0,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C74",
+          "detection_index": 0,
+          "component_type": "capacitor",
+          "cost_px": 2.6608304047794014,
+          "outside_gap_px": 2.4767084047794015,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9478557705879211,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00121",
+          "text": "1",
+          "bbox": [
+            961.0,
+            283.0,
+            973.0,
+            301.0
+          ],
+          "confidence": 0.99993,
+          "source_text": "1",
+          "source_view": "tile_359_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 10.447050637302397,
+          "global_assignment_margin": 27.552949362697575,
+          "alternatives": [
+            {
+              "token_id": "PT_00121",
+              "text": "1",
+              "bbox": [
+                961.0,
+                283.0,
+                973.0,
+                301.0
+              ],
+              "confidence": 0.99993,
+              "source_text": "1",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.447050637302397
+            },
+            {
+              "token_id": "PT_00122",
+              "text": "1",
+              "bbox": [
+                963.0,
+                283.0,
+                972.5,
+                299.5
+              ],
+              "confidence": 0.9955,
+              "source_text": "1",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 11.240650637302394
+            },
+            {
+              "token_id": "PT_00120",
+              "text": "1",
+              "bbox": [
+                961.0,
+                281.0,
+                973.0,
+                300.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 11.945850637302396
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0",
+            "tile_359_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00121",
+            "text": "1",
+            "bbox": [
+              961.0,
+              283.0,
+              973.0,
+              301.0
+            ],
+            "confidence": 0.99993,
+            "source_text": "1",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.447050637302397
+          },
+          {
+            "token_id": "PT_00122",
+            "text": "1",
+            "bbox": [
+              963.0,
+              283.0,
+              972.5,
+              299.5
+            ],
+            "confidence": 0.9955,
+            "source_text": "1",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 11.240650637302394
+          },
+          {
+            "token_id": "PT_00120",
+            "text": "1",
+            "bbox": [
+              961.0,
+              281.0,
+              973.0,
+              300.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 11.945850637302396
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0017",
+      "point": [
+        151.13889060914516,
+        348.8722361922264
+      ],
+      "confidence": 0.9479185342788696,
+      "owner": "C81",
+      "owner_detection_index": 8,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C81",
+          "detection_index": 8,
+          "component_type": "capacitor",
+          "cost_px": 2.9202812384452876,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 13.104236192226438,
+          "eligible_margin_px": 8.051100000000005,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "1",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9931693077087402,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00140",
+          "text": "1",
+          "bbox": [
+            153.5,
+            329.0,
+            165.0,
+            347.0
+          ],
+          "confidence": 0.99908,
+          "source_text": "1",
+          "source_view": "tile_0_0_r90",
+          "approximate_split_geometry": false,
+          "cost": 8.263429390854839,
+          "global_assignment_margin": 29.73657060914519,
+          "alternatives": [
+            {
+              "token_id": "PT_00140",
+              "text": "1",
+              "bbox": [
+                153.5,
+                329.0,
+                165.0,
+                347.0
+              ],
+              "confidence": 0.99908,
+              "source_text": "1",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 8.263429390854839
+            },
+            {
+              "token_id": "PT_00139",
+              "text": "1",
+              "bbox": [
+                153.5,
+                330.0,
+                165.5,
+                347.5
+              ],
+              "confidence": 0.99993,
+              "source_text": "1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 8.541429390854837
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "tile_0_0_r0",
+            "tile_0_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00140",
+            "text": "1",
+            "bbox": [
+              153.5,
+              329.0,
+              165.0,
+              347.0
+            ],
+            "confidence": 0.99908,
+            "source_text": "1",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 8.263429390854839
+          },
+          {
+            "token_id": "PT_00139",
+            "text": "1",
+            "bbox": [
+              153.5,
+              330.0,
+              165.5,
+              347.5
+            ],
+            "confidence": 0.99993,
+            "source_text": "1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 8.541429390854837
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "point": [
+        1018.936428450048,
+        301.5728635787964
+      ],
+      "confidence": 0.9477354288101196,
+      "owner": null,
+      "owner_detection_index": null,
+      "owner_status": "no_component_nearby",
+      "owner_candidates": [],
+      "number": null,
+      "pinname": null,
+      "number_status": "owner_unresolved",
+      "nearby_wire_probability_max": 0.9887067079544067,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "owner_unresolved",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": []
+      }
+    },
+    {
+      "candidate_id": "PIN_CAND_0019",
+      "point": [
+        1018.9013204276562,
+        152.1631847769022
+      ],
+      "confidence": 0.9476598501205444,
+      "owner": "C86",
+      "owner_detection_index": 10,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C86",
+          "detection_index": 10,
+          "component_type": "capacitor",
+          "cost_px": 1.1033744276561264,
+          "outside_gap_px": 0.7783204276561264,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 7.102350000000007,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.979464590549469,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00042",
+          "text": "2",
+          "bbox": [
+            1019.0,
+            132.0,
+            1036.0,
+            153.0
+          ],
+          "confidence": 0.99999,
+          "source_text": "2",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 10.226004776902196,
+          "global_assignment_margin": 27.773995223097813,
+          "alternatives": [
+            {
+              "token_id": "PT_00042",
+              "text": "2",
+              "bbox": [
+                1019.0,
+                132.0,
+                1036.0,
+                153.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.226004776902196
+            },
+            {
+              "token_id": "PT_00041",
+              "text": "2",
+              "bbox": [
+                1020.0,
+                132.0,
+                1035.5,
+                153.0
+              ],
+              "confidence": 1.0,
+              "source_text": "2",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.240804776902197
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00042",
+            "text": "2",
+            "bbox": [
+              1019.0,
+              132.0,
+              1036.0,
+              153.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.226004776902196
+          },
+          {
+            "token_id": "PT_00041",
+            "text": "2",
+            "bbox": [
+              1020.0,
+              132.0,
+              1035.5,
+              153.0
+            ],
+            "confidence": 1.0,
+            "source_text": "2",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.240804776902197
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "point": [
+        684.2036862671375,
+        202.0062392842956
+      ],
+      "confidence": 0.9468439817428589,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.9183387465725013,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.434313732862506,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": "XTALP",
+      "number_status": "ambiguous_text",
+      "nearby_wire_probability_max": 0.9741305112838745,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "pinname": {
+          "token_id": "PT_00068",
+          "text": "XTALP",
+          "bbox": [
+            608.0,
+            190.0,
+            671.0,
+            214.0
+          ],
+          "confidence": 0.99991,
+          "source_text": "XTALP",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 3.1963192842955914,
+          "global_assignment_margin": 34.80368071570433,
+          "alternatives": [
+            {
+              "token_id": "PT_00068",
+              "text": "XTALP",
+              "bbox": [
+                608.0,
+                190.0,
+                671.0,
+                214.0
+              ],
+              "confidence": 0.99991,
+              "source_text": "XTALP",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.1963192842955914
+            },
+            {
+              "token_id": "PT_00065",
+              "text": "XTALP",
+              "bbox": [
+                609.5,
+                191.5,
+                670.0,
+                212.0
+              ],
+              "confidence": 0.99995,
+              "source_text": "XTALP",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.4305192842955905
+            },
+            {
+              "token_id": "PT_00067",
+              "text": "XTALP",
+              "bbox": [
+                609.5,
+                190.0,
+                670.5,
+                212.0
+              ],
+              "confidence": 0.99995,
+              "source_text": "XTALP",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.1655192842955895
+            },
+            {
+              "token_id": "PT_00066",
+              "text": "XTALP",
+              "bbox": [
+                609.0,
+                189.5,
+                671.5,
+                212.0
+              ],
+              "confidence": 0.99995,
+              "source_text": "XTALP",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.400519284295591
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00062",
+            "text": "R9",
+            "bbox": [
+              676.5,
+              182.0,
+              704.5,
+              203.0
+            ],
+            "confidence": 0.99994,
+            "source_text": "R9",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.63571928429559,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00063",
+            "text": "R9",
+            "bbox": [
+              676.5,
+              182.0,
+              703.5,
+              202.5
+            ],
+            "confidence": 0.99994,
+            "source_text": "R9",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.915719284295589,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00060",
+            "text": "6",
+            "bbox": [
+              676.0,
+              181.0,
+              704.0,
+              203.0
+            ],
+            "confidence": 0.98692,
+            "source_text": "6",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 10.42611928429559,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00061",
+            "text": "6",
+            "bbox": [
+              677.0,
+              181.5,
+              703.5,
+              202.0
+            ],
+            "confidence": 0.96143,
+            "source_text": "6",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 11.170919284295591,
+            "status": "conflicting_observed_spelling"
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00068",
+            "text": "XTALP",
+            "bbox": [
+              608.0,
+              190.0,
+              671.0,
+              214.0
+            ],
+            "confidence": 0.99991,
+            "source_text": "XTALP",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.1963192842955914
+          },
+          {
+            "token_id": "PT_00065",
+            "text": "XTALP",
+            "bbox": [
+              609.5,
+              191.5,
+              670.0,
+              212.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "XTALP",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.4305192842955905
+          },
+          {
+            "token_id": "PT_00067",
+            "text": "XTALP",
+            "bbox": [
+              609.5,
+              190.0,
+              670.5,
+              212.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "XTALP",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.1655192842955895
+          },
+          {
+            "token_id": "PT_00066",
+            "text": "XTALP",
+            "bbox": [
+              609.0,
+              189.5,
+              671.5,
+              212.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "XTALP",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.400519284295591
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0021",
+      "point": [
+        1083.4459951519966,
+        326.57701605558395
+      ],
+      "confidence": 0.9455803036689758,
+      "owner": "UNRESOLVED_DET_0004",
+      "owner_detection_index": 3,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0004",
+          "detection_index": 3,
+          "component_type": "gnd",
+          "cost_px": 0.8420332111167897,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 3.046016055583948,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9936023354530334,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0022",
+      "point": [
+        151.67649093270302,
+        383.23248383402824
+      ],
+      "confidence": 0.9449196457862854,
+      "owner": "C81",
+      "owner_detection_index": 8,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C81",
+          "detection_index": 8,
+          "component_type": "capacitor",
+          "cost_px": 1.5413372331943527,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 6.209516165971763,
+          "eligible_margin_px": 8.051100000000005,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9973147511482239,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00164",
+          "text": "2",
+          "bbox": [
+            153.0,
+            382.0,
+            168.0,
+            403.0
+          ],
+          "confidence": 0.99999,
+          "source_text": "2",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 9.00718906729698,
+          "global_assignment_margin": 28.992810932703037,
+          "alternatives": [
+            {
+              "token_id": "PT_00164",
+              "text": "2",
+              "bbox": [
+                153.0,
+                382.0,
+                168.0,
+                403.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 9.00718906729698
+            },
+            {
+              "token_id": "PT_00165",
+              "text": "2",
+              "bbox": [
+                153.5,
+                382.5,
+                168.0,
+                401.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 9.21218906729698
+            },
+            {
+              "token_id": "PT_00166",
+              "text": "2",
+              "bbox": [
+                153.0,
+                381.0,
+                170.0,
+                400.5
+              ],
+              "confidence": 0.9085,
+              "source_text": "2",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 11.73198906729698
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00164",
+            "text": "2",
+            "bbox": [
+              153.0,
+              382.0,
+              168.0,
+              403.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 9.00718906729698
+          },
+          {
+            "token_id": "PT_00165",
+            "text": "2",
+            "bbox": [
+              153.5,
+              382.5,
+              168.0,
+              401.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 9.21218906729698
+          },
+          {
+            "token_id": "PT_00166",
+            "text": "2",
+            "bbox": [
+              153.0,
+              381.0,
+              170.0,
+              400.5
+            ],
+            "confidence": 0.9085,
+            "source_text": "2",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 11.73198906729698
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0023",
+      "point": [
+        26.222853735089302,
+        450.1168683245778
+      ],
+      "confidence": 0.9444798231124878,
+      "owner": "UNRESOLVED_DET_0005",
+      "owner_detection_index": 4,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0005",
+          "detection_index": 4,
+          "component_type": "gnd",
+          "cost_px": 1.046637664915563,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 4.022868324577814,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9976230263710022,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0024",
+      "point": [
+        225.2723255455494,
+        187.69700559973717
+      ],
+      "confidence": 0.9418407082557678,
+      "owner": "UNRESOLVED_DET_0002",
+      "owner_detection_index": 1,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0002",
+          "detection_index": 1,
+          "component_type": "gnd",
+          "cost_px": 0.8731791199474328,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 3.357005599737164,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "text_used_by_other_pin",
+      "nearby_wire_probability_max": 0.9950897693634033,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00051",
+            "text": "2",
+            "bbox": [
+              225.0,
+              145.0,
+              243.0,
+              166.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.458274454450606
+          },
+          {
+            "token_id": "PT_00052",
+            "text": "2",
+            "bbox": [
+              228.0,
+              146.5,
+              242.0,
+              164.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 11.458474454450608
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0025",
+      "point": [
+        276.5670634508133,
+        381.2684647142887
+      ],
+      "confidence": 0.9355792999267578,
+      "owner": "C83",
+      "owner_detection_index": 9,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "C83",
+          "detection_index": 9,
+          "component_type": "capacitor",
+          "cost_px": 2.0659010571422565,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.712535285711283,
+          "eligible_margin_px": 8.02965,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9988890290260315,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00167",
+          "text": "2",
+          "bbox": [
+            277.5,
+            382.5,
+            292.0,
+            401.0
+          ],
+          "confidence": 0.99999,
+          "source_text": "2",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 8.289276549186706,
+          "global_assignment_margin": 29.710723450813305,
+          "alternatives": [
+            {
+              "token_id": "PT_00167",
+              "text": "2",
+              "bbox": [
+                277.5,
+                382.5,
+                292.0,
+                401.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 8.289276549186706
+            },
+            {
+              "token_id": "PT_00168",
+              "text": "2",
+              "bbox": [
+                279.0,
+                383.0,
+                291.0,
+                401.0
+              ],
+              "confidence": 0.99975,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 8.559076549186706
+            },
+            {
+              "token_id": "PT_00169",
+              "text": "2",
+              "bbox": [
+                276.5,
+                380.5,
+                292.5,
+                401.0
+              ],
+              "confidence": 0.95376,
+              "source_text": "2",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 8.903876549186705
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "capacitor",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_0_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00167",
+            "text": "2",
+            "bbox": [
+              277.5,
+              382.5,
+              292.0,
+              401.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 8.289276549186706
+          },
+          {
+            "token_id": "PT_00168",
+            "text": "2",
+            "bbox": [
+              279.0,
+              383.0,
+              291.0,
+              401.0
+            ],
+            "confidence": 0.99975,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 8.559076549186706
+          },
+          {
+            "token_id": "PT_00169",
+            "text": "2",
+            "bbox": [
+              276.5,
+              380.5,
+              292.5,
+              401.0
+            ],
+            "confidence": 0.95376,
+            "source_text": "2",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 8.903876549186705
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0026",
+      "point": [
+        325.56485110521317,
+        451.9598622880876
+      ],
+      "confidence": 0.9343324899673462,
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_detection_index": 6,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0007",
+          "detection_index": 6,
+          "component_type": "gnd",
+          "cost_px": 1.7761464576175219,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 7.644862288087609,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.996039628982544,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0027",
+      "point": [
+        872.1920750290155,
+        239.27931770682335
+      ],
+      "confidence": 0.9106746912002563,
+      "owner": "X2",
+      "owner_detection_index": 12,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "X2",
+          "detection_index": 12,
+          "component_type": "crystal",
+          "cost_px": 1.5639429941968888,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 2.7509249709844426,
+          "eligible_margin_px": 6.5286,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "2",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9942570924758911,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00085",
+          "text": "2",
+          "bbox": [
+            882.0,
+            219.0,
+            900.0,
+            241.0
+          ],
+          "confidence": 0.99998,
+          "source_text": "2",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 10.243137706823351,
+          "global_assignment_margin": 27.756862293176653,
+          "alternatives": [
+            {
+              "token_id": "PT_00085",
+              "text": "2",
+              "bbox": [
+                882.0,
+                219.0,
+                900.0,
+                241.0
+              ],
+              "confidence": 0.99998,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.243137706823351
+            },
+            {
+              "token_id": "PT_00084",
+              "text": "2",
+              "bbox": [
+                883.5,
+                220.0,
+                899.5,
+                239.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "2",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 10.522937706823349
+            },
+            {
+              "token_id": "PT_00086",
+              "text": "2",
+              "bbox": [
+                882.5,
+                218.0,
+                901.5,
+                240.0
+              ],
+              "confidence": 0.99678,
+              "source_text": "2",
+              "source_view": "tile_359_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 11.36713770682335
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "crystal",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0",
+            "tile_359_0_r90"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00085",
+            "text": "2",
+            "bbox": [
+              882.0,
+              219.0,
+              900.0,
+              241.0
+            ],
+            "confidence": 0.99998,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.243137706823351
+          },
+          {
+            "token_id": "PT_00084",
+            "text": "2",
+            "bbox": [
+              883.5,
+              220.0,
+              899.5,
+              239.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 10.522937706823349
+          },
+          {
+            "token_id": "PT_00086",
+            "text": "2",
+            "bbox": [
+              882.5,
+              218.0,
+              901.5,
+              240.0
+            ],
+            "confidence": 0.99678,
+            "source_text": "2",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 11.36713770682335
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0028",
+      "point": [
+        879.6381253302097,
+        215.0042372951284
+      ],
+      "confidence": 0.8812664747238159,
+      "owner": "X2",
+      "owner_detection_index": 12,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "X2",
+          "detection_index": 12,
+          "component_type": "crystal",
+          "cost_px": 5.708883330209749,
+          "outside_gap_px": 4.695125330209748,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 6.5286,
+          "warning": null
+        }
+      ],
+      "number": "4",
+      "pinname": "4",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9639444351196289,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "candidate_PDF_example_number_as_passive_name",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00070",
+          "text": "4",
+          "bbox": [
+            880.0,
+            195.0,
+            898.0,
+            215.0
+          ],
+          "confidence": 0.99989,
+          "source_text": "4",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 10.849857295128409,
+          "global_assignment_margin": 27.150142704871598,
+          "alternatives": [
+            {
+              "token_id": "PT_00070",
+              "text": "4",
+              "bbox": [
+                880.0,
+                195.0,
+                898.0,
+                215.0
+              ],
+              "confidence": 0.99989,
+              "source_text": "4",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 10.849857295128409
+            },
+            {
+              "token_id": "PT_00071",
+              "text": "4",
+              "bbox": [
+                883.0,
+                195.5,
+                897.0,
+                214.0
+              ],
+              "confidence": 0.99981,
+              "source_text": "4",
+              "source_view": "tile_359_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 11.161457295128406
+            }
+          ]
+        },
+        "pinname": {
+          "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+          "example_direct_component_type": "resistor",
+          "predicted_component_type": "crystal",
+          "direct_rule_for_all_passives_in_PDF": false,
+          "official_Golden_verified": false,
+          "observed_number_views": [
+            "global",
+            "tile_359_0_r0"
+          ],
+          "observed_pinname_role_glyph": false,
+          "OCR_recognition_improved": false,
+          "provisional": true
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00070",
+            "text": "4",
+            "bbox": [
+              880.0,
+              195.0,
+              898.0,
+              215.0
+            ],
+            "confidence": 0.99989,
+            "source_text": "4",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 10.849857295128409
+          },
+          {
+            "token_id": "PT_00071",
+            "text": "4",
+            "bbox": [
+              883.0,
+              195.5,
+              897.0,
+              214.0
+            ],
+            "confidence": 0.99981,
+            "source_text": "4",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 11.161457295128406
+          },
+          {
+            "token_id": "PT_00086",
+            "text": "2",
+            "bbox": [
+              882.5,
+              218.0,
+              901.5,
+              240.0
+            ],
+            "confidence": 0.99678,
+            "source_text": "2",
+            "source_view": "tile_359_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.083582704871596
+          },
+          {
+            "token_id": "PT_00084",
+            "text": "2",
+            "bbox": [
+              883.5,
+              220.0,
+              899.5,
+              239.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "2",
+            "source_view": "tile_359_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 15.739382704871595
+          },
+          {
+            "token_id": "PT_00085",
+            "text": "2",
+            "bbox": [
+              882.0,
+              219.0,
+              900.0,
+              241.0
+            ],
+            "confidence": 0.99998,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 15.959582704871597
+          }
+        ],
+        "pinname": []
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0029",
+      "point": [
+        667.0107798008248,
+        102.48757848143578
+      ],
+      "confidence": 0.8152612447738647,
+      "owner": "IC2",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "IC2",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.8661916962871568,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.173578481435783,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9482105374336243,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    }
+  ],
+  "summary": {
+    "candidate_count": 29,
+    "assigned": 28,
+    "status_counts": {
+      "assigned": 28,
+      "no_component_nearby": 1
+    },
+    "all_candidates_preserved": true,
+    "coordinate_changes": 0,
+    "pin_numbers_guessed": 0,
+    "nets_constructed": false
+  },
+  "status": "pin_text_v2_proposals_topology_pending",
+  "input_contract": "model-predicted pin coordinates and component boxes only; no annotations",
+  "traditional_image_segmentation_used": false,
+  "official_score": null,
+  "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+  "association_config_sha256": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+  "pin_text_summary": {
+    "candidate_count": 29,
+    "owned_candidates": 28,
+    "number_observed": 21,
+    "name_observed": 8,
+    "number_and_name_observed": 7,
+    "secondary_tip_hypotheses_text_withheld": 0,
+    "coordinate_changes": 0,
+    "numbers_guessed": 0,
+    "pinname_guesses": 0,
+    "nets_constructed": false,
+    "number_status_counts": {
+      "observed_OCR_text": 21,
+      "ambiguous_text": 2,
+      "owner_unresolved": 1,
+      "no_reliable_text": 4,
+      "text_used_by_other_pin": 1
+    },
+    "name_status_counts": {
+      "no_reliable_text": 20,
+      "observed_OCR_text": 8,
+      "owner_unresolved": 1
+    },
+    "missing_names_added": 0,
+    "component_identity_resolved": 8,
+    "new_header_identities": 0,
+    "new_model_names": 0,
+    "number_available": 21,
+    "number_and_name_available": 7
+  },
+  "ownership_input_sha256": "029692d90f15c0164a75ab5a324876577424e3cc0d3b8fa0c1f0323d73ec9943",
+  "pin_text_config_sha256": "bf63cafd4186dbbcb040dc525e94a0b516c3911d2d99794ec0076854d8b8e18a",
+  "component_text_config_sha256": "f9acb0d7948a4da15a269b5f10624f8a5d0ba70c083b1ff04e3cfbdcf5be43da",
+  "library_pin_summary": {
+    "supported_components": 0,
+    "numbers_added_from_library": 0,
+    "invalid_numbers_withheld": 0,
+    "missing_names_added": 0,
+    "partial_names_completed": 0,
+    "number_observed_OCR_count": 21,
+    "number_available_count": 21,
+    "name_available_count": 8,
+    "number_and_name_available_count": 7,
+    "coordinate_changes": 0,
+    "ownership_changes": 0,
+    "trained": false,
+    "default_pipeline_adopted": false
+  },
+  "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+  "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+  "original_pin_input_sha256": "651bce8a1fbd3d3beebda2fe9a5fffe07ad410b83a8260610b7635867839d3aa",
+  "OCR_input_sha256": "4a61f51b2ea1340ccf98b1c8ad781904bc78738885c588bb8be3c2f416dd22ef",
+  "records_input_sha256": "5e67baec6331aab9b03437bd6292256096b8efb41adbe59ba9f2057dc769e45a",
+  "prediction_only": true,
+  "submission_field_summary": {
+    "new_label_identities": 0,
+    "label_identity_proposals": 0,
+    "single_tip_label_auto_numbers": 0,
+    "observed_number_glyphs_added": 0,
+    "pin_names_guessed": 0,
+    "repeated_label_suffixes_accepted": 0,
+    "coordinate_changes": 0,
+    "identity_withheld_reason_counts": {}
+  },
+  "input_pin_sha256": "38904790fb9ada098a424fbcd9d0b8ec6513524b1884ca470a9003e224708ad8",
+  "input_network_sha256": "e4b2c7351c5fc65dbaff79f0154995ee0e02a01c863ee4861b6b370dd940a863",
+  "input_OCR_sha256": "4a61f51b2ea1340ccf98b1c8ad781904bc78738885c588bb8be3c2f416dd22ef",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501"
+}

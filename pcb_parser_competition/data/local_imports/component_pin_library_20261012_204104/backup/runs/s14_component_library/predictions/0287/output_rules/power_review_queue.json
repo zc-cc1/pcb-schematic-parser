@@ -1,0 +1,43 @@
+{
+  "image_sha256": "5edccdc550d7fe4f6bd66ef748ef535f53206e17683b16941d9557ce22212df5",
+  "size": [
+    425,
+    295
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "83079ca112d2e6d1f6c9439c624820a42e5f8736be0f05af0f9c6ab3dccf2121",
+  "input_network_sha256": "76f9c3b4b37f338f9ae208dbde23e969a987cd03df5600b0bd9ebb4dd594cccb",
+  "input_OCR_sha256": "e696d0668128a0eb3b1213714a1c6539059dd9d64f43c757c97e3b62a2c1d7de",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [],
+  "components": [
+    {
+      "detection_index": 1,
+      "component_id": "UNRESOLVED_DET_0002",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        124.539,
+        267.325,
+        149.078,
+        288.819
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0001"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 1,
+    "power_without_owned_tip": 0,
+    "networks_with_possible_omitted_power_member": 0,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

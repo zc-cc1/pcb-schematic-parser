@@ -1,0 +1,110 @@
+{
+  "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+  "timestamp": "2026-10-16T01:05:30.601218+00:00",
+  "processed_cases": 10,
+  "successful_cases": 10,
+  "failed_cases": 0,
+  "output_format": "sample",
+  "coordinate_origin": "bottom_left_H_minus_y",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "cases": [
+    {
+      "case_id": "1",
+      "input": "/input/1.png",
+      "success": true,
+      "components": 14,
+      "pins": 35,
+      "nets": 0,
+      "seconds": 38.561
+    },
+    {
+      "case_id": "10",
+      "input": "/input/10.png",
+      "success": true,
+      "components": 20,
+      "pins": 10,
+      "nets": 0,
+      "seconds": 40.67
+    },
+    {
+      "case_id": "2",
+      "input": "/input/2.png",
+      "success": true,
+      "components": 12,
+      "pins": 19,
+      "nets": 0,
+      "seconds": 41.432
+    },
+    {
+      "case_id": "3",
+      "input": "/input/3.png",
+      "success": true,
+      "components": 14,
+      "pins": 7,
+      "nets": 0,
+      "seconds": 37.967
+    },
+    {
+      "case_id": "4",
+      "input": "/input/4.png",
+      "success": true,
+      "components": 13,
+      "pins": 10,
+      "nets": 1,
+      "seconds": 36.395
+    },
+    {
+      "case_id": "5",
+      "input": "/input/5.png",
+      "success": true,
+      "components": 11,
+      "pins": 14,
+      "nets": 0,
+      "seconds": 41.371
+    },
+    {
+      "case_id": "6",
+      "input": "/input/6.png",
+      "success": true,
+      "components": 22,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 44.911
+    },
+    {
+      "case_id": "7",
+      "input": "/input/7.png",
+      "success": true,
+      "components": 18,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 37.921
+    },
+    {
+      "case_id": "8",
+      "input": "/input/8.png",
+      "success": true,
+      "components": 11,
+      "pins": 17,
+      "nets": 1,
+      "seconds": 36.924
+    },
+    {
+      "case_id": "9",
+      "input": "/input/9.png",
+      "success": true,
+      "components": 10,
+      "pins": 6,
+      "nets": 0,
+      "seconds": 37.353
+    }
+  ],
+  "device": "cuda:0",
+  "input_cases": 10,
+  "wall_seconds": 395.388
+}

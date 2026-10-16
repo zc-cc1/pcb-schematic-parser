@@ -184,10 +184,6 @@ def network_field_queue(pins, graph, records, coverage):
     cmap = {r['component_id']: r for r in records}
     pending = {p['candidate_id']: p['reasons'] for p in coverage['pending_pins']}
     gaps = {n for g in graph['gap_candidates'] for n in g['network_ids']}
-    export_reasons = defaultdict(set)
-    for row in coverage.get('withheld_networks', []):
-        export_reasons[row['network_id']].update(row['reasons'])
-    exported = set(coverage.get('exported_network_ids', []))
     rows = []
     for net in graph['networks']:
         if len(net['pin_candidate_ids']) < 2:
@@ -208,38 +204,14 @@ def network_field_queue(pins, graph, records, coverage):
             blockers.append('junction_semantics_unresolved')
         if net['network_id'] in gaps:
             blockers.append('suspected_disconnection')
-        # Power proposals and omitted-member gates are real export blockers,
-        # even when physical junction/gap checks happen to be clear.
-        if net.get('power_logical_merge'):
-            export_reasons[net['network_id']].add('power_logical_membership_provisional')
-        reasons = sorted(export_reasons[net['network_id']])
-        non_field_blockers = sorted(set(reasons+blockers)-{
-            'contains_pin_with_unresolved_identity_number_or_name'})
-        tasks = {}
-        for pin in members:
-            for field in pin['missing_fields']:
-                if field == 'component_identity_unresolved' and pin['owner_detection_index'] is not None:
-                    key = f"component:{pin['owner_detection_index']}:identity"
-                else:
-                    key = f"pin:{pin['candidate_id']}:{field}"
-                task = tasks.setdefault(key, {'task_id': key, 'field': field,
-                    'owner_detection_index': pin['owner_detection_index'], 'component_id': pin['component_id'],
-                    'component_type': pin['component_type'], 'affected_candidate_ids': []})
-                task['affected_candidate_ids'].append(pin['candidate_id'])
         counts = Counter(r for p in members for r in p['missing_fields'])
         rows.append({'network_id': net['network_id'], 'flywire': bool(net.get('flywire')),
                      'pin_count': len(members), 'pins_with_missing_fields': sum(bool(p['missing_fields']) for p in members),
                      'missing_field_counts': dict(counts), 'missing_field_total': sum(counts.values()),
                      'topology_blockers': blockers, 'pin_candidates': members,
-                     'export_blockers': reasons, 'non_field_export_blockers': non_field_blockers,
-                     'completion_tasks': list(tasks.values()), 'completion_task_count': len(tasks),
-                     'field_only_candidate': bool(counts) and not non_field_blockers,
-                     'exported': net['network_id'] in exported})
-    rows.sort(key=lambda r: (bool(r['non_field_export_blockers']), r['completion_task_count'],
-                            r['missing_field_total'], r['pin_count'], r['network_id']))
+                     'exported': net['network_id'] in coverage.get('exported_network_ids', [])})
+    rows.sort(key=lambda r: (bool(r['topology_blockers']), r['missing_field_total'], r['pins_with_missing_fields'], r['pin_count'], r['network_id']))
     return {'networks': rows, 'multi_pin_networks': len(rows),
             'topology_clear_but_field_incomplete': sum(not r['topology_blockers'] and r['missing_field_total'] > 0 for r in rows),
-            'field_only_incomplete_networks': sum(r['field_only_candidate'] for r in rows),
-            'non_field_export_blocker_counts': dict(Counter(b for r in rows for b in r['non_field_export_blockers'])),
             'purpose': 'Prioritize missing identity/number/pinname review; topology-clear is not certified correct',
             'official_NetF1': None}

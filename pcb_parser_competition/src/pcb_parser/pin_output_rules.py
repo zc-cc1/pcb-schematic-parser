@@ -21,7 +21,7 @@ def number_views(pin, cfg):
     """Only repeated readings of the same literal, unsplit local number glyph."""
     evidence = pin.get('text_evidence', {}).get('number', {})
     number = pin.get('number')
-    if (pin.get('number_status') not in {'observed_OCR_text','observed_targeted_local_OCR_missing_field_fill'} or evidence.get('text') != number
+    if (pin.get('number_status') != 'observed_OCR_text' or evidence.get('text') != number
             or evidence.get('global_assignment_margin', 0) < cfg['passive_min_assignment_margin']
             or not evidence.get('bbox')):
         return []
@@ -191,25 +191,15 @@ It proposes neither missing pin coordinates nor power network merges.
 def apply_power_export_gate(submission, coverage, guard):
     out, updated = deepcopy(submission), deepcopy(coverage)
     excluded = []
-    blocked_ids = sorted({b['network_id'] for b in guard['blocks']})
-    for network_id in blocked_ids:
+    for network_id in sorted({b['network_id'] for b in guard['blocks']}):
         if network_id in out['nets']:
             del out['nets'][network_id]
             excluded.append(network_id)
-        # Record the gate even if another field already withheld the network.
-        # Otherwise strict triage incorrectly advertises a field-only target.
-        rows = [row for row in updated['withheld_networks'] if row['network_id'] == network_id]
-        if not rows:
-            row = {'network_id': network_id, 'reasons': []}
-            updated['withheld_networks'].append(row)
-            rows = [row]
-        reason = 'detected_power_symbol_near_wire_without_attached_member'
-        if not any(reason in row['reasons'] for row in rows):
-            rows[0]['reasons'].append(reason)
+            updated['withheld_networks'].append({'network_id': network_id,
+                'reasons': ['detected_power_symbol_near_wire_without_attached_member']})
     updated['network_reason_counts'] = dict(Counter(r for n in updated['withheld_networks'] for r in n['reasons']))
     updated.update(exported_nets=len(out['nets']), exported_network_ids=sorted(out['nets']),
                    power_guard_excluded_network_ids=excluded, power_guard_is_heuristic=True)
-    updated['power_guard_blocked_network_ids'] = blocked_ids
     return out, updated
 
 

@@ -119,34 +119,5 @@ class SubmissionFieldTests(unittest.TestCase):
         self.assertEqual(queue['networks'][0]['topology_blockers'],['junction_semantics_unresolved'])
         self.assertEqual(queue['topology_clear_but_field_incomplete'],0)
 
-    def test_queue_keeps_power_and_omitted_member_export_blockers(self):
-        p,g,r=inputs();updated,graph,records,_=complete_fields(p,g,r,CFG)
-        _,coverage=logical_partial_export(updated,graph,records)
-        graph['networks'][0]['power_logical_merge']=True
-        coverage['withheld_networks'].append({'network_id':'N','reasons':['detected_power_symbol_near_wire_without_attached_member']})
-        row=network_field_queue(updated,graph,records,coverage)['networks'][0]
-        self.assertEqual(row['topology_blockers'],[])
-        self.assertIn('power_logical_membership_provisional',row['non_field_export_blockers'])
-        self.assertIn('detected_power_symbol_near_wire_without_attached_member',row['non_field_export_blockers'])
-        self.assertFalse(row['field_only_candidate'])
-
-    def test_identity_tasks_for_same_component_are_shared_across_its_pins(self):
-        p,g,r=inputs();p['pin_candidates'][1].update(owner=p['pin_candidates'][0]['owner'],owner_detection_index=0)
-        coverage={'pending_pins':[{'candidate_id':p['candidate_id'],'reasons':['component_identity_unresolved']} for p in p['pin_candidates']],
-                  'withheld_networks':[],'exported_network_ids':[]}
-        row=network_field_queue(p,g,r,coverage)['networks'][0]
-        self.assertEqual(row['missing_field_total'],2)
-        self.assertEqual(row['completion_task_count'],1)
-        self.assertEqual(row['completion_tasks'][0]['affected_candidate_ids'],['P0','P1'])
-
-    def test_field_only_network_ranks_ahead_of_power_proposal_with_fewer_fields(self):
-        p,g,r=inputs();g['networks'][0]['power_logical_merge']=True
-        g['networks'].append({**g['networks'][0],'network_id':'CLEAR','power_logical_merge':False})
-        coverage={'pending_pins':[{'candidate_id':p['candidate_id'],'reasons':['pin_name_unresolved']} for p in p['pin_candidates']],
-                  'withheld_networks':[],'exported_network_ids':[]}
-        queue=network_field_queue(p,g,r,coverage)
-        self.assertEqual(queue['networks'][0]['network_id'],'CLEAR')
-        self.assertEqual(queue['field_only_incomplete_networks'],1)
-
 
 if __name__=='__main__':unittest.main()

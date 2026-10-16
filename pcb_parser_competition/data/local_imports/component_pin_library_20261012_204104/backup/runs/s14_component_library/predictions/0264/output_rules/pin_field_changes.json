@@ -1,0 +1,242 @@
+{
+  "image_sha256": "a37816e5f8eea79d9e9812e5afadaafc8e2295ec05406d793c367f44a0736536",
+  "size": [
+    1089,
+    581
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "4af4adcb24f2232a2b8852127c20a4c55508530f29d86af2a03b3cf0563755a8",
+  "input_network_sha256": "05a4d26ae6869d2824b3d1c50351b81a8a82712aed2d98d336e23ec2dd8d1289",
+  "input_OCR_sha256": "9c54f3a444f452f774f7f4e671c3bd9590ee2f84f584f776ecd850167c129b20",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "summary": {
+    "ordinary_label_names_added": 0,
+    "candidate_passive_names_added": 0,
+    "candidate_passive_names_by_type": {},
+    "new_observed_number_glyphs": 0,
+    "automatic_two_terminal_numbers": 0,
+    "power_component_identities_invented": 0,
+    "blank_names_filled": 0,
+    "tip_coordinates_changed": 0,
+    "network_members_changed": 0,
+    "recognition_accuracy_gain_claimed": false
+  },
+  "changes": [],
+  "passive_proposals": [
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "owner": "R3",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0010",
+      "owner": "R2",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "owner": "UNRESOLVED_DET_0007",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "component_identity_unresolved",
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0012",
+      "owner": "R2",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "owner": "R3",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0014",
+      "owner": "R1",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "owner": "UNRESOLVED_DET_0004",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "component_identity_unresolved",
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0019",
+      "owner": "UNRESOLVED_DET_0007",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "component_identity_unresolved",
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "owner": "UNRESOLVED_DET_0004",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "component_identity_unresolved",
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    },
+    {
+      "candidate_id": "PIN_CAND_0023",
+      "owner": "R1",
+      "number": null,
+      "proposed_pinname": null,
+      "accepted_in_candidate_profile": false,
+      "withheld_reasons": [
+        "number_not_in_supported_literal_pin_range",
+        "insufficient_local_number_glyph_evidence"
+      ],
+      "source": "PDF_0803Rev1_page25_R1_pinname_number_example_extension",
+      "example_direct_component_type": "resistor",
+      "predicted_component_type": "resistor",
+      "direct_rule_for_all_passives_in_PDF": false,
+      "official_Golden_verified": false,
+      "observed_number_views": [],
+      "observed_pinname_role_glyph": false,
+      "OCR_recognition_improved": false,
+      "provisional": true
+    }
+  ],
+  "prior_fields": {
+    "new_label_identities": 0,
+    "label_identity_proposals": 0,
+    "single_tip_label_auto_numbers": 0,
+    "observed_number_glyphs_added": 0,
+    "pin_names_guessed": 0,
+    "repeated_label_suffixes_accepted": 0,
+    "coordinate_changes": 0,
+    "identity_withheld_reason_counts": {}
+  }
+}

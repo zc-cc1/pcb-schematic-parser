@@ -351,29 +351,9 @@ def bind_components(detections, texts, width, height, cfg):
     bindings = {i: {"designator": selected[i, j], "designator_score": score, "designator_assignment_margin": stability}
                 for i, (j, score, stability) in assignments.items()}
 
-    led_reference_fragments = {}
     for field in ("value", "Name"):
         candidates = [t for t in tokens if t["role"] in ({"capacitance", "inductance", "resistance", "frequency", "numeric"}
                                                         if field == "value" else {"model_candidate"})]
-        if field == "Name":
-            model_candidates = []
-            for token in candidates:
-                owners = [i for i, binding in bindings.items()
-                          if types[i] == 'led' and 'designator' in binding
-                          and binding['designator']['confidence'] >= .95
-                          and re.fullmatch(r'LED\d+', binding['designator']['text'], re.I)
-                          and token['text'].upper() == binding['designator']['text'][1:].upper()
-                          and iou(token['bbox'], binding['designator']['bbox']) >= .45]
-                if owners:
-                    for i in owners:
-                        led_reference_fragments.setdefault(i, []).append(token)
-                        details.append({'field':'Name','detection_index':i,
-                                        'reason':'truncated_LED_reference_is_not_separate_model',
-                                        'fragment':token['text'],'observed_reference':bindings[i]['designator']['text'],
-                                        'fragment_bbox':token['bbox']})
-                else:
-                    model_candidates.append(token)
-            candidates = model_candidates
         field_groups = []
         for token in candidates:
             for group in field_groups:
@@ -462,15 +442,6 @@ def bind_components(detections, texts, width, height, cfg):
         for i, (j, score, stability) in fields.items():
             bindings.setdefault(i,{})[field], bindings[i][field+"_score"] = field_selected[i,j], score
             bindings[i][field+"_assignment_margin"] = stability
-
-    for i, fragments in led_reference_fragments.items():
-        if 'Name' not in bindings[i]:
-            # The full spelling was actually observed and bound as this part's
-            # designator; do not add letters to an isolated ED1 observation.
-            bindings[i]['Name'] = {**bindings[i]['designator'],
-                                   'name_source':'observed_full_LED_reference_same_glyph'}
-            bindings[i]['Name_recovery'] = {'reason':'same_glyph_fragment_replaced_by_observed_full_reference',
-                                            'rejected_fragments':[t['text'] for t in fragments]}
 
     output = {"components": {}, "pins": {}, "nets": {}}
     records = []

@@ -1,0 +1,40 @@
+{
+  "scope": "assistant visual observations only; not official Golden, training labels or metric overrides",
+  "reviews": [
+    {
+      "case_id": "0002",
+      "candidate_id": "PIN_CAND_0030",
+      "visually_reviewed": true,
+      "decision": "keep_proposal_tip_definition_unverified",
+      "notes": "Peak lies on left side of the +1V8 symbol dot/bar. The actual canonical connection tip and <=5px tolerance remain unverified; do not certify this as a recovered power pin."
+    },
+    {
+      "case_id": "0026",
+      "candidate_id": "PIN_CAND_0081",
+      "visually_reviewed": true,
+      "decision": "plausible_terminal_location",
+      "notes": "Added lower resistor terminal agrees with the visible symbol end and draft match. Number/name remain unknown."
+    },
+    {
+      "case_id": "0148",
+      "candidate_id": "PIN_CAND_0074",
+      "visually_reviewed": true,
+      "decision": "plausible_terminal_location",
+      "notes": "Added lower R32 terminal is plausible and matches the draft owner/location."
+    },
+    {
+      "case_id": "0148",
+      "candidate_id": "PIN_CAND_0075",
+      "visually_reviewed": true,
+      "decision": "upstream_component_type_mismatch",
+      "notes": "Local symbol is F2 fuse. Frozen detector calls it resistor. Terminal looks plausible, but component classification/owner matching prevents a valid joint match; no class was rewritten."
+    },
+    {
+      "case_id": "0149",
+      "candidate_id": "PIN_CAND_0031",
+      "visually_reviewed": true,
+      "decision": "plausible_terminal_location",
+      "notes": "Added R8 right terminal matches visible wire-to-symbol location and draft. No number inferred."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "image_sha256": "c5c8a75d2b5a7647cfe2796a78a9fc1c0588b4af2f86d63d0938fe1330d98d1e",
+  "size": [
+    1420,
+    961
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "837beeb657b989e39b7b7b5b1a89c06b591a535b814293199d6e0d482ee95566",
+  "input_network_sha256": "f547b90ff9b369de17d083137155e0300f41b5e2ea655788144e6f246af5c95b",
+  "input_OCR_sha256": "4c038e25f09db45c11ba4ed0a0d2f86fb41a97cae71ccbf0fba0d3941ceb5345",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [],
+  "components": [
+    {
+      "detection_index": 12,
+      "component_id": "UNRESOLVED_DET_0013",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        237.672,
+        513.266,
+        260.605,
+        535.411
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0009"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 14,
+      "component_id": "UNRESOLVED_DET_0015",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1387.551,
+        287.43,
+        1409.99,
+        310.207
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0003"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 15,
+      "component_id": "UNRESOLVED_DET_0016",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        237.752,
+        344.227,
+        260.948,
+        366.617
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0002"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 18,
+      "component_id": "UNRESOLVED_DET_0019",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        859.83,
+        512.824,
+        881.742,
+        535.526
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0017"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 4,
+    "power_without_owned_tip": 0,
+    "networks_with_possible_omitted_power_member": 0,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

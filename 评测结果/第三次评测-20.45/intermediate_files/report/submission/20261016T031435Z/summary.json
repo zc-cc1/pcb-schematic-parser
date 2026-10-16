@@ -1,0 +1,101 @@
+{
+  "timestamp_utc": "2026-10-16T03:18:28.163697+00:00",
+  "cases_scored": 10,
+  "cases_skipped": 0,
+  "threshold_px": 20.0,
+  "weights": {
+    "component_f1": 0.3,
+    "pin_f1": 0.25,
+    "connectivity_f1": 0.35,
+    "wire_f1": 0.1
+  },
+  "macro_avg": {
+    "component_f1": 0.04989,
+    "pin_f1": 0.692889,
+    "connectivity_f1": 0.042857,
+    "wire_f1": 0.013016,
+    "final_score": 20.449074
+  },
+  "cases": [
+    {
+      "case": "1",
+      "component_f1": 0.0,
+      "pin_f1": 0.938776,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 23.4694
+    },
+    {
+      "case": "10",
+      "component_f1": 0.122449,
+      "pin_f1": 0.5,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 16.17347
+    },
+    {
+      "case": "2",
+      "component_f1": 0.0,
+      "pin_f1": 0.608696,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 15.2174
+    },
+    {
+      "case": "3",
+      "component_f1": 0.1,
+      "pin_f1": 0.666667,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 19.666675
+    },
+    {
+      "case": "4",
+      "component_f1": 0.108108,
+      "pin_f1": 0.555556,
+      "connectivity_f1": 0.285714,
+      "wire_f1": 0.063492,
+      "final_score": 27.76705
+    },
+    {
+      "case": "5",
+      "component_f1": 0.054054,
+      "pin_f1": 0.615385,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 17.006245
+    },
+    {
+      "case": "6",
+      "component_f1": 0.066667,
+      "pin_f1": 0.666667,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 18.666685
+    },
+    {
+      "case": "7",
+      "component_f1": 0.047619,
+      "pin_f1": 0.857143,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 22.857145
+    },
+    {
+      "case": "8",
+      "component_f1": 0.0,
+      "pin_f1": 0.72,
+      "connectivity_f1": 0.142857,
+      "wire_f1": 0.066667,
+      "final_score": 23.666665
+    },
+    {
+      "case": "9",
+      "component_f1": 0.0,
+      "pin_f1": 0.8,
+      "connectivity_f1": 0.0,
+      "wire_f1": 0.0,
+      "final_score": 20.0
+    }
+  ]
+}

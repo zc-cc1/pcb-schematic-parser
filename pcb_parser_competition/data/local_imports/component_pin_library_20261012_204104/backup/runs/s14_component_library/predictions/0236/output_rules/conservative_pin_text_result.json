@@ -1,0 +1,2776 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    1008,
+    658
+  ],
+  "components": [
+    {
+      "component_id": "UNRESOLVED_DET_0001",
+      "detection_index": 0,
+      "class_name": "resistor",
+      "type": "resistor",
+      "bbox_top_left": [
+        296.734,
+        133.088,
+        331.457,
+        208.984
+      ],
+      "confidence": 0.932752,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0002",
+      "detection_index": 1,
+      "class_name": "resistor",
+      "type": "resistor",
+      "bbox_top_left": [
+        349.648,
+        132.925,
+        384.779,
+        209.143
+      ],
+      "confidence": 0.91053,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0003",
+      "detection_index": 2,
+      "class_name": "ic",
+      "type": "ic",
+      "bbox_top_left": [
+        437.03,
+        297.183,
+        730.197,
+        610.083
+      ],
+      "confidence": 0.905468,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0004",
+      "detection_index": 3,
+      "class_name": "resistor",
+      "type": "resistor",
+      "bbox_top_left": [
+        239.519,
+        133.602,
+        274.587,
+        209.751
+      ],
+      "confidence": 0.888781,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0005",
+      "detection_index": 4,
+      "class_name": "capacitor",
+      "type": "capacitor",
+      "bbox_top_left": [
+        833.562,
+        107.964,
+        886.986,
+        153.261
+      ],
+      "confidence": 0.862002,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0006",
+      "detection_index": 5,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        372.904,
+        474.898,
+        421.907,
+        509.62
+      ],
+      "confidence": 0.855416,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0007",
+      "detection_index": 6,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        747.018,
+        543.582,
+        796.065,
+        579.864
+      ],
+      "confidence": 0.842209,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0008",
+      "detection_index": 7,
+      "class_name": "ic",
+      "type": "ic",
+      "bbox_top_left": [
+        0.66,
+        120.164,
+        187.576,
+        656.138
+      ],
+      "confidence": 0.83046,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0009",
+      "detection_index": 8,
+      "class_name": "ground",
+      "type": "gnd",
+      "bbox_top_left": [
+        839.258,
+        178.052,
+        881.155,
+        209.84
+      ],
+      "confidence": 0.815997,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "detection_index": 9,
+      "class_name": "ic",
+      "type": "ic",
+      "bbox_top_left": [
+        794.84,
+        3.472,
+        821.217,
+        40.431
+      ],
+      "confidence": 0.763535,
+      "designator": null,
+      "identity_status": "unresolved_detection_id"
+    }
+  ],
+  "pin_candidates": [
+    {
+      "candidate_id": "PIN_CAND_0001",
+      "point": [
+        445.61810916662216,
+        393.2141905874014
+      ],
+      "confidence": 0.9737711548805237,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.9066858333244379,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.58810916662219,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "1",
+      "pinname": "SCL",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9903152585029602,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00060",
+          "text": "1",
+          "bbox": [
+            430.0,
+            368.0,
+            445.0,
+            388.0
+          ],
+          "confidence": 0.99984,
+          "source_text": "1",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 15.245590587401393,
+          "global_assignment_margin": 22.75440941259876,
+          "alternatives": [
+            {
+              "token_id": "PT_00060",
+              "text": "1",
+              "bbox": [
+                430.0,
+                368.0,
+                445.0,
+                388.0
+              ],
+              "confidence": 0.99984,
+              "source_text": "1",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 15.245590587401393
+            },
+            {
+              "token_id": "PT_00059",
+              "text": "1",
+              "bbox": [
+                432.0,
+                369.0,
+                443.5,
+                387.0
+              ],
+              "confidence": 0.99993,
+              "source_text": "1",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 15.258790587401393
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00070",
+          "text": "SCL",
+          "bbox": [
+            461.5,
+            380.0,
+            507.5,
+            405.5
+          ],
+          "confidence": 0.99986,
+          "source_text": "SCL",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 3.3151905874013923,
+          "global_assignment_margin": 34.684809412598725,
+          "alternatives": [
+            {
+              "token_id": "PT_00070",
+              "text": "SCL",
+              "bbox": [
+                461.5,
+                380.0,
+                507.5,
+                405.5
+              ],
+              "confidence": 0.99986,
+              "source_text": "SCL",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.3151905874013923
+            },
+            {
+              "token_id": "PT_00069",
+              "text": "SCL",
+              "bbox": [
+                462.0,
+                380.5,
+                507.5,
+                404.5
+              ],
+              "confidence": 0.99988,
+              "source_text": "SCL",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.579790587401392
+            },
+            {
+              "token_id": "PT_00068",
+              "text": "SCL",
+              "bbox": [
+                462.0,
+                380.0,
+                509.0,
+                405.0
+              ],
+              "confidence": 0.99989,
+              "source_text": "SCL",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.624590587401393
+            },
+            {
+              "token_id": "PT_00067",
+              "text": "SCL",
+              "bbox": [
+                462.5,
+                378.5,
+                508.5,
+                405.0
+              ],
+              "confidence": 0.99994,
+              "source_text": "SCL",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.373590587401391
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00060",
+            "text": "1",
+            "bbox": [
+              430.0,
+              368.0,
+              445.0,
+              388.0
+            ],
+            "confidence": 0.99984,
+            "source_text": "1",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 15.245590587401393
+          },
+          {
+            "token_id": "PT_00059",
+            "text": "1",
+            "bbox": [
+              432.0,
+              369.0,
+              443.5,
+              387.0
+            ],
+            "confidence": 0.99993,
+            "source_text": "1",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 15.258790587401393
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00070",
+            "text": "SCL",
+            "bbox": [
+              461.5,
+              380.0,
+              507.5,
+              405.5
+            ],
+            "confidence": 0.99986,
+            "source_text": "SCL",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.3151905874013923
+          },
+          {
+            "token_id": "PT_00069",
+            "text": "SCL",
+            "bbox": [
+              462.0,
+              380.5,
+              507.5,
+              404.5
+            ],
+            "confidence": 0.99988,
+            "source_text": "SCL",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.579790587401392
+          },
+          {
+            "token_id": "PT_00068",
+            "text": "SCL",
+            "bbox": [
+              462.0,
+              380.0,
+              509.0,
+              405.0
+            ],
+            "confidence": 0.99989,
+            "source_text": "SCL",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.624590587401393
+          },
+          {
+            "token_id": "PT_00067",
+            "text": "SCL",
+            "bbox": [
+              462.5,
+              378.5,
+              508.5,
+              405.0
+            ],
+            "confidence": 0.99994,
+            "source_text": "SCL",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.373590587401391
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0002",
+      "point": [
+        808.346777766943,
+        26.77197825908661
+      ],
+      "confidence": 0.9730795621871948,
+      "owner": null,
+      "owner_detection_index": null,
+      "owner_status": "deep_inside_large_component",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0010",
+          "detection_index": 9,
+          "component_type": "ic",
+          "cost_px": 3.0469744466114017,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 12.870222233057007,
+          "eligible_margin_px": 6.0,
+          "warning": "deep_inside_large_component"
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "owner_unresolved",
+      "nearby_wire_probability_max": 0.998508632183075,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "owner_unresolved",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": []
+      }
+    },
+    {
+      "candidate_id": "PIN_CAND_0003",
+      "point": [
+        367.4224254488945,
+        206.96378945186734
+      ],
+      "confidence": 0.9723905324935913,
+      "owner": "UNRESOLVED_DET_0002",
+      "owner_detection_index": 1,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0002",
+          "detection_index": 1,
+          "component_type": "resistor",
+          "cost_px": 0.6147821096265318,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 2.1792105481326587,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9972537755966187,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0004",
+      "point": [
+        257.4800960421562,
+        206.8777084723115
+      ],
+      "confidence": 0.9666867852210999,
+      "owner": "UNRESOLVED_DET_0004",
+      "owner_detection_index": 3,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0004",
+          "detection_index": 3,
+          "component_type": "resistor",
+          "cost_px": 0.7970963055377015,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 2.873291527688508,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9971216917037964,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0005",
+      "point": [
+        314.46569642424583,
+        206.7993744313717
+      ],
+      "confidence": 0.9642031192779541,
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_detection_index": 0,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0001",
+          "detection_index": 0,
+          "component_type": "resistor",
+          "cost_px": 0.571421113725664,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 2.18462556862832,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.99741530418396,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0006",
+      "point": [
+        257.2468112707138,
+        134.71481850743294
+      ],
+      "confidence": 0.9581742882728577,
+      "owner": "UNRESOLVED_DET_0004",
+      "owner_detection_index": 3,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0004",
+          "detection_index": 3,
+          "component_type": "resistor",
+          "cost_px": 0.4450017014865867,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 1.1128185074329338,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9948189854621887,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "point": [
+        367.5069040954113,
+        134.73983231186867
+      ],
+      "confidence": 0.956402599811554,
+      "owner": "UNRESOLVED_DET_0002",
+      "owner_detection_index": 1,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0002",
+          "detection_index": 1,
+          "component_type": "resistor",
+          "cost_px": 0.5419064623737313,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 1.8148323118686562,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9960622191429138,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0008",
+      "point": [
+        445.020344896242,
+        533.8339892178774
+      ],
+      "confidence": 0.9555748701095581,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.7871329792484099,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 7.99034489624205,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "3",
+      "pinname": "ALERT",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9895172119140625,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00093",
+          "text": "3",
+          "bbox": [
+            428.0,
+            508.5,
+            447.0,
+            530.0
+          ],
+          "confidence": 0.99997,
+          "source_text": "3",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 14.612789217877388,
+          "global_assignment_margin": 23.38721078212268,
+          "alternatives": [
+            {
+              "token_id": "PT_00093",
+              "text": "3",
+              "bbox": [
+                428.0,
+                508.5,
+                447.0,
+                530.0
+              ],
+              "confidence": 0.99997,
+              "source_text": "3",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 14.612789217877388
+            },
+            {
+              "token_id": "PT_00094",
+              "text": "3",
+              "bbox": [
+                427.0,
+                507.0,
+                447.0,
+                531.0
+              ],
+              "confidence": 0.99995,
+              "source_text": "3",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 14.836789217877385
+            },
+            {
+              "token_id": "PT_00096",
+              "text": "3",
+              "bbox": [
+                429.5,
+                508.0,
+                446.0,
+                529.0
+              ],
+              "confidence": 0.99961,
+              "source_text": "3",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 15.38498921787739
+            },
+            {
+              "token_id": "PT_00095",
+              "text": "3",
+              "bbox": [
+                429.0,
+                507.5,
+                447.0,
+                529.5
+              ],
+              "confidence": 0.99963,
+              "source_text": "3",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 15.399589217877388
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00102",
+          "text": "ALERT",
+          "bbox": [
+            462.0,
+            521.0,
+            533.0,
+            545.0
+          ],
+          "confidence": 0.99999,
+          "source_text": "ALERT",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 4.462389217877389,
+          "global_assignment_margin": 33.53761078212278,
+          "alternatives": [
+            {
+              "token_id": "PT_00102",
+              "text": "ALERT",
+              "bbox": [
+                462.0,
+                521.0,
+                533.0,
+                545.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "ALERT",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 4.462389217877389
+            },
+            {
+              "token_id": "PT_00103",
+              "text": "ALERT",
+              "bbox": [
+                463.5,
+                521.5,
+                531.5,
+                544.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "ALERT",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 4.712389217877389
+            },
+            {
+              "token_id": "PT_00105",
+              "text": "ALERT",
+              "bbox": [
+                462.5,
+                518.5,
+                532.5,
+                546.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "ALERT",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.962389217877389
+            },
+            {
+              "token_id": "PT_00104",
+              "text": "ALERT",
+              "bbox": [
+                462.5,
+                518.5,
+                533.0,
+                546.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "ALERT",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.9773892178773895
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00093",
+            "text": "3",
+            "bbox": [
+              428.0,
+              508.5,
+              447.0,
+              530.0
+            ],
+            "confidence": 0.99997,
+            "source_text": "3",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 14.612789217877388
+          },
+          {
+            "token_id": "PT_00094",
+            "text": "3",
+            "bbox": [
+              427.0,
+              507.0,
+              447.0,
+              531.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "3",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 14.836789217877385
+          },
+          {
+            "token_id": "PT_00096",
+            "text": "3",
+            "bbox": [
+              429.5,
+              508.0,
+              446.0,
+              529.0
+            ],
+            "confidence": 0.99961,
+            "source_text": "3",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.38498921787739
+          },
+          {
+            "token_id": "PT_00095",
+            "text": "3",
+            "bbox": [
+              429.0,
+              507.5,
+              447.0,
+              529.5
+            ],
+            "confidence": 0.99963,
+            "source_text": "3",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.399589217877388
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00102",
+            "text": "ALERT",
+            "bbox": [
+              462.0,
+              521.0,
+              533.0,
+              545.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "ALERT",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 4.462389217877389
+          },
+          {
+            "token_id": "PT_00103",
+            "text": "ALERT",
+            "bbox": [
+              463.5,
+              521.5,
+              531.5,
+              544.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "ALERT",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 4.712389217877389
+          },
+          {
+            "token_id": "PT_00105",
+            "text": "ALERT",
+            "bbox": [
+              462.5,
+              518.5,
+              532.5,
+              546.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "ALERT",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.962389217877389
+          },
+          {
+            "token_id": "PT_00104",
+            "text": "ALERT",
+            "bbox": [
+              462.5,
+              518.5,
+              533.0,
+              546.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "ALERT",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.9773892178773895
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0009",
+      "point": [
+        314.44112354516983,
+        134.94488817825913
+      ],
+      "confidence": 0.9489815831184387,
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_detection_index": 0,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0001",
+          "detection_index": 0,
+          "component_type": "resistor",
+          "cost_px": 0.5058736356518281,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 1.8568881782591404,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9967484474182129,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0010",
+      "point": [
+        444.5344813466072,
+        463.3267448246479
+      ],
+      "confidence": 0.9449895620346069,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.689960269321447,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 7.5044813466072355,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "2",
+      "pinname": "GND",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9564200043678284,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00082",
+          "text": "2",
+          "bbox": [
+            428.5,
+            437.5,
+            447.0,
+            459.5
+          ],
+          "confidence": 0.99997,
+          "source_text": "2",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 14.870544824647904,
+          "global_assignment_margin": 23.129455175352177,
+          "alternatives": [
+            {
+              "token_id": "PT_00082",
+              "text": "2",
+              "bbox": [
+                428.5,
+                437.5,
+                447.0,
+                459.5
+              ],
+              "confidence": 0.99997,
+              "source_text": "2",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 14.870544824647904
+            },
+            {
+              "token_id": "PT_00085",
+              "text": "2",
+              "bbox": [
+                427.0,
+                436.0,
+                448.0,
+                460.0
+              ],
+              "confidence": 0.99993,
+              "source_text": "2",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 15.356344824647906
+            },
+            {
+              "token_id": "PT_00084",
+              "text": "2",
+              "bbox": [
+                428.5,
+                436.5,
+                447.0,
+                459.0
+              ],
+              "confidence": 0.99997,
+              "source_text": "2",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 15.620544824647904
+            },
+            {
+              "token_id": "PT_00083",
+              "text": "2",
+              "bbox": [
+                428.5,
+                436.5,
+                447.5,
+                459.0
+              ],
+              "confidence": 0.99997,
+              "source_text": "2",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 15.635544824647905
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00091",
+          "text": "GND",
+          "bbox": [
+            463.0,
+            450.0,
+            513.0,
+            476.0
+          ],
+          "confidence": 0.99632,
+          "source_text": "GND",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 3.4585448246479054,
+          "global_assignment_margin": 34.54145517535221,
+          "alternatives": [
+            {
+              "token_id": "PT_00091",
+              "text": "GND",
+              "bbox": [
+                463.0,
+                450.0,
+                513.0,
+                476.0
+              ],
+              "confidence": 0.99632,
+              "source_text": "GND",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.4585448246479054
+            },
+            {
+              "token_id": "PT_00089",
+              "text": "GND",
+              "bbox": [
+                463.5,
+                451.0,
+                512.5,
+                474.5
+              ],
+              "confidence": 0.99995,
+              "source_text": "GND",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.635944824647905
+            },
+            {
+              "token_id": "PT_00090",
+              "text": "GND",
+              "bbox": [
+                463.0,
+                449.0,
+                513.5,
+                475.0
+              ],
+              "confidence": 0.99994,
+              "source_text": "GND",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.401144824647904
+            },
+            {
+              "token_id": "PT_00092",
+              "text": "GND",
+              "bbox": [
+                462.0,
+                447.5,
+                513.5,
+                476.5
+              ],
+              "confidence": 0.86499,
+              "source_text": "GND",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 7.070144824647905
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00082",
+            "text": "2",
+            "bbox": [
+              428.5,
+              437.5,
+              447.0,
+              459.5
+            ],
+            "confidence": 0.99997,
+            "source_text": "2",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 14.870544824647904
+          },
+          {
+            "token_id": "PT_00085",
+            "text": "2",
+            "bbox": [
+              427.0,
+              436.0,
+              448.0,
+              460.0
+            ],
+            "confidence": 0.99993,
+            "source_text": "2",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 15.356344824647906
+          },
+          {
+            "token_id": "PT_00084",
+            "text": "2",
+            "bbox": [
+              428.5,
+              436.5,
+              447.0,
+              459.0
+            ],
+            "confidence": 0.99997,
+            "source_text": "2",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.620544824647904
+          },
+          {
+            "token_id": "PT_00083",
+            "text": "2",
+            "bbox": [
+              428.5,
+              436.5,
+              447.5,
+              459.0
+            ],
+            "confidence": 0.99997,
+            "source_text": "2",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.635544824647905
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00091",
+            "text": "GND",
+            "bbox": [
+              463.0,
+              450.0,
+              513.0,
+              476.0
+            ],
+            "confidence": 0.99632,
+            "source_text": "GND",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.4585448246479054
+          },
+          {
+            "token_id": "PT_00089",
+            "text": "GND",
+            "bbox": [
+              463.5,
+              451.0,
+              512.5,
+              474.5
+            ],
+            "confidence": 0.99995,
+            "source_text": "GND",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.635944824647905
+          },
+          {
+            "token_id": "PT_00090",
+            "text": "GND",
+            "bbox": [
+              463.0,
+              449.0,
+              513.5,
+              475.0
+            ],
+            "confidence": 0.99994,
+            "source_text": "GND",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.401144824647904
+          },
+          {
+            "token_id": "PT_00092",
+            "text": "GND",
+            "bbox": [
+              462.0,
+              447.5,
+              513.5,
+              476.5
+            ],
+            "confidence": 0.86499,
+            "source_text": "GND",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 7.070144824647905
+          }
+        ]
+      },
+      "text_side": "left"
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "point": [
+        771.6182051301003,
+        550.39312723279
+      ],
+      "confidence": 0.9401828050613403,
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_detection_index": 6,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0007",
+          "detection_index": 6,
+          "component_type": "gnd",
+          "cost_px": 1.677807446558,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 6.81112723279,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9989797472953796,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0012",
+      "point": [
+        859.8301654011011,
+        180.7726742774248
+      ],
+      "confidence": 0.9371792078018188,
+      "owner": "UNRESOLVED_DET_0009",
+      "owner_detection_index": 8,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0009",
+          "detection_index": 8,
+          "component_type": "gnd",
+          "cost_px": 0.912140855484964,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 2.72067427742482,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9972203969955444,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "point": [
+        859.7718041688204,
+        109.96366663277149
+      ],
+      "confidence": 0.9308115243911743,
+      "owner": "UNRESOLVED_DET_0005",
+      "owner_detection_index": 4,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0005",
+          "detection_index": 4,
+          "component_type": "capacitor",
+          "cost_px": 0.6759293265542986,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 1.9996666327714934,
+          "eligible_margin_px": 6.794549999999999,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.995122492313385,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0014",
+      "point": [
+        729.9810832440853,
+        533.4514322578907
+      ],
+      "confidence": 0.921819806098938,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 0.23224735118293807,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.21591675591469084,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "4",
+      "pinname": "ADD0",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9736119508743286,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00098",
+          "text": "4",
+          "bbox": [
+            728.5,
+            509.0,
+            745.5,
+            529.5
+          ],
+          "confidence": 0.99999,
+          "source_text": "4",
+          "source_view": "tile_240_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 14.6098122578907,
+          "global_assignment_margin": 23.390187742109333,
+          "alternatives": [
+            {
+              "token_id": "PT_00098",
+              "text": "4",
+              "bbox": [
+                728.5,
+                509.0,
+                745.5,
+                529.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "4",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 14.6098122578907
+            },
+            {
+              "token_id": "PT_00097",
+              "text": "4",
+              "bbox": [
+                728.0,
+                508.5,
+                746.5,
+                530.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "4",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 14.624812257890701
+            },
+            {
+              "token_id": "PT_00099",
+              "text": "4",
+              "bbox": [
+                726.0,
+                507.0,
+                747.0,
+                531.0
+              ],
+              "confidence": 0.99997,
+              "source_text": "4",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 14.8302122578907
+            },
+            {
+              "token_id": "PT_00100",
+              "text": "4",
+              "bbox": [
+                729.0,
+                508.5,
+                745.0,
+                528.0
+              ],
+              "confidence": 0.99989,
+              "source_text": "4",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 15.611812257890701
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00107",
+          "text": "ADD0",
+          "bbox": [
+            648.0,
+            521.5,
+            709.5,
+            550.0
+          ],
+          "confidence": 0.98826,
+          "source_text": "ADD0",
+          "source_view": "tile_240_0_r90",
+          "approximate_split_geometry": false,
+          "cost": 5.620187742109298,
+          "global_assignment_margin": 32.37981225789076,
+          "alternatives": [
+            {
+              "token_id": "PT_00107",
+              "text": "ADD0",
+              "bbox": [
+                648.0,
+                521.5,
+                709.5,
+                550.0
+              ],
+              "confidence": 0.98826,
+              "source_text": "ADD0",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 5.620187742109298
+            },
+            {
+              "token_id": "PT_00106",
+              "text": "ADD0",
+              "bbox": [
+                648.0,
+                522.5,
+                708.5,
+                549.5
+              ],
+              "confidence": 0.98937,
+              "source_text": "ADD0",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 5.877987742109299
+            },
+            {
+              "token_id": "PT_00108",
+              "text": "ADD0",
+              "bbox": [
+                649.5,
+                525.5,
+                707.5,
+                548.0
+              ],
+              "confidence": 0.98606,
+              "source_text": "ADD0",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 6.679187742109297
+            },
+            {
+              "token_id": "PT_00110",
+              "text": "ADD0",
+              "bbox": [
+                649.0,
+                524.5,
+                707.5,
+                549.0
+              ],
+              "confidence": 0.97575,
+              "source_text": "ADD0",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 6.900387742109299
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00098",
+            "text": "4",
+            "bbox": [
+              728.5,
+              509.0,
+              745.5,
+              529.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "4",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 14.6098122578907
+          },
+          {
+            "token_id": "PT_00097",
+            "text": "4",
+            "bbox": [
+              728.0,
+              508.5,
+              746.5,
+              530.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "4",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 14.624812257890701
+          },
+          {
+            "token_id": "PT_00099",
+            "text": "4",
+            "bbox": [
+              726.0,
+              507.0,
+              747.0,
+              531.0
+            ],
+            "confidence": 0.99997,
+            "source_text": "4",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 14.8302122578907
+          },
+          {
+            "token_id": "PT_00100",
+            "text": "4",
+            "bbox": [
+              729.0,
+              508.5,
+              745.0,
+              528.0
+            ],
+            "confidence": 0.99989,
+            "source_text": "4",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 15.611812257890701
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00107",
+            "text": "ADD0",
+            "bbox": [
+              648.0,
+              521.5,
+              709.5,
+              550.0
+            ],
+            "confidence": 0.98826,
+            "source_text": "ADD0",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 5.620187742109298
+          },
+          {
+            "token_id": "PT_00106",
+            "text": "ADD0",
+            "bbox": [
+              648.0,
+              522.5,
+              708.5,
+              549.5
+            ],
+            "confidence": 0.98937,
+            "source_text": "ADD0",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 5.877987742109299
+          },
+          {
+            "token_id": "PT_00108",
+            "text": "ADD0",
+            "bbox": [
+              649.5,
+              525.5,
+              707.5,
+              548.0
+            ],
+            "confidence": 0.98606,
+            "source_text": "ADD0",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 6.679187742109297
+          },
+          {
+            "token_id": "PT_00110",
+            "text": "ADD0",
+            "bbox": [
+              649.0,
+              524.5,
+              707.5,
+              549.0
+            ],
+            "confidence": 0.97575,
+            "source_text": "ADD0",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 6.900387742109299
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0015",
+      "point": [
+        188.25759947299957,
+        393.1691535413265
+      ],
+      "confidence": 0.9212721586227417,
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0008",
+          "detection_index": 7,
+          "component_type": "ic",
+          "cost_px": 1.0206794729995794,
+          "outside_gap_px": 0.6815994729995793,
+          "inside_boundary_distance_px": 0.0,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": "Controller",
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9728914499282837,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "pinname": {
+          "token_id": "PT_00074",
+          "text": "Controller",
+          "bbox": [
+            71.0,
+            388.0,
+            161.0,
+            409.5
+          ],
+          "confidence": 0.9999,
+          "source_text": "Host Controller",
+          "source_view": "tile_0_0_r0",
+          "approximate_split_geometry": true,
+          "cost": 9.877406458673477,
+          "global_assignment_margin": 4.320000000000164,
+          "alternatives": [
+            {
+              "token_id": "PT_00074",
+              "text": "Controller",
+              "bbox": [
+                71.0,
+                388.0,
+                161.0,
+                409.5
+              ],
+              "confidence": 0.9999,
+              "source_text": "Host Controller",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": true,
+              "cost": 9.877406458673477
+            },
+            {
+              "token_id": "PT_00076",
+              "text": "Controller",
+              "bbox": [
+                70.33333333333334,
+                386.0,
+                163.0,
+                411.0
+              ],
+              "confidence": 0.98487,
+              "source_text": "Host Controller",
+              "source_view": "global",
+              "approximate_split_geometry": true,
+              "cost": 9.888006458673475
+            },
+            {
+              "token_id": "PT_00072",
+              "text": "Controller",
+              "bbox": [
+                71.0,
+                386.5,
+                162.0,
+                411.5
+              ],
+              "confidence": 0.99995,
+              "source_text": "Host Controller",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": true,
+              "cost": 10.096406458673476
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [],
+        "pinname": [
+          {
+            "token_id": "PT_00074",
+            "text": "Controller",
+            "bbox": [
+              71.0,
+              388.0,
+              161.0,
+              409.5
+            ],
+            "confidence": 0.9999,
+            "source_text": "Host Controller",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": true,
+            "cost": 9.877406458673477
+          },
+          {
+            "token_id": "PT_00076",
+            "text": "Controller",
+            "bbox": [
+              70.33333333333334,
+              386.0,
+              163.0,
+              411.0
+            ],
+            "confidence": 0.98487,
+            "source_text": "Host Controller",
+            "source_view": "global",
+            "approximate_split_geometry": true,
+            "cost": 9.888006458673475
+          },
+          {
+            "token_id": "PT_00072",
+            "text": "Controller",
+            "bbox": [
+              71.0,
+              386.5,
+              162.0,
+              411.5
+            ],
+            "confidence": 0.99995,
+            "source_text": "Host Controller",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": true,
+            "cost": 10.096406458673476
+          },
+          {
+            "token_id": "PT_00073",
+            "text": "Host",
+            "bbox": [
+              26.0,
+              388.0,
+              62.0,
+              409.5
+            ],
+            "confidence": 0.9999,
+            "source_text": "Host Controller",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": true,
+            "cost": 14.197406458673477
+          },
+          {
+            "token_id": "PT_00075",
+            "text": "Host",
+            "bbox": [
+              24.0,
+              386.0,
+              61.06666666666667,
+              411.0
+            ],
+            "confidence": 0.98487,
+            "source_text": "Host Controller",
+            "source_view": "global",
+            "approximate_split_geometry": true,
+            "cost": 14.336006458673477
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0016",
+      "point": [
+        730.1408457010984,
+        463.2394428104162
+      ],
+      "confidence": 0.920072615146637,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 0.20029485978031203,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.05615429890156065,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": "5",
+      "pinname": "V+",
+      "number_status": "observed_OCR_text",
+      "nearby_wire_probability_max": 0.9533416032791138,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "number": {
+          "token_id": "PT_00078",
+          "text": "5",
+          "bbox": [
+            729.0,
+            437.0,
+            746.0,
+            457.5
+          ],
+          "confidence": 0.99999,
+          "source_text": "5",
+          "source_view": "tile_240_0_r0",
+          "approximate_split_geometry": false,
+          "cost": 16.42782281041622,
+          "global_assignment_margin": 21.57217718958384,
+          "alternatives": [
+            {
+              "token_id": "PT_00078",
+              "text": "5",
+              "bbox": [
+                729.0,
+                437.0,
+                746.0,
+                457.5
+              ],
+              "confidence": 0.99999,
+              "source_text": "5",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 16.42782281041622
+            },
+            {
+              "token_id": "PT_00077",
+              "text": "5",
+              "bbox": [
+                728.5,
+                436.5,
+                747.0,
+                458.0
+              ],
+              "confidence": 0.99999,
+              "source_text": "5",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 16.44282281041622
+            },
+            {
+              "token_id": "PT_00079",
+              "text": "5",
+              "bbox": [
+                727.0,
+                435.0,
+                747.0,
+                459.0
+              ],
+              "confidence": 0.99997,
+              "source_text": "5",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 16.64822281041622
+            },
+            {
+              "token_id": "PT_00081",
+              "text": "5",
+              "bbox": [
+                728.5,
+                435.5,
+                746.5,
+                458.0
+              ],
+              "confidence": 0.99994,
+              "source_text": "5",
+              "source_view": "tile_240_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 16.92882281041622
+            }
+          ]
+        },
+        "pinname": {
+          "token_id": "PT_00086",
+          "text": "V+",
+          "bbox": [
+            674.0,
+            448.0,
+            710.0,
+            475.0
+          ],
+          "confidence": 0.98586,
+          "source_text": "V+",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 4.314062810416222,
+          "global_assignment_margin": 33.68593718958391,
+          "alternatives": [
+            {
+              "token_id": "PT_00086",
+              "text": "V+",
+              "bbox": [
+                674.0,
+                448.0,
+                710.0,
+                475.0
+              ],
+              "confidence": 0.98586,
+              "source_text": "V+",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 4.314062810416222
+            },
+            {
+              "token_id": "PT_00087",
+              "text": "V+",
+              "bbox": [
+                676.0,
+                450.0,
+                708.5,
+                473.5
+              ],
+              "confidence": 0.95486,
+              "source_text": "V+",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 4.6690628104162215
+            },
+            {
+              "token_id": "PT_00088",
+              "text": "V+",
+              "bbox": [
+                676.5,
+                450.5,
+                708.0,
+                472.5
+              ],
+              "confidence": 0.94558,
+              "source_text": "V+",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 5.104662810416222
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00078",
+            "text": "5",
+            "bbox": [
+              729.0,
+              437.0,
+              746.0,
+              457.5
+            ],
+            "confidence": 0.99999,
+            "source_text": "5",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 16.42782281041622
+          },
+          {
+            "token_id": "PT_00077",
+            "text": "5",
+            "bbox": [
+              728.5,
+              436.5,
+              747.0,
+              458.0
+            ],
+            "confidence": 0.99999,
+            "source_text": "5",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 16.44282281041622
+          },
+          {
+            "token_id": "PT_00079",
+            "text": "5",
+            "bbox": [
+              727.0,
+              435.0,
+              747.0,
+              459.0
+            ],
+            "confidence": 0.99997,
+            "source_text": "5",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 16.64822281041622
+          },
+          {
+            "token_id": "PT_00081",
+            "text": "5",
+            "bbox": [
+              728.5,
+              435.5,
+              746.5,
+              458.0
+            ],
+            "confidence": 0.99994,
+            "source_text": "5",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 16.92882281041622
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00086",
+            "text": "V+",
+            "bbox": [
+              674.0,
+              448.0,
+              710.0,
+              475.0
+            ],
+            "confidence": 0.98586,
+            "source_text": "V+",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 4.314062810416222
+          },
+          {
+            "token_id": "PT_00087",
+            "text": "V+",
+            "bbox": [
+              676.0,
+              450.0,
+              708.5,
+              473.5
+            ],
+            "confidence": 0.95486,
+            "source_text": "V+",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 4.6690628104162215
+          },
+          {
+            "token_id": "PT_00088",
+            "text": "V+",
+            "bbox": [
+              676.5,
+              450.5,
+              708.0,
+              472.5
+            ],
+            "confidence": 0.94558,
+            "source_text": "V+",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 5.104662810416222
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0017",
+      "point": [
+        396.4303457736969,
+        478.79781326651573
+      ],
+      "confidence": 0.9173725247383118,
+      "owner": "UNRESOLVED_DET_0006",
+      "owner_detection_index": 5,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0006",
+          "detection_index": 5,
+          "component_type": "gnd",
+          "cost_px": 1.0691306533031417,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 3.8998132665157073,
+          "eligible_margin_px": 6.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9829526543617249,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "point": [
+        729.8847878724337,
+        393.1485897153616
+      ],
+      "confidence": 0.9167987108230591,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 0.25150642551326796,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.3122121275663403,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": "SDA",
+      "number_status": "ambiguous_text",
+      "nearby_wire_probability_max": 0.9763751029968262,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "observed_OCR_text",
+      "text_evidence": {
+        "pinname": {
+          "token_id": "PT_00063",
+          "text": "SDA",
+          "bbox": [
+            664.0,
+            378.0,
+            716.0,
+            407.0
+          ],
+          "confidence": 0.99996,
+          "source_text": "SDA",
+          "source_view": "global",
+          "approximate_split_geometry": false,
+          "cost": 3.061209715361596,
+          "global_assignment_margin": 19.733199354338694,
+          "alternatives": [
+            {
+              "token_id": "PT_00063",
+              "text": "SDA",
+              "bbox": [
+                664.0,
+                378.0,
+                716.0,
+                407.0
+              ],
+              "confidence": 0.99996,
+              "source_text": "SDA",
+              "source_view": "global",
+              "approximate_split_geometry": false,
+              "cost": 3.061209715361596
+            },
+            {
+              "token_id": "PT_00064",
+              "text": "SDA",
+              "bbox": [
+                666.5,
+                380.0,
+                714.5,
+                403.5
+              ],
+              "confidence": 0.99996,
+              "source_text": "SDA",
+              "source_view": "tile_240_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.7812097153615962
+            },
+            {
+              "token_id": "PT_00065",
+              "text": "SDA",
+              "bbox": [
+                666.0,
+                379.0,
+                714.5,
+                404.5
+              ],
+              "confidence": 0.99995,
+              "source_text": "SDA",
+              "source_view": "tile_0_0_r0",
+              "approximate_split_geometry": false,
+              "cost": 3.796409715361595
+            },
+            {
+              "token_id": "PT_00061",
+              "text": "SDA",
+              "bbox": [
+                666.5,
+                378.0,
+                714.5,
+                403.5
+              ],
+              "confidence": 0.99998,
+              "source_text": "SDA",
+              "source_view": "tile_0_0_r90",
+              "approximate_split_geometry": false,
+              "cost": 4.780809715361595
+            }
+          ]
+        }
+      },
+      "text_candidates": {
+        "number": [
+          {
+            "token_id": "PT_00055",
+            "text": "6",
+            "bbox": [
+              732.0,
+              366.5,
+              748.0,
+              387.5
+            ],
+            "confidence": 0.99996,
+            "source_text": "6",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 16.737569715361598,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00056",
+            "text": "6",
+            "bbox": [
+              731.0,
+              365.0,
+              749.0,
+              389.0
+            ],
+            "confidence": 0.99995,
+            "source_text": "6",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 16.737769715361598,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00054",
+            "text": "6",
+            "bbox": [
+              732.0,
+              366.5,
+              748.5,
+              387.5
+            ],
+            "confidence": 0.99996,
+            "source_text": "6",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 16.752569715361595,
+            "status": "conflicting_observed_spelling"
+          },
+          {
+            "token_id": "PT_00057",
+            "text": "9",
+            "bbox": [
+              732.5,
+              366.5,
+              749.5,
+              386.0
+            ],
+            "confidence": 0.94215,
+            "source_text": "9",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 18.703769715361595,
+            "status": "conflicting_observed_spelling"
+          }
+        ],
+        "pinname": [
+          {
+            "token_id": "PT_00063",
+            "text": "SDA",
+            "bbox": [
+              664.0,
+              378.0,
+              716.0,
+              407.0
+            ],
+            "confidence": 0.99996,
+            "source_text": "SDA",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 3.061209715361596
+          },
+          {
+            "token_id": "PT_00064",
+            "text": "SDA",
+            "bbox": [
+              666.5,
+              380.0,
+              714.5,
+              403.5
+            ],
+            "confidence": 0.99996,
+            "source_text": "SDA",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.7812097153615962
+          },
+          {
+            "token_id": "PT_00065",
+            "text": "SDA",
+            "bbox": [
+              666.0,
+              379.0,
+              714.5,
+              404.5
+            ],
+            "confidence": 0.99995,
+            "source_text": "SDA",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 3.796409715361595
+          },
+          {
+            "token_id": "PT_00061",
+            "text": "SDA",
+            "bbox": [
+              666.5,
+              378.0,
+              714.5,
+              403.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "SDA",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.780809715361595
+          }
+        ]
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0019",
+      "point": [
+        187.2006587833166,
+        533.4035115540028
+      ],
+      "confidence": 0.8911265134811401,
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0008",
+          "detection_index": 7,
+          "component_type": "ic",
+          "cost_px": 0.41414824333667627,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.37534121668338116,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9435415267944336,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "point": [
+        168.76842232048512,
+        123.85662822425365
+      ],
+      "confidence": 0.8743089437484741,
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0008",
+          "detection_index": 7,
+          "component_type": "ic",
+          "cost_px": 1.0776056448507307,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 3.692628224253653,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9455692172050476,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "top"
+    },
+    {
+      "candidate_id": "PIN_CAND_0021",
+      "point": [
+        187.3661372065544,
+        275.9573409818113
+      ],
+      "confidence": 0.8683438301086426,
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_detection_index": 7,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0008",
+          "detection_index": 7,
+          "component_type": "ic",
+          "cost_px": 0.38105255868911614,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 0.20986279344558056,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.9207416772842407,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "right"
+    },
+    {
+      "candidate_id": "PIN_CAND_0022",
+      "point": [
+        859.8695266246796,
+        144.622090280056
+      ],
+      "confidence": 0.8609802722930908,
+      "owner": "UNRESOLVED_DET_0005",
+      "owner_detection_index": 4,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0005",
+          "detection_index": 4,
+          "component_type": "capacitor",
+          "cost_px": 2.0037779439887995,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 8.638909719943996,
+          "eligible_margin_px": 6.794549999999999,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.6287814378738403,
+      "wire_context_status": "learned_wire_nearby",
+      "pinname_status": "no_reliable_text",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": []
+      },
+      "text_side": "bottom"
+    },
+    {
+      "candidate_id": "PIN_CAND_0023",
+      "point": [
+        707.6799890697002,
+        303.7617966979742
+      ],
+      "confidence": 0.8317005038261414,
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_detection_index": 2,
+      "owner_status": "assigned",
+      "owner_candidates": [
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "detection_index": 2,
+          "component_type": "ic",
+          "cost_px": 1.5048233395948425,
+          "outside_gap_px": 0.0,
+          "inside_boundary_distance_px": 6.578796697974212,
+          "eligible_margin_px": 18.0,
+          "warning": null
+        }
+      ],
+      "number": null,
+      "pinname": null,
+      "number_status": "no_reliable_text",
+      "nearby_wire_probability_max": 0.3839429020881653,
+      "wire_context_status": "no_confident_wire_observed",
+      "pinname_status": "text_used_by_other_pin",
+      "text_evidence": {},
+      "text_candidates": {
+        "number": [],
+        "pinname": [
+          {
+            "token_id": "PV2_00076",
+            "text": "SDA",
+            "bbox": [
+              666.5,
+              378.0,
+              714.5,
+              403.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "SDA",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 22.79440906970024
+          },
+          {
+            "token_id": "PV2_00079",
+            "text": "SDA",
+            "bbox": [
+              666.5,
+              380.0,
+              714.5,
+              403.5
+            ],
+            "confidence": 0.99996,
+            "source_text": "SDA",
+            "source_view": "tile_240_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 22.85480906970024
+          },
+          {
+            "token_id": "PV2_00077",
+            "text": "SDA",
+            "bbox": [
+              666.5,
+              378.0,
+              714.0,
+              403.5
+            ],
+            "confidence": 0.99998,
+            "source_text": "SDA",
+            "source_view": "tile_240_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 23.04440906970024
+          },
+          {
+            "token_id": "PV2_00080",
+            "text": "SDA",
+            "bbox": [
+              666.0,
+              379.0,
+              714.5,
+              404.5
+            ],
+            "confidence": 0.99995,
+            "source_text": "SDA",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 23.10500906970024
+          },
+          {
+            "token_id": "PV2_00078",
+            "text": "SDA",
+            "bbox": [
+              664.0,
+              378.0,
+              716.0,
+              407.0
+            ],
+            "confidence": 0.99996,
+            "source_text": "SDA",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 23.399809069700243
+          }
+        ]
+      },
+      "text_side": "top"
+    }
+  ],
+  "summary": {
+    "candidate_count": 23,
+    "assigned": 22,
+    "status_counts": {
+      "assigned": 22,
+      "deep_inside_large_component": 1
+    },
+    "all_candidates_preserved": true,
+    "coordinate_changes": 0,
+    "pin_numbers_guessed": 0,
+    "nets_constructed": false
+  },
+  "status": "pin_text_v2_proposals_topology_pending",
+  "input_contract": "model-predicted pin coordinates and component boxes only; no annotations",
+  "traditional_image_segmentation_used": false,
+  "official_score": null,
+  "image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+  "association_config_sha256": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+  "pin_text_summary": {
+    "candidate_count": 23,
+    "owned_candidates": 22,
+    "number_observed": 5,
+    "name_observed": 7,
+    "number_and_name_observed": 5,
+    "secondary_tip_hypotheses_text_withheld": 0,
+    "coordinate_changes": 0,
+    "numbers_guessed": 0,
+    "pinname_guesses": 0,
+    "nets_constructed": false,
+    "number_status_counts": {
+      "observed_OCR_text": 5,
+      "owner_unresolved": 1,
+      "no_reliable_text": 16,
+      "ambiguous_text": 1
+    },
+    "name_status_counts": {
+      "observed_OCR_text": 7,
+      "owner_unresolved": 1,
+      "no_reliable_text": 14,
+      "text_used_by_other_pin": 1
+    },
+    "missing_names_added": 0,
+    "component_identity_resolved": 0,
+    "new_header_identities": 0,
+    "new_model_names": 0,
+    "number_available": 5,
+    "number_and_name_available": 5
+  },
+  "ownership_input_sha256": "c5f1715160d7ee3f86de0b10a37ea04106685d50419a5e74dc1ff8812f8bfec1",
+  "pin_text_config_sha256": "bf63cafd4186dbbcb040dc525e94a0b516c3911d2d99794ec0076854d8b8e18a",
+  "component_text_config_sha256": "f9acb0d7948a4da15a269b5f10624f8a5d0ba70c083b1ff04e3cfbdcf5be43da",
+  "library_pin_summary": {
+    "supported_components": 0,
+    "numbers_added_from_library": 0,
+    "invalid_numbers_withheld": 0,
+    "missing_names_added": 0,
+    "partial_names_completed": 0,
+    "number_observed_OCR_count": 5,
+    "number_available_count": 5,
+    "name_available_count": 7,
+    "number_and_name_available_count": 5,
+    "coordinate_changes": 0,
+    "ownership_changes": 0,
+    "trained": false,
+    "default_pipeline_adopted": false
+  },
+  "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+  "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+  "original_pin_input_sha256": "2b7e1c7acabc4315d173d5ea58196f535ff582ae01ff78c38a67c111c2d244d5",
+  "OCR_input_sha256": "747743eb3619fbb0d14fd273655ff489fc7528c36d41ef80096cde3233f59799",
+  "records_input_sha256": "54f2b3b7acfcc1ce76123790c8ed96ad74cc35c5a7105ac2c912cf4d7a9f631f",
+  "prediction_only": true,
+  "submission_field_summary": {
+    "new_label_identities": 0,
+    "label_identity_proposals": 0,
+    "single_tip_label_auto_numbers": 0,
+    "observed_number_glyphs_added": 0,
+    "pin_names_guessed": 0,
+    "repeated_label_suffixes_accepted": 0,
+    "coordinate_changes": 0,
+    "identity_withheld_reason_counts": {}
+  },
+  "input_pin_sha256": "c4a10c91d45392fdc3cf5b2b9f4136398289b5fb98b666229d0be26df82b37cb",
+  "input_network_sha256": "31b8b685f3d19b5410508ac07b6c3bf4b3727c2d1287bb4a45fa8e601432cc5d",
+  "input_OCR_sha256": "747743eb3619fbb0d14fd273655ff489fc7528c36d41ef80096cde3233f59799",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501"
+}

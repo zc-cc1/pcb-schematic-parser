@@ -1,0 +1,4317 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    1170,
+    827
+  ],
+  "status": "ordinary_logical_label_proposals_power_semantics_pending",
+  "nodes": [],
+  "edges": [],
+  "junction_candidates": [],
+  "gap_candidates": [],
+  "networks": [],
+  "pin_attachments": [],
+  "summary": {
+    "wire_foreground_pixels": 0,
+    "body_excluded_foreground_pixels": 0,
+    "skeleton_pixels": 0,
+    "graph_nodes": 0,
+    "graph_edges": 0,
+    "observed_components": 0,
+    "network_proposals": 0,
+    "multi_pin_network_proposals": 0,
+    "attached_pins": 0,
+    "attachment_status_counts": {},
+    "uncertain_junctions": 0,
+    "junction_candidates": 0,
+    "learned_resolved_junctions": 0,
+    "gap_candidates_not_filled": 0,
+    "pin_candidates_preserved": true,
+    "pin_coordinate_changes": 0,
+    "automatic_gap_connections": 0,
+    "logical_label_merges": 0,
+    "physical_network_proposals": 0,
+    "logical_networks_merged": 0,
+    "flywire_network_proposals": 0,
+    "label_site_status_counts": {
+      "no_unambiguous_model_wire_or_symbol_anchor": 37,
+      "already_assigned_component_or_pin_text": 8
+    },
+    "physical_wire_added": 0
+  },
+  "raw_image_segmentation_used": false,
+  "junction_classifier_used": false,
+  "official_NetF1": null,
+  "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+  "pin_input_sha256": "95f8379198d3f03c0e310c40355e972bb2fc986ba7b4fe0b2ca04a69a809c5f2",
+  "wire_cache_sha256": "812df5f93ed9f39795919e305792fc8d111eaac2628c552f06a2094f0e068232",
+  "unet_weights_sha256": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+  "wire_graph_config_sha256": "5346302cb54ccb9bff176bd2278b6d9239135d9c4d5f6016acebec33595f37c2",
+  "physical_networks": [],
+  "label_sites": [
+    {
+      "site_id": "LABEL_SITE_00001",
+      "text": "Driver Interface",
+      "confidence": 0.99988,
+      "bbox": [
+        432.0,
+        89.0,
+        557.0,
+        114.0
+      ],
+      "source_text_id": "text_0004",
+      "source_view": "global",
+      "label": "Driver Interface",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Driver Interface"
+      ],
+      "alternatives": [
+        {
+          "text": "Driver Interface",
+          "confidence": 0.99988,
+          "bbox": [
+            432.0,
+            89.0,
+            557.0,
+            114.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "global",
+          "label": "Driver Interface"
+        },
+        {
+          "text": "Driver Interface",
+          "confidence": 0.99982,
+          "bbox": [
+            434.0,
+            92.5,
+            556.5,
+            113.5
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_0_59_r90",
+          "label": "Driver Interface"
+        },
+        {
+          "text": "Driver Interface",
+          "confidence": 0.99976,
+          "bbox": [
+            434.0,
+            93.5,
+            555.5,
+            112.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_402_0_r0",
+          "label": "Driver Interface"
+        },
+        {
+          "text": "Driver Interface",
+          "confidence": 0.99972,
+          "bbox": [
+            434.0,
+            93.5,
+            555.5,
+            112.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_0_0_r0",
+          "label": "Driver Interface"
+        },
+        {
+          "text": "Driver Interface",
+          "confidence": 0.99971,
+          "bbox": [
+            434.0,
+            93.5,
+            555.5,
+            112.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_0_59_r0",
+          "label": "Driver Interface"
+        },
+        {
+          "text": "Driver Interface",
+          "confidence": 0.98779,
+          "bbox": [
+            434.5,
+            93.5,
+            555.0,
+            112.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_402_59_r0",
+          "label": "Driver Interface"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Driver Interface": 6
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00002",
+      "text": "A",
+      "confidence": 0.99972,
+      "bbox": [
+        39.0,
+        132.5,
+        47.5,
+        142.5
+      ],
+      "source_text_id": "text_0013",
+      "source_view": "tile_0_59_r0",
+      "label": "A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "A"
+      ],
+      "alternatives": [
+        {
+          "text": "A",
+          "confidence": 0.99972,
+          "bbox": [
+            39.0,
+            132.5,
+            47.5,
+            142.5
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "tile_0_59_r0",
+          "label": "A"
+        },
+        {
+          "text": "A",
+          "confidence": 0.99941,
+          "bbox": [
+            39.0,
+            132.5,
+            47.5,
+            142.0
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "tile_0_0_r0",
+          "label": "A"
+        },
+        {
+          "text": "A",
+          "confidence": 0.95762,
+          "bbox": [
+            39.0,
+            131.5,
+            47.5,
+            141.5
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "tile_0_59_r90",
+          "label": "A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "A": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00003",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        570.0,
+        169.0,
+        589.5,
+        180.5
+      ],
+      "source_text_id": "text_0023",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.0,
+            169.0,
+            589.5,
+            180.5
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.5,
+            168.5,
+            589.5,
+            180.0
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.0,
+            169.0,
+            589.5,
+            180.5
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.5,
+            168.5,
+            589.5,
+            180.0
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.0,
+            169.0,
+            589.5,
+            180.5
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            570.0,
+            167.5,
+            590.0,
+            180.5
+          ],
+          "source_text_id": "text_0023",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00004",
+      "text": "Controller_InterruptO",
+      "confidence": 0.98412,
+      "bbox": [
+        344.0,
+        179.5,
+        433.5,
+        191.0
+      ],
+      "source_text_id": "text_0025",
+      "source_view": "tile_0_0_r0",
+      "label": "Controller_InterruptO",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Controller_InterruptO"
+      ],
+      "alternatives": [
+        {
+          "text": "Controller_InterruptO",
+          "confidence": 0.98412,
+          "bbox": [
+            344.0,
+            179.5,
+            433.5,
+            191.0
+          ],
+          "source_text_id": "text_0025",
+          "source_view": "tile_0_0_r0",
+          "label": "Controller_InterruptO"
+        },
+        {
+          "text": "Controller_InterruptO",
+          "confidence": 0.97114,
+          "bbox": [
+            343.0,
+            178.5,
+            429.5,
+            191.5
+          ],
+          "source_text_id": "text_0025",
+          "source_view": "tile_0_0_r90",
+          "label": "Controller_InterruptO"
+        },
+        {
+          "text": "Controller_InterruptO",
+          "confidence": 0.96279,
+          "bbox": [
+            343.0,
+            178.0,
+            432.5,
+            191.0
+          ],
+          "source_text_id": "text_0025",
+          "source_view": "tile_0_59_r90",
+          "label": "Controller_InterruptO"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Controller_InterruptO": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00005",
+      "text": "Driver_InterruptD",
+      "confidence": 0.9981,
+      "bbox": [
+        359.5,
+        189.5,
+        426.0,
+        201.0
+      ],
+      "source_text_id": "text_0029",
+      "source_view": "tile_0_0_r0",
+      "label": "Driver_InterruptD",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Driver_InterruptD"
+      ],
+      "alternatives": [
+        {
+          "text": "Driver_InterruptD",
+          "confidence": 0.9981,
+          "bbox": [
+            359.5,
+            189.5,
+            426.0,
+            201.0
+          ],
+          "source_text_id": "text_0029",
+          "source_view": "tile_0_0_r0",
+          "label": "Driver_InterruptD"
+        },
+        {
+          "text": "Driver_InterruptD",
+          "confidence": 0.99709,
+          "bbox": [
+            359.5,
+            189.0,
+            426.5,
+            200.5
+          ],
+          "source_text_id": "text_0029",
+          "source_view": "tile_0_59_r0",
+          "label": "Driver_InterruptD"
+        },
+        {
+          "text": "Driver_InterruptD",
+          "confidence": 0.99292,
+          "bbox": [
+            358.0,
+            187.5,
+            428.0,
+            202.0
+          ],
+          "source_text_id": "text_0029",
+          "source_view": "tile_0_0_r90",
+          "label": "Driver_InterruptD"
+        },
+        {
+          "text": "Driver_InterruptD",
+          "confidence": 0.97809,
+          "bbox": [
+            357.5,
+            187.5,
+            427.5,
+            202.0
+          ],
+          "source_text_id": "text_0029",
+          "source_view": "tile_0_59_r90",
+          "label": "Driver_InterruptD"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Driver_InterruptD": 4
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00006",
+      "text": "RX_DriverD",
+      "confidence": 0.99974,
+      "bbox": [
+        382.0,
+        199.5,
+        426.0,
+        210.0
+      ],
+      "source_text_id": "text_0032",
+      "source_view": "tile_0_59_r0",
+      "label": "RX_DriverD",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "RX_DriverD"
+      ],
+      "alternatives": [
+        {
+          "text": "RX_DriverD",
+          "confidence": 0.99974,
+          "bbox": [
+            382.0,
+            199.5,
+            426.0,
+            210.0
+          ],
+          "source_text_id": "text_0032",
+          "source_view": "tile_0_59_r0",
+          "label": "RX_DriverD"
+        },
+        {
+          "text": "RX_DriverD",
+          "confidence": 0.99961,
+          "bbox": [
+            380.0,
+            198.0,
+            428.0,
+            212.0
+          ],
+          "source_text_id": "text_0032",
+          "source_view": "global",
+          "label": "RX_DriverD"
+        },
+        {
+          "text": "RX_DriverD",
+          "confidence": 0.99947,
+          "bbox": [
+            380.5,
+            198.0,
+            427.5,
+            211.0
+          ],
+          "source_text_id": "text_0032",
+          "source_view": "tile_0_0_r90",
+          "label": "RX_DriverD"
+        },
+        {
+          "text": "RX_DriverD",
+          "confidence": 0.99935,
+          "bbox": [
+            381.0,
+            198.0,
+            427.5,
+            210.0
+          ],
+          "source_text_id": "text_0032",
+          "source_view": "tile_0_59_r90",
+          "label": "RX_DriverD"
+        },
+        {
+          "text": "RX_DriverD",
+          "confidence": 0.99921,
+          "bbox": [
+            381.5,
+            198.5,
+            426.5,
+            210.5
+          ],
+          "source_text_id": "text_0032",
+          "source_view": "tile_0_0_r0",
+          "label": "RX_DriverD"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "RX_DriverD": 5
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00007",
+      "text": "TX_DriverO",
+      "confidence": 0.96055,
+      "bbox": [
+        382.5,
+        207.5,
+        432.0,
+        220.5
+      ],
+      "source_text_id": "text_0037",
+      "source_view": "tile_0_59_r90",
+      "label": "TX_DriverO",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "TX_DriverO"
+      ],
+      "alternatives": [
+        {
+          "text": "TX_DriverO",
+          "confidence": 0.96055,
+          "bbox": [
+            382.5,
+            207.5,
+            432.0,
+            220.5
+          ],
+          "source_text_id": "text_0037",
+          "source_view": "tile_0_59_r90",
+          "label": "TX_DriverO"
+        },
+        {
+          "text": "TX_DriverO",
+          "confidence": 0.95513,
+          "bbox": [
+            382.5,
+            208.0,
+            429.5,
+            220.0
+          ],
+          "source_text_id": "text_0039",
+          "source_view": "tile_0_0_r90",
+          "label": "TX_DriverO"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "TX_DriverO": 2
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00008",
+      "text": "Driver",
+      "confidence": 0.99997,
+      "bbox": [
+        648.0,
+        219.5,
+        672.0,
+        230.0
+      ],
+      "source_text_id": "text_0040",
+      "source_view": "tile_0_0_r90",
+      "label": "Driver",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Driver"
+      ],
+      "alternatives": [
+        {
+          "text": "Driver",
+          "confidence": 0.99997,
+          "bbox": [
+            648.0,
+            219.5,
+            672.0,
+            230.0
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "tile_0_0_r90",
+          "label": "Driver"
+        },
+        {
+          "text": "Driver",
+          "confidence": 0.99996,
+          "bbox": [
+            648.0,
+            220.0,
+            671.0,
+            230.0
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "global",
+          "label": "Driver"
+        },
+        {
+          "text": "Driver",
+          "confidence": 0.99996,
+          "bbox": [
+            648.0,
+            219.0,
+            671.5,
+            229.5
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "tile_402_0_r90",
+          "label": "Driver"
+        },
+        {
+          "text": "Driver",
+          "confidence": 0.99996,
+          "bbox": [
+            648.0,
+            219.0,
+            672.0,
+            230.5
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "tile_0_59_r90",
+          "label": "Driver"
+        },
+        {
+          "text": "Driver",
+          "confidence": 0.99996,
+          "bbox": [
+            647.5,
+            220.0,
+            673.0,
+            230.5
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "tile_402_59_r0",
+          "label": "Driver"
+        },
+        {
+          "text": "Driver",
+          "confidence": 0.99996,
+          "bbox": [
+            648.0,
+            219.0,
+            672.0,
+            229.5
+          ],
+          "source_text_id": "text_0040",
+          "source_view": "tile_402_59_r90",
+          "label": "Driver"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Driver": 7
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00009",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        680.0,
+        234.0,
+        699.5,
+        245.5
+      ],
+      "source_text_id": "text_0047",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            680.0,
+            234.0,
+            699.5,
+            245.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            680.0,
+            232.5,
+            700.0,
+            245.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            680.0,
+            232.5,
+            700.0,
+            245.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            680.0,
+            234.0,
+            699.0,
+            245.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99992,
+          "bbox": [
+            680.5,
+            233.0,
+            699.0,
+            244.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99992,
+          "bbox": [
+            680.5,
+            233.0,
+            699.0,
+            244.5
+          ],
+          "source_text_id": "text_0047",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00010",
+      "text": "D1213A",
+      "confidence": 0.99985,
+      "bbox": [
+        612.5,
+        235.0,
+        646.5,
+        247.5
+      ],
+      "source_text_id": "text_0048",
+      "source_view": "tile_0_0_r90",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99985,
+          "bbox": [
+            612.5,
+            235.0,
+            646.5,
+            247.5
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99985,
+          "bbox": [
+            612.5,
+            235.0,
+            646.0,
+            247.5
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99979,
+          "bbox": [
+            613.0,
+            236.0,
+            646.0,
+            248.0
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99979,
+          "bbox": [
+            613.0,
+            236.0,
+            646.0,
+            248.0
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_402_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            613.0,
+            236.0,
+            646.5,
+            248.0
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            613.0,
+            236.0,
+            646.5,
+            248.0
+          ],
+          "source_text_id": "text_0048",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00011",
+      "text": "D1213A",
+      "confidence": 0.99989,
+      "bbox": [
+        463.5,
+        237.0,
+        496.0,
+        247.5
+      ],
+      "source_text_id": "text_0049",
+      "source_view": "tile_0_0_r0",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            463.5,
+            237.0,
+            496.0,
+            247.5
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            462.5,
+            235.0,
+            496.5,
+            247.5
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99986,
+          "bbox": [
+            462.5,
+            235.0,
+            496.5,
+            247.0
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            462.0,
+            235.0,
+            497.0,
+            248.0
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "global",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            463.0,
+            235.0,
+            496.5,
+            247.5
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "tile_402_59_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.9998,
+          "bbox": [
+            463.0,
+            236.0,
+            496.0,
+            248.0
+          ],
+          "source_text_id": "text_0049",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00012",
+      "text": "D1213A",
+      "confidence": 0.99989,
+      "bbox": [
+        513.5,
+        237.0,
+        546.0,
+        247.5
+      ],
+      "source_text_id": "text_0050",
+      "source_view": "tile_0_0_r0",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            513.5,
+            237.0,
+            546.0,
+            247.5
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            513.5,
+            237.0,
+            546.0,
+            247.5
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99987,
+          "bbox": [
+            512.5,
+            235.0,
+            546.5,
+            248.0
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.9998,
+          "bbox": [
+            512.0,
+            235.5,
+            546.0,
+            248.0
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            513.0,
+            236.0,
+            546.5,
+            248.0
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_402_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            513.0,
+            235.0,
+            546.5,
+            247.0
+          ],
+          "source_text_id": "text_0050",
+          "source_view": "tile_402_59_r90",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00013",
+      "text": "D1213A",
+      "confidence": 0.99989,
+      "bbox": [
+        563.5,
+        237.0,
+        596.0,
+        247.5
+      ],
+      "source_text_id": "text_0051",
+      "source_view": "tile_0_0_r0",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            563.5,
+            237.0,
+            596.0,
+            247.5
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            562.5,
+            235.0,
+            596.5,
+            247.5
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            563.5,
+            237.0,
+            596.0,
+            247.5
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            562.5,
+            235.0,
+            596.5,
+            247.5
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99987,
+          "bbox": [
+            562.5,
+            235.0,
+            596.5,
+            248.0
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_402_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            563.0,
+            235.0,
+            596.5,
+            247.5
+          ],
+          "source_text_id": "text_0051",
+          "source_view": "tile_0_59_r90",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00014",
+      "text": "GND",
+      "confidence": 0.99992,
+      "bbox": [
+        444.0,
+        267.0,
+        465.0,
+        282.0
+      ],
+      "source_text_id": "text_0054",
+      "source_view": "global",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99992,
+          "bbox": [
+            444.0,
+            267.0,
+            465.0,
+            282.0
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            445.0,
+            268.0,
+            464.5,
+            279.5
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            445.0,
+            268.0,
+            464.5,
+            279.5
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            445.0,
+            268.0,
+            464.5,
+            279.5
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99984,
+          "bbox": [
+            445.0,
+            268.0,
+            464.0,
+            279.5
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            445.5,
+            269.0,
+            464.5,
+            280.5
+          ],
+          "source_text_id": "text_0054",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00015",
+      "text": "GND",
+      "confidence": 0.9999,
+      "bbox": [
+        494.0,
+        267.0,
+        516.0,
+        282.0
+      ],
+      "source_text_id": "text_0055",
+      "source_view": "global",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.9999,
+          "bbox": [
+            494.0,
+            267.0,
+            516.0,
+            282.0
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99987,
+          "bbox": [
+            495.5,
+            269.0,
+            514.0,
+            280.5
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            495.0,
+            269.0,
+            514.5,
+            280.5
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99984,
+          "bbox": [
+            496.0,
+            268.5,
+            514.5,
+            279.5
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            495.5,
+            269.0,
+            514.5,
+            280.5
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            495.5,
+            269.0,
+            514.5,
+            280.5
+          ],
+          "source_text_id": "text_0055",
+          "source_view": "tile_402_59_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00016",
+      "text": "GND",
+      "confidence": 0.9999,
+      "bbox": [
+        594.0,
+        267.0,
+        616.0,
+        282.0
+      ],
+      "source_text_id": "text_0056",
+      "source_view": "global",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.9999,
+          "bbox": [
+            594.0,
+            267.0,
+            616.0,
+            282.0
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99984,
+          "bbox": [
+            596.0,
+            268.5,
+            614.5,
+            279.5
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            595.5,
+            269.0,
+            614.5,
+            280.5
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            595.5,
+            269.0,
+            614.5,
+            280.5
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            595.5,
+            269.0,
+            614.5,
+            280.5
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            595.5,
+            269.0,
+            614.5,
+            280.5
+          ],
+          "source_text_id": "text_0056",
+          "source_view": "tile_402_59_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00017",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        545.0,
+        267.5,
+        565.0,
+        280.0
+      ],
+      "source_text_id": "text_0057",
+      "source_view": "tile_402_59_r90",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            545.0,
+            267.5,
+            565.0,
+            280.0
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99992,
+          "bbox": [
+            544.0,
+            267.0,
+            565.0,
+            282.0
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99984,
+          "bbox": [
+            546.0,
+            268.5,
+            564.5,
+            279.5
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            545.5,
+            269.0,
+            564.5,
+            280.5
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            545.5,
+            269.0,
+            564.5,
+            280.5
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            545.5,
+            269.0,
+            564.5,
+            280.5
+          ],
+          "source_text_id": "text_0057",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00018",
+      "text": "Grove I2C",
+      "confidence": 0.97298,
+      "bbox": [
+        435.0,
+        296.0,
+        517.0,
+        317.0
+      ],
+      "source_text_id": "text_0058",
+      "source_view": "global",
+      "label": "Grove I2C",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Grove I2C"
+      ],
+      "alternatives": [
+        {
+          "text": "Grove I2C",
+          "confidence": 0.97298,
+          "bbox": [
+            435.0,
+            296.0,
+            517.0,
+            317.0
+          ],
+          "source_text_id": "text_0058",
+          "source_view": "global",
+          "label": "Grove I2C"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Grove I2C": 1
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00019",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        625.0,
+        379.0,
+        644.5,
+        390.5
+      ],
+      "source_text_id": "text_0077",
+      "source_view": "tile_402_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            625.0,
+            379.0,
+            644.5,
+            390.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            625.0,
+            377.5,
+            645.0,
+            390.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            625.5,
+            378.0,
+            645.0,
+            389.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            625.5,
+            379.0,
+            644.5,
+            390.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            625.5,
+            378.0,
+            644.5,
+            389.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            625.5,
+            379.0,
+            644.5,
+            390.5
+          ],
+          "source_text_id": "text_0077",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00020",
+      "text": "SCLD",
+      "confidence": 0.99782,
+      "bbox": [
+        403.0,
+        389.5,
+        427.0,
+        400.5
+      ],
+      "source_text_id": "text_0080",
+      "source_view": "tile_0_0_r0",
+      "label": "SCLD",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "SCLD"
+      ],
+      "alternatives": [
+        {
+          "text": "SCLD",
+          "confidence": 0.99782,
+          "bbox": [
+            403.0,
+            389.5,
+            427.0,
+            400.5
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_0_0_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99782,
+          "bbox": [
+            403.0,
+            389.5,
+            427.0,
+            400.5
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_0_59_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99782,
+          "bbox": [
+            403.0,
+            389.5,
+            427.0,
+            400.5
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_402_59_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99747,
+          "bbox": [
+            402.0,
+            387.5,
+            427.0,
+            400.5
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_402_0_r90",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.996,
+          "bbox": [
+            402.5,
+            389.5,
+            427.0,
+            400.5
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_402_0_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99275,
+          "bbox": [
+            402.5,
+            387.5,
+            428.0,
+            400.0
+          ],
+          "source_text_id": "text_0080",
+          "source_view": "tile_0_0_r90",
+          "label": "SCLD"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SCLD": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00021",
+      "text": "NX138AK",
+      "confidence": 0.99964,
+      "bbox": [
+        481.5,
+        404.5,
+        518.5,
+        415.0
+      ],
+      "source_text_id": "text_0081",
+      "source_view": "tile_0_59_r0",
+      "label": "NX138AK",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "NX138AK"
+      ],
+      "alternatives": [
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            404.5,
+            518.5,
+            415.0
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_0_59_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            404.5,
+            518.5,
+            415.0
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_402_59_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99959,
+          "bbox": [
+            481.5,
+            402.5,
+            518.5,
+            414.5
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_0_59_r90",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99951,
+          "bbox": [
+            481.5,
+            404.5,
+            518.0,
+            415.0
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_0_0_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99951,
+          "bbox": [
+            481.5,
+            404.5,
+            518.0,
+            415.0
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_402_0_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99951,
+          "bbox": [
+            481.5,
+            403.5,
+            518.0,
+            414.0
+          ],
+          "source_text_id": "text_0081",
+          "source_view": "tile_402_59_r90",
+          "label": "NX138AK"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "NX138AK": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00022",
+      "text": "D1213A",
+      "confidence": 0.99986,
+      "bbox": [
+        592.5,
+        425.0,
+        626.5,
+        437.0
+      ],
+      "source_text_id": "text_0089",
+      "source_view": "tile_0_0_r90",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99986,
+          "bbox": [
+            592.5,
+            425.0,
+            626.5,
+            437.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            593.0,
+            426.0,
+            626.5,
+            438.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            593.0,
+            426.0,
+            626.5,
+            438.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            593.0,
+            425.0,
+            626.5,
+            437.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            593.0,
+            426.0,
+            626.5,
+            438.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            593.0,
+            425.0,
+            626.5,
+            437.0
+          ],
+          "source_text_id": "text_0089",
+          "source_view": "tile_0_59_r90",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00023",
+      "text": "D1213A",
+      "confidence": 0.99989,
+      "bbox": [
+        642.5,
+        425.0,
+        676.5,
+        437.5
+      ],
+      "source_text_id": "text_0090",
+      "source_view": "tile_402_0_r90",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            642.5,
+            425.0,
+            676.5,
+            437.5
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99986,
+          "bbox": [
+            643.0,
+            424.5,
+            676.5,
+            437.0
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_0_59_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            643.0,
+            425.0,
+            676.0,
+            437.5
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            643.0,
+            426.0,
+            676.5,
+            438.0
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            643.0,
+            426.0,
+            676.5,
+            438.0
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99978,
+          "bbox": [
+            643.0,
+            426.0,
+            676.5,
+            438.0
+          ],
+          "source_text_id": "text_0090",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00024",
+      "text": "Groove",
+      "confidence": 0.99956,
+      "bbox": [
+        694.0,
+        438.5,
+        725.0,
+        450.5
+      ],
+      "source_text_id": "text_0093",
+      "source_view": "tile_0_59_r90",
+      "label": "Groove",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Groove"
+      ],
+      "alternatives": [
+        {
+          "text": "Groove",
+          "confidence": 0.99956,
+          "bbox": [
+            694.0,
+            438.5,
+            725.0,
+            450.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_0_59_r90",
+          "label": "Groove"
+        },
+        {
+          "text": "Groove",
+          "confidence": 0.99947,
+          "bbox": [
+            693.0,
+            439.0,
+            724.5,
+            449.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_0_0_r90",
+          "label": "Groove"
+        },
+        {
+          "text": "Groove",
+          "confidence": 0.99947,
+          "bbox": [
+            693.0,
+            439.0,
+            724.5,
+            449.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_402_0_r90",
+          "label": "Groove"
+        },
+        {
+          "text": "Groove",
+          "confidence": 0.99931,
+          "bbox": [
+            695.5,
+            440.0,
+            724.0,
+            450.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_0_0_r0",
+          "label": "Groove"
+        },
+        {
+          "text": "Groove",
+          "confidence": 0.99931,
+          "bbox": [
+            695.5,
+            440.0,
+            724.0,
+            450.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_402_0_r0",
+          "label": "Groove"
+        },
+        {
+          "text": "Groove",
+          "confidence": 0.99921,
+          "bbox": [
+            695.0,
+            440.0,
+            724.0,
+            450.5
+          ],
+          "source_text_id": "text_0093",
+          "source_view": "tile_0_59_r0",
+          "label": "Groove"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Groove": 8
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00025",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        675.0,
+        452.5,
+        695.0,
+        465.5
+      ],
+      "source_text_id": "text_0098",
+      "source_view": "tile_0_0_r90",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            675.0,
+            452.5,
+            695.0,
+            465.5
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            675.5,
+            453.5,
+            694.5,
+            465.0
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            676.0,
+            453.0,
+            694.5,
+            465.0
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            675.5,
+            453.5,
+            694.5,
+            464.5
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            675.5,
+            454.0,
+            694.5,
+            465.5
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            675.5,
+            454.0,
+            694.5,
+            465.5
+          ],
+          "source_text_id": "text_0098",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00026",
+      "text": "GND",
+      "confidence": 0.9999,
+      "bbox": [
+        574.0,
+        457.0,
+        596.0,
+        472.0
+      ],
+      "source_text_id": "text_0099",
+      "source_view": "global",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.9999,
+          "bbox": [
+            574.0,
+            457.0,
+            596.0,
+            472.0
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99987,
+          "bbox": [
+            575.5,
+            458.0,
+            594.0,
+            469.5
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            575.5,
+            459.0,
+            594.5,
+            470.5
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            575.5,
+            459.0,
+            594.5,
+            470.5
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            575.5,
+            459.0,
+            594.5,
+            470.5
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            575.5,
+            458.0,
+            594.5,
+            469.5
+          ],
+          "source_text_id": "text_0099",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00027",
+      "text": "GND",
+      "confidence": 0.99983,
+      "bbox": [
+        625.5,
+        459.0,
+        644.5,
+        470.5
+      ],
+      "source_text_id": "text_0101",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            625.5,
+            459.0,
+            644.5,
+            470.5
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            625.5,
+            459.0,
+            644.5,
+            470.5
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            625.5,
+            459.0,
+            644.5,
+            470.5
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            625.5,
+            459.0,
+            644.5,
+            470.5
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "tile_402_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99982,
+          "bbox": [
+            625.0,
+            457.0,
+            646.0,
+            472.0
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99977,
+          "bbox": [
+            625.5,
+            458.5,
+            644.5,
+            469.5
+          ],
+          "source_text_id": "text_0101",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00028",
+      "text": "SDAO",
+      "confidence": 0.95184,
+      "bbox": [
+        401.0,
+        473.0,
+        429.0,
+        487.0
+      ],
+      "source_text_id": "text_0104",
+      "source_view": "global",
+      "label": "SDAO",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "SDAO"
+      ],
+      "alternatives": [
+        {
+          "text": "SDAO",
+          "confidence": 0.95184,
+          "bbox": [
+            401.0,
+            473.0,
+            429.0,
+            487.0
+          ],
+          "source_text_id": "text_0104",
+          "source_view": "global",
+          "label": "SDAO"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SDAO": 1
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00029",
+      "text": "NX138AK",
+      "confidence": 0.99965,
+      "bbox": [
+        481.0,
+        489.0,
+        518.0,
+        500.0
+      ],
+      "source_text_id": "text_0105",
+      "source_view": "global",
+      "label": "NX138AK",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "NX138AK"
+      ],
+      "alternatives": [
+        {
+          "text": "NX138AK",
+          "confidence": 0.99965,
+          "bbox": [
+            481.0,
+            489.0,
+            518.0,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "global",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            489.5,
+            518.5,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "tile_0_0_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            489.5,
+            518.5,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "tile_402_0_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            489.5,
+            518.5,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "tile_0_59_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.99964,
+          "bbox": [
+            481.5,
+            489.5,
+            518.5,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "tile_402_59_r0",
+          "label": "NX138AK"
+        },
+        {
+          "text": "NX138AK",
+          "confidence": 0.9995,
+          "bbox": [
+            481.0,
+            488.0,
+            518.5,
+            500.0
+          ],
+          "source_text_id": "text_0105",
+          "source_view": "tile_0_0_r90",
+          "label": "NX138AK"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "NX138AK": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00030",
+      "text": "QWIIC 12C",
+      "confidence": 0.96956,
+      "bbox": [
+        433.0,
+        516.5,
+        513.5,
+        538.5
+      ],
+      "source_text_id": "text_0106",
+      "source_view": "tile_0_59_r90",
+      "label": "QWIIC 12C",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "QWIIC 12C"
+      ],
+      "alternatives": [
+        {
+          "text": "QWIIC 12C",
+          "confidence": 0.96956,
+          "bbox": [
+            433.0,
+            516.5,
+            513.5,
+            538.5
+          ],
+          "source_text_id": "text_0106",
+          "source_view": "tile_0_59_r90",
+          "label": "QWIIC 12C"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "QWIIC 12C": 1
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00031",
+      "text": "C",
+      "confidence": 0.97232,
+      "bbox": [
+        39.0,
+        526.0,
+        47.0,
+        536.0
+      ],
+      "source_text_id": "text_0107",
+      "source_view": "tile_0_59_r0",
+      "label": "C",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "C"
+      ],
+      "alternatives": [
+        {
+          "text": "C",
+          "confidence": 0.97232,
+          "bbox": [
+            39.0,
+            526.0,
+            47.0,
+            536.0
+          ],
+          "source_text_id": "text_0107",
+          "source_view": "tile_0_59_r0",
+          "label": "C"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "C": 1
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00032",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        490.0,
+        589.0,
+        509.5,
+        600.5
+      ],
+      "source_text_id": "text_0113",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            589.0,
+            509.5,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            587.5,
+            510.0,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            589.0,
+            509.5,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            587.5,
+            510.0,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            589.0,
+            509.5,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            490.0,
+            587.5,
+            510.0,
+            600.5
+          ],
+          "source_text_id": "text_0113",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00033",
+      "text": "SCLD",
+      "confidence": 0.99884,
+      "bbox": [
+        403.0,
+        599.0,
+        427.0,
+        610.0
+      ],
+      "source_text_id": "text_0117",
+      "source_view": "tile_0_0_r0",
+      "label": "SCLD",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "SCLD"
+      ],
+      "alternatives": [
+        {
+          "text": "SCLD",
+          "confidence": 0.99884,
+          "bbox": [
+            403.0,
+            599.0,
+            427.0,
+            610.0
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_0_0_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99847,
+          "bbox": [
+            403.0,
+            599.0,
+            427.5,
+            610.0
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_402_0_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99786,
+          "bbox": [
+            403.0,
+            599.5,
+            427.0,
+            610.5
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_0_59_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99772,
+          "bbox": [
+            402.0,
+            597.5,
+            428.0,
+            610.5
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_402_0_r90",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99757,
+          "bbox": [
+            403.0,
+            599.5,
+            427.5,
+            610.5
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_402_59_r0",
+          "label": "SCLD"
+        },
+        {
+          "text": "SCLD",
+          "confidence": 0.99742,
+          "bbox": [
+            402.0,
+            597.5,
+            428.5,
+            610.5
+          ],
+          "source_text_id": "text_0117",
+          "source_view": "tile_0_0_r90",
+          "label": "SCLD"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SCLD": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00034",
+      "text": "SDA",
+      "confidence": 0.99931,
+      "bbox": [
+        402.5,
+        608.5,
+        427.0,
+        621.0
+      ],
+      "source_text_id": "text_0119",
+      "source_view": "tile_402_59_r0",
+      "label": "SDA",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "SDA"
+      ],
+      "alternatives": [
+        {
+          "text": "SDA",
+          "confidence": 0.99931,
+          "bbox": [
+            402.5,
+            608.5,
+            427.0,
+            621.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_402_59_r0",
+          "label": "SDA"
+        },
+        {
+          "text": "SDA",
+          "confidence": 0.99923,
+          "bbox": [
+            402.0,
+            607.5,
+            428.0,
+            620.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_0_59_r90",
+          "label": "SDA"
+        },
+        {
+          "text": "SDA",
+          "confidence": 0.99921,
+          "bbox": [
+            402.5,
+            608.5,
+            427.5,
+            621.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_0_59_r0",
+          "label": "SDA"
+        },
+        {
+          "text": "SDA",
+          "confidence": 0.99919,
+          "bbox": [
+            402.0,
+            608.5,
+            427.5,
+            621.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_0_0_r0",
+          "label": "SDA"
+        },
+        {
+          "text": "SDA",
+          "confidence": 0.99919,
+          "bbox": [
+            402.0,
+            607.5,
+            427.5,
+            620.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_0_0_r90",
+          "label": "SDA"
+        },
+        {
+          "text": "SDA",
+          "confidence": 0.99919,
+          "bbox": [
+            402.0,
+            608.5,
+            427.5,
+            621.0
+          ],
+          "source_text_id": "text_0119",
+          "source_view": "tile_402_0_r0",
+          "label": "SDA"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SDA": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00035",
+      "text": "D1213A",
+      "confidence": 0.99983,
+      "bbox": [
+        508.0,
+        635.0,
+        541.5,
+        647.5
+      ],
+      "source_text_id": "text_0122",
+      "source_view": "tile_402_0_r90",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            508.0,
+            635.0,
+            541.5,
+            647.5
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99982,
+          "bbox": [
+            507.5,
+            635.5,
+            541.5,
+            648.0
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.9998,
+          "bbox": [
+            508.0,
+            635.0,
+            541.0,
+            647.0
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_402_59_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99979,
+          "bbox": [
+            508.0,
+            636.0,
+            541.5,
+            648.0
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99979,
+          "bbox": [
+            508.0,
+            636.0,
+            541.5,
+            648.0
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99979,
+          "bbox": [
+            508.0,
+            636.0,
+            541.5,
+            648.0
+          ],
+          "source_text_id": "text_0122",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00036",
+      "text": "D1213A",
+      "confidence": 0.9999,
+      "bbox": [
+        458.0,
+        637.0,
+        491.0,
+        647.5
+      ],
+      "source_text_id": "text_0124",
+      "source_view": "tile_0_0_r0",
+      "label": "D1213A",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D1213A"
+      ],
+      "alternatives": [
+        {
+          "text": "D1213A",
+          "confidence": 0.9999,
+          "bbox": [
+            458.0,
+            637.0,
+            491.0,
+            647.5
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_0_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99989,
+          "bbox": [
+            458.5,
+            637.0,
+            491.0,
+            647.5
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_402_0_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99986,
+          "bbox": [
+            457.5,
+            636.0,
+            491.5,
+            648.0
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_0_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99986,
+          "bbox": [
+            457.5,
+            636.0,
+            491.5,
+            648.0
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_402_59_r0",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99983,
+          "bbox": [
+            458.0,
+            635.0,
+            491.5,
+            647.5
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_0_0_r90",
+          "label": "D1213A"
+        },
+        {
+          "text": "D1213A",
+          "confidence": 0.99981,
+          "bbox": [
+            458.0,
+            635.5,
+            491.5,
+            648.0
+          ],
+          "source_text_id": "text_0124",
+          "source_view": "tile_402_0_r90",
+          "label": "D1213A"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D1213A": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00037",
+      "text": "QWIIC",
+      "confidence": 0.99214,
+      "bbox": [
+        562.5,
+        649.5,
+        587.0,
+        660.5
+      ],
+      "source_text_id": "text_0125",
+      "source_view": "tile_402_0_r0",
+      "label": "QWIIC",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "QWIIC"
+      ],
+      "alternatives": [
+        {
+          "text": "QWIIC",
+          "confidence": 0.99214,
+          "bbox": [
+            562.5,
+            649.5,
+            587.0,
+            660.5
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_402_0_r0",
+          "label": "QWIIC"
+        },
+        {
+          "text": "QWIIC",
+          "confidence": 0.99214,
+          "bbox": [
+            562.5,
+            649.5,
+            587.0,
+            660.5
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_402_59_r0",
+          "label": "QWIIC"
+        },
+        {
+          "text": "QWIIC",
+          "confidence": 0.98639,
+          "bbox": [
+            562.5,
+            649.5,
+            587.0,
+            660.0
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_0_0_r0",
+          "label": "QWIIC"
+        },
+        {
+          "text": "QWIIC",
+          "confidence": 0.98639,
+          "bbox": [
+            562.5,
+            649.5,
+            587.0,
+            660.0
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_0_59_r0",
+          "label": "QWIIC"
+        },
+        {
+          "text": "QWIIC",
+          "confidence": 0.98219,
+          "bbox": [
+            562.5,
+            647.5,
+            587.5,
+            660.0
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_402_0_r90",
+          "label": "QWIIC"
+        },
+        {
+          "text": "QWIIC",
+          "confidence": 0.98219,
+          "bbox": [
+            562.5,
+            647.5,
+            587.5,
+            660.0
+          ],
+          "source_text_id": "text_0125",
+          "source_view": "tile_0_59_r90",
+          "label": "QWIIC"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "QWIIC": 8
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00038",
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        540.0,
+        664.0,
+        559.5,
+        675.5
+      ],
+      "source_text_id": "text_0128",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            540.0,
+            664.0,
+            559.5,
+            675.5
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            540.0,
+            664.0,
+            559.5,
+            675.5
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            540.0,
+            664.0,
+            559.5,
+            675.5
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99994,
+          "bbox": [
+            540.0,
+            664.0,
+            559.5,
+            675.5
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "tile_402_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            540.5,
+            663.5,
+            559.5,
+            674.5
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            540.0,
+            663.0,
+            561.0,
+            678.0
+          ],
+          "source_text_id": "text_0128",
+          "source_view": "global",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00039",
+      "text": "GND",
+      "confidence": 0.99993,
+      "bbox": [
+        439.0,
+        668.0,
+        460.0,
+        683.0
+      ],
+      "source_text_id": "text_0129",
+      "source_view": "global",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99993,
+          "bbox": [
+            439.0,
+            668.0,
+            460.0,
+            683.0
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "global",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            438.5,
+            667.0,
+            460.5,
+            681.0
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99988,
+          "bbox": [
+            440.0,
+            668.5,
+            459.5,
+            680.0
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "tile_402_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            440.0,
+            669.0,
+            459.5,
+            680.5
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99986,
+          "bbox": [
+            440.0,
+            669.0,
+            459.5,
+            680.5
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            440.5,
+            669.0,
+            459.5,
+            680.5
+          ],
+          "source_text_id": "text_0129",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00040",
+      "text": "GND",
+      "confidence": 0.99983,
+      "bbox": [
+        490.5,
+        669.0,
+        509.5,
+        680.5
+      ],
+      "source_text_id": "text_0130",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            490.5,
+            669.0,
+            509.5,
+            680.5
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            490.5,
+            669.0,
+            509.5,
+            680.5
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_402_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            490.5,
+            669.0,
+            509.5,
+            680.5
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_0_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99983,
+          "bbox": [
+            490.5,
+            669.0,
+            509.5,
+            680.5
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_402_59_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99978,
+          "bbox": [
+            491.0,
+            668.0,
+            509.0,
+            679.0
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_0_59_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99978,
+          "bbox": [
+            491.0,
+            668.0,
+            509.0,
+            679.0
+          ],
+          "source_text_id": "text_0130",
+          "source_view": "tile_402_59_r90",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00041",
+      "text": "High5Dynamlcs",
+      "confidence": 0.98799,
+      "bbox": [
+        699.5,
+        702.0,
+        767.5,
+        715.5
+      ],
+      "source_text_id": "text_0131",
+      "source_view": "tile_0_0_r0",
+      "label": "High5Dynamlcs",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "High5Dynamlcs"
+      ],
+      "alternatives": [
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.98799,
+          "bbox": [
+            699.5,
+            702.0,
+            767.5,
+            715.5
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "tile_0_0_r0",
+          "label": "High5Dynamlcs"
+        },
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.97624,
+          "bbox": [
+            699.0,
+            702.0,
+            767.5,
+            715.5
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "tile_0_59_r0",
+          "label": "High5Dynamlcs"
+        },
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.97487,
+          "bbox": [
+            699.0,
+            702.0,
+            771.0,
+            716.0
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "global",
+          "label": "High5Dynamlcs"
+        },
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.96935,
+          "bbox": [
+            699.0,
+            702.0,
+            770.5,
+            715.5
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "tile_402_0_r0",
+          "label": "High5Dynamlcs"
+        },
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.96935,
+          "bbox": [
+            699.0,
+            702.0,
+            770.5,
+            715.5
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "tile_402_59_r0",
+          "label": "High5Dynamlcs"
+        },
+        {
+          "text": "High5Dynamlcs",
+          "confidence": 0.96349,
+          "bbox": [
+            698.0,
+            701.0,
+            770.5,
+            714.5
+          ],
+          "source_text_id": "text_0131",
+          "source_view": "tile_402_59_r90",
+          "label": "High5Dynamlcs"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "High5Dynamlcs": 9
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00042",
+      "text": "D",
+      "confidence": 0.97376,
+      "bbox": [
+        39.0,
+        723.0,
+        47.0,
+        733.0
+      ],
+      "source_text_id": "text_0133",
+      "source_view": "tile_0_0_r0",
+      "label": "D",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D"
+      ],
+      "alternatives": [
+        {
+          "text": "D",
+          "confidence": 0.97376,
+          "bbox": [
+            39.0,
+            723.0,
+            47.0,
+            733.0
+          ],
+          "source_text_id": "text_0133",
+          "source_view": "tile_0_0_r0",
+          "label": "D"
+        },
+        {
+          "text": "D",
+          "confidence": 0.97376,
+          "bbox": [
+            39.0,
+            723.0,
+            47.0,
+            733.0
+          ],
+          "source_text_id": "text_0133",
+          "source_view": "tile_0_59_r0",
+          "label": "D"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D": 2
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00043",
+      "text": "D",
+      "confidence": 0.99837,
+      "bbox": [
+        1122.5,
+        724.0,
+        1129.0,
+        732.0
+      ],
+      "source_text_id": "text_0136",
+      "source_view": "tile_402_0_r0",
+      "label": "D",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "D"
+      ],
+      "alternatives": [
+        {
+          "text": "D",
+          "confidence": 0.99837,
+          "bbox": [
+            1122.5,
+            724.0,
+            1129.0,
+            732.0
+          ],
+          "source_text_id": "text_0136",
+          "source_view": "tile_402_0_r0",
+          "label": "D"
+        },
+        {
+          "text": "D",
+          "confidence": 0.99177,
+          "bbox": [
+            1122.0,
+            723.5,
+            1130.0,
+            732.5
+          ],
+          "source_text_id": "text_0136",
+          "source_view": "tile_402_59_r0",
+          "label": "D"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "D": 2
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00044",
+      "text": "Controller",
+      "confidence": 0.99992,
+      "bbox": [
+        733.0,
+        738.5,
+        797.0,
+        752.0
+      ],
+      "source_text_id": "text_0139",
+      "source_view": "tile_402_0_r90",
+      "label": "Controller",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "Controller"
+      ],
+      "alternatives": [
+        {
+          "text": "Controller",
+          "confidence": 0.99992,
+          "bbox": [
+            733.0,
+            738.5,
+            797.0,
+            752.0
+          ],
+          "source_text_id": "text_0139",
+          "source_view": "tile_402_0_r90",
+          "label": "Controller"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Controller": 1
+      },
+      "spelling_selected_by_observed_view_votes": false,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00045",
+      "text": "KiCad E.D.A.",
+      "confidence": 0.99776,
+      "bbox": [
+        699.0,
+        763.5,
+        759.0,
+        777.0
+      ],
+      "source_text_id": "text_0144",
+      "source_view": "tile_0_59_r90",
+      "label": "KiCad E.D.A.",
+      "coordinate_origin": "top_left",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "observed_spellings": [
+        "KiCad E.D.A.",
+        "kicad-cli 7.0.10"
+      ],
+      "alternatives": [
+        {
+          "text": "KiCad E.D.A.",
+          "confidence": 0.99776,
+          "bbox": [
+            699.0,
+            763.5,
+            759.0,
+            777.0
+          ],
+          "source_text_id": "text_0144",
+          "source_view": "tile_0_59_r90",
+          "label": "KiCad E.D.A."
+        },
+        {
+          "text": "KiCad E.D.A.",
+          "confidence": 0.99769,
+          "bbox": [
+            699.0,
+            763.5,
+            760.0,
+            777.0
+          ],
+          "source_text_id": "text_0144",
+          "source_view": "tile_402_59_r90",
+          "label": "KiCad E.D.A."
+        },
+        {
+          "text": "KiCad E.D.A.",
+          "confidence": 0.9886,
+          "bbox": [
+            699.5,
+            765.0,
+            758.5,
+            777.0
+          ],
+          "source_text_id": "text_0144",
+          "source_view": "tile_402_59_r0",
+          "label": "KiCad E.D.A."
+        },
+        {
+          "text": "kicad-cli 7.0.10",
+          "confidence": 0.97414,
+          "bbox": [
+            761.5,
+            765.0,
+            840.5,
+            776.5
+          ],
+          "source_text_id": "text_0146",
+          "source_view": "tile_402_59_r90",
+          "label": "kicad-cli 7.0.10"
+        },
+        {
+          "text": "kicad-cli 7.0.10",
+          "confidence": 0.9729,
+          "bbox": [
+            762.0,
+            764.5,
+            840.0,
+            776.5
+          ],
+          "source_text_id": "text_0146",
+          "source_view": "tile_402_59_r0",
+          "label": "kicad-cli 7.0.10"
+        },
+        {
+          "text": "KiCad E.D.A.",
+          "confidence": 0.96135,
+          "bbox": [
+            699.0,
+            765.0,
+            767.0,
+            777.0
+          ],
+          "source_text_id": "text_0144",
+          "source_view": "tile_0_59_r0",
+          "label": "KiCad E.D.A."
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "KiCad E.D.A.": 4,
+        "kicad-cli 7.0.10": 2
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    }
+  ],
+  "label_merge_decisions": [],
+  "original_physical_edge_geometry_preserved": true,
+  "power_label_merges": 0,
+  "cross_image_merges": 0,
+  "fuzzy_label_matches": 0,
+  "physical_graph_input_sha256": "be4f5bf3d8fcb18ef69b1e4e774780f9c4f9bf7404780a5df3a98d7387b37d8f",
+  "OCR_input_sha256": "ce86c4ffe39a6d4f81bca70ef2535031c4dced817429bc072bb0f57838eef562",
+  "label_config_sha256": "48066297b7920648d8f6da2b1a535897250d25ba1f89869cc1fbc51b67ddeeac"
+}

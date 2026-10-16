@@ -1,0 +1,1619 @@
+{
+  "completed": true,
+  "cases": [
+    {
+      "case_id": "0002",
+      "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "size": [
+        1127,
+        509
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "651bce8a1fbd3d3beebda2fe9a5fffe07ad410b83a8260610b7635867839d3aa",
+      "OCR_input_sha256": "4a61f51b2ea1340ccf98b1c8ad781904bc78738885c588bb8be3c2f416dd22ef",
+      "records_input_sha256": "5e67baec6331aab9b03437bd6292256096b8efb41adbe59ba9f2057dc769e45a",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 21,
+        "number_available_count": 21,
+        "name_available_count": 8,
+        "number_and_name_available_count": 7,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 8,
+        "exported_pins": 7,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_name_unresolved": 21,
+          "pin_number_unresolved": 8,
+          "component_identity_unresolved": 5
+        }
+      },
+      "candidate": {
+        "exported_components": 8,
+        "exported_pins": 21,
+        "exported_nets": 1,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 8,
+          "pin_name_unresolved": 7,
+          "component_identity_unresolved": 5
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.32941819995176047
+    },
+    {
+      "case_id": "0007",
+      "image_sha256": "aca413e60495e7d6ca27ea63d9af11e330b3ffedb21d43488ebcd747491a5b99",
+      "size": [
+        1052,
+        642
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "a3537bc97054f42bedfc433f9e9e0dec4ddc464b810555e924bbbebf5722ee6c",
+      "OCR_input_sha256": "caf5699ffa70a9a1c2b9bbdbd4a826d358b43d5375550a2f6a590b1334484b92",
+      "records_input_sha256": "7e269ce0cf448ae9631a43a58e66bf4408c176483bb58e048c6dea245eb76c8e",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 16,
+        "number_available_count": 16,
+        "name_available_count": 22,
+        "number_and_name_available_count": 9,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 5,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 75,
+          "pin_number_unresolved": 62,
+          "pin_name_unresolved": 56
+        }
+      },
+      "candidate": {
+        "exported_components": 5,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 75,
+          "pin_number_unresolved": 62,
+          "pin_name_unresolved": 56
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 1.0170358000323176
+    },
+    {
+      "case_id": "0012",
+      "image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "size": [
+        1405,
+        910
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "ce8995603bcaf34998a9e0e63a0a965c25e3ed67e97ea19963e644541958734d",
+      "OCR_input_sha256": "e578aac20b73fb53de8673e845749579fef4290b911445f8a03f765a37d8fdcc",
+      "records_input_sha256": "ab83f9008bca7d2aac1cb5457d9d61122c15dbe5dbf5d64fef7892f0f859c71b",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 33,
+        "number_available_count": 33,
+        "name_available_count": 37,
+        "number_and_name_available_count": 31,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 18,
+        "exported_pins": 31,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 36,
+          "pin_number_unresolved": 74,
+          "pin_name_unresolved": 70
+        }
+      },
+      "candidate": {
+        "exported_components": 18,
+        "exported_pins": 31,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 36,
+          "pin_number_unresolved": 74,
+          "pin_name_unresolved": 70
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 2.4042571999598294
+    },
+    {
+      "case_id": "0018",
+      "image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "size": [
+        1604,
+        664
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "d496f18beb7a5d044c42f40a8c2aeef75d1eae7836137e2ef3d6a2b95eb7504c",
+      "OCR_input_sha256": "b8abce81b9d2b1d1ed1bfdeacf439150200039e7888a40b9230af57b21f2a55e",
+      "records_input_sha256": "bd2c3e6ad422bc9f5da7201b58085f8c016f79a592c2fdede5211462eafa1a84",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 1,
+        "numbers_added_from_library": 19,
+        "invalid_numbers_withheld": 1,
+        "missing_names_added": 4,
+        "partial_names_completed": 1,
+        "number_observed_OCR_count": 57,
+        "number_available_count": 76,
+        "name_available_count": 67,
+        "number_and_name_available_count": 63,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [
+        {
+          "component_id": "U1",
+          "detection_index": 3,
+          "model": "STM32F103C8T6",
+          "package": "LQFP48",
+          "candidates": 49,
+          "validated_name_number_pairs": 40
+        }
+      ],
+      "conservative": {
+        "exported_components": 19,
+        "exported_pins": 58,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 37,
+          "pin_number_unresolved": 56,
+          "pin_name_unresolved": 65
+        }
+      },
+      "candidate": {
+        "exported_components": 19,
+        "exported_pins": 59,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 37,
+          "pin_number_unresolved": 56,
+          "pin_name_unresolved": 64
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 3.061253400053829
+    },
+    {
+      "case_id": "0022",
+      "image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "size": [
+        992,
+        443
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "8fe4de6ef345b860dc00bf61dbabae66b51cdca3573881c81cf988d277c3290b",
+      "OCR_input_sha256": "c4d7337bbfdf33f15b64e18e0b69bd19f2ff47156d504afd057cecb908fd9353",
+      "records_input_sha256": "3aa2437dae6f13a328e62a7f8a3e67a2f8ee99a0376014a016dac501cfaecdc2",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 1,
+        "number_available_count": 1,
+        "name_available_count": 0,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 12,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 20,
+          "pin_number_unresolved": 36,
+          "pin_name_unresolved": 37
+        }
+      },
+      "candidate": {
+        "exported_components": 12,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 20,
+          "pin_number_unresolved": 36,
+          "pin_name_unresolved": 37
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.2952542999992147
+    },
+    {
+      "case_id": "0026",
+      "image_sha256": "815f9abaf12280c0b305cce85d2512580e605cbaba4d0d185787aef046220da1",
+      "size": [
+        711,
+        628
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "f537f36862a4ef81fc95557508dcfc59ea162b7a10c6b6856ec74a5faaedad94",
+      "OCR_input_sha256": "759b89f8442641ca91c022b632fdab1f15d6800aab596a82d5f28be0d70dd61a",
+      "records_input_sha256": "66962290de1e167e505968e50b60cab88ac1a63b6fb05368227b051fe9c8b806",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 10,
+        "number_available_count": 10,
+        "name_available_count": 12,
+        "number_and_name_available_count": 9,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 80,
+          "pin_number_unresolved": 70,
+          "pin_name_unresolved": 68
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 80,
+          "pin_number_unresolved": 70,
+          "pin_name_unresolved": 68
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.4307683000806719
+    },
+    {
+      "case_id": "0029",
+      "image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "size": [
+        1094,
+        792
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "8a16bacc5f5691e84e6188b0494bbfc8f289bd76d7f722b0f3ae39a4a90d4764",
+      "OCR_input_sha256": "0f70b18f60cfa987ebfd5744bed55538e3881542e25bf6803f284d31756bb82b",
+      "records_input_sha256": "554b509fcb9f3d8e4ae93a78cdbe8b2afa3a0e94916cd06437d21cf0704bdd7c",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 24,
+        "number_available_count": 24,
+        "name_available_count": 27,
+        "number_and_name_available_count": 20,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 82,
+          "pin_number_unresolved": 58,
+          "pin_name_unresolved": 55
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 82,
+          "pin_number_unresolved": 58,
+          "pin_name_unresolved": 55
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 1.385790300089866
+    },
+    {
+      "case_id": "0033",
+      "image_sha256": "6a5aea8137fd23ace9038f881f859e00275d2d40e5b11f53f7aca5952ea92a5a",
+      "size": [
+        659,
+        442
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "3269fd0d19c1e635dfd8aa854c8bb1b086d56db094181002e536ba3def9bd75c",
+      "OCR_input_sha256": "b5002596fd1d769db440928d7e3526f5c42918b92f69a521020dd2d1f20ed016",
+      "records_input_sha256": "5f0e9e531ff1549265c1fdb9fe8f8ee444d9af7cc38f179533c87425d92c7a06",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 1,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 2,
+        "exported_pins": 2,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 40,
+          "pin_number_unresolved": 39,
+          "pin_name_unresolved": 39
+        }
+      },
+      "candidate": {
+        "exported_components": 2,
+        "exported_pins": 2,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 40,
+          "pin_number_unresolved": 39,
+          "pin_name_unresolved": 39
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.19828939996659756
+    },
+    {
+      "case_id": "0036",
+      "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+      "size": [
+        832,
+        376
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "8a7f127efa850059e48dd8ce4b557c9eff9449febaf4f83d4ba45d8dbde002d4",
+      "OCR_input_sha256": "45e90adf80e752dcf8f117a04db3d9bd11a66b6c22f5131465e390a625ae57eb",
+      "records_input_sha256": "8dd8de629396016220544d220b9c2bee4e895c03849f6dde52655df64d0625bf",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 7,
+        "number_available_count": 7,
+        "name_available_count": 6,
+        "number_and_name_available_count": 6,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 10,
+        "exported_pins": 7,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 22,
+          "pin_name_unresolved": 23,
+          "component_identity_unresolved": 8
+        }
+      },
+      "candidate": {
+        "exported_components": 10,
+        "exported_pins": 7,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 22,
+          "pin_name_unresolved": 23,
+          "component_identity_unresolved": 8
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.19580999994650483
+    },
+    {
+      "case_id": "0042",
+      "image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "size": [
+        546,
+        294
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "a6256ee7d97c3785af361de2308ea86fbe6676128eef0b886dbe472b37342f8d",
+      "OCR_input_sha256": "787c6a7e110b14bb579fd650c3c563aa9dfc78d1adc40f01cc82fa7168a74b15",
+      "records_input_sha256": "c1feae284dcdbafa093c5bb3c875fad1a30a4d79b8bc297215d316abe61acbe0",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 9,
+        "number_available_count": 9,
+        "name_available_count": 19,
+        "number_and_name_available_count": 9,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 6,
+        "exported_pins": 1,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 44,
+          "pin_number_unresolved": 40,
+          "pin_name_unresolved": 30
+        }
+      },
+      "candidate": {
+        "exported_components": 6,
+        "exported_pins": 1,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 44,
+          "pin_number_unresolved": 40,
+          "pin_name_unresolved": 30
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.2996254999889061
+    },
+    {
+      "case_id": "0049",
+      "image_sha256": "19675ac0d651573c2c9e4ef76c0977e6ffa2ac2eca15c589f399a908b7a93d96",
+      "size": [
+        1144,
+        821
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "1b2dc4619b332dea8e02104ee4bae98bb0ba81a07cff521c6b24187f439de0bd",
+      "OCR_input_sha256": "f0e6d773ef3f2f2d1d84de9a85308d7d4ade9f377301d97fe2e38ec0195ad6a0",
+      "records_input_sha256": "6706d34b42b5a16667164fd3a27bd34a038fb62323a0c90dc9ef135572533580",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 16,
+        "number_available_count": 16,
+        "name_available_count": 19,
+        "number_and_name_available_count": 16,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 19,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 35,
+          "pin_number_unresolved": 56,
+          "pin_name_unresolved": 53
+        }
+      },
+      "candidate": {
+        "exported_components": 19,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 35,
+          "pin_number_unresolved": 56,
+          "pin_name_unresolved": 53
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 1.020883799996227
+    },
+    {
+      "case_id": "0096",
+      "image_sha256": "c5c8a75d2b5a7647cfe2796a78a9fc1c0588b4af2f86d63d0938fe1330d98d1e",
+      "size": [
+        1420,
+        961
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "51a33b9721726e4e4711c017a8635e6545cf244d4c8cd079b5242ee80c08e88e",
+      "OCR_input_sha256": "4c038e25f09db45c11ba4ed0a0d2f86fb41a97cae71ccbf0fba0d3941ceb5345",
+      "records_input_sha256": "455aab2bea65fbedf31bb309d2346bc0640c3cdd4b7abf79644e901348c7efee",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 8,
+        "number_available_count": 8,
+        "name_available_count": 12,
+        "number_and_name_available_count": 5,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 58,
+          "pin_number_unresolved": 50,
+          "pin_name_unresolved": 46
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 58,
+          "pin_number_unresolved": 50,
+          "pin_name_unresolved": 46
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.6393893999047577
+    },
+    {
+      "case_id": "0105",
+      "image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "size": [
+        1190,
+        845
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "c7501566f70dbfca68de813ef5bf7fea84c39732b26748dc3bfbf92e669acc59",
+      "OCR_input_sha256": "f2ba2378916ad4b8b0540abebffa6ad8fc9f6d797768524441c4d711c73475f0",
+      "records_input_sha256": "4c49ad1746069dd7ab8efc83c517a59ea98e77d9acdca434932748d1913aa88d",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 8,
+        "number_available_count": 8,
+        "name_available_count": 10,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 23,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 82,
+          "pin_name_unresolved": 80,
+          "component_identity_unresolved": 41
+        }
+      },
+      "candidate": {
+        "exported_components": 23,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 82,
+          "pin_name_unresolved": 80,
+          "component_identity_unresolved": 41
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 2.001459600054659
+    },
+    {
+      "case_id": "0131",
+      "image_sha256": "b8fd483ef4e50663d31651d7a0f0e5f8808ba52071685824cf7be17dda9beb46",
+      "size": [
+        1190,
+        845
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "a51261a8b97bb7bc1b84807404d56904ca8d7adab81346beccd300e39ae29872",
+      "OCR_input_sha256": "a42f1bc7995632fad43a83744648675f793e0b97a9843d5b94b04b0209e7619a",
+      "records_input_sha256": "b5257fc1cb1a1c4d4a339fb55411c243d358d14e25e9ab0e7a9cabbb0055d69b",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 1,
+        "number_available_count": 1,
+        "name_available_count": 3,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 10,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 27,
+          "component_identity_unresolved": 6,
+          "pin_name_unresolved": 25
+        }
+      },
+      "candidate": {
+        "exported_components": 10,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 27,
+          "component_identity_unresolved": 6,
+          "pin_name_unresolved": 25
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.4180292000528425
+    },
+    {
+      "case_id": "0148",
+      "image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+      "size": [
+        1190,
+        845
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "e9e42dca6dc6658c34015fb5386676b0a478123020cfbf4a4eb921b3d223e3a1",
+      "OCR_input_sha256": "3e311241bef6cbab42a270319edd1417695a96b75dd135c09d32b82d8f077e75",
+      "records_input_sha256": "aa1d90af19d737fcc73649dd02a42332a2d4c85b8960072cdfadbe6c27cf453b",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 9,
+        "number_available_count": 9,
+        "name_available_count": 7,
+        "number_and_name_available_count": 4,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 23,
+        "exported_pins": 5,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 63,
+          "pin_name_unresolved": 65,
+          "component_identity_unresolved": 30
+        }
+      },
+      "candidate": {
+        "exported_components": 23,
+        "exported_pins": 5,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 63,
+          "pin_name_unresolved": 65,
+          "component_identity_unresolved": 30
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 1.304157100035809
+    },
+    {
+      "case_id": "0149",
+      "image_sha256": "b2ae05107bad10e093d54f57972c177e4d24d375a7f1e37ffed37d0d9e022da1",
+      "size": [
+        1190,
+        845
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "ffaa767f010111487e60801ad6c37bf6ba264418e309a9b63a19900bad81f487",
+      "OCR_input_sha256": "ada9bffb3064ac26695747e9a148fe8782fdbdcbce3a22d7701e7877a54c05fc",
+      "records_input_sha256": "82279b6e86ada1b8b561820206b42767826ba79e6786b09a74b87c7cad070dda",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 6,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 10,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 30,
+          "pin_name_unresolved": 24,
+          "component_identity_unresolved": 7
+        }
+      },
+      "candidate": {
+        "exported_components": 10,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 30,
+          "pin_name_unresolved": 24,
+          "component_identity_unresolved": 7
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.6725442000897601
+    },
+    {
+      "case_id": "0170",
+      "image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "size": [
+        1190,
+        845
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "c6c2be1d77d2ee28b6f274973cd7d8bb07f842ebf2093121ca1eecff52d34fc3",
+      "OCR_input_sha256": "c6026e2d62c442761494059d0883bb1d2a637f537ff4dc280d4e3cbf8e83da47",
+      "records_input_sha256": "a7f9958ea1988e09c72e3fb9a721c188676e6e562638c25ea23251f586d8948f",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 47,
+        "number_available_count": 47,
+        "name_available_count": 16,
+        "number_and_name_available_count": 5,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 31,
+        "exported_pins": 5,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 209,
+          "pin_name_unresolved": 244,
+          "component_identity_unresolved": 146
+        }
+      },
+      "candidate": {
+        "exported_components": 31,
+        "exported_pins": 5,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "pin_number_unresolved": 209,
+          "pin_name_unresolved": 244,
+          "component_identity_unresolved": 146
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 5.800680099986494
+    },
+    {
+      "case_id": "0208",
+      "image_sha256": "d0e8d66a78b7bad40bbe3a2570336686c73282b9b08ab456ce394840d4b56b12",
+      "size": [
+        1170,
+        827
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "cd97b875b3d0839ca10af8893f7e68a5e6dd78017bcda022d0c8c4f15ad4f9cf",
+      "OCR_input_sha256": "ce86c4ffe39a6d4f81bca70ef2535031c4dced817429bc072bb0f57838eef562",
+      "records_input_sha256": "2b683c24bd3d2da073a45d2855d92a54ff6f0632e5b397bb7617cec24198a9bf",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 0,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 14,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {}
+      },
+      "candidate": {
+        "exported_components": 14,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {}
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 1.527676200028509
+    },
+    {
+      "case_id": "0213",
+      "image_sha256": "42e642e14c769ceec5800d44b0f567da84deff74ebb06c4be7bfd7f8a0f5444e",
+      "size": [
+        672,
+        595
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "d7ca79f99a374c1f701f94b71daa122160274cf9a768397108789fb821a600ea",
+      "OCR_input_sha256": "3e46713ec4a96d35836a019fbbc74604e8ad71f46e06b49cc0fde6fa00fc63cb",
+      "records_input_sha256": "bbffcc83860aeba3cc48032c3b99ef538533f5aeaf61a89929758d987e0ac7d6",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 2,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 29,
+          "pin_number_unresolved": 29,
+          "pin_name_unresolved": 27
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 29,
+          "pin_number_unresolved": 29,
+          "pin_name_unresolved": 27
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.1787391999969259
+    },
+    {
+      "case_id": "0227",
+      "image_sha256": "c01500d295ac7836b6ea4a86d83341f59afcd77347effde52539081ae2a43e99",
+      "size": [
+        1359,
+        522
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "7134c53c15518bf3d43b6ca2de08ab1e4c19ec0659c91a0d7bd5f0f32476d9eb",
+      "OCR_input_sha256": "471d24c59b996ade15cf0a844b766d9e75e75c48a223d9ae838d64dd4293f8dc",
+      "records_input_sha256": "0c55c71c0218750b096bbe7d0553d64f76fceb48d9200abcf38e4b8809746f4f",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 6,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 30,
+          "pin_number_unresolved": 30,
+          "pin_name_unresolved": 24
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 30,
+          "pin_number_unresolved": 30,
+          "pin_name_unresolved": 24
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.21956140000838786
+    },
+    {
+      "case_id": "0236",
+      "image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+      "size": [
+        1008,
+        658
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "2b7e1c7acabc4315d173d5ea58196f535ff582ae01ff78c38a67c111c2d244d5",
+      "OCR_input_sha256": "747743eb3619fbb0d14fd273655ff489fc7528c36d41ef80096cde3233f59799",
+      "records_input_sha256": "54f2b3b7acfcc1ce76123790c8ed96ad74cc35c5a7105ac2c912cf4d7a9f631f",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 5,
+        "number_available_count": 5,
+        "name_available_count": 7,
+        "number_and_name_available_count": 5,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 23,
+          "pin_number_unresolved": 18,
+          "pin_name_unresolved": 16
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 23,
+          "pin_number_unresolved": 18,
+          "pin_name_unresolved": 16
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.2244738000445068
+    },
+    {
+      "case_id": "0240",
+      "image_sha256": "edcf4b131309cc5cd349ab44ebdb44782977ffcb782819a63653dd8c01824b8c",
+      "size": [
+        1097,
+        489
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "363803b8a2b5d50ff6f02f77622fc6bf4f2578c1cd38b8f2ed63d4755d1d72ca",
+      "OCR_input_sha256": "eeb0129f9ea6210a8f7ec7ee04fc89e5c539dcff2c006cd2c37b4e8db35135dc",
+      "records_input_sha256": "35000dcc02dc5ae32265f40fc11fce3ec501767e71c5f630aeb605681ad0b7ef",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 8,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 23,
+          "pin_number_unresolved": 23,
+          "pin_name_unresolved": 15
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 23,
+          "pin_number_unresolved": 23,
+          "pin_name_unresolved": 15
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.2526517000515014
+    },
+    {
+      "case_id": "0264",
+      "image_sha256": "a37816e5f8eea79d9e9812e5afadaafc8e2295ec05406d793c367f44a0736536",
+      "size": [
+        1089,
+        581
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "002e42642c8d1c7d1081f101fc39e2fee09f23c282581275cc4b190610457ace",
+      "OCR_input_sha256": "9c54f3a444f452f774f7f4e671c3bd9590ee2f84f584f776ecd850167c129b20",
+      "records_input_sha256": "2f93d5c5885c8900770ef380603036f724fe08aec437fa16726e1499690c9f85",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 0,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 3,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 19,
+          "pin_number_unresolved": 25,
+          "pin_name_unresolved": 25
+        }
+      },
+      "candidate": {
+        "exported_components": 3,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 19,
+          "pin_number_unresolved": 25,
+          "pin_name_unresolved": 25
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.22840829996857792
+    },
+    {
+      "case_id": "0267",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "size": [
+        491,
+        350
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "af933a6cc9b1f6989666a20fd429509446b9ce2cc89167b0b6217cad511f454b",
+      "OCR_input_sha256": "e91ad6c1d80a34dc0ea05ea98b62561da50e1074b5eedeb0b275abb4173ccee6",
+      "records_input_sha256": "86e7b22d0f355db7c1d31b8266dcaad7fb9088b528fd261d51f17da828977f81",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 8,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 21,
+          "pin_number_unresolved": 21,
+          "pin_name_unresolved": 13
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 21,
+          "pin_number_unresolved": 21,
+          "pin_name_unresolved": 13
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.14439469994977117
+    },
+    {
+      "case_id": "0286",
+      "image_sha256": "e7e0b20f6b74684cd19a09346fac26e22c2d565e8be374e11a06fd7ec8e2be96",
+      "size": [
+        1105,
+        1017
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "271e2bb349dacf2f6bad063e615e9c85eb9abe01ae21e5517bcb22107c3308e4",
+      "OCR_input_sha256": "2a7306c85ed2d29beb621d6565ae629ae3be29e1e60a1c911b8a230fa79162ae",
+      "records_input_sha256": "9678961bb100b863c853d631f05a6cde8d6e56bebe6c77c6af3deceb699f1f22",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 3,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 35,
+          "pin_number_unresolved": 35,
+          "pin_name_unresolved": 32
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 35,
+          "pin_number_unresolved": 35,
+          "pin_name_unresolved": 32
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.3342384999850765
+    },
+    {
+      "case_id": "0287",
+      "image_sha256": "5edccdc550d7fe4f6bd66ef748ef535f53206e17683b16941d9557ce22212df5",
+      "size": [
+        425,
+        295
+      ],
+      "coordinate_origin": "top_left",
+      "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+      "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+      "original_pin_input_sha256": "00ffe0c8e6b5a927b16c68fe174d8ad97d3d6748ec72323763b17e79e42077e2",
+      "OCR_input_sha256": "e696d0668128a0eb3b1213714a1c6539059dd9d64f43c757c97e3b62a2c1d7de",
+      "records_input_sha256": "0f593f812ec1d31ba3a48c2bfeddbc7fe8039592c78dd154cbb24e7aa44f13cc",
+      "prediction_only": true,
+      "library": {
+        "supported_components": 0,
+        "numbers_added_from_library": 0,
+        "invalid_numbers_withheld": 0,
+        "missing_names_added": 0,
+        "partial_names_completed": 0,
+        "number_observed_OCR_count": 0,
+        "number_available_count": 0,
+        "name_available_count": 0,
+        "number_and_name_available_count": 0,
+        "coordinate_changes": 0,
+        "ownership_changes": 0,
+        "trained": false,
+        "default_pipeline_adopted": false
+      },
+      "components": [],
+      "conservative": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 13,
+          "pin_number_unresolved": 13,
+          "pin_name_unresolved": 13
+        }
+      },
+      "candidate": {
+        "exported_components": 0,
+        "exported_pins": 0,
+        "exported_nets": 0,
+        "pin_reason_counts": {
+          "component_identity_unresolved": 13,
+          "pin_number_unresolved": 13,
+          "pin_name_unresolved": 13
+        }
+      },
+      "physical_graph_unchanged_from_cached_baseline": true,
+      "tip_geometry_and_ownership_preserved": true,
+      "unsupported_components_preserved": true,
+      "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+      "complete_competition_JSON": false,
+      "official_PinF1": null,
+      "official_NetF1": null,
+      "new_training": false,
+      "default_pipeline_adopted": false,
+      "wall_seconds": 0.10518479999154806
+    }
+  ],
+  "aggregate": {
+    "conservative": {
+      "exported_components": 213,
+      "exported_pins": 116,
+      "exported_nets": 0
+    },
+    "candidate": {
+      "exported_components": 213,
+      "exported_pins": 131,
+      "exported_nets": 1
+    },
+    "library": {
+      "number_observed_OCR_count": 272,
+      "number_available_count": 291,
+      "name_available_count": 306,
+      "number_and_name_available_count": 189,
+      "supported_components": 1,
+      "numbers_added_from_library": 19,
+      "invalid_numbers_withheld": 1,
+      "missing_names_added": 4,
+      "partial_names_completed": 1
+    }
+  },
+  "old_development_data": true,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "default_pipeline_adopted": false
+}

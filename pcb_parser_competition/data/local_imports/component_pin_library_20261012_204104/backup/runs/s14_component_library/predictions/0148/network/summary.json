@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "wire_foreground_pixels": 7312,
+    "body_excluded_foreground_pixels": 6,
+    "skeleton_pixels": 2385,
+    "graph_nodes": 106,
+    "graph_edges": 75,
+    "observed_components": 27,
+    "network_proposals": 31,
+    "multi_pin_network_proposals": 20,
+    "attached_pins": 64,
+    "attachment_status_counts": {
+      "attached": 64,
+      "no_wire_within_radius": 6,
+      "ambiguous_nearby_networks": 3
+    },
+    "uncertain_junctions": 4,
+    "junction_candidates": 4,
+    "learned_resolved_junctions": 0,
+    "gap_candidates_not_filled": 0,
+    "pin_candidates_preserved": true,
+    "pin_coordinate_changes": 0,
+    "automatic_gap_connections": 0,
+    "logical_label_merges": 0,
+    "physical_network_proposals": 31,
+    "logical_networks_merged": 0,
+    "flywire_network_proposals": 0,
+    "label_site_status_counts": {
+      "no_unambiguous_model_wire_or_symbol_anchor": 14,
+      "already_assigned_component_or_pin_text": 12,
+      "bound_ordinary_label": 1,
+      "inside_nonlabel_component": 3
+    },
+    "physical_wire_added": 0
+  },
+  "image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+  "input_graph_sha256": "2df4f6a3c319ed4e62fbada36ee8f991878850f7f669a383a36d147e72643985",
+  "OCR_input_sha256": "3e311241bef6cbab42a270319edd1417695a96b75dd135c09d32b82d8f077e75",
+  "wall_seconds": 0.9044014000101015,
+  "label_config": {
+    "version": "network-labels-v1-development",
+    "base_graph": "wire_graph_v1",
+    "min_ocr_confidence": 0.95,
+    "spelling_conflict_margin": 0.08,
+    "label_component_types": [
+      "vbus_in",
+      "vbus_out",
+      "vbus_bidirectional",
+      "net_short"
+    ],
+    "power_component_types": [
+      "vcc",
+      "gnd"
+    ],
+    "symbol_text_max_gap_px": 44,
+    "symbol_text_tangent_limit_px": 16,
+    "endpoint_text_max_gap_px": 18,
+    "endpoint_text_tangent_limit_px": 5,
+    "endpoint_min_wire_length_px": 12,
+    "endpoint_max_tangent_angle_degrees": 25,
+    "network_attachment_margin_px": 4,
+    "text_role_overlap_iou": 0.3,
+    "duplicate_site_distance_px": 12,
+    "symbol_evidence_required_for_merge": true,
+    "ocr_vote_min_distinct_views": 3,
+    "ocr_vote_min_view_lead": 2,
+    "net_short_tip_cluster_distance_px": 3,
+    "net_short_context_component_max_gap_px": 65,
+    "enable_ordinary_label_merges": true,
+    "merge_networks_with_unresolved_junctions": false,
+    "merge_networks_touching_gap_candidates": false,
+    "power_label_merging": false,
+    "cross_image_merging": false,
+    "fuzzy_label_matching": false,
+    "flywire_geometry_policy": "zero_length_label_anchors_provisional",
+    "power_name_patterns": [
+      "(?:.*_)?(?:GND|VCC|VDD|VSS|VEE|VBUS|VBAT|VIN|VOUT|AVDD|DVDD|AVCC|PVDD|AGND|DGND|PGND|SGND)(?:[0-9_.+ -].*)?",
+      "[+-]?(?:[0-9]+(?:[._][0-9]+)?V(?:[0-9])?|V[0-9]+(?:P[0-9]+)?)",
+      "[+-]V"
+    ]
+  },
+  "exported_components": 22,
+  "exported_pins": 4,
+  "exported_nets": 0,
+  "input_contract": "PNG/model predictions only; no CAD/reference labels/Golden reads",
+  "official_NetF1": null
+}

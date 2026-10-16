@@ -1,6 +1,6 @@
-# Local environments, dependencies and caches
-.venv/
-.venv-*/
+# Local environments, dependencies and caches (including environment symlinks)
+.venv
+.venv-*
 venv/
 node_modules/
 __pycache__/
@@ -25,7 +25,7 @@ Ultralytics/
 .aws/
 .ssh/
 
-# Temporary files and local browser profiles
+# Temporary files
 tmp/
 temp/
 *.tmp
@@ -35,7 +35,7 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Model weights, binary training outputs and installers
+# Model weights, binary training outputs, images and installers
 *.pt
 *.pth
 *.onnx
@@ -43,6 +43,8 @@ Desktop.ini
 *.ckpt
 *.npz
 *.npy
+*.engine
+*.tflite
 *.whl
 *.dll
 *.pyd
@@ -55,10 +57,10 @@ Desktop.ini
 *.tar.gz
 *.tgz
 
-# Generated training runs and copies of training datasets
+# Raw datasets and generated training runs
+/Dataset300/
+/赛题六公开数据集/**
+!/赛题六公开数据集/**/
+!/赛题六公开数据集/**/README.md
 /runs/
-/experiments/**/runs/
-/experiments/**/dataset/
-/experiments/**/initial_weights/
-/experiments/**/evaluation/*_predictions.json
 /pcb_parser_competition/data/segmentation_unet_*/

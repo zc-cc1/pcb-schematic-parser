@@ -64,10 +64,9 @@ def main():
     parser.add_argument("--case-id", action="append")
     parser.add_argument("--iou", type=float, default=.5)
     parser.add_argument("--thresholds", type=Path, help="Per-class confidence JSON from tune_class_thresholds.py")
-    parser.add_argument("--device", default="cuda:0", help="Use cpu while the GPU is occupied")
     args = parser.parse_args()
     cfg = json.loads(args.config.read_text(encoding="utf-8"))
-    thresholds = json.loads(args.thresholds.read_text(encoding="utf-8")) if args.thresholds else cfg["detector"].get("class_confidence")
+    thresholds = json.loads(args.thresholds.read_text(encoding="utf-8")) if args.thresholds else None
     if isinstance(thresholds, dict) and "thresholds" in thresholds:
         thresholds = thresholds["thresholds"]
     rows = [json.loads(line) for line in args.manifest.read_text(encoding="utf-8").splitlines()]
@@ -79,13 +78,12 @@ def main():
     if args.mode in ("sliced", "fused"):
         from sahi import AutoDetectionModel
         sliced_conf = cfg.get("fusion", {}).get("sliced_confidence", cfg["detector"]["confidence"]) if args.mode == "fused" else cfg["detector"]["confidence"]
-        sliced_model = AutoDetectionModel.from_pretrained(model_type="ultralytics", model_path=str(args.weights), confidence_threshold=sliced_conf, device=args.device, image_size=cfg["detector"]["imgsz"])
+        sliced_model = AutoDetectionModel.from_pretrained(model_type="ultralytics", model_path=str(args.weights), confidence_threshold=sliced_conf, device="cuda:0", image_size=cfg["detector"]["imgsz"])
         sliced_model.model.overrides.update({"iou":cfg["detector"]["iou"], "max_det":cfg["detector"]["max_det"], "half":cfg["detector"]["half"]})
     summary = {"status": "provisional_offline_detection_evaluation", "mode": args.mode, "split": args.split,
                "confidence": cfg["detector"]["confidence"], "iou_match_threshold": args.iou,
                "detector_config": cfg["detector"], "sahi_config": cfg["sahi"] if args.mode in ("sliced", "fused") else None,
                "class_thresholds": thresholds,
-               "fusion_config": cfg.get("fusion"), "device": args.device,
                "weights": str(args.weights.resolve()), "weights_sha256": hashlib.sha256(args.weights.read_bytes()).hexdigest(),
                "manifest_sha256": hashlib.sha256(args.manifest.read_bytes()).hexdigest(), "cases": [],
                "definition": "Class-name matching + bbox IoU threshold + maximum-cardinality one-to-one matching; micro P/R/F1 at fixed confidence",
@@ -95,11 +93,11 @@ def main():
     for index, row in enumerate(rows):
         rgb = np.asarray(Image.open(row["image"]).convert("RGB"))
         if args.mode == "whole":
-            predictions = whole_predictions(whole_model, np.ascontiguousarray(rgb[:,:,::-1]), cfg["detector"], args.device)
+            predictions = whole_predictions(whole_model, np.ascontiguousarray(rgb[:,:,::-1]), cfg["detector"], "cuda:0")
         elif args.mode == "sliced":
             predictions = sliced_predictions(sliced_model, rgb, cfg["sahi"])
         else:
-            predictions = fused_predictions(whole_model, sliced_model, rgb, args.device, cfg)
+            predictions = fused_predictions(whole_model, sliced_model, rgb, "cuda:0", cfg)
         if thresholds:
             predictions = apply_class_confidence(predictions, thresholds)
         counts = counts_for_case(predictions, row["objects"], args.iou)

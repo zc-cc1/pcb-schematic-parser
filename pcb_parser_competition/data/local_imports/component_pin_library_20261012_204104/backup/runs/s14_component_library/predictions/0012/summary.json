@@ -1,0 +1,60 @@
+{
+  "image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+  "size": [
+    1405,
+    910
+  ],
+  "coordinate_origin": "top_left",
+  "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+  "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+  "original_pin_input_sha256": "ce8995603bcaf34998a9e0e63a0a965c25e3ed67e97ea19963e644541958734d",
+  "OCR_input_sha256": "e578aac20b73fb53de8673e845749579fef4290b911445f8a03f765a37d8fdcc",
+  "records_input_sha256": "ab83f9008bca7d2aac1cb5457d9d61122c15dbe5dbf5d64fef7892f0f859c71b",
+  "prediction_only": true,
+  "library": {
+    "supported_components": 0,
+    "numbers_added_from_library": 0,
+    "invalid_numbers_withheld": 0,
+    "missing_names_added": 0,
+    "partial_names_completed": 0,
+    "number_observed_OCR_count": 33,
+    "number_available_count": 33,
+    "name_available_count": 37,
+    "number_and_name_available_count": 31,
+    "coordinate_changes": 0,
+    "ownership_changes": 0,
+    "trained": false,
+    "default_pipeline_adopted": false
+  },
+  "components": [],
+  "conservative": {
+    "exported_components": 18,
+    "exported_pins": 31,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 36,
+      "pin_number_unresolved": 74,
+      "pin_name_unresolved": 70
+    }
+  },
+  "candidate": {
+    "exported_components": 18,
+    "exported_pins": 31,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 36,
+      "pin_number_unresolved": 74,
+      "pin_name_unresolved": 70
+    }
+  },
+  "physical_graph_unchanged_from_cached_baseline": true,
+  "tip_geometry_and_ownership_preserved": true,
+  "unsupported_components_preserved": true,
+  "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+  "complete_competition_JSON": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "wall_seconds": 2.4042571999598294
+}

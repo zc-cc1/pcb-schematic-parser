@@ -1,0 +1,451 @@
+{
+  "protocol": {
+    "version": "2026-10-08-global-power-rails",
+    "schema": "Target JSON with components/pins/nets",
+    "spatial_match_threshold_px": 20.0,
+    "connectivity_pin_set_f1_threshold": 0.0,
+    "component_match": "ordinary: key/type/Name/value exact; power: type/value and one-to-one geometry, ignore key/Name; ordered bbox, every coordinate within threshold",
+    "pin_match": "component key and pin_<number> exact; owner exists in both components; pinname exact; point Euclidean threshold",
+    "pin_scope": "IC only: GT type for known component keys; predicted-only IC pins count as FP",
+    "ic_type_aliases": [
+      "box",
+      "ic"
+    ],
+    "ic_type_comparison": "strip whitespace and ignore case for pin scope and connectivity identity only",
+    "empty_pin_scope": "pin_f1=0 when both scored pin sets are empty; weights unchanged",
+    "wire_match": "one-to-one direction-invariant two-point edge matching within Hungarian-matched logical nets; pool source branches sharing a global power rail",
+    "connectivity_match": "merge nets sharing global power rails, then Hungarian one-to-one mixed-vertex-set soft F1",
+    "connectivity_vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+    "power_type_aliases": {
+      "ground": [
+        "gnd"
+      ],
+      "supply": [
+        "v",
+        "vcc",
+        "vdd"
+      ]
+    },
+    "power_rail_identity": "all grounds share GND; supplies share exact value (null/empty -> VCC); ground and supply remain separate; no inference from component key/Name",
+    "power_component_match": "ignore key/Name/designator; raw type/value still exact; geometry and symbol counts still scored",
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "prediction_validation": "missing sections score as empty; invalid component/pin/edge records cannot be TP; hypergraph references retained as sets and reference issues reported"
+  },
+  "scores": {
+    "component_stage": 0.357576,
+    "wire_stage": 0.0,
+    "connectivity_stage": 0.0,
+    "component_f1": 0.1,
+    "pin_f1": 0.666667,
+    "wire_f1": 0.0,
+    "connectivity_f1": 0.0,
+    "final_score": 19.666675
+  },
+  "component": {
+    "f1": {
+      "tp": 2,
+      "fp": 12,
+      "fn": 24,
+      "precision": 0.142857,
+      "recall": 0.076923,
+      "f1": 0.1
+    },
+    "key_f1": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.933333,
+      "f1": 0.965517
+    },
+    "key_f1_scope": "non_power_components_only",
+    "diagnostics": {
+      "matched_id_count": 14,
+      "matched_component_count": 14,
+      "gt_power_symbol_count": 11,
+      "pred_power_symbol_count": 0,
+      "matched_power_symbol_count": 0,
+      "power_assignment_examples": [],
+      "type_accuracy_on_matched": 1.0,
+      "name_accuracy_on_matched": 0.142857,
+      "name_accuracy_scope": "non_power_components_only",
+      "value_accuracy_on_matched": 0.928571,
+      "bbox_accuracy_on_matched": 0.5,
+      "bbox_corner_mae_px": {
+        "count": 14,
+        "mean": 14.262464,
+        "median": 13.837875,
+        "p95": 18.1172,
+        "max": 19.841
+      },
+      "error_examples": [
+        {
+          "component_id": "C1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 22.272
+        },
+        {
+          "component_id": "C2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 13.358
+        },
+        {
+          "component_id": "C3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 14.028
+        },
+        {
+          "component_id": "C4",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 12.817
+        },
+        {
+          "component_id": "C5",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 13.686
+        },
+        {
+          "component_id": "C6",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 12.811
+        },
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 28.65
+        },
+        {
+          "component_id": "R1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 24.516
+        },
+        {
+          "component_id": "R2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.786
+        },
+        {
+          "component_id": "R3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.883
+        },
+        {
+          "component_id": "R4",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.245
+        },
+        {
+          "component_id": "R5",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 22.72
+        },
+        {
+          "component_id": "C7",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅118",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅122",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅56",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅60",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅70",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅74",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅78",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅82",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅86",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅90",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅94",
+          "error": "missing"
+        }
+      ]
+    }
+  },
+  "pin": {
+    "scope": "ic_only",
+    "applicable": true,
+    "f1": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.666667
+    },
+    "id_f1": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.666667
+    },
+    "diagnostics": {
+      "gt_total_pin_count": 45,
+      "pred_total_pin_count": 7,
+      "gt_scored_pin_count": 6,
+      "pred_scored_pin_count": 3,
+      "gt_ignored_pin_count": 39,
+      "pred_ignored_pin_count": 4,
+      "matched_id_count": 3,
+      "pin_number_accuracy_on_matched": 1.0,
+      "pin_name_accuracy_on_matched": 1.0,
+      "tip_distance_px": {
+        "count": 3,
+        "mean": 3.146073,
+        "median": 0.0,
+        "p95": 3.291345,
+        "max": 3.295566
+      },
+      "error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        }
+      ]
+    }
+  },
+  "wire": {
+    "f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 47,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "diagnostics": {
+      "gt_segment_count": 47,
+      "pred_segment_count": 0,
+      "matched_segment_count": 0,
+      "invalid_pred_segment_count": 0,
+      "matched_max_endpoint_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      },
+      "matched_mean_endpoint_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      },
+      "assignment_examples": []
+    }
+  },
+  "connectivity": {
+    "f1": {
+      "soft_tp": 0,
+      "gt_net_count": 7,
+      "pred_net_count": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "exact_net_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vertex_pair_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 109,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "pin_pair_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 109,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "diagnostics": {
+      "vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+      "gt_raw_net_count": 16,
+      "pred_raw_net_count": 0,
+      "gt_logical_net_count": 7,
+      "pred_logical_net_count": 0,
+      "gt_power_net_groups": [
+        [
+          "net_2",
+          "net_23"
+        ],
+        [
+          "net_12",
+          "net_14",
+          "net_15",
+          "net_3",
+          "net_4",
+          "net_5",
+          "net_7",
+          "net_8",
+          "net_9"
+        ]
+      ],
+      "pred_power_net_groups": [],
+      "gt_vertex_count": 36,
+      "pred_vertex_count": 0,
+      "unmapped_pred_vertex_references": 0,
+      "unmapped_pred_pin_references": 0,
+      "matched_net_pairs": [],
+      "assignment_examples": []
+    }
+  },
+  "validation": {
+    "gt": {
+      "valid": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    "pred": {
+      "valid": false,
+      "issue_count": 11,
+      "issues": [
+        {
+          "path": "pins.C1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C2",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C3",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C5",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C6",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.D1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.L1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R2",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R3",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R4",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R5",
+          "message": "missing component pin group"
+        }
+      ]
+    }
+  },
+  "files": {
+    "gt": "/gt/3/3_target.json",
+    "pred": "/pred/3/final_results/3_Pred.json"
+  }
+}

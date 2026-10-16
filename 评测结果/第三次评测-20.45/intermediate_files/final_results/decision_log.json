@@ -1,0 +1,114 @@
+{
+  "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+  "timestamp": "2026-10-16T03:15:43.549625+00:00",
+  "processed_cases": 10,
+  "successful_cases": 10,
+  "failed_cases": 0,
+  "output_format": "target",
+  "coordinate_origin": "bottom_left_H_minus_y",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "cases": [
+    {
+      "case_id": "1",
+      "input": "/input/1.png",
+      "success": true,
+      "components": 14,
+      "pins": 35,
+      "nets": 0,
+      "seconds": 41.54
+    },
+    {
+      "case_id": "2",
+      "input": "/input/2.png",
+      "success": true,
+      "components": 12,
+      "pins": 19,
+      "nets": 0,
+      "seconds": 44.799
+    },
+    {
+      "case_id": "10",
+      "input": "/input/10.png",
+      "success": true,
+      "components": 20,
+      "pins": 10,
+      "nets": 0,
+      "seconds": 44.947
+    },
+    {
+      "case_id": "3",
+      "input": "/input/3.png",
+      "success": true,
+      "components": 14,
+      "pins": 7,
+      "nets": 0,
+      "seconds": 39.935
+    },
+    {
+      "case_id": "4",
+      "input": "/input/4.png",
+      "success": true,
+      "components": 13,
+      "pins": 10,
+      "nets": 1,
+      "seconds": 38.293
+    },
+    {
+      "case_id": "5",
+      "input": "/input/5.png",
+      "success": true,
+      "components": 11,
+      "pins": 14,
+      "nets": 0,
+      "seconds": 45.581
+    },
+    {
+      "case_id": "7",
+      "input": "/input/7.png",
+      "success": true,
+      "components": 18,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 39.381
+    },
+    {
+      "case_id": "6",
+      "input": "/input/6.png",
+      "success": true,
+      "components": 22,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 46.073
+    },
+    {
+      "case_id": "8",
+      "input": "/input/8.png",
+      "success": true,
+      "components": 11,
+      "pins": 17,
+      "nets": 1,
+      "seconds": 38.358
+    },
+    {
+      "case_id": "9",
+      "input": "/input/9.png",
+      "success": true,
+      "components": 10,
+      "pins": 6,
+      "nets": 0,
+      "seconds": 38.098
+    }
+  ],
+  "device": "cuda:0",
+  "input_cases": 10,
+  "workers": 3,
+  "gpu_memory_bytes": 85293072384,
+  "protocol": "2026-10-08-global-power-rails",
+  "type_mapping_status": "r documented; Box/C/L/D aliases inferred from source taxonomy and evaluation diagnostics",
+  "wall_seconds": 162.559
+}

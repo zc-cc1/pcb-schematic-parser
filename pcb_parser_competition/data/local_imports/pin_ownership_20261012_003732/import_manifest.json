@@ -1,0 +1,706 @@
+{
+  "status": "ownership_copied_existing_models_and_training_preserved",
+  "target": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition",
+  "files": [
+    {
+      "file": "src/pcb_parser/pin_ownership.py",
+      "source_sha256": "749a03b4464b0db83a9e764510ea473e56f0207d8680c82d4431de0fe14fc898",
+      "target_sha256": "749a03b4464b0db83a9e764510ea473e56f0207d8680c82d4431de0fe14fc898",
+      "backup": null
+    },
+    {
+      "file": "src/pcb_parser/pin_ownership_visual.py",
+      "source_sha256": "3dcebbccfced99aade9bf22b3718ab80e9060e4ea1792fc979a9b2b9f78fce53",
+      "target_sha256": "3dcebbccfced99aade9bf22b3718ab80e9060e4ea1792fc979a9b2b9f78fce53",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\src\\pcb_parser\\pin_ownership_visual.py"
+    },
+    {
+      "file": "scripts/run_pin_ownership.py",
+      "source_sha256": "020212b4729d6adef6b327f5604d269d27d2b5e5045a684c6979a7a4c9509da8",
+      "target_sha256": "020212b4729d6adef6b327f5604d269d27d2b5e5045a684c6979a7a4c9509da8",
+      "backup": null
+    },
+    {
+      "file": "scripts/run_pin_ownership.ps1",
+      "source_sha256": "66965ba0ab8940c1d276a74371375ebff6d2ef37ebaca891bf103f6247d8532b",
+      "target_sha256": "66965ba0ab8940c1d276a74371375ebff6d2ef37ebaca891bf103f6247d8532b",
+      "backup": null
+    },
+    {
+      "file": "configs/pin_ownership_v1.json",
+      "source_sha256": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+      "target_sha256": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+      "backup": null
+    },
+    {
+      "file": "configs/pin_ownership_detector_v3.json",
+      "source_sha256": "be6591211d98196ca6f25466415d50cb8312e38b1ff96ed642c3265d8d16e404",
+      "target_sha256": "be6591211d98196ca6f25466415d50cb8312e38b1ff96ed642c3265d8d16e404",
+      "backup": null
+    },
+    {
+      "file": "tests/test_pin_ownership.py",
+      "source_sha256": "329a0a5fb26604e7d0ea998cbe38c5b68f4846a13c79f0984045cb9d21c1ea0f",
+      "target_sha256": "329a0a5fb26604e7d0ea998cbe38c5b68f4846a13c79f0984045cb9d21c1ea0f",
+      "backup": null
+    },
+    {
+      "file": "docs/pin_ownership_stage_v1.md",
+      "source_sha256": "5e5ba250b0ed84705afa7a842efecab910422292cf5265bf434b6dc571e37bd4",
+      "target_sha256": "5e5ba250b0ed84705afa7a842efecab910422292cf5265bf434b6dc571e37bd4",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/report.md",
+      "source_sha256": "71833dcbb6bb7c8aa4d97daf993de8590739532c04309ae9dd8c71ed11e007a2",
+      "target_sha256": "7ae19e56436830e4e6397284af2247a024c0af7162a7b935fb95b71c657207fd",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\report.md"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/evaluation.json",
+      "source_sha256": "3d50abe4e72320a458dcc805c1189ad2bb92a1565b2d9ad48f0ecaf600c82ac6",
+      "target_sha256": "3d50abe4e72320a458dcc805c1189ad2bb92a1565b2d9ad48f0ecaf600c82ac6",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/label_review_queue.json",
+      "source_sha256": "8b188927ed29b4a47d501fcb6d90484ed0b622930b93bde660fd1d324e8003ec",
+      "target_sha256": "8b188927ed29b4a47d501fcb6d90484ed0b622930b93bde660fd1d324e8003ec",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0002/detector_predictions.json",
+      "source_sha256": "3232aed068deeec13878ec6fcc350fea90b113b14aded5707a1e8e6aa7ba3fe0",
+      "target_sha256": "3232aed068deeec13878ec6fcc350fea90b113b14aded5707a1e8e6aa7ba3fe0",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0002/ownership_overlay.png",
+      "source_sha256": "4e5bcd46eea9a94d5093fb94fe38c3955aa1c7306ca65e449e9bd6798e85b7fd",
+      "target_sha256": "4e5bcd46eea9a94d5093fb94fe38c3955aa1c7306ca65e449e9bd6798e85b7fd",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0002\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0002/pin_ownership.json",
+      "source_sha256": "57ef81265ebdbf3902565c4ed0b8d8a7a3b8dcfac5e939f825fe84f7b31af107",
+      "target_sha256": "57ef81265ebdbf3902565c4ed0b8d8a7a3b8dcfac5e939f825fe84f7b31af107",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0002/unet_predictions.json",
+      "source_sha256": "1d4a6c7f6993de6ba39e64b95fbc831fe733f237e9f6f791646c4631a18f976d",
+      "target_sha256": "1d4a6c7f6993de6ba39e64b95fbc831fe733f237e9f6f791646c4631a18f976d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0007/detector_predictions.json",
+      "source_sha256": "c5ff58ae20a2c95b15f9de8bfbf78d87f6fb1ad8f9e2a95f302e998f0fb7dd8e",
+      "target_sha256": "c5ff58ae20a2c95b15f9de8bfbf78d87f6fb1ad8f9e2a95f302e998f0fb7dd8e",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0007/ownership_overlay.png",
+      "source_sha256": "d25df929c672c14f9068b07ab57c0f80be27e1acdb159b3677a575e989d27aeb",
+      "target_sha256": "d25df929c672c14f9068b07ab57c0f80be27e1acdb159b3677a575e989d27aeb",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0007\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0007/pin_ownership.json",
+      "source_sha256": "4cf962241657694be8756d73d356972b2f2f8d45c012a98fdc71b77bad487224",
+      "target_sha256": "4cf962241657694be8756d73d356972b2f2f8d45c012a98fdc71b77bad487224",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0007/unet_predictions.json",
+      "source_sha256": "59103a3537295566c0a1632c63d67c132e9273368481c06d6e5e9b3ce05d83a0",
+      "target_sha256": "59103a3537295566c0a1632c63d67c132e9273368481c06d6e5e9b3ce05d83a0",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0012/detector_predictions.json",
+      "source_sha256": "faaf7eff3fdbee1001789824cb5b97cc26fea9082a4edb6ce8778c4f16c9ac72",
+      "target_sha256": "faaf7eff3fdbee1001789824cb5b97cc26fea9082a4edb6ce8778c4f16c9ac72",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0012/ownership_overlay.png",
+      "source_sha256": "55305beaf620ca1b1ffbd4f57eeacba26a1555d5f9a73cb6869733d1b162478e",
+      "target_sha256": "55305beaf620ca1b1ffbd4f57eeacba26a1555d5f9a73cb6869733d1b162478e",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0012\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0012/pin_ownership.json",
+      "source_sha256": "a27dffc2958ed9ad4258d667aa7affdbba0cf1a5c6f2df00accdcbea0d92c034",
+      "target_sha256": "a27dffc2958ed9ad4258d667aa7affdbba0cf1a5c6f2df00accdcbea0d92c034",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0012/unet_predictions.json",
+      "source_sha256": "ec94c1d03fd32e3a74f248a0cc9de1c20e7aab77b34905c24eef0021f5504aca",
+      "target_sha256": "ec94c1d03fd32e3a74f248a0cc9de1c20e7aab77b34905c24eef0021f5504aca",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0018/detector_predictions.json",
+      "source_sha256": "db62cce8919522f92aa587aefb3b8744fa9a43ea2a3b65c1e62dbd4b5a8d2b46",
+      "target_sha256": "db62cce8919522f92aa587aefb3b8744fa9a43ea2a3b65c1e62dbd4b5a8d2b46",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0018/ownership_overlay.png",
+      "source_sha256": "6f44cae83724fc763f9b64d514649446c1df20869079cf954dd8117d6c639c94",
+      "target_sha256": "6f44cae83724fc763f9b64d514649446c1df20869079cf954dd8117d6c639c94",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0018\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0018/pin_ownership.json",
+      "source_sha256": "c161c0178fc1302c4c13bd541949dd6186c5b22dd256e3c057ca30b56cbc0dc1",
+      "target_sha256": "c161c0178fc1302c4c13bd541949dd6186c5b22dd256e3c057ca30b56cbc0dc1",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0018/unet_predictions.json",
+      "source_sha256": "fbf275a84a0c0dae078d953a639a6dc5be61e3a3c902aa78c35914879cd6c5fa",
+      "target_sha256": "fbf275a84a0c0dae078d953a639a6dc5be61e3a3c902aa78c35914879cd6c5fa",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0022/detector_predictions.json",
+      "source_sha256": "3bc4711f8018569fa913b796427a4347b3c1134748224d21e1a268fe9abdf729",
+      "target_sha256": "3bc4711f8018569fa913b796427a4347b3c1134748224d21e1a268fe9abdf729",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0022/ownership_overlay.png",
+      "source_sha256": "79031dad0ccebb4a8dfda333f9a4b3529897b15d6ffe41c860157d0a36b2b409",
+      "target_sha256": "79031dad0ccebb4a8dfda333f9a4b3529897b15d6ffe41c860157d0a36b2b409",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0022\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0022/pin_ownership.json",
+      "source_sha256": "112e595f30a583e131956bf126589e129b9cfc59ef7cb4976c8c329f36ba4e0a",
+      "target_sha256": "112e595f30a583e131956bf126589e129b9cfc59ef7cb4976c8c329f36ba4e0a",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0022/unet_predictions.json",
+      "source_sha256": "c5da96d8f657a4230380f7860806aa5c662865c18bf3852e1679b0612f2b13fb",
+      "target_sha256": "c5da96d8f657a4230380f7860806aa5c662865c18bf3852e1679b0612f2b13fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0026/detector_predictions.json",
+      "source_sha256": "1c90f1ac13abd5e81c396c6ce3815c7eb705051a5cbca624dd8dc59d7ecefc11",
+      "target_sha256": "1c90f1ac13abd5e81c396c6ce3815c7eb705051a5cbca624dd8dc59d7ecefc11",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0026/ownership_overlay.png",
+      "source_sha256": "50310a2bb6809499ab5502d043e6e7b7c3fabd4b00c145470edeed9f638e5cd8",
+      "target_sha256": "50310a2bb6809499ab5502d043e6e7b7c3fabd4b00c145470edeed9f638e5cd8",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0026\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0026/pin_ownership.json",
+      "source_sha256": "d4e45689c721479368aa0c599297f5311f93550e59ddc513160733eb5b18048b",
+      "target_sha256": "d4e45689c721479368aa0c599297f5311f93550e59ddc513160733eb5b18048b",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0026/unet_predictions.json",
+      "source_sha256": "4d68835fdc7e62a31f59e10e6e3fc1b5513c2e1bc47f12d129bdb0290cd0a39b",
+      "target_sha256": "4d68835fdc7e62a31f59e10e6e3fc1b5513c2e1bc47f12d129bdb0290cd0a39b",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0029/detector_predictions.json",
+      "source_sha256": "b828bf6bf96b84506be8dc5caabe64fdf2f3d9bb0a97d7a08f74b72a89c75f98",
+      "target_sha256": "b828bf6bf96b84506be8dc5caabe64fdf2f3d9bb0a97d7a08f74b72a89c75f98",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0029/ownership_overlay.png",
+      "source_sha256": "80cc762c9f1123dd7013c713dcd4d647c0923170f5662d6901565d66cfc13f2f",
+      "target_sha256": "80cc762c9f1123dd7013c713dcd4d647c0923170f5662d6901565d66cfc13f2f",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0029\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0029/pin_ownership.json",
+      "source_sha256": "e34434d81c0f36b2e329d495393b2ef7aa084e200eb2edeb57b1b7d9ca04c87b",
+      "target_sha256": "e34434d81c0f36b2e329d495393b2ef7aa084e200eb2edeb57b1b7d9ca04c87b",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0029/unet_predictions.json",
+      "source_sha256": "541d7b7f09e79ff06f83d1d56986a84a4269ff461d75f47fa880796612441f79",
+      "target_sha256": "541d7b7f09e79ff06f83d1d56986a84a4269ff461d75f47fa880796612441f79",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0033/detector_predictions.json",
+      "source_sha256": "3a60d083867dd5d246586ebceb7aef13f1d720091100d3eb7bc691d94cb1ad6e",
+      "target_sha256": "3a60d083867dd5d246586ebceb7aef13f1d720091100d3eb7bc691d94cb1ad6e",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0033/ownership_overlay.png",
+      "source_sha256": "862df6d92bb7361546ce29112ce300999565e1097150bf702fe7945e8cf0c55d",
+      "target_sha256": "862df6d92bb7361546ce29112ce300999565e1097150bf702fe7945e8cf0c55d",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0033\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0033/pin_ownership.json",
+      "source_sha256": "55cd930ecc0eb724ef897b6bcfb8ac49c539eb757974dd4d34880ecfd218d00c",
+      "target_sha256": "55cd930ecc0eb724ef897b6bcfb8ac49c539eb757974dd4d34880ecfd218d00c",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0033/unet_predictions.json",
+      "source_sha256": "ffb3e0cc6e868e88642001f50fd0b69bbd2dab0eac7b0a03dea957ee7db11b31",
+      "target_sha256": "ffb3e0cc6e868e88642001f50fd0b69bbd2dab0eac7b0a03dea957ee7db11b31",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0036/detector_predictions.json",
+      "source_sha256": "7738b71363e20c4feb9c2adb79d8575ba77901b1fe9da40de8d8c070d18c4d6f",
+      "target_sha256": "7738b71363e20c4feb9c2adb79d8575ba77901b1fe9da40de8d8c070d18c4d6f",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0036/ownership_overlay.png",
+      "source_sha256": "c82d312ac63d5ec3b5974bddc58eb6675f8477c34407a4da68fa934c6f4b84f2",
+      "target_sha256": "c82d312ac63d5ec3b5974bddc58eb6675f8477c34407a4da68fa934c6f4b84f2",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0036\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0036/pin_ownership.json",
+      "source_sha256": "89a2f782d6ec0c3725906e8587cb364f5c2307386f93b86a12fa7dc9618f6137",
+      "target_sha256": "89a2f782d6ec0c3725906e8587cb364f5c2307386f93b86a12fa7dc9618f6137",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0036/unet_predictions.json",
+      "source_sha256": "5c6456a068f1d3c176444165fd4749405edce50474d95ff25fc86d80a47bbb91",
+      "target_sha256": "5c6456a068f1d3c176444165fd4749405edce50474d95ff25fc86d80a47bbb91",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0042/detector_predictions.json",
+      "source_sha256": "917859cfb68bb35716cff59428351c2baf935c5939d3b7d022ebf461f4903ede",
+      "target_sha256": "917859cfb68bb35716cff59428351c2baf935c5939d3b7d022ebf461f4903ede",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0042/ownership_overlay.png",
+      "source_sha256": "0e41509673417bef18f4fbbccc980769a63c736560ecfd0fa255063ccf5dedf2",
+      "target_sha256": "0e41509673417bef18f4fbbccc980769a63c736560ecfd0fa255063ccf5dedf2",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0042\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0042/pin_ownership.json",
+      "source_sha256": "d41324e444f4b03369c909496cd1ec214da28a0dad5a0361c56a902b20b2d8e3",
+      "target_sha256": "d41324e444f4b03369c909496cd1ec214da28a0dad5a0361c56a902b20b2d8e3",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0042/unet_predictions.json",
+      "source_sha256": "33926e68896029e88a79fc9224260ac007b404001c904d85f5cf6cec8ff7754f",
+      "target_sha256": "33926e68896029e88a79fc9224260ac007b404001c904d85f5cf6cec8ff7754f",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0049/detector_predictions.json",
+      "source_sha256": "b88da002f40378023cca279ff1b92f469dd7232187744ac76eb42509001caa12",
+      "target_sha256": "b88da002f40378023cca279ff1b92f469dd7232187744ac76eb42509001caa12",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0049/ownership_overlay.png",
+      "source_sha256": "5fe51aacc32d9ec4af54b1244c15b971d09dbac2fbb922191c0c2c54b0dbb822",
+      "target_sha256": "5fe51aacc32d9ec4af54b1244c15b971d09dbac2fbb922191c0c2c54b0dbb822",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0049\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0049/pin_ownership.json",
+      "source_sha256": "2d3317e21beb816c8aea89cfee6797a54be5a6416414938bb6321b36563e22d0",
+      "target_sha256": "2d3317e21beb816c8aea89cfee6797a54be5a6416414938bb6321b36563e22d0",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0049/unet_predictions.json",
+      "source_sha256": "a8ca0c98f892a3e97457f985ed02435b52bce488741c011707b142c06ae8640d",
+      "target_sha256": "a8ca0c98f892a3e97457f985ed02435b52bce488741c011707b142c06ae8640d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0096/detector_predictions.json",
+      "source_sha256": "58f520f4a3636e337fa186546cf2da45183c3f4c1bfe79a5388d8569d61d3951",
+      "target_sha256": "58f520f4a3636e337fa186546cf2da45183c3f4c1bfe79a5388d8569d61d3951",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0096/ownership_overlay.png",
+      "source_sha256": "ed8b51e6c9d5f692c9187e3f684c7330328aa74ff5fc1ed5e5f4f90a9d5b7ea8",
+      "target_sha256": "ed8b51e6c9d5f692c9187e3f684c7330328aa74ff5fc1ed5e5f4f90a9d5b7ea8",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0096\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0096/pin_ownership.json",
+      "source_sha256": "eb30255c095415514b361d752ad80517a923d79bdee276d3a224d776f922aa3c",
+      "target_sha256": "eb30255c095415514b361d752ad80517a923d79bdee276d3a224d776f922aa3c",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0096/unet_predictions.json",
+      "source_sha256": "9ce464dcd62a0850ecacfd9e0439b6b7f6d3a7c5d1f549e3174f73fbd963d9ac",
+      "target_sha256": "9ce464dcd62a0850ecacfd9e0439b6b7f6d3a7c5d1f549e3174f73fbd963d9ac",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0105/detector_predictions.json",
+      "source_sha256": "28fe4f984b05bb720a41d11f5319e590680fbfd06f7697517f43a71271a9a9c9",
+      "target_sha256": "28fe4f984b05bb720a41d11f5319e590680fbfd06f7697517f43a71271a9a9c9",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0105/ownership_overlay.png",
+      "source_sha256": "eef501ad2e468b481427df01d2dfd2eca521352bd1193becd2f5f758d5a9a509",
+      "target_sha256": "eef501ad2e468b481427df01d2dfd2eca521352bd1193becd2f5f758d5a9a509",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0105\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0105/pin_ownership.json",
+      "source_sha256": "081774de182a0c77fa8fc6bf2d1ba7b1f6e63bf294dbf3215348be68f0232588",
+      "target_sha256": "081774de182a0c77fa8fc6bf2d1ba7b1f6e63bf294dbf3215348be68f0232588",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0105/unet_predictions.json",
+      "source_sha256": "0533c3d776b7b9d88221d560d6607fbb7710444377a5f3bdb4b8a6dda6a00e4d",
+      "target_sha256": "0533c3d776b7b9d88221d560d6607fbb7710444377a5f3bdb4b8a6dda6a00e4d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0131/detector_predictions.json",
+      "source_sha256": "b9de470bad095eb83ad45c9df03299127616645e6bd424cd09b9c149de3cbf84",
+      "target_sha256": "b9de470bad095eb83ad45c9df03299127616645e6bd424cd09b9c149de3cbf84",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0131/ownership_overlay.png",
+      "source_sha256": "c5dac179eaa6839e599b87b182aefc86f4e59808776c6c2de24b43dc04539c95",
+      "target_sha256": "c5dac179eaa6839e599b87b182aefc86f4e59808776c6c2de24b43dc04539c95",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0131\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0131/pin_ownership.json",
+      "source_sha256": "dee58e9eb10e7d692eeb9460c6a5bf55f8b5fbcfa2e6138379c692fec0d36e57",
+      "target_sha256": "dee58e9eb10e7d692eeb9460c6a5bf55f8b5fbcfa2e6138379c692fec0d36e57",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0131/unet_predictions.json",
+      "source_sha256": "3d0f4cefd269e5352675d4f77636f9f72c66fe0c12e03305af5ea457b952e1f9",
+      "target_sha256": "3d0f4cefd269e5352675d4f77636f9f72c66fe0c12e03305af5ea457b952e1f9",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0148/detector_predictions.json",
+      "source_sha256": "0e9603123e9b6f0438be2221fbd659c7b83cdc552b53bd694fbffb8babc7e971",
+      "target_sha256": "0e9603123e9b6f0438be2221fbd659c7b83cdc552b53bd694fbffb8babc7e971",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0148/ownership_overlay.png",
+      "source_sha256": "cd660f61da229b71e582341aaf27269dc9bdcc77b31aeaa072c8873276e0d2f6",
+      "target_sha256": "cd660f61da229b71e582341aaf27269dc9bdcc77b31aeaa072c8873276e0d2f6",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0148\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0148/pin_ownership.json",
+      "source_sha256": "f9be131d82985ac3f864eb0ff5a4abd58417ca38f3667c981a63aaea47631ae1",
+      "target_sha256": "f9be131d82985ac3f864eb0ff5a4abd58417ca38f3667c981a63aaea47631ae1",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0148/unet_predictions.json",
+      "source_sha256": "1d2c17a273f23a90be91f87e51c8d84aa42af9e733cd6afc9b2beff5d1b2308d",
+      "target_sha256": "1d2c17a273f23a90be91f87e51c8d84aa42af9e733cd6afc9b2beff5d1b2308d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0149/detector_predictions.json",
+      "source_sha256": "0897fde8498be8f5dde91764d5cd9dbc0828343f8e20db8df4e326337359c82f",
+      "target_sha256": "0897fde8498be8f5dde91764d5cd9dbc0828343f8e20db8df4e326337359c82f",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0149/ownership_overlay.png",
+      "source_sha256": "4571ac9f1375aa33cd0efef4cd920a10947ff606f5ea84a0ff522c03fb0d8962",
+      "target_sha256": "4571ac9f1375aa33cd0efef4cd920a10947ff606f5ea84a0ff522c03fb0d8962",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0149\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0149/pin_ownership.json",
+      "source_sha256": "d3d765d35411ec11848090931b6bed09b0793cef240b8bd5386cae2f675c860b",
+      "target_sha256": "d3d765d35411ec11848090931b6bed09b0793cef240b8bd5386cae2f675c860b",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0149/unet_predictions.json",
+      "source_sha256": "0b3bdf2d8801d33516a118908974c554e2cc0d4dafa9514f4170b85aa2712b4e",
+      "target_sha256": "0b3bdf2d8801d33516a118908974c554e2cc0d4dafa9514f4170b85aa2712b4e",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0170/detector_predictions.json",
+      "source_sha256": "2335cc05f0766c6cc48ec377f2bfd53b70198aca07e66d87d47b48306b534814",
+      "target_sha256": "2335cc05f0766c6cc48ec377f2bfd53b70198aca07e66d87d47b48306b534814",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0170/ownership_overlay.png",
+      "source_sha256": "6d49f964a7eb283fd997309cce384b26a6dfaf60d73bad0873f605e73371168e",
+      "target_sha256": "6d49f964a7eb283fd997309cce384b26a6dfaf60d73bad0873f605e73371168e",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0170\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0170/pin_ownership.json",
+      "source_sha256": "4edf61f3e93ce1456c33556f896f09636b44b1e6ae9927c63377232743d54d58",
+      "target_sha256": "4edf61f3e93ce1456c33556f896f09636b44b1e6ae9927c63377232743d54d58",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0170/unet_predictions.json",
+      "source_sha256": "998908591a44b0905f52611fc0d3ddc23dfe4459cafd56cff8edf4f426627cc8",
+      "target_sha256": "998908591a44b0905f52611fc0d3ddc23dfe4459cafd56cff8edf4f426627cc8",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0208/detector_predictions.json",
+      "source_sha256": "e133f89793d5e376d2c8ca5dca7e6116634b549a074beaf10414d5ccd2680813",
+      "target_sha256": "e133f89793d5e376d2c8ca5dca7e6116634b549a074beaf10414d5ccd2680813",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0208/ownership_overlay.png",
+      "source_sha256": "597b226d7d62846fdb1089ccf5d3c388495418244e6bcbec2492d87c26274de6",
+      "target_sha256": "597b226d7d62846fdb1089ccf5d3c388495418244e6bcbec2492d87c26274de6",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0208\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0208/pin_ownership.json",
+      "source_sha256": "cc1efd46f669a36a71690773a21e56ce3eb577d6aa9eb08ed3851fef72ec9356",
+      "target_sha256": "cc1efd46f669a36a71690773a21e56ce3eb577d6aa9eb08ed3851fef72ec9356",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0208/unet_predictions.json",
+      "source_sha256": "fbd2417ccd4e7c98d502243418819f524f1d813db5a95a73a1e88d32f2ebc015",
+      "target_sha256": "fbd2417ccd4e7c98d502243418819f524f1d813db5a95a73a1e88d32f2ebc015",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0213/detector_predictions.json",
+      "source_sha256": "eaeeeb7d923e1821c8abd9749872d5657b7440a8a9a0f0562b01286d25f7b598",
+      "target_sha256": "eaeeeb7d923e1821c8abd9749872d5657b7440a8a9a0f0562b01286d25f7b598",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0213/ownership_overlay.png",
+      "source_sha256": "1af4590959e35250c420cae3d2fc725e76834a39121148d4a61284297bb5961b",
+      "target_sha256": "1af4590959e35250c420cae3d2fc725e76834a39121148d4a61284297bb5961b",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0213\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0213/pin_ownership.json",
+      "source_sha256": "247b1bc80682ac2488033048326f5ca7e21f61aabbbc5dc8cdc4e17239b1cce4",
+      "target_sha256": "247b1bc80682ac2488033048326f5ca7e21f61aabbbc5dc8cdc4e17239b1cce4",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0213/unet_predictions.json",
+      "source_sha256": "a7f383c953f92441e1d18416eb7fd5ecaddba3840c0f057346a9272fa0217211",
+      "target_sha256": "a7f383c953f92441e1d18416eb7fd5ecaddba3840c0f057346a9272fa0217211",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0227/detector_predictions.json",
+      "source_sha256": "bb80d66f5069daaa3e42baf307e12006a4aef740f1809762b463b21a188f1825",
+      "target_sha256": "bb80d66f5069daaa3e42baf307e12006a4aef740f1809762b463b21a188f1825",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0227/ownership_overlay.png",
+      "source_sha256": "4381f9503632bf831f4f3efa39811f7d918400b637641e15c548e82f0f4b7208",
+      "target_sha256": "4381f9503632bf831f4f3efa39811f7d918400b637641e15c548e82f0f4b7208",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0227\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0227/pin_ownership.json",
+      "source_sha256": "e955cd5b994f58b3052352752c70384514c086081859abda978b8686eae00bf7",
+      "target_sha256": "e955cd5b994f58b3052352752c70384514c086081859abda978b8686eae00bf7",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0227/unet_predictions.json",
+      "source_sha256": "a2c50f2b0875d4b00de7e078065966587cc985e9687a28bda5968e5093278903",
+      "target_sha256": "a2c50f2b0875d4b00de7e078065966587cc985e9687a28bda5968e5093278903",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0236/detector_predictions.json",
+      "source_sha256": "e80528db3d34a0fa0e5bf837d6c478e3da001531b84582e4a2b5ecd2617324b5",
+      "target_sha256": "e80528db3d34a0fa0e5bf837d6c478e3da001531b84582e4a2b5ecd2617324b5",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0236/ownership_overlay.png",
+      "source_sha256": "3f9237b841faba7a4ae4f2b984668eb590b175b2d0e5e0b4ef85d8f2d48e17a7",
+      "target_sha256": "3f9237b841faba7a4ae4f2b984668eb590b175b2d0e5e0b4ef85d8f2d48e17a7",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0236\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0236/pin_ownership.json",
+      "source_sha256": "719a65d1d19737ad5279193a7056927b02d25cbcac7dc7d0cad0344afb0d14ce",
+      "target_sha256": "719a65d1d19737ad5279193a7056927b02d25cbcac7dc7d0cad0344afb0d14ce",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0236/unet_predictions.json",
+      "source_sha256": "0c16dd853f64bc527f64b6d6859b313f5b48297369b9e81843ef218ac400f854",
+      "target_sha256": "0c16dd853f64bc527f64b6d6859b313f5b48297369b9e81843ef218ac400f854",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0240/detector_predictions.json",
+      "source_sha256": "975a32fc424310f1a7054e35dcca6b4e1ebb1a1feb0378cffbd22c4343d3ab15",
+      "target_sha256": "975a32fc424310f1a7054e35dcca6b4e1ebb1a1feb0378cffbd22c4343d3ab15",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0240/ownership_overlay.png",
+      "source_sha256": "779a0bc6a03089afdf666eedf3ba75623501789e12375ac899ea690b33410d1d",
+      "target_sha256": "779a0bc6a03089afdf666eedf3ba75623501789e12375ac899ea690b33410d1d",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0240\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0240/pin_ownership.json",
+      "source_sha256": "1a89bc48dcf37f8bb9f60b2e60a449bb45519704bbc693952ae859715b304296",
+      "target_sha256": "1a89bc48dcf37f8bb9f60b2e60a449bb45519704bbc693952ae859715b304296",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0240/unet_predictions.json",
+      "source_sha256": "357f23918fe5340e4e943fcbebba8016547f97a7020d0781a23cfa6e1335662d",
+      "target_sha256": "357f23918fe5340e4e943fcbebba8016547f97a7020d0781a23cfa6e1335662d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0264/detector_predictions.json",
+      "source_sha256": "114f6d494f32396a783d7ef07984b7641269f05c6f8d58179901b0d87b1fdc02",
+      "target_sha256": "114f6d494f32396a783d7ef07984b7641269f05c6f8d58179901b0d87b1fdc02",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0264/ownership_overlay.png",
+      "source_sha256": "4a27fd652a85e4aa17f71191921ee6e1aee353b5521f832079bb7b399a285aaa",
+      "target_sha256": "4a27fd652a85e4aa17f71191921ee6e1aee353b5521f832079bb7b399a285aaa",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0264\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0264/pin_ownership.json",
+      "source_sha256": "cb68dbb3586284a8a5db6031a39df6eeb70fd255e1d7e462e0794fb7949d3e7d",
+      "target_sha256": "cb68dbb3586284a8a5db6031a39df6eeb70fd255e1d7e462e0794fb7949d3e7d",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0264/unet_predictions.json",
+      "source_sha256": "8f3c4cdd592d13b5c7f57d150668baf78019eb1bf373ac3f57df812bb41708bc",
+      "target_sha256": "8f3c4cdd592d13b5c7f57d150668baf78019eb1bf373ac3f57df812bb41708bc",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0267/detector_predictions.json",
+      "source_sha256": "d643682d70ca7e52c7565df906fdb72daecfdb8d387692794bcd484cee11eecd",
+      "target_sha256": "d643682d70ca7e52c7565df906fdb72daecfdb8d387692794bcd484cee11eecd",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0267/ownership_overlay.png",
+      "source_sha256": "aa45be8c9546743b9b79374a22b6ca647c95b2b5b34ea6cabd20b76283b705a7",
+      "target_sha256": "aa45be8c9546743b9b79374a22b6ca647c95b2b5b34ea6cabd20b76283b705a7",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0267\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0267/pin_ownership.json",
+      "source_sha256": "da3b80bbef7da96a8dbdedf1f926ea6d65ab2202c0180b8fe0051e1f4df3cdfb",
+      "target_sha256": "da3b80bbef7da96a8dbdedf1f926ea6d65ab2202c0180b8fe0051e1f4df3cdfb",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0267/unet_predictions.json",
+      "source_sha256": "cdb4348eca51f5d07df35f426c6a610c1f8b784a71c39ba13a0c629d6455c274",
+      "target_sha256": "cdb4348eca51f5d07df35f426c6a610c1f8b784a71c39ba13a0c629d6455c274",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0286/detector_predictions.json",
+      "source_sha256": "8b4b96665ccc601c89a9776e94af539560f0c7c888dc582e03d194c531308683",
+      "target_sha256": "8b4b96665ccc601c89a9776e94af539560f0c7c888dc582e03d194c531308683",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0286/ownership_overlay.png",
+      "source_sha256": "5cc6a8f99c7491f0187abd1d9e1f0aa8696d0dff5fefc0b6c4d21558b50a8891",
+      "target_sha256": "5cc6a8f99c7491f0187abd1d9e1f0aa8696d0dff5fefc0b6c4d21558b50a8891",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0286\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0286/pin_ownership.json",
+      "source_sha256": "a9f29cfcf216251eb1cbcf95352a73738969138f0f9e69fe165b682e256ec2e4",
+      "target_sha256": "a9f29cfcf216251eb1cbcf95352a73738969138f0f9e69fe165b682e256ec2e4",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0286/unet_predictions.json",
+      "source_sha256": "b0e22ed7efe2eed60e1840ff9d2c2c75e86674cea22737cc3b7e8d8c8e69b2c7",
+      "target_sha256": "b0e22ed7efe2eed60e1840ff9d2c2c75e86674cea22737cc3b7e8d8c8e69b2c7",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0287/detector_predictions.json",
+      "source_sha256": "11de1f3f3a923f712b13695222c8e800f7cc0a43c9dec44d9e187835313b94de",
+      "target_sha256": "11de1f3f3a923f712b13695222c8e800f7cc0a43c9dec44d9e187835313b94de",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0287/ownership_overlay.png",
+      "source_sha256": "2842a3010fc9c7a501c9bfd8ec084ba59145397e4797f1f88eef6baa3c1b6bb8",
+      "target_sha256": "2842a3010fc9c7a501c9bfd8ec084ba59145397e4797f1f88eef6baa3c1b6bb8",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\pin_ownership_20261012_003732\\backup\\runs\\s5_pin_ownership_v1\\0287\\ownership_overlay.png"
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0287/pin_ownership.json",
+      "source_sha256": "06c4f211cb5b73f0271dd1e66f81366c81924c39c18ee7ae56417d39298765fb",
+      "target_sha256": "06c4f211cb5b73f0271dd1e66f81366c81924c39c18ee7ae56417d39298765fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s5_pin_ownership_v1/0287/unet_predictions.json",
+      "source_sha256": "c79f937411a70857f99ec147fc0a8068db0f12e1a189cac1e6682051b175a9a0",
+      "target_sha256": "c79f937411a70857f99ec147fc0a8068db0f12e1a189cac1e6682051b175a9a0",
+      "backup": null
+    }
+  ],
+  "protected_sha256": {
+    "scripts/run_baseline.py": "ac8df400b2eb5353e68ab93bea29c9b695e22d2d9990d3614525c420692ca7cf",
+    "scripts/train_detector.py": "4851fbc9828d42751364d26d39dd3e7fde701ea457adc7d9c5352b34963871ab",
+    "scripts/train_unet.py": "87e630413bfb3ba4de1386eff05ba948e93938ecd983e6f3bd0b5425e780525e",
+    "configs/unet_inference_v2.json": "92b36cc9e9b25e99963d8e83b856c114d0608cb8c03e898a0a43ab222677c139",
+    "configs/unet_label_reviews.json": "838f053a0d244fee969ef4febef726426af8dba1b5aa8e4c0c459b723d8d79e1",
+    "weights/detector_dataset300_v3_nano.pt": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd",
+    "runs/training/unet_wire_pin_v1/best.pt": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+    "runs/training/unet_wire_pin_v1/last.pt": "dd6f44db15840ee0d6997a17e18ab75a20b172d1535beef0ec29111b15335a1c"
+  }
+}

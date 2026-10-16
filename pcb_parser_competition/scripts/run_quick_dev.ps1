@@ -1,9 +1,9 @@
 param(
     [string[]]$Devices = @('cuda:0'),
-    [string[]]$Modes = @('fused'),
+    [string[]]$Modes = @('whole', 'sliced'),
     [int]$Repeats = 3,
-    [string]$RunName = 's3_y11s_baseline_quick_dev',
-    [string]$Config = 'configs/baseline_y11s.json'
+    [string]$RunName = 's2_balanced_quick_dev',
+    [string]$Config = 'configs/baseline_finetuned.json'
 )
 $ErrorActionPreference = 'Stop'
 $pcbRoot = Split-Path -Parent $PSScriptRoot

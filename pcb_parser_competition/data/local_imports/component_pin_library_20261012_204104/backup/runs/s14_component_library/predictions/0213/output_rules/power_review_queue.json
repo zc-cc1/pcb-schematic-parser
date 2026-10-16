@@ -1,0 +1,142 @@
+{
+  "image_sha256": "42e642e14c769ceec5800d44b0f567da84deff74ebb06c4be7bfd7f8a0f5444e",
+  "size": [
+    672,
+    595
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "a612de3cfbc486b7d3be98e72c1cfeef2767aabffeda3d8b293922b8bd0c8cbe",
+  "input_network_sha256": "748af26b08881a083d1219e49de7fc720b5490c7d57f28dc3ddfe50f2ca42537",
+  "input_OCR_sha256": "3e46713ec4a96d35836a019fbbc74604e8ad71f46e06b49cc0fde6fa00fc63cb",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [],
+  "components": [
+    {
+      "detection_index": 3,
+      "component_id": "UNRESOLVED_DET_0004",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        204.691,
+        556.136,
+        252.071,
+        591.538
+      ],
+      "designator": null,
+      "assigned_tip_count": 2,
+      "attached_tip_count": 2,
+      "candidate_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0004"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 6,
+      "component_id": "UNRESOLVED_DET_0007",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        275.313,
+        335.403,
+        322.168,
+        371.407
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0010"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 7,
+      "component_id": "UNRESOLVED_DET_0008",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        527.928,
+        312.706,
+        579.384,
+        351.098
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0018"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 8,
+      "component_id": "UNRESOLVED_DET_0009",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        61.744,
+        194.502,
+        110.617,
+        234.678
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0014"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 10,
+      "component_id": "UNRESOLVED_DET_0011",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        377.828,
+        99.078,
+        425.948,
+        137.897
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 13,
+      "component_id": "UNRESOLVED_DET_0014",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        391.779,
+        226.614,
+        437.465,
+        263.118
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0006"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 6,
+    "power_without_owned_tip": 1,
+    "networks_with_possible_omitted_power_member": 0,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

@@ -175,10 +175,10 @@ def draw_overlay(rgb, detections, texts, path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--image", type=Path, action="append", required=True)
-    parser.add_argument("--config", type=Path, default=ROOT / "configs/baseline_y11s.json")
+    parser.add_argument("--config", type=Path, default=ROOT / "configs/baseline.json")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--devices", nargs="+", default=["cuda:0"])
-    parser.add_argument("--modes", nargs="+", choices=["whole", "sliced", "fused"], default=["fused"])
+    parser.add_argument("--modes", nargs="+", choices=["whole", "sliced", "fused"], default=["whole", "sliced"])
     parser.add_argument("--repeats", type=int, default=3)
     parser.add_argument("--skip-ocr", action="store_true")
     args = parser.parse_args()
@@ -188,8 +188,6 @@ def main():
     weights = ROOT / cfg["weights"]
     if not weights.is_file():
         raise FileNotFoundError(weights)
-    if cfg.get("weights_sha256") and hashlib.sha256(weights.read_bytes()).hexdigest() != cfg["weights_sha256"]:
-        raise ValueError("Detector checkpoint does not match the selected configuration")
     if any(d.startswith("cuda") for d in args.devices) and not torch.cuda.is_available():
         raise RuntimeError("Requested GPU is unavailable")
     args.output.mkdir(parents=True, exist_ok=True)

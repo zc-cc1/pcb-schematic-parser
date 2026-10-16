@@ -1,0 +1,55 @@
+{
+  "components": {
+    "U3": {
+      "type": "ic",
+      "Name": "RP2350A",
+      "value": null,
+      "bbox": [540.0, 280.0, 690.0, 730.0]
+    },
+    "RUN_1": {
+      "type": "vbus_in",
+      "Name": "RUN",
+      "value": null,
+      "bbox": [490.0, 625.0, 520.0, 635.0]
+    },
+    "R1": {
+      "type": "resistor",
+      "Name": "0603WAF5101T5E",
+      "value": "5.1kΩ",
+      "bbox": [185.0, 756.0, 205.0, 764.0]
+    }
+  },
+  "pins": {
+    "U3": {
+      "pin_1":  { "pinname": "IOVDD", "point": { "x": 595.0, "y": 740.0 } },
+      "pin_2":  { "pinname": "GPIO0", "point": { "x": 700.0, "y": 650.0 } },
+      "pin_26": { "pinname": "RUN",   "point": { "x": 530.0, "y": 630.0 } }
+    },
+    "RUN_1": {
+      "pin_1": { "pinname": "RUN", "point": { "x": 530.0, "y": 630.0 } }
+    },
+    "R1": {
+      "pin_1": { "pinname": "1", "point": { "x": 175.0, "y": 760.0 } }
+    }
+  },
+  "nets": {
+    "$1N695": {
+      "hyperGraph": "(U1.A5,R1.1)",
+      "edges": {
+        "edge_1": [
+          { "x": 100.0, "y": 760.0 },
+          { "x": 170.0, "y": 760.0 }
+        ]
+      }
+    },
+    "RUN": {
+      "hyperGraph": "(U3.26,RUN_1.1,U5.17,RUN_2.1,R8.1,RUN_3.1,SW2.1,RUN_4.1)",
+      "edges": {
+        "edge_1": [
+          { "x": 530.0, "y": 630.0 },
+          { "x": 530.0, "y": 630.0 }
+        ]
+      }
+    }
+  }
+}

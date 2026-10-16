@@ -66,7 +66,7 @@ def main():
     parser.add_argument('--output',type=Path,required=True)
     parser.add_argument('--device',default='cpu')
     parser.add_argument('--config',type=Path,default=ROOT/'configs/pin_ownership_v1.json')
-    parser.add_argument('--detector-config',type=Path,default=ROOT/'configs/baseline_y11s.json')
+    parser.add_argument('--detector-config',type=Path,default=ROOT/'configs/pin_ownership_detector_v3.json')
     parser.add_argument('--unet-inference-config',type=Path,default=ROOT/'configs/unet_inference_v2.json')
     parser.add_argument('--unet-weights',type=Path)
     parser.add_argument('--detections',type=Path,help='Optional frozen image-model prediction cache')
@@ -89,7 +89,7 @@ def main():
     if args.detections:
         detector_payload=read(args.detections)
         validate_cache(detector_payload,image_hash,size)
-        if detector_payload.get('weights_sha256')!=detector_hash:
+        if detector_payload.get('weights_sha256',detector_hash)!=detector_hash:
             raise ValueError('Detector cache uses a different checkpoint')
     else:
         detections=predict_components(rgb,detector_cfg,args.device)

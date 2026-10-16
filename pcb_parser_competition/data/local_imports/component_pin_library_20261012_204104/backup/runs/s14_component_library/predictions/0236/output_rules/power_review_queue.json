@@ -1,0 +1,83 @@
+{
+  "image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+  "size": [
+    1008,
+    658
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "c4a10c91d45392fdc3cf5b2b9f4136398289b5fb98b666229d0be26df82b37cb",
+  "input_network_sha256": "31b8b685f3d19b5410508ac07b6c3bf4b3727c2d1287bb4a45fa8e601432cc5d",
+  "input_OCR_sha256": "747743eb3619fbb0d14fd273655ff489fc7528c36d41ef80096cde3233f59799",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [],
+  "components": [
+    {
+      "detection_index": 5,
+      "component_id": "UNRESOLVED_DET_0006",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        372.904,
+        474.898,
+        421.907,
+        509.62
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0017"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 6,
+      "component_id": "UNRESOLVED_DET_0007",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        747.018,
+        543.582,
+        796.065,
+        579.864
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0011"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 8,
+      "component_id": "UNRESOLVED_DET_0009",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        839.258,
+        178.052,
+        881.155,
+        209.84
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0012"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 3,
+    "power_without_owned_tip": 0,
+    "networks_with_possible_omitted_power_member": 0,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

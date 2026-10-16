@@ -1,0 +1,69 @@
+{
+  "image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+  "size": [
+    1604,
+    664
+  ],
+  "coordinate_origin": "top_left",
+  "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+  "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+  "original_pin_input_sha256": "d496f18beb7a5d044c42f40a8c2aeef75d1eae7836137e2ef3d6a2b95eb7504c",
+  "OCR_input_sha256": "b8abce81b9d2b1d1ed1bfdeacf439150200039e7888a40b9230af57b21f2a55e",
+  "records_input_sha256": "bd2c3e6ad422bc9f5da7201b58085f8c016f79a592c2fdede5211462eafa1a84",
+  "prediction_only": true,
+  "library": {
+    "supported_components": 1,
+    "numbers_added_from_library": 19,
+    "invalid_numbers_withheld": 1,
+    "missing_names_added": 4,
+    "partial_names_completed": 1,
+    "number_observed_OCR_count": 57,
+    "number_available_count": 76,
+    "name_available_count": 67,
+    "number_and_name_available_count": 63,
+    "coordinate_changes": 0,
+    "ownership_changes": 0,
+    "trained": false,
+    "default_pipeline_adopted": false
+  },
+  "components": [
+    {
+      "component_id": "U1",
+      "detection_index": 3,
+      "model": "STM32F103C8T6",
+      "package": "LQFP48",
+      "candidates": 49,
+      "validated_name_number_pairs": 40
+    }
+  ],
+  "conservative": {
+    "exported_components": 19,
+    "exported_pins": 58,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 37,
+      "pin_number_unresolved": 56,
+      "pin_name_unresolved": 65
+    }
+  },
+  "candidate": {
+    "exported_components": 19,
+    "exported_pins": 59,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 37,
+      "pin_number_unresolved": 56,
+      "pin_name_unresolved": 64
+    }
+  },
+  "physical_graph_unchanged_from_cached_baseline": true,
+  "tip_geometry_and_ownership_preserved": true,
+  "unsupported_components_preserved": true,
+  "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+  "complete_competition_JSON": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "wall_seconds": 3.061253400053829
+}

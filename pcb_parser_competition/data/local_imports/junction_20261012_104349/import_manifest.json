@@ -1,0 +1,1509 @@
+{
+  "status": "junction_pilot_transferred_v1_default_preserved",
+  "files": [
+    {
+      "file": "scripts/prepare_junction_reviews.py",
+      "sha256": "aba7b53e3f562b6ad89064885a32948141291766f04f55c9a0551268ea9620d3",
+      "backup": null
+    },
+    {
+      "file": "scripts/train_junction_classifier.py",
+      "sha256": "a9bea82e2bb521dbe6ca39bf0f820555caf13f6487d9d6f901318b9ed7787de5",
+      "backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\junction_20261012_104349\\backup\\scripts\\train_junction_classifier.py"
+    },
+    {
+      "file": "scripts/freeze_junction_model.py",
+      "sha256": "9ae65ca49ba968f36ddfcdf68e959a6ee2e9f9f9fe7c0f2e85a8af1b8c9f2ece",
+      "backup": null
+    },
+    {
+      "file": "scripts/batch_learned_wire_graph.py",
+      "sha256": "92caca4b2cf8f50256eebec7f49b38a9c48a7e0afe23ea7d4b95d55d70bb9582",
+      "backup": null
+    },
+    {
+      "file": "scripts/evaluate_learned_wire_graph.py",
+      "sha256": "05a20e9b12347d038d50dc6aeca1bd3e1a97438713368374012f10512f1a8378",
+      "backup": null
+    },
+    {
+      "file": "scripts/run_learned_wire_graph.ps1",
+      "sha256": "d2eacb3aa1f686395c036425e7bec23cda7594b2fc03cded4f2cbcf940fc04fb",
+      "backup": null
+    },
+    {
+      "file": "scripts/run_wire_graph.py",
+      "sha256": "e1f5ff218413d1697f264e1228ea91af82e17fb52d83943055abfbbbfa440567",
+      "backup": null
+    },
+    {
+      "file": "src/pcb_parser/wire_graph.py",
+      "sha256": "f15d59d10ba120adfe77ce53d7dc4f60749847fda8ba41c914d90adad43bdcaf",
+      "backup": null
+    },
+    {
+      "file": "src/pcb_parser/wire_graph_artifacts.py",
+      "sha256": "2feb1335878f70ed5846f0cff39f21572233bc14a1b263c013b23d39b6fdabec",
+      "backup": null
+    },
+    {
+      "file": "src/pcb_parser/junction_classifier.py",
+      "sha256": "7f61378936a1179f335bb3efc5883ebd82407b25b82a4867c93b6ece328477db",
+      "backup": null
+    },
+    {
+      "file": "src/pcb_parser/junction_training_data.py",
+      "sha256": "108cf0ac7fec75a49708fcaa62eaea37dd2d1b6b9ff9c87ccd5e47d4eb72e483",
+      "backup": null
+    },
+    {
+      "file": "configs/junction_training_v1.json",
+      "sha256": "836333d5a5a190d0c5a8c020c37e59073d3e770f962406df72c2a8dd676f220c",
+      "backup": null
+    },
+    {
+      "file": "configs/wire_graph_v2.json",
+      "sha256": "2336b0d7bbf352d327e4114e6dd53ee1bb34d71233c11ffe6c27f1749aa2a7ce",
+      "backup": null
+    },
+    {
+      "file": "weights/junction_classifier_v1.pt",
+      "sha256": "901b0e693c7363eeb8f6bb3638fe4a0f42a7e32e24972a8bc254960fa4e87091",
+      "backup": null
+    },
+    {
+      "file": "tests/test_junction_classifier.py",
+      "sha256": "fc01e90a164e6acc57f57c601bcaa662e73a1dc5605ed889ad23de831770e6e4",
+      "backup": null
+    },
+    {
+      "file": "docs/junction_classifier_stage_v1.md",
+      "sha256": "79c1da678ef12cca40297a73a8381e867b7afb268f5ceef7406736d32190c2ad",
+      "backup": null
+    },
+    {
+      "file": "docs/downstream_implementation_plan.md",
+      "sha256": "f2d6ed9727cf0f4b0f7b8e6aab887720bc39c19874122f6c15d25dcedb6122e4",
+      "backup": null
+    },
+    {
+      "file": "data/junction_classifier_v1/reviewed_annotations.json",
+      "sha256": "ee823ea42cd8d27145e241613e2104cdecf75e7280f30dd7ca7b721dedfe909f",
+      "backup": null
+    },
+    {
+      "file": "runs/training/junction_classifier_v1/best.pt",
+      "sha256": "901b0e693c7363eeb8f6bb3638fe4a0f42a7e32e24972a8bc254960fa4e87091",
+      "backup": null
+    },
+    {
+      "file": "runs/training/junction_classifier_v1/evaluation.json",
+      "sha256": "730dcf21c2b8ff3786a6e6535b2bdb04cbdf2b50e88a4a3a538ad59a14976d1c",
+      "backup": null
+    },
+    {
+      "file": "runs/training/junction_classifier_v1/training_config.json",
+      "sha256": "2c520de200dbb6391a0e5f2e7bcb03309272258c73f5516158e639b8af6130c2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/batch_summary.json",
+      "sha256": "e04e588f1c9094be14d099f0548bbabee5337790e98a31cbee9c01561c37003e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/evaluation.json",
+      "sha256": "de44af48cfd34da674970b0ec353939eca7e008a97190caba63f9fdb72baf026",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/junction_predictions_01.png",
+      "sha256": "102c65f7aba6abe69a97eb08e0aeafe86e710cc6e77743610049d7701f5616ec",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/junction_predictions_02.png",
+      "sha256": "9c821890f704b63da61404d68f4c9d2519346ee898040956def50be9621b85bb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/junction_predictions_03.png",
+      "sha256": "d0066899b61ba699e8135b824da8eba485a809f661d4d5d15f4540c84d6df608",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/report.md",
+      "sha256": "f7bb76e40a8627a2f58d669f51825d7ecc9f285fab43c9eda5d66f02506d3912",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/transfer_training_smoke_config.json",
+      "sha256": "151890f5e16f2de3c8211d74c24974b44994d1f3011728e2ea50e00e565c5853",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/body_excluded_mask.png",
+      "sha256": "bb6185024e4b10b694554630da5dea192a4feb893159e1995d0a661d8a57f3ec",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/export_coverage.json",
+      "sha256": "b9389475460dc635bed55bba9093315486b01bb4a63a265726159b4926b8fbfe",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/graph_proposals.json",
+      "sha256": "a2eaa985f31975203e4bc6038a81360622e0b288d539e5019fc3e9e91f44fd29",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/guarded_wire_mask.png",
+      "sha256": "49508dd77dbfbf32973f40eace2f610b0f5ffaadaa03cf22d34fb49b5454ad44",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/junction_predictions.json",
+      "sha256": "a2a0e3f32f0043fe7d76d752f0e58145bff251161ec83e29589b5d4c7cbf9a21",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/partial_submission.json",
+      "sha256": "67e42b9f50b6f927bbe08b18c503a11acb87f01e2878e31519d3b530dd81e383",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/review_queue.json",
+      "sha256": "8a6586ab932a2dcb612ecf30a6144956b42bef48f513e8ba1379ddce18430404",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/skeleton.png",
+      "sha256": "ab4100305fd72bb8c8894fd53d1f367348141c75219afce2b47c1e4fdd89a674",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/summary.json",
+      "sha256": "341204b3e02e5473a8002991ee10d8c56f9c345c3b351192c8b0d0a3ebf0e7d4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0002/wire_graph_overlay.png",
+      "sha256": "fcf174ca9559231ff614b47ecb92bfbe0cfba5b76a3b3d8e31678a6afba826df",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/body_excluded_mask.png",
+      "sha256": "55f084b5928d250cf3bb3b7cafb9e8ed71edb4c237350cd1aaba67602fadb589",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/export_coverage.json",
+      "sha256": "b931d57d1f7091bb63d91be4f83997a4f00819a6845918384404c1133d72f9de",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/graph_proposals.json",
+      "sha256": "e7d0ec49255494807a80475b25c636cebd03bf3b1eee9e4064fd2b94c943891d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/guarded_wire_mask.png",
+      "sha256": "e5d4fa7f1da934820ad84f6560ed6b706de0f65e2a2cdf5bca3d1ed8d1b51596",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/junction_predictions.json",
+      "sha256": "bf0e0b2e518e5c9dbd6aab18ab9954294da1e0800433c961f7b68f1e5cea2588",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/partial_submission.json",
+      "sha256": "3525cbc6067f3836b7cad8e163a76ce264667d1e0d82d626bd045404c1c43380",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/review_queue.json",
+      "sha256": "84ff00384f7a55bf3dd403495a41a3e66db1cc37bc80d0ff81b0f71753ebe007",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/skeleton.png",
+      "sha256": "b724a73e1c9bf6682a912d2a4c9c19c7498053c03434963c77fd89c5011b7491",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/summary.json",
+      "sha256": "ef3612cb75724db54cd956ad9c88251fa18884cab4ebc76eebdaaa68d13141b9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0007/wire_graph_overlay.png",
+      "sha256": "4c3d019dd79e7de4626ad0071afb37bfe89288a9d03b5afd8b2aa2156fba45d8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/body_excluded_mask.png",
+      "sha256": "5d9ddd479fc62b44ed168913d42f9f05fe5f829395193d25356be954a2449de5",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/export_coverage.json",
+      "sha256": "bc8cb38a0a3711db41cdd987620ddfdcd6f45e16dfe647aaca95d8e106c3ba85",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/graph_proposals.json",
+      "sha256": "f94e893a030bb49197cdce71a408511ebabf7d45753f77ede548d8201778351d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/guarded_wire_mask.png",
+      "sha256": "f341ae1beb21b26bed8e23cef0da3134872b6bbd07ae9f55229427be1cc50a27",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/junction_predictions.json",
+      "sha256": "ca93d1b86fc2f336903ec6f3db728b89d63998a850ffb9a34752c92f2d2c877a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/partial_submission.json",
+      "sha256": "fd0aaa0b65a0e6d8ff62f941bcb0eb2288bc921c21f1f27aacad69624ccb3a63",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/review_queue.json",
+      "sha256": "e9400eddc246913bd0bbbb86b531dffd40c8ac4a366d4b7d487412f74b2e4f88",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/skeleton.png",
+      "sha256": "b9c9c7364dc12f837fbd4567c3d980c18b77a945aa249c8b7e054c2d4f67969d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/summary.json",
+      "sha256": "9ffdb72090cbab7731b99c05358d116861d1f9c437c3e2bbeb4fba31f3c5eff2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0012/wire_graph_overlay.png",
+      "sha256": "abaefe39e8e1e184b51684b36b0051b26fb9b69ea9dd401ffb49aace23dee923",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/body_excluded_mask.png",
+      "sha256": "72af00fa60a6e46fea1f69ae1973c4796c739dfa8e436df36ca480ab829b8554",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/export_coverage.json",
+      "sha256": "4ca9c8cac7d3391da4f82515a7082e019f1646e4fc9de422473aff0ddc4a4246",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/graph_proposals.json",
+      "sha256": "029e92604b9c018d2c9adbdc9036ce6365291e537081c1f05ce16d21cfef4bb0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/guarded_wire_mask.png",
+      "sha256": "c7e497c37105025f4474b873af16675236a44fc5c99cb9268fd305bbc57e85cf",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/junction_predictions.json",
+      "sha256": "b58ccadf03449b821bc4fdc2806af39786b81367b152a2c8de0b02ff8de638dc",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/partial_submission.json",
+      "sha256": "b3f8a6e40840446345e6d9e960ce09cde9250931a5f969fe01e68bfdb0dc9bf8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/review_queue.json",
+      "sha256": "aa8c33a783238a54a7312896f83317b8d57c0b74a9315b6cf35dc667cd9b3dea",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/skeleton.png",
+      "sha256": "55358476e2228d068560db16fb5945e25e34325fb94b4cc3d0971cf597c44e0d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/summary.json",
+      "sha256": "19bfbce20e510e3cfd60eb2ab8f127813d74cd9e418162b73eca4431002dafbf",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0018/wire_graph_overlay.png",
+      "sha256": "dd5f2029e98b847e65a749abc09e6560ded0aa72f8898d3ebdfcdc779b1ccd0d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/body_excluded_mask.png",
+      "sha256": "b254efd3d53517a2e6ddb661c51a9cd4a2dc4ba7526167746046266fd56b8ac8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/export_coverage.json",
+      "sha256": "cfe0573f98df9b5384568ae9939b61534533d49691224d138fec755705a197ec",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/graph_proposals.json",
+      "sha256": "9d8af992f00616a52767b160f9a12eee1a9d5d2c9c4f72658e97c420947c568a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/guarded_wire_mask.png",
+      "sha256": "bc146666fafdd1cd1db7a6cdd32fd1d95584f78a77cf2f081e71f6a0e6e96f35",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/junction_predictions.json",
+      "sha256": "ed310e01fea7d55248cd33f9dee931866d12293b9bc617749f2197ec33d4b4c7",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/partial_submission.json",
+      "sha256": "2416b5f9298d96fba8d5b9387479e5afac0328f0fdb5f4481cda4fd540718dcb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/review_queue.json",
+      "sha256": "7428bc173a1586ab306669dcfac5bcd8e4255545dd1e789db82b77d4b591ac1c",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/skeleton.png",
+      "sha256": "6e1991e313b55991e20389882fa86180e0b411b2b03fa89f9be5da296f48dbf9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/summary.json",
+      "sha256": "ed6c66c9e1e51cb021f343cd98b50baf6bbd25b9858610d69b72fda67c6349a4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0022/wire_graph_overlay.png",
+      "sha256": "833061223673d72fd894307294d93a657feaf704d88d39eb0f77e3a1422b80f3",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/body_excluded_mask.png",
+      "sha256": "c0b9d284652f594739ecd290768a03974fa0168a7b013a1e78fd1bcfdb71d61e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/export_coverage.json",
+      "sha256": "854ec5a57a820f62b10f32ad747e2f5b8d1379f5baeeb46653a0b0dabf27d9da",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/graph_proposals.json",
+      "sha256": "92d78a9f0cb9d82a1f4f58adcb2f559938f00b8146578c7f031bb61ca4ebb1a4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/guarded_wire_mask.png",
+      "sha256": "4960bcc91d827448f6915b3a489596bde918c9169e55b8274981a1cec17a7ec2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/junction_predictions.json",
+      "sha256": "8eb1ed948d4bde8207b37770f87cdb8c3cca6580f57ba608ecbb2bf89bba71fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/review_queue.json",
+      "sha256": "858d829380969f7f1bd2321aa70f3df34ca9060ca5d9a6cd90321523a8ccbda5",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/skeleton.png",
+      "sha256": "dac4716b2d0b0312e7b957445db56ef9df0d6e5cc52c76f654151eaa52e5aca8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/summary.json",
+      "sha256": "98655d43cf81a6a0a1d1f69695b104de5a37eb93a7192b3905e4ea8560cedf10",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0026/wire_graph_overlay.png",
+      "sha256": "80b3bc38de74140dc8d81801e21e57e03401b42b2746f75914d4c727ea5e2b0f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/body_excluded_mask.png",
+      "sha256": "2817f9024d42da95a2e5ce27b11f658faebb3669d14d22749279af78ca92efa3",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/export_coverage.json",
+      "sha256": "b5004a91dd097a5e9cc83823d1efbfb9f2d8abd9ac49f3f9747c86e7f84a22d4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/graph_proposals.json",
+      "sha256": "e23b4fb3aff89ea1535c6fc41e762605174c0357aac00d8d2dbf9c9d8185d2ef",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/guarded_wire_mask.png",
+      "sha256": "e9ef07ba87ff3eb5585f3b490dae3078ea45e60ec6bbbc113d269dc6e7459bd8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/junction_predictions.json",
+      "sha256": "eca2691d050c733e7509eebd89125becec5fe2e210d5bdea05515aac11c4d758",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/review_queue.json",
+      "sha256": "88e5406b1be964aa277a3b4ac2df6dcc10ec3ecd890097b452d7d3c7ac313a65",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/skeleton.png",
+      "sha256": "8d2b809a6cedd1802f4dc4fd1699c2fb33dee2a1c33fd5facff7aea608c0dc5c",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/summary.json",
+      "sha256": "21570fe1b9871e3ab8042c12f77c4b251d143c95d05d7942337d022f1b0b258b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0029/wire_graph_overlay.png",
+      "sha256": "dd7c428276cdf763832f2622bda0fdebab6f5b26b30e56ddcb5e348667b6f477",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/body_excluded_mask.png",
+      "sha256": "f4e2d58cee4e5884d9e381a7afa7d8e424f081fbfbcd750b5f01782a38f31596",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/export_coverage.json",
+      "sha256": "b85fe9591f45c72dd4f799f003816fc5e68ee8a207c99efb6579e598c28999a4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/graph_proposals.json",
+      "sha256": "2863283d972ebd39ef9831106e96c435f5a0f7db5aa3a6b08f14fe96bff8ae5e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/guarded_wire_mask.png",
+      "sha256": "7669de1f7c35259fedf43b31cbbe6cf8217ff81f4ddb6b21c8dc0eaf43704d96",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/junction_predictions.json",
+      "sha256": "8a325ad66b255c4defcd3a092a28da9d3902e8970944bb1d5b0623c590aac4b9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/review_queue.json",
+      "sha256": "a340d3e150567ddf818a76f0b6e45b96ccb0945e39dda9696cc413cfb9b5bb6a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/skeleton.png",
+      "sha256": "86514620f2a9e8905d392407c9cbe3b82308057fabcf845e89a1928a72833ced",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/summary.json",
+      "sha256": "9ae52031dca1dbe15c30ce0500a531d34c6a9e430d8d885ebec13be039c3ba9a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0033/wire_graph_overlay.png",
+      "sha256": "d1c08045b01675e6a510b561c7001e447a24ac2ac7712c9d2c9c069e9c3c7ef4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/body_excluded_mask.png",
+      "sha256": "0801ace6eed13539f88c03eb7c43b227547b694a00bb255d4cc4aecd79bae650",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/export_coverage.json",
+      "sha256": "761aafd207e5a61aa5f8db369cf06770167e1f4ad50594fec9ef8d5576010649",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/graph_proposals.json",
+      "sha256": "55ef095c63249241da09e93f737ae38a1b81eb5f6749703c3ac5a3a56c3f756d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/guarded_wire_mask.png",
+      "sha256": "4d5ed2db62c7013fe9662b76e69a646aa9ae1bf01bd51543e38290770a5237fa",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/junction_predictions.json",
+      "sha256": "4103b9b026024fb58b27f03bfa7033a52471c5d32057accc95e3bd2c40cb3004",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/partial_submission.json",
+      "sha256": "e7ef9e3bd2bdd79b96ff23f83b054dd9ffe74ae12ef9699b77c5fdcc38985f90",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/review_queue.json",
+      "sha256": "748a94009412ed182c23e9c4e8c56851ebc854a2b0c2bbc686f4eec0313a8249",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/skeleton.png",
+      "sha256": "21ae69809f0416efcd85fd852d683adb3f5fc9f126ca7bd489f1e80c0c165d48",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/summary.json",
+      "sha256": "b964613f45058afc0c36750c1ecb611c193d7ff90566bf745202a096f204c7cd",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0036/wire_graph_overlay.png",
+      "sha256": "fbb39fedee245415ee10b4966d0fd11ef6ec9608da7856f5ed6bb1456757f081",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/body_excluded_mask.png",
+      "sha256": "86fe4a60e941d4a0417e90abc82d9420b38de3ed47196a01895a9760607bb47a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/export_coverage.json",
+      "sha256": "31f17ecb0a26f47437b6fc06adaab1af97657fb57066ba70b7450cf4788fc775",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/graph_proposals.json",
+      "sha256": "199302ac224dc22992559898424b96eabff57da9fd70a6068407978e11ebe701",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/guarded_wire_mask.png",
+      "sha256": "e28e1662542bef3f2e3ca4e7b3b6cdaffa07a5b0f43b5de865b9e757c5ef94aa",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/junction_predictions.json",
+      "sha256": "6fe754382949cbdbf133ca2d6702ea2d0c7492f7d0e6a787cfbf37cc2fca4d54",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/partial_submission.json",
+      "sha256": "a915ca0983661e185937ed80d0726c17cf0c0199196f48650667428f7576f81b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/review_queue.json",
+      "sha256": "a69f84de6e75d75b3b44f3b37ef88c1c5005e13dfe52ebbc1170f19370c6d2fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/skeleton.png",
+      "sha256": "c0979273ddb1a31cdba305cc2b513ceaa3b61b0779b3d67f21ccffa25233b7f7",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/summary.json",
+      "sha256": "4fd84b08bba098bc726e9147186d6c568c4bc27af3dbdbcb391d561e59273156",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0042/wire_graph_overlay.png",
+      "sha256": "85ef87cfc9c4708a1f587e63aef75091250b2ca8b0a0640b8ca9f4b4bec11c5e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/body_excluded_mask.png",
+      "sha256": "1b7cf4ab5028e58815f46113e9553dc41caeba83f0c75b851a4d79a9bdc3942c",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/export_coverage.json",
+      "sha256": "068de3c4ee3a7ad1124eb3f8fc4d6a130f3d226e74ed7aa855ef46d675800f3c",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/graph_proposals.json",
+      "sha256": "ce86c4bd05603fcf6eb64d1dd4e4a3124c77a6fcaf85a13fe90d92023b3e7d49",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/guarded_wire_mask.png",
+      "sha256": "45e2f81f193102d915579318adc48d9e336bcbe2c35cab95c9bc7b5af8aba474",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/junction_predictions.json",
+      "sha256": "5bb23133624f0cbe31423c92f813b10cbded00408ff7f8e401c7d02586db9a48",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/partial_submission.json",
+      "sha256": "a13eb7aad31b97e3c364fdf9097c8706d0d32b62d4e4250e8802a01b082eff40",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/review_queue.json",
+      "sha256": "04176bc10be3148788ebfe9ef70aaab69b74b6970f80a4fde0102fbab886b044",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/skeleton.png",
+      "sha256": "c5dd09fd9b6f1055e65be5032bbea16abec896e7f7ca166e10b14b53caea9527",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/summary.json",
+      "sha256": "b15f8de71463ad8b7e032bda16f17cfb4c45c012be815a1cc2b8b364af0bc674",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0049/wire_graph_overlay.png",
+      "sha256": "bc03e82b18b931162d66fa0d38ed1599d3e470afb08bd75f5e99f8944da50c67",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/body_excluded_mask.png",
+      "sha256": "3ff6523e9a5537f45cf4ae33757025d3bc245cf758916edd6c9fea8059645b5d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/export_coverage.json",
+      "sha256": "d71fad58f679ad6481c7e9f7ac0be3bfa9acba79ffa80760ea9a4235b289d127",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/graph_proposals.json",
+      "sha256": "e4e3569ec60c4460522b588fbb27a8ff8866d9e09fc6a5b7483cad87c3d195f6",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/guarded_wire_mask.png",
+      "sha256": "180d075315dacada7591e371bdf0da10dc094ee08e5c97e6b7812947605f3ab8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/junction_predictions.json",
+      "sha256": "3b70a9b50e20d0160960dc6dc1557dcc14106ed5bd71f1732d27cad9cc57e7e9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/review_queue.json",
+      "sha256": "2a083e8e7c707f8fc8f47b85840215d3e821cf314e528fe960edbaedf7b427fd",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/skeleton.png",
+      "sha256": "ea3d0585532fbbd85a7d01ff28f7f02e109f674898034f768d5f3ab72d0a8fd4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/summary.json",
+      "sha256": "eeea3765c436b1628a8a04fe9a00d6bd5660efb63a023851e85ca36431a93cda",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0096/wire_graph_overlay.png",
+      "sha256": "7a38912e02b2096baf4dc11d11700a23b4513b2bfc278e46cecb7c3591b48c4e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/body_excluded_mask.png",
+      "sha256": "595810c083155ba333a6edc46afabd3c149a639135a252ff1416f7ef7df18080",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/export_coverage.json",
+      "sha256": "d49a661cb85501237f0675a1088e1cd02d51f8f982ab56f600bb5dc5567be9f7",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/graph_proposals.json",
+      "sha256": "72c6571f23b7d04fde4224bba9addcd18ffeb845de295ee38f92456fb4f7d760",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/guarded_wire_mask.png",
+      "sha256": "a5a898246c2ba32fccb913db92cf7bdaae7be4b9c1b6836ceb43975df472bdd1",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/junction_predictions.json",
+      "sha256": "490d9b0dc0fa06862bd674a40d8bce40822e5b2b795f386bbde1394aecda5a3b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/partial_submission.json",
+      "sha256": "7871bf5abce94e2f051ffdf32aa44c9cc1eaa240bbd3dc7e46d50a0a46fda1b0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/review_queue.json",
+      "sha256": "3fa1cc6357e9cb329c369f49d9b83a89f02845a51b8d986dadb4acd9d406faa0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/skeleton.png",
+      "sha256": "2d62d2cede9812da01f7d2ebc6860f63172347bae46270f750ed00c5672bdd24",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/summary.json",
+      "sha256": "8410e6b4aa52079c7641072eafeac36116fd92876d7d60229f9727252dbdc302",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0105/wire_graph_overlay.png",
+      "sha256": "df54e1d5c2c671cd20b2e634ea047a1bcd660c365f2702b9b623ca3e7a10a19a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/body_excluded_mask.png",
+      "sha256": "3449e25425d91268297912aef85569577131f60225db94d23a10f101daa7afea",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/export_coverage.json",
+      "sha256": "036e77c1f56745388a7d91eab7da4e8d8f8a70e42092d2c03a588f34b46366b4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/graph_proposals.json",
+      "sha256": "95d58b73a3bb61c35a693d008e74cbc074cb06d9119fef771a43780c51aef634",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/guarded_wire_mask.png",
+      "sha256": "16dc946b79f2e04b51a500111d9b63441fe3cd0ddef3ab20e7609d507a2f284d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/junction_predictions.json",
+      "sha256": "f6220934246edf16c06739a9a9ad97251a17401395685eac5a691f11c8c11c9d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/partial_submission.json",
+      "sha256": "fa7e12b0581c3c388d229711a5875d42461bfd672da80300342b46abd5949b74",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/review_queue.json",
+      "sha256": "748a94009412ed182c23e9c4e8c56851ebc854a2b0c2bbc686f4eec0313a8249",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/skeleton.png",
+      "sha256": "a1216362d6d7247514d5a1fc1c5fd228b2f6078049653f191cc383f26f3c7f73",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/summary.json",
+      "sha256": "5f3f534af2247cccb2719bfe78a47f44f3159dad46cd86b891bcec0b7b8aa69b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0131/wire_graph_overlay.png",
+      "sha256": "5f426cef2c3ec5c7d460fb0c5cfce70f443649c192e630028a5c65dc87dbbc3d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/body_excluded_mask.png",
+      "sha256": "caeef1a01dbb92c2d0b02ca93f915de41f6b39d055ce4cb4f283c3b50f2f88c5",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/export_coverage.json",
+      "sha256": "1219597b1fcb404930a2af4938896d4cadeea6c582d259f579f633994191d312",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/graph_proposals.json",
+      "sha256": "1cca39f1bb950a7ce09cf7bd69666fdeb2bea342ff3897080c3f226baf5e84cf",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/guarded_wire_mask.png",
+      "sha256": "974b553f14e82a804203b1f53492f7f9ad392510dd113a223ab346a7e476b28a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/junction_predictions.json",
+      "sha256": "b51f96893ecdf73a8b1e7b974f6f41817c458deb799d6d41b657161cdc768a9b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/partial_submission.json",
+      "sha256": "d2d14841d1788e04ab04c7fd2bbd0f1231e29456ac8c143a2f7e00c9da3f06a2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/review_queue.json",
+      "sha256": "d1340b6d4afc1f108d2da8a4cb18d9035e2ea0e339666fe6439f8a398e6e2338",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/skeleton.png",
+      "sha256": "5e99688b71dfd70384a8b38d0a5b88690569f3ade1c989d0637537369b04bb3b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/summary.json",
+      "sha256": "ff037729839cb835603efaa45708d9a78da10bc9f40b3ac3b70da7fa6fe1fc63",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0148/wire_graph_overlay.png",
+      "sha256": "dc78aec5fca43484db4ddfa1effaf9c68d8db06a7406395c0a80935d5b77cdf4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/body_excluded_mask.png",
+      "sha256": "6fa405a20d5b065714902344813b177ac2401656f988b8498b3c808e2ed06670",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/export_coverage.json",
+      "sha256": "f0add78ae170c4eb1be81c16a073f1872ca3a892f2c717a68f0cf56dc4baf538",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/graph_proposals.json",
+      "sha256": "b16a52c80d704050b12d05ac7c603f1801e2b6dab7725630da3d8812c28c85dc",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/guarded_wire_mask.png",
+      "sha256": "470b23a78329981ee1587d7d4c3b4eb02daf1bbe8408152517002f29e020b1fc",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/junction_predictions.json",
+      "sha256": "529eb80f0d2148b7f914559f0658dfdb3d44446a6fc9e26e4b84456409e7d29d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/partial_submission.json",
+      "sha256": "98c8e68c53e0294779075fe6230e736cea468fe07658f3a6004aa16a898f3ff3",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/review_queue.json",
+      "sha256": "8a76d691db0f30967bef7a514c7b2c0988aefcf3d0f5c255458a38954e842870",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/skeleton.png",
+      "sha256": "8cde611977f3d495dfa9520d7ff1b8087a9d10cd8cbcaa038a66636f78bb188f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/summary.json",
+      "sha256": "5c8edc6afdca4f5d1b7a6ccd6059c7ef33d7b31bec66b8db3d484b81962bfc8f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0149/wire_graph_overlay.png",
+      "sha256": "3e316c29d6284ee918833af1707542a48d9c1aba221247e1a5d79a9f323a0ace",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/body_excluded_mask.png",
+      "sha256": "6ee245edcd9ffc84c871c04e17d8dd18c5ef240adce325bac45c067d41be8667",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/export_coverage.json",
+      "sha256": "dc7a81b4eeee007ed25c6de15c4f928f6c4212746218aafe0a698ad6bd0df706",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/graph_proposals.json",
+      "sha256": "fce7f8223ddef7ea2cb61f27570e41bda50126167047ac7a33aa0db6b32d0005",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/guarded_wire_mask.png",
+      "sha256": "c344ca4098584080d7657ab5298d6c2aa468bb5368ca7149ebb74b074af96192",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/junction_predictions.json",
+      "sha256": "e3fb80132fda4cbdd4109d9adbf9538642e20f613626f37b185c2bd0d8bd2558",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/partial_submission.json",
+      "sha256": "ff390961d56a5025f90f4f05d97093e48227f01ffe8f1ebf3acb3a55207c1e90",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/review_queue.json",
+      "sha256": "73927a64fbbf95d6319b775fefd7c929cc5c1dbd5c5190390316a9fb5f76f7d2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/skeleton.png",
+      "sha256": "dd748cbc448c4c5a25de4fc496ae8524072fe5afd9cbcb66d9e8147d5dc063d1",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/summary.json",
+      "sha256": "2afa5b19fd8391a1998f0df073426449c1c8a729851f23e9dfd1104d5ea98a14",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0170/wire_graph_overlay.png",
+      "sha256": "263ad99099880e7a251a4c3422c0e2efa1c76645426764c035689a94a2611dfd",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/body_excluded_mask.png",
+      "sha256": "abaef28cd1bf5212c5c729039b06c8bac586f0cdaece360e444541e06a965b41",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/export_coverage.json",
+      "sha256": "df26bb3e05e0b2a20a997693413ffa7187205d93ebc893cf8d698b924dd8880a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/graph_proposals.json",
+      "sha256": "2a2dd4477ca1351e6a19e3d9b1e358c6edb50512316c26e7d9d2724c0615d3af",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/guarded_wire_mask.png",
+      "sha256": "80584ff9e09a7789f2816a101ed5886a39740ae2c1afb21adf3f43e13f337ae2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/junction_predictions.json",
+      "sha256": "70fa4e6fc0fa5632d303b147e031628262fcf669e5a905ca42f5d49895fe26d8",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/partial_submission.json",
+      "sha256": "12111049a9e89f304aa27a4ee342eca06afdf9b5cf36bd84f6995b2209dd3017",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/review_queue.json",
+      "sha256": "748a94009412ed182c23e9c4e8c56851ebc854a2b0c2bbc686f4eec0313a8249",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/skeleton.png",
+      "sha256": "80584ff9e09a7789f2816a101ed5886a39740ae2c1afb21adf3f43e13f337ae2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/summary.json",
+      "sha256": "f1d398c25b72bf8e7aa9afe08fcf1b30a58e85d8302ad39274498aa40a440b57",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0208/wire_graph_overlay.png",
+      "sha256": "e35b72bead5ece7861bdaa5a7d10721a33115ba34e90a3727ab78c81be0c4df2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/body_excluded_mask.png",
+      "sha256": "026c5a8eb470da1d9d9c8ac604cabc136c53989b31729496ca786259fdc6b274",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/export_coverage.json",
+      "sha256": "fc18b2cde3538a7e6d6e0e458b4cf4458f0727675c06434de86bc6ced2f4d318",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/graph_proposals.json",
+      "sha256": "4aa9f01f00320cd6563232f34bcf25abd0a68b4691032cc83a264052bc165cd0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/guarded_wire_mask.png",
+      "sha256": "04987251b8dd9c0877232872598109b42901dc73a6dbf3221419e9efb368854b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/junction_predictions.json",
+      "sha256": "aba70c0824ad0d084a0bd741c01167b64e8d1cca9ecf59371d022aaff7bcae59",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/review_queue.json",
+      "sha256": "ed6deb8b1ffd7f95c52064e4cb0980d9974f3b1079129b9fb641eae860c549ee",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/skeleton.png",
+      "sha256": "b4eb662f2d102f38322cb7a5d155c4c883938024105bc8228e7c1687c46ca69e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/summary.json",
+      "sha256": "6ebeaf60cc3fc67c93a8355a454ae2b517d318061a3423f694ab7a56e1fef7b6",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0213/wire_graph_overlay.png",
+      "sha256": "2182dd6e7f6296e5ef3c5dda410eb169e1b04027c53ff4974f0db3ba59d3389a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/body_excluded_mask.png",
+      "sha256": "e59c1acd588ce3632bed0151a819ff21a8f907dbbd4a1432472d13d96123c45a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/export_coverage.json",
+      "sha256": "fd37937b229fbb7487005319a6cd6ff6d20619f7d2b679418dfee60f5cb4fce4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/graph_proposals.json",
+      "sha256": "c2245fd626936ae75d44ce006190188e542b3a4c01dc74917cc3cf3b70ab104f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/guarded_wire_mask.png",
+      "sha256": "402848af757b8194f7ee67dd216e2e87ae3fddee390f5bc20f6ec146aa89af3a",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/junction_predictions.json",
+      "sha256": "804683bed5ab53bed850e2e88b32d7a65ca34258ece2b6f86a5729d9bafee98c",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/review_queue.json",
+      "sha256": "c0ad01797bbf30e26467a7893552a32964720988bce92483c3b6207ccee1eb7f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/skeleton.png",
+      "sha256": "204982a88571cd1e1b1053a5d83b1f42f7f82353680adceb7d98a0f5e02a8877",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/summary.json",
+      "sha256": "a79f429951fefa91fc31531913d5789acb7cc50902eb3c93ff714ec1caab56a4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0227/wire_graph_overlay.png",
+      "sha256": "d1c974db749b8e15db44d2100b63b8dce47e4afe07b87d66acc98a756b28e8c1",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/body_excluded_mask.png",
+      "sha256": "8003475012a81d76e3332f8e18935ac8c1497b6a22466a1a3ab9ebac41b18ed2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/export_coverage.json",
+      "sha256": "1aab76c8daa771cfda5059c846b6e1718869255f30993aa5194f2eaa2d208053",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/graph_proposals.json",
+      "sha256": "5d75bd327c6526ba801829eae6778e3c72d899f0e5bd87b4fbeec588b567e0e4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/guarded_wire_mask.png",
+      "sha256": "ca708ce87b23bfd9a6fe0e439e740c90aafc2e861235c82e0ae1d559e03faee0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/junction_predictions.json",
+      "sha256": "9d78f5ae5d179476f39c886b6615829a5ba218cf54b8f527c96fca63f9e3c049",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/review_queue.json",
+      "sha256": "35ac860e47c5d75b1f507f3c1e8f9aade24631dad0ad9f24df216bb678e94dc9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/skeleton.png",
+      "sha256": "d631731220de2b58b0d4a6460e9af92e7392fbef49effd225758a3801c28e2f4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/summary.json",
+      "sha256": "8c1a9b85197e13505385ab29de7339ade0ec7465a4d603122e35adcb403f64de",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0236/wire_graph_overlay.png",
+      "sha256": "07185feecf184e38ae3d8d21b8eb80b082815c6e1cfdc31e6254ad61e873ddcf",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/body_excluded_mask.png",
+      "sha256": "8bf953ba85165202cfbb1fa888c1f15a3eb2d4be9db48ef9bf31168b04db26e1",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/export_coverage.json",
+      "sha256": "7ba82f38e55482c4c662d65614f3c9fa3738b3ff44d92538a5f34ad333144075",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/graph_proposals.json",
+      "sha256": "28e4e794291c4b104214bdb199bf708700c11030f073736f3b8eb24f254de201",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/guarded_wire_mask.png",
+      "sha256": "d3e33e83d45b5460aba370a9e4894077fcb164a0ae05045bfbb9bf1f640aaa4d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/junction_predictions.json",
+      "sha256": "9d047f4cae47913abef417e838f6a6e7e4134de3847a9b3fae68e329f8188d82",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/review_queue.json",
+      "sha256": "3b13966852812d60c1951ce4db169644193cf8e3bdc35c9da1f7fd115b176959",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/skeleton.png",
+      "sha256": "7c5f0012d5c25893942df4ae2c36bcd59f3f76f1ee09b1b1f4b328446dc22b5d",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/summary.json",
+      "sha256": "a2e427ab894d00e2ce65da9bdaeaa42be68b0923be0c7ceddf640f947c9d6c00",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0240/wire_graph_overlay.png",
+      "sha256": "d4f998e183836e3e497017fad26bccb8e83d40a355ddc4e454ac60d93cb86e80",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/body_excluded_mask.png",
+      "sha256": "8f21d6f6328d69a69e374af68cd1a023fa6f7a7c95e78f1f4d04fe07c8dbbd52",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/export_coverage.json",
+      "sha256": "77ab33eb78f4893cd74c595b902d7f247d06836997a8a42e5496fa91c5ee70db",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/graph_proposals.json",
+      "sha256": "6e78c25848438a787d999bcf93d45029e4cc5ecb24275b51deffc79e8acbb990",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/guarded_wire_mask.png",
+      "sha256": "0c37ea9657bde81c7ff48f40fc4432c118ef19902cd9e2c0a58fb79b98ed86c7",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/junction_predictions.json",
+      "sha256": "514367ff089dd47b40a631f4199423860b1ab570dfbfd1368916f5daf15d4a17",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/partial_submission.json",
+      "sha256": "1a9fd4d6f26058e81c1f0ab760c70e268b60e9fdee02c5bbba91e0bf9dcff64e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/review_queue.json",
+      "sha256": "1d0476d0cf973817dc709790f3048f57bf52bb2f7dbe2cfb4a2f06b2373b7099",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/skeleton.png",
+      "sha256": "01f514c4134560110dc6e4d469776dd719125f8775adb6490342a7a0ca5b500f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/summary.json",
+      "sha256": "87f1d531f17fdbadcc68cf2fe24ed94128db968ef535308ea72ef3c557c4e7e0",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0264/wire_graph_overlay.png",
+      "sha256": "7180813bfad1903547348bcbd1b7bfe1d244fa719bae0608c8149a5f0af7cffe",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/body_excluded_mask.png",
+      "sha256": "7eb5bc31155a95cd90f21ff535810d21094b71a728c68aee4725479536e72d66",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/export_coverage.json",
+      "sha256": "12c6bfd37a4feaf26d36b6e38a1ce2ca0a22856ec7aaf2f32be6dd9adae24e9b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/graph_proposals.json",
+      "sha256": "66e94cf26a2cd16178ab29187826405abdc90039aeb7a66deb2b7551b3640361",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/guarded_wire_mask.png",
+      "sha256": "66286de249d62331979bb3379867a597cb924114c7c91f3081b14a350685bca3",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/junction_predictions.json",
+      "sha256": "6e9fade88f00b1640b735d3ac11eb67bb0e11398c43407b0b6e98fbbb27aedd4",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/review_queue.json",
+      "sha256": "54ab7e8ad5df65fa9e06253ca015ec1512eaaf3c81b38b99c508d4d269f11394",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/skeleton.png",
+      "sha256": "d37c29994baaec03faaf7add346cb904ca9d6457a6dbb7498fc31bcf97419c57",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/summary.json",
+      "sha256": "409f37c215d560468516fc4eb1acad47cd3e48764a15cce1fbec19b43a6e076f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0267/wire_graph_overlay.png",
+      "sha256": "78731e7c66efea637625a91b148875381e4a0a478c4f0294a6d2af492fde1f57",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/body_excluded_mask.png",
+      "sha256": "fefdd3e066cd8f276a1359fd3eb58830e12d0cf3bac406b030d9fd33db1de84b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/export_coverage.json",
+      "sha256": "7f28eed008a710d18b3ed487375e9b5e586cce84ad24ac93afbcd1dc576cdb80",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/graph_proposals.json",
+      "sha256": "0543f03fa952de97d62a544e4d55e284a130b4f0ddad81b97629f3fa72c66fb2",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/guarded_wire_mask.png",
+      "sha256": "12978a6107b8934a20bb489e5be2201df2b5866eac32cf4c514e9e1d156f6883",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/junction_predictions.json",
+      "sha256": "43e6516d9980596cf00df32fbfc99bb47c0e4bf819c6a77b7300329be796e1d9",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/review_queue.json",
+      "sha256": "8c0927a9e551d66e23e14f3334ea50b7c82f9f170cc94f949fb50b3928d2c3a1",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/skeleton.png",
+      "sha256": "e510b35d1d48d5b695b4c409a828cb391ae841773e3bd0b8ec276e4682aa45ae",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/summary.json",
+      "sha256": "f997ff6695a3aa5e74bf670e2e64476138521e84859931fd24b8357aeb3b7e94",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0286/wire_graph_overlay.png",
+      "sha256": "fc575fd4c87ebb8350dfd8559fb404e8259b106f11f461b4fb388433770ac4cc",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/body_excluded_mask.png",
+      "sha256": "c50e4efbfe8521e971ce5e212ee152a8c4152786f22c95b8075755b77d1f5f99",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/export_coverage.json",
+      "sha256": "9801d7934813ab4586538bebe4a090cf87bb868837a469bfba737e7efe485499",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/graph_proposals.json",
+      "sha256": "8509be87d1749afc143282dfc8b8698a4576df99a62917c4d3343dfe723f1e1e",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/guarded_wire_mask.png",
+      "sha256": "38b68672001b25717662187e5888ce36e8223a730061de8012990c2a2cb874b7",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/junction_predictions.json",
+      "sha256": "38c43b660bab9e8159b92ab1f78f7abca2afe8f5db39b59acdb86858a73e41ed",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/partial_submission.json",
+      "sha256": "c585ad6a4aac7597a91da80a03ff42d1cbe360e254bd0f7fe841843dc0c174fb",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/review_queue.json",
+      "sha256": "a34bd4d2c4534a72240a194376c43ce022730c7332996c03fe2562c9cf7b903b",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/skeleton.png",
+      "sha256": "3adbded7b4030f3b87f567a912be5c6cba2110306d3538884a4fb74b0698897f",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/summary.json",
+      "sha256": "c7b720fea267024aaed0a1b4d0ba1786736f7a137e80f67cf311119c160946ef",
+      "backup": null
+    },
+    {
+      "file": "runs/s8_junction_classifier_v1/predictions/0287/wire_graph_overlay.png",
+      "sha256": "913a53d836104a21ecb57aabd879bdc882a1a38840ad4a1fffe0fff37116790e",
+      "backup": null
+    }
+  ],
+  "protected_sha256": {
+    "configs/annotation_overrides.json": "d04591427ed64f03c0991f8deded864c22b008d577a22845b2542de6a9e6aa97",
+    "configs/baseline.json": "a2c310b90548674c77a0d2de9bb42bf1da57162d513e04196fafa24d9f9410fa",
+    "configs/baseline_balanced_v2.json": "7527c60c41c1a405449c4d06f340d73c2e6976318e5a37946f064fa9e6a11407",
+    "configs/baseline_balanced_v2_iou_nms.json": "76cd78145e978bf4c46eeb6021e0d12cf4b4ee9cdfc18c1588bd582bc887129f",
+    "configs/baseline_finetuned.json": "4a9328bed57f46a32e19d8839516f6078b82c34a0dfeb2b24fbd135f939c944f",
+    "configs/baseline_finetuned_v1.json": "6d13ded7f5a714c016860226200645dc6fa26f9c1e8d44176b7b8208de38cf01",
+    "configs/baseline_v3.json": "fc8468c5617f007a8053313e16529deba3d7f1b3f3749ab42dcdb8b4524ba963",
+    "configs/class_thresholds.json": "7eaaa4670bbe29e574b8b172e40aeabd7ace109cb61d5b7c35aa8d7874199353",
+    "configs/class_thresholds_y11s.json": "3910d2cfd1044b343c6cc31ddd744907586e416a7ee182521b43bb6706e68f9e",
+    "configs/class_thresholds_y11s_stage1.json": "5ce0c165c02c4b10e6052dc64fd28e8c77e80e820b6e40c9ed004bd5c2919c5a",
+    "configs/conversion.json": "72fa1a1a57470302a0a058f9b37e057127db87cf17b5b77bde4c0d405d3db18e",
+    "configs/detection_augmentation.json": "0947a4a3206b05396c925fe28d67a3af35d0ef5ae4799f444ce38eeeb75be596",
+    "configs/detection_dataset.json": "8a24319d2db9641d33ed44d1175d08e055fe5d3c528f11a00d5207bd728b4d71",
+    "configs/detection_label_overrides.json": "e480a64ed1f7319a10ce47b1946a3b729eec08aef138e1e50984b17bcbf0ba31",
+    "configs/detector_training.json": "0eab60095959037d036194c0ab73a03086dcd1839f545318e9792d0f5386fadd",
+    "configs/detector_training_balanced.json": "0320414fb5029e8142e06d04c19184cccf66ceab90207dedaecc68141927a2c5",
+    "configs/detector_training_v3.json": "d978266ffafe6469bc63a565e0a244b46ee0cb8fa4c3c05d7313f4378010a053",
+    "configs/detector_training_v3_big.json": "106cd89eab968e3a106fc8a44b4cad6d0d03abe342677774c6b03841b85616c3",
+    "configs/detector_training_v3_v11s.json": "6767431a1d2797c71fd3ddb6b2bcf355d41271795e10b0524f24e737115cd8af",
+    "configs/detector_training_v3_y11s_cont.json": "e5af7be3ee785f7a0f8dffdc5031e5aff5c2a41e60e45cdb6ce4bc55c26bc074",
+    "configs/detector_training_v3_y11s_quick.json": "99a2f0dcc63358d7fe15c2689f2c9e86903c6570598fc05af3b7eb08f49d1b8f",
+    "configs/external_data_review.json": "3c5a2fc95b53e80c31d1c9384927add3352eb9c9270926dafd21ccbe2bc37eef",
+    "configs/external_sources.json": "584030866c529496d443a5e0a33e11617c7795a47bd3220b087f4f907f5a3632",
+    "configs/pin_ownership_detector_v3.json": "be6591211d98196ca6f25466415d50cb8312e38b1ff96ed642c3265d8d16e404",
+    "configs/pin_ownership_v1.json": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+    "configs/pin_text_component_v2.json": "f9acb0d7948a4da15a269b5f10624f8a5d0ba70c083b1ff04e3cfbdcf5be43da",
+    "configs/pin_text_v1.json": "a4dfe34674fe1f8bf05a3260b355b1bba5e659264185e6f615d5ee5195d8dc2b",
+    "configs/project.json": "44e719c38f7a720359721e8b170454be22c277aba34611fdf182f29fda4e3fc0",
+    "configs/unet_inference_v2.json": "92b36cc9e9b25e99963d8e83b856c114d0608cb8c03e898a0a43ab222677c139",
+    "configs/unet_label_reviews.json": "838f053a0d244fee969ef4febef726426af8dba1b5aa8e4c0c459b723d8d79e1",
+    "configs/unet_wire_pin.json": "112f2d5d796e9d0775d3fd4a6813efb5b344ba98138792cbcbcb9eb29633f574",
+    "configs/wire_graph_v1.json": "73d4d15aa84bd8aec7be25c6d2f3a945c3a19f6ea94e264376cd07409b457913",
+    "weights/circuit_yolov8n_v3.pt": "418a2fb5b9244146224e1e993aa8d27037ca33613865a1194642ff39b3283daf",
+    "weights/detector_dataset300_balanced_v2.pt": "57cbbf13d93b6d0e617fa0e580cc8c7dd7b7582b3f0bc7bb8a707cba6293b1bf",
+    "weights/detector_dataset300_v1.pt": "4353e9be8dd0b4dfb295038fc2465fe7a7f28f23bb91e127ee048ac629642294",
+    "weights/detector_dataset300_v3_nano.pt": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd",
+    "weights/detector_dataset300_v3_y11s_stage22.pt": "40f7aee281df756b93ee2a1cbc0a5c474f0e573207a58aa1e920a0ad44354605",
+    "weights/yolo11s.pt": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+    "weights/yolo11s_stage1.pt": "6db8a0e63bd6232758e3e44d3a412e9395e1f4bc4070d8a25af477d80005e366",
+    "scripts/train_detector.py": "4851fbc9828d42751364d26d39dd3e7fde701ea457adc7d9c5352b34963871ab",
+    "scripts/train_unet.py": "87e630413bfb3ba4de1386eff05ba948e93938ecd983e6f3bd0b5425e780525e",
+    "scripts/run_baseline.py": "ac8df400b2eb5353e68ab93bea29c9b695e22d2d9990d3614525c420692ca7cf",
+    "scripts/run_pin_ownership.py": "020212b4729d6adef6b327f5604d269d27d2b5e5045a684c6979a7a4c9509da8",
+    "scripts/run_pin_text.py": "3886e4d6c8adf5316456d972d088cf8de28d1a6c319f0bd2658eb356178a7171",
+    "src/pcb_parser/pin_text.py": "35d5b40a539646ec62a620c0a9aa9db2e49b6c286799ce00ee7d2cdc51cc349e",
+    "src/pcb_parser/pin_ownership.py": "749a03b4464b0db83a9e764510ea473e56f0207d8680c82d4431de0fe14fc898",
+    "src/pcb_parser/unet_model.py": "47a0d02c4beff89337952e546bd9ba52558a03d60c689934c6142b1b13243099",
+    "src/pcb_parser/unet_inference.py": "e238ef7e56805e8cbc2578ff6e82cec9e1725a281abc8de66de4514f5d3ce2b5",
+    "runs/training/unet_wire_pin_v1/best.pt": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+    "runs/training/unet_wire_pin_v1/last.pt": "dd6f44db15840ee0d6997a17e18ab75a20b172d1535beef0ec29111b15335a1c",
+    "data/segmentation_unet_v1/manifest.jsonl": "a6faaa84b02f3353ab1efc45e6754f0606e3cd123d33fb004c939caaf1316a30",
+    "data/detection_v1/manifest.jsonl": "8261f5541e6036e994d8d1a8592eedf1bcc704ab1223e61b615e2a3ef3533812",
+    "data/topology_review_v1/annotations.json": "a0162909f9c734c215e36b3108d221410710f557a580e7364125904a0d9092f0"
+  },
+  "target": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition",
+  "new_dependencies": [],
+  "upstream_training_started": false,
+  "original_annotations_modified": false,
+  "post_transfer_verification": {
+    "status": "target_transfer_verified",
+    "runtime_verification": "runs/s8_junction_classifier_v1/runtime_verification.json",
+    "report_verification_appendix_added": true
+  }
+}

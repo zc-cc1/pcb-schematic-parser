@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "wire_foreground_pixels": 11008,
+    "body_excluded_foreground_pixels": 11,
+    "skeleton_pixels": 3686,
+    "graph_nodes": 230,
+    "graph_edges": 179,
+    "observed_components": 57,
+    "network_proposals": 60,
+    "multi_pin_network_proposals": 27,
+    "attached_pins": 88,
+    "attachment_status_counts": {
+      "attached": 88,
+      "no_wire_within_radius": 2
+    },
+    "uncertain_junctions": 2,
+    "junction_candidates": 2,
+    "learned_resolved_junctions": 0,
+    "gap_candidates_not_filled": 5,
+    "pin_candidates_preserved": true,
+    "pin_coordinate_changes": 0,
+    "automatic_gap_connections": 0,
+    "logical_label_merges": 0
+  },
+  "image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+  "pin_input_sha256": "8151f691ef643d276be5ef0a26e53d023e1425af4b47145fdb6a329306aee25a",
+  "wire_input_metadata": {
+    "image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+    "size": [
+      1190,
+      845
+    ],
+    "coordinate_origin": "top_left",
+    "weights_sha256": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+    "inference_config_sha256": "92b36cc9e9b25e99963d8e83b856c114d0608cb8c03e898a0a43ab222677c139",
+    "probabilities_sha256": "b1c2431bf0f0551aea556b94facaecec64795338e86c80e363368d9152badc89",
+    "prediction_only": true,
+    "source": "Frozen_native_U-Net_model_probabilities_from_existing_PNG_run"
+  },
+  "wall_seconds": 0.19606739992741495,
+  "graph_config": {
+    "version": "wire-graph-v1",
+    "wire_threshold": 0.5,
+    "body_guard": true,
+    "body_inset_min_px": 3,
+    "body_inset_max_px": 8,
+    "body_inset_fraction": 0.1,
+    "pin_protection_radius_px": 7,
+    "pin_attach_radius_px": 6,
+    "attachment_ambiguity_margin_px": 2,
+    "junction_policy": "split_four_way",
+    "junction_direction_steps": 8,
+    "straight_pair_min_angle_degrees": 150,
+    "polyline_tolerance_px": 1,
+    "gap_max_distance_px": 12,
+    "gap_max_angle_degrees": 30,
+    "skeleton_backend": "scikit-image-zhang",
+    "automatic_gap_filling": false,
+    "automatic_same_label_merge": false,
+    "junction_model_available": false,
+    "status": "learned_wire_mask_to_provisional_graph_not_official_nets"
+  },
+  "networkx_version": "3.7",
+  "scikit_image_version": "0.26.0",
+  "exported_components": 23,
+  "exported_pins": 0,
+  "exported_nets": 0,
+  "input_contract": "PNG plus image-model predictions only; no raw annotations/CAD/SPICE reads",
+  "official_NetF1": null
+}

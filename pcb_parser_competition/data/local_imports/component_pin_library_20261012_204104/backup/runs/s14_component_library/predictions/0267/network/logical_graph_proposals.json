@@ -1,0 +1,2746 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    491,
+    350
+  ],
+  "status": "ordinary_logical_label_proposals_power_semantics_pending",
+  "nodes": [
+    {
+      "node_id": "J00001",
+      "point": [
+        295.0,
+        88.0
+      ],
+      "kind": "junction",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00002",
+      "point": [
+        295,
+        51
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00003",
+      "point": [
+        166,
+        115
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00004",
+      "point": [
+        409,
+        117
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00005",
+      "point": [
+        109,
+        125
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00006",
+      "point": [
+        91,
+        142
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00007",
+      "point": [
+        258,
+        164
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00008",
+      "point": [
+        320,
+        164
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00009",
+      "point": [
+        77,
+        211
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00010",
+      "point": [
+        77,
+        244
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00011",
+      "point": [
+        255,
+        249
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00012",
+      "point": [
+        322,
+        249
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00013",
+      "point": [
+        64,
+        252
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00014",
+      "point": [
+        29,
+        254
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00015",
+      "point": [
+        262,
+        274
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00016",
+      "point": [
+        325,
+        274
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00017",
+      "point": [
+        28,
+        298
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00018",
+      "point": [
+        65,
+        299
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00019",
+      "point": [
+        64,
+        307
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00020",
+      "point": [
+        29,
+        308
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00021",
+      "point": [
+        420,
+        322
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00022",
+      "point": [
+        421,
+        323
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "J00001",
+      "target": "N00002",
+      "edge_id": "W00001",
+      "polyline": [
+        [
+          295.0,
+          51.0
+        ],
+        [
+          295.0,
+          88.0
+        ]
+      ],
+      "length_px": 37.0,
+      "mean_probability": 0.9985159635543823
+    },
+    {
+      "source": "J00001",
+      "target": "N00004",
+      "edge_id": "W00002",
+      "polyline": [
+        [
+          295.0,
+          88.0
+        ],
+        [
+          409.0,
+          89.0
+        ],
+        [
+          409.0,
+          117.0
+        ]
+      ],
+      "length_px": 143.2426406871193,
+      "mean_probability": 0.9978493452072144
+    },
+    {
+      "source": "J00001",
+      "target": "N00003",
+      "edge_id": "W00003",
+      "polyline": [
+        [
+          295.0,
+          88.0
+        ],
+        [
+          167.0,
+          89.0
+        ],
+        [
+          166.0,
+          115.0
+        ]
+      ],
+      "length_px": 154.82842712474618,
+      "mean_probability": 0.9976060390472412
+    },
+    {
+      "source": "N00005",
+      "target": "N00006",
+      "edge_id": "W00004",
+      "polyline": [
+        [
+          109.0,
+          125.0
+        ],
+        [
+          93.0,
+          126.0
+        ],
+        [
+          91.0,
+          130.0
+        ],
+        [
+          91.0,
+          142.0
+        ]
+      ],
+      "length_px": 33.242640687119284,
+      "mean_probability": 0.9784950613975525
+    },
+    {
+      "source": "N00007",
+      "target": "N00008",
+      "edge_id": "W00005",
+      "polyline": [
+        [
+          258.0,
+          164.0
+        ],
+        [
+          320.0,
+          164.0
+        ]
+      ],
+      "length_px": 62.82842712474619,
+      "mean_probability": 0.9882429838180542
+    },
+    {
+      "source": "N00009",
+      "target": "N00014",
+      "edge_id": "W00006",
+      "polyline": [
+        [
+          77.0,
+          211.0
+        ],
+        [
+          31.0,
+          212.0
+        ],
+        [
+          29.0,
+          214.0
+        ],
+        [
+          29.0,
+          254.0
+        ]
+      ],
+      "length_px": 89.24264068711929,
+      "mean_probability": 0.9978967905044556
+    },
+    {
+      "source": "N00010",
+      "target": "N00013",
+      "edge_id": "W00007",
+      "polyline": [
+        [
+          77.0,
+          244.0
+        ],
+        [
+          66.0,
+          244.0
+        ],
+        [
+          64.0,
+          252.0
+        ]
+      ],
+      "length_px": 19.82842712474619,
+      "mean_probability": 0.983709454536438
+    },
+    {
+      "source": "N00011",
+      "target": "N00012",
+      "edge_id": "W00008",
+      "polyline": [
+        [
+          255.0,
+          249.0
+        ],
+        [
+          322.0,
+          249.0
+        ]
+      ],
+      "length_px": 67.82842712474618,
+      "mean_probability": 0.9779889583587646
+    },
+    {
+      "source": "N00015",
+      "target": "N00016",
+      "edge_id": "W00009",
+      "polyline": [
+        [
+          262.0,
+          274.0
+        ],
+        [
+          325.0,
+          274.0
+        ]
+      ],
+      "length_px": 63.82842712474619,
+      "mean_probability": 0.9713363647460938
+    },
+    {
+      "source": "N00017",
+      "target": "N00020",
+      "edge_id": "W00010",
+      "polyline": [
+        [
+          28.0,
+          298.0
+        ],
+        [
+          29.0,
+          308.0
+        ]
+      ],
+      "length_px": 10.414213562373096,
+      "mean_probability": 0.9356812834739685
+    },
+    {
+      "source": "N00018",
+      "target": "N00019",
+      "edge_id": "W00011",
+      "polyline": [
+        [
+          65.0,
+          299.0
+        ],
+        [
+          64.0,
+          307.0
+        ]
+      ],
+      "length_px": 8.414213562373096,
+      "mean_probability": 0.9476504921913147
+    },
+    {
+      "source": "N00021",
+      "target": "N00022",
+      "edge_id": "W00012",
+      "polyline": [
+        [
+          420.0,
+          322.0
+        ],
+        [
+          421.0,
+          323.0
+        ]
+      ],
+      "length_px": 1.4142135623730951,
+      "mean_probability": 0.9963604807853699
+    }
+  ],
+  "junction_candidates": [],
+  "gap_candidates": [],
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "physical_network_ids": [
+        "NET_CAND_00001"
+      ],
+      "node_ids": [
+        "J00001",
+        "N00002",
+        "N00003",
+        "N00004"
+      ],
+      "edge_ids": [
+        "W00001",
+        "W00002",
+        "W00003"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0017",
+        "PIN_CAND_0019"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "physical_network_ids": [
+        "NET_CAND_00002"
+      ],
+      "node_ids": [
+        "N00005",
+        "N00006"
+      ],
+      "edge_ids": [
+        "W00004"
+      ],
+      "pin_candidate_ids": [],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00003",
+      "physical_network_ids": [
+        "NET_CAND_00003"
+      ],
+      "node_ids": [
+        "N00007",
+        "N00008"
+      ],
+      "edge_ids": [
+        "W00005"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0014"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00004",
+      "physical_network_ids": [
+        "NET_CAND_00004"
+      ],
+      "node_ids": [
+        "N00009",
+        "N00014"
+      ],
+      "edge_ids": [
+        "W00006"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0013"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "physical_network_ids": [
+        "NET_CAND_00005"
+      ],
+      "node_ids": [
+        "N00010",
+        "N00013"
+      ],
+      "edge_ids": [
+        "W00007"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0015"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "physical_network_ids": [
+        "NET_CAND_00006"
+      ],
+      "node_ids": [
+        "N00011",
+        "N00012"
+      ],
+      "edge_ids": [
+        "W00008"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0012"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00007",
+      "physical_network_ids": [
+        "NET_CAND_00007"
+      ],
+      "node_ids": [
+        "N00015",
+        "N00016"
+      ],
+      "edge_ids": [
+        "W00009"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0016"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "physical_network_ids": [
+        "NET_CAND_00008"
+      ],
+      "node_ids": [
+        "N00017",
+        "N00020"
+      ],
+      "edge_ids": [
+        "W00010"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0018"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "physical_network_ids": [
+        "NET_CAND_00009"
+      ],
+      "node_ids": [
+        "N00018",
+        "N00019"
+      ],
+      "edge_ids": [
+        "W00011"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0006"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00010",
+      "physical_network_ids": [
+        "NET_CAND_00010"
+      ],
+      "node_ids": [
+        "N00021",
+        "N00022"
+      ],
+      "edge_ids": [
+        "W00012"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0003"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "logical_label_names": [],
+      "logical_label_sites": [],
+      "flywire": false,
+      "status": "model_mask_connectivity_proposal"
+    }
+  ],
+  "pin_attachments": [
+    {
+      "candidate_id": "PIN_CAND_0001",
+      "point": [
+        64.1804046779871,
+        308.3716082572937
+      ],
+      "owner": "UNRESOLVED_DET_0002",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00009",
+      "wire_projection": [
+        64.0,
+        307.0
+      ],
+      "wire_gap_px": 1.3834215045733143,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00009",
+          "distance_px": 1.3834215045733143,
+          "wire_projection": [
+            64.0,
+            307.0
+          ],
+          "physical_network_id": "NET_CAND_00009"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00009"
+    },
+    {
+      "candidate_id": "PIN_CAND_0002",
+      "point": [
+        29.248947024345398,
+        308.95850775018334
+      ],
+      "owner": "UNRESOLVED_DET_0004",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00008",
+      "wire_projection": [
+        29.0,
+        308.0
+      ],
+      "wire_gap_px": 0.9903089053885983,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00008",
+          "distance_px": 0.9903089053885983,
+          "wire_projection": [
+            29.0,
+            308.0
+          ],
+          "physical_network_id": "NET_CAND_00008"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00008"
+    },
+    {
+      "candidate_id": "PIN_CAND_0003",
+      "point": [
+        420.3991224169731,
+        325.6487834453583
+      ],
+      "owner": "UNRESOLVED_DET_0005",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00010",
+      "wire_projection": [
+        421.0,
+        323.0
+      ],
+      "wire_gap_px": 2.7160831375693,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00010",
+          "distance_px": 2.7160831375693,
+          "wire_projection": [
+            421.0,
+            323.0
+          ],
+          "physical_network_id": "NET_CAND_00010"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00010"
+    },
+    {
+      "candidate_id": "PIN_CAND_0004",
+      "point": [
+        164.21515499055386,
+        325.1448909789324
+      ],
+      "owner": "UNRESOLVED_DET_0006",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": [],
+      "physical_network_id": null
+    },
+    {
+      "candidate_id": "PIN_CAND_0005",
+      "point": [
+        79.05448001623154,
+        211.9089755192399
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "SENSE1",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00004",
+      "wire_projection": [
+        77.0,
+        211.0
+      ],
+      "wire_gap_px": 2.246580653275592,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00004",
+          "distance_px": 2.246580653275592,
+          "wire_projection": [
+            77.0,
+            211.0
+          ],
+          "physical_network_id": "NET_CAND_00004"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00004"
+    },
+    {
+      "candidate_id": "PIN_CAND_0006",
+      "point": [
+        64.1836639046669,
+        299.0513370335102
+      ],
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00009",
+      "wire_projection": [
+        65.0,
+        299.0
+      ],
+      "wire_gap_px": 0.8179487218361059,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00009",
+          "distance_px": 0.8179487218361059,
+          "wire_projection": [
+            65.0,
+            299.0
+          ],
+          "physical_network_id": "NET_CAND_00009"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00009"
+    },
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "point": [
+        296.01238632947206,
+        49.37963408231735
+      ],
+      "owner": null,
+      "owner_status": "no_component_nearby",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00001",
+      "wire_projection": [
+        295.0,
+        51.0
+      ],
+      "wire_gap_px": 1.9106312536147443,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00001",
+          "distance_px": 1.9106312536147443,
+          "wire_projection": [
+            295.0,
+            51.0
+          ],
+          "physical_network_id": "NET_CAND_00001"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00001"
+    },
+    {
+      "candidate_id": "PIN_CAND_0008",
+      "point": [
+        322.4093649685383,
+        164.79726913571358
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00003",
+      "wire_projection": [
+        320.0,
+        164.0
+      ],
+      "wire_gap_px": 2.537849015678624,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00003",
+          "distance_px": 2.537849015678624,
+          "wire_projection": [
+            320.0,
+            164.0
+          ],
+          "physical_network_id": "NET_CAND_00003"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00003"
+    },
+    {
+      "candidate_id": "PIN_CAND_0009",
+      "point": [
+        326.28109139204025,
+        274.94274788722396
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Digital Out",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00007",
+      "wire_projection": [
+        325.0,
+        274.0
+      ],
+      "wire_gap_px": 1.5905875435275076,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00007",
+          "distance_px": 1.5905875435275076,
+          "wire_projection": [
+            325.0,
+            274.0
+          ],
+          "physical_network_id": "NET_CAND_00007"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00007"
+    },
+    {
+      "candidate_id": "PIN_CAND_0010",
+      "point": [
+        79.08703660964966,
+        244.16125255823135
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "SENSE2",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00005",
+      "wire_projection": [
+        77.0,
+        244.0
+      ],
+      "wire_gap_px": 2.093256839844097,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00005",
+          "distance_px": 2.093256839844097,
+          "wire_projection": [
+            77.0,
+            244.0
+          ],
+          "physical_network_id": "NET_CAND_00005"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00005"
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "point": [
+        254.7330873310566,
+        249.9714174643159
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "TOVER",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00006",
+      "wire_projection": [
+        255.0,
+        249.0
+      ],
+      "wire_gap_px": 1.0074196061326222,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00006",
+          "distance_px": 1.0074196061326222,
+          "wire_projection": [
+            255.0,
+            249.0
+          ],
+          "physical_network_id": "NET_CAND_00006"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00006"
+    },
+    {
+      "candidate_id": "PIN_CAND_0012",
+      "point": [
+        322.0757936015725,
+        249.76735810935497
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00006",
+      "wire_projection": [
+        322.0,
+        249.0
+      ],
+      "wire_gap_px": 0.7710921722026306,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00006",
+          "distance_px": 0.7710921722026306,
+          "wire_projection": [
+            322.0,
+            249.0
+          ],
+          "physical_network_id": "NET_CAND_00006"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00006"
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "point": [
+        28.26263263821602,
+        255.2896058857441
+      ],
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00004",
+      "wire_projection": [
+        29.0,
+        254.0
+      ],
+      "wire_gap_px": 1.4855281777098945,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00004",
+          "distance_px": 1.4855281777098945,
+          "wire_projection": [
+            29.0,
+            254.0
+          ],
+          "physical_network_id": "NET_CAND_00004"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00004"
+    },
+    {
+      "candidate_id": "PIN_CAND_0014",
+      "point": [
+        256.0635714456439,
+        164.93586265295744
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "VTEMP",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00003",
+      "wire_projection": [
+        258.0,
+        164.0
+      ],
+      "wire_gap_px": 2.150719519446035,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00003",
+          "distance_px": 2.150719519446035,
+          "wire_projection": [
+            258.0,
+            164.0
+          ],
+          "physical_network_id": "NET_CAND_00003"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00003"
+    },
+    {
+      "candidate_id": "PIN_CAND_0015",
+      "point": [
+        64.80767118930817,
+        255.29309102892876
+      ],
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00005",
+      "wire_projection": [
+        64.0,
+        252.0
+      ],
+      "wire_gap_px": 3.3906903832183684,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00005",
+          "distance_px": 3.3906903832183684,
+          "wire_projection": [
+            64.0,
+            252.0
+          ],
+          "physical_network_id": "NET_CAND_00005"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00005"
+    },
+    {
+      "candidate_id": "PIN_CAND_0016",
+      "point": [
+        260.5896566808224,
+        275.03072150982916
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "TRIP TEST",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00007",
+      "wire_projection": [
+        262.0,
+        274.0
+      ],
+      "wire_gap_px": 1.746841466411156,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00007",
+          "distance_px": 1.746841466411156,
+          "wire_projection": [
+            262.0,
+            274.0
+          ],
+          "physical_network_id": "NET_CAND_00007"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00007"
+    },
+    {
+      "candidate_id": "PIN_CAND_0017",
+      "point": [
+        165.2498668730259,
+        116.33279225230217
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00001",
+      "wire_projection": [
+        166.0,
+        115.0
+      ],
+      "wire_gap_px": 1.5293903674277018,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00001",
+          "distance_px": 1.5293903674277018,
+          "wire_projection": [
+            166.0,
+            115.0
+          ],
+          "physical_network_id": "NET_CAND_00001"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00001"
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "point": [
+        28.126159355044365,
+        298.9250676855445
+      ],
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00008",
+      "wire_projection": [
+        28.0,
+        299.0
+      ],
+      "wire_gap_px": 0.14673457198243853,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00008",
+          "distance_px": 0.14673457198243853,
+          "wire_projection": [
+            28.0,
+            299.0
+          ],
+          "physical_network_id": "NET_CAND_00008"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00008"
+    },
+    {
+      "candidate_id": "PIN_CAND_0019",
+      "point": [
+        409.2705062329769,
+        118.63503628969193
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Microcontroller",
+      "attachment_status": "attached",
+      "network_id": "LOG_NET_CAND_00001",
+      "wire_projection": [
+        409.0,
+        117.0
+      ],
+      "wire_gap_px": 1.657261986135233,
+      "alternatives": [
+        {
+          "network_id": "LOG_NET_CAND_00001",
+          "distance_px": 1.657261986135233,
+          "wire_projection": [
+            409.0,
+            117.0
+          ],
+          "physical_network_id": "NET_CAND_00001"
+        }
+      ],
+      "physical_network_id": "NET_CAND_00001"
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "point": [
+        330.9573615975678,
+        248.5574627518654
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Digital In",
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": [],
+      "physical_network_id": null
+    },
+    {
+      "candidate_id": "PIN_CAND_0021",
+      "point": [
+        331.3614214658737,
+        163.52582651376724
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": [],
+      "physical_network_id": null
+    }
+  ],
+  "summary": {
+    "wire_foreground_pixels": 2188,
+    "body_excluded_foreground_pixels": 0,
+    "skeleton_pixels": 693,
+    "graph_nodes": 22,
+    "graph_edges": 12,
+    "observed_components": 10,
+    "network_proposals": 10,
+    "multi_pin_network_proposals": 8,
+    "attached_pins": 18,
+    "attachment_status_counts": {
+      "attached": 18,
+      "no_wire_within_radius": 3
+    },
+    "uncertain_junctions": 0,
+    "junction_candidates": 0,
+    "learned_resolved_junctions": 0,
+    "gap_candidates_not_filled": 0,
+    "pin_candidates_preserved": true,
+    "pin_coordinate_changes": 0,
+    "automatic_gap_connections": 0,
+    "logical_label_merges": 0,
+    "physical_network_proposals": 10,
+    "logical_networks_merged": 0,
+    "flywire_network_proposals": 0,
+    "label_site_status_counts": {
+      "no_unambiguous_model_wire_or_symbol_anchor": 4,
+      "inside_nonlabel_component": 5,
+      "already_assigned_component_or_pin_text": 8,
+      "endpoint_text_role_unverified": 1
+    },
+    "physical_wire_added": 0
+  },
+  "raw_image_segmentation_used": false,
+  "junction_classifier_used": false,
+  "official_NetF1": null,
+  "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+  "pin_input_sha256": "bbbc884b63330a84aabf8e21ecb8b88e36efb2cc3b1543ce81dd9a0af955fad8",
+  "wire_cache_sha256": "f96edcca6a45b0b350667eee093f19e5fcec46b130c16a01296c6a1aa17a0d79",
+  "unet_weights_sha256": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+  "wire_graph_config_sha256": "5346302cb54ccb9bff176bd2278b6d9239135d9c4d5f6016acebec33595f37c2",
+  "physical_networks": [
+    {
+      "network_id": "NET_CAND_00001",
+      "node_ids": [
+        "J00001",
+        "N00002",
+        "N00003",
+        "N00004"
+      ],
+      "edge_ids": [
+        "W00001",
+        "W00002",
+        "W00003"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0017",
+        "PIN_CAND_0019"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00002",
+      "node_ids": [
+        "N00005",
+        "N00006"
+      ],
+      "edge_ids": [
+        "W00004"
+      ],
+      "pin_candidate_ids": [],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00003",
+      "node_ids": [
+        "N00007",
+        "N00008"
+      ],
+      "edge_ids": [
+        "W00005"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0014"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00004",
+      "node_ids": [
+        "N00009",
+        "N00014"
+      ],
+      "edge_ids": [
+        "W00006"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0013"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00005",
+      "node_ids": [
+        "N00010",
+        "N00013"
+      ],
+      "edge_ids": [
+        "W00007"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0015"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00006",
+      "node_ids": [
+        "N00011",
+        "N00012"
+      ],
+      "edge_ids": [
+        "W00008"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0012"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00007",
+      "node_ids": [
+        "N00015",
+        "N00016"
+      ],
+      "edge_ids": [
+        "W00009"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0016"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00008",
+      "node_ids": [
+        "N00017",
+        "N00020"
+      ],
+      "edge_ids": [
+        "W00010"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0018"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00009",
+      "node_ids": [
+        "N00018",
+        "N00019"
+      ],
+      "edge_ids": [
+        "W00011"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0006"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00010",
+      "node_ids": [
+        "N00021",
+        "N00022"
+      ],
+      "edge_ids": [
+        "W00012"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0003"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    }
+  ],
+  "label_sites": [
+    {
+      "site_id": "LABEL_SITE_00001",
+      "text": "VDD Supply",
+      "confidence": 0.97746,
+      "bbox": [
+        257.5,
+        5.5,
+        339.0,
+        26.0
+      ],
+      "source_text_id": "text_0001",
+      "source_view": "tile_0_0_r0",
+      "label": "VDD Supply",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "VDD Supply"
+      ],
+      "alternatives": [
+        {
+          "text": "VDD Supply",
+          "confidence": 0.97746,
+          "bbox": [
+            257.5,
+            5.5,
+            339.0,
+            26.0
+          ],
+          "source_text_id": "text_0001",
+          "source_view": "tile_0_0_r0",
+          "label": "VDD Supply"
+        },
+        {
+          "text": "VDD Supply",
+          "confidence": 0.97575,
+          "bbox": [
+            255.5,
+            3.0,
+            340.0,
+            29.0
+          ],
+          "source_text_id": "text_0001",
+          "source_view": "tile_0_0_r90",
+          "label": "VDD Supply"
+        },
+        {
+          "text": "VDD Supply",
+          "confidence": 0.95272,
+          "bbox": [
+            257.0,
+            4.0,
+            341.0,
+            28.0
+          ],
+          "source_text_id": "text_0001",
+          "source_view": "global",
+          "label": "VDD Supply"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "VDD Supply": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00002",
+      "text": "(+2.4V to +5.5V)",
+      "confidence": 0.9968,
+      "bbox": [
+        243.0,
+        27.0,
+        352.5,
+        48.0
+      ],
+      "source_text_id": "text_0002",
+      "source_view": "tile_0_0_r0",
+      "label": "(+2.4V to +5.5V)",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "(+2.4V to +5.5V)"
+      ],
+      "alternatives": [
+        {
+          "text": "(+2.4V to +5.5V)",
+          "confidence": 0.9968,
+          "bbox": [
+            243.0,
+            27.0,
+            352.5,
+            48.0
+          ],
+          "source_text_id": "text_0002",
+          "source_view": "tile_0_0_r0",
+          "label": "(+2.4V to +5.5V)"
+        },
+        {
+          "text": "(+2.4V to +5.5V)",
+          "confidence": 0.99636,
+          "bbox": [
+            242.5,
+            26.0,
+            353.0,
+            47.0
+          ],
+          "source_text_id": "text_0002",
+          "source_view": "tile_0_0_r90",
+          "label": "(+2.4V to +5.5V)"
+        },
+        {
+          "text": "(+2.4V to +5.5V)",
+          "confidence": 0.99296,
+          "bbox": [
+            241.0,
+            26.0,
+            354.0,
+            49.0
+          ],
+          "source_text_id": "text_0002",
+          "source_view": "global",
+          "label": "(+2.4V to +5.5V)"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "(+2.4V to +5.5V)": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00003",
+      "text": "VDD",
+      "confidence": 0.99608,
+      "bbox": [
+        148.0,
+        126.5,
+        188.0,
+        154.5
+      ],
+      "source_text_id": "text_0003",
+      "source_view": "tile_0_0_r90",
+      "label": "VDD",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "VDD"
+      ],
+      "alternatives": [
+        {
+          "text": "VDD",
+          "confidence": 0.99608,
+          "bbox": [
+            148.0,
+            126.5,
+            188.0,
+            154.5
+          ],
+          "source_text_id": "text_0003",
+          "source_view": "tile_0_0_r90",
+          "label": "VDD"
+        },
+        {
+          "text": "VDD",
+          "confidence": 0.99595,
+          "bbox": [
+            149.5,
+            128.0,
+            186.5,
+            152.0
+          ],
+          "source_text_id": "text_0003",
+          "source_view": "tile_0_0_r0",
+          "label": "VDD"
+        },
+        {
+          "text": "VDD",
+          "confidence": 0.99539,
+          "bbox": [
+            149.0,
+            128.0,
+            186.0,
+            152.0
+          ],
+          "source_text_id": "text_0003",
+          "source_view": "global",
+          "label": "VDD"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "VDD": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "inside_nonlabel_component"
+    },
+    {
+      "site_id": "LABEL_SITE_00004",
+      "text": "Analog",
+      "confidence": 0.99995,
+      "bbox": [
+        246.0,
+        138.0,
+        299.0,
+        160.0
+      ],
+      "source_text_id": "text_0004",
+      "source_view": "tile_0_0_r0",
+      "label": "Analog",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "Analog"
+      ],
+      "alternatives": [
+        {
+          "text": "Analog",
+          "confidence": 0.99995,
+          "bbox": [
+            246.0,
+            138.0,
+            299.0,
+            160.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_0_0_r0",
+          "label": "Analog"
+        },
+        {
+          "text": "Analog",
+          "confidence": 0.99994,
+          "bbox": [
+            243.0,
+            136.0,
+            301.0,
+            162.0
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "global",
+          "label": "Analog"
+        },
+        {
+          "text": "Analog",
+          "confidence": 0.99994,
+          "bbox": [
+            245.0,
+            137.0,
+            300.0,
+            162.5
+          ],
+          "source_text_id": "text_0004",
+          "source_view": "tile_0_0_r90",
+          "label": "Analog"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Analog": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00005",
+      "text": "VTEMP",
+      "confidence": 0.9987,
+      "bbox": [
+        185.0,
+        150.0,
+        239.0,
+        176.0
+      ],
+      "source_text_id": "text_0005",
+      "source_view": "tile_0_0_r90",
+      "label": "VTEMP",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "VTEMP"
+      ],
+      "alternatives": [
+        {
+          "text": "VTEMP",
+          "confidence": 0.9987,
+          "bbox": [
+            185.0,
+            150.0,
+            239.0,
+            176.0
+          ],
+          "source_text_id": "text_0005",
+          "source_view": "tile_0_0_r90",
+          "label": "VTEMP"
+        },
+        {
+          "text": "VTEMP",
+          "confidence": 0.99678,
+          "bbox": [
+            184.0,
+            150.0,
+            239.0,
+            175.0
+          ],
+          "source_text_id": "text_0005",
+          "source_view": "global",
+          "label": "VTEMP"
+        },
+        {
+          "text": "VTEMP",
+          "confidence": 0.99668,
+          "bbox": [
+            186.0,
+            151.0,
+            237.5,
+            172.5
+          ],
+          "source_text_id": "text_0005",
+          "source_view": "tile_0_0_r0",
+          "label": "VTEMP"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "VTEMP": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00006",
+      "text": "ADC Input",
+      "confidence": 0.99957,
+      "bbox": [
+        340.5,
+        151.5,
+        413.0,
+        170.5
+      ],
+      "source_text_id": "text_0006",
+      "source_view": "tile_0_0_r0",
+      "label": "ADC Input",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "ADC Input"
+      ],
+      "alternatives": [
+        {
+          "text": "ADC Input",
+          "confidence": 0.99957,
+          "bbox": [
+            340.5,
+            151.5,
+            413.0,
+            170.5
+          ],
+          "source_text_id": "text_0006",
+          "source_view": "tile_0_0_r0",
+          "label": "ADC Input"
+        },
+        {
+          "text": "ADC Input",
+          "confidence": 0.99952,
+          "bbox": [
+            338.5,
+            149.0,
+            414.0,
+            173.0
+          ],
+          "source_text_id": "text_0006",
+          "source_view": "tile_0_0_r90",
+          "label": "ADC Input"
+        },
+        {
+          "text": "ADC Input",
+          "confidence": 0.99889,
+          "bbox": [
+            336.0,
+            147.0,
+            415.0,
+            173.0
+          ],
+          "source_text_id": "text_0006",
+          "source_view": "global",
+          "label": "ADC Input"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "ADC Input": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "inside_nonlabel_component"
+    },
+    {
+      "site_id": "LABEL_SITE_00007",
+      "text": "LM57",
+      "confidence": 0.99998,
+      "bbox": [
+        136.5,
+        169.0,
+        191.0,
+        190.5
+      ],
+      "source_text_id": "text_0007",
+      "source_view": "tile_0_0_r0",
+      "label": "LM57",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "LM57"
+      ],
+      "alternatives": [
+        {
+          "text": "LM57",
+          "confidence": 0.99998,
+          "bbox": [
+            136.5,
+            169.0,
+            191.0,
+            190.5
+          ],
+          "source_text_id": "text_0007",
+          "source_view": "tile_0_0_r0",
+          "label": "LM57"
+        },
+        {
+          "text": "LM57",
+          "confidence": 0.99997,
+          "bbox": [
+            134.0,
+            168.0,
+            193.0,
+            193.0
+          ],
+          "source_text_id": "text_0007",
+          "source_view": "global",
+          "label": "LM57"
+        },
+        {
+          "text": "LM57",
+          "confidence": 0.99992,
+          "bbox": [
+            134.0,
+            166.0,
+            191.5,
+            192.5
+          ],
+          "source_text_id": "text_0007",
+          "source_view": "tile_0_0_r90",
+          "label": "LM57"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "LM57": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "inside_nonlabel_component"
+    },
+    {
+      "site_id": "LABEL_SITE_00008",
+      "text": "Microcontroller",
+      "confidence": 0.99998,
+      "bbox": [
+        339.0,
+        188.0,
+        473.0,
+        211.0
+      ],
+      "source_text_id": "text_0008",
+      "source_view": "global",
+      "label": "Microcontroller",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "Microcontroller"
+      ],
+      "alternatives": [
+        {
+          "text": "Microcontroller",
+          "confidence": 0.99998,
+          "bbox": [
+            339.0,
+            188.0,
+            473.0,
+            211.0
+          ],
+          "source_text_id": "text_0008",
+          "source_view": "global",
+          "label": "Microcontroller"
+        },
+        {
+          "text": "Microcontroller",
+          "confidence": 0.99998,
+          "bbox": [
+            342.0,
+            188.5,
+            472.0,
+            209.5
+          ],
+          "source_text_id": "text_0008",
+          "source_view": "tile_0_0_r0",
+          "label": "Microcontroller"
+        },
+        {
+          "text": "Microcontroller",
+          "confidence": 0.99998,
+          "bbox": [
+            340.5,
+            186.0,
+            474.0,
+            213.5
+          ],
+          "source_text_id": "text_0008",
+          "source_view": "tile_0_0_r90",
+          "label": "Microcontroller"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Microcontroller": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00009",
+      "text": "SENSE1",
+      "confidence": 0.99996,
+      "bbox": [
+        94.0,
+        201.0,
+        158.0,
+        222.0
+      ],
+      "source_text_id": "text_0009",
+      "source_view": "global",
+      "label": "SENSE1",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "SENSE1"
+      ],
+      "alternatives": [
+        {
+          "text": "SENSE1",
+          "confidence": 0.99996,
+          "bbox": [
+            94.0,
+            201.0,
+            158.0,
+            222.0
+          ],
+          "source_text_id": "text_0009",
+          "source_view": "global",
+          "label": "SENSE1"
+        },
+        {
+          "text": "SENSE1",
+          "confidence": 0.99996,
+          "bbox": [
+            95.5,
+            201.5,
+            156.0,
+            220.5
+          ],
+          "source_text_id": "text_0009",
+          "source_view": "tile_0_0_r0",
+          "label": "SENSE1"
+        },
+        {
+          "text": "SENSE1",
+          "confidence": 0.99994,
+          "bbox": [
+            94.0,
+            201.0,
+            157.0,
+            221.5
+          ],
+          "source_text_id": "text_0009",
+          "source_view": "tile_0_0_r90",
+          "label": "SENSE1"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SENSE1": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00010",
+      "text": "TOVER",
+      "confidence": 0.99846,
+      "bbox": [
+        184.5,
+        205.5,
+        243.0,
+        241.0
+      ],
+      "source_text_id": "text_0010",
+      "source_view": "tile_0_0_r90",
+      "label": "TOVER",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "TOVER"
+      ],
+      "alternatives": [
+        {
+          "text": "TOVER",
+          "confidence": 0.99846,
+          "bbox": [
+            184.5,
+            205.5,
+            243.0,
+            241.0
+          ],
+          "source_text_id": "text_0010",
+          "source_view": "tile_0_0_r90",
+          "label": "TOVER"
+        },
+        {
+          "text": "TOVER",
+          "confidence": 0.99783,
+          "bbox": [
+            188.5,
+            210.0,
+            241.0,
+            235.0
+          ],
+          "source_text_id": "text_0010",
+          "source_view": "tile_0_0_r0",
+          "label": "TOVER"
+        },
+        {
+          "text": "TOVER",
+          "confidence": 0.99644,
+          "bbox": [
+            187.0,
+            208.0,
+            243.0,
+            238.0
+          ],
+          "source_text_id": "text_0010",
+          "source_view": "global",
+          "label": "TOVER"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "TOVER": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "inside_nonlabel_component"
+    },
+    {
+      "site_id": "LABEL_SITE_00011",
+      "text": "SENSE2",
+      "confidence": 0.99993,
+      "bbox": [
+        95.5,
+        237.0,
+        156.5,
+        254.0
+      ],
+      "source_text_id": "text_0011",
+      "source_view": "tile_0_0_r0",
+      "label": "SENSE2",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "SENSE2"
+      ],
+      "alternatives": [
+        {
+          "text": "SENSE2",
+          "confidence": 0.99993,
+          "bbox": [
+            95.5,
+            237.0,
+            156.5,
+            254.0
+          ],
+          "source_text_id": "text_0011",
+          "source_view": "tile_0_0_r0",
+          "label": "SENSE2"
+        },
+        {
+          "text": "SENSE2",
+          "confidence": 0.99992,
+          "bbox": [
+            94.0,
+            236.0,
+            159.0,
+            257.0
+          ],
+          "source_text_id": "text_0011",
+          "source_view": "global",
+          "label": "SENSE2"
+        },
+        {
+          "text": "SENSE2",
+          "confidence": 0.99992,
+          "bbox": [
+            94.0,
+            234.5,
+            157.5,
+            255.5
+          ],
+          "source_text_id": "text_0011",
+          "source_view": "tile_0_0_r90",
+          "label": "SENSE2"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "SENSE2": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00012",
+      "text": "TOVER",
+      "confidence": 0.99934,
+      "bbox": [
+        188.0,
+        237.5,
+        242.5,
+        264.5
+      ],
+      "source_text_id": "text_0012",
+      "source_view": "tile_0_0_r90",
+      "label": "TOVER",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "TOVER"
+      ],
+      "alternatives": [
+        {
+          "text": "TOVER",
+          "confidence": 0.99934,
+          "bbox": [
+            188.0,
+            237.5,
+            242.5,
+            264.5
+          ],
+          "source_text_id": "text_0012",
+          "source_view": "tile_0_0_r90",
+          "label": "TOVER"
+        },
+        {
+          "text": "TOVER",
+          "confidence": 0.99892,
+          "bbox": [
+            189.5,
+            240.0,
+            240.5,
+            262.0
+          ],
+          "source_text_id": "text_0012",
+          "source_view": "tile_0_0_r0",
+          "label": "TOVER"
+        },
+        {
+          "text": "TOVER",
+          "confidence": 0.99873,
+          "bbox": [
+            188.0,
+            240.0,
+            242.0,
+            264.0
+          ],
+          "source_text_id": "text_0012",
+          "source_view": "global",
+          "label": "TOVER"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "TOVER": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00013",
+      "text": "Digital In",
+      "confidence": 0.99944,
+      "bbox": [
+        339.5,
+        238.0,
+        403.5,
+        260.5
+      ],
+      "source_text_id": "text_0013",
+      "source_view": "tile_0_0_r90",
+      "label": "Digital In",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "Digital In"
+      ],
+      "alternatives": [
+        {
+          "text": "Digital In",
+          "confidence": 0.99944,
+          "bbox": [
+            339.5,
+            238.0,
+            403.5,
+            260.5
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "tile_0_0_r90",
+          "label": "Digital In"
+        },
+        {
+          "text": "Digital In",
+          "confidence": 0.99744,
+          "bbox": [
+            340.5,
+            240.0,
+            401.5,
+            260.5
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "tile_0_0_r0",
+          "label": "Digital In"
+        },
+        {
+          "text": "Digital In",
+          "confidence": 0.99703,
+          "bbox": [
+            337.0,
+            239.0,
+            404.0,
+            262.0
+          ],
+          "source_text_id": "text_0013",
+          "source_view": "global",
+          "label": "Digital In"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Digital In": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00014",
+      "text": "RSENSE1",
+      "confidence": 0.99892,
+      "bbox": [
+        0.0,
+        243.5,
+        25.0,
+        310.5
+      ],
+      "source_text_id": "text_0014",
+      "source_view": "tile_0_0_r0",
+      "label": "RSENSE1",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "RSENSE1"
+      ],
+      "alternatives": [
+        {
+          "text": "RSENSE1",
+          "confidence": 0.99892,
+          "bbox": [
+            0.0,
+            243.5,
+            25.0,
+            310.5
+          ],
+          "source_text_id": "text_0014",
+          "source_view": "tile_0_0_r0",
+          "label": "RSENSE1"
+        },
+        {
+          "text": "RSENSE1",
+          "confidence": 0.99845,
+          "bbox": [
+            0.0,
+            243.0,
+            26.0,
+            312.0
+          ],
+          "source_text_id": "text_0014",
+          "source_view": "global",
+          "label": "RSENSE1"
+        },
+        {
+          "text": "RSENSE1",
+          "confidence": 0.99828,
+          "bbox": [
+            0.0,
+            244.0,
+            24.0,
+            310.5
+          ],
+          "source_text_id": "text_0014",
+          "source_view": "tile_0_0_r90",
+          "label": "RSENSE1"
+        }
+      ],
+      "network_id": "NET_CAND_00004",
+      "point": [
+        29,
+        254
+      ],
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "RSENSE1": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [
+        {
+          "cost": 11.0,
+          "network_id": "NET_CAND_00004",
+          "point": [
+            29,
+            254
+          ],
+          "node_id": "N00014",
+          "edge_id": "W00006",
+          "evidence_kind": "model_wire_endpoint_next_to_OCR"
+        }
+      ],
+      "cost": 11.0,
+      "node_id": "N00014",
+      "edge_id": "W00006",
+      "evidence_kind": "model_wire_endpoint_next_to_OCR",
+      "network_ids": [
+        "NET_CAND_00004"
+      ],
+      "status": "endpoint_text_role_unverified",
+      "matching_rule": "exact_observed_spelling_outer_whitespace_trim_only"
+    },
+    {
+      "site_id": "LABEL_SITE_00015",
+      "text": "RSENSE2",
+      "confidence": 0.99967,
+      "bbox": [
+        36.0,
+        246.0,
+        58.0,
+        313.5
+      ],
+      "source_text_id": "text_0015",
+      "source_view": "tile_0_0_r0",
+      "label": "RSENSE2",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "RSENSE2"
+      ],
+      "alternatives": [
+        {
+          "text": "RSENSE2",
+          "confidence": 0.99967,
+          "bbox": [
+            36.0,
+            246.0,
+            58.0,
+            313.5
+          ],
+          "source_text_id": "text_0015",
+          "source_view": "tile_0_0_r0",
+          "label": "RSENSE2"
+        },
+        {
+          "text": "RSENSE2",
+          "confidence": 0.99926,
+          "bbox": [
+            37.0,
+            245.0,
+            58.0,
+            313.0
+          ],
+          "source_text_id": "text_0015",
+          "source_view": "tile_0_0_r90",
+          "label": "RSENSE2"
+        },
+        {
+          "text": "RSENSE2",
+          "confidence": 0.99888,
+          "bbox": [
+            32.0,
+            242.0,
+            63.0,
+            316.0
+          ],
+          "source_text_id": "text_0015",
+          "source_view": "global",
+          "label": "RSENSE2"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "RSENSE2": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "attachment_candidates": [],
+      "status": "no_unambiguous_model_wire_or_symbol_anchor"
+    },
+    {
+      "site_id": "LABEL_SITE_00016",
+      "text": "TRIP TEST",
+      "confidence": 0.99903,
+      "bbox": [
+        160.0,
+        261.0,
+        241.0,
+        284.5
+      ],
+      "source_text_id": "text_0019",
+      "source_view": "tile_0_0_r90",
+      "label": "TRIP TEST",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "TRIP TEST"
+      ],
+      "alternatives": [
+        {
+          "text": "TRIP TEST",
+          "confidence": 0.99903,
+          "bbox": [
+            160.0,
+            261.0,
+            241.0,
+            284.5
+          ],
+          "source_text_id": "text_0019",
+          "source_view": "tile_0_0_r90",
+          "label": "TRIP TEST"
+        },
+        {
+          "text": "TRIP TEST",
+          "confidence": 0.9718,
+          "bbox": [
+            162.0,
+            262.0,
+            242.0,
+            283.0
+          ],
+          "source_text_id": "text_0019",
+          "source_view": "global",
+          "label": "TRIP TEST"
+        },
+        {
+          "text": "TRIP TEST",
+          "confidence": 0.97014,
+          "bbox": [
+            163.5,
+            265.0,
+            240.5,
+            282.0
+          ],
+          "source_text_id": "text_0019",
+          "source_view": "tile_0_0_r0",
+          "label": "TRIP TEST"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "TRIP TEST": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00017",
+      "text": "Digital Out",
+      "confidence": 0.9999,
+      "bbox": [
+        339.5,
+        262.5,
+        417.0,
+        287.5
+      ],
+      "source_text_id": "text_0020",
+      "source_view": "tile_0_0_r90",
+      "label": "Digital Out",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "Digital Out"
+      ],
+      "alternatives": [
+        {
+          "text": "Digital Out",
+          "confidence": 0.9999,
+          "bbox": [
+            339.5,
+            262.5,
+            417.0,
+            287.5
+          ],
+          "source_text_id": "text_0020",
+          "source_view": "tile_0_0_r90",
+          "label": "Digital Out"
+        },
+        {
+          "text": "Digital Out",
+          "confidence": 0.99971,
+          "bbox": [
+            342.0,
+            266.0,
+            414.5,
+            285.0
+          ],
+          "source_text_id": "text_0020",
+          "source_view": "tile_0_0_r0",
+          "label": "Digital Out"
+        },
+        {
+          "text": "Digital Out",
+          "confidence": 0.99924,
+          "bbox": [
+            340.0,
+            263.0,
+            416.0,
+            287.0
+          ],
+          "source_text_id": "text_0020",
+          "source_view": "global",
+          "label": "Digital Out"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "Digital Out": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "already_assigned_component_or_pin_text"
+    },
+    {
+      "site_id": "LABEL_SITE_00018",
+      "text": "GND",
+      "confidence": 0.99996,
+      "bbox": [
+        149.5,
+        287.5,
+        186.0,
+        306.0
+      ],
+      "source_text_id": "text_0021",
+      "source_view": "tile_0_0_r0",
+      "label": "GND",
+      "coordinate_origin": "top_left",
+      "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+      "observed_spellings": [
+        "GND"
+      ],
+      "alternatives": [
+        {
+          "text": "GND",
+          "confidence": 0.99996,
+          "bbox": [
+            149.5,
+            287.5,
+            186.0,
+            306.0
+          ],
+          "source_text_id": "text_0021",
+          "source_view": "tile_0_0_r0",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99995,
+          "bbox": [
+            148.0,
+            285.5,
+            187.0,
+            307.0
+          ],
+          "source_text_id": "text_0021",
+          "source_view": "tile_0_0_r90",
+          "label": "GND"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99992,
+          "bbox": [
+            147.0,
+            285.0,
+            187.0,
+            307.0
+          ],
+          "source_text_id": "text_0021",
+          "source_view": "global",
+          "label": "GND"
+        }
+      ],
+      "network_id": null,
+      "point": null,
+      "merge_eligible": false,
+      "distinct_view_votes": {
+        "GND": 3
+      },
+      "spelling_selected_by_observed_view_votes": true,
+      "status": "inside_nonlabel_component"
+    }
+  ],
+  "label_merge_decisions": [],
+  "original_physical_edge_geometry_preserved": true,
+  "power_label_merges": 0,
+  "cross_image_merges": 0,
+  "fuzzy_label_matches": 0,
+  "physical_graph_input_sha256": "5d599c6a25603c010b880b351f2e772946b40ef56096fa49aa0739a6de01d703",
+  "OCR_input_sha256": "e91ad6c1d80a34dc0ea05ea98b62561da50e1074b5eedeb0b275abb4173ccee6",
+  "label_config_sha256": "48066297b7920648d8f6da2b1a535897250d25ba1f89869cc1fbc51b67ddeeac"
+}

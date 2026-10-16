@@ -5,7 +5,6 @@ import numpy as np
 import torch
 from PIL import Image, ImageDraw
 from torch.utils.data import Dataset
-from .unet_supervision import wire_supervision_decision, load_valid_mask
 
 
 def point(value):
@@ -45,15 +44,6 @@ def annotation_targets(data, width, height, line_width=3, pin_sigma=2.):
             continue
         if edge.get("category","wire")!="wire":
             continue
-        decision, classification = wire_supervision_decision(edge)
-        if decision != "include":
-            stats["wire_supervision_excluded_edges"] = stats.get("wire_supervision_excluded_edges",0)+1
-            counter = "ignored_source_associations" if decision == "ignore" else "excluded_nonwire_records"
-            stats[counter] = stats.get(counter,0)+1
-            paths=edge.get("keyPointPaths",{})
-            if not list(polylines(paths.get("wire",[]) if isinstance(paths,dict) else paths)):
-                stats["excluded_missing_path_records"] = stats.get("excluded_missing_path_records",0)+1
-            continue
         stats["physical_edges"]+=1
         paths=edge.get("keyPointPaths",{})
         paths=list(polylines(paths.get("wire",[]) if isinstance(paths,dict) else paths))
@@ -91,8 +81,6 @@ def annotation_targets(data, width, height, line_width=3, pin_sigma=2.):
         heat[y1:y2,x1:x2]=np.maximum(heat[y1:y2,x1:x2],gaussian)
     stats["pin_tips"]=len(tips)
     stats["wire_positive_pixels"]=int(np.count_nonzero(np.asarray(wire)))
-    if stats.get("wire_supervision_excluded_edges"):
-        stats["raw_physical_edge_records"] = stats["physical_edges"]+stats["wire_supervision_excluded_edges"]
     return wire,Image.fromarray(np.round(heat*255).astype(np.uint8)),tips,stats
 
 
@@ -126,8 +114,7 @@ class SegmentationTiles(Dataset):
         for channel,key in enumerate(["wire_mask","pin_heatmap"]):
             with Image.open(row[key]) as im:
                 targets[channel,:h,:w]=np.asarray(im.crop((x,y,x+w,y+h)),dtype=np.float32)/255
-        supervision = load_valid_mask(row)
-        valid[:h,:w]=1 if supervision is None else supervision[y:y+h,x:x+w]
+        valid[:h,:w]=1
         return torch.from_numpy(image.transpose(2,0,1).copy()).float()/255,torch.from_numpy(targets),torch.from_numpy(valid)
 
 

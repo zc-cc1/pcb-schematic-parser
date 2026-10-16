@@ -62,7 +62,33 @@ def main():
     parser.add_argument("--epochs", type=int)
     parser.add_argument("--batch", type=int)
     parser.add_argument("--run-name")
+    parser.add_argument("--resume", type=Path,
+                        help="Ultralytics last.pt from an interrupted run; continues its own epoch/LR schedule in place")
     args = parser.parse_args()
+    if args.resume:
+        if not torch.cuda.is_available():
+            raise RuntimeError("GPU training requested but CUDA is unavailable")
+        model = YOLO(str(args.resume))
+        run_name = args.run_name or args.resume.parent.parent.name
+        live = ROOT / f"runs/training/{run_name}_progress.json"
+
+        def record_epoch_resume(trainer):
+            progress = {"epoch_completed": trainer.epoch + 1, "epochs_planned": trainer.epochs,
+                        "wall_seconds": time.perf_counter() - time.time(),
+                        "resumed": True,
+                        "metrics": {key: float(value) for key, value in trainer.metrics.items()},
+                        "run_directory": str(trainer.save_dir)}
+            live.write_text(json.dumps(progress, ensure_ascii=False, indent=2), encoding="utf-8")
+
+        model.add_callback("on_fit_epoch_end", record_epoch_resume)
+        model.train(resume=True)
+        best = Path(model.trainer.save_dir) / "weights/best.pt"
+        if best.is_file():
+            destination = ROOT / f"weights/{run_name}.pt"
+            shutil.copy2(best, destination)
+            print(json.dumps({"status": "resumed_completed", "best_weights": str(destination),
+                              "metrics": {k: float(v) for k, v in model.trainer.metrics.items()}}, ensure_ascii=False), flush=True)
+        return
     config = json.loads(args.config.read_text(encoding="utf-8"))
     training = config["training"].copy()
     if args.epochs is not None:

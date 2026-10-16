@@ -1,0 +1,60 @@
+{
+  "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+  "size": [
+    491,
+    350
+  ],
+  "coordinate_origin": "top_left",
+  "library_sha256": "1da3dc2db9967335e1c05b3fb72b89ad6afb8d6db89f08b537d7b5c20b9cc147",
+  "library_config_sha256": "3b61e160b9c85cefdad6a4a36a008a925467fec03b9e9255b85238ce664ee282",
+  "original_pin_input_sha256": "af933a6cc9b1f6989666a20fd429509446b9ce2cc89167b0b6217cad511f454b",
+  "OCR_input_sha256": "e91ad6c1d80a34dc0ea05ea98b62561da50e1074b5eedeb0b275abb4173ccee6",
+  "records_input_sha256": "86e7b22d0f355db7c1d31b8266dcaad7fb9088b528fd261d51f17da828977f81",
+  "prediction_only": true,
+  "library": {
+    "supported_components": 0,
+    "numbers_added_from_library": 0,
+    "invalid_numbers_withheld": 0,
+    "missing_names_added": 0,
+    "partial_names_completed": 0,
+    "number_observed_OCR_count": 0,
+    "number_available_count": 0,
+    "name_available_count": 8,
+    "number_and_name_available_count": 0,
+    "coordinate_changes": 0,
+    "ownership_changes": 0,
+    "trained": false,
+    "default_pipeline_adopted": false
+  },
+  "components": [],
+  "conservative": {
+    "exported_components": 0,
+    "exported_pins": 0,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 21,
+      "pin_number_unresolved": 21,
+      "pin_name_unresolved": 13
+    }
+  },
+  "candidate": {
+    "exported_components": 0,
+    "exported_pins": 0,
+    "exported_nets": 0,
+    "pin_reason_counts": {
+      "component_identity_unresolved": 21,
+      "pin_number_unresolved": 21,
+      "pin_name_unresolved": 13
+    }
+  },
+  "physical_graph_unchanged_from_cached_baseline": true,
+  "tip_geometry_and_ownership_preserved": true,
+  "unsupported_components_preserved": true,
+  "input_contract": "PNG and image-model predictions plus public manufacturer pin library; no dataset source annotations/CAD/Golden reads",
+  "complete_competition_JSON": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "wall_seconds": 0.14439469994977117
+}

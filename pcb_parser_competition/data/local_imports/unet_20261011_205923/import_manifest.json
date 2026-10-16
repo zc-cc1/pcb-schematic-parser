@@ -1,0 +1,118 @@
+{
+  "source_root": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition",
+  "target_root": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition",
+  "formal_training_started": false,
+  "files": [
+    {
+      "path": "src/pcb_parser/unet_model.py",
+      "sha256": "47a0d02c4beff89337952e546bd9ba52558a03d60c689934c6142b1b13243099",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/unet_data.py",
+      "sha256": "96598abff949b9560048e4acf1e23b81ad4a2889e096053178f029e68f547900",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/vendor/pytorch_unet/__init__.py",
+      "sha256": "d68615652f520093b8ef8effe512774fe1059ce4065bfcbb2ac7c30c6acaeec3",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/vendor/pytorch_unet/unet_parts.py",
+      "sha256": "4b0441f549caf588642f7e5ef3ba2dfb1032c1ded0ba350e46f96f43caa93ea1",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/vendor/pytorch_unet/unet_model.py",
+      "sha256": "f042e977a90ac4b5b0c7529613ade1ebbcdfe6015f80df82e4fcd8f5753368b0",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/vendor/pytorch_unet/LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "src/pcb_parser/vendor/pytorch_unet/provenance.json",
+      "sha256": "14f80c6feca79b5cdc47fccfcb165361a1a90704e805819b73852e42b2a5b132",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/train_unet.py",
+      "sha256": "87e630413bfb3ba4de1386eff05ba948e93938ecd983e6f3bd0b5425e780525e",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/run_unet.py",
+      "sha256": "df3414c3d11e83d949e8860fd44ab337b92991032ac670436569b25b052d619c",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/prepare_unet_dataset.py",
+      "sha256": "da4ef5f500d2a5086f3950a1c9cbf977d3080288cd8ebaaec0a765f691ce02e3",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/import_unet_source.py",
+      "sha256": "3c153361a8d66499eb3c787106bf397c83a96b3653a667c3005385c65cd3c67a",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/verify_unet_runtime.py",
+      "sha256": "c999d4aa5c1b90067e1ed81119d1cf5355aefa535d61b3f1ac11c3bad49bc695",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "scripts/run_unet_training.ps1",
+      "sha256": "6b1f1617903db70c067c880958fe794accc5811e2a579d3a06c419a45e9602f3",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "configs/unet_wire_pin.json",
+      "sha256": "112f2d5d796e9d0775d3fd4a6813efb5b344ba98138792cbcbcb9eb29633f574",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "configs/unet_label_reviews.json",
+      "sha256": "838f053a0d244fee969ef4febef726426af8dba1b5aa8e4c0c459b723d8d79e1",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "tests/test_unet.py",
+      "sha256": "d017253eea93fad928ba1d195ec1ebc194e2724d07d46e21bf47a8ede6889890",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "docs/unet_wire_pin_plan.md",
+      "sha256": "cc6fc2207f7cb1c0a7adcb1d96a52ef3e4f12b597ee3dffa96c869929291b449",
+      "action": "new",
+      "backup": null
+    },
+    {
+      "path": "docs/unet_training_handoff.md",
+      "sha256": "ee999cce87323d52e733c1847e89a2770c4c8039785888e59f38642381afa6c5",
+      "action": "new",
+      "backup": null
+    }
+  ],
+  "readme_backup": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\data\\local_imports\\unet_20261011_205923\\prior_workspace_files\\README.md",
+  "existing_yolo_and_shared_code_configs_preserved": true,
+  "protected_existing_file_count": 47
+}

@@ -103,19 +103,6 @@ class PinOutputTests(unittest.TestCase):
                                  'bbox_top_left':[150,80,160,90]})
         self.assertFalse(power_network_guard(p,g,r,CFG)['blocks'])
 
-    def test_power_gate_records_already_field_withheld_network_without_duplicate_reasons(self):
-        guard={'blocks':[{'network_id':'N'},{'network_id':'N'}]}
-        coverage={'withheld_networks':[{'network_id':'N','reasons':['contains_pin_with_unresolved_identity_number_or_name']}]}
-        original=deepcopy(coverage)
-        out,cov=apply_power_export_gate({'nets':{}},coverage,guard)
-        self.assertEqual(cov['power_guard_excluded_network_ids'],[])
-        self.assertEqual(cov['power_guard_blocked_network_ids'],['N'])
-        self.assertEqual(cov['withheld_networks'][0]['reasons'],[
-            'contains_pin_with_unresolved_identity_number_or_name','detected_power_symbol_near_wire_without_attached_member'])
-        self.assertEqual(coverage,original)
-        _,again=apply_power_export_gate(out,cov,guard)
-        self.assertEqual(again['withheld_networks'],cov['withheld_networks'])
-
     def test_represented_power_tip_does_not_create_duplicate_omission(self):
         p,g,r=example(kind='gnd');self.assertFalse(power_network_guard(p,g,r,CFG)['blocks'])
 

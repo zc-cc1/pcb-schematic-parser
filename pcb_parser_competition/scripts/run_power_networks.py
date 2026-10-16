@@ -11,19 +11,13 @@ from run_pin_output_rules import validate_cache, power_network_guard, apply_powe
 from run_submission_fields import fingerprint
 from run_network_labels import logical_partial_export
 from pcb_parser.power_networks import propose_power_networks
-from pcb_parser.submission_fields import complete_fields, network_field_queue, validate_fields
+from pcb_parser.submission_fields import complete_fields, network_field_queue
 from pcb_parser.pin_output_rules import complete_pin_output_names
 from pcb_parser.dataset_converter import validate_output
 
 
-def export_fields(pins, graph, records, output, *, fields_completed=False):
-    # Later stages may already have applied unique-label identity remapping.
-    # Repeating completion against the original label-site IDs is invalid.
-    if fields_completed:
-        validate_fields(pins, graph, records)
-        fields, updated = pins, graph
-    else:
-        fields, updated, records, _ = complete_fields(pins, graph, records, read(ROOT/'configs/submission_fields_v1.json'))
+def export_fields(pins, graph, records, output):
+    fields, updated, records, _ = complete_fields(pins, graph, records, read(ROOT/'configs/submission_fields_v1.json'))
     strict, strict_graph, candidate, candidate_graph, _ = complete_pin_output_names(fields,updated,records,read(ROOT/'configs/pin_output_rules_v1.json'))
     guard = power_network_guard(strict,strict_graph,records,read(ROOT/'configs/pin_output_rules_v1.json'))
     results = {}

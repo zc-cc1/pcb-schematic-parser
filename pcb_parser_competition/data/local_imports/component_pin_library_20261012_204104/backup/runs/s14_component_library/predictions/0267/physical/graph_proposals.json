@@ -1,0 +1,1202 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    491,
+    350
+  ],
+  "status": "provisional_physical_networks_logical_labels_pending",
+  "nodes": [
+    {
+      "node_id": "J00001",
+      "point": [
+        295.0,
+        88.0
+      ],
+      "kind": "junction",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00002",
+      "point": [
+        295,
+        51
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00003",
+      "point": [
+        166,
+        115
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00004",
+      "point": [
+        409,
+        117
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00005",
+      "point": [
+        109,
+        125
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00006",
+      "point": [
+        91,
+        142
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00007",
+      "point": [
+        258,
+        164
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00008",
+      "point": [
+        320,
+        164
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00009",
+      "point": [
+        77,
+        211
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00010",
+      "point": [
+        77,
+        244
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00011",
+      "point": [
+        255,
+        249
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00012",
+      "point": [
+        322,
+        249
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00013",
+      "point": [
+        64,
+        252
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00014",
+      "point": [
+        29,
+        254
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00015",
+      "point": [
+        262,
+        274
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00016",
+      "point": [
+        325,
+        274
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00017",
+      "point": [
+        28,
+        298
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00018",
+      "point": [
+        65,
+        299
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00019",
+      "point": [
+        64,
+        307
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00020",
+      "point": [
+        29,
+        308
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00021",
+      "point": [
+        420,
+        322
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    },
+    {
+      "node_id": "N00022",
+      "point": [
+        421,
+        323
+      ],
+      "kind": "endpoint",
+      "pixel_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "J00001",
+      "target": "N00002",
+      "edge_id": "W00001",
+      "polyline": [
+        [
+          295.0,
+          51.0
+        ],
+        [
+          295.0,
+          88.0
+        ]
+      ],
+      "length_px": 37.0,
+      "mean_probability": 0.9985159635543823
+    },
+    {
+      "source": "J00001",
+      "target": "N00004",
+      "edge_id": "W00002",
+      "polyline": [
+        [
+          295.0,
+          88.0
+        ],
+        [
+          409.0,
+          89.0
+        ],
+        [
+          409.0,
+          117.0
+        ]
+      ],
+      "length_px": 143.2426406871193,
+      "mean_probability": 0.9978493452072144
+    },
+    {
+      "source": "J00001",
+      "target": "N00003",
+      "edge_id": "W00003",
+      "polyline": [
+        [
+          295.0,
+          88.0
+        ],
+        [
+          167.0,
+          89.0
+        ],
+        [
+          166.0,
+          115.0
+        ]
+      ],
+      "length_px": 154.82842712474618,
+      "mean_probability": 0.9976060390472412
+    },
+    {
+      "source": "N00005",
+      "target": "N00006",
+      "edge_id": "W00004",
+      "polyline": [
+        [
+          109.0,
+          125.0
+        ],
+        [
+          93.0,
+          126.0
+        ],
+        [
+          91.0,
+          130.0
+        ],
+        [
+          91.0,
+          142.0
+        ]
+      ],
+      "length_px": 33.242640687119284,
+      "mean_probability": 0.9784950613975525
+    },
+    {
+      "source": "N00007",
+      "target": "N00008",
+      "edge_id": "W00005",
+      "polyline": [
+        [
+          258.0,
+          164.0
+        ],
+        [
+          320.0,
+          164.0
+        ]
+      ],
+      "length_px": 62.82842712474619,
+      "mean_probability": 0.9882429838180542
+    },
+    {
+      "source": "N00009",
+      "target": "N00014",
+      "edge_id": "W00006",
+      "polyline": [
+        [
+          77.0,
+          211.0
+        ],
+        [
+          31.0,
+          212.0
+        ],
+        [
+          29.0,
+          214.0
+        ],
+        [
+          29.0,
+          254.0
+        ]
+      ],
+      "length_px": 89.24264068711929,
+      "mean_probability": 0.9978967905044556
+    },
+    {
+      "source": "N00010",
+      "target": "N00013",
+      "edge_id": "W00007",
+      "polyline": [
+        [
+          77.0,
+          244.0
+        ],
+        [
+          66.0,
+          244.0
+        ],
+        [
+          64.0,
+          252.0
+        ]
+      ],
+      "length_px": 19.82842712474619,
+      "mean_probability": 0.983709454536438
+    },
+    {
+      "source": "N00011",
+      "target": "N00012",
+      "edge_id": "W00008",
+      "polyline": [
+        [
+          255.0,
+          249.0
+        ],
+        [
+          322.0,
+          249.0
+        ]
+      ],
+      "length_px": 67.82842712474618,
+      "mean_probability": 0.9779889583587646
+    },
+    {
+      "source": "N00015",
+      "target": "N00016",
+      "edge_id": "W00009",
+      "polyline": [
+        [
+          262.0,
+          274.0
+        ],
+        [
+          325.0,
+          274.0
+        ]
+      ],
+      "length_px": 63.82842712474619,
+      "mean_probability": 0.9713363647460938
+    },
+    {
+      "source": "N00017",
+      "target": "N00020",
+      "edge_id": "W00010",
+      "polyline": [
+        [
+          28.0,
+          298.0
+        ],
+        [
+          29.0,
+          308.0
+        ]
+      ],
+      "length_px": 10.414213562373096,
+      "mean_probability": 0.9356812834739685
+    },
+    {
+      "source": "N00018",
+      "target": "N00019",
+      "edge_id": "W00011",
+      "polyline": [
+        [
+          65.0,
+          299.0
+        ],
+        [
+          64.0,
+          307.0
+        ]
+      ],
+      "length_px": 8.414213562373096,
+      "mean_probability": 0.9476504921913147
+    },
+    {
+      "source": "N00021",
+      "target": "N00022",
+      "edge_id": "W00012",
+      "polyline": [
+        [
+          420.0,
+          322.0
+        ],
+        [
+          421.0,
+          323.0
+        ]
+      ],
+      "length_px": 1.4142135623730951,
+      "mean_probability": 0.9963604807853699
+    }
+  ],
+  "junction_candidates": [],
+  "gap_candidates": [],
+  "networks": [
+    {
+      "network_id": "NET_CAND_00001",
+      "node_ids": [
+        "J00001",
+        "N00002",
+        "N00003",
+        "N00004"
+      ],
+      "edge_ids": [
+        "W00001",
+        "W00002",
+        "W00003"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0017",
+        "PIN_CAND_0019"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00002",
+      "node_ids": [
+        "N00005",
+        "N00006"
+      ],
+      "edge_ids": [
+        "W00004"
+      ],
+      "pin_candidate_ids": [],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00003",
+      "node_ids": [
+        "N00007",
+        "N00008"
+      ],
+      "edge_ids": [
+        "W00005"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0014"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00004",
+      "node_ids": [
+        "N00009",
+        "N00014"
+      ],
+      "edge_ids": [
+        "W00006"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0013"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00005",
+      "node_ids": [
+        "N00010",
+        "N00013"
+      ],
+      "edge_ids": [
+        "W00007"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0015"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00006",
+      "node_ids": [
+        "N00011",
+        "N00012"
+      ],
+      "edge_ids": [
+        "W00008"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0012"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00007",
+      "node_ids": [
+        "N00015",
+        "N00016"
+      ],
+      "edge_ids": [
+        "W00009"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0016"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00008",
+      "node_ids": [
+        "N00017",
+        "N00020"
+      ],
+      "edge_ids": [
+        "W00010"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0018"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00009",
+      "node_ids": [
+        "N00018",
+        "N00019"
+      ],
+      "edge_ids": [
+        "W00011"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0006"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    },
+    {
+      "network_id": "NET_CAND_00010",
+      "node_ids": [
+        "N00021",
+        "N00022"
+      ],
+      "edge_ids": [
+        "W00012"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0003"
+      ],
+      "official_pin_references": [],
+      "unresolved_junction_ids": [],
+      "status": "model_mask_connectivity_proposal"
+    }
+  ],
+  "pin_attachments": [
+    {
+      "candidate_id": "PIN_CAND_0001",
+      "point": [
+        64.1804046779871,
+        308.3716082572937
+      ],
+      "owner": "UNRESOLVED_DET_0002",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00009",
+      "wire_projection": [
+        64.0,
+        307.0
+      ],
+      "wire_gap_px": 1.3834215045733143,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00009",
+          "distance_px": 1.3834215045733143,
+          "wire_projection": [
+            64.0,
+            307.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0002",
+      "point": [
+        29.248947024345398,
+        308.95850775018334
+      ],
+      "owner": "UNRESOLVED_DET_0004",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00008",
+      "wire_projection": [
+        29.0,
+        308.0
+      ],
+      "wire_gap_px": 0.9903089053885983,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00008",
+          "distance_px": 0.9903089053885983,
+          "wire_projection": [
+            29.0,
+            308.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0003",
+      "point": [
+        420.3991224169731,
+        325.6487834453583
+      ],
+      "owner": "UNRESOLVED_DET_0005",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00010",
+      "wire_projection": [
+        421.0,
+        323.0
+      ],
+      "wire_gap_px": 2.7160831375693,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00010",
+          "distance_px": 2.7160831375693,
+          "wire_projection": [
+            421.0,
+            323.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0004",
+      "point": [
+        164.21515499055386,
+        325.1448909789324
+      ],
+      "owner": "UNRESOLVED_DET_0006",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": []
+    },
+    {
+      "candidate_id": "PIN_CAND_0005",
+      "point": [
+        79.05448001623154,
+        211.9089755192399
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "SENSE1",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00004",
+      "wire_projection": [
+        77.0,
+        211.0
+      ],
+      "wire_gap_px": 2.246580653275592,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00004",
+          "distance_px": 2.246580653275592,
+          "wire_projection": [
+            77.0,
+            211.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0006",
+      "point": [
+        64.1836639046669,
+        299.0513370335102
+      ],
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00009",
+      "wire_projection": [
+        65.0,
+        299.0
+      ],
+      "wire_gap_px": 0.8179487218361059,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00009",
+          "distance_px": 0.8179487218361059,
+          "wire_projection": [
+            65.0,
+            299.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "point": [
+        296.01238632947206,
+        49.37963408231735
+      ],
+      "owner": null,
+      "owner_status": "no_component_nearby",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00001",
+      "wire_projection": [
+        295.0,
+        51.0
+      ],
+      "wire_gap_px": 1.9106312536147443,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00001",
+          "distance_px": 1.9106312536147443,
+          "wire_projection": [
+            295.0,
+            51.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0008",
+      "point": [
+        322.4093649685383,
+        164.79726913571358
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00003",
+      "wire_projection": [
+        320.0,
+        164.0
+      ],
+      "wire_gap_px": 2.537849015678624,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00003",
+          "distance_px": 2.537849015678624,
+          "wire_projection": [
+            320.0,
+            164.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0009",
+      "point": [
+        326.28109139204025,
+        274.94274788722396
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Digital Out",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00007",
+      "wire_projection": [
+        325.0,
+        274.0
+      ],
+      "wire_gap_px": 1.5905875435275076,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00007",
+          "distance_px": 1.5905875435275076,
+          "wire_projection": [
+            325.0,
+            274.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0010",
+      "point": [
+        79.08703660964966,
+        244.16125255823135
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "SENSE2",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00005",
+      "wire_projection": [
+        77.0,
+        244.0
+      ],
+      "wire_gap_px": 2.093256839844097,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00005",
+          "distance_px": 2.093256839844097,
+          "wire_projection": [
+            77.0,
+            244.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "point": [
+        254.7330873310566,
+        249.9714174643159
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "TOVER",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00006",
+      "wire_projection": [
+        255.0,
+        249.0
+      ],
+      "wire_gap_px": 1.0074196061326222,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00006",
+          "distance_px": 1.0074196061326222,
+          "wire_projection": [
+            255.0,
+            249.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0012",
+      "point": [
+        322.0757936015725,
+        249.76735810935497
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00006",
+      "wire_projection": [
+        322.0,
+        249.0
+      ],
+      "wire_gap_px": 0.7710921722026306,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00006",
+          "distance_px": 0.7710921722026306,
+          "wire_projection": [
+            322.0,
+            249.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "point": [
+        28.26263263821602,
+        255.2896058857441
+      ],
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00004",
+      "wire_projection": [
+        29.0,
+        254.0
+      ],
+      "wire_gap_px": 1.4855281777098945,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00004",
+          "distance_px": 1.4855281777098945,
+          "wire_projection": [
+            29.0,
+            254.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0014",
+      "point": [
+        256.0635714456439,
+        164.93586265295744
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "VTEMP",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00003",
+      "wire_projection": [
+        258.0,
+        164.0
+      ],
+      "wire_gap_px": 2.150719519446035,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00003",
+          "distance_px": 2.150719519446035,
+          "wire_projection": [
+            258.0,
+            164.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0015",
+      "point": [
+        64.80767118930817,
+        255.29309102892876
+      ],
+      "owner": "UNRESOLVED_DET_0003",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00005",
+      "wire_projection": [
+        64.0,
+        252.0
+      ],
+      "wire_gap_px": 3.3906903832183684,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00005",
+          "distance_px": 3.3906903832183684,
+          "wire_projection": [
+            64.0,
+            252.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0016",
+      "point": [
+        260.5896566808224,
+        275.03072150982916
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "TRIP TEST",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00007",
+      "wire_projection": [
+        262.0,
+        274.0
+      ],
+      "wire_gap_px": 1.746841466411156,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00007",
+          "distance_px": 1.746841466411156,
+          "wire_projection": [
+            262.0,
+            274.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0017",
+      "point": [
+        165.2498668730259,
+        116.33279225230217
+      ],
+      "owner": "UNRESOLVED_DET_0007",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00001",
+      "wire_projection": [
+        166.0,
+        115.0
+      ],
+      "wire_gap_px": 1.5293903674277018,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00001",
+          "distance_px": 1.5293903674277018,
+          "wire_projection": [
+            166.0,
+            115.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "point": [
+        28.126159355044365,
+        298.9250676855445
+      ],
+      "owner": "UNRESOLVED_DET_0001",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00008",
+      "wire_projection": [
+        28.0,
+        299.0
+      ],
+      "wire_gap_px": 0.14673457198243853,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00008",
+          "distance_px": 0.14673457198243853,
+          "wire_projection": [
+            28.0,
+            299.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0019",
+      "point": [
+        409.2705062329769,
+        118.63503628969193
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Microcontroller",
+      "attachment_status": "attached",
+      "network_id": "NET_CAND_00001",
+      "wire_projection": [
+        409.0,
+        117.0
+      ],
+      "wire_gap_px": 1.657261986135233,
+      "alternatives": [
+        {
+          "network_id": "NET_CAND_00001",
+          "distance_px": 1.657261986135233,
+          "wire_projection": [
+            409.0,
+            117.0
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "point": [
+        330.9573615975678,
+        248.5574627518654
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": "Digital In",
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": []
+    },
+    {
+      "candidate_id": "PIN_CAND_0021",
+      "point": [
+        331.3614214658737,
+        163.52582651376724
+      ],
+      "owner": "UNRESOLVED_DET_0008",
+      "owner_status": "assigned",
+      "number": null,
+      "pinname": null,
+      "attachment_status": "no_wire_within_radius",
+      "network_id": null,
+      "wire_projection": null,
+      "wire_gap_px": null,
+      "alternatives": []
+    }
+  ],
+  "summary": {
+    "wire_foreground_pixels": 2188,
+    "body_excluded_foreground_pixels": 0,
+    "skeleton_pixels": 693,
+    "graph_nodes": 22,
+    "graph_edges": 12,
+    "observed_components": 10,
+    "network_proposals": 10,
+    "multi_pin_network_proposals": 8,
+    "attached_pins": 18,
+    "attachment_status_counts": {
+      "attached": 18,
+      "no_wire_within_radius": 3
+    },
+    "uncertain_junctions": 0,
+    "junction_candidates": 0,
+    "learned_resolved_junctions": 0,
+    "gap_candidates_not_filled": 0,
+    "pin_candidates_preserved": true,
+    "pin_coordinate_changes": 0,
+    "automatic_gap_connections": 0,
+    "logical_label_merges": 0
+  },
+  "raw_image_segmentation_used": false,
+  "junction_classifier_used": false,
+  "official_NetF1": null,
+  "image_sha256": "3cd7be66713be393fc4dc9f826e910c995308430626cd2c850fc190d5ca0ee01",
+  "pin_input_sha256": "bbbc884b63330a84aabf8e21ecb8b88e36efb2cc3b1543ce81dd9a0af955fad8",
+  "wire_cache_sha256": "f96edcca6a45b0b350667eee093f19e5fcec46b130c16a01296c6a1aa17a0d79",
+  "unet_weights_sha256": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+  "wire_graph_config_sha256": "5346302cb54ccb9bff176bd2278b6d9239135d9c4d5f6016acebec33595f37c2"
+}

@@ -1,0 +1,277 @@
+{
+  "image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+  "size": [
+    1604,
+    664
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "316e547ca8bd17ed806395a3278083fb8966b59d082395657e28d874cb67dad7",
+  "input_network_sha256": "0f8b3d694eed4a1d189f7a79b7f77169f0d4d5ae50381befe974a488a5608be0",
+  "input_OCR_sha256": "b8abce81b9d2b1d1ed1bfdeacf439150200039e7888a40b9230af57b21f2a55e",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [],
+  "components": [
+    {
+      "detection_index": 6,
+      "component_id": "UNRESOLVED_DET_0007",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        145.106,
+        607.551,
+        178.774,
+        636.609
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0036"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 8,
+      "component_id": "UNRESOLVED_DET_0009",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1445.934,
+        567.322,
+        1480.502,
+        592.547
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0007"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 9,
+      "component_id": "UNRESOLVED_DET_0010",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        613.012,
+        566.253,
+        646.081,
+        592.57
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0005"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 10,
+      "component_id": "UNRESOLVED_DET_0011",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1518.982,
+        538.554,
+        1552.83,
+        562.974
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0027"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 17,
+      "component_id": "UNRESOLVED_DET_0018",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        151.721,
+        469.816,
+        171.751,
+        483.736
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0112"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 18,
+      "component_id": "UNRESOLVED_DET_0019",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1080.431,
+        350.917,
+        1113.864,
+        373.511
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0110"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 19,
+      "component_id": "UNRESOLVED_DET_0020",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1212.005,
+        541.151,
+        1245.879,
+        562.901
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0014"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 20,
+      "component_id": "UNRESOLVED_DET_0021",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        1095.307,
+        208.057,
+        1129.566,
+        226.179
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0009"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 27,
+      "component_id": "UNRESOLVED_DET_0028",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        876.091,
+        134.215,
+        909.795,
+        153.982
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0043"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 29,
+      "component_id": "UNRESOLVED_DET_0030",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        794.776,
+        31.195,
+        815.392,
+        44.36
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 30,
+      "component_id": "UNRESOLVED_DET_0031",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        773.977,
+        383.556,
+        807.333,
+        401.413
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 32,
+      "component_id": "UNRESOLVED_DET_0033",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        920.565,
+        208.678,
+        953.638,
+        225.854
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 37,
+      "component_id": "UNRESOLVED_DET_0038",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        1100.997,
+        32.186,
+        1123.787,
+        46.523
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0074"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 13,
+    "power_without_owned_tip": 3,
+    "networks_with_possible_omitted_power_member": 0,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

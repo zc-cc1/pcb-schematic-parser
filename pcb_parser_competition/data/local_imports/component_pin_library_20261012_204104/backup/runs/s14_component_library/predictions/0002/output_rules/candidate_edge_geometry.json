@@ -1,0 +1,103 @@
+{
+  "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+  "size": [
+    1127,
+    509
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "38904790fb9ada098a424fbcd9d0b8ec6513524b1884ca470a9003e224708ad8",
+  "input_network_sha256": "e4b2c7351c5fc65dbaff79f0154995ee0e02a01c863ee4861b6b370dd940a863",
+  "input_OCR_sha256": "4a61f51b2ea1340ccf98b1c8ad781904bc78738885c588bb8be3c2f416dd22ef",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "policy": "candidate_only_bounded_model_polyline_compression",
+  "tolerance_original_px": 1.0,
+  "input_pixel_segments": 3,
+  "output_segments": 3,
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "input_pixel_segments": 3,
+      "output_segments": 3,
+      "max_deviation_px": 0.0,
+      "path_endpoints_preserved": true,
+      "paths": [
+        {
+          "edge_id": "W00006",
+          "original_endpoints": [
+            [
+              686.0,
+              152.0
+            ],
+            [
+              835.0,
+              152.0
+            ]
+          ],
+          "simplified_polyline_top_left": [
+            [
+              686.0,
+              152.0
+            ],
+            [
+              835.0,
+              152.0
+            ]
+          ],
+          "max_deviation_px": 0.0
+        },
+        {
+          "edge_id": "W00007",
+          "original_endpoints": [
+            [
+              835.0,
+              152.0
+            ],
+            [
+              977.0,
+              152.0
+            ]
+          ],
+          "simplified_polyline_top_left": [
+            [
+              835.0,
+              152.0
+            ],
+            [
+              977.0,
+              152.0
+            ]
+          ],
+          "max_deviation_px": 0.0
+        },
+        {
+          "edge_id": "W00008",
+          "original_endpoints": [
+            [
+              835.0,
+              152.0
+            ],
+            [
+              835.0,
+              204.0
+            ]
+          ],
+          "simplified_polyline_top_left": [
+            [
+              835.0,
+              152.0
+            ],
+            [
+              835.0,
+              204.0
+            ]
+          ],
+          "max_deviation_px": 0.0
+        }
+      ]
+    }
+  ],
+  "new_connections_created": 0,
+  "graph_or_pin_geometry_changed": false,
+  "official_NetLineF1": null
+}

@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "initial_weights": "weights/yolo11s_stage1.pt",
+  "dataset": "data/detection_balanced_v2/dataset.yaml",
+  "run_name": "detector_dataset300_v3_y11s_stage2",
+  "training": {
+    "epochs": 60, "imgsz": 1536, "batch": 4, "workers": 2,
+    "device": 0, "amp": true, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.0006, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 2, "patience": 20, "seed": 20261012, "deterministic": true,
+    "mosaic": 0.35, "close_mosaic": 10, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.1, "scale": 0.4, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.0, "fliplr": 0.0, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.25,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": [
+    "Stage-2 continuation of the staged y11s validation: stage-1 stopped at epoch 30 of the 120-epoch schedule (F1 0.8131, marginal band per the pre-declared rule).",
+    "Warm start from weights/yolo11s_stage1.pt; lr0 6e-4 approximates the interrupted 120-epoch cosine at epoch 30 (~8.7e-4 remaining) blended toward a fresh 60-epoch decay.",
+    "Everything else identical to the v3 recipe (imgsz 1536, fp16, augmentation unchanged).",
+    "Decision rule on completion: fused F1 > 0.8830 adopts y11s as the detector; otherwise v3_nano (v8n) stays adopted and the detection line closes.",
+    "Stage-1 evidence: training mAP50 0.677 at epoch 30 vs v3_nano's 0.6876 at 120 epochs, curve still steep."
+  ]
+}
