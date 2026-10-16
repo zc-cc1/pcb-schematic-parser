@@ -1,0 +1,22 @@
+{
+  "version": "0.1-quick",
+  "initial_architecture": "yolo11s.yaml",
+  "initial_weights": "weights/yolo11s.pt",
+  "dataset": "data/detection_balanced_v2/dataset.yaml",
+  "run_name": "detector_dataset300_v3_y11s_quick",
+  "training": {
+    "epochs": 35, "imgsz": 1280, "batch": 4, "workers": 2,
+    "device": 0, "amp": true, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.001, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 2, "patience": 15, "seed": 20261012, "deterministic": true,
+    "mosaic": 0.35, "close_mosaic": 10, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.1, "scale": 0.4, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.0, "fliplr": 0.0, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.25,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": [
+    "Fast architecture-validation run: ~50 min instead of ~5 h. Everything identical to detector_training_v3_v11s.json except epochs 120->35, imgsz 1536->1280, close_mosaic 15->10, patience 25->15.",
+    "COLD START (COCO init) + reduced budget, so the resulting F1 is a LOWER BOUND for the architecture. Decision rule: quick F1 >= ~0.86 means yolo11s is at least as strong as v8n and deserves a full-budget run; < 0.82 means the backbone switch is not compelling at this data scale.",
+    "Comparison target: v3_nano final F1 0.8830 (warm start + 120 epochs + imgsz 1536)."
+  ]
+}

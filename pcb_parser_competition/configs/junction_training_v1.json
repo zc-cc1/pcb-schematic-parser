@@ -1,0 +1,13 @@
+{
+  "seed": 1703,
+  "epochs": 30,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "synthetic_count": 1024,
+  "real_train_repeats": 12,
+  "confidence_threshold": 0.95,
+  "checkpoint_selection": "minimum_real_calibration_cross_entropy",
+  "test_used_for_checkpoint_selection": false,
+  "classes": ["crossing_without_connection", "connected_junction"],
+  "unsupported_classes": ["segmentation_artifact", "uncertain"]
+}

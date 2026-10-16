@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="20.11.0.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第二周第6天：预处理综合项目</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (ReferenceImage, 'fabrik')</l>
+<l>get_image_size (ReferenceImage, Width, Height)</l>
+<l>get_domain (ReferenceImage, FullDomain)</l>
+<c>* ------------------------------------------------------------</c>
+<c>* 场景一：低对比度与线性拉伸</c>
+<l>scale_image (ReferenceImage, LowContrastImage, 0.3, 80)</l>
+<l>min_max_gray (FullDomain, LowContrastImage, 0, ContrastMin, ContrastMax, ContrastRange)</l>
+<l>count_seconds (TimeStart)</l>
+<l>if (ContrastRange &gt; 0)</l>
+<l>    ContrastScale := 255.0 / ContrastRange</l>
+<l>    ContrastOffset := -ContrastMin * ContrastScale</l>
+<l>    scale_image (LowContrastImage, ContrastResult, ContrastScale, ContrastOffset)</l>
+<l>else</l>
+<l>    ContrastScale := 1.0</l>
+<l>    ContrastOffset := 0.0</l>
+<l>    copy_image (LowContrastImage, ContrastResult)</l>
+<l>endif</l>
+<l>count_seconds (TimeEnd)</l>
+<l>ContrastTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<l>abs_diff_image (ReferenceImage, LowContrastImage, DifferenceLowBefore, 1)</l>
+<l>abs_diff_image (ReferenceImage, ContrastResult, DifferenceLowAfter, 1)</l>
+<l>intensity (FullDomain, DifferenceLowBefore, LowContrastErrorBefore, LowContrastErrorBeforeDeviation)</l>
+<l>intensity (FullDomain, DifferenceLowAfter, LowContrastErrorAfter, LowContrastErrorAfterDeviation)</l>
+<c>* ------------------------------------------------------------</c>
+<c>* 场景二：椒盐噪声与中值滤波</c>
+<l>sp_distribution (5, 5, NoiseDistribution)</l>
+<l>add_noise_distribution (ReferenceImage, NoisyImage, NoiseDistribution)</l>
+<l>count_seconds (TimeStart)</l>
+<l>median_image (NoisyImage, DenoisedImage, 'circle', 2, 'mirrored')</l>
+<l>count_seconds (TimeEnd)</l>
+<l>DenoiseTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<l>abs_diff_image (ReferenceImage, NoisyImage, DifferenceNoiseBefore, 1)</l>
+<l>abs_diff_image (ReferenceImage, DenoisedImage, DifferenceNoiseAfter, 1)</l>
+<l>intensity (FullDomain, DifferenceNoiseBefore, NoiseErrorBefore, NoiseErrorBeforeDeviation)</l>
+<l>intensity (FullDomain, DifferenceNoiseAfter, NoiseErrorAfter, NoiseErrorAfterDeviation)</l>
+<c>* ------------------------------------------------------------</c>
+<c>* 场景三：创建平滑光照梯度并使用illuminate</c>
+<l>convert_image_type (ReferenceImage, ReferenceReal, 'real')</l>
+<l>CenterColumn := (Width - 1) / 2.0</l>
+<l>GradientPerColumn := 120.0 / (Width - 1)</l>
+<l>gen_image_surface_first_order (IlluminationGradient, 'real', 0.0, GradientPerColumn, 0.0, 0.0, CenterColumn, Width, Height)</l>
+<l>add_image (ReferenceReal, IlluminationGradient, UnevenReal, 1.0, 0.0)</l>
+<l>convert_image_type (UnevenReal, UnevenImage, 'byte')</l>
+<l>count_seconds (TimeStart)</l>
+<l>illuminate (UnevenImage, IlluminationResult, 101, 101, 0.7)</l>
+<l>count_seconds (TimeEnd)</l>
+<l>IlluminationTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<l>abs_diff_image (ReferenceImage, UnevenImage, DifferenceLightBefore, 1)</l>
+<l>abs_diff_image (ReferenceImage, IlluminationResult, DifferenceLightAfter, 1)</l>
+<l>intensity (FullDomain, DifferenceLightBefore, LightErrorBefore, LightErrorBeforeDeviation)</l>
+<l>intensity (FullDomain, DifferenceLightAfter, LightErrorAfter, LightErrorAfterDeviation)</l>
+<c>* ------------------------------------------------------------</c>
+<c>* 显示三个场景</c>
+<l>dev_open_window (0, 0, 640, 520, 'black', WindowHandle)</l>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>dev_display (LowContrastImage)</l>
+<l>disp_text (WindowHandle, ['场景一输入：低对比度', '处理前误差：' + LowContrastErrorBefore$'.2f', '灰度范围：' + ContrastRange$'.1f'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ContrastResult)</l>
+<l>disp_text (WindowHandle, ['场景一输出：线性拉伸', '处理后误差：' + LowContrastErrorAfter$'.2f', '耗时：' + ContrastTimeMs$'.3f' + ' ms'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (NoisyImage)</l>
+<l>disp_text (WindowHandle, ['场景二输入：椒盐噪声', '处理前误差：' + NoiseErrorBefore$'.2f'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (DenoisedImage)</l>
+<l>disp_text (WindowHandle, ['场景二输出：中值滤波', '处理后误差：' + NoiseErrorAfter$'.2f', '耗时：' + DenoiseTimeMs$'.3f' + ' ms'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (UnevenImage)</l>
+<l>disp_text (WindowHandle, ['场景三输入：左暗右亮的光照梯度', '处理前误差：' + LightErrorBefore$'.2f'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (IlluminationResult)</l>
+<l>disp_text (WindowHandle, ['场景三输出：illuminate', '处理后误差：' + LightErrorAfter$'.2f', '耗时：' + IlluminationTimeMs$'.3f' + ' ms', '误差不是光照校正的唯一评价标准'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_clear_window ()</l>
+<l>SummaryText := ['第二周预处理综合项目完成', '', '低对比度：' + LowContrastErrorBefore$'.2f' + ' -&gt; ' + LowContrastErrorAfter$'.2f', '椒盐噪声：' + NoiseErrorBefore$'.2f' + ' -&gt; ' + NoiseErrorAfter$'.2f', '光照不均：' + LightErrorBefore$'.2f' + ' -&gt; ' + LightErrorAfter$'.2f', '', '先识别图像问题，再选择预处理方法']</l>
+<l>disp_text (WindowHandle, SummaryText, 'window', 40, 40, 'white', ['box_color'], ['black'])</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

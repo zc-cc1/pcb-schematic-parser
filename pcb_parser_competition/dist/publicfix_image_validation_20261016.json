@@ -1,0 +1,57 @@
+{
+  "image": "pcb-parser:local-cuda-68d6bcb8",
+  "platform": "linux/amd64",
+  "runtime": "cuda",
+  "entrypoint": "[\"/submission/run.sh\"]",
+  "source_zip": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\submission_publicfix_source.zip",
+  "source_zip_snapshot": "D:\\pcb_submission_export\\pcb_image_20261016_150523_19da58c1\\source_snapshot.zip",
+  "source_zip_sha256": "6D66EAE9F92E8087DB2CA5D86205B9D72C283FCAEEB8A7FDE4A2F6CD0F51FAB0",
+  "docker_build_passed": true,
+  "docker_inference_passed": true,
+  "docker_archive_load_passed": true,
+  "source_manifest_matches_image": true,
+  "all_bundled_file_hashes_verified": true,
+  "image_id": "sha256:28944e074e12c66e9938af80200085feb74e59da72d34ba17bc5e33371d6d910",
+  "successful_cases": 2,
+  "output_format": "target",
+  "workers_tested": 2,
+  "target_layout_verified": true,
+  "base_image": "pcb-parser:local-cuda-fd63748e",
+  "build_recipe_sha256": "E1BFA5C2BFDCC50AE2AE6F458D88788D9AB7CD93B7868A2DA3B3E313F4848E07",
+  "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+  "component_output_policy": "public_20261016_passive_names_template_boxes_v1",
+  "remaining_limitations": [
+    "Public training/Golden IC Name conventions differ; existing IC names preserved",
+    "Power/network coverage unchanged",
+    "New official score pending"
+  ],
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "upload_zip": "D:\\pcb_submission_export\\pcb_image_20261016_150523_19da58c1\\submission_target.zip",
+  "upload_zip_sha256": "02063E10790A4AF11449E73640DCE50FFE282D553239126D61F253EC17A70ADA",
+  "upload_zip_bytes": 4978083518,
+  "official_score": null,
+  "export_integrity": {
+    "verified_at_utc": "2026-10-16T07:12:36.281487+00:00",
+    "zip": "D:\\pcb_submission_export\\pcb_image_20261016_150523_19da58c1\\submission_target.zip",
+    "zip_bytes": 4978083518,
+    "zip_sha256": "02063e10790a4af11449e73640dce50ffe282d553239126d61f253ec17a70ada",
+    "zip_single_member": "submission.tar",
+    "zip_crc_verified": true,
+    "payload_matches_loaded_tar": true,
+    "tar_sha256": "5441268873ba461e619eb221140dda4fef56abc5c7aecc6e03b75583b7d946fb",
+    "tar_bytes": 4728879104,
+    "single_image_verified": true,
+    "image": "pcb-parser:local-cuda-68d6bcb8",
+    "platform": "linux/amd64",
+    "entrypoint": [
+      "/submission/run.sh"
+    ],
+    "output_format": "target",
+    "official_score": null
+  }
+}

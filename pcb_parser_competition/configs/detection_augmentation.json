@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "seed": 20261012,
+  "source_manifest": "data/detection_v1/manifest.jsonl",
+  "output_directory": "data/detection_balanced_v2",
+  "crop_sizes": [384, 640, 896],
+  "maximum_crop_side": 1408,
+  "boundary_margin": 4,
+  "maximum_variants_per_object": 3,
+  "crop_budgets": {"crystal": 70, "mosfet": 70, "switch": 20, "led": 20},
+  "training_label_corrections": {
+    "0087": {"C_83": {"class_name": "capacitor", "evidence": "training_rare_classes_01.png: C57, 4.7uF capacitor symbol; original Crystal category is incorrect"}},
+    "0203": {"C_84": {"class_name": "switch", "evidence": "training_rare_classes_03.png: KEY1/KEY3 four-terminal pushbutton switch; original MOSFET category is incorrect"}}
+  },
+  "notes": [
+    "Training-only context crops; validation images, annotations and source groups stay identical.",
+    "Windows expand to contain every intersecting annotated component, avoiding truncated or silently dropped component labels.",
+    "Crop repetitions increase exposure, not the number of independent source examples."
+  ]
+}

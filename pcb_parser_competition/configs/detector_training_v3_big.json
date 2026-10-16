@@ -1,0 +1,24 @@
+{
+  "version": "0.1",
+  "initial_architecture": "yolov8s-p2.yaml",
+  "initial_weights": "weights/yolov8s_coco.pt",
+  "dataset": "data/detection_balanced_v2/dataset.yaml",
+  "run_name": "detector_dataset300_v3_s_p2",
+  "training": {
+    "epochs": 120, "imgsz": 1280, "batch": 4, "workers": 2,
+    "device": 0, "amp": true, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.001, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 3, "patience": 25, "seed": 20261012, "deterministic": true,
+    "mosaic": 0.35, "close_mosaic": 15, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.1, "scale": 0.4, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.0, "fliplr": 0.0, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.25,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": [
+    "Capacity experiment: HR-DONK base is YOLOv8n; this run rebuilds on the official yolov8s-p2.yaml (scale s from the yaml scales dict) which adds a P2/4 detection head for symbols below ~8 px and widens the backbone.",
+    "initial_weights yolov8s_coco.pt transfers the COCO backbone and box-regression (cv2) rows via model.load(); classification rows do not match (COCO 80 vs 35 classes) and ClassNameTransferTrainer copies nothing for them, which is expected.",
+    "imgsz 1280 rather than 1536: the P2 head at /4 stride is memory-hungry; drop to --imgsz 1024 or --batch 2 if OOM.",
+    "Fresh-optimizer warmup: lr0 1e-3 (ultralytics AdamW default range) because the backbone starts from COCO, not from the v2 detector.",
+    "Run this AFTER v3_nano; adopt whichever wins on the unchanged detection_v1 validation manifest, then consider fine-tuning the winner once more from the balanced_v2 checkpoint if class-row transfer proves useful."
+  ]
+}

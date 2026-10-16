@@ -1,0 +1,195 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    1005,
+    660
+  ],
+  "entries": [
+    {
+      "component_id": "U21",
+      "before_bbox_bottom_left": [
+        139.838,
+        131.913,
+        210.164,
+        190.43900000000002
+      ],
+      "after_bbox_bottom_left": [
+        149.0,
+        135.0,
+        201.0,
+        187.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          122,
+          454,
+          228,
+          543
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 5
+        },
+        "best": {
+          "bbox_top_left": [
+            149.0,
+            473.0,
+            201.0,
+            525.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9905172551249889
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U22",
+      "before_bbox_bottom_left": [
+        511.466,
+        490.33000000000004,
+        587.567,
+        548.907
+      ],
+      "after_bbox_bottom_left": [
+        520.0,
+        493.0,
+        580.0,
+        545.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          492,
+          96,
+          607,
+          185
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 3,
+          "top": 1,
+          "bottom": 4
+        },
+        "best": {
+          "bbox_top_left": [
+            520.0,
+            115.0,
+            580.0,
+            167.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9911642869143007
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U16",
+      "before_bbox_bottom_left": [
+        401.383,
+        110.47299999999996,
+        431.658,
+        142.37800000000004
+      ],
+      "after_bbox_bottom_left": [
+        401.383,
+        110.47299999999996,
+        431.658,
+        142.37800000000004
+      ],
+      "changed": false,
+      "evidence": {
+        "reason": "symbol_too_small_for_four_side_evidence"
+      }
+    },
+    {
+      "component_id": "U12",
+      "before_bbox_bottom_left": [
+        557.28,
+        174.125,
+        630.592,
+        216.84300000000002
+      ],
+      "after_bbox_bottom_left": [
+        563.0,
+        178.0,
+        624.0,
+        212.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          538,
+          432,
+          649,
+          497
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            563.0,
+            448.0,
+            624.0,
+            482.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9899316742186163
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U9",
+      "before_bbox_bottom_left": [
+        773.591,
+        94.06100000000004,
+        809.407,
+        125.84699999999998
+      ],
+      "after_bbox_bottom_left": [
+        773.591,
+        94.06100000000004,
+        809.407,
+        125.84699999999998
+      ],
+      "changed": false,
+      "evidence": {
+        "reason": "symbol_too_small_for_four_side_evidence"
+      }
+    }
+  ],
+  "changed_IC_boxes": 3,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "wall_seconds": 0.016
+}

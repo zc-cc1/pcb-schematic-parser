@@ -1,0 +1,31 @@
+{
+  "status": "agent_visual_partial_review_not_certified_Golden",
+  "source_labels": "data/segmentation_unet_v1",
+  "original_labels_modified": false,
+  "corrections": {
+    "0073": {
+      "reason": "Visible CC2 and VOUT wires are absent from active source wire targets. Verified against original PNG; preserve source tip convention.",
+      "replace_edges": {
+        "E_8": [[[458, 298], [619, 298], [619, 218]]]
+      },
+      "activate_edges": ["E_8"],
+      "add_edges": {
+        "agent_visual_CC2": [[[458, 98], [699, 98]]]
+      },
+      "pin_tip_overrides": []
+    },
+    "0088": {
+      "reason": "E_1/E_3 source wire paths and capacitor C_3 tips are displaced vertically by approximately 11-12 px relative to original PNG.",
+      "replace_edges": {
+        "E_1": [[[389, 45], [491, 45], [491, 190]], [[435, 113], [491, 113]], [[476, 190], [508, 190]]],
+        "E_3": [[[388, 113], [336, 113]], [[317, 160], [336, 160]], [[358, 160], [336, 160]], [[336, 160], [336, 113]]]
+      },
+      "activate_edges": [],
+      "add_edges": {},
+      "pin_tip_overrides": [
+        {"component_source_id": "C_3", "pin_source_id": "P_2", "point": [433, 113]},
+        {"component_source_id": "C_3", "pin_source_id": "P_9", "point": [390, 113]}
+      ]
+    }
+  }
+}

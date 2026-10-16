@@ -1,0 +1,27 @@
+{
+  "version": "assistant-visual-network-label-review-v1",
+  "reviewer": "assistant_visual_inspection",
+  "official_Golden": false,
+  "training_labels_modified": false,
+  "purpose": "Offline development reference supplement only; never input to PNG inference",
+  "cases": {
+    "0170": {
+      "image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "component_label_roles": [
+        {
+          "component_source_id": "C_114",
+          "label": "ADC_IN12",
+          "source_text_id": "T_42",
+          "source_pin_ids": ["P_125", "P_126"],
+          "reviewed": true,
+          "evidence": "Original PNG shows ADC_IN12 outside the right-hand connector H2, at the diamond around (986,90). The same label appears beside the output diamond around (215,734). C_114 is the source Net_short box at [978,85,994,94]. Its associated T_42 already contains ADC_IN12, but details is empty rather than netLabel. Two source tips at [978,90] and [994,89] belong to this inline label symbol. The supplement supplies only this visually checked role, not new coordinates or guessed numbering."
+        }
+      ],
+      "label_binding_reviews": [
+        {"site_id": "LABEL_SITE_00019", "expected_text": "ADC_IN12", "expected_component_source_id": "C_114", "correct_text_and_role": true, "reviewed": true},
+        {"site_id": "LABEL_SITE_00145", "expected_text": "ADC_IN12", "expected_component_source_id": "C_72", "correct_text_and_role": true, "reviewed": true}
+      ]
+    }
+  },
+  "limits": "One deliberately inspected development case. This is not an independent benchmark, official reference, or new externally collected training data. Source drafts remain unchanged."
+}

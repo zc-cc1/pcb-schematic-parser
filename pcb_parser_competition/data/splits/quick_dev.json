@@ -1,0 +1,43 @@
+{
+  "split_version": "0.2",
+  "status": "two_raw_development_cases_selected",
+  "purpose": "detector/OCR/interface debugging, not official F1",
+  "cases": [
+    {
+      "case_id": "0002",
+      "development_role": "medium_proxy",
+      "official_difficulty": null,
+      "golden_status": "not_provided_in_submission_format",
+      "image_path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0002\\0002-Datasheet.png",
+      "raw_annotation_path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0002\\0002-Datasheet_CVJsonStd.json",
+      "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "counts_excluding_deleted": {
+        "components": 12,
+        "pins": 28,
+        "texts": 55,
+        "edges": 8
+      },
+      "selection_basis": "manual visual review and geometry/text complexity; not an official difficulty label"
+    },
+    {
+      "case_id": "0001",
+      "development_role": "hard_proxy",
+      "official_difficulty": null,
+      "golden_status": "not_provided_in_submission_format",
+      "image_path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0001\\0001-KiCad.png",
+      "raw_annotation_path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0001\\0001-KiCad_CVJsonStd.json",
+      "image_sha256": "05ab6fdc26484c2d568dad92d708e6826479cb57576872910643a3f8c626d39b",
+      "counts_excluding_deleted": {
+        "components": 91,
+        "pins": 224,
+        "texts": 486,
+        "edges": 133
+      },
+      "selection_basis": "manual visual review and geometry/text complexity; not an official difficulty label"
+    }
+  ],
+  "notes": [
+    "Official difficulty, Golden conversion and original-engineering grouping remain pending.",
+    "Do not use raw annotation JSON in inference; load it only in offline audit/training/evaluation."
+  ]
+}

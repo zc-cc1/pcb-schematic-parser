@@ -1,0 +1,888 @@
+{
+  "status": "manual_local_reference_not_official_Golden",
+  "case_ids": [
+    "0001",
+    "0002"
+  ],
+  "review_method": "Visual reading of supplied PNG; source boxes reused after visual localization review; strict text spelling",
+  "scope": "Physical part references, primary values and models; power/net/pin labels excluded",
+  "split": "already_used_development_validation_not_independent_test",
+  "field_count": 101,
+  "cases": {
+    "0001": {
+      "image_sha256": "05ab6fdc26484c2d568dad92d708e6826479cb57576872910643a3f8c626d39b",
+      "size": [
+        1442,
+        1090
+      ],
+      "components": [
+        {
+          "designator": "C1",
+          "type": "capacitor",
+          "bbox_top_left": [
+            87.0,
+            806.0,
+            104.0,
+            835.0
+          ],
+          "fields": {
+            "designator": "C1",
+            "value": "4.7uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C1"
+        },
+        {
+          "designator": "C2",
+          "type": "capacitor",
+          "bbox_top_left": [
+            87.0,
+            945.0,
+            104.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C2",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C2"
+        },
+        {
+          "designator": "C3",
+          "type": "capacitor",
+          "bbox_top_left": [
+            108.0,
+            271.0,
+            125.0,
+            300.0
+          ],
+          "fields": {
+            "designator": "C3",
+            "value": "4.7uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C3"
+        },
+        {
+          "designator": "C4",
+          "type": "capacitor",
+          "bbox_top_left": [
+            157.0,
+            945.0,
+            173.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C4",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C4"
+        },
+        {
+          "designator": "C5",
+          "type": "capacitor",
+          "bbox_top_left": [
+            164.0,
+            271.0,
+            180.0,
+            299.0
+          ],
+          "fields": {
+            "designator": "C5",
+            "value": "4.7uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C5"
+        },
+        {
+          "designator": "C6",
+          "type": "capacitor",
+          "bbox_top_left": [
+            219.0,
+            271.0,
+            236.0,
+            300.0
+          ],
+          "fields": {
+            "designator": "C6",
+            "value": "4.7uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C6"
+        },
+        {
+          "designator": "C7",
+          "type": "capacitor",
+          "bbox_top_left": [
+            226.0,
+            466.0,
+            243.0,
+            494.0
+          ],
+          "fields": {
+            "designator": "C7",
+            "value": "15pF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C7"
+        },
+        {
+          "designator": "C8",
+          "type": "capacitor",
+          "bbox_top_left": [
+            226.0,
+            945.0,
+            243.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C8",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_18"
+        },
+        {
+          "designator": "C9",
+          "type": "capacitor",
+          "bbox_top_left": [
+            268.0,
+            465.0,
+            284.0,
+            494.0
+          ],
+          "fields": {
+            "designator": "C9",
+            "value": "15pF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C9"
+        },
+        {
+          "designator": "C10",
+          "type": "capacitor",
+          "bbox_top_left": [
+            275.0,
+            271.0,
+            291.0,
+            299.0
+          ],
+          "fields": {
+            "designator": "C10",
+            "value": "4.7uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C10"
+        },
+        {
+          "designator": "C11",
+          "type": "capacitor",
+          "bbox_top_left": [
+            296.0,
+            945.0,
+            312.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C11",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C11"
+        },
+        {
+          "designator": "C12",
+          "type": "capacitor",
+          "bbox_top_left": [
+            365.0,
+            945.0,
+            382.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C12",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C12"
+        },
+        {
+          "designator": "C13",
+          "type": "capacitor",
+          "bbox_top_left": [
+            435.0,
+            945.0,
+            451.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C13",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C13"
+        },
+        {
+          "designator": "C14",
+          "type": "capacitor",
+          "bbox_top_left": [
+            504.0,
+            945.0,
+            521.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C14",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C14"
+        },
+        {
+          "designator": "C15",
+          "type": "capacitor",
+          "bbox_top_left": [
+            574.0,
+            945.0,
+            591.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C15",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C15"
+        },
+        {
+          "designator": "C16",
+          "type": "capacitor",
+          "bbox_top_left": [
+            644.0,
+            945.0,
+            660.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C16",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C16"
+        },
+        {
+          "designator": "C17",
+          "type": "capacitor",
+          "bbox_top_left": [
+            713.0,
+            945.0,
+            730.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C17",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C17"
+        },
+        {
+          "designator": "C18",
+          "type": "capacitor",
+          "bbox_top_left": [
+            783.0,
+            945.0,
+            799.0,
+            974.0
+          ],
+          "fields": {
+            "designator": "C18",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C18"
+        },
+        {
+          "designator": "C19",
+          "type": "capacitor",
+          "bbox_top_left": [
+            1026.0,
+            508.0,
+            1042.0,
+            535.0
+          ],
+          "fields": {
+            "designator": "C19",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C19"
+        },
+        {
+          "designator": "C20",
+          "type": "capacitor",
+          "bbox_top_left": [
+            1026.0,
+            793.0,
+            1042.0,
+            821.0
+          ],
+          "fields": {
+            "designator": "C20",
+            "value": "0.1uF"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C20"
+        },
+        {
+          "designator": "R7",
+          "type": "resistor",
+          "bbox_top_left": [
+            111.0,
+            188.0,
+            121.0,
+            215.0
+          ],
+          "fields": {
+            "designator": "R7",
+            "value": "200"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "R7"
+        },
+        {
+          "designator": "R8",
+          "type": "resistor",
+          "bbox_top_left": [
+            165.0,
+            188.0,
+            178.0,
+            214.0
+          ],
+          "fields": {
+            "designator": "R8",
+            "value": "33"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "R8"
+        },
+        {
+          "designator": "R9",
+          "type": "resistor",
+          "bbox_top_left": [
+            275.0,
+            801.0,
+            304.0,
+            812.0
+          ],
+          "fields": {
+            "designator": "R9",
+            "value": "1k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_43"
+        },
+        {
+          "designator": "R10",
+          "type": "resistor",
+          "bbox_top_left": [
+            304.0,
+            426.0,
+            332.0,
+            436.0
+          ],
+          "fields": {
+            "designator": "R10",
+            "value": "1k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_82"
+        },
+        {
+          "designator": "R11",
+          "type": "resistor",
+          "bbox_top_left": [
+            311.0,
+            676.0,
+            339.0,
+            687.0
+          ],
+          "fields": {
+            "designator": "R11",
+            "value": "100"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_37"
+        },
+        {
+          "designator": "R12",
+          "type": "resistor",
+          "bbox_top_left": [
+            311.0,
+            689.0,
+            339.0,
+            701.0
+          ],
+          "fields": {
+            "designator": "R12",
+            "value": "100"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_35"
+        },
+        {
+          "designator": "R13",
+          "type": "resistor",
+          "bbox_top_left": [
+            1131.0,
+            161.0,
+            1159.0,
+            172.0
+          ],
+          "fields": {
+            "designator": "R13",
+            "value": "470"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_40"
+        },
+        {
+          "designator": "R14",
+          "type": "resistor",
+          "bbox_top_left": [
+            1132.0,
+            189.0,
+            1159.0,
+            200.0
+          ],
+          "fields": {
+            "designator": "R14",
+            "value": "10k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_36"
+        },
+        {
+          "designator": "R15",
+          "type": "resistor",
+          "bbox_top_left": [
+            1168.0,
+            257.0,
+            1179.0,
+            285.0
+          ],
+          "fields": {
+            "designator": "R15",
+            "value": "10k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "R15"
+        },
+        {
+          "designator": "R16",
+          "type": "resistor",
+          "bbox_top_left": [
+            1168.0,
+            445.0,
+            1179.0,
+            472.0
+          ],
+          "fields": {
+            "designator": "R16",
+            "value": "10k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "R16"
+        },
+        {
+          "designator": "R17",
+          "type": "resistor",
+          "bbox_top_left": [
+            1168.0,
+            730.0,
+            1179.0,
+            757.0
+          ],
+          "fields": {
+            "designator": "R17",
+            "value": "10k"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "R17"
+        },
+        {
+          "designator": "L1",
+          "type": "inductor",
+          "bbox_top_left": [
+            308.0,
+            254.0,
+            342.0,
+            270.0
+          ],
+          "fields": {
+            "designator": "L1",
+            "value": "3.3uH"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_44"
+        },
+        {
+          "designator": "L2",
+          "type": "inductor",
+          "bbox_top_left": [
+            965.0,
+            113.0,
+            1003.0,
+            131.0
+          ],
+          "fields": {
+            "designator": "L2",
+            "value": "470Ohm"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "L2"
+        },
+        {
+          "designator": "Y1",
+          "type": "crystal",
+          "bbox_top_left": [
+            240.0,
+            450.0,
+            271.0,
+            471.0
+          ],
+          "fields": {
+            "designator": "Y1",
+            "value": "12MHz"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "Y1"
+        },
+        {
+          "designator": "U1",
+          "type": "ic",
+          "bbox_top_left": [
+            346.0,
+            166.0,
+            540.0,
+            850.0
+          ],
+          "fields": {
+            "designator": "U1",
+            "Name": "RP2350B"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "U1"
+        },
+        {
+          "designator": "U2",
+          "type": "ic",
+          "bbox_top_left": [
+            1021.0,
+            108.0,
+            1125.0,
+            263.0
+          ],
+          "fields": {
+            "designator": "U2",
+            "Name": "RM2"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "U2"
+        },
+        {
+          "designator": "U3",
+          "type": "ic",
+          "bbox_top_left": [
+            1051.0,
+            469.0,
+            1157.0,
+            576.0
+          ],
+          "fields": {
+            "designator": "U3",
+            "Name": "W25Q128JVPIM"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "U3"
+        },
+        {
+          "designator": "U4",
+          "type": "ic",
+          "bbox_top_left": [
+            1052.0,
+            756.0,
+            1155.0,
+            857.0
+          ],
+          "fields": {
+            "designator": "U4",
+            "Name": "APS6404L-3SQR-ZR"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "U4"
+        },
+        {
+          "designator": "Q1",
+          "type": "mosfet",
+          "bbox_top_left": [
+            1188.0,
+            236.0,
+            1241.0,
+            281.0
+          ],
+          "fields": {
+            "designator": "Q1",
+            "Name": "RE1C001ZPTL"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_27"
+        },
+        {
+          "designator": "TP1",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            606.0,
+            829.0,
+            614.0,
+            849.0
+          ],
+          "fields": {
+            "designator": "TP1"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "TP1"
+        },
+        {
+          "designator": "TP2",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            942.0,
+            163.0,
+            963.0,
+            170.0
+          ],
+          "fields": {
+            "designator": "TP2"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "TP2"
+        },
+        {
+          "designator": "TP3",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            1225.0,
+            121.0,
+            1245.0,
+            129.0
+          ],
+          "fields": {
+            "designator": "TP3"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_89"
+        },
+        {
+          "designator": "TP4",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            1227.0,
+            134.0,
+            1246.0,
+            144.0
+          ],
+          "fields": {
+            "designator": "TP4"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "TP4"
+        },
+        {
+          "designator": "TP5",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            1223.0,
+            149.0,
+            1246.0,
+            157.0
+          ],
+          "fields": {
+            "designator": "TP5"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "TP5"
+        },
+        {
+          "designator": "TP6",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            1230.0,
+            478.0,
+            1256.0,
+            496.0
+          ],
+          "fields": {
+            "designator": "TP6"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_91"
+        },
+        {
+          "designator": "TP7",
+          "type": "vbus_in",
+          "bbox_top_left": [
+            1230.0,
+            763.0,
+            1256.0,
+            782.0
+          ],
+          "fields": {
+            "designator": "TP7"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "UNRESOLVED_C_90"
+        }
+      ]
+    },
+    "0002": {
+      "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "size": [
+        1127,
+        509
+      ],
+      "components": [
+        {
+          "designator": "C74",
+          "type": "capacitor",
+          "bbox_top_left": [
+            967.0,
+            272.0,
+            1027.0,
+            331.0
+          ],
+          "fields": {
+            "designator": "C74",
+            "value": "27p"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C74"
+        },
+        {
+          "designator": "C81",
+          "type": "capacitor",
+          "bbox_top_left": [
+            120.0,
+            339.0,
+            182.0,
+            390.0
+          ],
+          "fields": {
+            "designator": "C81",
+            "value": "100n"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C81"
+        },
+        {
+          "designator": "C82",
+          "type": "capacitor",
+          "bbox_top_left": [
+            0.0,
+            337.0,
+            58.0,
+            389.0
+          ],
+          "fields": {
+            "designator": "C82",
+            "value": "1u0"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C82"
+        },
+        {
+          "designator": "C83",
+          "type": "capacitor",
+          "bbox_top_left": [
+            244.0,
+            337.0,
+            306.0,
+            391.0
+          ],
+          "fields": {
+            "designator": "C83",
+            "value": "100n"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C83"
+        },
+        {
+          "designator": "C86",
+          "type": "capacitor",
+          "bbox_top_left": [
+            965.0,
+            123.0,
+            1028.0,
+            182.0
+          ],
+          "fields": {
+            "designator": "C86",
+            "value": "27p"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C86"
+        },
+        {
+          "designator": "C87",
+          "type": "capacitor",
+          "bbox_top_left": [
+            195.0,
+            100.0,
+            259.0,
+            153.0
+          ],
+          "fields": {
+            "designator": "C87",
+            "value": "100n"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "C87"
+        },
+        {
+          "designator": "IC2",
+          "type": "ic",
+          "bbox_top_left": [
+            413.0,
+            94.0,
+            686.0,
+            483.0
+          ],
+          "fields": {
+            "designator": "IC2",
+            "Name": "BCM2835"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "IC2"
+        },
+        {
+          "designator": "X2",
+          "type": "crystal",
+          "bbox_top_left": [
+            798.0,
+            203.0,
+            878.0,
+            251.0
+          ],
+          "fields": {
+            "designator": "X2",
+            "value": "19M2"
+          },
+          "review_status": "visually_transcribed_from_original_PNG",
+          "geometry_source": "X2"
+        }
+      ]
+    }
+  }
+}

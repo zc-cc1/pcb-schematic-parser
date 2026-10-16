@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第二周第5天：光照校正与局部细节增强</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (Image, 'fabrik')</l>
+<l>get_image_size (Image, Width, Height)</l>
+<l>get_domain (Image, FullDomain)</l>
+<l>IlluminationMaskWidth := 31</l>
+<l>IlluminationMaskHeight := 31</l>
+<l>IlluminationFactor := 0.5</l>
+<l>EmphasizeMaskWidth := 7</l>
+<l>EmphasizeMaskHeight := 7</l>
+<l>EmphasizeFactor := 0.5</l>
+<c>* 大尺度均值图近似表示缓慢变化的光照背景</c>
+<l>mean_image (Image, EstimatedBackground, IlluminationMaskWidth, IlluminationMaskHeight)</l>
+<l>count_seconds (TimeStart)</l>
+<l>illuminate (Image, ImageIlluminated, IlluminationMaskWidth, IlluminationMaskHeight, IlluminationFactor)</l>
+<l>count_seconds (TimeEnd)</l>
+<l>IlluminateTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<l>count_seconds (TimeStart)</l>
+<l>emphasize (ImageIlluminated, ImageEmphasized, EmphasizeMaskWidth, EmphasizeMaskHeight, EmphasizeFactor)</l>
+<l>count_seconds (TimeEnd)</l>
+<l>EmphasizeTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<l>min_max_gray (FullDomain, Image, 0, MinOriginal, MaxOriginal, RangeOriginal)</l>
+<l>intensity (FullDomain, Image, MeanOriginal, DeviationOriginal)</l>
+<l>min_max_gray (FullDomain, ImageIlluminated, 0, MinIlluminated, MaxIlluminated, RangeIlluminated)</l>
+<l>intensity (FullDomain, ImageIlluminated, MeanIlluminated, DeviationIlluminated)</l>
+<l>min_max_gray (FullDomain, ImageEmphasized, 0, MinEmphasized, MaxEmphasized, RangeEmphasized)</l>
+<l>intensity (FullDomain, ImageEmphasized, MeanEmphasized, DeviationEmphasized)</l>
+<l>dev_open_window (0, 0, 640, 520, 'black', WindowHandle)</l>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>dev_display (Image)</l>
+<l>OriginalText := ['原始图像', '均值：' + MeanOriginal$'.2f', '标准差：' + DeviationOriginal$'.2f', '灰度范围：' + RangeOriginal$'.1f']</l>
+<l>disp_text (WindowHandle, OriginalText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (EstimatedBackground)</l>
+<l>disp_text (WindowHandle, ['101 x 101均值图', '近似表示缓慢变化的光照背景'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ImageIlluminated)</l>
+<l>IlluminatedText := ['illuminate光照校正', 'Mask：' + IlluminationMaskWidth + ' x ' + IlluminationMaskHeight, 'Factor：' + IlluminationFactor$'.2f', '均值：' + MeanIlluminated$'.2f', '标准差：' + DeviationIlluminated$'.2f', '灰度范围：' + RangeIlluminated$'.1f', '耗时：' + IlluminateTimeMs$'.3f' + ' ms']</l>
+<l>disp_text (WindowHandle, IlluminatedText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ImageEmphasized)</l>
+<l>EmphasizedText := ['emphasize局部细节增强', 'Mask：' + EmphasizeMaskWidth + ' x ' + EmphasizeMaskHeight, 'Factor：' + EmphasizeFactor$'.2f', '均值：' + MeanEmphasized$'.2f', '标准差：' + DeviationEmphasized$'.2f', '灰度范围：' + RangeEmphasized$'.1f', '耗时：' + EmphasizeTimeMs$'.3f' + ' ms', '', '注意观察噪声与边缘光晕']</l>
+<l>disp_text (WindowHandle, EmphasizedText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

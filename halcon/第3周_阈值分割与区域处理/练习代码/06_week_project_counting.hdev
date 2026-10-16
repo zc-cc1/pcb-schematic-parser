@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第三周第6天：零件计数与分类综合项目（每行代码的下一行是功能讲解）</c>
+<l>dev_update_off ()</l>
+<c>* 关闭 HDevelop 自动刷新，防止窗口重绘干扰批量检测的算法计时。</c>
+<l>dev_close_window ()</l>
+<c>* 关闭之前由 HDevelop 管理的所有图形窗口，为项目运行建立干净环境。</c>
+<l>read_image (Image, 'rings_and_nuts')</l>
+<c>* 读取包含七个零件的标准图像，其中有四个螺母和三个带齿零件。</c>
+<l>get_image_size (Image, Width, Height)</l>
+<c>* 获取标准图像宽度和高度，用于生成 ROI、压力测试图和显示窗口。</c>
+<l>scale_image (Image, ImageDark35, 0.35, 0)</l>
+<c>* 将原图整体灰度缩放到 35%，模拟严重但仍可检测的整体欠曝。</c>
+<l>scale_image (Image, ImageDark55, 0.55, 0)</l>
+<c>* 将原图整体灰度缩放到 55%，模拟中等亮度下降。</c>
+<l>scale_image (Image, ImageBright, 1.20, 0)</l>
+<c>* 将原图整体灰度放大到 120% 并裁剪到 byte 范围，模拟整体变亮。</c>
+<l>scale_image (Image, ImageExtremeDark, 0.05, 0)</l>
+<c>* 将原图整体灰度缩放到 5%，制造超出当前算法能力的极端欠曝失败样本。</c>
+<l>gen_rectangle1 (ShadowROI, 0, 0, Height - 1, Width / 3)</l>
+<c>* 创建覆盖图像左侧约三分之一的矩形，用来限定局部阴影区域。</c>
+<l>reduce_domain (Image, ShadowROI, ShadowSource)</l>
+<c>* 将原图定义域限制到阴影矩形内，使后续变暗只作用于图像左侧。</c>
+<l>scale_image (ShadowSource, ShadowDarkPart, 0.50, 0)</l>
+<c>* 将阴影区域灰度缩放到 50%，生成局部暗化图像。</c>
+<l>paint_gray (ShadowDarkPart, Image, ImageLocalShadow)</l>
+<c>* 把局部暗化灰度覆盖回原图副本，得到左侧存在突变阴影的测试图。</c>
+<l>sp_distribution (1, 1, NoiseDistribution)</l>
+<c>* 生成 1% 盐噪声和 1% 椒噪声分布，分别对应随机极亮点和极暗点。</c>
+<l>add_noise_distribution (Image, ImageNoise, NoiseDistribution)</l>
+<c>* 按椒盐分布向标准图像添加随机噪声，生成噪声测试样本。</c>
+<l>concat_obj (Image, ImageDark35, TestImages)</l>
+<c>* 把原图与 35% 变暗图连接成测试图像对象数组的前两个元素。</c>
+<l>concat_obj (TestImages, ImageDark55, TestImages)</l>
+<c>* 把 55% 变暗图追加到测试图像数组。</c>
+<l>concat_obj (TestImages, ImageBright, TestImages)</l>
+<c>* 把整体变亮图追加到测试图像数组。</c>
+<l>concat_obj (TestImages, ImageLocalShadow, TestImages)</l>
+<c>* 把局部阴影图追加到测试图像数组。</c>
+<l>concat_obj (TestImages, ImageNoise, TestImages)</l>
+<c>* 把椒盐噪声图追加到测试图像数组。</c>
+<l>concat_obj (TestImages, ImageExtremeDark, TestImages)</l>
+<c>* 把极端欠曝失败样本追加到测试图像数组，最终得到七种测试条件。</c>
+<l>ConditionNames := ['原图','整体变暗 0.35','整体变暗 0.55','整体变亮 1.20','左侧局部阴影 0.50','椒盐噪声 1%+1%','极端欠曝 0.05']</l>
+<c>* 建立与七幅测试图一一对应的条件名称元组，用于显示和失败记录。</c>
+<l>ConditionCount := |ConditionNames|</l>
+<c>* 读取条件名称数量作为批处理循环次数，避免在循环中写死数字七。</c>
+<l>gen_rectangle1 (InspectionROI, 5, 5, Height - 6, Width - 6)</l>
+<c>* 创建略小于整幅图的检测 ROI，排除图像最外层的暗色边界干扰。</c>
+<l>ExpectedTotal := 7</l>
+<c>* 设置每幅测试图中零件总数真值为七个。</c>
+<l>ExpectedNuts := 4</l>
+<c>* 设置每幅测试图中螺母数量真值为四个。</c>
+<l>ExpectedGears := 3</l>
+<c>* 设置每幅测试图中带齿零件数量真值为三个。</c>
+<l>FixedThresholdMax := 130</l>
+<c>* 设置固定阈值基线的灰度上限为 130，所有条件都使用同一数值。</c>
+<l>MeanMask := 101</l>
+<c>* 设置局部背景参考图的均值滤波掩膜为 101×101，兼顾目标尺寸和阴影边界。</c>
+<l>DynOffset := 15</l>
+<c>* 设置动态阈值最小灰度差为 15，寻找比局部背景明显更暗的像素。</c>
+<l>WidthMin := 50</l>
+<c>* 设置有效零件轴对齐外接矩形的最小宽度为 50 像素。</c>
+<l>WidthMax := 130</l>
+<c>* 设置有效零件轴对齐外接矩形的最大宽度为 130 像素。</c>
+<l>HeightMin := 50</l>
+<c>* 设置有效零件轴对齐外接矩形的最小高度为 50 像素。</c>
+<l>HeightMax := 130</l>
+<c>* 设置有效零件轴对齐外接矩形的最大高度为 130 像素。</c>
+<l>CircularityMin := 0.55</l>
+<c>* 设置螺母圆度下限为 0.55，圆度更低的有效零件归为带齿零件。</c>
+<l>FixedCounts := []</l>
+<c>* 初始化固定阈值基线计数元组。</c>
+<l>TotalCounts := []</l>
+<c>* 初始化最终动态流程的零件总数元组。</c>
+<l>NutCounts := []</l>
+<c>* 初始化每个条件的螺母数量元组。</c>
+<l>GearCounts := []</l>
+<c>* 初始化每个条件的带齿零件数量元组。</c>
+<l>MissedEstimates := []</l>
+<c>* 初始化根据数量不足计算的估计漏检数量元组。</c>
+<l>ExtraEstimates := []</l>
+<c>* 初始化根据数量超出计算的估计多检数量元组。</c>
+<l>ProcessingTimesMs := []</l>
+<c>* 初始化最终流程单图处理时间元组，单位为毫秒。</c>
+<l>FailureConditions := []</l>
+<c>* 初始化失败条件名称元组，所有 NG 样本都会被追加到此处。</c>
+<l>PassedConditions := 0</l>
+<c>* 初始化通过的测试条件数量。</c>
+<l>dev_open_window (0, 0, Width, Height, 'black', WindowHandle)</l>
+<c>* 打开与原图尺寸一致的图形窗口，并保存窗口句柄供项目结果显示。</c>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<c>* 将图形窗口显示坐标映射到完整图像范围。</c>
+<l>dev_set_draw ('margin')</l>
+<c>* 将区域显示方式设为轮廓，避免多层结果填充后相互遮挡。</c>
+<l>dev_set_line_width (3)</l>
+<c>* 将检测结果轮廓线宽设置为三个像素，便于观察分类和候选干扰。</c>
+<l>for ImageIndex := 1 to ConditionCount by 1</l>
+<c>* 依次遍历七种测试条件，所有图像使用完全相同的检测参数。</c>
+<l>    select_obj (TestImages, TestImage, ImageIndex)</l>
+<c>* 根据当前索引从测试图像数组中取出一幅待测图。</c>
+<l>    reduce_domain (TestImage, InspectionROI, TestImageReduced)</l>
+<c>* 将待测图定义域限制到检测 ROI，排除最外层边界并减少无关处理范围。</c>
+<l>    threshold (TestImageReduced, FixedRegion, 0, FixedThresholdMax)</l>
+<c>* 使用 0～130 固定灰度范围分割当前图，作为最终动态流程的对照基线。</c>
+<l>    connection (FixedRegion, FixedConnected)</l>
+<c>* 将固定阈值结果拆成独立连通域。</c>
+<l>    select_shape (FixedConnected, FixedParts, ['width','height'], 'and', [WidthMin,HeightMin], [WidthMax,HeightMax])</l>
+<c>* 按与最终流程相同的宽高范围筛选固定阈值候选，保证基线比较公平。</c>
+<l>    count_obj (FixedParts, FixedCount)</l>
+<c>* 统计当前条件下固定阈值基线得到的零件数量。</c>
+<l>    FixedCounts := [FixedCounts,FixedCount]</l>
+<c>* 将当前固定阈值数量追加到基线结果元组。</c>
+<l>    count_seconds (TimeStart)</l>
+<c>* 记录最终动态检测流程开始时间；后面的图形显示和人工暂停不计入耗时。</c>
+<l>    mean_image (TestImageReduced, MeanImage, MeanMask, MeanMask)</l>
+<c>* 对 ROI 内图像执行 101×101 均值滤波，生成随位置变化的局部背景参考图。</c>
+<l>    dyn_threshold (TestImageReduced, MeanImage, CandidateRegion, DynOffset, 'dark')</l>
+<c>* 选择比局部参考背景至少暗 15 的像素，得到动态阈值联合候选区域。</c>
+<l>    connection (CandidateRegion, ConnectedCandidates)</l>
+<c>* 将联合候选区域按像素连通性拆成独立候选区域对象。</c>
+<l>    count_obj (ConnectedCandidates, CandidateCount)</l>
+<c>* 统计筛选前的候选连通域数量，其中可能包含噪点、阴影边界和空区域。</c>
+<l>    select_shape (ConnectedCandidates, ValidParts, ['width','height'], 'and', [WidthMin,HeightMin], [WidthMax,HeightMax])</l>
+<c>* 同时按宽度和高度筛选候选区域，保留尺寸符合零件范围的对象。</c>
+<l>    count_obj (ValidParts, TotalCount)</l>
+<c>* 统计尺寸筛选后的有效零件总数。</c>
+<l>    gen_empty_obj (SortedParts)</l>
+<c>* 初始化排序区域为空对象，确保没有有效零件时后续显示变量仍然存在。</c>
+<l>    gen_empty_obj (NutParts)</l>
+<c>* 初始化螺母区域为空对象。</c>
+<l>    gen_empty_obj (GearParts)</l>
+<c>* 初始化带齿零件区域为空对象。</c>
+<l>    gen_empty_obj (BoundingRectangles)</l>
+<c>* 初始化外接矩形区域为空对象。</c>
+<l>    PartAreas := []</l>
+<c>* 初始化当前图的有效零件面积元组。</c>
+<l>    PartRows := []</l>
+<c>* 初始化当前图的有效零件中心行坐标元组。</c>
+<l>    PartColumns := []</l>
+<c>* 初始化当前图的有效零件中心列坐标元组。</c>
+<l>    PartCircularities := []</l>
+<c>* 初始化当前图的有效零件圆度元组。</c>
+<l>    PartRectangularities := []</l>
+<c>* 初始化当前图的有效零件矩形度元组。</c>
+<l>    if (TotalCount &gt; 0)</l>
+<c>* 只有当前图至少存在一个有效零件时，才继续执行排序、特征提取和分类。</c>
+<l>        sort_region (ValidParts, SortedParts, 'character', 'true', 'row')</l>
+<c>* 将有效零件按同行从左到右、再从上到下的阅读顺序稳定排序。</c>
+<l>        area_center (SortedParts, PartAreas, PartRows, PartColumns)</l>
+<c>* 按排序后的对象顺序计算每个零件的面积和中心坐标。</c>
+<l>        region_features (SortedParts, 'circularity', PartCircularities)</l>
+<c>* 计算每个有效零件的圆度，用于螺母和带齿零件分类。</c>
+<l>        region_features (SortedParts, 'rectangularity', PartRectangularities)</l>
+<c>* 计算每个有效零件的矩形度，作为项目输出特征和后续分析依据。</c>
+<l>        smallest_rectangle1 (SortedParts, RectRows1, RectColumns1, RectRows2, RectColumns2)</l>
+<c>* 计算每个有效零件的轴对齐最小外接矩形坐标。</c>
+<l>        gen_rectangle1 (BoundingRectangles, RectRows1, RectColumns1, RectRows2, RectColumns2)</l>
+<c>* 根据矩形坐标生成用于结果显示的绿色外接矩形区域。</c>
+<l>        select_shape (SortedParts, NutParts, 'circularity', 'and', CircularityMin, 1.0)</l>
+<c>* 选择圆度大于或等于 0.55 的有效零件并分类为螺母。</c>
+<l>        select_shape (SortedParts, GearParts, 'circularity', 'and', 0.0, CircularityMin - 0.0001)</l>
+<c>* 选择圆度低于 0.55 的有效零件并分类为带齿零件。</c>
+<l>    endif</l>
+<c>* 结束有效零件是否存在的条件分支。</c>
+<l>    count_obj (NutParts, NutCount)</l>
+<c>* 统计当前测试图中分类得到的螺母数量。</c>
+<l>    count_obj (GearParts, GearCount)</l>
+<c>* 统计当前测试图中分类得到的带齿零件数量。</c>
+<l>    count_seconds (TimeEnd)</l>
+<c>* 记录最终流程结束时间，此时分割、筛选、排序、特征和分类均已完成。</c>
+<l>    ProcessingTimeMs := (TimeEnd - TimeStart) * 1000.0</l>
+<c>* 计算当前测试图最终流程总耗时，并从秒换算为毫秒。</c>
+<l>    MissedEstimate := 0</l>
+<c>* 初始化当前图根据数量差估算的漏检数为零。</c>
+<l>    ExtraEstimate := 0</l>
+<c>* 初始化当前图根据数量差估算的多检数为零。</c>
+<l>    if (TotalCount &lt; ExpectedTotal)</l>
+<c>* 判断最终检测总数是否少于真实数量七个。</c>
+<l>        MissedEstimate := ExpectedTotal - TotalCount</l>
+<c>* 当检测数量不足时，用真实数量减检测数量得到估计漏检数。</c>
+<l>    elseif (TotalCount &gt; ExpectedTotal)</l>
+<c>* 如果没有数量不足，则继续判断检测总数是否多于真实数量。</c>
+<l>        ExtraEstimate := TotalCount - ExpectedTotal</l>
+<c>* 当检测数量超出时，用检测数量减真实数量得到估计多检数。</c>
+<l>    endif</l>
+<c>* 结束基于数量差的漏检或多检估算。</c>
+<l>    Status := 'NG'</l>
+<c>* 默认将当前测试条件判定为 NG，只有总数和两个类别数量都正确才改为 OK。</c>
+<l>    if (TotalCount == ExpectedTotal and NutCount == ExpectedNuts and GearCount == ExpectedGears)</l>
+<c>* 同时检查总数七、螺母四和带齿零件三，防止只看总数掩盖分类错误。</c>
+<l>        Status := 'OK'</l>
+<c>* 三个数量全部符合真值时，将当前状态修改为 OK。</c>
+<l>        PassedConditions := PassedConditions + 1</l>
+<c>* 将通过条件总数增加一。</c>
+<l>    else</l>
+<c>* 当任意数量不符合真值时，进入失败记录分支。</c>
+<l>        FailureConditions := [FailureConditions,ConditionNames[ImageIndex - 1]]</l>
+<c>* 把当前失败条件名称追加到失败清单，便于项目结束后集中分析。</c>
+<l>    endif</l>
+<c>* 结束当前测试图的 OK/NG 判定。</c>
+<l>    TotalCounts := [TotalCounts,TotalCount]</l>
+<c>* 将当前最终零件总数追加到批量结果元组。</c>
+<l>    NutCounts := [NutCounts,NutCount]</l>
+<c>* 将当前螺母数量追加到批量结果元组。</c>
+<l>    GearCounts := [GearCounts,GearCount]</l>
+<c>* 将当前带齿零件数量追加到批量结果元组。</c>
+<l>    MissedEstimates := [MissedEstimates,MissedEstimate]</l>
+<c>* 将当前估计漏检数追加到批量统计元组。</c>
+<l>    ExtraEstimates := [ExtraEstimates,ExtraEstimate]</l>
+<c>* 将当前估计多检数追加到批量统计元组。</c>
+<l>    ProcessingTimesMs := [ProcessingTimesMs,ProcessingTimeMs]</l>
+<c>* 将当前图处理耗时追加到批量耗时元组。</c>
+<l>    dev_display (TestImage)</l>
+<c>* 显示当前完整测试图，作为 ROI、候选、分类和编号结果的背景。</c>
+<l>    dev_set_color ('blue')</l>
+<c>* 将检测 ROI 的显示颜色设置为蓝色。</c>
+<l>    dev_display (InspectionROI)</l>
+<c>* 显示蓝色检测 ROI 边界，明确算法实际处理范围。</c>
+<l>    dev_set_color ('red')</l>
+<c>* 将全部动态阈值候选连通域的显示颜色设置为红色。</c>
+<l>    dev_display (ConnectedCandidates)</l>
+<c>* 先以红色显示所有候选；后续有效目标会被分类颜色覆盖，剩余红色表示被排除干扰。</c>
+<l>    dev_set_color ('green')</l>
+<c>* 将有效目标外接矩形的显示颜色设置为绿色。</c>
+<l>    dev_display (BoundingRectangles)</l>
+<c>* 显示有效零件的绿色轴对齐外接矩形。</c>
+<l>    dev_set_color ('cyan')</l>
+<c>* 将螺母区域的显示颜色设置为青色。</c>
+<l>    dev_display (NutParts)</l>
+<c>* 以青色显示圆度较高的螺母轮廓。</c>
+<l>    dev_set_color ('orange')</l>
+<c>* 将带齿零件区域的显示颜色设置为橙色。</c>
+<l>    dev_display (GearParts)</l>
+<c>* 以橙色显示圆度较低的带齿零件轮廓。</c>
+<l>    for PartIndex := 1 to TotalCount by 1</l>
+<c>* 按稳定排序后的对象顺序遍历当前图的全部有效零件。</c>
+<l>        if (PartCircularities[PartIndex - 1] &gt;= CircularityMin)</l>
+<c>* 根据当前目标圆度判断它是否属于螺母类别；元组下标从零开始。</c>
+<l>            ClassName := '螺母'</l>
+<c>* 圆度达到下限时，将当前目标类别文字设置为螺母。</c>
+<l>        else</l>
+<c>* 当前目标圆度低于分类下限时进入带齿零件分支。</c>
+<l>            ClassName := '带齿'</l>
+<c>* 将当前目标类别文字设置为带齿。</c>
+<l>        endif</l>
+<c>* 结束当前目标的类别名称判断。</c>
+<l>        PartText := [PartIndex + ' ' + ClassName,'A=' + PartAreas[PartIndex - 1],'C=' + PartCircularities[PartIndex - 1]$'.3f']</l>
+<c>* 组织当前目标的稳定编号、类别、面积和圆度显示文本。</c>
+<l>        disp_text (WindowHandle, PartText, 'image', PartRows[PartIndex - 1], PartColumns[PartIndex - 1], 'white', ['box_color'], ['black'])</l>
+<c>* 在当前目标中心位置显示编号和特征结果。</c>
+<l>    endfor</l>
+<c>* 结束当前图所有有效零件的编号与特征显示循环。</c>
+<l>    ResultText := ['条件 ' + ImageIndex + '/' + ConditionCount + '：' + ConditionNames[ImageIndex - 1], '状态：' + Status, '固定阈值基线：' + FixedCount, '最终结果：总数 ' + TotalCount + '，螺母 ' + NutCount + '，带齿 ' + GearCount, '候选连通域：' + CandidateCount, '估计漏检：' + MissedEstimate + '，估计多检：' + ExtraEstimate, '处理耗时：' + ProcessingTimeMs$'.3f' + ' ms', '', '蓝 ROI / 红候选干扰 / 青螺母 / 橙带齿 / 绿外接框']</l>
+<c>* 组织当前条件的状态、基线、分类数量、候选数、误差估计、耗时和颜色说明。</c>
+<l>    disp_text (WindowHandle, ResultText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<c>* 将当前图完整检测结果显示在窗口左上角。</c>
+<l>    stop ()</l>
+<c>* 暂停程序供学习者检查当前条件结果，在 HDevelop 中按 F5 后处理下一幅图。</c>
+<l>endfor</l>
+<c>* 结束七种条件的批量检测循环。</c>
+<l>PassRate := PassedConditions * 100.0 / ConditionCount</l>
+<c>* 计算完全通过总数与分类验收的条件比例，并转换为百分比。</c>
+<l>AverageTimeMs := mean(ProcessingTimesMs)</l>
+<c>* 计算最终检测流程的单图平均处理时间。</c>
+<l>MaximumTimeMs := max(ProcessingTimesMs)</l>
+<c>* 获取七种条件中最慢的一次处理时间，用于观察最坏耗时。</c>
+<l>dev_display (Image)</l>
+<c>* 重新显示标准原图，作为周项目最终汇总页面的背景。</c>
+<l>SummaryText := ['第三周项目汇总：零件计数与分类', '', '固定阈值基线：' + FixedCounts, '最终总数：' + TotalCounts, '螺母数量：' + NutCounts, '带齿数量：' + GearCounts, '估计漏检：' + MissedEstimates, '估计多检：' + ExtraEstimates, '', '通过条件：' + PassedConditions + '/' + ConditionCount + ' = ' + PassRate$'.1f' + '%', '平均耗时：' + AverageTimeMs$'.3f' + ' ms', '最大耗时：' + MaximumTimeMs$'.3f' + ' ms', '失败条件：' + FailureConditions, '', '数量差只能估算漏检/多检，真实项目需逐目标标注匹配']</l>
+<c>* 组织基线、最终分类结果、误差估计、通过率、耗时和失败清单的项目汇总文本。</c>
+<l>disp_text (WindowHandle, SummaryText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<c>* 在图形窗口显示周项目最终汇总，供验收、记录和失败分析。</c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

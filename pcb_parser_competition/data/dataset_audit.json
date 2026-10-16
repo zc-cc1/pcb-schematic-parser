@@ -1,0 +1,268 @@
+{
+  "audit_version": "0.1",
+  "generated_at_utc": "2026-10-11T04:20:47.964888+00:00",
+  "dataset_root": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300",
+  "case_directories": 300,
+  "paired_readable_cases": 300,
+  "image_formats": {
+    "PNG": 208,
+    "JPEG": 86,
+    "WEBP": 6
+  },
+  "source_kind_counts": {
+    "kicad": 6,
+    "datasheet": 174,
+    "ad": 21,
+    "jlc": 99
+  },
+  "active_category_counts": {
+    "Box": 1315,
+    "C": 2621,
+    "Crystal": 65,
+    "R": 2101,
+    "MOSFET": 72,
+    "V": 1277,
+    "PIN": 229,
+    "L": 217,
+    "Gnd": 3001,
+    "Fuse": 26,
+    "BJT": 68,
+    "Buzzer": 81,
+    "Motor": 8,
+    "Battary": 25,
+    "Other": 86,
+    "Switch": 161,
+    "D": 207,
+    "Transfomer": 5,
+    "Jumper": 9,
+    "Testpoint": 46,
+    "Block": 13,
+    "Net_bidirection": 13,
+    "NET_input": 509,
+    "LED": 208,
+    "Net_output": 72,
+    "SEG": 7,
+    "AMP": 54,
+    "CIRCLE_HEADER": 8,
+    "ANT": 49,
+    "ESD": 6,
+    "M": 58,
+    "Net_short": 163,
+    "Opt": 3,
+    "Dc": 6
+  },
+  "state_counts": {
+    "components:active": 12789,
+    "pins:[no state]": 29856,
+    "texts:active": 48464,
+    "edges:active": 14895,
+    "edges:deleted": 2906,
+    "components:deleted": 1
+  },
+  "json_top_level_layout_counts": {
+    "canvas,components,edges,nowCls,pins,texts": 300
+  },
+  "pair_failures": [],
+  "canvas_dimension_mismatches": [],
+  "exact_duplicate_image_groups": [
+    [
+      "0089",
+      "0283"
+    ],
+    [
+      "0118",
+      "0142"
+    ],
+    [
+      "0139",
+      "0194"
+    ]
+  ],
+  "raw_reference_warnings": [
+    {
+      "case_id": "0001",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0019",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0048",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0080",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0102",
+      "counts": {
+        "edge_pin_reference": 2
+      }
+    },
+    {
+      "case_id": "0111",
+      "counts": {
+        "edge_pin_reference": 2
+      }
+    },
+    {
+      "case_id": "0114",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0136",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0139",
+      "counts": {
+        "edge_pin_reference": 3
+      }
+    },
+    {
+      "case_id": "0147",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0148",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0153",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0181",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0187",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0190",
+      "counts": {
+        "edge_pin_reference": 3
+      }
+    },
+    {
+      "case_id": "0194",
+      "counts": {
+        "edge_pin_reference": 3
+      }
+    },
+    {
+      "case_id": "0204",
+      "counts": {
+        "edge_pin_reference": 2
+      }
+    },
+    {
+      "case_id": "0207",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0210",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0216",
+      "counts": {
+        "edge_pin_reference": 2
+      }
+    },
+    {
+      "case_id": "0255",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    },
+    {
+      "case_id": "0256",
+      "counts": {
+        "edge_pin_reference": 1
+      }
+    }
+  ],
+  "image_suffix_header_mismatches": [
+    {
+      "case_id": "0016",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0016\\0016-Datasheet.png",
+      "detected_format": "JPEG"
+    },
+    {
+      "case_id": "0089",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0089\\0089-Datasheet.png",
+      "detected_format": "JPEG"
+    },
+    {
+      "case_id": "0202",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0202\\001_01_01.png",
+      "detected_format": "WEBP"
+    },
+    {
+      "case_id": "0203",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0203\\002_01_01.png",
+      "detected_format": "WEBP"
+    },
+    {
+      "case_id": "0204",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0204\\003_01_01.png",
+      "detected_format": "WEBP"
+    },
+    {
+      "case_id": "0205",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0205\\004_01_01.png",
+      "detected_format": "WEBP"
+    },
+    {
+      "case_id": "0206",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0206\\005_01_01.png",
+      "detected_format": "WEBP"
+    },
+    {
+      "case_id": "0207",
+      "path": "C:\\Users\\Pc\\Desktop\\新建文件夹\\Dataset300\\0207\\006_01_01.png",
+      "detected_format": "WEBP"
+    }
+  ],
+  "requires_png_conversion_count": 92,
+  "official_submission_format_cases": 0,
+  "notes": [
+    "Readable pairs are raw development materials, not verified official Golden.",
+    "Deleted objects are excluded for audit counts only; conversion policy is pending.",
+    "Reference warnings are structural observations, not proof of annotation error.",
+    "Source-kind labels are not engineering source groups; no train/dev/holdout split is assigned.",
+    "Image SHA256 catches exact duplicates only, not related variants.",
+    "Non-PNG image headers require pixel-preserving PNG conversion in preprocessing, even when the filename ends in .png.",
+    "No official difficulty labels were found in inspected fields."
+  ]
+}

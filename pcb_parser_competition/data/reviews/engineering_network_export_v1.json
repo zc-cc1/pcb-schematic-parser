@@ -1,0 +1,39 @@
+{
+  "review_kind": "assistant_visual_review_of_original_PNG_and_model_overlay",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "official_numbering_verified": false,
+  "official_tip_location_certified": false,
+  "profile_selected_by_user": "engineering_export_with_provisional_numbering_and_source_markers",
+  "complete_network_reviews": [
+    {
+      "case_id": "0036",
+      "network_id": "LOG_NET_CAND_00002",
+      "hyperGraph": "(C1.2,L1.1,U1.2)",
+      "original_member_ids": ["PIN_CAND_0011", "PIN_CAND_0016", "PIN_CAND_0029"],
+      "visible_connection": "C1 right lead branches to L1 top lead and U1 pin 2 RFIN",
+      "physical_members_and_wire_branches_visually_supported": true,
+      "engineering_pin_references": ["C1.2", "L1.1"],
+      "draft_C1_tip_distance_px": 9.148748604500424,
+      "evaluation_5px_threshold_passed_by_all_members": false
+    },
+    {
+      "case_id": "0036",
+      "network_id": "LOG_NET_CAND_00003",
+      "hyperGraph": "(C3.1,R1.2,U1.3)",
+      "original_member_ids": ["PIN_CAND_0005", "PIN_CAND_0012", "PIN_CAND_0027"],
+      "visible_connection": "R1 right lead branches to C3 top lead and U1 pin 3 VDD",
+      "physical_members_and_wire_branches_visually_supported": true,
+      "engineering_pin_references": ["C3.1", "R1.2"],
+      "draft_C3_tip_distance_px": 9.164262570396282,
+      "evaluation_5px_threshold_passed_by_all_members": false
+    }
+  ],
+  "blank_owner_withdrawal_reviews": [
+    {"case_id": "0170", "candidate_id": "PIN_CAND_0237", "old_owner": "R4", "visible_role": "open A row below R4", "withdrawal_supported": true},
+    {"case_id": "0170", "candidate_id": "PIN_CAND_0243", "old_owner": "UNRESOLVED_DET_0112", "visible_role": "open B row below two adjacent resistors", "withdrawal_supported": true},
+    {"case_id": "0170", "candidate_id": "PIN_CAND_0244", "old_owner": "UNRESOLVED_DET_0107", "visible_role": "open F row above two adjacent resistors", "withdrawal_supported": true},
+    {"case_id": "0170", "candidate_id": "PIN_CAND_0245", "old_owner": "R1", "visible_role": "LD1 pin 11 open A row below R1", "withdrawal_supported": true},
+    {"case_id": "0170", "candidate_id": "PIN_CAND_0249", "old_owner": "UNRESOLVED_DET_0107", "visible_role": "open B row below two adjacent resistors", "withdrawal_supported": true}
+  ]
+}

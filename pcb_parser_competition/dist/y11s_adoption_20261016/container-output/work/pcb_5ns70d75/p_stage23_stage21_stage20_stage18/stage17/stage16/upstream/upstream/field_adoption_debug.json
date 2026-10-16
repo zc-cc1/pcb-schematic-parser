@@ -1,0 +1,111 @@
+{
+  "number_policy": "preserve_v1_observed_numbers",
+  "name_policy": "preserve_v1_then_fill_unclaimed_glyphs",
+  "adopted_name_additions": [
+    {
+      "candidate_id": "PIN_CAND_0028",
+      "text": "NC",
+      "evidence": {
+        "token_id": "PV2_00058",
+        "text": "NC",
+        "bbox": [
+          564.0,
+          104.0,
+          590.0,
+          122.0
+        ],
+        "confidence": 0.99978,
+        "source_text": "NC",
+        "source_view": "global",
+        "approximate_split_geometry": false,
+        "cost": 1.6779112179470046,
+        "global_assignment_margin": 7.49860000000001,
+        "alternatives": [
+          {
+            "token_id": "PV2_00058",
+            "text": "NC",
+            "bbox": [
+              564.0,
+              104.0,
+              590.0,
+              122.0
+            ],
+            "confidence": 0.99978,
+            "source_text": "NC",
+            "source_view": "global",
+            "approximate_split_geometry": false,
+            "cost": 1.6779112179470046
+          },
+          {
+            "token_id": "PV2_00059",
+            "text": "NC",
+            "bbox": [
+              566.5,
+              106.0,
+              589.0,
+              121.5
+            ],
+            "confidence": 0.99974,
+            "source_text": "NC",
+            "source_view": "tile_0_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 1.688928782052993
+          },
+          {
+            "token_id": "PV2_00060",
+            "text": "NC",
+            "bbox": [
+              566.5,
+              106.0,
+              589.0,
+              121.5
+            ],
+            "confidence": 0.99974,
+            "source_text": "NC",
+            "source_view": "tile_64_0_r0",
+            "approximate_split_geometry": false,
+            "cost": 1.688928782052993
+          },
+          {
+            "token_id": "PV2_00061",
+            "text": "N",
+            "bbox": [
+              567.0,
+              105.0,
+              588.5,
+              120.5
+            ],
+            "confidence": 0.92854,
+            "source_text": "N",
+            "source_view": "tile_0_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 3.307711217947004
+          },
+          {
+            "token_id": "PV2_00062",
+            "text": "N",
+            "bbox": [
+              566.5,
+              104.5,
+              589.0,
+              121.5
+            ],
+            "confidence": 0.86398,
+            "source_text": "N",
+            "source_view": "tile_64_0_r90",
+            "approximate_split_geometry": false,
+            "cost": 4.3489112179470055
+          }
+        ],
+        "observed_support_views": [
+          "global",
+          "tile_0_0_r0",
+          "tile_64_0_r0"
+        ]
+      }
+    }
+  ],
+  "withheld_name_additions": [],
+  "old_numbers_changed": 0,
+  "old_nonempty_names_changed": 0
+}

@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-10-11T04:20:48.078110+00:00",
+  "python_executable": "C:\\Users\\Pc\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "ultralytics": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "sahi": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "rapidocr": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "rapidocr-onnxruntime": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "onnxruntime": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "opencv-python": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "opencv-python-headless": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "scikit-image": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "skan": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "networkx": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "torch": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "jsonschema": {
+      "status": "not_installed_in_this_interpreter"
+    },
+    "Pillow": {
+      "status": "installed",
+      "version": "12.3.0"
+    }
+  },
+  "gpu": {
+    "status": "query_completed",
+    "exit_code": 0,
+    "output": "NVIDIA GeForce RTX 5060, 8151, 617.14",
+    "error": "",
+    "memory_unit": "MiB"
+  },
+  "notes": [
+    "This checks only the current interpreter, not every Python environment.",
+    "Detected GPU/driver does not establish PyTorch/CUDA compatibility.",
+    "Official runtime versions and entrypoint remain unverified.",
+    "Original top-level packages describe the bundled interpreter audit; the independent GPU environment is recorded under gpu_environment."
+  ],
+  "gpu_environment": {
+    "verified_at_utc": "2026-10-11T06:23:41.225253+00:00",
+    "python_executable": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\.venv-gpu\\Scripts\\python.exe",
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "torch": "2.10.0+cu128",
+      "torchvision": "0.25.0+cu128",
+      "ultralytics": "8.3.253",
+      "sahi": "0.12.8",
+      "rapidocr": "3.9.2",
+      "onnxruntime": "1.23.2",
+      "opencv-python": "4.12.0.88",
+      "numpy": "2.2.6",
+      "networkx": "3.7"
+    },
+    "gpu_check": "artifacts/setup/gpu_check.json",
+    "baseline_summary": "runs/s1_gpu_baseline/summary.json",
+    "dependency_check": "pip check passed",
+    "official_platform_compatibility": "unverified"
+  }
+}

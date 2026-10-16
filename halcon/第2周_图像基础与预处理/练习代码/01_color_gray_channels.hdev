@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第二周第1天：彩色图、灰度图与RGB通道</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (ColorImage, 'brycecanyon1')</l>
+<l>count_channels (ColorImage, ChannelCount)</l>
+<l>get_image_size (ColorImage, Width, Height)</l>
+<l>decompose3 (ColorImage, ImageB, ImageG, ImageR)</l>
+<l>rgb1_to_gray (ColorImage, GrayImage)</l>
+<l>compose3 (ImageR, ImageG, ImageB, ReconstructedColor)</l>
+<l>get_domain (ColorImage, FullDomain)</l>
+<l>intensity (FullDomain, ImageR, MeanR, DeviationR)</l>
+<l>intensity (FullDomain, ImageG, MeanG, DeviationG)</l>
+<l>intensity (FullDomain, ImageB, MeanB, DeviationB)</l>
+<l>dev_open_window (0, 0, 737, 482, 'black', WindowHandle)</l>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>dev_display (ColorImage)</l>
+<l>InfoText := ['原始RGB彩色图', '通道数：' + ChannelCount, '尺寸：' + Width + ' x ' + Height]</l>
+<l>disp_text (WindowHandle, InfoText, 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ImageR)</l>
+<l>disp_text (WindowHandle, ['R通道（以灰度显示）', '平均强度：' + MeanR$'.2f'], 'window', 12, 12, 'red', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ImageG)</l>
+<l>disp_text (WindowHandle, ['G通道（以灰度显示）', '平均强度：' + MeanG$'.2f'], 'window', 12, 12, 'green', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ImageB)</l>
+<l>disp_text (WindowHandle, ['B通道（以灰度显示）', '平均强度：' + MeanB$'.2f'], 'window', 12, 12, 'blue', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (GrayImage)</l>
+<l>disp_text (WindowHandle, 'rgb1_to_gray生成的单通道灰度图', 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (ReconstructedColor)</l>
+<l>disp_text (WindowHandle, 'compose3重新组合的RGB图像', 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<c>* 练习：在compose3中交换ImageR和ImageB，观察颜色变化</c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

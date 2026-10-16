@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-13",
+  "scope": "Assistant visual comparison of unchanged predicted points, nearest same-owner draft points, and visible glyphs for S18 new fields",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "official_Golden": false,
+  "reference_change_applied": false,
+  "items": [
+    {
+      "case_id": "0002",
+      "candidate_id": "PIN_CAND_0011",
+      "field": "number",
+      "literal": "2",
+      "diagnostic": "same_owner_point_outside_5px",
+      "visual_finding": "Visible capacitor number 2 is consistent; prediction and draft lie at different positions along lower lead. Tip convention not certified.",
+      "review_card": "audit_0002_PIN_CAND_0011_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0018",
+      "candidate_id": "PIN_CAND_0099",
+      "field": "number",
+      "literal": "35",
+      "diagnostic": "reference_field_missing",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0018_PIN_CAND_0099_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0105",
+      "candidate_id": "PIN_CAND_0006",
+      "field": "number",
+      "literal": "3",
+      "diagnostic": "agrees_with_draft",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0105_PIN_CAND_0006_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0105",
+      "candidate_id": "PIN_CAND_0051",
+      "field": "pinname",
+      "literal": "LX",
+      "diagnostic": "agrees_with_draft",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0105_PIN_CAND_0051_pinname.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0148",
+      "candidate_id": "PIN_CAND_0024",
+      "field": "number",
+      "literal": "3",
+      "diagnostic": "same_owner_point_outside_5px",
+      "visual_finding": "Visible rotated number 3 is consistent. Prediction differs from draft by 5.147px; keep unmatched under existing radius.",
+      "review_card": "audit_0148_PIN_CAND_0024_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0149",
+      "candidate_id": "PIN_CAND_0001",
+      "field": "number",
+      "literal": "2",
+      "diagnostic": "agrees_with_draft",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0149_PIN_CAND_0001_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0055",
+      "field": "number",
+      "literal": "12",
+      "diagnostic": "same_owner_point_outside_5px",
+      "visual_finding": "Visible number 12; nearest draft expected number contains package text FJ2381AH, not the visible pin number. Reference coordinates and semantics need independent review.",
+      "review_card": "audit_0170_PIN_CAND_0055_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0122",
+      "field": "pinname",
+      "literal": "F",
+      "diagnostic": "same_owner_point_outside_5px",
+      "visual_finding": "Visible pin name F at same lead row; nearest draft has empty name and point is 10.471px away.",
+      "review_card": "audit_0170_PIN_CAND_0122_pinname.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0156",
+      "field": "number",
+      "literal": "11",
+      "diagnostic": "same_owner_point_outside_5px",
+      "visual_finding": "Visible number 11; nearest draft number is 1. Reference coordinates and semantics need independent review.",
+      "review_card": "audit_0170_PIN_CAND_0156_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0178",
+      "field": "number",
+      "literal": "5",
+      "diagnostic": "reference_field_missing",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0170_PIN_CAND_0178_number.png",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0189",
+      "field": "number",
+      "literal": "5",
+      "diagnostic": "reference_field_missing",
+      "visual_finding": "Visible literal agrees with S18 crop check. Reference relation shown for review only.",
+      "review_card": "audit_0170_PIN_CAND_0189_number.png",
+      "tip_geometry_independently_certified": false
+    }
+  ]
+}

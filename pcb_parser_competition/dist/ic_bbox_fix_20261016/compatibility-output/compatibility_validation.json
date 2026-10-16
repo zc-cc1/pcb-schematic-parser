@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "case": "0001",
+      "ICs": 7,
+      "changed": 4,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    },
+    {
+      "case": "0074",
+      "ICs": 5,
+      "changed": 5,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    },
+    {
+      "case": "0123",
+      "ICs": 3,
+      "changed": 2,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    }
+  ],
+  "network_disabled": true,
+  "scope": "Image-only runtime compatibility; cached detector proposals, no model rerun.",
+  "ic_geometry_sha256": "00f5c5120babb7124d6d7355f22e31948ab8bb06f434be9e0c5d64269f9f97d7"
+}

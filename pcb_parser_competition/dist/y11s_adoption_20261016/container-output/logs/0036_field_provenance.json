@@ -1,0 +1,61 @@
+{
+  "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "size": [
+    832,
+    376
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/completed_pin_text_result.json": "8a8d2d4d6488618a4318aa4e6c793fa44cde9dce19d0ed414821069b205fe9fe",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/graph_proposals.json": "d07a3605107e6d189aaed5c6b6ddf32ed369c0d6576c8ee1c3bfe4afdabc0ea2",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/completed_component_records.json": "271ff86a484f976013b592a3c515168c4725254645d2cadd54b2b6f42ee7aa3b",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/proposal_export/partial_submission.json": "719c0c0d166449b32bbe98e1ba49f497e565fc0c2cb6af87f232349a7b350a14",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "ca91aaacd4d578eeafbf0526c37db44b6a348d5d4a1c72249bd082b333506c27"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "all_original_member_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0021"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0021": "PIN_CAND_0021"
+      },
+      "all_pin_references": [
+        "SHUT.1",
+        "U1.6"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00016"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0010",
+          "contact_candidate_id": "PIN_CAND_0010",
+          "pin_reference": "SHUT.1",
+          "number_source": "PDF_0803Rev1_page18_c_single_tip_label_rule",
+          "name_source": "PDF_0803Rev1_page25_RUN_1_pinname_example",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0021",
+          "contact_candidate_id": "PIN_CAND_0021",
+          "pin_reference": "U1.6",
+          "number_source": "observed_OCR_text",
+          "name_source": "observed_OCR_text",
+          "engineering_fields": []
+        }
+      ],
+      "contains_engineering_conventions": false
+    }
+  ]
+}

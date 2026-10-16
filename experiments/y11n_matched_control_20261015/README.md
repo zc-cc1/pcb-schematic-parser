@@ -1,0 +1,9 @@
+# YOLO11n与现有v8n替换试验
+
+按用户澄清，主目标是比较新11n方案与现有部署v8n。新增v8n对照已停止；59轮部分记录仅归档，不用于比较。
+
+两个11n种子沿用冻结的v3末阶段训练参数、418张训练样本、30页校准集和29页评分集。新模型选checkpoint和调阈值只用校准页。同组页面不跨集合。原始protocol.json保留，scope_revision.json记录范围修订。
+
+比较固定conf0.2、相同校准方法及现有v8n实际部署工作点。报告best和last、逐类、逐页、速度和分组bootstrap区间。现有v8n拥有多阶段任务训练历史，并曾使用全部59页做开发；结果回答实际替换问题，不称为架构因果对照或全新工程独立测试。
+
+run_deployment_experiment.py为当前入口，analyze_results.py为完成后的评分集AP和详细诊断。正式报告为comparison.md。原部署权重与配置保持。

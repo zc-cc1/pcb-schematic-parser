@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "scope": "Assistant visual check of original 0018 U3 pin 8/INT literal and shared horizontal printed lead; no independent tip coordinate certification",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "official_Golden": false,
+  "reference_change_applied": false,
+  "items": [
+    {
+      "case_id": "0018",
+      "candidate_id": "PIN_CAND_0102",
+      "donor_candidate_id": "PIN_CAND_0113",
+      "owner": "U3",
+      "number": "8",
+      "literal_name": "INT",
+      "visual_finding": "Both predicted points lie next to the same printed horizontal lead. Number 8 and INT visibly belong to that lead row. Original model points and donor field are retained.",
+      "review_card": "field_link_0018_PIN_CAND_0102.png",
+      "tip_geometry_independently_certified": false,
+      "complete_network_certified": false
+    }
+  ]
+}

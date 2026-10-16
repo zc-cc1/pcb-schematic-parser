@@ -1,0 +1,29 @@
+{
+  "collection": "data/external_collection_v1",
+  "reference_manifest": "data/manifest.jsonl",
+  "phash_max_distance": 5,
+  "aspect_relative_tolerance": 0.08,
+  "external_holdout_groups": [
+    "sparkfun/SparkFun_Thing_Plus-RP2040",
+    "sparkfun/MicroMod_Processor-RP2040"
+  ],
+  "source_text_needles": {
+    "olimex_esp32_evb": ["ESP32-EVB"],
+    "olimex_esp32_poe": ["ESP32-PoE"],
+    "olimex_esp32_devkit_lipo": ["ESP32-DevKit-Lipo"],
+    "olimex_rp2040_pico30": ["RP2040-PICO30"],
+    "olimex_rp2040_pico_pc": ["RP2040-PICO-PC"],
+    "olimex_stm32_e407": ["STM32-E407"],
+    "sparkfun_thing_plus_rp2040": ["RP2040_Thing_Plus"],
+    "sparkfun_micromod_rp2040": ["MicroMod-RP2040"],
+    "adafruit_metro_rp2040": ["Metro RP2040"],
+    "adafruit_feather_rp2040": ["Feather RP2040"]
+  },
+  "notes": [
+    "Exact pixels, perceptual hash and available source-name text are only a duplicate screen, not proof of engineering novelty.",
+    "Every revision, page and crop must inherit its engineering source group and reserved split.",
+    "No external page is training eligible before class/bbox annotation and review.",
+    "Model predictions are proposals; unpredicted objects must also be annotated.",
+    "The Dataset300 validation split and annotations remain unchanged."
+  ]
+}

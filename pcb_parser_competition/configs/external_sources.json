@@ -1,0 +1,60 @@
+{
+  "version": "0.1",
+  "output_directory": "data/external_collection_v1",
+  "render_dpi": 200,
+  "maximum_file_bytes": 10485760,
+  "sources": [
+    {"id": "olimex_esp32_evb", "repository": "OLIMEX/ESP32-EVB", "ref": "master", "group": "OLIMEX/ESP32-EVB", "hardware_license": "Apache-2.0", "evidence": "README.md and LICENSE", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE", "role": "license"},
+      {"path": "HARDWARE/REV-H/ESP32-EVB_Rev_H.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/REV-H/ESP32-EVB_Rev_H.sch", "role": "schematic_cad"},
+      {"path": "HARDWARE/REV-H/ESP32-EVB_Rev_H-cache.lib", "role": "symbol_library"},
+      {"path": "HARDWARE/REV-H/ESP32-EVB_Rev_H.net", "role": "netlist"}]},
+    {"id": "olimex_esp32_poe", "repository": "OLIMEX/ESP32-POE", "ref": "master", "group": "OLIMEX/ESP32-POE", "hardware_license": "Apache-2.0", "evidence": "README.md and LICENSE", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE", "role": "license"},
+      {"path": "HARDWARE/ESP32-PoE-hardware-revision-M2/ESP32-PoE_Rev_M2.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/ESP32-PoE-hardware-revision-M2/ESP32-PoE_Rev_M2.kicad_sch", "role": "schematic_cad"}]},
+    {"id": "olimex_esp32_devkit_lipo", "repository": "OLIMEX/ESP32-DevKit-LiPo", "ref": "master", "group": "OLIMEX/ESP32-DevKit-LiPo", "hardware_license": "Apache-2.0", "evidence": "README explicitly separates hardware Apache-2.0 from software GPL-3.0 and documentation CC-BY-SA-3.0", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE", "role": "license"},
+      {"path": "HARDWARE/ESP32-DevKit-LiPo-Rev.D/ESP32-DevKit-Lipo_Rev_D.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/ESP32-DevKit-LiPo-Rev.D/ESP32-DevKit-Lipo_Rev_D.sch", "role": "schematic_cad"},
+      {"path": "HARDWARE/ESP32-DevKit-LiPo-Rev.D/ESP32-DevKit-Lipo_Rev_D-cache.lib", "role": "symbol_library"},
+      {"path": "HARDWARE/ESP32-DevKit-LiPo-Rev.D/ESP32-DevKit-Lipo_Rev_D.net", "role": "netlist"}]},
+    {"id": "olimex_rp2040_pico30", "repository": "OLIMEX/RP2040-PICO30", "ref": "main", "group": "OLIMEX/RP2040-PICO30", "hardware_license": "CERN-OHL-S-2.0", "evidence": "README hardware license; root LICENSE covers GPL software and is not substituted for the hardware declaration", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE", "role": "repository_license"},
+      {"path": "HARDWARE/RP2040-PICO30_Rev_A/RP2040-PICO30_Rev_A.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/RP2040-PICO30_Rev_A/RP2040-PICO30_Rev_A.sch", "role": "schematic_cad"},
+      {"path": "HARDWARE/RP2040-PICO30_Rev_A/RP2040-PICO30_Rev_A-cache.lib", "role": "symbol_library"},
+      {"path": "HARDWARE/RP2040-PICO30_Rev_A/RP2040-PICO30_Rev_A.net", "role": "netlist"}]},
+    {"id": "olimex_rp2040_pico_pc", "repository": "OLIMEX/RP2040-PICO-PC", "ref": "main", "group": "OLIMEX/RP2040-PICO-PC", "hardware_license": "CERN-OHL-S-2.0", "evidence": "README declares hardware CERN-OHL-S-2.0, software GPL-3.0 and documentation CC-BY-SA-4.0 separately", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE", "role": "repository_license"},
+      {"path": "HARDWARE/RP2040-PICO-PC hardware revision B/RP2040-PICO-PC_rev_B.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/RP2040-PICO-PC hardware revision B/RP2040-PICO-PC_rev_B.sch", "role": "schematic_cad"},
+      {"path": "HARDWARE/RP2040-PICO-PC hardware revision B/RP2040-PICO-PC_rev_B.kicad_sch", "role": "schematic_cad", "optional": true}]},
+    {"id": "olimex_stm32_e407", "repository": "OLIMEX/STM32F4", "ref": "master", "group": "OLIMEX/STM32F4", "hardware_license": "CC-BY-SA-3.0-US", "evidence": "Official STM32-E407 product page and hardware/license.txt", "files": [
+      {"path": "README.md", "role": "attribution", "optional": true},
+      {"path": "HARDWARE/STM32-E407/license.txt", "role": "license"},
+      {"path": "HARDWARE/STM32-E407/STM32-E407_Rev_F.pdf", "role": "schematic_pdf"},
+      {"path": "HARDWARE/STM32-E407/STM32-E407_Rev_F.sch", "role": "schematic_cad"}]},
+    {"id": "sparkfun_thing_plus_rp2040", "repository": "sparkfun/SparkFun_Thing_Plus-RP2040", "ref": "main", "group": "sparkfun/SparkFun_Thing_Plus-RP2040", "hardware_license": "CC-BY-SA-4.0", "evidence": "LICENSE.md hardware section", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE.md", "role": "license"},
+      {"path": "Hardware/RP2040_Thing_Plus.pdf", "role": "schematic_pdf"},
+      {"path": "Hardware/RP2040_Thing_Plus.sch", "role": "schematic_cad"}]},
+    {"id": "sparkfun_micromod_rp2040", "repository": "sparkfun/MicroMod_Processor-RP2040", "ref": "main", "group": "sparkfun/MicroMod_Processor-RP2040", "hardware_license": "CC-BY-SA-4.0", "evidence": "LICENSE.md hardware section", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "LICENSE.md", "role": "license"},
+      {"path": "Hardware/MicroMod-RP2040-ProcessorBoard.pdf", "role": "schematic_pdf"},
+      {"path": "Hardware/MicroMod-RP2040-ProcessorBoard.sch", "role": "schematic_cad"}]},
+    {"id": "adafruit_metro_rp2040", "repository": "adafruit/Adafruit-Metro-RP2040-PCB", "ref": "main", "group": "adafruit/Adafruit-Metro-RP2040-PCB", "hardware_license": "CC-BY-SA-3.0", "evidence": "license.txt declares Attribution-ShareAlike 3.0 Unported; README attribution retained", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "license.txt", "role": "license"},
+      {"path": "Adafruit Metro RP2040.sch", "role": "schematic_cad"}]},
+    {"id": "adafruit_feather_rp2040", "repository": "adafruit/Adafruit-Feather-RP2040-PCB", "ref": "main", "group": "adafruit/Adafruit-Feather-RP2040-PCB", "hardware_license": "CC-BY-SA_version_unspecified_in_README", "evidence": "README attribution; license.txt is referenced but not present in browsed root", "files": [
+      {"path": "README.md", "role": "attribution"}, {"path": "license.txt", "role": "license", "optional": true},
+      {"path": "Adafruit Feather RP2040.sch", "role": "schematic_cad"}]}
+  ],
+  "notes": [
+    "No source is declared bonus-qualified or training-ready merely because it was downloaded.",
+    "All revisions, pages and later crops of one project must keep the source group.",
+    "Current 59-case validation set stays unchanged. Deduplication against Dataset300 and annotation review must precede training.",
+    "Public dataset reuse and original collection/annotation contribution must be reported separately."
+  ]
+}

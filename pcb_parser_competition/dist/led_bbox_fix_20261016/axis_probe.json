@@ -1,0 +1,733 @@
+[
+  {
+    "case": "0016",
+    "key": "LED2",
+    "old_error": 0.9660000000000082,
+    "new_error": 0.9660000000000082,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      182,
+      373,
+      260,
+      436
+    ]
+  },
+  {
+    "case": "0075",
+    "key": "D7",
+    "old_error": 4.089999999999975,
+    "new_error": 1.089999999999975,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.15,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      595,
+      649,
+      654,
+      703
+    ]
+  },
+  {
+    "case": "0075",
+    "key": "D6",
+    "old_error": 3.729000000000042,
+    "new_error": 0.7290000000000418,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.15,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      626,
+      648,
+      684,
+      704
+    ]
+  },
+  {
+    "case": "0101",
+    "key": "D1",
+    "old_error": 3.3824999999999363,
+    "new_error": 0.38249999999993634,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      602,
+      525,
+      670,
+      594
+    ]
+  },
+  {
+    "case": "0105",
+    "key": "LED1",
+    "old_error": 1.2835000000000036,
+    "new_error": 1.2835000000000036,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.9167,
+    "roi_top_left": [
+      925,
+      504,
+      995,
+      575
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED6",
+    "old_error": 0.45650000000000546,
+    "new_error": 0.45650000000000546,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.8333,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      179,
+      892,
+      249,
+      958
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED8",
+    "old_error": 1.02800000000002,
+    "new_error": 1.02800000000002,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.875,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      178,
+      951,
+      249,
+      1019
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED4",
+    "old_error": 1.4874999999999545,
+    "new_error": 1.4874999999999545,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.8696,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      180,
+      832,
+      247,
+      898
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED1",
+    "old_error": 0.305499999999995,
+    "new_error": 0.305499999999995,
+    "expected": "vertical",
+    "axis": null,
+    "reason": "lead_axis_ambiguous",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      394,
+      153,
+      457,
+      223
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED5",
+    "old_error": 0.5745000000000005,
+    "new_error": 0.5745000000000005,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.9545,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      182,
+      864,
+      246,
+      927
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED2",
+    "old_error": 0.6370000000000005,
+    "new_error": 0.6370000000000005,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.8333,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      180,
+      771,
+      248,
+      838
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED9",
+    "old_error": 1.0880000000000223,
+    "new_error": 1.0880000000000223,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.875,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      178,
+      981,
+      247,
+      1049
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED7",
+    "old_error": 0.21250000000000568,
+    "new_error": 0.21250000000000568,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.8333,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      178,
+      923,
+      248,
+      987
+    ]
+  },
+  {
+    "case": "0107",
+    "key": "LED3",
+    "old_error": 0.4975000000000023,
+    "new_error": 0.4975000000000023,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.8696,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      179,
+      803,
+      248,
+      867
+    ]
+  },
+  {
+    "case": "0117",
+    "key": "LED13",
+    "old_error": 0.8509999999999991,
+    "new_error": 0.8509999999999991,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.875,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      513,
+      290,
+      584,
+      358
+    ]
+  },
+  {
+    "case": "0131",
+    "key": "LED1",
+    "old_error": 1.1765000000000327,
+    "new_error": 1.1765000000000327,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      503,
+      116,
+      577,
+      192
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D1",
+    "old_error": 0.67349999999999,
+    "new_error": 0.67349999999999,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      753,
+      255,
+      818,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D3",
+    "old_error": 1.5389999999999873,
+    "new_error": 1.5389999999999873,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      789,
+      255,
+      852,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D6",
+    "old_error": 1.0085000000000264,
+    "new_error": 1.0085000000000264,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      858,
+      256,
+      923,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D2",
+    "old_error": 1.4239999999999782,
+    "new_error": 1.4239999999999782,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      929,
+      256,
+      992,
+      329
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D5",
+    "old_error": 1.6105000000000018,
+    "new_error": 1.6105000000000018,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      893,
+      255,
+      957,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D7",
+    "old_error": 1.3675000000000637,
+    "new_error": 1.3675000000000637,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      824,
+      256,
+      887,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D8",
+    "old_error": 0.6195000000000164,
+    "new_error": 0.6195000000000164,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      998,
+      256,
+      1063,
+      330
+    ]
+  },
+  {
+    "case": "0132",
+    "key": "D4",
+    "old_error": 0.9365000000000236,
+    "new_error": 0.9365000000000236,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      963,
+      257,
+      1027,
+      329
+    ]
+  },
+  {
+    "case": "0135",
+    "key": "LED1",
+    "old_error": 4.375999999999976,
+    "new_error": 1.3759999999999764,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      685,
+      82,
+      756,
+      146
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED3",
+    "old_error": 0.48050000000000637,
+    "new_error": 0.48050000000000637,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      873,
+      626,
+      944,
+      689
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED4",
+    "old_error": 1.3450000000000273,
+    "new_error": 1.3450000000000273,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      863,
+      594,
+      940,
+      663
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED2",
+    "old_error": 5.6189999999999145,
+    "new_error": 2.6189999999999145,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.4545,
+    "vertical_support": 0.9524,
+    "roi_top_left": [
+      1133,
+      188,
+      1199,
+      250
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED5",
+    "old_error": 0.9724999999999682,
+    "new_error": 0.9724999999999682,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.9583,
+    "roi_top_left": [
+      966,
+      565,
+      1032,
+      633
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED6",
+    "old_error": 1.3769999999999527,
+    "new_error": 1.3769999999999527,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      1002,
+      563,
+      1067,
+      634
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "LED1",
+    "old_error": 5.231999999999971,
+    "new_error": 2.231999999999971,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.9524,
+    "roi_top_left": [
+      1097,
+      188,
+      1163,
+      250
+    ]
+  },
+  {
+    "case": "0141",
+    "key": "D1",
+    "old_error": 0.5104999999998654,
+    "new_error": 0.5104999999998654,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      1315,
+      867,
+      1390,
+      928
+    ]
+  },
+  {
+    "case": "0147",
+    "key": "LED1",
+    "old_error": 1.2224999999999682,
+    "new_error": 1.2224999999999682,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.1,
+    "roi_top_left": [
+      584,
+      590,
+      651,
+      648
+    ]
+  },
+  {
+    "case": "0147",
+    "key": "LED5",
+    "old_error": 0.47100000000000364,
+    "new_error": 0.47100000000000364,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      415,
+      185,
+      472,
+      243
+    ]
+  },
+  {
+    "case": "0147",
+    "key": "D1",
+    "old_error": 0.8020000000000209,
+    "new_error": 0.8020000000000209,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      341,
+      183,
+      399,
+      243
+    ]
+  },
+  {
+    "case": "0147",
+    "key": "LED4",
+    "old_error": 1.2989999999999782,
+    "new_error": 1.2989999999999782,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 1.0,
+    "roi_top_left": [
+      442,
+      176,
+      502,
+      239
+    ]
+  },
+  {
+    "case": "0147",
+    "key": "LED2",
+    "old_error": 1.1689999999999827,
+    "new_error": 1.1689999999999827,
+    "expected": "vertical",
+    "axis": "vertical",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.9545,
+    "roi_top_left": [
+      368,
+      176,
+      429,
+      239
+    ]
+  },
+  {
+    "case": "0148",
+    "key": "LED1",
+    "old_error": 0.6469999999999345,
+    "new_error": 0.6469999999999345,
+    "expected": "vertical",
+    "axis": null,
+    "reason": "lead_axis_ambiguous",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.56,
+    "roi_top_left": [
+      706,
+      246,
+      774,
+      319
+    ]
+  },
+  {
+    "case": "0170",
+    "key": "D5",
+    "old_error": 1.0964999999999918,
+    "new_error": 1.0964999999999918,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 0.96,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      671,
+      336,
+      742,
+      403
+    ]
+  },
+  {
+    "case": "0170",
+    "key": "LED1",
+    "old_error": 0.8940000000000055,
+    "new_error": 0.8940000000000055,
+    "expected": "horizontal",
+    "axis": "horizontal",
+    "reason": "opposite_aligned_image_leads",
+    "horizontal_support": 1.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      100,
+      303,
+      176,
+      373
+    ]
+  },
+  {
+    "case": "0183",
+    "key": "LED3",
+    "old_error": 5.1965000000000146,
+    "new_error": 5.1965000000000146,
+    "expected": "vertical",
+    "axis": null,
+    "reason": "lead_axis_ambiguous",
+    "horizontal_support": 0.0625,
+    "vertical_support": 0.48,
+    "roi_top_left": [
+      989,
+      114,
+      1037,
+      186
+    ]
+  },
+  {
+    "case": "0185",
+    "key": "LED2",
+    "old_error": 0.6865000000000236,
+    "new_error": 0.6865000000000236,
+    "expected": "vertical",
+    "axis": null,
+    "reason": "lead_axis_ambiguous",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.0,
+    "roi_top_left": [
+      1002,
+      139,
+      1069,
+      206
+    ]
+  },
+  {
+    "case": "0185",
+    "key": "D1",
+    "old_error": 1.7480000000000473,
+    "new_error": 1.7480000000000473,
+    "expected": "vertical",
+    "axis": null,
+    "reason": "lead_axis_ambiguous",
+    "horizontal_support": 0.0,
+    "vertical_support": 0.625,
+    "roi_top_left": [
+      962,
+      136,
+      1029,
+      206
+    ]
+  }
+]

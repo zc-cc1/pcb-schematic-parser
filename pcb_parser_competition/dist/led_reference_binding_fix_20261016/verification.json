@@ -1,0 +1,237 @@
+{
+  "reproductions": [
+    {
+      "controlled_example": true,
+      "reference": "LED1",
+      "OCR": {
+        "text_id": "glyph1",
+        "text": "LED1",
+        "bbox": [
+          20,
+          45,
+          47,
+          57
+        ],
+        "polygon": [
+          [
+            20,
+            45
+          ],
+          [
+            47,
+            45
+          ],
+          [
+            47,
+            57
+          ],
+          [
+            20,
+            57
+          ]
+        ],
+        "confidence": 0.99,
+        "view": "global",
+        "observations": [
+          {
+            "text": "ED1",
+            "confidence": 0.98,
+            "view": "tile",
+            "bbox": [
+              23,
+              45,
+              47,
+              57
+            ]
+          }
+        ]
+      },
+      "before": {
+        "components": {
+          "LED1": {
+            "type": "led",
+            "Name": "ED1",
+            "value": null,
+            "bbox": [
+              50,
+              40,
+              70,
+              60
+            ]
+          }
+        },
+        "pins": {},
+        "nets": {}
+      },
+      "after": {
+        "components": {
+          "LED1": {
+            "type": "led",
+            "Name": "LED1",
+            "value": null,
+            "bbox": [
+              50,
+              40,
+              70,
+              60
+            ]
+          }
+        },
+        "pins": {},
+        "nets": {}
+      },
+      "recovery": {
+        "reason": "same_glyph_fragment_replaced_by_observed_full_reference",
+        "rejected_fragments": [
+          "ED1"
+        ]
+      }
+    },
+    {
+      "controlled_example": true,
+      "reference": "LED3",
+      "OCR": {
+        "text_id": "glyph1",
+        "text": "LED3",
+        "bbox": [
+          20,
+          45,
+          47,
+          57
+        ],
+        "polygon": [
+          [
+            20,
+            45
+          ],
+          [
+            47,
+            45
+          ],
+          [
+            47,
+            57
+          ],
+          [
+            20,
+            57
+          ]
+        ],
+        "confidence": 0.99,
+        "view": "global",
+        "observations": [
+          {
+            "text": "ED3",
+            "confidence": 0.98,
+            "view": "tile",
+            "bbox": [
+              23,
+              45,
+              47,
+              57
+            ]
+          }
+        ]
+      },
+      "before": {
+        "components": {
+          "LED3": {
+            "type": "led",
+            "Name": "ED3",
+            "value": null,
+            "bbox": [
+              50,
+              40,
+              70,
+              60
+            ]
+          }
+        },
+        "pins": {},
+        "nets": {}
+      },
+      "after": {
+        "components": {
+          "LED3": {
+            "type": "led",
+            "Name": "LED3",
+            "value": null,
+            "bbox": [
+              50,
+              40,
+              70,
+              60
+            ]
+          }
+        },
+        "pins": {},
+        "nets": {}
+      },
+      "recovery": {
+        "reason": "same_glyph_fragment_replaced_by_observed_full_reference",
+        "rejected_fragments": [
+          "ED3"
+        ]
+      }
+    }
+  ],
+  "cached_real_pages": [
+    {
+      "case": "0001",
+      "image_sha256": "05ab6fdc26484c2d568dad92d708e6826479cb57576872910643a3f8c626d39b",
+      "detections_sha256": "2272dadfa840e98b8984dd1443d117499e576ec6186901b3626122e2d5628b6c",
+      "OCR_sha256": "2ad388f76e456e89b077e3804dec82e17b0dac2a2c7c3039ef11a891d3230df0",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    },
+    {
+      "case": "0002",
+      "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "detections_sha256": "91b9eafd69400daccd62cb7c6be589d28462eb516bd6cbd8e7f933f4d343690b",
+      "OCR_sha256": "608f45e334a84e36c358c647d8149524f756d1da39ea918451eb77051462ab18",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    },
+    {
+      "case": "0007",
+      "image_sha256": "aca413e60495e7d6ca27ea63d9af11e330b3ffedb21d43488ebcd747491a5b99",
+      "detections_sha256": "897687dd915f4c985b2c394e244141109a4a1dba4ac2b5990b391c20c3ad3b67",
+      "OCR_sha256": "bce4cba45197e8c67f317f6149a5915001e46be6eabef213b17453551426a48c",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    },
+    {
+      "case": "0042",
+      "image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "detections_sha256": "9566a138c96b99e54efeebba4bbbc4c98ede42282c217fd1d46f988ba38d966f",
+      "OCR_sha256": "777fdf697e8baf8b8938951eb25fedbe5b08e3cabb7391274e6434195f42c444",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    },
+    {
+      "case": "0131",
+      "image_sha256": "b8fd483ef4e50663d31651d7a0f0e5f8808ba52071685824cf7be17dda9beb46",
+      "detections_sha256": "2b09620410d26f97e85e1410407efce7f8fca9ddda6e90ef58ff9b8d5c1e9c65",
+      "OCR_sha256": "9ffb89dca7eae758a7c255a730f15d88e1bd32e1f2727531d188f0b4401a247d",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    },
+    {
+      "case": "0229",
+      "image_sha256": "bfe7a1a6974cf08ca86974712622e49fcb43d429ebaabfcb39abf7ec93f2849d",
+      "detections_sha256": "fdcb16a88c2c0a7a219569fdbda4c240445d52fb1c44fb5eb8e04cd585377620",
+      "OCR_sha256": "738f46267b65b063b3924efb74ee025b6fc44039f5d4816d38ebd45594e95b9f",
+      "prediction_changes": [],
+      "prior_archived_output_matches_old_replay": true
+    }
+  ],
+  "real_page_changes": [],
+  "image_hashes_and_configuration_verified": true,
+  "new_source_sha256": "826fe6eb53c894cdbeac128e511d653a75728cc048d7f390a0f24a5bbaacafde",
+  "old_source_sha256": "3c2d14030ecd8f5da00ae2d54de5f91b489a00b4f21e047e2fa1cfc8b5578fba",
+  "targeted_tests_passed": 55,
+  "scope": "Only same-glyph EDn fragment collisions with observed high-confidence LEDn references; independent model names and unexplained nulls retained.",
+  "limits": "Controlled reproduction proves the code path, not the original online examples: their raw OCR evidence was not retained.",
+  "new_official_score": null,
+  "new_multigigabyte_archive_generated": false
+}

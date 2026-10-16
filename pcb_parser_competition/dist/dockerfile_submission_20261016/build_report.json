@@ -1,0 +1,58 @@
+﻿{
+    "submission_mode":  "方式1 平台构建 Dockerfile（不上传预构建镜像）",
+    "tag":  "pcb-parser:method1-348b97c5",
+    "cold_build_seconds":  557.9,
+    "platform_build_cap_seconds":  1800,
+    "build_headroom_seconds":  1242.1,
+    "base_image_reused_from_platform":  "edarace-agent-base:ubuntu24",
+    "image_platform":  "linux/amd64",
+    "image_entrypoint":  "[\"/submission/run.sh\"]",
+    "cpu_smoke_cases":  [
+                            "0036",
+                            "0042"
+                        ],
+    "successful_cases":  2,
+    "failed_cases":  0,
+    "predictions_identical_to_prebuilt_package":  true,
+    "prediction_comparison":  [
+                                  {
+                                      "case":  "0036",
+                                      "sha256":  "45550cb756969d5a220ca5af26a6358853500c6ffeb1388d7ffbfa9270e8d63a",
+                                      "identical_to_prebuilt":  true
+                                  },
+                                  {
+                                      "case":  "0042",
+                                      "sha256":  "47d668299fdb02ab839b99a27e1ad16bec6b432c279e6d05edfb64d4d9b3a842",
+                                      "identical_to_prebuilt":  true
+                                  }
+                              ],
+    "upload_zip":  "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\dockerfile_submission_20261016\\submission.zip",
+    "upload_zip_bytes":  82558222,
+    "upload_zip_sha256":  "7db6a06cf828c869f7322acfc43588bccb1f46ea912db9d41cf99fa748d5e9ef",
+    "upload_zip_root_entries":  113,
+    "package_tree_vs_frozen_source":  [
+                                          "{",
+                                          "  \"frozen_source_dir\": \"C:\\\\Users\\\\Pc\\\\Desktop\\\\vision\\\\pcb_parser_competition\\\\submission\\\\platform_test_20261016_icled_gpu_1\",",
+                                          "  \"package_dir\": \"C:\\\\Users\\\\Pc\\\\Desktop\\\\vision\\\\pcb_parser_competition\\\\dist\\\\dockerfile_submission_20261016\\\\package\",",
+                                          "  \"frozen_file_count\": 113,",
+                                          "  \"package_file_count\": 113,",
+                                          "  \"missing_from_package\": [],",
+                                          "  \"extra_in_package\": [],",
+                                          "  \"changed_files\": [",
+                                          "    \"Dockerfile\",",
+                                          "    \"package_manifest.json\"",
+                                          "  ],",
+                                          "  \"allowed_differences\": [",
+                                          "    \"Dockerfile\",",
+                                          "    \"package_manifest.json\"",
+                                          "  ],",
+                                          "  \"code_weights_and_configs_identical\": true",
+                                          "}",
+                                          "manifest self-consistent: every shipped file matches package_manifest.json"
+                                      ],
+    "limitations":  [
+                        "本地构建时长含本地带宽，平台侧只应作为量级参考，不是保证；护栏是 constraints 里不下载 torch。",
+                        "未实测该镜像在 A800 上跑 GPU；CPU 推理已用断网容器验证。",
+                        "平台构建器是否支持 BuildKit 未知，因此配方里去掉了 --mount=type=cache 这类 BuildKit 专属语法。"
+                    ]
+}

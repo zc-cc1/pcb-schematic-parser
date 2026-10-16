@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第1天：读取并显示第一张图像</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>ImageName := 'clip'</l>
+<l>read_image (Image, ImageName)</l>
+<l>get_image_size (Image, Width, Height)</l>
+<l>dev_open_window (0, 0, 800, 600, 'black', WindowHandle)</l>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>dev_display (Image)</l>
+<l>InfoText := ['图片：' + ImageName, '宽度：' + Width, '高度：' + Height]</l>
+<l>disp_text (WindowHandle, InfoText, 'window', 12, 12, 'yellow', [], [])</l>
+<c>* 练习：修改窗口大小、文字颜色和图片名称</c>
+<c></c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

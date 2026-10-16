@@ -1,0 +1,1215 @@
+{
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 0,
+      "missing_field_counts": {},
+      "missing_field_total": 0,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0010",
+          "component_id": "SHUT",
+          "owner_detection_index": 14,
+          "component_type": "vbus_in",
+          "component_bbox_top_left": [
+            686.605,
+            141.56,
+            707.691,
+            152.876
+          ],
+          "point": [
+            687.584979146719,
+            147.90583761036396
+          ],
+          "number": "1",
+          "pinname": "SHUT",
+          "number_status": "PDF_single_tip_label_format_auto_number",
+          "pinname_status": "PDF_example_observed_ordinary_label_name",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0021",
+          "component_id": "U1",
+          "owner_detection_index": 0,
+          "component_type": "ic",
+          "component_bbox_top_left": [
+            486.72,
+            54.384,
+            599.102,
+            211.593
+          ],
+          "point": [
+            602.1122591495514,
+            148.0187707748264
+          ],
+          "number": "6",
+          "pinname": "SHUT",
+          "number_status": "observed_OCR_text",
+          "pinname_status": "observed_OCR_text",
+          "missing_fields": []
+        }
+      ],
+      "export_blockers": [],
+      "non_field_export_blockers": [],
+      "completion_tasks": [],
+      "completion_task_count": 0,
+      "field_only_candidate": false,
+      "exported": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00004",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "component_id": "U1",
+          "owner_detection_index": 0,
+          "component_type": "ic",
+          "component_bbox_top_left": [
+            486.72,
+            54.384,
+            599.102,
+            211.593
+          ],
+          "point": [
+            483.1966893821955,
+            78.96057429164648
+          ],
+          "number": "1",
+          "pinname": "GND",
+          "number_status": "observed_OCR_text",
+          "pinname_status": "observed_OCR_text",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0022",
+          "component_id": "UNRESOLVED_DET_0011",
+          "owner_detection_index": 10,
+          "component_type": "gnd",
+          "component_bbox_top_left": [
+            383.497,
+            65.692,
+            412.493,
+            92.849
+          ],
+          "point": [
+            404.1772450506687,
+            78.981241222471
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "no_reliable_text",
+          "pinname_status": "no_reliable_text",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "component:10:identity",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": 10,
+          "component_id": "UNRESOLVED_DET_0011",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0022"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0022:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": 10,
+          "component_id": "UNRESOLVED_DET_0011",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0022"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0022:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": 10,
+          "component_id": "UNRESOLVED_DET_0011",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0022"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0007",
+          "component_id": "UNRESOLVED_DET_0013",
+          "owner_detection_index": 12,
+          "component_type": "gnd",
+          "component_bbox_top_left": [
+            256.51,
+            256.734,
+            285.257,
+            273.474
+          ],
+          "point": [
+            271.0648024007678,
+            259.03166122734547
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "no_reliable_text",
+          "pinname_status": "no_reliable_text",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0020",
+          "component_id": "L1",
+          "owner_detection_index": 3,
+          "component_type": "inductor",
+          "component_bbox_top_left": [
+            256.337,
+            155.375,
+            281.97,
+            220.959
+          ],
+          "point": [
+            271.4539324641228,
+            216.76622606813908
+          ],
+          "number": "2",
+          "pinname": "2",
+          "number_status": "engineering_convention_unverified",
+          "pinname_status": "engineering_convention_unverified",
+          "missing_fields": []
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "component:12:identity",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": 12,
+          "component_id": "UNRESOLVED_DET_0013",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0007"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0007:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": 12,
+          "component_id": "UNRESOLVED_DET_0013",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0007"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0007:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": 12,
+          "component_id": "UNRESOLVED_DET_0013",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0007"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00016",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0018",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            111.24340364336967,
+            258.25266832113266
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0023",
+          "component_id": "L2",
+          "owner_detection_index": 5,
+          "component_type": "inductor",
+          "component_bbox_top_left": [
+            97.209,
+            157.292,
+            119.604,
+            219.338
+          ],
+          "point": [
+            111.85478909313679,
+            218.85813564062119
+          ],
+          "number": "2",
+          "pinname": "2",
+          "number_status": "engineering_convention_unverified",
+          "pinname_status": "engineering_convention_unverified",
+          "missing_fields": []
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0018:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0018"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0018:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0018"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0018:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0018"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "flywire": false,
+      "pin_count": 3,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0011",
+          "component_id": "U1",
+          "owner_detection_index": 0,
+          "component_type": "ic",
+          "component_bbox_top_left": [
+            486.72,
+            54.384,
+            599.102,
+            211.593
+          ],
+          "point": [
+            481.6218245923519,
+            112.47486606240273
+          ],
+          "number": "2",
+          "pinname": "RFIN",
+          "number_status": "observed_OCR_text",
+          "pinname_status": "observed_OCR_text",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0016",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            248.14581283926964,
+            112.25750976800919
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0029",
+          "component_id": "L1",
+          "owner_detection_index": 3,
+          "component_type": "inductor",
+          "component_bbox_top_left": [
+            256.337,
+            155.375,
+            281.97,
+            220.959
+          ],
+          "point": [
+            269.9939987929538,
+            154.62359577417374
+          ],
+          "number": "1",
+          "pinname": "1",
+          "number_status": "engineering_convention_unverified",
+          "pinname_status": "engineering_convention_unverified",
+          "missing_fields": []
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0016:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0016"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0016:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0016"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0016:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0016"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00003",
+      "flywire": false,
+      "pin_count": 3,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "component_id": "U1",
+          "owner_detection_index": 0,
+          "component_type": "ic",
+          "component_bbox_top_left": [
+            486.72,
+            54.384,
+            599.102,
+            211.593
+          ],
+          "point": [
+            483.3238847255707,
+            147.04629529640079
+          ],
+          "number": "3",
+          "pinname": "VDD",
+          "number_status": "observed_OCR_text",
+          "pinname_status": "observed_OCR_text",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0012",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            397.5983755290508,
+            193.85508720576763
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0027",
+          "component_id": "R1",
+          "owner_detection_index": 2,
+          "component_type": "resistor",
+          "component_bbox_top_left": [
+            353.227,
+            137.903,
+            384.416,
+            155.36
+          ],
+          "point": [
+            384.3777595460415,
+            147.48455011844635
+          ],
+          "number": "2",
+          "pinname": "2",
+          "number_status": "engineering_convention_unverified",
+          "pinname_status": "engineering_convention_unverified",
+          "missing_fields": []
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0012:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0012"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0012:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0012"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0012:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0012"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "flywire": false,
+      "pin_count": 3,
+      "pins_with_missing_fields": 2,
+      "missing_field_counts": {
+        "pin_number_unresolved": 2,
+        "pin_name_unresolved": 2,
+        "component_identity_unresolved": 1
+      },
+      "missing_field_total": 5,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0002",
+          "component_id": "C1",
+          "owner_detection_index": 7,
+          "component_type": "capacitor",
+          "component_bbox_top_left": [
+            213.137,
+            88.663,
+            238.774,
+            132.836
+          ],
+          "point": [
+            207.39150676131248,
+            113.22659476101398
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "no_reliable_text",
+          "pinname_status": "no_reliable_text",
+          "missing_fields": [
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0025",
+          "component_id": "L2",
+          "owner_detection_index": 5,
+          "component_type": "inductor",
+          "component_bbox_top_left": [
+            97.209,
+            157.292,
+            119.604,
+            219.338
+          ],
+          "point": [
+            111.01588808000088,
+            154.3449426293373
+          ],
+          "number": "1",
+          "pinname": "1",
+          "number_status": "engineering_convention_unverified",
+          "pinname_status": "engineering_convention_unverified",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0026",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            111.26540127396584,
+            55.76484555006027
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0002:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": 7,
+          "component_id": "C1",
+          "component_type": "capacitor",
+          "affected_candidate_ids": [
+            "PIN_CAND_0002"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0002:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": 7,
+          "component_id": "C1",
+          "component_type": "capacitor",
+          "affected_candidate_ids": [
+            "PIN_CAND_0002"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0026:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0026"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0026:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0026"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0026:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0026"
+          ]
+        }
+      ],
+      "completion_task_count": 5,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00017",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 2,
+      "missing_field_counts": {
+        "component_identity_unresolved": 2,
+        "pin_number_unresolved": 2,
+        "pin_name_unresolved": 2
+      },
+      "missing_field_total": 6,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0001",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            396.87938369065523,
+            237.04670264571905
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0004",
+          "component_id": "UNRESOLVED_DET_0012",
+          "owner_detection_index": 11,
+          "component_type": "gnd",
+          "component_bbox_top_left": [
+            382.745,
+            269.343,
+            411.108,
+            287.785
+          ],
+          "point": [
+            396.70401924848557,
+            265.6928636729717
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "no_reliable_text",
+          "pinname_status": "no_reliable_text",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0001:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0001"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0001:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0001"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0001:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0001"
+          ]
+        },
+        {
+          "task_id": "component:11:identity",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": 11,
+          "component_id": "UNRESOLVED_DET_0012",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0004"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0004:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": 11,
+          "component_id": "UNRESOLVED_DET_0012",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0004"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0004:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": 11,
+          "component_id": "UNRESOLVED_DET_0012",
+          "component_type": "gnd",
+          "affected_candidate_ids": [
+            "PIN_CAND_0004"
+          ]
+        }
+      ],
+      "completion_task_count": 6,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00018",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 2,
+      "missing_field_counts": {
+        "component_identity_unresolved": 2,
+        "pin_number_unresolved": 2,
+        "pin_name_unresolved": 2
+      },
+      "missing_field_total": 6,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0009",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            448.09504056721926,
+            238.59024795889854
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0013",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            448.03388380259275,
+            266.2472743242979
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name"
+      ],
+      "non_field_export_blockers": [],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0009:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0009"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0009:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0009"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0009:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0009"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0013:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0013"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0013:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0013"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0013:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0013"
+          ]
+        }
+      ],
+      "completion_task_count": 6,
+      "field_only_candidate": true,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 1,
+      "missing_field_counts": {
+        "component_identity_unresolved": 1,
+        "pin_number_unresolved": 1,
+        "pin_name_unresolved": 1
+      },
+      "missing_field_total": 3,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0006",
+          "component_id": "U1",
+          "owner_detection_index": 0,
+          "component_type": "ic",
+          "component_bbox_top_left": [
+            486.72,
+            54.384,
+            599.102,
+            211.593
+          ],
+          "point": [
+            481.18519027531147,
+            181.24636420607567
+          ],
+          "number": "4",
+          "pinname": "CAGC",
+          "number_status": "observed_OCR_text",
+          "pinname_status": "observed_body_side_OCR_missing_name_fill",
+          "missing_fields": []
+        },
+        {
+          "candidate_id": "PIN_CAND_0019",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            448.09320782124996,
+            193.64941212534904
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name",
+        "wire_endpoint_near_component_without_member"
+      ],
+      "non_field_export_blockers": [
+        "wire_endpoint_near_component_without_member"
+      ],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0019:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0019"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0019:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0019"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0019:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0019"
+          ]
+        }
+      ],
+      "completion_task_count": 3,
+      "field_only_candidate": false,
+      "exported": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00014",
+      "flywire": false,
+      "pin_count": 2,
+      "pins_with_missing_fields": 2,
+      "missing_field_counts": {
+        "component_identity_unresolved": 2,
+        "pin_number_unresolved": 2,
+        "pin_name_unresolved": 2
+      },
+      "missing_field_total": 6,
+      "topology_blockers": [],
+      "pin_candidates": [
+        {
+          "candidate_id": "PIN_CAND_0008",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            177.52717250585556,
+            211.07671980559826
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        },
+        {
+          "candidate_id": "PIN_CAND_0014",
+          "component_id": null,
+          "owner_detection_index": null,
+          "component_type": null,
+          "component_bbox_top_left": null,
+          "point": [
+            177.50022301077843,
+            237.50665545463562
+          ],
+          "number": null,
+          "pinname": null,
+          "number_status": "owner_unresolved",
+          "pinname_status": "owner_unresolved",
+          "missing_fields": [
+            "component_identity_unresolved",
+            "pin_number_unresolved",
+            "pin_name_unresolved"
+          ]
+        }
+      ],
+      "export_blockers": [
+        "contains_pin_with_unresolved_identity_number_or_name",
+        "wire_endpoint_near_component_without_member"
+      ],
+      "non_field_export_blockers": [
+        "wire_endpoint_near_component_without_member"
+      ],
+      "completion_tasks": [
+        {
+          "task_id": "pin:PIN_CAND_0008:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0008"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0008:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0008"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0008:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0008"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0014:component_identity_unresolved",
+          "field": "component_identity_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0014"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0014:pin_number_unresolved",
+          "field": "pin_number_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0014"
+          ]
+        },
+        {
+          "task_id": "pin:PIN_CAND_0014:pin_name_unresolved",
+          "field": "pin_name_unresolved",
+          "owner_detection_index": null,
+          "component_id": null,
+          "component_type": null,
+          "affected_candidate_ids": [
+            "PIN_CAND_0014"
+          ]
+        }
+      ],
+      "completion_task_count": 6,
+      "field_only_candidate": false,
+      "exported": false
+    }
+  ],
+  "multi_pin_networks": 11,
+  "topology_clear_but_field_incomplete": 10,
+  "field_only_incomplete_networks": 8,
+  "non_field_export_blocker_counts": {
+    "wire_endpoint_near_component_without_member": 2
+  },
+  "purpose": "Prioritize missing identity/number/pinname review; topology-clear is not certified correct",
+  "official_NetF1": null
+}

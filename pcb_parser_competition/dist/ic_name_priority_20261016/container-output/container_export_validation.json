@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "case": "0036",
+      "ICs": 1,
+      "changed_Name_count": 0,
+      "all_OCR_rows_and_observations_preserved": true
+    },
+    {
+      "case": "0042",
+      "ICs": 1,
+      "changed_Name_count": 1,
+      "all_OCR_rows_and_observations_preserved": true
+    },
+    {
+      "case": "0170",
+      "ICs": 9,
+      "changed_Name_count": 4,
+      "all_OCR_rows_and_observations_preserved": true
+    }
+  ],
+  "case_count": 3,
+  "network_disabled": true,
+  "only_IC_Name_changed": true,
+  "all_OCR_roundtrip_verified": true,
+  "PNG_model_inference_rerun": false,
+  "scope": "Frozen current-image prediction export only; not full image inference or scoring.",
+  "source_sha256": {
+    "/submission/agent.py": "a64b95a52d1f4cd508d1cfb1d991201950f5c49c3efad06751ba686700fc854e",
+    "/submission/adapter.py": "25c300ac8dd10cbffc0aa8559d6aec5e4b18476af5b7ef6c7bd02106f8bd0df0",
+    "/submission/src/pcb_parser/ic_name_selection.py": "87d05374513c707eb289ecfb5a9d9b67987d709e08198993d6e6eaca81d04a67",
+    "/submission/src/pcb_parser/component_text.py": "826fe6eb53c894cdbeac128e511d653a75728cc048d7f390a0f24a5bbaacafde"
+  }
+}

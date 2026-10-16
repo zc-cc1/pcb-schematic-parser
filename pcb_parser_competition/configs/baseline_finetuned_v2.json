@@ -1,0 +1,68 @@
+{
+  "version": "0.3",
+  "weights": "weights/detector_dataset300_balanced_v2.pt",
+  "detector": {
+    "imgsz": 1024,
+    "confidence": 0.25,
+    "iou": 0.5,
+    "max_det": 1000,
+    "half": false
+  },
+  "sahi": {
+    "slice_height": 1024,
+    "slice_width": 1024,
+    "overlap": 0.125,
+    "merge_metric": "IOS",
+    "merge_threshold": 0.5,
+    "merge_method": "GREEDYNMM"
+  },
+  "ocr": {
+    "backend": "onnxruntime_cpu",
+    "det_limit_side_len": 2048
+  },
+  "binding": {
+    "max_gap_px": 100,
+    "ambiguity_margin_px": 12
+  },
+  "class_mapping": {
+    "resistor": "resistor",
+    "capacitor": "capacitor",
+    "inductor": "inductor",
+    "diode": "diode",
+    "transistor": "bjt",
+    "opamp": "opamp",
+    "ic": "ic",
+    "ground": "gnd",
+    "voltage_source": "vcc",
+    "crystal": "crystal",
+    "mosfet": "mosfet",
+    "switch": "switch",
+    "led": "led",
+    "net_input": "vbus_in",
+    "pin_port": "vbus_in",
+    "testpoint": "vbus_in",
+    "net_output": "vbus_out",
+    "net_bidirectional": "vbus_bidirectional",
+    "fuse": "fuse",
+    "buzzer": "buzzer",
+    "motor": "motor",
+    "battery": "battery",
+    "other": "other",
+    "transformer": "transformer",
+    "jumper": "jumper",
+    "raw_block": "block",
+    "circle_header": "circle_header",
+    "antenna": "antenna",
+    "esd": "esd",
+    "raw_m": "m",
+    "net_short": "net_short",
+    "optocoupler": "optocoupler",
+    "raw_dc": "dc",
+    "current_source": "current_source",
+    "connector": "connector"
+  },
+  "export_y_formula": "H-y",
+  "status": "second_finetuned_detector_adopted_rare_class_recall_still_limited",
+  "recommended_mode": "sliced",
+  "recommended_mode_basis": "Best micro F1 on the reused 59-case development validation set; whole mode has higher precision and lower latency"
+}

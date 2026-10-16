@@ -1,0 +1,1598 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/output/work/pcb_ufgmwy4i/p/observed_model_stage/completed_pin_text_result.json": "d1e73f95f4c9a293b52ad3ac6e5aee1c568a0bd6fccfa78e73a0d52854b1f82e",
+    "/output/work/pcb_ufgmwy4i/p/observed_model_stage/graph_proposals.json": "3d406227646725050ec75e6b9b6c674c51a978b4ba8cbc582a423a13fe11fb59",
+    "/output/work/pcb_ufgmwy4i/p/observed_model_stage/completed_component_records.json": "70566513c6dfb85f925f43d57ba23b6ac770369fe1c4647868185f9646214395",
+    "/output/work/pcb_ufgmwy4i/p/observed_model_stage/proposal_export/partial_submission.json": "aa0cc7f6ffbbcf4e101b8c21ca6a178865bc020aace8f1d9082d4bb902fb18bc",
+    "/output/work/pcb_ufgmwy4i/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "060ceae6f2272a0bfc73d6943f92c955adca54a588eecb4467125b58f2aff3c4"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "changes": [],
+  "ownership_withdrawals": [],
+  "existing_fields_protected": [],
+  "component_proposals": [
+    {
+      "component_id": "R48",
+      "detection_index": 11,
+      "original_owned_member_ids": [
+        "PIN_CAND_0012",
+        "PIN_CAND_0019"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0012",
+          "wire": {
+            "physical_network_id": "NET_CAND_00003",
+            "wire_projection": [
+              253.0,
+              154.0
+            ],
+            "wire_gap_px": 1.1032228134502653,
+            "local_model_segments": [
+              {
+                "edge_id": "W00026",
+                "axis": 1,
+                "segment": [
+                  [
+                    253.0,
+                    133.0
+                  ],
+                  [
+                    253.0,
+                    154.0
+                  ]
+                ],
+                "mean_probability": 0.9968156218528748
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.22849034309388117,
+          "tangential_tolerance_px": 6.156850000000002,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0019",
+          "wire": {
+            "physical_network_id": "NET_CAND_00029",
+            "wire_projection": [
+              252.0,
+              185.0
+            ],
+            "wire_gap_px": 1.0308901198139357,
+            "local_model_segments": [
+              {
+                "edge_id": "W00049",
+                "axis": 1,
+                "segment": [
+                  [
+                    252.0,
+                    185.0
+                  ],
+                  [
+                    252.0,
+                    204.0
+                  ]
+                ],
+                "mean_probability": 0.9871934652328491
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3098799192905517,
+          "tangential_tolerance_px": 6.156850000000002,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "R12",
+      "detection_index": 18,
+      "original_owned_member_ids": [
+        "PIN_CAND_0042",
+        "PIN_CAND_0057"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0042",
+          "wire": {
+            "physical_network_id": "NET_CAND_00059",
+            "wire_projection": [
+              555.0,
+              615.0
+            ],
+            "wire_gap_px": 1.82187834151365,
+            "local_model_segments": [
+              {
+                "edge_id": "W00133",
+                "axis": 0,
+                "segment": [
+                  [
+                    555.0,
+                    615.0
+                  ],
+                  [
+                    532.0,
+                    616.0
+                  ]
+                ],
+                "mean_probability": 0.9915817379951477
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 1.1255661134719048,
+          "tangential_tolerance_px": 6.682549999999986,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0057",
+          "wire": {
+            "physical_network_id": "NET_CAND_00061",
+            "wire_projection": [
+              587.0,
+              616.0
+            ],
+            "wire_gap_px": 0.8122971150308184,
+            "local_model_segments": [
+              {
+                "edge_id": "W00135",
+                "axis": 0,
+                "segment": [
+                  [
+                    587.0,
+                    616.0
+                  ],
+                  [
+                    601.0,
+                    616.0
+                  ]
+                ],
+                "mean_probability": 0.9848236441612244
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 1.112897414445797,
+          "tangential_tolerance_px": 6.682549999999986,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C29",
+      "detection_index": 23,
+      "original_owned_member_ids": [
+        "PIN_CAND_0037",
+        "PIN_CAND_0041"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0037",
+          "wire": {
+            "physical_network_id": "NET_CAND_00005",
+            "wire_projection": [
+              805.0,
+              191.0
+            ],
+            "wire_gap_px": 1.5450181219653896,
+            "local_model_segments": [
+              {
+                "edge_id": "W00039",
+                "axis": 1,
+                "segment": [
+                  [
+                    805.0,
+                    142.0
+                  ],
+                  [
+                    805.0,
+                    191.0
+                  ]
+                ],
+                "mean_probability": 0.9939873218536377
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.22282703423502426,
+          "tangential_tolerance_px": 5.957349999999985,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0041",
+          "wire": {
+            "physical_network_id": "NET_CAND_00032",
+            "wire_projection": [
+              804.0,
+              218.0
+            ],
+            "wire_gap_px": 1.9091114566803593,
+            "local_model_segments": [
+              {
+                "edge_id": "W00055",
+                "axis": 1,
+                "segment": [
+                  [
+                    804.0,
+                    218.0
+                  ],
+                  [
+                    805.0,
+                    263.0
+                  ]
+                ],
+                "mean_probability": 0.9947009086608887
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3746123594939945,
+          "tangential_tolerance_px": 5.957349999999985,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C31",
+      "detection_index": 25,
+      "original_owned_member_ids": [
+        "PIN_CAND_0023",
+        "PIN_CAND_0027"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0023",
+          "wire": {
+            "physical_network_id": "NET_CAND_00010",
+            "wire_projection": [
+              157.0,
+              231.0
+            ],
+            "wire_gap_px": 1.526438278632671,
+            "local_model_segments": [
+              {
+                "edge_id": "W00063",
+                "axis": 1,
+                "segment": [
+                  [
+                    157.0,
+                    231.0
+                  ],
+                  [
+                    159.0,
+                    262.0
+                  ]
+                ],
+                "mean_probability": 0.9972703456878662
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.1514244035482477,
+          "tangential_tolerance_px": 6.011250000000004,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0027",
+          "wire": {
+            "physical_network_id": "NET_CAND_00003",
+            "wire_projection": [
+              158.0,
+              203.0
+            ],
+            "wire_gap_px": 2.5857521058507147,
+            "local_model_segments": [
+              {
+                "edge_id": "W00022",
+                "axis": 1,
+                "segment": [
+                  [
+                    158.0,
+                    133.0
+                  ],
+                  [
+                    158.0,
+                    203.0
+                  ]
+                ],
+                "mean_probability": 0.9981033802032471
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.22666848754883517,
+          "tangential_tolerance_px": 6.011250000000004,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C25",
+      "detection_index": 26,
+      "original_owned_member_ids": [
+        "PIN_CAND_0039",
+        "PIN_CAND_0044"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0039",
+          "wire": {
+            "physical_network_id": "NET_CAND_00001",
+            "wire_projection": [
+              735.0,
+              70.0
+            ],
+            "wire_gap_px": 1.820582548073636,
+            "local_model_segments": [
+              {
+                "edge_id": "W00006",
+                "axis": 1,
+                "segment": [
+                  [
+                    736.0,
+                    55.0
+                  ],
+                  [
+                    735.0,
+                    70.0
+                  ]
+                ],
+                "mean_probability": 0.9672662019729614
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.01746236753467656,
+          "tangential_tolerance_px": 6.22299999999999,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0044",
+          "wire": {
+            "physical_network_id": "NET_CAND_00024",
+            "wire_projection": [
+              735.0,
+              97.0
+            ],
+            "wire_gap_px": 1.531513504922512,
+            "local_model_segments": [
+              {
+                "edge_id": "W00014",
+                "axis": 1,
+                "segment": [
+                  [
+                    735.0,
+                    97.0
+                  ],
+                  [
+                    736.0,
+                    116.0
+                  ]
+                ],
+                "mean_probability": 0.9860175848007202
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.20241605710987187,
+          "tangential_tolerance_px": 6.22299999999999,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C32",
+      "detection_index": 27,
+      "original_owned_member_ids": [
+        "PIN_CAND_0020",
+        "PIN_CAND_0055"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0020",
+          "wire": {
+            "physical_network_id": "NET_CAND_00005",
+            "wire_projection": [
+              838.0,
+              196.0
+            ],
+            "wire_gap_px": 1.3076901325748205,
+            "local_model_segments": [
+              {
+                "edge_id": "W00041",
+                "axis": 1,
+                "segment": [
+                  [
+                    840.0,
+                    142.0
+                  ],
+                  [
+                    838.0,
+                    196.0
+                  ]
+                ],
+                "mean_probability": 0.9889332056045532
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.19104677778477708,
+          "tangential_tolerance_px": 6.198499999999973,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0055",
+          "wire": {
+            "physical_network_id": "NET_CAND_00031",
+            "wire_projection": [
+              838.0,
+              214.0
+            ],
+            "wire_gap_px": 0.7862097519372727,
+            "local_model_segments": [
+              {
+                "edge_id": "W00054",
+                "axis": 1,
+                "segment": [
+                  [
+                    838.0,
+                    214.0
+                  ],
+                  [
+                    839.0,
+                    264.0
+                  ]
+                ],
+                "mean_probability": 0.9786662459373474
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3409383703469757,
+          "tangential_tolerance_px": 6.198499999999973,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C33",
+      "detection_index": 30,
+      "original_owned_member_ids": [
+        "PIN_CAND_0040",
+        "PIN_CAND_0061"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0040",
+          "wire": {
+            "physical_network_id": "NET_CAND_00005",
+            "wire_projection": [
+              874.0,
+              192.0
+            ],
+            "wire_gap_px": 0.9139288213148832,
+            "local_model_segments": [
+              {
+                "edge_id": "W00042",
+                "axis": 1,
+                "segment": [
+                  [
+                    874.0,
+                    142.0
+                  ],
+                  [
+                    874.0,
+                    192.0
+                  ]
+                ],
+                "mean_probability": 0.9830612540245056
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.5186641736030424,
+          "tangential_tolerance_px": 6.395199999999977,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0061",
+          "wire": {
+            "physical_network_id": "NET_CAND_00033",
+            "wire_projection": [
+              873.0,
+              218.0
+            ],
+            "wire_gap_px": 1.72785889001414,
+            "local_model_segments": [
+              {
+                "edge_id": "W00056",
+                "axis": 1,
+                "segment": [
+                  [
+                    873.0,
+                    218.0
+                  ],
+                  [
+                    874.0,
+                    263.0
+                  ]
+                ],
+                "mean_probability": 0.9937883615493774
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.6928193902671183,
+          "tangential_tolerance_px": 6.395199999999977,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C22",
+      "detection_index": 31,
+      "original_owned_member_ids": [
+        "PIN_CAND_0038",
+        "PIN_CAND_0048"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0038",
+          "wire": {
+            "physical_network_id": "NET_CAND_00011",
+            "wire_projection": [
+              252.0,
+              231.0
+            ],
+            "wire_gap_px": 1.16136420454912,
+            "local_model_segments": [
+              {
+                "edge_id": "W00064",
+                "axis": 1,
+                "segment": [
+                  [
+                    252.0,
+                    231.0
+                  ],
+                  [
+                    253.0,
+                    262.0
+                  ]
+                ],
+                "mean_probability": 0.9931640625
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.07790231871604192,
+          "tangential_tolerance_px": 6.2124999999999995,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0048",
+          "wire": {
+            "physical_network_id": "NET_CAND_00029",
+            "wire_projection": [
+              252.0,
+              204.0
+            ],
+            "wire_gap_px": 1.6610161871644331,
+            "local_model_segments": [
+              {
+                "edge_id": "W00049",
+                "axis": 1,
+                "segment": [
+                  [
+                    252.0,
+                    185.0
+                  ],
+                  [
+                    252.0,
+                    204.0
+                  ]
+                ],
+                "mean_probability": 0.9871934652328491
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.026576755762107496,
+          "tangential_tolerance_px": 6.2124999999999995,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C30",
+      "detection_index": 32,
+      "original_owned_member_ids": [
+        "PIN_CAND_0022",
+        "PIN_CAND_0043"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0022",
+          "wire": {
+            "physical_network_id": "NET_CAND_00003",
+            "wire_projection": [
+              204.0,
+              210.0
+            ],
+            "wire_gap_px": 0.7937474437698114,
+            "local_model_segments": [
+              {
+                "edge_id": "W00024",
+                "axis": 1,
+                "segment": [
+                  [
+                    205.0,
+                    133.0
+                  ],
+                  [
+                    204.0,
+                    210.0
+                  ]
+                ],
+                "mean_probability": 0.990334153175354
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3388366515636392,
+          "tangential_tolerance_px": 6.167000000000002,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0043",
+          "wire": {
+            "physical_network_id": "NET_CAND_00010",
+            "wire_projection": [
+              204.0,
+              227.0
+            ],
+            "wire_gap_px": 0.7736223391590312,
+            "local_model_segments": [
+              {
+                "edge_id": "W00061",
+                "axis": 1,
+                "segment": [
+                  [
+                    204.0,
+                    227.0
+                  ],
+                  [
+                    205.0,
+                    261.0
+                  ]
+                ],
+                "mean_probability": 0.9851317405700684
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.38930047702788784,
+          "tangential_tolerance_px": 6.167000000000002,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "R11",
+      "detection_index": 33,
+      "original_owned_member_ids": [
+        "PIN_CAND_0025",
+        "PIN_CAND_0059"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0025",
+          "wire": {
+            "physical_network_id": "NET_CAND_00057",
+            "wire_projection": [
+              589.0,
+              572.0
+            ],
+            "wire_gap_px": 2.296880781124884,
+            "local_model_segments": [
+              {
+                "edge_id": "W00128",
+                "axis": 0,
+                "segment": [
+                  [
+                    589.0,
+                    572.0
+                  ],
+                  [
+                    530.0,
+                    573.0
+                  ]
+                ],
+                "mean_probability": 0.9974987506866455
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.5679659783841089,
+          "tangential_tolerance_px": 6.570550000000008,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0059",
+          "wire": {
+            "physical_network_id": "NET_CAND_00019",
+            "wire_projection": [
+              624.0,
+              573.0
+            ],
+            "wire_gap_px": 2.850226689461704,
+            "local_model_segments": [
+              {
+                "edge_id": "W00129",
+                "axis": 0,
+                "segment": [
+                  [
+                    624.0,
+                    573.0
+                  ],
+                  [
+                    646.0,
+                    573.0
+                  ]
+                ],
+                "mean_probability": 0.9979990124702454
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.657206767797561,
+          "tangential_tolerance_px": 6.570550000000008,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "L2",
+      "detection_index": 34,
+      "original_owned_member_ids": [],
+      "contact_geometry": [],
+      "withheld_reasons": [
+        "requires_exactly_two_owned_model_tips"
+      ]
+    },
+    {
+      "component_id": "C28",
+      "detection_index": 35,
+      "original_owned_member_ids": [
+        "PIN_CAND_0018",
+        "PIN_CAND_0053"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0018",
+          "wire": {
+            "physical_network_id": "NET_CAND_00008",
+            "wire_projection": [
+              739.0,
+              218.0
+            ],
+            "wire_gap_px": 1.1795162956299834,
+            "local_model_segments": [
+              {
+                "edge_id": "W00052",
+                "axis": 1,
+                "segment": [
+                  [
+                    740.0,
+                    206.0
+                  ],
+                  [
+                    739.0,
+                    218.0
+                  ]
+                ],
+                "mean_probability": 0.9846385717391968
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.1955878593921625,
+          "tangential_tolerance_px": 6.1092499999999745,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0053",
+          "wire": {
+            "physical_network_id": "NET_CAND_00035",
+            "wire_projection": [
+              740.0,
+              238.0
+            ],
+            "wire_gap_px": 1.683020008933249,
+            "local_model_segments": [
+              {
+                "edge_id": "W00066",
+                "axis": 1,
+                "segment": [
+                  [
+                    740.0,
+                    238.0
+                  ],
+                  [
+                    740.0,
+                    263.0
+                  ]
+                ],
+                "mean_probability": 0.9977659583091736
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.11360115827619666,
+          "tangential_tolerance_px": 6.1092499999999745,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C23",
+      "detection_index": 36,
+      "original_owned_member_ids": [
+        "PIN_CAND_0033",
+        "PIN_CAND_0056"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0033",
+          "wire": {
+            "physical_network_id": "NET_CAND_00003",
+            "wire_projection": [
+              300.0,
+              207.0
+            ],
+            "wire_gap_px": 2.363634132951915,
+            "local_model_segments": [
+              {
+                "edge_id": "W00027",
+                "axis": 1,
+                "segment": [
+                  [
+                    300.0,
+                    133.0
+                  ],
+                  [
+                    300.0,
+                    207.0
+                  ]
+                ],
+                "mean_probability": 0.9985935688018799
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.12949528452753611,
+          "tangential_tolerance_px": 6.196750000000014,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0056",
+          "wire": {
+            "physical_network_id": "NET_CAND_00010",
+            "wire_projection": [
+              300.0,
+              229.0
+            ],
+            "wire_gap_px": 1.5959064111406616,
+            "local_model_segments": [
+              {
+                "edge_id": "W00062",
+                "axis": 1,
+                "segment": [
+                  [
+                    300.0,
+                    229.0
+                  ],
+                  [
+                    299.0,
+                    262.0
+                  ]
+                ],
+                "mean_probability": 0.9986616373062134
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.05677527096867152,
+          "tangential_tolerance_px": 6.196750000000014,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C26",
+      "detection_index": 37,
+      "original_owned_member_ids": [
+        "PIN_CAND_0013",
+        "PIN_CAND_0067"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0013",
+          "wire": {
+            "physical_network_id": "NET_CAND_00001",
+            "wire_projection": [
+              782.0,
+              75.0
+            ],
+            "wire_gap_px": 1.369976958072044,
+            "local_model_segments": [
+              {
+                "edge_id": "W00008",
+                "axis": 1,
+                "segment": [
+                  [
+                    783.0,
+                    55.0
+                  ],
+                  [
+                    782.0,
+                    75.0
+                  ]
+                ],
+                "mean_probability": 0.9911208152770996
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.2649627553820437,
+          "tangential_tolerance_px": 6.057799999999997,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0067",
+          "wire": {
+            "physical_network_id": "NET_CAND_00022",
+            "wire_projection": [
+              783.0,
+              95.0
+            ],
+            "wire_gap_px": 1.3109600381168296,
+            "local_model_segments": [
+              {
+                "edge_id": "W00012",
+                "axis": 1,
+                "segment": [
+                  [
+                    783.0,
+                    95.0
+                  ],
+                  [
+                    783.0,
+                    116.0
+                  ]
+                ],
+                "mean_probability": 0.9962030053138733
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3297799828052348,
+          "tangential_tolerance_px": 6.057799999999997,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C27",
+      "detection_index": 38,
+      "original_owned_member_ids": [
+        "PIN_CAND_0035",
+        "PIN_CAND_0049"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0035",
+          "wire": {
+            "physical_network_id": "NET_CAND_00001",
+            "wire_projection": [
+              831.0,
+              70.0
+            ],
+            "wire_gap_px": 0.3832059981300785,
+            "local_model_segments": [
+              {
+                "edge_id": "W00009",
+                "axis": 1,
+                "segment": [
+                  [
+                    831.0,
+                    55.0
+                  ],
+                  [
+                    831.0,
+                    70.0
+                  ]
+                ],
+                "mean_probability": 0.9887170791625977
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.07809281730646944,
+          "tangential_tolerance_px": 6.394500000000033,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0049",
+          "wire": {
+            "physical_network_id": "NET_CAND_00002",
+            "wire_projection": [
+              830.0,
+              97.0
+            ],
+            "wire_gap_px": 1.200685143514002,
+            "local_model_segments": [
+              {
+                "edge_id": "W00015",
+                "axis": 1,
+                "segment": [
+                  [
+                    830.0,
+                    97.0
+                  ],
+                  [
+                    831.0,
+                    118.0
+                  ]
+                ],
+                "mean_probability": 0.9665971398353577
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.2781607770323262,
+          "tangential_tolerance_px": 6.394500000000033,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "C24",
+      "detection_index": 39,
+      "original_owned_member_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0045"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0010",
+          "wire": {
+            "physical_network_id": "NET_CAND_00001",
+            "wire_projection": [
+              687.0,
+              74.0
+            ],
+            "wire_gap_px": 1.9742374567608363,
+            "local_model_segments": [
+              {
+                "edge_id": "W00003",
+                "axis": 1,
+                "segment": [
+                  [
+                    688.0,
+                    55.0
+                  ],
+                  [
+                    687.0,
+                    74.0
+                  ]
+                ],
+                "mean_probability": 0.9854057431221008
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.15006416758149044,
+          "tangential_tolerance_px": 6.018599999999969,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0045",
+          "wire": {
+            "physical_network_id": "NET_CAND_00021",
+            "wire_projection": [
+              689.0,
+              94.0
+            ],
+            "wire_gap_px": 1.127333673386288,
+            "local_model_segments": [
+              {
+                "edge_id": "W00011",
+                "axis": 1,
+                "segment": [
+                  [
+                    689.0,
+                    94.0
+                  ],
+                  [
+                    688.0,
+                    118.0
+                  ]
+                ],
+                "mean_probability": 0.9774966239929199
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.2751573976278223,
+          "tangential_tolerance_px": 6.018599999999969,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": []
+    },
+    {
+      "component_id": "R10",
+      "detection_index": 40,
+      "original_owned_member_ids": [
+        "PIN_CAND_0066",
+        "PIN_CAND_0098"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0066",
+          "wire": {
+            "physical_network_id": "NET_CAND_00052",
+            "wire_projection": [
+              591.0,
+              539.0
+            ],
+            "wire_gap_px": 1.067048726803693,
+            "local_model_segments": [
+              {
+                "edge_id": "W00111",
+                "axis": 0,
+                "segment": [
+                  [
+                    531.0,
+                    538.0
+                  ],
+                  [
+                    591.0,
+                    539.0
+                  ]
+                ],
+                "mean_probability": 0.9939613342285156
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.5169021142721704,
+          "tangential_tolerance_px": 5.92095000000001,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0098",
+          "wire": {
+            "physical_network_id": "NET_CAND_00053",
+            "wire_projection": [
+              623.0,
+              538.0
+            ],
+            "wire_gap_px": 1.8067456146683878,
+            "local_model_segments": [
+              {
+                "edge_id": "W00112",
+                "axis": 0,
+                "segment": [
+                  [
+                    623.0,
+                    538.0
+                  ],
+                  [
+                    641.0,
+                    538.0
+                  ]
+                ],
+                "mean_probability": 0.9981501698493958
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.6879858700633577,
+          "tangential_tolerance_px": 5.92095000000001,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": [
+        "component_detection_unqualified",
+        "tip_confidence_unqualified"
+      ]
+    },
+    {
+      "component_id": "C35",
+      "detection_index": 41,
+      "original_owned_member_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0060"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0011",
+          "wire": {
+            "physical_network_id": "NET_CAND_00015",
+            "wire_projection": [
+              291.0,
+              519.0
+            ],
+            "wire_gap_px": 1.9059521210457915,
+            "local_model_segments": [
+              {
+                "edge_id": "W00099",
+                "axis": 1,
+                "segment": [
+                  [
+                    292.0,
+                    508.0
+                  ],
+                  [
+                    291.0,
+                    519.0
+                  ]
+                ],
+                "mean_probability": 0.9488070011138916
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.0952620623111784,
+          "tangential_tolerance_px": 6.633549999999991,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0060",
+          "wire": {
+            "physical_network_id": "NET_CAND_00012",
+            "wire_projection": [
+              292.0,
+              542.0
+            ],
+            "wire_gap_px": 0.5457574638538724,
+            "local_model_segments": [
+              {
+                "edge_id": "W00113",
+                "axis": 1,
+                "segment": [
+                  [
+                    292.0,
+                    542.0
+                  ],
+                  [
+                    291.0,
+                    550.0
+                  ]
+                ],
+                "mean_probability": 0.9443888068199158
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.12526489472389812,
+          "tangential_tolerance_px": 6.633549999999991,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": [
+        "component_detection_unqualified"
+      ]
+    },
+    {
+      "component_id": "R51",
+      "detection_index": 42,
+      "original_owned_member_ids": [
+        "PIN_CAND_0090",
+        "PIN_CAND_0096"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0090",
+          "wire": {
+            "physical_network_id": "NET_CAND_00014",
+            "wire_projection": [
+              238.0,
+              508.0
+            ],
+            "wire_gap_px": 0.6081806490822154,
+            "local_model_segments": [
+              {
+                "edge_id": "W00096",
+                "axis": 0,
+                "segment": [
+                  [
+                    227.0,
+                    508.0
+                  ],
+                  [
+                    239.0,
+                    508.0
+                  ]
+                ],
+                "mean_probability": 0.9485718011856079
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.03997634196281297,
+          "tangential_tolerance_px": 4.357149999999984,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0096",
+          "wire": {
+            "physical_network_id": "NET_CAND_00015",
+            "wire_projection": [
+              269.0,
+              507.0
+            ],
+            "wire_gap_px": 1.6036476062901788,
+            "local_model_segments": [
+              {
+                "edge_id": "W00094",
+                "axis": 0,
+                "segment": [
+                  [
+                    269.0,
+                    507.0
+                  ],
+                  [
+                    292.0,
+                    508.0
+                  ]
+                ],
+                "mean_probability": 0.9929823279380798
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 0,
+          "tangential_offset_px": 0.2809893622398363,
+          "tangential_tolerance_px": 4.357149999999984,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": [
+        "component_detection_unqualified",
+        "tip_confidence_unqualified"
+      ]
+    },
+    {
+      "component_id": "R49",
+      "detection_index": 46,
+      "original_owned_member_ids": [
+        "PIN_CAND_0003",
+        "PIN_CAND_0031"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "wire": {
+            "physical_network_id": "NET_CAND_00028",
+            "wire_projection": [
+              589.0,
+              179.0
+            ],
+            "wire_gap_px": 2.733655183240218,
+            "local_model_segments": [
+              {
+                "edge_id": "W00047",
+                "axis": 1,
+                "segment": [
+                  [
+                    589.0,
+                    158.0
+                  ],
+                  [
+                    589.0,
+                    179.0
+                  ]
+                ],
+                "mean_probability": 0.9894790649414062
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.24217077034711565,
+          "tangential_tolerance_px": 5.3780999999999946,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0031",
+          "wire": {
+            "physical_network_id": "NET_CAND_00030",
+            "wire_projection": [
+              589.0,
+              209.0
+            ],
+            "wire_gap_px": 0.25514006091585384,
+            "local_model_segments": [
+              {
+                "edge_id": "W00053",
+                "axis": 1,
+                "segment": [
+                  [
+                    589.0,
+                    209.0
+                  ],
+                  [
+                    589.0,
+                    239.0
+                  ]
+                ],
+                "mean_probability": 0.983788013458252
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.43265735793113436,
+          "tangential_tolerance_px": 5.3780999999999946,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": [
+        "component_detection_unqualified"
+      ]
+    },
+    {
+      "component_id": "C34",
+      "detection_index": 49,
+      "original_owned_member_ids": [
+        "PIN_CAND_0046",
+        "PIN_CAND_0052"
+      ],
+      "contact_geometry": [
+        {
+          "candidate_id": "PIN_CAND_0046",
+          "wire": {
+            "physical_network_id": "NET_CAND_00012",
+            "wire_projection": [
+              226.0,
+              564.0
+            ],
+            "wire_gap_px": 1.6504326284219966,
+            "local_model_segments": [
+              {
+                "edge_id": "W00119",
+                "axis": 1,
+                "segment": [
+                  [
+                    227.0,
+                    551.0
+                  ],
+                  [
+                    226.0,
+                    564.0
+                  ]
+                ],
+                "mean_probability": 0.9886289238929749
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.3794384603500589,
+          "tangential_tolerance_px": 7.116549999999999,
+          "aligned": true
+        },
+        {
+          "candidate_id": "PIN_CAND_0052",
+          "wire": {
+            "physical_network_id": "NET_CAND_00058",
+            "wire_projection": [
+              227.0,
+              588.0
+            ],
+            "wire_gap_px": 0.2900633225374962,
+            "local_model_segments": [
+              {
+                "edge_id": "W00132",
+                "axis": 1,
+                "segment": [
+                  [
+                    227.0,
+                    588.0
+                  ],
+                  [
+                    227.0,
+                    610.0
+                  ]
+                ],
+                "mean_probability": 0.9466307163238525
+              }
+            ],
+            "reasons": []
+          },
+          "axis": 1,
+          "tangential_offset_px": 0.224491730809234,
+          "tangential_tolerance_px": 7.116549999999999,
+          "aligned": true
+        }
+      ],
+      "withheld_reasons": [
+        "component_detection_unqualified"
+      ]
+    }
+  ],
+  "summary": {
+    "generated_pin_numbers": 0,
+    "generated_pin_names": 0,
+    "qualified_two_terminal_components": 15,
+    "blank_owner_assignments_withdrawn": 0,
+    "withheld_component_reason_counts": {
+      "requires_exactly_two_owned_model_tips": 1,
+      "component_detection_unqualified": 5,
+      "tip_confidence_unqualified": 2
+    }
+  },
+  "original_tip_points_edges_and_members_preserved": true,
+  "new_OCR_observations": 0
+}

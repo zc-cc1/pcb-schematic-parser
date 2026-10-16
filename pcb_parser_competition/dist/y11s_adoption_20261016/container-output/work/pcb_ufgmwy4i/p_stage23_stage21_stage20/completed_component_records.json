@@ -1,0 +1,1973 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "records": [
+    {
+      "component_id": "U12",
+      "detection_index": 0,
+      "type": "ic",
+      "designator": "U12",
+      "Name": "CC2",
+      "value": null,
+      "bbox_top_left": [
+        555.106,
+        443.12,
+        631.794,
+        486.846
+      ],
+      "detection_confidence": 0.936994,
+      "fields": {
+        "designator": {
+          "token_id": "token_0076",
+          "text_id": "text_0061",
+          "text": "U12",
+          "bbox": [
+            552.0,
+            437.0,
+            571.5,
+            448.0
+          ],
+          "confidence": 0.99761,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "U",
+          "source_text": "U12",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 25.000958468287756,
+        "designator_assignment_margin": 64.99904153171246,
+        "Name": {
+          "token_id": "token_0107",
+          "text_id": "text_0074",
+          "text": "CC2",
+          "bbox": [
+            532.7142857142857,
+            465.0,
+            546.0,
+            474.0
+          ],
+          "confidence": 0.99351,
+          "role": "model_candidate",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "BUS CC2",
+          "approximate_split_geometry": true
+        },
+        "Name_score": 44.41650737286765,
+        "Name_assignment_margin": 18.77309163355858
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "U22",
+      "detection_index": 1,
+      "type": "ic",
+      "designator": "U22",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        512.058,
+        111.419,
+        588.704,
+        168.813
+      ],
+      "detection_confidence": 0.926592,
+      "fields": {
+        "designator": {
+          "token_id": "token_0014",
+          "text_id": "text_0010",
+          "text": "U22",
+          "bbox": [
+            518.5,
+            106.0,
+            533.5,
+            115.0
+          ],
+          "confidence": 0.90311,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "U",
+          "source_text": "U22",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 27.18483969473937,
+        "designator_assignment_margin": 62.81516030526063
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "LED4",
+      "detection_index": 2,
+      "type": "led",
+      "designator": "LED4",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        430.739,
+        195.869,
+        455.446,
+        226.305
+      ],
+      "detection_confidence": 0.920676,
+      "fields": {
+        "designator": {
+          "token_id": "token_0065",
+          "text_id": "text_0051",
+          "text": "LED4",
+          "bbox": [
+            468.0,
+            214.0,
+            492.0,
+            224.5
+          ],
+          "confidence": 0.98575,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "LED",
+          "source_text": "LED4",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 26.002300297483778,
+        "designator_assignment_margin": 30.96679654321315
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "LED2",
+      "detection_index": 3,
+      "type": "led",
+      "designator": "LED2",
+      "Name": "CED2",
+      "value": null,
+      "bbox_top_left": [
+        357.154,
+        194.108,
+        382.281,
+        226.311
+      ],
+      "detection_confidence": 0.919326,
+      "fields": {
+        "designator": {
+          "token_id": "token_0063",
+          "text_id": "text_0050",
+          "text": "LED2",
+          "bbox": [
+            395.0,
+            213.5,
+            419.5,
+            224.5
+          ],
+          "confidence": 0.96844,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "LED",
+          "source_text": "LED2",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 26.942550684403468,
+        "designator_assignment_margin": 30.96679654321315,
+        "Name": {
+          "token_id": "token_0064",
+          "text_id": "text_0050",
+          "text": "CED2",
+          "bbox": [
+            397.5,
+            213.0,
+            419.5,
+            223.5
+          ],
+          "confidence": 0.91746,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "CED2",
+          "approximate_split_geometry": false
+        },
+        "Name_score": 9.13139968291236,
+        "Name_assignment_margin": 56.53601554937268
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "LED1",
+      "detection_index": 4,
+      "type": "led",
+      "designator": "LED1",
+      "Name": "5.1KO",
+      "value": null,
+      "bbox_top_left": [
+        601.812,
+        605.141,
+        631.695,
+        631.783
+      ],
+      "detection_confidence": 0.919294,
+      "fields": {
+        "designator": {
+          "token_id": "token_0166",
+          "text_id": "text_0116",
+          "text": "LED1",
+          "bbox": [
+            603.0,
+            597.0,
+            625.0,
+            609.0
+          ],
+          "confidence": 0.99982,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "LED",
+          "source_text": "LED1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 5.0311868835654,
+        "designator_assignment_margin": 84.96881311643483,
+        "Name": {
+          "token_id": "token_0168",
+          "text_id": "text_0117",
+          "text": "5.1KO",
+          "bbox": [
+            560.5,
+            597.0,
+            583.0,
+            608.0
+          ],
+          "confidence": 0.8982,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "5.1KO",
+          "approximate_split_geometry": false
+        },
+        "Name_score": 44.649223009595524,
+        "Name_assignment_margin": 9.158879844968396
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0006",
+      "detection_index": 5,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        677.074,
+        109.93,
+        698.297,
+        128.654
+      ],
+      "detection_confidence": 0.917591,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0007",
+      "detection_index": 6,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        214.651,
+        602.686,
+        240.11,
+        621.421
+      ],
+      "detection_confidence": 0.913822,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "U21",
+      "detection_index": 7,
+      "type": "ic",
+      "designator": "U21",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        140.258,
+        469.635,
+        209.156,
+        527.507
+      ],
+      "detection_confidence": 0.912351,
+      "fields": {
+        "designator": {
+          "token_id": "token_0103",
+          "text_id": "text_0072",
+          "text": "U21",
+          "bbox": [
+            139.0,
+            460.5,
+            153.5,
+            470.0
+          ],
+          "confidence": 0.97599,
+          "role": "designator",
+          "source_view": "tile_0_0_r90",
+          "prefix": "U",
+          "source_text": "U21",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 30.845069456341044,
+        "designator_assignment_margin": 59.15493054365879
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0009",
+      "detection_index": 8,
+      "type": "ic",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        714.711,
+        532.834,
+        745.278,
+        569.198
+      ],
+      "detection_confidence": 0.909596,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "detection_index": 9,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        819.86,
+        109.989,
+        841.106,
+        129.308
+      ],
+      "detection_confidence": 0.908709,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0011",
+      "detection_index": 10,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        771.922,
+        109.756,
+        793.534,
+        128.91
+      ],
+      "detection_confidence": 0.905868,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R48",
+      "detection_index": 11,
+      "type": "resistor",
+      "designator": "R48",
+      "Name": null,
+      "value": "20",
+      "bbox_top_left": [
+        243.652,
+        152.776,
+        261.243,
+        188.694
+      ],
+      "detection_confidence": 0.905107,
+      "fields": {
+        "designator": {
+          "token_id": "token_0035",
+          "text_id": "text_0024",
+          "text": "R48",
+          "bbox": [
+            256.0,
+            162.0,
+            272.5,
+            172.5
+          ],
+          "confidence": 0.99977,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "R",
+          "source_text": "R48",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 5.004968233872715,
+        "designator_assignment_margin": 84.99503176612734,
+        "value": {
+          "token_id": "token_0039",
+          "text_id": "text_0028",
+          "text": "20",
+          "bbox": [
+            260.5,
+            170.5,
+            271.5,
+            178.5
+          ],
+          "confidence": 0.99732,
+          "role": "numeric",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "20",
+          "approximate_split_geometry": false
+        },
+        "value_score": 21.2342810143073,
+        "value_assignment_margin": 45.503172886983066
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0013",
+      "detection_index": 12,
+      "type": "resistor",
+      "designator": null,
+      "Name": null,
+      "value": "10",
+      "bbox_top_left": [
+        730.907,
+        156.304,
+        756.756,
+        193.277
+      ],
+      "detection_confidence": 0.904125,
+      "fields": {
+        "value": {
+          "token_id": "token_0041",
+          "text_id": "text_0030",
+          "text": "10",
+          "bbox": [
+            727.0,
+            175.5,
+            737.0,
+            183.0
+          ],
+          "confidence": 0.97058,
+          "role": "numeric",
+          "source_view": "tile_237_0_r0",
+          "prefix": null,
+          "source_text": "10",
+          "approximate_split_geometry": false
+        },
+        "value_score": 28.259350473123817,
+        "value_assignment_margin": 5.605410468175251
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0014",
+      "detection_index": 13,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        725.023,
+        110.162,
+        745.171,
+        128.532
+      ],
+      "detection_confidence": 0.900896,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "U9",
+      "detection_index": 14,
+      "type": "ic",
+      "designator": "U9",
+      "Name": "CN2",
+      "value": null,
+      "bbox_top_left": [
+        774.488,
+        533.395,
+        807.432,
+        564.679
+      ],
+      "detection_confidence": 0.899098,
+      "fields": {
+        "designator": {
+          "token_id": "token_0155",
+          "text_id": "text_0110",
+          "text": "U9",
+          "bbox": [
+            766.0,
+            551.0,
+            776.0,
+            560.0
+          ],
+          "confidence": 0.98726,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "U",
+          "source_text": "U9",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 44.04876962836787,
+        "designator_assignment_margin": 22.72736577966407,
+        "Name": {
+          "token_id": "token_0138",
+          "text_id": "text_0096",
+          "text": "CN2",
+          "bbox": [
+            717.5,
+            520.0,
+            733.0,
+            527.5
+          ],
+          "confidence": 0.99842,
+          "role": "model_candidate",
+          "source_view": "tile_237_0_r90",
+          "prefix": null,
+          "source_text": "CN2",
+          "approximate_split_geometry": false
+        },
+        "Name_score": 82.35179649141688,
+        "Name_assignment_margin": 7.64820350858372
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0016",
+      "detection_index": 15,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        828.608,
+        256.567,
+        849.472,
+        275.288
+      ],
+      "detection_confidence": 0.898518,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0017",
+      "detection_index": 16,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        812.05,
+        535.515,
+        832.954,
+        551.796
+      ],
+      "detection_confidence": 0.89131,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0018",
+      "detection_index": 17,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        241.848,
+        282.747,
+        263.417,
+        301.236
+      ],
+      "detection_confidence": 0.889856,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R12",
+      "detection_index": 18,
+      "type": "resistor",
+      "designator": "R12",
+      "Name": null,
+      "value": "5.1KΩ",
+      "bbox_top_left": [
+        554.647,
+        605.003,
+        589.399,
+        624.096
+      ],
+      "detection_confidence": 0.889225,
+      "fields": {
+        "designator": {
+          "token_id": "token_0165",
+          "text_id": "text_0115",
+          "text": "R12",
+          "bbox": [
+            561.5,
+            588.0,
+            580.0,
+            599.5
+          ],
+          "confidence": 0.99997,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R12",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 10.2725555186035,
+        "designator_assignment_margin": 79.72744448139656,
+        "value": {
+          "token_id": "token_0167",
+          "text_id": "text_0117",
+          "text": "5.1KΩ",
+          "bbox": [
+            560.0,
+            598.0,
+            583.0,
+            609.0
+          ],
+          "confidence": 0.98422,
+          "role": "resistance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "5.1KΩ",
+          "approximate_split_geometry": false
+        },
+        "value_score": 7.067462345072582,
+        "value_assignment_margin": 82.93253765492727
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0020",
+      "detection_index": 19,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        111.331,
+        542.48,
+        135.152,
+        560.312
+      ],
+      "detection_confidence": 0.888769,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0021",
+      "detection_index": 20,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        794.03,
+        256.383,
+        814.924,
+        275.278
+      ],
+      "detection_confidence": 0.886847,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "U16",
+      "detection_index": 21,
+      "type": "ic",
+      "designator": "U16",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        401.575,
+        516.758,
+        431.865,
+        549.259
+      ],
+      "detection_confidence": 0.884906,
+      "fields": {
+        "designator": {
+          "token_id": "token_0147",
+          "text_id": "text_0104",
+          "text": "U16",
+          "bbox": [
+            416.5,
+            544.5,
+            425.5,
+            561.5
+          ],
+          "confidence": 0.99832,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "U",
+          "source_text": "U16",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.117453926726338,
+        "designator_assignment_margin": 82.88254607327372
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0023",
+      "detection_index": 22,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        747.446,
+        561.092,
+        768.237,
+        576.863
+      ],
+      "detection_confidence": 0.882734,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C29",
+      "detection_index": 23,
+      "type": "capacitor",
+      "designator": "C29",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        796.053,
+        187.278,
+        813.074,
+        224.201
+      ],
+      "detection_confidence": 0.882711,
+      "fields": {
+        "designator": {
+          "token_id": "token_0050",
+          "text_id": "text_0038",
+          "text": "C29",
+          "bbox": [
+            809.5,
+            196.0,
+            824.5,
+            205.0
+          ],
+          "confidence": 0.97112,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C29",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 6.851765792749315,
+        "designator_assignment_margin": 48.472348410981795
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0025",
+      "detection_index": 24,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        729.357,
+        256.957,
+        749.964,
+        275.106
+      ],
+      "detection_confidence": 0.881798,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C31",
+      "detection_index": 25,
+      "type": "capacitor",
+      "designator": "C31",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        149.411,
+        201.477,
+        166.586,
+        236.152
+      ],
+      "detection_confidence": 0.874539,
+      "fields": {
+        "designator": {
+          "token_id": "token_0061",
+          "text_id": "text_0048",
+          "text": "C31",
+          "bbox": [
+            166.5,
+            209.0,
+            181.5,
+            219.0
+          ],
+          "confidence": 0.97299,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "C",
+          "source_text": "C31",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.0754978410602,
+        "designator_assignment_margin": 72.71890858079632
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C25",
+      "detection_index": 26,
+      "type": "capacitor",
+      "designator": "C25",
+      "Name": null,
+      "value": "10uF",
+      "bbox_top_left": [
+        726.828,
+        67.373,
+        744.608,
+        102.451
+      ],
+      "detection_confidence": 0.872009,
+      "fields": {
+        "designator": {
+          "token_id": "token_0006",
+          "text_id": "text_0005",
+          "text": "C25",
+          "bbox": [
+            745.0,
+            76.0,
+            759.0,
+            83.5
+          ],
+          "confidence": 0.95464,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C25",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.959003131023801,
+        "designator_assignment_margin": 73.39566022299732,
+        "value": {
+          "token_id": "token_0012",
+          "text_id": "text_0009",
+          "text": "10uF",
+          "bbox": [
+            747.0,
+            85.0,
+            762.5,
+            92.5
+          ],
+          "confidence": 0.92054,
+          "role": "capacitance",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "10uF",
+          "approximate_split_geometry": false
+        },
+        "value_score": 9.974077323033605,
+        "value_assignment_margin": 39.78410071061762
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C32",
+      "detection_index": 27,
+      "type": "capacitor",
+      "designator": "C32",
+      "Name": null,
+      "value": "1uF",
+      "bbox_top_left": [
+        830.272,
+        187.727,
+        847.982,
+        223.1
+      ],
+      "detection_confidence": 0.870374,
+      "fields": {
+        "designator": {
+          "token_id": "token_0051",
+          "text_id": "text_0039",
+          "text": "C32",
+          "bbox": [
+            848.0,
+            196.0,
+            863.5,
+            205.0
+          ],
+          "confidence": 0.96139,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C32",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.377795094752152,
+        "designator_assignment_margin": 40.84057886575283,
+        "value": {
+          "token_id": "token_0052",
+          "text_id": "text_0040",
+          "text": "1uF",
+          "bbox": [
+            848.5,
+            204.5,
+            862.5,
+            214.5
+          ],
+          "confidence": 0.87218,
+          "role": "capacitance",
+          "source_view": "tile_237_0_r0",
+          "prefix": null,
+          "source_text": "1uF",
+          "approximate_split_geometry": false
+        },
+        "value_score": 7.302916509244973,
+        "value_assignment_margin": 29.622776285495092
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0029",
+      "detection_index": 28,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        579.595,
+        81.381,
+        601.096,
+        99.349
+      ],
+      "detection_confidence": 0.85942,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0030",
+      "detection_index": 29,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        862.85,
+        256.257,
+        884.631,
+        275.286
+      ],
+      "detection_confidence": 0.856428,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C33",
+      "detection_index": 30,
+      "type": "capacitor",
+      "designator": "C33",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        864.147,
+        187.4,
+        882.419,
+        223.096
+      ],
+      "detection_confidence": 0.856403,
+      "fields": {
+        "designator": {
+          "token_id": "token_0045",
+          "text_id": "text_0034",
+          "text": "C33",
+          "bbox": [
+            882.0,
+            195.0,
+            897.5,
+            204.5
+          ],
+          "confidence": 0.96955,
+          "role": "designator",
+          "source_view": "tile_237_0_r90",
+          "prefix": "C",
+          "source_text": "C33",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.7669062407054605,
+        "designator_assignment_margin": 40.84057886575283
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C22",
+      "detection_index": 31,
+      "type": "capacitor",
+      "designator": "C22",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        243.817,
+        201.405,
+        261.567,
+        236.326
+      ],
+      "detection_confidence": 0.854056,
+      "fields": {
+        "designator": {
+          "token_id": "token_0059",
+          "text_id": "text_0047",
+          "text": "C22",
+          "bbox": [
+            261.0,
+            208.5,
+            276.5,
+            218.0
+          ],
+          "confidence": 0.94743,
+          "role": "designator",
+          "source_view": "tile_0_0_r90",
+          "prefix": "C",
+          "source_text": "C22",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.9750409619766724,
+        "designator_assignment_margin": 72.83710461505552
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C30",
+      "detection_index": 32,
+      "type": "capacitor",
+      "designator": "C30",
+      "Name": null,
+      "value": "1uF",
+      "bbox_top_left": [
+        196.302,
+        201.552,
+        213.922,
+        236.18
+      ],
+      "detection_confidence": 0.853564,
+      "fields": {
+        "designator": {
+          "token_id": "token_0058",
+          "text_id": "text_0046",
+          "text": "C30",
+          "bbox": [
+            213.5,
+            208.5,
+            229.0,
+            217.5
+          ],
+          "confidence": 0.92752,
+          "role": "designator",
+          "source_view": "tile_0_0_r90",
+          "prefix": "C",
+          "source_text": "C30",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 8.363429219600704,
+        "designator_assignment_margin": 72.71890858079632,
+        "value": {
+          "token_id": "token_0069",
+          "text_id": "text_0055",
+          "text": "1uF",
+          "bbox": [
+            214.5,
+            218.0,
+            227.5,
+            226.0
+          ],
+          "confidence": 0.90643,
+          "role": "capacitance",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "1uF",
+          "approximate_split_geometry": false
+        },
+        "value_score": 7.055916509244962,
+        "value_assignment_margin": 46.43459688189296
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R11",
+      "detection_index": 33,
+      "type": "resistor",
+      "designator": "R11",
+      "Name": null,
+      "value": "5.1KΩ",
+      "bbox_top_left": [
+        589.008,
+        562.526,
+        624.068,
+        581.299
+      ],
+      "detection_confidence": 0.852959,
+      "fields": {
+        "designator": {
+          "token_id": "token_0149",
+          "text_id": "text_0106",
+          "text": "R11",
+          "bbox": [
+            595.5,
+            545.5,
+            614.0,
+            556.5
+          ],
+          "confidence": 0.99995,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R11",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 11.234783463185035,
+        "designator_assignment_margin": 32.42915446691222,
+        "value": {
+          "token_id": "token_0157",
+          "text_id": "text_0111",
+          "text": "5.1KΩ",
+          "bbox": [
+            596.0,
+            555.0,
+            617.0,
+            567.0
+          ],
+          "confidence": 0.9172,
+          "role": "resistance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "5.1KΩ",
+          "approximate_split_geometry": false
+        },
+        "value_score": 8.626180663880259,
+        "value_assignment_margin": 51.34070452828291
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "L2",
+      "detection_index": 34,
+      "type": "inductor",
+      "designator": "L2",
+      "Name": null,
+      "value": "1uH",
+      "bbox_top_left": [
+        689.541,
+        132.834,
+        729.87,
+        146.917
+      ],
+      "detection_confidence": 0.84816,
+      "fields": {
+        "designator": {
+          "token_id": "token_0027",
+          "text_id": "text_0018",
+          "text": "L2",
+          "bbox": [
+            695.0,
+            146.5,
+            704.5,
+            155.5
+          ],
+          "confidence": 0.96864,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "L",
+          "source_text": "L2 1uH",
+          "approximate_split_geometry": true
+        },
+        "designator_score": 10.902448392230035,
+        "designator_assignment_margin": 79.09755160776967,
+        "value": {
+          "token_id": "token_0028",
+          "text_id": "text_0018",
+          "text": "1uH",
+          "bbox": [
+            709.25,
+            146.5,
+            723.5,
+            155.5
+          ],
+          "confidence": 0.96864,
+          "role": "inductance",
+          "source_view": "tile_237_0_r0",
+          "prefix": null,
+          "source_text": "L2 1uH",
+          "approximate_split_geometry": true
+        },
+        "value_score": 14.04963,
+        "value_assignment_margin": 75.95037000000002
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C28",
+      "detection_index": 35,
+      "type": "capacitor",
+      "designator": "C28",
+      "Name": null,
+      "value": "1uF",
+      "bbox_top_left": [
+        731.364,
+        209.673,
+        748.819,
+        244.845
+      ],
+      "detection_confidence": 0.845488,
+      "fields": {
+        "designator": {
+          "token_id": "token_0072",
+          "text_id": "text_0057",
+          "text": "C28",
+          "bbox": [
+            749.0,
+            218.5,
+            764.0,
+            227.5
+          ],
+          "confidence": 0.79362,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C28",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 8.290640610424715,
+        "designator_assignment_margin": 81.18193997900516,
+        "value": {
+          "token_id": "token_0075",
+          "text_id": "text_0060",
+          "text": "1uF",
+          "bbox": [
+            750.0,
+            227.0,
+            762.5,
+            235.0
+          ],
+          "confidence": 0.93089,
+          "role": "capacitance",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "1uF",
+          "approximate_split_geometry": false
+        },
+        "value_score": 6.481868442914208,
+        "value_assignment_margin": 82.64206946825288
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C23",
+      "detection_index": 36,
+      "type": "capacitor",
+      "designator": "C23",
+      "Name": null,
+      "value": "1uF",
+      "bbox_top_left": [
+        291.068,
+        200.865,
+        308.773,
+        236.023
+      ],
+      "detection_confidence": 0.845281,
+      "fields": {
+        "designator": {
+          "token_id": "token_0062",
+          "text_id": "text_0049",
+          "text": "C23",
+          "bbox": [
+            309.5,
+            209.5,
+            323.5,
+            219.0
+          ],
+          "confidence": 0.94252,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "C",
+          "source_text": "C23",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.620352911726151,
+        "designator_assignment_margin": 72.83710461505552,
+        "value": {
+          "token_id": "token_0070",
+          "text_id": "text_0056",
+          "text": "1uF",
+          "bbox": [
+            310.0,
+            218.0,
+            323.0,
+            226.0
+          ],
+          "confidence": 0.94354,
+          "role": "capacitance",
+          "source_view": "tile_237_0_r90",
+          "prefix": null,
+          "source_text": "1uF",
+          "approximate_split_geometry": false
+        },
+        "value_score": 6.041329999999989,
+        "value_assignment_margin": 61.60450339113777
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C26",
+      "detection_index": 37,
+      "type": "capacitor",
+      "designator": "C26",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        774.515,
+        66.83,
+        791.823,
+        101.686
+      ],
+      "detection_confidence": 0.839881,
+      "fields": {
+        "designator": {
+          "token_id": "token_0004",
+          "text_id": "text_0003",
+          "text": "C26",
+          "bbox": [
+            792.5,
+            75.0,
+            807.5,
+            84.0
+          ],
+          "confidence": 0.81572,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C26",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 9.105948188535582,
+        "designator_assignment_margin": 71.39387171943099
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C27",
+      "detection_index": 38,
+      "type": "capacitor",
+      "designator": "C27",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        821.536,
+        67.153,
+        839.806,
+        101.923
+      ],
+      "detection_confidence": 0.823657,
+      "fields": {
+        "designator": {
+          "token_id": "token_0002",
+          "text_id": "text_0002",
+          "text": "C27",
+          "bbox": [
+            839.0,
+            74.0,
+            854.5,
+            83.5
+          ],
+          "confidence": 0.9816,
+          "role": "designator",
+          "source_view": "tile_237_0_r90",
+          "prefix": "C",
+          "source_text": "C27",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.853626656906601,
+        "designator_assignment_margin": 71.39387171943099
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C24",
+      "detection_index": 39,
+      "type": "capacitor",
+      "designator": "C24",
+      "Name": null,
+      "value": "22uf",
+      "bbox_top_left": [
+        679.561,
+        66.867,
+        696.757,
+        101.74
+      ],
+      "detection_confidence": 0.811256,
+      "fields": {
+        "designator": {
+          "token_id": "token_0005",
+          "text_id": "text_0004",
+          "text": "C24",
+          "bbox": [
+            698.0,
+            76.0,
+            711.0,
+            83.0
+          ],
+          "confidence": 0.99531,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "C",
+          "source_text": "C24",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 8.189148002563146,
+        "designator_assignment_margin": 73.51927793775712,
+        "value": {
+          "token_id": "token_0007",
+          "text_id": "text_0006",
+          "text": "22uf",
+          "bbox": [
+            698.5,
+            84.0,
+            715.0,
+            91.5
+          ],
+          "confidence": 0.8232,
+          "role": "capacitance",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "22uf",
+          "approximate_split_geometry": false
+        },
+        "value_score": 9.51210519735832,
+        "value_assignment_margin": 79.82262715667412
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R10",
+      "detection_index": 40,
+      "type": "resistor",
+      "designator": "R10",
+      "Name": null,
+      "value": "5.1KΩ",
+      "bbox_top_left": [
+        589.631,
+        528.962,
+        623.35,
+        545.879
+      ],
+      "detection_confidence": 0.79901,
+      "fields": {
+        "designator": {
+          "token_id": "token_0133",
+          "text_id": "text_0091",
+          "text": "R10",
+          "bbox": [
+            596.0,
+            510.0,
+            614.5,
+            521.5
+          ],
+          "confidence": 0.99989,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "R",
+          "source_text": "R10",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 12.36235574794754,
+        "designator_assignment_margin": 32.42915446691222,
+        "value": {
+          "token_id": "token_0137",
+          "text_id": "text_0095",
+          "text": "5.1KΩ",
+          "bbox": [
+            596.0,
+            520.0,
+            617.0,
+            531.0
+          ],
+          "confidence": 0.89324,
+          "role": "resistance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "5.1KΩ",
+          "approximate_split_geometry": false
+        },
+        "value_score": 8.218451056684687,
+        "value_assignment_margin": 51.34070452828291
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C35",
+      "detection_index": 41,
+      "type": "capacitor",
+      "designator": "C35",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        282.055,
+        518.06,
+        301.008,
+        539.457
+      ],
+      "detection_confidence": 0.795168,
+      "fields": {
+        "designator": {
+          "token_id": "token_0136",
+          "text_id": "text_0094",
+          "text": "C35",
+          "bbox": [
+            300.0,
+            520.0,
+            315.5,
+            529.0
+          ],
+          "confidence": 0.88825,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "C",
+          "source_text": "C35",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.319086913101463,
+        "designator_assignment_margin": 82.68091308689873
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R51",
+      "detection_index": 42,
+      "type": "resistor",
+      "designator": "R51",
+      "Name": null,
+      "value": "1000",
+      "bbox_top_left": [
+        237.733,
+        501.249,
+        266.862,
+        513.698
+      ],
+      "detection_confidence": 0.787077,
+      "fields": {
+        "designator": {
+          "token_id": "token_0124",
+          "text_id": "text_0082",
+          "text": "R51",
+          "bbox": [
+            242.5,
+            485.0,
+            261.0,
+            496.5
+          ],
+          "confidence": 0.99996,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R51",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 8.199162750775713,
+        "designator_assignment_margin": 81.80083724922406,
+        "value": {
+          "token_id": "token_0129",
+          "text_id": "text_0087",
+          "text": "1000",
+          "bbox": [
+            243.5,
+            497.0,
+            260.5,
+            504.5
+          ],
+          "confidence": 0.9761,
+          "role": "numeric",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "1000",
+          "approximate_split_geometry": false
+        },
+        "value_score": 21.888230932716333,
+        "value_assignment_margin": 68.11176906728406
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0044",
+      "detection_index": 43,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        639.528,
+        527.444,
+        655.233,
+        547.624
+      ],
+      "detection_confidence": 0.779224,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0045",
+      "detection_index": 44,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        683.875,
+        444.527,
+        699.409,
+        466.282
+      ],
+      "detection_confidence": 0.779031,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0046",
+      "detection_index": 45,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        878.468,
+        43.225,
+        894.895,
+        64.917
+      ],
+      "detection_confidence": 0.77348,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R49",
+      "detection_index": 46,
+      "type": "resistor",
+      "designator": "R49",
+      "Name": null,
+      "value": "10KΩ",
+      "bbox_top_left": [
+        581.62,
+        181.472,
+        596.986,
+        213.355
+      ],
+      "detection_confidence": 0.772843,
+      "fields": {
+        "designator": {
+          "token_id": "token_0043",
+          "text_id": "text_0032",
+          "text": "R49",
+          "bbox": [
+            591.5,
+            187.0,
+            609.0,
+            198.0
+          ],
+          "confidence": 0.99994,
+          "role": "designator",
+          "source_view": "tile_237_0_r0",
+          "prefix": "R",
+          "source_text": "R49",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 6.0911246787905835,
+        "designator_assignment_margin": 83.90887532120905,
+        "value": {
+          "token_id": "token_0049",
+          "text_id": "text_0037",
+          "text": "10KΩ",
+          "bbox": [
+            598.5,
+            196.0,
+            617.0,
+            205.0
+          ],
+          "confidence": 0.95621,
+          "role": "resistance",
+          "source_view": "tile_237_0_r0",
+          "prefix": null,
+          "source_text": "10KΩ",
+          "approximate_split_geometry": false
+        },
+        "value_score": 14.00942646482493,
+        "value_assignment_margin": 75.99057353517492
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0048",
+      "detection_index": 47,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        652.56,
+        604.801,
+        668.004,
+        624.874
+      ],
+      "detection_confidence": 0.77281,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0049",
+      "detection_index": 48,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        509.195,
+        228.097,
+        525.719,
+        250.551
+      ],
+      "detection_confidence": 0.76445,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C34",
+      "detection_index": 49,
+      "type": "capacitor",
+      "designator": "C34",
+      "Name": null,
+      "value": "2.2uf",
+      "bbox_top_left": [
+        216.859,
+        565.731,
+        237.192,
+        585.996
+      ],
+      "detection_confidence": 0.762082,
+      "fields": {
+        "designator": {
+          "token_id": "token_0162",
+          "text_id": "text_0113",
+          "text": "C34",
+          "bbox": [
+            235.5,
+            566.5,
+            250.5,
+            576.0
+          ],
+          "confidence": 0.94963,
+          "role": "designator",
+          "source_view": "tile_0_0_r90",
+          "prefix": "C",
+          "source_text": "C34",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.086684431555135,
+        "designator_assignment_margin": 82.91331556844489,
+        "value": {
+          "token_id": "token_0163",
+          "text_id": "text_0114",
+          "text": "2.2uf",
+          "bbox": [
+            238.0,
+            576.0,
+            258.0,
+            586.0
+          ],
+          "confidence": 0.97507,
+          "role": "capacitance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "2.2uf",
+          "approximate_split_geometry": false
+        },
+        "value_score": 11.585287275263614,
+        "value_assignment_margin": 78.41471272473655
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0051",
+      "detection_index": 50,
+      "type": "switch",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        536.591,
+        228.959,
+        580.292,
+        248.699
+      ],
+      "detection_confidence": 0.723327,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0052",
+      "detection_index": 51,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        488.565,
+        445.11,
+        504.11,
+        465.753
+      ],
+      "detection_confidence": 0.696339,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0053",
+      "detection_index": 52,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        515.599,
+        604.788,
+        532.65,
+        625.685
+      ],
+      "detection_confidence": 0.672653,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0054",
+      "detection_index": 53,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        738.984,
+        482.327,
+        759.752,
+        497.188
+      ],
+      "detection_confidence": 0.662092,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0055",
+      "detection_index": 54,
+      "type": "diode",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        385.887,
+        191.52,
+        404.261,
+        226.418
+      ],
+      "detection_confidence": 0.551953,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0056",
+      "detection_index": 55,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        331.549,
+        540.63,
+        344.364,
+        560.712
+      ],
+      "detection_confidence": 0.460002,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0057",
+      "detection_index": 56,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        883.445,
+        129.497,
+        895.557,
+        151.389
+      ],
+      "detection_confidence": 0.357025,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    }
+  ]
+}

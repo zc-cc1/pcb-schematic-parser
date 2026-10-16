@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "initial_weights": "weights/detector_dataset300_v1.pt",
+  "dataset": "data/detection_balanced_v2/dataset.yaml",
+  "run_name": "detector_dataset300_balanced_v2",
+  "training": {
+    "epochs": 20, "imgsz": 1024, "batch": 4, "workers": 2,
+    "device": 0, "amp": false, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.0005, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 1, "patience": 8, "seed": 20261012, "deterministic": true,
+    "mosaic": 0.15, "close_mosaic": 5, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.05, "scale": 0.2, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.0, "fliplr": 0.0, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.1,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": [
+    "Warm-start all 35 classes from first fine-tuned checkpoint; this is a new optimizer run, not an exact optimizer-state resume.",
+    "Oversample training-only context crops for crystal, mosfet, switch and led; retain all original training pages.",
+    "Evaluate against the unchanged detection_v1 validation manifest. No crop from a validation parent is allowed.",
+    "No arbitrary rotation or mirror transforms because text in schematic context is meaningful."
+  ]
+}

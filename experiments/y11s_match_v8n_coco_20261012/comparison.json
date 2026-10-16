@@ -1,0 +1,5384 @@
+{
+  "status": "completed",
+  "cases": 59,
+  "definition": "Class-name matching + bbox IoU threshold + maximum-cardinality one-to-one matching; micro P/R/F1 at fixed confidence",
+  "official_competition_f1": false,
+  "inference_config": {
+    "version": "0.4-rc1",
+    "weights": "weights/detector_dataset300_v3_nano.pt",
+    "detector": {
+      "imgsz": 1536,
+      "confidence": 0.2,
+      "iou": 0.5,
+      "max_det": 1000,
+      "half": false,
+      "class_confidence": {}
+    },
+    "sahi": {
+      "slice_height": 1024,
+      "slice_width": 1024,
+      "overlap": 0.25,
+      "merge_metric": "IOS",
+      "merge_threshold": 0.45,
+      "merge_method": "GREEDYNMM",
+      "skip_if_max_side_below": 1600
+    },
+    "fusion": {
+      "iou": 0.55
+    },
+    "ocr": {
+      "backend": "onnxruntime_cpu",
+      "det_limit_side_len": 2048
+    },
+    "binding": {
+      "max_gap_px": 100,
+      "ambiguity_margin_px": 12
+    },
+    "class_mapping": {
+      "resistor": "resistor",
+      "capacitor": "capacitor",
+      "inductor": "inductor",
+      "diode": "diode",
+      "transistor": "bjt",
+      "opamp": "opamp",
+      "ic": "ic",
+      "ground": "gnd",
+      "voltage_source": "vcc",
+      "crystal": "crystal",
+      "mosfet": "mosfet",
+      "switch": "switch",
+      "led": "led",
+      "net_input": "vbus_in",
+      "pin_port": "vbus_in",
+      "testpoint": "vbus_in",
+      "net_output": "vbus_out",
+      "net_bidirectional": "vbus_bidirectional",
+      "fuse": "fuse",
+      "buzzer": "buzzer",
+      "motor": "motor",
+      "battery": "battery",
+      "other": "other",
+      "transformer": "transformer",
+      "jumper": "jumper",
+      "raw_block": "block",
+      "circle_header": "circle_header",
+      "antenna": "antenna",
+      "esd": "esd",
+      "raw_m": "m",
+      "net_short": "net_short",
+      "optocoupler": "optocoupler",
+      "raw_dc": "dc",
+      "current_source": "current_source",
+      "connector": "connector"
+    },
+    "export_y_formula": "H-y",
+    "status": "v3_recipe_draft_awaits_detector_dataset300_v3_training",
+    "recommended_mode": "fused",
+    "recommended_mode_basis": "To be re-evaluated on the unchanged 59-case validation manifest once v3 weights exist; fused mode merges whole (precision) and sliced (recall) paths with class-aware WBF",
+    "adoption_checklist": [
+      "Train with configs/detector_training_v3.json (and optionally v3_big); weights land at weights/detector_dataset300_v3*.pt",
+      "Rename or point this weights field at the adopted checkpoint",
+      "Run tune_class_thresholds.py on the validation split and paste its thresholds into detector.class_confidence",
+      "Re-run evaluate_detector.py --mode fused --thresholds configs/class_thresholds.json and compare against the v2 numbers before adopting"
+    ]
+  },
+  "manifest_sha256": "8261f5541e6036e994d8d1a8592eedf1bcc704ab1223e61b615e2a3ef3533812",
+  "comparability_limit": "Same final-stage settings/data; baseline v8n has prior task-specific warm starts and new YOLO11s starts from COCO. This is not an isolated architecture comparison.",
+  "retuned_results_caveat": "Thresholds chosen and scored on the same validation set; exploratory, not independent test performance.",
+  "models": {
+    "v8n_adopted": {
+      "weights": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pcb_parser_competition\\weights\\detector_dataset300_v3_nano.pt",
+      "sha256": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd",
+      "global_conf_0_2": {
+        "overall": {
+          "tp": 2220,
+          "fp": 488,
+          "fn": 242,
+          "precision": 0.8197932053175776,
+          "recall": 0.9017059301380991,
+          "f1": 0.8588007736943907
+        },
+        "by_class": {
+          "capacitor": {
+            "tp": 440,
+            "fp": 88,
+            "fn": 45,
+            "precision": 0.8333333333333334,
+            "recall": 0.9072164948453608,
+            "f1": 0.8687068114511353
+          },
+          "crystal": {
+            "tp": 14,
+            "fp": 12,
+            "fn": 0,
+            "precision": 0.5384615384615384,
+            "recall": 1.0,
+            "f1": 0.7
+          },
+          "ground": {
+            "tp": 550,
+            "fp": 73,
+            "fn": 51,
+            "precision": 0.8828250401284109,
+            "recall": 0.9151414309484193,
+            "f1": 0.8986928104575164
+          },
+          "ic": {
+            "tp": 270,
+            "fp": 73,
+            "fn": 12,
+            "precision": 0.7871720116618076,
+            "recall": 0.9574468085106383,
+            "f1": 0.864
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 9,
+            "fn": 1,
+            "precision": 0.7567567567567568,
+            "recall": 0.9655172413793104,
+            "f1": 0.8484848484848485
+          },
+          "mosfet": {
+            "tp": 7,
+            "fp": 3,
+            "fn": 9,
+            "precision": 0.7,
+            "recall": 0.4375,
+            "f1": 0.5384615384615384
+          },
+          "net_input": {
+            "tp": 43,
+            "fp": 22,
+            "fn": 10,
+            "precision": 0.6615384615384615,
+            "recall": 0.8113207547169812,
+            "f1": 0.7288135593220338
+          },
+          "other": {
+            "tp": 11,
+            "fp": 21,
+            "fn": 11,
+            "precision": 0.34375,
+            "recall": 0.5,
+            "f1": 0.4074074074074074
+          },
+          "pin_port": {
+            "tp": 7,
+            "fp": 23,
+            "fn": 10,
+            "precision": 0.23333333333333334,
+            "recall": 0.4117647058823529,
+            "f1": 0.2978723404255319
+          },
+          "resistor": {
+            "tp": 388,
+            "fp": 34,
+            "fn": 11,
+            "precision": 0.919431279620853,
+            "recall": 0.9724310776942355,
+            "f1": 0.9451887941534713
+          },
+          "voltage_source": {
+            "tp": 230,
+            "fp": 57,
+            "fn": 36,
+            "precision": 0.8013937282229965,
+            "recall": 0.8646616541353384,
+            "f1": 0.8318264014466547
+          },
+          "battery": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "switch": {
+            "tp": 39,
+            "fp": 24,
+            "fn": 6,
+            "precision": 0.6190476190476191,
+            "recall": 0.8666666666666667,
+            "f1": 0.7222222222222222
+          },
+          "fuse": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "diode": {
+            "tp": 40,
+            "fp": 15,
+            "fn": 5,
+            "precision": 0.7272727272727273,
+            "recall": 0.8888888888888888,
+            "f1": 0.8
+          },
+          "led": {
+            "tp": 45,
+            "fp": 9,
+            "fn": 2,
+            "precision": 0.8333333333333334,
+            "recall": 0.9574468085106383,
+            "f1": 0.8910891089108911
+          },
+          "transistor": {
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1": 0.7142857142857143
+          },
+          "buzzer": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.7272727272727273,
+            "f1": 0.8421052631578947
+          },
+          "net_output": {
+            "tp": 7,
+            "fp": 5,
+            "fn": 4,
+            "precision": 0.5833333333333334,
+            "recall": 0.6363636363636364,
+            "f1": 0.6086956521739131
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 7,
+            "fn": 0,
+            "precision": 0.5882352941176471,
+            "recall": 1.0,
+            "f1": 0.7407407407407407
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.9411764705882353,
+            "recall": 1.0,
+            "f1": 0.9696969696969697
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.8666666666666667,
+            "recall": 1.0,
+            "f1": 0.9285714285714286
+          },
+          "esd": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 69,
+              "fp": 38,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 82,
+              "fp": 16,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 19,
+              "fp": 10,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 52,
+              "fp": 10,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 34,
+              "fp": 8,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 13,
+              "fp": 19,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 24,
+              "fp": 1,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 21,
+              "fp": 7,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 13,
+              "fp": 8,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 29,
+              "fp": 7,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 33,
+              "fp": 8,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 23,
+              "fp": 26,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 61,
+              "fp": 26,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 106,
+              "fp": 40,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 27,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 25,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 58,
+              "fp": 8,
+              "fn": 9
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 31,
+              "fp": 30,
+              "fn": 23
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 115,
+              "fp": 24,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 86,
+              "fp": 6,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 25,
+              "fp": 16,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 54,
+              "fp": 11,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 31,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 42,
+              "fp": 6,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 99,
+              "fp": 23,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 58,
+              "fp": 1,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 44,
+              "fp": 6,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 119,
+              "fp": 10,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 43,
+              "fp": 7,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 60,
+              "fp": 12,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 33,
+              "fp": 21,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 13,
+              "fp": 7,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 15,
+              "fp": 7,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 17,
+              "fp": 11,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 12,
+              "fp": 2,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 76,
+              "fp": 11,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 13,
+              "fp": 4,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        ]
+      },
+      "retuned_same_validation": {
+        "overall": {
+          "tp": 2195,
+          "fp": 300,
+          "fn": 267,
+          "precision": 0.8797595190380761,
+          "recall": 0.8915515840779854,
+          "f1": 0.8856163001815615
+        },
+        "by_class": {
+          "capacitor": {
+            "tp": 436,
+            "fp": 60,
+            "fn": 49,
+            "precision": 0.8790322580645161,
+            "recall": 0.8989690721649485,
+            "f1": 0.8888888888888888
+          },
+          "crystal": {
+            "tp": 14,
+            "fp": 5,
+            "fn": 0,
+            "precision": 0.7368421052631579,
+            "recall": 1.0,
+            "f1": 0.8484848484848485
+          },
+          "ground": {
+            "tp": 548,
+            "fp": 54,
+            "fn": 53,
+            "precision": 0.9102990033222591,
+            "recall": 0.9118136439267887,
+            "f1": 0.9110556940980881
+          },
+          "ic": {
+            "tp": 261,
+            "fp": 23,
+            "fn": 21,
+            "precision": 0.9190140845070423,
+            "recall": 0.925531914893617,
+            "f1": 0.9222614840989399
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 3,
+            "fn": 1,
+            "precision": 0.9032258064516129,
+            "recall": 0.9655172413793104,
+            "f1": 0.9333333333333333
+          },
+          "mosfet": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 9,
+            "precision": 1.0,
+            "recall": 0.4375,
+            "f1": 0.6086956521739131
+          },
+          "net_input": {
+            "tp": 41,
+            "fp": 10,
+            "fn": 12,
+            "precision": 0.803921568627451,
+            "recall": 0.7735849056603774,
+            "f1": 0.7884615384615384
+          },
+          "other": {
+            "tp": 11,
+            "fp": 19,
+            "fn": 11,
+            "precision": 0.36666666666666664,
+            "recall": 0.5,
+            "f1": 0.4230769230769231
+          },
+          "pin_port": {
+            "tp": 7,
+            "fp": 19,
+            "fn": 10,
+            "precision": 0.2692307692307692,
+            "recall": 0.4117647058823529,
+            "f1": 0.32558139534883723
+          },
+          "resistor": {
+            "tp": 387,
+            "fp": 19,
+            "fn": 12,
+            "precision": 0.9532019704433498,
+            "recall": 0.9699248120300752,
+            "f1": 0.9614906832298137
+          },
+          "voltage_source": {
+            "tp": 228,
+            "fp": 52,
+            "fn": 38,
+            "precision": 0.8142857142857143,
+            "recall": 0.8571428571428571,
+            "f1": 0.8351648351648352
+          },
+          "battery": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "switch": {
+            "tp": 39,
+            "fp": 23,
+            "fn": 6,
+            "precision": 0.6290322580645161,
+            "recall": 0.8666666666666667,
+            "f1": 0.7289719626168224
+          },
+          "fuse": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "led": {
+            "tp": 45,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9375,
+            "recall": 0.9574468085106383,
+            "f1": 0.9473684210526315
+          },
+          "diode": {
+            "tp": 36,
+            "fp": 4,
+            "fn": 9,
+            "precision": 0.9,
+            "recall": 0.8,
+            "f1": 0.8470588235294118
+          },
+          "buzzer": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.7272727272727273,
+            "f1": 0.8421052631578947
+          },
+          "net_output": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 5,
+            "precision": 1.0,
+            "recall": 0.5454545454545454,
+            "f1": 0.7058823529411765
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 3,
+            "fn": 0,
+            "precision": 0.7692307692307693,
+            "recall": 1.0,
+            "f1": 0.8695652173913043
+          },
+          "transistor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 69,
+              "fp": 28,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 82,
+              "fp": 7,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 19,
+              "fp": 10,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 42,
+              "fp": 0,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 52,
+              "fp": 6,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 34,
+              "fp": 7,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 13,
+              "fp": 10,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 23,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 20,
+              "fp": 5,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 13,
+              "fp": 4,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 29,
+              "fp": 4,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 33,
+              "fp": 3,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 23,
+              "fp": 21,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 60,
+              "fp": 10,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 101,
+              "fp": 21,
+              "fn": 27
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 24,
+              "fp": 3,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 25,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 58,
+              "fp": 8,
+              "fn": 9
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 30,
+              "fp": 23,
+              "fn": 24
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 114,
+              "fp": 11,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 86,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 25,
+              "fp": 10,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 54,
+              "fp": 8,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 30,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 42,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 98,
+              "fp": 17,
+              "fn": 15
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 57,
+              "fp": 1,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 44,
+              "fp": 4,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 116,
+              "fp": 7,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 43,
+              "fp": 1,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 60,
+              "fp": 10,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 32,
+              "fp": 16,
+              "fn": 15
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 12,
+              "fp": 6,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 13,
+              "fp": 5,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 17,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 76,
+              "fp": 7,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 13,
+              "fp": 3,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        ]
+      },
+      "retuned_thresholds": {
+        "battery": 0.2,
+        "buzzer": 0.2,
+        "capacitor": 0.615282,
+        "crystal": 0.446942,
+        "current_source": 0.2,
+        "diode": 0.766821,
+        "esd": 0.2,
+        "fuse": 0.2,
+        "ground": 0.383633,
+        "ic": 0.61991,
+        "inductor": 0.520284,
+        "led": 0.490207,
+        "mosfet": 0.788319,
+        "motor": 0.2,
+        "net_input": 0.432501,
+        "net_output": 0.688211,
+        "net_short": 0.536542,
+        "opamp": 0.887383,
+        "optocoupler": 0.2,
+        "other": 0.207189,
+        "pin_port": 0.290107,
+        "raw_block": 0.2,
+        "raw_dc": 0.666635,
+        "raw_m": 0.794199,
+        "resistor": 0.368131,
+        "switch": 0.230966,
+        "testpoint": 0.2,
+        "transformer": 0.628859,
+        "transistor": 0.894582,
+        "voltage_source": 0.258987
+      },
+      "deployment_latency_ms": {
+        "mean": 122.184669486468,
+        "median": 110.27770000509918,
+        "p95": 214.32304993504624,
+        "warmup_images": 1,
+        "timed_images": 59,
+        "scope": "Preprocessing and fused whole/sliced inference; excludes image I/O, model load, and threshold search."
+      },
+      "adopted_thresholds": {
+        "overall": {
+          "tp": 2182,
+          "fp": 298,
+          "fn": 280,
+          "precision": 0.8798387096774194,
+          "recall": 0.8862713241267263,
+          "f1": 0.8830433023067584
+        },
+        "by_class": {
+          "capacitor": {
+            "tp": 438,
+            "fp": 67,
+            "fn": 47,
+            "precision": 0.8673267326732673,
+            "recall": 0.9030927835051547,
+            "f1": 0.8848484848484849
+          },
+          "crystal": {
+            "tp": 13,
+            "fp": 4,
+            "fn": 1,
+            "precision": 0.7647058823529411,
+            "recall": 0.9285714285714286,
+            "f1": 0.8387096774193549
+          },
+          "ground": {
+            "tp": 547,
+            "fp": 53,
+            "fn": 54,
+            "precision": 0.9116666666666666,
+            "recall": 0.9101497504159733,
+            "f1": 0.9109075770191507
+          },
+          "ic": {
+            "tp": 261,
+            "fp": 24,
+            "fn": 21,
+            "precision": 0.9157894736842105,
+            "recall": 0.925531914893617,
+            "f1": 0.9206349206349206
+          },
+          "inductor": {
+            "tp": 27,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.9,
+            "recall": 0.9310344827586207,
+            "f1": 0.9152542372881356
+          },
+          "mosfet": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 9,
+            "precision": 1.0,
+            "recall": 0.4375,
+            "f1": 0.6086956521739131
+          },
+          "net_input": {
+            "tp": 41,
+            "fp": 12,
+            "fn": 12,
+            "precision": 0.7735849056603774,
+            "recall": 0.7735849056603774,
+            "f1": 0.7735849056603774
+          },
+          "other": {
+            "tp": 11,
+            "fp": 21,
+            "fn": 11,
+            "precision": 0.34375,
+            "recall": 0.5,
+            "f1": 0.4074074074074074
+          },
+          "pin_port": {
+            "tp": 5,
+            "fp": 9,
+            "fn": 12,
+            "precision": 0.35714285714285715,
+            "recall": 0.29411764705882354,
+            "f1": 0.3225806451612903
+          },
+          "resistor": {
+            "tp": 381,
+            "fp": 17,
+            "fn": 18,
+            "precision": 0.957286432160804,
+            "recall": 0.9548872180451128,
+            "f1": 0.9560853199498118
+          },
+          "voltage_source": {
+            "tp": 228,
+            "fp": 53,
+            "fn": 38,
+            "precision": 0.8113879003558719,
+            "recall": 0.8571428571428571,
+            "f1": 0.8336380255941499
+          },
+          "battery": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          },
+          "switch": {
+            "tp": 38,
+            "fp": 23,
+            "fn": 7,
+            "precision": 0.6229508196721312,
+            "recall": 0.8444444444444444,
+            "f1": 0.7169811320754716
+          },
+          "fuse": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "led": {
+            "tp": 43,
+            "fp": 1,
+            "fn": 4,
+            "precision": 0.9772727272727273,
+            "recall": 0.9148936170212766,
+            "f1": 0.945054945054945
+          },
+          "diode": {
+            "tp": 36,
+            "fp": 4,
+            "fn": 9,
+            "precision": 0.9,
+            "recall": 0.8,
+            "f1": 0.8470588235294118
+          },
+          "buzzer": {
+            "tp": 16,
+            "fp": 0,
+            "fn": 6,
+            "precision": 1.0,
+            "recall": 0.7272727272727273,
+            "f1": 0.8421052631578947
+          },
+          "net_output": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 5,
+            "precision": 1.0,
+            "recall": 0.5454545454545454,
+            "f1": 0.7058823529411765
+          },
+          "opamp": {
+            "tp": 9,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.8181818181818182,
+            "recall": 0.9,
+            "f1": 0.8571428571428571
+          },
+          "transistor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 69,
+              "fp": 27,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 82,
+              "fp": 9,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 19,
+              "fp": 10,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 41,
+              "fp": 0,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 50,
+              "fp": 6,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 34,
+              "fp": 7,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 12,
+              "fp": 9,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 24,
+              "fp": 1,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 20,
+              "fp": 5,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 13,
+              "fp": 5,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 9,
+              "fp": 1,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 29,
+              "fp": 4,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 33,
+              "fp": 3,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 23,
+              "fp": 21,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 60,
+              "fp": 13,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 100,
+              "fp": 20,
+              "fn": 28
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 24,
+              "fp": 2,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 24,
+              "fp": 3,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 58,
+              "fp": 8,
+              "fn": 9
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 29,
+              "fp": 23,
+              "fn": 25
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 114,
+              "fp": 10,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 86,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 25,
+              "fp": 10,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 54,
+              "fp": 8,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 30,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 42,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 96,
+              "fp": 17,
+              "fn": 17
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 57,
+              "fp": 1,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 44,
+              "fp": 5,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 116,
+              "fp": 6,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 43,
+              "fp": 1,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 59,
+              "fp": 10,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 31,
+              "fp": 13,
+              "fn": 16
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 12,
+              "fp": 5,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 12,
+              "fp": 5,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 17,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 76,
+              "fp": 5,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 13,
+              "fp": 4,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 5,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        ]
+      },
+      "original_counts_reproduced": true
+    },
+    "y11s_best": {
+      "weights": "C:\\Users\\Pc\\Desktop\\vision\\experiments\\y11s_match_v8n_coco_20261012\\runs\\y11s_coco_matched_v8n\\weights\\best.pt",
+      "sha256": "ff9b1b149e05f0021f21c5f530cf6b6301719e0a238cbabed1a6313fec4d55bf",
+      "global_conf_0_2": {
+        "overall": {
+          "tp": 2174,
+          "fp": 484,
+          "fn": 288,
+          "precision": 0.81790820165538,
+          "recall": 0.8830219333874898,
+          "f1": 0.84921875
+        },
+        "by_class": {
+          "battery": {
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4
+          },
+          "capacitor": {
+            "tp": 403,
+            "fp": 129,
+            "fn": 82,
+            "precision": 0.7575187969924813,
+            "recall": 0.8309278350515464,
+            "f1": 0.7925270403146509
+          },
+          "circle_header": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "crystal": {
+            "tp": 13,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9285714285714286,
+            "recall": 0.9285714285714286,
+            "f1": 0.9285714285714286
+          },
+          "ground": {
+            "tp": 543,
+            "fp": 79,
+            "fn": 58,
+            "precision": 0.8729903536977492,
+            "recall": 0.9034941763727121,
+            "f1": 0.8879803761242846
+          },
+          "ic": {
+            "tp": 272,
+            "fp": 28,
+            "fn": 10,
+            "precision": 0.9066666666666666,
+            "recall": 0.9645390070921985,
+            "f1": 0.9347079037800687
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9655172413793104,
+            "recall": 0.9655172413793104,
+            "f1": 0.9655172413793104
+          },
+          "led": {
+            "tp": 43,
+            "fp": 10,
+            "fn": 4,
+            "precision": 0.8113207547169812,
+            "recall": 0.9148936170212766,
+            "f1": 0.86
+          },
+          "mosfet": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "pin_port": {
+            "tp": 5,
+            "fp": 40,
+            "fn": 12,
+            "precision": 0.1111111111111111,
+            "recall": 0.29411764705882354,
+            "f1": 0.16129032258064516
+          },
+          "resistor": {
+            "tp": 387,
+            "fp": 27,
+            "fn": 12,
+            "precision": 0.9347826086956522,
+            "recall": 0.9699248120300752,
+            "f1": 0.9520295202952029
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 5,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transistor": {
+            "tp": 6,
+            "fp": 11,
+            "fn": 0,
+            "precision": 0.35294117647058826,
+            "recall": 1.0,
+            "f1": 0.5217391304347826
+          },
+          "voltage_source": {
+            "tp": 211,
+            "fp": 59,
+            "fn": 55,
+            "precision": 0.7814814814814814,
+            "recall": 0.793233082706767,
+            "f1": 0.7873134328358209
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "other": {
+            "tp": 9,
+            "fp": 5,
+            "fn": 13,
+            "precision": 0.6428571428571429,
+            "recall": 0.4090909090909091,
+            "f1": 0.5
+          },
+          "switch": {
+            "tp": 44,
+            "fp": 17,
+            "fn": 1,
+            "precision": 0.7213114754098361,
+            "recall": 0.9777777777777777,
+            "f1": 0.8301886792452831
+          },
+          "net_input": {
+            "tp": 48,
+            "fp": 18,
+            "fn": 5,
+            "precision": 0.7272727272727273,
+            "recall": 0.9056603773584906,
+            "f1": 0.8067226890756303
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "diode": {
+            "tp": 41,
+            "fp": 28,
+            "fn": 4,
+            "precision": 0.5942028985507246,
+            "recall": 0.9111111111111111,
+            "f1": 0.7192982456140351
+          },
+          "fuse": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "buzzer": {
+            "tp": 18,
+            "fp": 1,
+            "fn": 4,
+            "precision": 0.9473684210526315,
+            "recall": 0.8181818181818182,
+            "f1": 0.8780487804878049
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1": 0.9090909090909091
+          },
+          "net_output": {
+            "tp": 7,
+            "fp": 11,
+            "fn": 4,
+            "precision": 0.3888888888888889,
+            "recall": 0.6363636363636364,
+            "f1": 0.4827586206896552
+          },
+          "antenna": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 46,
+              "fp": 81,
+              "fn": 45
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 78,
+              "fp": 12,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 18,
+              "fp": 8,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 39,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 52,
+              "fp": 12,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 25,
+              "fp": 17,
+              "fn": 16
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 14,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 22,
+              "fp": 4,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 23,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 17,
+              "fp": 2,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 11,
+              "fp": 1,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 13,
+              "fp": 21,
+              "fn": 24
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 34,
+              "fp": 19,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 13,
+              "fp": 32,
+              "fn": 21
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 61,
+              "fp": 12,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 121,
+              "fp": 39,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 25,
+              "fp": 2,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 24,
+              "fp": 7,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 56,
+              "fp": 13,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 30,
+              "fp": 29,
+              "fn": 24
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 115,
+              "fp": 14,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 85,
+              "fp": 8,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 26,
+              "fp": 9,
+              "fn": 13
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 51,
+              "fp": 19,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 42,
+              "fp": 14,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 102,
+              "fp": 18,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 56,
+              "fp": 3,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 45,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 122,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 43,
+              "fp": 4,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 62,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 28,
+              "fp": 25,
+              "fn": 19
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 14,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 15,
+              "fp": 5,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 18,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 13,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 79,
+              "fp": 7,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        ]
+      },
+      "retuned_same_validation": {
+        "overall": {
+          "tp": 2137,
+          "fp": 257,
+          "fn": 325,
+          "precision": 0.8926482873851295,
+          "recall": 0.8679935012185215,
+          "f1": 0.8801482701812191
+        },
+        "by_class": {
+          "capacitor": {
+            "tp": 396,
+            "fp": 104,
+            "fn": 89,
+            "precision": 0.792,
+            "recall": 0.8164948453608247,
+            "f1": 0.8040609137055837
+          },
+          "circle_header": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "crystal": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9285714285714286,
+            "f1": 0.9629629629629629
+          },
+          "ground": {
+            "tp": 530,
+            "fp": 38,
+            "fn": 71,
+            "precision": 0.9330985915492958,
+            "recall": 0.8818635607321131,
+            "f1": 0.9067579127459366
+          },
+          "ic": {
+            "tp": 271,
+            "fp": 7,
+            "fn": 11,
+            "precision": 0.9748201438848921,
+            "recall": 0.9609929078014184,
+            "f1": 0.9678571428571429
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9655172413793104,
+            "f1": 0.9824561403508771
+          },
+          "mosfet": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "pin_port": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 14,
+            "precision": 0.75,
+            "recall": 0.17647058823529413,
+            "f1": 0.2857142857142857
+          },
+          "resistor": {
+            "tp": 383,
+            "fp": 15,
+            "fn": 16,
+            "precision": 0.9623115577889447,
+            "recall": 0.9598997493734336,
+            "f1": 0.9611041405269761
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 5,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "voltage_source": {
+            "tp": 205,
+            "fp": 34,
+            "fn": 61,
+            "precision": 0.8577405857740585,
+            "recall": 0.7706766917293233,
+            "f1": 0.8118811881188119
+          },
+          "battery": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "other": {
+            "tp": 9,
+            "fp": 3,
+            "fn": 13,
+            "precision": 0.75,
+            "recall": 0.4090909090909091,
+            "f1": 0.5294117647058824
+          },
+          "switch": {
+            "tp": 44,
+            "fp": 12,
+            "fn": 1,
+            "precision": 0.7857142857142857,
+            "recall": 0.9777777777777777,
+            "f1": 0.8712871287128713
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "fuse": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "led": {
+            "tp": 43,
+            "fp": 4,
+            "fn": 4,
+            "precision": 0.9148936170212766,
+            "recall": 0.9148936170212766,
+            "f1": 0.9148936170212766
+          },
+          "diode": {
+            "tp": 38,
+            "fp": 14,
+            "fn": 7,
+            "precision": 0.7307692307692307,
+            "recall": 0.8444444444444444,
+            "f1": 0.7835051546391752
+          },
+          "net_input": {
+            "tp": 48,
+            "fp": 11,
+            "fn": 5,
+            "precision": 0.8135593220338984,
+            "recall": 0.9056603773584906,
+            "f1": 0.8571428571428571
+          },
+          "buzzer": {
+            "tp": 18,
+            "fp": 0,
+            "fn": 4,
+            "precision": 1.0,
+            "recall": 0.8181818181818182,
+            "f1": 0.9
+          },
+          "net_output": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 4,
+            "precision": 1.0,
+            "recall": 0.6363636363636364,
+            "f1": 0.7777777777777778
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "transistor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          "antenna": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 46,
+              "fp": 40,
+              "fn": 45
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 78,
+              "fp": 7,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 18,
+              "fp": 7,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 39,
+              "fp": 2,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 51,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 25,
+              "fp": 15,
+              "fn": 16
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 14,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 22,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 23,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 17,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 12,
+              "fp": 19,
+              "fn": 25
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 31,
+              "fp": 4,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 12,
+              "fp": 17,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 59,
+              "fp": 6,
+              "fn": 12
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 118,
+              "fp": 25,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 25,
+              "fp": 0,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 22,
+              "fp": 4,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 53,
+              "fp": 8,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 26,
+              "fp": 22,
+              "fn": 28
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 115,
+              "fp": 7,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 85,
+              "fp": 4,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 26,
+              "fp": 5,
+              "fn": 13
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 51,
+              "fp": 14,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 41,
+              "fp": 1,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 101,
+              "fp": 14,
+              "fn": 12
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 54,
+              "fp": 2,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 45,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 122,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 42,
+              "fp": 2,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 60,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 24,
+              "fp": 2,
+              "fn": 23
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 13,
+              "fp": 1,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 18,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 12,
+              "fp": 3,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 79,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 2
+            }
+          }
+        ]
+      },
+      "retuned_thresholds": {
+        "antenna": 0.2,
+        "battery": 0.896912,
+        "buzzer": 0.358062,
+        "capacitor": 0.695673,
+        "circle_header": 0.2,
+        "crystal": 0.468752,
+        "current_source": 0.2,
+        "diode": 0.558211,
+        "esd": 0.2,
+        "fuse": 0.2,
+        "ground": 0.715254,
+        "ic": 0.464172,
+        "inductor": 0.740389,
+        "led": 0.636431,
+        "mosfet": 0.2,
+        "motor": 0.2,
+        "net_input": 0.351863,
+        "net_output": 0.928976,
+        "net_short": 0.2,
+        "opamp": 0.926738,
+        "optocoupler": 0.2,
+        "other": 0.306023,
+        "pin_port": 0.87406,
+        "raw_block": 0.2,
+        "raw_dc": 0.2,
+        "raw_m": 0.2,
+        "resistor": 0.547437,
+        "switch": 0.650864,
+        "testpoint": 0.2,
+        "transformer": 0.2,
+        "transistor": 0.922635,
+        "voltage_source": 0.631017
+      },
+      "deployment_latency_ms": {
+        "mean": 150.1053728763077,
+        "median": 134.98970004729927,
+        "p95": 270.166149968281,
+        "warmup_images": 1,
+        "timed_images": 59,
+        "scope": "Preprocessing and fused whole/sliced inference; excludes image I/O, model load, and threshold search."
+      }
+    },
+    "y11s_last": {
+      "weights": "C:\\Users\\Pc\\Desktop\\vision\\experiments\\y11s_match_v8n_coco_20261012\\runs\\y11s_coco_matched_v8n\\weights\\last.pt",
+      "sha256": "307b4718f09b78f9a746ebad9fb69473b16fe1fe64d1d064579eb07be771a986",
+      "global_conf_0_2": {
+        "overall": {
+          "tp": 2180,
+          "fp": 491,
+          "fn": 282,
+          "precision": 0.8161737177087234,
+          "recall": 0.8854589764419172,
+          "f1": 0.8494058055717904
+        },
+        "by_class": {
+          "battery": {
+            "tp": 2,
+            "fp": 3,
+            "fn": 3,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4
+          },
+          "capacitor": {
+            "tp": 405,
+            "fp": 120,
+            "fn": 80,
+            "precision": 0.7714285714285715,
+            "recall": 0.8350515463917526,
+            "f1": 0.801980198019802
+          },
+          "circle_header": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "crystal": {
+            "tp": 13,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9285714285714286,
+            "recall": 0.9285714285714286,
+            "f1": 0.9285714285714286
+          },
+          "ground": {
+            "tp": 542,
+            "fp": 79,
+            "fn": 59,
+            "precision": 0.8727858293075684,
+            "recall": 0.9018302828618968,
+            "f1": 0.8870703764320785
+          },
+          "ic": {
+            "tp": 273,
+            "fp": 28,
+            "fn": 9,
+            "precision": 0.9069767441860465,
+            "recall": 0.9680851063829787,
+            "f1": 0.9365351629502573
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.9655172413793104,
+            "recall": 0.9655172413793104,
+            "f1": 0.9655172413793104
+          },
+          "led": {
+            "tp": 44,
+            "fp": 12,
+            "fn": 3,
+            "precision": 0.7857142857142857,
+            "recall": 0.9361702127659575,
+            "f1": 0.8543689320388349
+          },
+          "mosfet": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "pin_port": {
+            "tp": 5,
+            "fp": 42,
+            "fn": 12,
+            "precision": 0.10638297872340426,
+            "recall": 0.29411764705882354,
+            "f1": 0.15625
+          },
+          "resistor": {
+            "tp": 388,
+            "fp": 28,
+            "fn": 11,
+            "precision": 0.9326923076923077,
+            "recall": 0.9724310776942355,
+            "f1": 0.9521472392638037
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transistor": {
+            "tp": 6,
+            "fp": 13,
+            "fn": 0,
+            "precision": 0.3157894736842105,
+            "recall": 1.0,
+            "f1": 0.48
+          },
+          "voltage_source": {
+            "tp": 211,
+            "fp": 58,
+            "fn": 55,
+            "precision": 0.7843866171003717,
+            "recall": 0.793233082706767,
+            "f1": 0.788785046728972
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "other": {
+            "tp": 10,
+            "fp": 6,
+            "fn": 12,
+            "precision": 0.625,
+            "recall": 0.45454545454545453,
+            "f1": 0.5263157894736842
+          },
+          "switch": {
+            "tp": 44,
+            "fp": 18,
+            "fn": 1,
+            "precision": 0.7096774193548387,
+            "recall": 0.9777777777777777,
+            "f1": 0.822429906542056
+          },
+          "net_input": {
+            "tp": 49,
+            "fp": 18,
+            "fn": 4,
+            "precision": 0.7313432835820896,
+            "recall": 0.9245283018867925,
+            "f1": 0.8166666666666667
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "diode": {
+            "tp": 41,
+            "fp": 29,
+            "fn": 4,
+            "precision": 0.5857142857142857,
+            "recall": 0.9111111111111111,
+            "f1": 0.7130434782608696
+          },
+          "fuse": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "buzzer": {
+            "tp": 18,
+            "fp": 3,
+            "fn": 4,
+            "precision": 0.8571428571428571,
+            "recall": 0.8181818181818182,
+            "f1": 0.8372093023255814
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1": 0.9090909090909091
+          },
+          "net_output": {
+            "tp": 7,
+            "fp": 11,
+            "fn": 4,
+            "precision": 0.3888888888888889,
+            "recall": 0.6363636363636364,
+            "f1": 0.4827586206896552
+          },
+          "antenna": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 46,
+              "fp": 81,
+              "fn": 45
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 78,
+              "fp": 11,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 19,
+              "fp": 8,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 39,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 52,
+              "fp": 12,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 25,
+              "fp": 17,
+              "fn": 16
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 14,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 22,
+              "fp": 4,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 23,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 17,
+              "fp": 2,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 11,
+              "fp": 1,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 14,
+              "fp": 20,
+              "fn": 23
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 34,
+              "fp": 19,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 14,
+              "fp": 31,
+              "fn": 20
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 61,
+              "fp": 13,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 122,
+              "fp": 39,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 26,
+              "fp": 5,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 24,
+              "fp": 7,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 56,
+              "fp": 11,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 30,
+              "fp": 28,
+              "fn": 24
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 115,
+              "fp": 16,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 85,
+              "fp": 9,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 26,
+              "fp": 10,
+              "fn": 13
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 51,
+              "fp": 18,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 42,
+              "fp": 15,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 103,
+              "fp": 18,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 56,
+              "fp": 2,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 45,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 122,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 43,
+              "fp": 4,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 62,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 13,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 28,
+              "fp": 28,
+              "fn": 19
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 14,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 14,
+              "fp": 5,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 18,
+              "fp": 3,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 2,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 13,
+              "fp": 4,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 3,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 79,
+              "fp": 9,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 14,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        ]
+      },
+      "retuned_same_validation": {
+        "overall": {
+          "tp": 2138,
+          "fp": 253,
+          "fn": 324,
+          "precision": 0.8941865328314513,
+          "recall": 0.8683996750609261,
+          "f1": 0.8811044714609519
+        },
+        "by_class": {
+          "capacitor": {
+            "tp": 399,
+            "fp": 95,
+            "fn": 86,
+            "precision": 0.8076923076923077,
+            "recall": 0.822680412371134,
+            "f1": 0.81511746680286
+          },
+          "circle_header": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "crystal": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9285714285714286,
+            "f1": 0.9629629629629629
+          },
+          "ground": {
+            "tp": 530,
+            "fp": 43,
+            "fn": 71,
+            "precision": 0.924956369982548,
+            "recall": 0.8818635607321131,
+            "f1": 0.9028960817717206
+          },
+          "ic": {
+            "tp": 272,
+            "fp": 7,
+            "fn": 10,
+            "precision": 0.974910394265233,
+            "recall": 0.9645390070921985,
+            "f1": 0.9696969696969697
+          },
+          "inductor": {
+            "tp": 28,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9655172413793104,
+            "f1": 0.9824561403508771
+          },
+          "mosfet": {
+            "tp": 10,
+            "fp": 2,
+            "fn": 6,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "pin_port": {
+            "tp": 4,
+            "fp": 2,
+            "fn": 13,
+            "precision": 0.6666666666666666,
+            "recall": 0.23529411764705882,
+            "f1": 0.34782608695652173
+          },
+          "resistor": {
+            "tp": 383,
+            "fp": 12,
+            "fn": 16,
+            "precision": 0.9696202531645569,
+            "recall": 0.9598997493734336,
+            "f1": 0.964735516372796
+          },
+          "testpoint": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "voltage_source": {
+            "tp": 203,
+            "fp": 32,
+            "fn": 63,
+            "precision": 0.8638297872340426,
+            "recall": 0.7631578947368421,
+            "f1": 0.810379241516966
+          },
+          "battery": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 3,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          "motor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "other": {
+            "tp": 10,
+            "fp": 6,
+            "fn": 12,
+            "precision": 0.625,
+            "recall": 0.45454545454545453,
+            "f1": 0.5263157894736842
+          },
+          "switch": {
+            "tp": 44,
+            "fp": 13,
+            "fn": 1,
+            "precision": 0.7719298245614035,
+            "recall": 0.9777777777777777,
+            "f1": 0.8627450980392157
+          },
+          "raw_block": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "fuse": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "led": {
+            "tp": 43,
+            "fp": 3,
+            "fn": 4,
+            "precision": 0.9347826086956522,
+            "recall": 0.9148936170212766,
+            "f1": 0.9247311827956989
+          },
+          "diode": {
+            "tp": 36,
+            "fp": 9,
+            "fn": 9,
+            "precision": 0.8,
+            "recall": 0.8,
+            "f1": 0.8
+          },
+          "net_input": {
+            "tp": 47,
+            "fp": 11,
+            "fn": 6,
+            "precision": 0.8103448275862069,
+            "recall": 0.8867924528301887,
+            "f1": 0.8468468468468469
+          },
+          "buzzer": {
+            "tp": 18,
+            "fp": 1,
+            "fn": 4,
+            "precision": 0.9473684210526315,
+            "recall": 0.8181818181818182,
+            "f1": 0.8780487804878049
+          },
+          "net_output": {
+            "tp": 7,
+            "fp": 0,
+            "fn": 4,
+            "precision": 1.0,
+            "recall": 0.6363636363636364,
+            "f1": 0.7777777777777778
+          },
+          "opamp": {
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "transistor": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          },
+          "antenna": {
+            "tp": 0,
+            "fp": 4,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "current_source": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "net_short": {
+            "tp": 48,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_m": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "esd": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "optocoupler": {
+            "tp": 0,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "transformer": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "raw_dc": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "cases": [
+          {
+            "case_id": "0001",
+            "counts": {
+              "tp": 46,
+              "fp": 36,
+              "fn": 45
+            }
+          },
+          {
+            "case_id": "0002",
+            "counts": {
+              "tp": 11,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0006",
+            "counts": {
+              "tp": 78,
+              "fp": 7,
+              "fn": 8
+            }
+          },
+          {
+            "case_id": "0007",
+            "counts": {
+              "tp": 19,
+              "fp": 8,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0012",
+            "counts": {
+              "tp": 39,
+              "fp": 2,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0016",
+            "counts": {
+              "tp": 51,
+              "fp": 2,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0018",
+            "counts": {
+              "tp": 25,
+              "fp": 16,
+              "fn": 16
+            }
+          },
+          {
+            "case_id": "0022",
+            "counts": {
+              "tp": 14,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0024",
+            "counts": {
+              "tp": 22,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0026",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0029",
+            "counts": {
+              "tp": 35,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0033",
+            "counts": {
+              "tp": 23,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0036",
+            "counts": {
+              "tp": 17,
+              "fp": 1,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0042",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0049",
+            "counts": {
+              "tp": 13,
+              "fp": 19,
+              "fn": 24
+            }
+          },
+          {
+            "case_id": "0058",
+            "counts": {
+              "tp": 30,
+              "fp": 2,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0074",
+            "counts": {
+              "tp": 12,
+              "fp": 18,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0075",
+            "counts": {
+              "tp": 59,
+              "fp": 6,
+              "fn": 12
+            }
+          },
+          {
+            "case_id": "0080",
+            "counts": {
+              "tp": 117,
+              "fp": 23,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0096",
+            "counts": {
+              "tp": 25,
+              "fp": 3,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0099",
+            "counts": {
+              "tp": 22,
+              "fp": 3,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0101",
+            "counts": {
+              "tp": 54,
+              "fp": 6,
+              "fn": 13
+            }
+          },
+          {
+            "case_id": "0102",
+            "counts": {
+              "tp": 27,
+              "fp": 20,
+              "fn": 27
+            }
+          },
+          {
+            "case_id": "0105",
+            "counts": {
+              "tp": 54,
+              "fp": 4,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0107",
+            "counts": {
+              "tp": 113,
+              "fp": 7,
+              "fn": 7
+            }
+          },
+          {
+            "case_id": "0117",
+            "counts": {
+              "tp": 85,
+              "fp": 5,
+              "fn": 4
+            }
+          },
+          {
+            "case_id": "0123",
+            "counts": {
+              "tp": 25,
+              "fp": 6,
+              "fn": 14
+            }
+          },
+          {
+            "case_id": "0124",
+            "counts": {
+              "tp": 51,
+              "fp": 14,
+              "fn": 10
+            }
+          },
+          {
+            "case_id": "0131",
+            "counts": {
+              "tp": 16,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0132",
+            "counts": {
+              "tp": 31,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0135",
+            "counts": {
+              "tp": 41,
+              "fp": 2,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0139",
+            "counts": {
+              "tp": 39,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0141",
+            "counts": {
+              "tp": 102,
+              "fp": 12,
+              "fn": 11
+            }
+          },
+          {
+            "case_id": "0147",
+            "counts": {
+              "tp": 54,
+              "fp": 1,
+              "fn": 6
+            }
+          },
+          {
+            "case_id": "0148",
+            "counts": {
+              "tp": 45,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0149",
+            "counts": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0170",
+            "counts": {
+              "tp": 122,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0183",
+            "counts": {
+              "tp": 42,
+              "fp": 2,
+              "fn": 3
+            }
+          },
+          {
+            "case_id": "0185",
+            "counts": {
+              "tp": 60,
+              "fp": 3,
+              "fn": 5
+            }
+          },
+          {
+            "case_id": "0195",
+            "counts": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0208",
+            "counts": {
+              "tp": 25,
+              "fp": 7,
+              "fn": 22
+            }
+          },
+          {
+            "case_id": "0213",
+            "counts": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0224",
+            "counts": {
+              "tp": 12,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0227",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0229",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0235",
+            "counts": {
+              "tp": 18,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0236",
+            "counts": {
+              "tp": 10,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0239",
+            "counts": {
+              "tp": 51,
+              "fp": 1,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0240",
+            "counts": {
+              "tp": 10,
+              "fp": 1,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0251",
+            "counts": {
+              "tp": 66,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0264",
+            "counts": {
+              "tp": 12,
+              "fp": 3,
+              "fn": 2
+            }
+          },
+          {
+            "case_id": "0267",
+            "counts": {
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0268",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0274",
+            "counts": {
+              "tp": 35,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0278",
+            "counts": {
+              "tp": 79,
+              "fp": 2,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0286",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 1
+            }
+          },
+          {
+            "case_id": "0287",
+            "counts": {
+              "tp": 6,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0294",
+            "counts": {
+              "tp": 14,
+              "fp": 0,
+              "fn": 0
+            }
+          },
+          {
+            "case_id": "0297",
+            "counts": {
+              "tp": 29,
+              "fp": 0,
+              "fn": 2
+            }
+          }
+        ]
+      },
+      "retuned_thresholds": {
+        "antenna": 0.2,
+        "battery": 0.899901,
+        "buzzer": 0.25,
+        "capacitor": 0.696406,
+        "circle_header": 0.2,
+        "crystal": 0.450774,
+        "current_source": 0.2,
+        "diode": 0.719809,
+        "esd": 0.2,
+        "fuse": 0.2,
+        "ground": 0.719587,
+        "ic": 0.51955,
+        "inductor": 0.738753,
+        "led": 0.714942,
+        "mosfet": 0.2,
+        "motor": 0.2,
+        "net_input": 0.404243,
+        "net_output": 0.93051,
+        "net_short": 0.2,
+        "opamp": 0.926422,
+        "optocoupler": 0.2,
+        "other": 0.2,
+        "pin_port": 0.805684,
+        "raw_block": 0.2,
+        "raw_dc": 0.2,
+        "raw_m": 0.2,
+        "resistor": 0.580645,
+        "switch": 0.61697,
+        "testpoint": 0.2,
+        "transformer": 0.2,
+        "transistor": 0.922917,
+        "voltage_source": 0.641883
+      },
+      "deployment_latency_ms": {
+        "mean": 145.30424914969984,
+        "median": 131.54649990610778,
+        "p95": 276.3151499791999,
+        "warmup_images": 1,
+        "timed_images": 59,
+        "scope": "Preprocessing and fused whole/sliced inference; excludes image I/O, model load, and threshold search."
+      }
+    }
+  },
+  "best_delta_retuned_f1": -0.00546803000034235,
+  "best_delta_global_f1": -0.009582023694390651,
+  "paired_page_bootstrap": {
+    "ci95_delta_f1": [
+      -0.03307684618846811,
+      0.01734233541804812
+    ],
+    "resamples": 20000,
+    "caveat": "Does not correct threshold tuning or repeated validation selection bias."
+  },
+  "completed_at_utc": "2026-10-12T13:07:58.792174+00:00"
+}

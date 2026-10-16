@@ -1,0 +1,102 @@
+{
+  "purpose": "diagnostic conversion of existing predictions only; not shipped in inference image",
+  "official_rescoring_performed": false,
+  "source": "C:\\Users\\Pc\\Desktop\\新建文件夹\\第二次评测\\intermediate_files\\project_results",
+  "cases": [
+    {
+      "case": "1",
+      "components": 14,
+      "nested_pins": 35,
+      "predicted_ic_pins_structurally_readable": 23,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "2",
+      "components": 12,
+      "nested_pins": 19,
+      "predicted_ic_pins_structurally_readable": 7,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "3",
+      "components": 14,
+      "nested_pins": 7,
+      "predicted_ic_pins_structurally_readable": 3,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "4",
+      "components": 13,
+      "nested_pins": 10,
+      "predicted_ic_pins_structurally_readable": 6,
+      "nets": 1,
+      "wire_segments_structurally_readable": 3
+    },
+    {
+      "case": "5",
+      "components": 11,
+      "nested_pins": 14,
+      "predicted_ic_pins_structurally_readable": 8,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "6",
+      "components": 22,
+      "nested_pins": 12,
+      "predicted_ic_pins_structurally_readable": 8,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "7",
+      "components": 18,
+      "nested_pins": 12,
+      "predicted_ic_pins_structurally_readable": 6,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "8",
+      "components": 11,
+      "nested_pins": 17,
+      "predicted_ic_pins_structurally_readable": 9,
+      "nets": 1,
+      "wire_segments_structurally_readable": 4
+    },
+    {
+      "case": "9",
+      "components": 10,
+      "nested_pins": 6,
+      "predicted_ic_pins_structurally_readable": 4,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    },
+    {
+      "case": "10",
+      "components": 20,
+      "nested_pins": 10,
+      "predicted_ic_pins_structurally_readable": 4,
+      "nets": 0,
+      "wire_segments_structurally_readable": 0
+    }
+  ],
+  "target_type_map": {
+    "resistor": "r",
+    "capacitor": "c",
+    "inductor": "l",
+    "diode": "d",
+    "ic": "box",
+    "led": "led"
+  },
+  "prediction_text_geometry_membership_preserved": true,
+  "remaining_unknowns": [
+    "full type enum",
+    "Name semantics and null handling",
+    "official corrected scores",
+    "outer scoring wait"
+  ]
+}

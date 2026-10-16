@@ -1,0 +1,61 @@
+{
+  "image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+  "size": [
+    546,
+    294
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/tmp/pcb_b26zdzcu/p/observed_model_stage/completed_pin_text_result.json": "7f51a4e38431cbe8ce5f0b29579e0115e2d6e93821c2f9306be10d500683b1ba",
+    "/tmp/pcb_b26zdzcu/p/observed_model_stage/graph_proposals.json": "2c5fb3fb5f10d0e35b87da13932c04d95c3afa37715da483c9e30963cf7f6af0",
+    "/tmp/pcb_b26zdzcu/p/observed_model_stage/completed_component_records.json": "2df3c8b01a6d6bcb46148699bc1cfeeceba527cfc2fcc1e32ab3f58d5ee21a9b",
+    "/tmp/pcb_b26zdzcu/p/observed_model_stage/proposal_export/partial_submission.json": "f441703ce59f698021f1d631ff3f0d5f860ecf9ec2f71fc2cd3659b29654b984",
+    "/tmp/pcb_b26zdzcu/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "53830f7dd784c50448e6cdb3d18febe5028d2d7b0c5a2609865d4caf66320173"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00026",
+      "all_original_member_ids": [
+        "PIN_CAND_0015",
+        "PIN_CAND_0018"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0015": "PIN_CAND_0015",
+        "PIN_CAND_0018": "PIN_CAND_0018"
+      },
+      "all_pin_references": [
+        "JTAG.15",
+        "RESET#.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00066"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0015",
+          "contact_candidate_id": "PIN_CAND_0015",
+          "pin_reference": "JTAG.15",
+          "number_source": "observed_OCR_text",
+          "name_source": "observed_OCR_text",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0018",
+          "contact_candidate_id": "PIN_CAND_0018",
+          "pin_reference": "RESET#.1",
+          "number_source": "PDF_0803Rev1_page18_c_single_tip_label_rule",
+          "name_source": "PDF_0803Rev1_page25_RUN_1_pinname_example",
+          "engineering_fields": []
+        }
+      ],
+      "contains_engineering_conventions": false
+    }
+  ]
+}

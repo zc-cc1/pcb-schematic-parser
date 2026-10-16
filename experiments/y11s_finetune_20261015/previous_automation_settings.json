@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "gpu-yolo11s",
+  "kind": "heartbeat",
+  "name": "GPU空闲后运行YOLO11s匹配对照",
+  "prompt": "继续本聊天中用户明确授权的YOLO11s实验，等待GPU空闲后以与本聊天v8n/11n对照完全相同的训练配置运行。新实验目录是 C:\\Users\\Pc\\Desktop\\vision\\experiments\\y11s_matched_control_20261015；不要混用10月12日已完成的 y11s_match_v8n_coco_20261012 实验。新实验的数据副本、COCO初始权重、冻结protocol.json、run_y11s.py以及CPU验证已准备完成。读取新目录的status.json。若状态为waiting_for_gpu，使用PowerShell运行 & 'C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\.venv-gpu\\Scripts\\python.exe' -X utf8 'C:\\Users\\Pc\\Desktop\\vision\\experiments\\y11s_matched_control_20261015\\run_y11s.py' --launch-if-idle，工作目录为新实验目录。该命令只在连续3次间隔10秒的采样均显示无训练等计算进程、GPU利用率<=10%、空闲显存>=6500MiB时隐藏启动后台训练，并带有防重复启动锁；忙碌时只记录等待状态。不要中断其他GPU进程，不要另起训练命令，不要因为日志或结果文件暂未生成而重复启动。若状态为starting、verifying、training、evaluating或evaluating_ap，按需查看status.json、training_record.json及stdout.log/stderr.log尾部，保持安静并等待完成。collect阶段也可能写status=evaluating。若进程明确消失且状态长时间不再更新，先核实process.json和检查点，再报告具体失败；不得从头重跑。训练为官方COCO YOLO11s、种子20261012、418张训练样本、30页校准/29页评分、1536、batch4、AMP、AdamW、lr0=0.0003、最多120轮、patience25，全部超参数与冻结父协议一致。禁止自动降低batch或分辨率、延长预算、改变数据划分或替换部署模型。显存不足或训练失败时记录具体原因并向用户报告；若只有评估代码失败且已保存完整trained记录，可修复评估脚本并以 --run 使用已训练权重继续评估，不能重新训练。等待或正常运行期间不发例行进度，只在完成、明确失败或需要用户行动时回报。完成时确认status=completed、输入哈希核验通过及baseline_reproduction.json的exact_counts_reproduced为true，读取comparison.md/json，中文报告11s与同种子新v8n、11n的Precision/Recall/F1、固定conf0.2 F1、整图mAP50-95、实际轮数、主要逐类差异和条件分组bootstrap区间，并给出是否值得替换的谨慎结论及报告链接，说明单种子、旧开发集、不同COCO预训练及v8n断点续训的限制。完成或明确失败并报告后停止此heartbeat，避免重复通知。用户后续暂停、取消或修改时以最新指示为准。\n用户已在本聊天明确回复“可以开始训练了”，授权修复字体缓存后的零轮重试。先前失败未完成任何训练轮次，已归档到新实验目录的startup_archive/font_download_failure_20261015_0744，retry_scope.json记录本次授权；root的startup_failure.json仅为历史记录。以当前status.json、training_record.json及新的stdout/stderr日志为准，不要把归档错误误判为本次运行失败。",
+  "status": "PAUSED",
+  "rrule": "FREQ=MINUTELY;INTERVAL=5",
+  "target_thread_id": "01a135f1-6159-78d2-90d2-2bdb0db715d5",
+  "created_at": 1792049290306,
+  "updated_at": 1792062369863
+}

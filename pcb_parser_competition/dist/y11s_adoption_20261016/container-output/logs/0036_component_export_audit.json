@@ -1,0 +1,75 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 9
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0011",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 10
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 11
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0013",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 12
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0016",
+      "type": "vcc",
+      "value": "VDD",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "VDD",
+          "bbox": [
+            305.5,
+            118.5,
+            343.0,
+            136.5
+          ],
+          "views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90",
+            "tile_64_0_r0",
+            "tile_64_0_r90"
+          ]
+        }
+      ],
+      "detection_index": 15
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "added_count": 5,
+  "type_counts": {
+    "gnd": 4,
+    "vcc": 1
+  },
+  "value_counts": {
+    "null": 4,
+    "observed": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "assistant visual review only; not inference input, training label, official Golden or score reference",
+  "reviews": [
+    {
+      "case_id": "0002",
+      "image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "network_id": "LOG_NET_CAND_00002",
+      "card_sha256": "0d3a0855495ddb0983d95e08e1f5e12f9e2a1939ca260381c49052169ac132ed",
+      "submission_candidate_sha256": "ae8c88d26b8f24ddf7c3b40f9bfab4bdb50c726990479f8e792cb1258fa20464",
+      "visible_member_references": [
+        "C86.1",
+        "IC2.R8",
+        "X2.3"
+      ],
+      "local_three_way_connectivity_checked_against_PNG": true,
+      "official_pinname_and_5px_tip_accuracy_verified": false,
+      "notes": "XTALN/R8 wire joins X2 pin 3 and C86 pin 1 at XN junction. Pinname=number on passive terminals is still a provisional convention; the full page remains incomplete."
+    },
+    {
+      "case_id": "0002",
+      "network_id": "LOG_NET_CAND_00001",
+      "power_omission_confirmed_in_visible_region": true,
+      "notes": "Detected +1V8 symbol has no model-owned pin; exporter withholds this net rather than omit the symbol."
+    },
+    {
+      "case_id": "0018",
+      "candidate_id": "PIN_CAND_0091",
+      "observed_number_glyph_visual_review": true,
+      "printed_number": "1",
+      "notes": "X2 lower terminal shows a rotated 1. Number-as-name is still provisional."
+    }
+  ]
+}

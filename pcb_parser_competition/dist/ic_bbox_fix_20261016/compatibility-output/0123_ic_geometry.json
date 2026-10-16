@@ -1,0 +1,138 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    1474,
+    757
+  ],
+  "entries": [
+    {
+      "component_id": "DET_0",
+      "before_bbox_bottom_left": [
+        965.86,
+        305.83,
+        1130.957,
+        511.505
+      ],
+      "after_bbox_bottom_left": [
+        974.0,
+        312.0,
+        1123.0,
+        504.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          924,
+          194,
+          1173,
+          503
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 2,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            974.0,
+            253.0,
+            1123.0,
+            445.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9957027401580026
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "DET_2",
+      "before_bbox_bottom_left": [
+        490.502,
+        238.98400000000004,
+        720.618,
+        716.189
+      ],
+      "after_bbox_bottom_left": [
+        505.0,
+        248.0,
+        697.0,
+        697.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          432,
+          0,
+          779,
+          638
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 4
+        },
+        "best": {
+          "bbox_top_left": [
+            505.0,
+            60.0,
+            697.0,
+            509.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9930313764848018
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "DET_14",
+      "before_bbox_bottom_left": [
+        1337.238,
+        269.942,
+        1439.913,
+        544.083
+      ],
+      "after_bbox_bottom_left": [
+        1337.238,
+        269.942,
+        1439.913,
+        544.083
+      ],
+      "changed": false,
+      "evidence": {
+        "roi_top_left": [
+          1311,
+          144,
+          1466,
+          556
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 3
+        },
+        "reason": "rectangle_sides_incomplete"
+      }
+    }
+  ],
+  "changed_IC_boxes": 2,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup."
+}

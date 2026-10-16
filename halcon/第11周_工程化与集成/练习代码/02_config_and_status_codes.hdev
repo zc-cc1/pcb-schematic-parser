@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第11周第2天：参数集中管理，状态码保持稳定</c><c>* [逐行] 关闭HDevelop自动更新，避免逐条执行时产生不必要的刷新。</c>
+<l>dev_update_off ()</l><c>* [逐行] 关闭当前HDevelop图形窗口，防止重复运行时窗口不断累积。</c>
+<l>dev_close_window ()</l><c>* [逐行] 设置文本或标识信息变量 ConfigNames 的元组数据，供后续批量处理。</c>
+<l>ConfigNames := ['threshold','min_area','max_area','version']</l><c>* [逐行] 设置控制变量变量 ConfigValues 的元组数据，供后续批量处理。</c>
+<l>ConfigValues := [180,80,999999,'1.0.0']</l><c>* [逐行] 从元组中读取指定元素或组合数据，并保存到 ThresholdValue。</c>
+<l>ThresholdValue := ConfigValues[0]</l><c>* [逐行] 从元组中读取指定元素或组合数据，并保存到 MinArea。</c>
+<l>MinArea := ConfigValues[1]</l><c>* [逐行] 从元组中读取指定元素或组合数据，并保存到 MaxArea。</c>
+<l>MaxArea := ConfigValues[2]</l><c>* [逐行] 读取指定图像文件或HALCON示例图像，并保存到输出图像变量。</c>
+<l>read_image (Image,'fabrik')</l><c>* [逐行] 按灰度上下限对图像做阈值分割，生成满足条件的区域。</c>
+<l>threshold (Image,Region,ThresholdValue,255)</l><c>* [逐行] 把一个区域按连通性拆分成多个互不相连的区域。</c>
+<l>connection (Region,Connected)</l><c>* [逐行] 按照面积、宽高或其他形状特征筛选连通区域。</c>
+<l>select_shape (Connected,Selected,'area','and',MinArea,MaxArea)</l><c>* [逐行] 统计图形对象数组中的对象数量。</c>
+<l>count_obj (Selected,Count)</l><c>* [逐行] 判断括号中的条件；条件为真时执行当前分支。</c>
+<l>if (Count &gt; 0)</l><c>* [逐行] 设置检测状态变量 StatusCode 的数值初值或阈值。</c>
+<l>    StatusCode := 0</l><c>* [逐行] 设置检测状态变量 StatusText 的字符串值。</c>
+<l>    StatusText := 'OK'</l><c>* [逐行] 前面的条件均不成立时执行这个分支。</c>
+<l>else</l><c>* [逐行] 设置检测状态变量 StatusCode 的数值初值或阈值。</c>
+<l>    StatusCode := 10</l><c>* [逐行] 设置检测状态变量 StatusText 的字符串值。</c>
+<l>    StatusText := 'NO_OBJECT'</l><c>* [逐行] 结束当前条件分支。</c>
+<l>endif</l><c>* [逐行] 读取图像宽度和高度，供窗口、ROI或边界计算使用。</c>
+<l>get_image_size (Image,Width,Height)</l><c>* [逐行] 按照给定位置和尺寸打开HDevelop图形窗口，并取得窗口句柄。</c>
+<l>dev_open_window (0,0,Width,Height,'black',WindowHandle)</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Image)</l><c>* [逐行] 设置后续图形对象的显示颜色。</c>
+<l>dev_set_color ('green')</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Selected)</l><c>* [逐行] 在指定窗口位置显示说明文字、参数或检测结果。</c>
+<l>disp_text (WindowHandle,['配置名称：',ConfigNames,'配置值：',ConfigValues,'状态：' + StatusCode + ' / ' + StatusText], 'window',12,12,'white',['box_color'],['black'])</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>

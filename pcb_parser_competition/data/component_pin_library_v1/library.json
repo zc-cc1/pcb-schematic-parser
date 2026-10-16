@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "parts": [
+    {
+      "model": "STM32F103C8T6",
+      "package": "LQFP48",
+      "pin_count": 48,
+      "pins": [
+        {
+          "number": "1",
+          "datasheet_primary_name": "VBAT",
+          "observed_primary_tokens": [
+            "VBAT"
+          ]
+        },
+        {
+          "number": "2",
+          "datasheet_primary_name": "PC13-TAMPER-RTC",
+          "observed_primary_tokens": [
+            "PC13"
+          ]
+        },
+        {
+          "number": "3",
+          "datasheet_primary_name": "PC14-OSC32_IN",
+          "observed_primary_tokens": [
+            "PC14"
+          ]
+        },
+        {
+          "number": "4",
+          "datasheet_primary_name": "PC15-OSC32_OUT",
+          "observed_primary_tokens": [
+            "PC15"
+          ]
+        },
+        {
+          "number": "5",
+          "datasheet_primary_name": "PD0-OSC_IN",
+          "observed_primary_tokens": [
+            "PD0"
+          ]
+        },
+        {
+          "number": "6",
+          "datasheet_primary_name": "PD1-OSC_OUT",
+          "observed_primary_tokens": [
+            "PD1"
+          ]
+        },
+        {
+          "number": "7",
+          "datasheet_primary_name": "NRST",
+          "observed_primary_tokens": [
+            "NRST"
+          ]
+        },
+        {
+          "number": "8",
+          "datasheet_primary_name": "VSSA",
+          "observed_primary_tokens": [
+            "VSSA"
+          ]
+        },
+        {
+          "number": "9",
+          "datasheet_primary_name": "VDDA",
+          "observed_primary_tokens": [
+            "VDDA"
+          ]
+        },
+        {
+          "number": "10",
+          "datasheet_primary_name": "PA0-WKUP",
+          "observed_primary_tokens": [
+            "PA0"
+          ]
+        },
+        {
+          "number": "11",
+          "datasheet_primary_name": "PA1",
+          "observed_primary_tokens": [
+            "PA1"
+          ]
+        },
+        {
+          "number": "12",
+          "datasheet_primary_name": "PA2",
+          "observed_primary_tokens": [
+            "PA2"
+          ]
+        },
+        {
+          "number": "13",
+          "datasheet_primary_name": "PA3",
+          "observed_primary_tokens": [
+            "PA3"
+          ]
+        },
+        {
+          "number": "14",
+          "datasheet_primary_name": "PA4",
+          "observed_primary_tokens": [
+            "PA4"
+          ]
+        },
+        {
+          "number": "15",
+          "datasheet_primary_name": "PA5",
+          "observed_primary_tokens": [
+            "PA5"
+          ]
+        },
+        {
+          "number": "16",
+          "datasheet_primary_name": "PA6",
+          "observed_primary_tokens": [
+            "PA6"
+          ]
+        },
+        {
+          "number": "17",
+          "datasheet_primary_name": "PA7",
+          "observed_primary_tokens": [
+            "PA7"
+          ]
+        },
+        {
+          "number": "18",
+          "datasheet_primary_name": "PB0",
+          "observed_primary_tokens": [
+            "PB0"
+          ]
+        },
+        {
+          "number": "19",
+          "datasheet_primary_name": "PB1",
+          "observed_primary_tokens": [
+            "PB1"
+          ]
+        },
+        {
+          "number": "20",
+          "datasheet_primary_name": "PB2",
+          "observed_primary_tokens": [
+            "PB2"
+          ]
+        },
+        {
+          "number": "21",
+          "datasheet_primary_name": "PB10",
+          "observed_primary_tokens": [
+            "PB10"
+          ]
+        },
+        {
+          "number": "22",
+          "datasheet_primary_name": "PB11",
+          "observed_primary_tokens": [
+            "PB11"
+          ]
+        },
+        {
+          "number": "23",
+          "datasheet_primary_name": "VSS_1",
+          "observed_primary_tokens": [
+            "VSS_1"
+          ]
+        },
+        {
+          "number": "24",
+          "datasheet_primary_name": "VDD_1",
+          "observed_primary_tokens": [
+            "VDD_1"
+          ]
+        },
+        {
+          "number": "25",
+          "datasheet_primary_name": "PB12",
+          "observed_primary_tokens": [
+            "PB12"
+          ]
+        },
+        {
+          "number": "26",
+          "datasheet_primary_name": "PB13",
+          "observed_primary_tokens": [
+            "PB13"
+          ]
+        },
+        {
+          "number": "27",
+          "datasheet_primary_name": "PB14",
+          "observed_primary_tokens": [
+            "PB14"
+          ]
+        },
+        {
+          "number": "28",
+          "datasheet_primary_name": "PB15",
+          "observed_primary_tokens": [
+            "PB15"
+          ]
+        },
+        {
+          "number": "29",
+          "datasheet_primary_name": "PA8",
+          "observed_primary_tokens": [
+            "PA8"
+          ]
+        },
+        {
+          "number": "30",
+          "datasheet_primary_name": "PA9",
+          "observed_primary_tokens": [
+            "PA9"
+          ]
+        },
+        {
+          "number": "31",
+          "datasheet_primary_name": "PA10",
+          "observed_primary_tokens": [
+            "PA10"
+          ]
+        },
+        {
+          "number": "32",
+          "datasheet_primary_name": "PA11",
+          "observed_primary_tokens": [
+            "PA11"
+          ]
+        },
+        {
+          "number": "33",
+          "datasheet_primary_name": "PA12",
+          "observed_primary_tokens": [
+            "PA12"
+          ]
+        },
+        {
+          "number": "34",
+          "datasheet_primary_name": "PA13",
+          "observed_primary_tokens": [
+            "PA13"
+          ]
+        },
+        {
+          "number": "35",
+          "datasheet_primary_name": "VSS_2",
+          "observed_primary_tokens": [
+            "VSS_2"
+          ]
+        },
+        {
+          "number": "36",
+          "datasheet_primary_name": "VDD_2",
+          "observed_primary_tokens": [
+            "VDD_2"
+          ]
+        },
+        {
+          "number": "37",
+          "datasheet_primary_name": "PA14",
+          "observed_primary_tokens": [
+            "PA14"
+          ]
+        },
+        {
+          "number": "38",
+          "datasheet_primary_name": "PA15",
+          "observed_primary_tokens": [
+            "PA15"
+          ]
+        },
+        {
+          "number": "39",
+          "datasheet_primary_name": "PB3",
+          "observed_primary_tokens": [
+            "PB3"
+          ]
+        },
+        {
+          "number": "40",
+          "datasheet_primary_name": "PB4",
+          "observed_primary_tokens": [
+            "PB4"
+          ]
+        },
+        {
+          "number": "41",
+          "datasheet_primary_name": "PB5",
+          "observed_primary_tokens": [
+            "PB5"
+          ]
+        },
+        {
+          "number": "42",
+          "datasheet_primary_name": "PB6",
+          "observed_primary_tokens": [
+            "PB6"
+          ]
+        },
+        {
+          "number": "43",
+          "datasheet_primary_name": "PB7",
+          "observed_primary_tokens": [
+            "PB7"
+          ]
+        },
+        {
+          "number": "44",
+          "datasheet_primary_name": "BOOT0",
+          "observed_primary_tokens": [
+            "BOOT0"
+          ]
+        },
+        {
+          "number": "45",
+          "datasheet_primary_name": "PB8",
+          "observed_primary_tokens": [
+            "PB8"
+          ]
+        },
+        {
+          "number": "46",
+          "datasheet_primary_name": "PB9",
+          "observed_primary_tokens": [
+            "PB9"
+          ]
+        },
+        {
+          "number": "47",
+          "datasheet_primary_name": "VSS_3",
+          "observed_primary_tokens": [
+            "VSS_3"
+          ]
+        },
+        {
+          "number": "48",
+          "datasheet_primary_name": "VDD_3",
+          "observed_primary_tokens": [
+            "VDD_3"
+          ]
+        }
+      ],
+      "source": {
+        "publisher": "STMicroelectronics",
+        "document": "DS5319 Rev 20",
+        "revision_date": "2025-07-28",
+        "url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+        "local_path": "data/component_pin_library_v1/sources/stm32f103c8.pdf",
+        "sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+        "pinout_pdf_page": 26,
+        "pinout_figure": 8,
+        "ordering_pdf_page": 104,
+        "reviewed_pinout_image": "tmp/stm32_datasheet-026.png"
+      }
+    }
+  ],
+  "scope": "Public manufacturer pin mapping facts only; literal schematic pinname remains observed OCR. No CAD/source dataset fields."
+}

@@ -1,0 +1,3348 @@
+{
+  "cases": [
+    {
+      "id": "1",
+      "pass": 23,
+      "mismatch": 9,
+      "ordinaryMissing": 7,
+      "powerMissing": 19,
+      "f1": 0.511111
+    },
+    {
+      "id": "2",
+      "pass": 8,
+      "mismatch": 4,
+      "ordinaryMissing": 0,
+      "powerMissing": 16,
+      "f1": 0.4
+    },
+    {
+      "id": "3",
+      "pass": 13,
+      "mismatch": 1,
+      "ordinaryMissing": 1,
+      "powerMissing": 11,
+      "f1": 0.65
+    },
+    {
+      "id": "4",
+      "pass": 12,
+      "mismatch": 1,
+      "ordinaryMissing": 0,
+      "powerMissing": 11,
+      "f1": 0.648649
+    },
+    {
+      "id": "5",
+      "pass": 7,
+      "mismatch": 4,
+      "ordinaryMissing": 0,
+      "powerMissing": 15,
+      "f1": 0.378378
+    },
+    {
+      "id": "6",
+      "pass": 19,
+      "mismatch": 3,
+      "ordinaryMissing": 0,
+      "powerMissing": 16,
+      "f1": 0.633333
+    },
+    {
+      "id": "7",
+      "pass": 17,
+      "mismatch": 1,
+      "ordinaryMissing": 0,
+      "powerMissing": 6,
+      "f1": 0.809524
+    },
+    {
+      "id": "8",
+      "pass": 10,
+      "mismatch": 1,
+      "ordinaryMissing": 0,
+      "powerMissing": 9,
+      "f1": 0.645161
+    },
+    {
+      "id": "9",
+      "pass": 8,
+      "mismatch": 2,
+      "ordinaryMissing": 0,
+      "powerMissing": 7,
+      "f1": 0.592593
+    },
+    {
+      "id": "10",
+      "pass": 19,
+      "mismatch": 1,
+      "ordinaryMissing": 0,
+      "powerMissing": 9,
+      "f1": 0.77551
+    },
+    {
+      "id": "11",
+      "pass": 4,
+      "mismatch": 2,
+      "ordinaryMissing": 4,
+      "powerMissing": 5,
+      "f1": 0.380952
+    },
+    {
+      "id": "12",
+      "pass": 5,
+      "mismatch": 4,
+      "ordinaryMissing": 6,
+      "powerMissing": 6,
+      "f1": 0.333333
+    },
+    {
+      "id": "13",
+      "pass": 5,
+      "mismatch": 9,
+      "ordinaryMissing": 2,
+      "powerMissing": 4,
+      "f1": 0.285714
+    }
+  ],
+  "items": [
+    {
+      "caseId": "1",
+      "id": "BAT",
+      "type": "vbus_in",
+      "name": "BAT",
+      "value": null,
+      "bbox": [
+        1378.097,
+        891.088,
+        1427.584,
+        919.082
+      ],
+      "status": "mismatch",
+      "failed": [
+        "type",
+        "value"
+      ],
+      "maxError": 4.903
+    },
+    {
+      "caseId": "1",
+      "id": "C10",
+      "type": "c",
+      "name": "C10",
+      "value": "220uF",
+      "bbox": [
+        544.769,
+        779.891,
+        564.769,
+        795.891
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "C11",
+      "type": "c",
+      "name": "C11",
+      "value": "220uF",
+      "bbox": [
+        1465.553,
+        995.3165,
+        1481.553,
+        1015.3165
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "C12",
+      "type": "c",
+      "name": "C12",
+      "value": "220uF",
+      "bbox": [
+        1248.0545,
+        698.6345,
+        1264.0545,
+        718.6345
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "C13",
+      "type": "c",
+      "name": "C13",
+      "value": "220uF",
+      "bbox": [
+        1591.7375,
+        127.079,
+        1611.7375,
+        143.079
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "C14",
+      "type": "c",
+      "name": "C14",
+      "value": "220uF",
+      "bbox": [
+        1868.2405,
+        126.9485,
+        1888.2405,
+        142.9485
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "C9",
+      "type": "c",
+      "name": "C9",
+      "value": "104nF",
+      "bbox": [
+        1482.6275,
+        601.421,
+        1502.6275,
+        617.421
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "D1",
+      "type": "d",
+      "name": "SS34",
+      "value": null,
+      "bbox": [
+        1830.4165,
+        167.8505,
+        1850.4165,
+        181.8505
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": "2.2uH",
+      "bbox": [
+        1179.9525,
+        904.439,
+        1213.9525,
+        910.439
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "L2",
+      "type": "l",
+      "name": "L2",
+      "value": "4.7uH",
+      "bbox": [
+        1711.162,
+        165.434,
+        1745.162,
+        171.434
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "LED+",
+      "type": "vbus_in",
+      "name": "LED+",
+      "value": null,
+      "bbox": [
+        2120.7,
+        160.964,
+        2169.606,
+        186.941
+      ],
+      "status": "mismatch",
+      "failed": [
+        "type",
+        "value"
+      ],
+      "maxError": 3.606
+    },
+    {
+      "caseId": "1",
+      "id": "LED-",
+      "type": "vbus_in",
+      "name": "LED-",
+      "value": null,
+      "bbox": [
+        2149.018,
+        238.688,
+        2197.802,
+        266.683
+      ],
+      "status": "mismatch",
+      "failed": [
+        "type",
+        "value"
+      ],
+      "maxError": 4.802
+    },
+    {
+      "caseId": "1",
+      "id": "LED1",
+      "type": "led",
+      "name": "ED1",
+      "value": null,
+      "bbox": [
+        637.0975,
+        697.3335,
+        657.0975,
+        711.3335
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 17.0975
+    },
+    {
+      "caseId": "1",
+      "id": "LED2",
+      "type": "led",
+      "name": null,
+      "value": null,
+      "bbox": [
+        684.6705,
+        700.223,
+        704.6705,
+        714.223
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name",
+        "bbox"
+      ],
+      "maxError": 20.3295
+    },
+    {
+      "caseId": "1",
+      "id": "LED3",
+      "type": "led",
+      "name": "ED3",
+      "value": null,
+      "bbox": [
+        804.8735,
+        695.569,
+        818.8735,
+        715.569
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name",
+        "bbox"
+      ],
+      "maxError": 45.8735
+    },
+    {
+      "caseId": "1",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "1k",
+      "bbox": [
+        1561.998,
+        564.873,
+        1581.998,
+        572.873
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R10",
+      "type": "r",
+      "name": "R10",
+      "value": "10k",
+      "bbox": [
+        2128.6375,
+        302.308,
+        2136.6375,
+        322.308
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R11",
+      "type": "r",
+      "name": "R11",
+      "value": "220k",
+      "bbox": [
+        2070.996,
+        202.893,
+        2078.996,
+        222.893
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R12",
+      "type": "r",
+      "name": "R12",
+      "value": "10K",
+      "bbox": [
+        1355.1505,
+        673.929,
+        1375.1505,
+        681.929
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 21.1505
+    },
+    {
+      "caseId": "1",
+      "id": "R13",
+      "type": "r",
+      "name": "R13",
+      "value": null,
+      "bbox": [
+        307.0435,
+        901.175,
+        327.0435,
+        909.175
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 10.0435
+    },
+    {
+      "caseId": "1",
+      "id": "R14",
+      "type": "r",
+      "name": "R14",
+      "value": "5",
+      "bbox": [
+        306.907,
+        782.365,
+        326.907,
+        790.365
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 10.093
+    },
+    {
+      "caseId": "1",
+      "id": "R15",
+      "type": "r",
+      "name": "R15",
+      "value": "1k",
+      "bbox": [
+        2051.6695,
+        284.6685,
+        2059.6695,
+        304.6685
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R16",
+      "type": "r",
+      "name": "R16",
+      "value": "12k",
+      "bbox": [
+        1893.241,
+        282.869,
+        1901.241,
+        302.869
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R17",
+      "type": "r",
+      "name": "R17",
+      "value": "12k",
+      "bbox": [
+        1942.576,
+        281.493,
+        1950.576,
+        301.493
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R18",
+      "type": "r",
+      "name": "R18",
+      "value": "12k",
+      "bbox": [
+        1994.4285,
+        281.58,
+        2002.4285,
+        301.58
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R19",
+      "type": "r",
+      "name": "R19",
+      "value": "20k",
+      "bbox": [
+        1844.2345,
+        283.5635,
+        1852.2345,
+        303.5635
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10k",
+      "bbox": [
+        1102.8265,
+        775.9765,
+        1110.8265,
+        795.9765
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R20",
+      "type": "r",
+      "name": "R20",
+      "value": "20k",
+      "bbox": [
+        1795.127,
+        283.4435,
+        1803.127,
+        303.4435
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "100k",
+      "bbox": [
+        1596.994,
+        263.415,
+        1604.994,
+        283.415
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "U1",
+      "type": "box",
+      "name": "IP5306-4.35V",
+      "value": null,
+      "bbox": [
+        915.398,
+        838.952,
+        1099.776,
+        955.023
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "U2",
+      "type": "box",
+      "name": "SX1308",
+      "value": null,
+      "bbox": [
+        1668.178,
+        187.185,
+        1789.091,
+        277.5
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "1",
+      "id": "U3",
+      "type": "box",
+      "name": "XB7608A",
+      "value": null,
+      "bbox": [
+        1332.056,
+        542.885,
+        1454.95,
+        633.777
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        489.218,
+        646.439,
+        497.218,
+        666.439
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        572.247,
+        643.6565,
+        580.247,
+        663.6565
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "10K",
+      "bbox": [
+        890.0735,
+        652.8165,
+        898.0735,
+        672.8165
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "10K",
+      "bbox": [
+        973.1985,
+        649.777,
+        981.1985,
+        669.777
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R5",
+      "type": "r",
+      "name": "R5",
+      "value": "10K",
+      "bbox": [
+        678.8905,
+        273.2975,
+        686.8905,
+        293.2975
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R6",
+      "type": "r",
+      "name": "R6",
+      "value": "10K",
+      "bbox": [
+        761.826,
+        271.2095,
+        769.826,
+        291.2095
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R7",
+      "type": "r",
+      "name": "R7",
+      "value": "10K",
+      "bbox": [
+        1149.1875,
+        279.5015,
+        1157.1875,
+        299.5015
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "R8",
+      "type": "r",
+      "name": "R8",
+      "value": "10K",
+      "bbox": [
+        1232.2085,
+        277.054,
+        1240.2085,
+        297.054
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "2",
+      "id": "U1",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        614.794,
+        715.521,
+        692.724,
+        825.813
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 13.206
+    },
+    {
+      "caseId": "2",
+      "id": "U2",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        1016.186,
+        720.531,
+        1094.837,
+        832.296
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 12.814
+    },
+    {
+      "caseId": "2",
+      "id": "U3",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        804.964,
+        340.898,
+        882.925,
+        451.672
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 13.036
+    },
+    {
+      "caseId": "2",
+      "id": "U4",
+      "type": "box",
+      "name": "HS96L03W2C0",
+      "value": null,
+      "bbox": [
+        1274.83,
+        346.821,
+        1353.97,
+        457.686
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 13.17
+    },
+    {
+      "caseId": "3",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "10uF",
+      "bbox": [
+        148.799,
+        636.2255,
+        164.799,
+        656.2255
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "100nF",
+      "bbox": [
+        289.1575,
+        632.201,
+        305.1575,
+        652.201
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        637.1425,
+        630.434,
+        657.1425,
+        646.434
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        1312.8025,
+        686.902,
+        1328.8025,
+        706.902
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1625.224,
+        700.013,
+        1641.224,
+        720.013
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        1793.1295,
+        695.793,
+        1813.1295,
+        711.793
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "D1",
+      "type": "d",
+      "name": "1N4007",
+      "value": null,
+      "bbox": [
+        1999.289,
+        561.145,
+        2013.289,
+        581.145
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        1207.8835,
+        770.148,
+        1241.8835,
+        776.148
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 17.8835
+    },
+    {
+      "caseId": "3",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "47K",
+      "bbox": [
+        414.783,
+        708.821,
+        434.783,
+        716.821
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "30K",
+      "bbox": [
+        520.216,
+        623.8235,
+        528.216,
+        643.8235
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "10K",
+      "bbox": [
+        1439.0625,
+        687.2345,
+        1447.0625,
+        707.2345
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "10K",
+      "bbox": [
+        1438.992,
+        522.956,
+        1446.992,
+        542.956
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "R5",
+      "type": "r",
+      "name": "R5",
+      "value": "10K",
+      "bbox": [
+        2002.1825,
+        677.361,
+        2010.1825,
+        697.361
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "3",
+      "id": "U1",
+      "type": "box",
+      "name": "SY8113BADC",
+      "value": null,
+      "bbox": [
+        801.784,
+        689.185,
+        947.281,
+        798.42
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        182.1055,
+        706.9875,
+        198.1055,
+        726.9875
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "100nF",
+      "bbox": [
+        275.092,
+        707.3705,
+        291.092,
+        727.3705
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        609.0715,
+        710.568,
+        625.0715,
+        730.568
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        753.4875,
+        720.1375,
+        769.4875,
+        740.1375
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1150.4095,
+        713.5905,
+        1170.4095,
+        729.5905
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "10uF",
+      "bbox": [
+        579.329,
+        280.713,
+        595.329,
+        300.713
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "1uF",
+      "bbox": [
+        1140.936,
+        280.584,
+        1156.936,
+        300.584
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "LED1",
+      "type": "led",
+      "name": "NCD0603Y2",
+      "value": null,
+      "bbox": [
+        971.6445,
+        439.4665,
+        991.6445,
+        453.4665
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        762.1945,
+        450.6065,
+        782.1945,
+        458.6065
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        694.2475,
+        258.9915,
+        702.2475,
+        278.9915
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "U1",
+      "type": "box",
+      "name": "XC6206P332MR",
+      "value": null,
+      "bbox": [
+        396.181,
+        775.383,
+        546.382,
+        849.152
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "4",
+      "id": "U2",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        1377.538,
+        744.649,
+        1545.087,
+        840.227
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 17.087
+    },
+    {
+      "caseId": "4",
+      "id": "U3",
+      "type": "box",
+      "name": "TP4054-MS",
+      "value": null,
+      "bbox": [
+        772.687,
+        292.922,
+        962.635,
+        387.68
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        217.107,
+        723.071,
+        237.107,
+        739.071
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "100nF",
+      "bbox": [
+        856.9805,
+        775.1445,
+        876.9805,
+        791.1445
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        1205.2505,
+        493.114,
+        1221.2505,
+        513.114
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        1845.514,
+        542.849,
+        1861.514,
+        562.849
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        373.259,
+        237.924,
+        393.259,
+        253.924
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        887.1715,
+        247.798,
+        907.1715,
+        263.798
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "5",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        309.0865,
+        864.2995,
+        343.0865,
+        870.2995
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 18.0865
+    },
+    {
+      "caseId": "5",
+      "id": "L2",
+      "type": "l",
+      "name": "L2",
+      "value": null,
+      "bbox": [
+        1295.5435,
+        635.613,
+        1329.5435,
+        641.613
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 17.5435
+    },
+    {
+      "caseId": "5",
+      "id": "U1",
+      "type": "box",
+      "name": "TPS61240DRVR",
+      "value": null,
+      "bbox": [
+        496.996,
+        740.02,
+        667.726,
+        893.179
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 27.004
+    },
+    {
+      "caseId": "5",
+      "id": "U2",
+      "type": "box",
+      "name": "TPS61240DRVR",
+      "value": null,
+      "bbox": [
+        1482.058,
+        510.82,
+        1653.513,
+        664.002
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 27.942
+    },
+    {
+      "caseId": "5",
+      "id": "U3",
+      "type": "box",
+      "name": "AMS1117-3.3",
+      "value": null,
+      "bbox": [
+        539.084,
+        303.815,
+        748.509,
+        389.901
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        188.8925,
+        275.71,
+        204.8925,
+        295.71
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C10",
+      "type": "c",
+      "name": "C10",
+      "value": "330nF",
+      "bbox": [
+        1728.25,
+        307.7105,
+        1744.25,
+        327.7105
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C11",
+      "type": "c",
+      "name": "C11",
+      "value": null,
+      "bbox": [
+        1284.265,
+        808.498,
+        1300.265,
+        828.498
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 11.498
+    },
+    {
+      "caseId": "6",
+      "id": "C12",
+      "type": "c",
+      "name": "C12",
+      "value": "100nF",
+      "bbox": [
+        2068.4535,
+        813.328,
+        2084.4535,
+        833.328
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "330nF",
+      "bbox": [
+        336.628,
+        280.8125,
+        352.628,
+        300.8125
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        672.7555,
+        292.0125,
+        688.7555,
+        312.0125
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "330nF",
+      "bbox": [
+        813.5045,
+        298.6315,
+        829.5045,
+        318.6315
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        313.47,
+        797.348,
+        329.47,
+        817.348
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        1095.9225,
+        803.211,
+        1115.9225,
+        819.211
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "100nF",
+      "bbox": [
+        1103.9145,
+        287.2205,
+        1119.9145,
+        307.2205
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C8",
+      "type": "c",
+      "name": "C8",
+      "value": "330nF",
+      "bbox": [
+        1251.8945,
+        291.5165,
+        1267.8945,
+        311.5165
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "C9",
+      "type": "c",
+      "name": "C9",
+      "value": "100nF",
+      "bbox": [
+        1588.072,
+        304.98,
+        1604.072,
+        324.98
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "LED1",
+      "type": "led",
+      "name": "GL0603UG01",
+      "value": null,
+      "bbox": [
+        645.541,
+        725.682,
+        665.541,
+        739.682
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "LED2",
+      "type": "led",
+      "name": "GL0603UG01",
+      "value": null,
+      "bbox": [
+        1615.6685,
+        737.1535,
+        1635.6685,
+        751.1535
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        520.2995,
+        847.303,
+        540.2995,
+        855.303
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        470.366,
+        738.1085,
+        490.366,
+        746.1085
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "10K",
+      "bbox": [
+        1490.629,
+        859.95,
+        1510.629,
+        867.95
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "10K",
+      "bbox": [
+        1441.8165,
+        749.6475,
+        1461.8165,
+        757.6475
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "U1",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        457.026,
+        430.236,
+        553.215,
+        575.696
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 17.764
+    },
+    {
+      "caseId": "6",
+      "id": "U2",
+      "type": "box",
+      "name": "STMPS2141STR",
+      "value": null,
+      "bbox": [
+        647.38,
+        825.026,
+        793.971,
+        917.442
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "6",
+      "id": "U3",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        1371.211,
+        443.345,
+        1468.071,
+        587.851
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 16.655
+    },
+    {
+      "caseId": "6",
+      "id": "U4",
+      "type": "box",
+      "name": "STMPS2141STR",
+      "value": null,
+      "bbox": [
+        1618.426,
+        838.151,
+        1763.312,
+        929.319
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "1uF",
+      "bbox": [
+        232.6715,
+        672.7475,
+        248.6715,
+        692.7475
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "22uF",
+      "bbox": [
+        327.5715,
+        673.271,
+        343.5715,
+        693.271
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "22uF",
+      "bbox": [
+        422.5635,
+        669.471,
+        438.5635,
+        689.471
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        1374.101,
+        491.066,
+        1390.101,
+        511.066
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1476.7165,
+        490.525,
+        1492.7165,
+        510.525
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        1581.68,
+        491.297,
+        1597.68,
+        511.297
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "100nF",
+      "bbox": [
+        1867.7425,
+        504.4965,
+        1883.7425,
+        524.4965
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C8",
+      "type": "c",
+      "name": "C8",
+      "value": "100nF",
+      "bbox": [
+        1249.5775,
+        652.1555,
+        1269.5775,
+        668.1555
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "C9",
+      "type": "c",
+      "name": "C9",
+      "value": "100nF",
+      "bbox": [
+        563.9825,
+        572.9975,
+        583.9825,
+        588.9975
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "D1",
+      "type": "d",
+      "name": "1N4007",
+      "value": null,
+      "bbox": [
+        109.171,
+        678.058,
+        123.171,
+        698.058
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        1354.6155,
+        619.3985,
+        1388.6155,
+        625.3985
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 17.3845
+    },
+    {
+      "caseId": "7",
+      "id": "LED1",
+      "type": "led",
+      "name": "NCD0603Y2",
+      "value": null,
+      "bbox": [
+        2037.0965,
+        303.19,
+        2057.0965,
+        317.19
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        1082.716,
+        655.6575,
+        1102.716,
+        663.6575
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        566.876,
+        687.058,
+        574.876,
+        707.058
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "10K",
+      "bbox": [
+        1703.505,
+        498.378,
+        1711.505,
+        518.378
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "10K",
+      "bbox": [
+        1703.7685,
+        287.18,
+        1711.7685,
+        307.18
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "R5",
+      "type": "r",
+      "name": "R5",
+      "value": "10K",
+      "bbox": [
+        2051.2795,
+        469.796,
+        2059.2795,
+        489.796
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "7",
+      "id": "U1",
+      "type": "box",
+      "name": "MP2236CGJ-Z",
+      "value": null,
+      "bbox": [
+        806.401,
+        549.809,
+        975.547,
+        684.433
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        1270.271,
+        832.262,
+        1290.271,
+        848.262
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "10nF",
+      "bbox": [
+        1424.1015,
+        834.714,
+        1440.1015,
+        854.714
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        1244.032,
+        611.1845,
+        1260.032,
+        631.1845
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        1378.775,
+        609.846,
+        1394.775,
+        629.846
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1473.7025,
+        636.1295,
+        1489.7025,
+        656.1295
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        1608.1085,
+        634.979,
+        1624.1085,
+        654.979
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "100nF",
+      "bbox": [
+        533.1755,
+        791.6005,
+        549.1755,
+        811.6005
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "C8",
+      "type": "c",
+      "name": "C8",
+      "value": "100nF",
+      "bbox": [
+        699.333,
+        792.888,
+        715.333,
+        812.888
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        716.617,
+        556.8065,
+        724.617,
+        576.8065
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        764.3935,
+        690.451,
+        772.3935,
+        710.451
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "8",
+      "id": "U1",
+      "type": "box",
+      "name": "PAW3395DM-T6QU",
+      "value": null,
+      "bbox": [
+        978.163,
+        395.568,
+        1185.956,
+        753.906
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 27.432
+    },
+    {
+      "caseId": "9",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        885.428,
+        712.0065,
+        905.428,
+        728.0065
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "22nF",
+      "bbox": [
+        1283.7925,
+        840.236,
+        1299.7925,
+        860.236
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        1424.152,
+        840.175,
+        1440.152,
+        860.175
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "22uF",
+      "bbox": [
+        1246.4975,
+        495.941,
+        1262.4975,
+        515.941
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1392.561,
+        499.247,
+        1408.561,
+        519.247
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        1129.3365,
+        717.8265,
+        1163.3365,
+        723.8265
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 17.3365
+    },
+    {
+      "caseId": "9",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "33K",
+      "bbox": [
+        645.5015,
+        664.7835,
+        653.5015,
+        684.7835
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        645.2185,
+        512.2085,
+        653.2185,
+        532.2085
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "100K",
+      "bbox": [
+        995.1445,
+        472.7105,
+        1003.1445,
+        492.7105
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "9",
+      "id": "U2",
+      "type": "box",
+      "name": "MT2492",
+      "value": null,
+      "bbox": [
+        821.761,
+        554.875,
+        982.361,
+        646.121
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 24.361
+    },
+    {
+      "caseId": "10",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": "100nF",
+      "bbox": [
+        734.63,
+        444.919,
+        754.63,
+        460.919
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        1113.9805,
+        432.584,
+        1129.9805,
+        452.584
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1202.588,
+        435.067,
+        1218.588,
+        455.067
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "100nF",
+      "bbox": [
+        1282.0715,
+        432.856,
+        1298.0715,
+        452.856
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "100nF",
+      "bbox": [
+        1616.127,
+        452.7685,
+        1632.127,
+        472.7685
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C8",
+      "type": "c",
+      "name": "C8",
+      "value": "100nF",
+      "bbox": [
+        1695.281,
+        455.2205,
+        1711.281,
+        475.2205
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "C9",
+      "type": "c",
+      "name": "C9",
+      "value": "100nF",
+      "bbox": [
+        1791.7845,
+        455.448,
+        1807.7845,
+        475.448
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "D1",
+      "type": "d",
+      "name": "1N4007",
+      "value": null,
+      "bbox": [
+        901.779,
+        412.06,
+        915.779,
+        432.06
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        1019.317,
+        521.7645,
+        1053.317,
+        527.7645
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 18.317
+    },
+    {
+      "caseId": "10",
+      "id": "LED1",
+      "type": "led",
+      "name": null,
+      "value": null,
+      "bbox": [
+        2032.9785,
+        442.6875,
+        2052.9785,
+        456.6875
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10K",
+      "bbox": [
+        205.4085,
+        648.9265,
+        225.4085,
+        656.9265
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "10K",
+      "bbox": [
+        774.824,
+        537.819,
+        794.824,
+        545.819
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "10K",
+      "bbox": [
+        1384.459,
+        437.038,
+        1392.459,
+        457.038
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "10K",
+      "bbox": [
+        1384.8155,
+        270.8965,
+        1392.8155,
+        290.8965
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R5",
+      "type": "r",
+      "name": "R5",
+      "value": "10K",
+      "bbox": [
+        1515.457,
+        445.26,
+        1523.457,
+        465.26
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R6",
+      "type": "r",
+      "name": "R6",
+      "value": "10K",
+      "bbox": [
+        1921.8665,
+        515.69,
+        1941.8665,
+        523.69
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R7",
+      "type": "r",
+      "name": "R7",
+      "value": "2K",
+      "bbox": [
+        212.3005,
+        448.5525,
+        220.3005,
+        468.5525
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "R8",
+      "type": "r",
+      "name": "R8",
+      "value": "10K",
+      "bbox": [
+        64.2115,
+        443.637,
+        72.2115,
+        463.637
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "U1",
+      "type": "box",
+      "name": "EG1192L",
+      "value": null,
+      "bbox": [
+        483.128,
+        457.249,
+        608.756,
+        587.698
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "10",
+      "id": "U2",
+      "type": "box",
+      "name": "CJ78L05",
+      "value": null,
+      "bbox": [
+        1596.512,
+        632.451,
+        1733.05,
+        743.767
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "11",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "10uF",
+      "bbox": [
+        810.2585,
+        341.5515,
+        826.2585,
+        361.5515
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "11",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "10uF",
+      "bbox": [
+        986.343,
+        561.778,
+        1006.343,
+        577.778
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "11",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": "1.5uH",
+      "bbox": [
+        880.523,
+        371.742,
+        914.523,
+        377.742
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "11",
+      "id": "LED1",
+      "type": "led",
+      "name": "NCD0805R1",
+      "value": null,
+      "bbox": [
+        1119.653,
+        381.432,
+        1133.653,
+        401.432
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 23.568
+    },
+    {
+      "caseId": "11",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "10kΩ",
+      "bbox": [
+        1091.433,
+        281.414,
+        1099.433,
+        301.414
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "11",
+      "id": "U1",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        945.076,
+        305.801,
+        1086.32,
+        417.616
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 11.32
+    },
+    {
+      "caseId": "12",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "470nF",
+      "bbox": [
+        238.2795,
+        469.5495,
+        254.2795,
+        489.5495
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "12",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": null,
+      "bbox": [
+        1102.509,
+        181.698,
+        1122.509,
+        197.698
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 19.491
+    },
+    {
+      "caseId": "12",
+      "id": "C3",
+      "type": "c",
+      "name": "C3",
+      "value": null,
+      "bbox": [
+        1512.036,
+        260.996,
+        1532.036,
+        276.996
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value"
+      ],
+      "maxError": 18.036
+    },
+    {
+      "caseId": "12",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": null,
+      "bbox": [
+        1150.8795,
+        400.7025,
+        1184.8795,
+        406.7025
+      ],
+      "status": "mismatch",
+      "failed": [
+        "value",
+        "bbox"
+      ],
+      "maxError": 29.8795
+    },
+    {
+      "caseId": "12",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "25mΩ",
+      "bbox": [
+        1339.8675,
+        396.3155,
+        1359.8675,
+        404.3155
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "12",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "4.7K",
+      "bbox": [
+        973.171,
+        422.8335,
+        993.171,
+        430.8335
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "12",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "104",
+      "bbox": [
+        405.679,
+        396.8575,
+        425.679,
+        404.8575
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "12",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "104",
+      "bbox": [
+        301.57,
+        396.958,
+        321.57,
+        404.958
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "12",
+      "id": "U1",
+      "type": "box",
+      "name": null,
+      "value": null,
+      "bbox": [
+        647.271,
+        364.894,
+        897.626,
+        543.527
+      ],
+      "status": "mismatch",
+      "failed": [
+        "Name"
+      ],
+      "maxError": 19.729
+    },
+    {
+      "caseId": "13",
+      "id": "C1",
+      "type": "c",
+      "name": "C1",
+      "value": "100nF",
+      "bbox": [
+        904.13,
+        215.648,
+        920.13,
+        235.648
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 20.352
+    },
+    {
+      "caseId": "13",
+      "id": "C2",
+      "type": "c",
+      "name": "C2",
+      "value": "22uf",
+      "bbox": [
+        1033.033,
+        217.5515,
+        1049.033,
+        237.5515
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "13",
+      "id": "C4",
+      "type": "c",
+      "name": "C4",
+      "value": "100nF",
+      "bbox": [
+        177.7005,
+        378.497,
+        197.7005,
+        394.497
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "13",
+      "id": "C5",
+      "type": "c",
+      "name": "C5",
+      "value": "100nF",
+      "bbox": [
+        1033.458,
+        565.1575,
+        1049.458,
+        585.1575
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 20.1575
+    },
+    {
+      "caseId": "13",
+      "id": "C6",
+      "type": "c",
+      "name": "C6",
+      "value": "22uf",
+      "bbox": [
+        902.776,
+        565.5255,
+        918.776,
+        585.5255
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 20.5255
+    },
+    {
+      "caseId": "13",
+      "id": "C7",
+      "type": "c",
+      "name": "C7",
+      "value": "22uf",
+      "bbox": [
+        772.502,
+        564.363,
+        788.502,
+        584.363
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "13",
+      "id": "C8",
+      "type": "c",
+      "name": "C8",
+      "value": "2.7nf",
+      "bbox": [
+        639.489,
+        279.033,
+        659.489,
+        295.033
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 23.033
+    },
+    {
+      "caseId": "13",
+      "id": "L1",
+      "type": "l",
+      "name": "L1",
+      "value": "15uH",
+      "bbox": [
+        171.121,
+        678.211,
+        205.121,
+        684.211
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 34.121
+    },
+    {
+      "caseId": "13",
+      "id": "R1",
+      "type": "r",
+      "name": "R1",
+      "value": "47k",
+      "bbox": [
+        647.313,
+        607.9565,
+        655.313,
+        627.9565
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "13",
+      "id": "R2",
+      "type": "r",
+      "name": "R2",
+      "value": "3.3k",
+      "bbox": [
+        646.644,
+        493.979,
+        654.644,
+        513.979
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 20.979
+    },
+    {
+      "caseId": "13",
+      "id": "R3",
+      "type": "r",
+      "name": "R3",
+      "value": "47k",
+      "bbox": [
+        647.385,
+        161.993,
+        655.385,
+        181.993
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 21.993
+    },
+    {
+      "caseId": "13",
+      "id": "R4",
+      "type": "r",
+      "name": "R4",
+      "value": "100K",
+      "bbox": [
+        777.1035,
+        162.7815,
+        785.1035,
+        182.7815
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 22.7815
+    },
+    {
+      "caseId": "13",
+      "id": "R5",
+      "type": "r",
+      "name": "R5",
+      "value": "100K",
+      "bbox": [
+        125.811,
+        290.329,
+        133.811,
+        310.329
+      ],
+      "status": "pass",
+      "failed": [],
+      "maxError": null
+    },
+    {
+      "caseId": "13",
+      "id": "U1",
+      "type": "box",
+      "name": "RT7272BGSP",
+      "value": null,
+      "bbox": [
+        255.252,
+        261.891,
+        528.067,
+        455.156
+      ],
+      "status": "mismatch",
+      "failed": [
+        "bbox"
+      ],
+      "maxError": 22.067
+    },
+    {
+      "caseId": "13",
+      "id": "c3",
+      "type": "c",
+      "name": "c3",
+      "value": "22uf",
+      "bbox": [
+        1161.767,
+        216.884,
+        1181.767,
+        232.884
+      ],
+      "status": "extra",
+      "failed": [],
+      "maxError": null
+    }
+  ],
+  "types": [
+    {
+      "type": "r",
+      "pred": 61,
+      "pass": 55,
+      "mismatch": 6,
+      "extra": 0
+    },
+    {
+      "type": "c",
+      "pred": 79,
+      "pass": 71,
+      "mismatch": 7,
+      "extra": 1
+    },
+    {
+      "type": "l",
+      "pred": 11,
+      "pass": 3,
+      "mismatch": 8,
+      "extra": 0
+    },
+    {
+      "type": "box",
+      "pred": 26,
+      "pass": 12,
+      "mismatch": 14,
+      "extra": 0
+    },
+    {
+      "type": "d",
+      "pred": 4,
+      "pass": 4,
+      "mismatch": 0,
+      "extra": 0
+    },
+    {
+      "type": "led",
+      "pred": 9,
+      "pass": 5,
+      "mismatch": 4,
+      "extra": 0
+    },
+    {
+      "type": "vbus_in",
+      "pred": 3,
+      "pass": 0,
+      "mismatch": 3,
+      "extra": 0
+    }
+  ],
+  "typeLabels": {
+    "r": "电阻",
+    "c": "电容",
+    "l": "电感",
+    "box": "IC",
+    "d": "二极管",
+    "led": "LED",
+    "vbus_in": "接口符号 vbus_in"
+  }
+}

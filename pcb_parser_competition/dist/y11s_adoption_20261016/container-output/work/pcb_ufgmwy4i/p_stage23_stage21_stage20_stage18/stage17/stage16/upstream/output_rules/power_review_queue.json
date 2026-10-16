@@ -1,0 +1,630 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "7949c8f8b69467b3262c14d9fb047b68cd65567b153aa90dff98ca3c400b8b54",
+  "input_network_sha256": "a6d098eae3bf15a7a52fb34c49d350631b52d06f84672dc3c42c3f5aa115138f",
+  "input_OCR_sha256": "01583dec289c72f3e8d6f5cbbe5dc2e11e6e9ead1947a230c93509172b04ca59",
+  "output_rules_config_sha256": "9f2a3afa698c0ffcbab12e99d109f0ae3130170dbf260b8d48a7a561f7541501",
+  "prediction_only": true,
+  "blocks": [
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "detection_index": 28,
+      "component_id": "UNRESOLVED_DET_0029",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        579.595,
+        81.381,
+        601.096,
+        99.349
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00053",
+      "detection_index": 43,
+      "component_id": "UNRESOLVED_DET_0044",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        639.528,
+        527.444,
+        655.233,
+        547.624
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00042",
+      "detection_index": 44,
+      "component_id": "UNRESOLVED_DET_0045",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        683.875,
+        444.527,
+        699.409,
+        466.282
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "detection_index": 45,
+      "component_id": "UNRESOLVED_DET_0046",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        878.468,
+        43.225,
+        894.895,
+        64.917
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00060",
+      "detection_index": 47,
+      "component_id": "UNRESOLVED_DET_0048",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        652.56,
+        604.801,
+        668.004,
+        624.874
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00036",
+      "detection_index": 48,
+      "component_id": "UNRESOLVED_DET_0049",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        509.195,
+        228.097,
+        525.719,
+        250.551
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00041",
+      "detection_index": 51,
+      "component_id": "UNRESOLVED_DET_0052",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        488.565,
+        445.11,
+        504.11,
+        465.753
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "detection_index": 55,
+      "component_id": "UNRESOLVED_DET_0056",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        331.549,
+        540.63,
+        344.364,
+        560.712
+      ],
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ],
+      "heuristic_gate_not_certified_topology": true
+    }
+  ],
+  "components": [
+    {
+      "detection_index": 5,
+      "component_id": "UNRESOLVED_DET_0006",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        677.074,
+        109.93,
+        698.297,
+        128.654
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0073"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 6,
+      "component_id": "UNRESOLVED_DET_0007",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        214.651,
+        602.686,
+        240.11,
+        621.421
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0074"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 9,
+      "component_id": "UNRESOLVED_DET_0010",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        819.86,
+        109.989,
+        841.106,
+        129.308
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0091"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 10,
+      "component_id": "UNRESOLVED_DET_0011",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        771.922,
+        109.756,
+        793.534,
+        128.91
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0086"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 13,
+      "component_id": "UNRESOLVED_DET_0014",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        725.023,
+        110.162,
+        745.171,
+        128.532
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0085"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 15,
+      "component_id": "UNRESOLVED_DET_0016",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        828.608,
+        256.567,
+        849.472,
+        275.288
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0072"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 16,
+      "component_id": "UNRESOLVED_DET_0017",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        812.05,
+        535.515,
+        832.954,
+        551.796
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 17,
+      "component_id": "UNRESOLVED_DET_0018",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        241.848,
+        282.747,
+        263.417,
+        301.236
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0079"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 19,
+      "component_id": "UNRESOLVED_DET_0020",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        111.331,
+        542.48,
+        135.152,
+        560.312
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0087"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 20,
+      "component_id": "UNRESOLVED_DET_0021",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        794.03,
+        256.383,
+        814.924,
+        275.278
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0082"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 22,
+      "component_id": "UNRESOLVED_DET_0023",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        747.446,
+        561.092,
+        768.237,
+        576.863
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0071"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 24,
+      "component_id": "UNRESOLVED_DET_0025",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        729.357,
+        256.957,
+        749.964,
+        275.106
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0080"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 28,
+      "component_id": "UNRESOLVED_DET_0029",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        579.595,
+        81.381,
+        601.096,
+        99.349
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00023"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 29,
+      "component_id": "UNRESOLVED_DET_0030",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        862.85,
+        256.257,
+        884.631,
+        275.286
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0081"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 43,
+      "component_id": "UNRESOLVED_DET_0044",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        639.528,
+        527.444,
+        655.233,
+        547.624
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00053"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 44,
+      "component_id": "UNRESOLVED_DET_0045",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        683.875,
+        444.527,
+        699.409,
+        466.282
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00042"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 45,
+      "component_id": "UNRESOLVED_DET_0046",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        878.468,
+        43.225,
+        894.895,
+        64.917
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00001"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 47,
+      "component_id": "UNRESOLVED_DET_0048",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        652.56,
+        604.801,
+        668.004,
+        624.874
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00060"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 48,
+      "component_id": "UNRESOLVED_DET_0049",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        509.195,
+        228.097,
+        525.719,
+        250.551
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00036"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 51,
+      "component_id": "UNRESOLVED_DET_0052",
+      "component_type": "gnd",
+      "bbox_top_left": [
+        488.565,
+        445.11,
+        504.11,
+        465.753
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00041"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 52,
+      "component_id": "UNRESOLVED_DET_0053",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        515.599,
+        604.788,
+        532.65,
+        625.685
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0058"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 53,
+      "component_id": "UNRESOLVED_DET_0054",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        738.984,
+        482.327,
+        759.752,
+        497.188
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0028"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 55,
+      "component_id": "UNRESOLVED_DET_0056",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        331.549,
+        540.63,
+        344.364,
+        560.712
+      ],
+      "designator": null,
+      "assigned_tip_count": 0,
+      "attached_tip_count": 0,
+      "candidate_ids": [],
+      "nearby_network_ids_with_missing_power_member": [
+        "LOG_NET_CAND_00012"
+      ],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    },
+    {
+      "detection_index": 56,
+      "component_id": "UNRESOLVED_DET_0057",
+      "component_type": "vcc",
+      "bbox_top_left": [
+        883.445,
+        129.497,
+        895.557,
+        151.389
+      ],
+      "designator": null,
+      "assigned_tip_count": 1,
+      "attached_tip_count": 1,
+      "candidate_ids": [
+        "PIN_CAND_0099"
+      ],
+      "nearby_network_ids_with_missing_power_member": [],
+      "identity_status": "unresolved",
+      "power_logical_merges_applied": false
+    }
+  ],
+  "summary": {
+    "power_components": 24,
+    "power_without_owned_tip": 9,
+    "networks_with_possible_omitted_power_member": 8,
+    "power_merges_applied": 0,
+    "pin_points_created": 0
+  }
+}

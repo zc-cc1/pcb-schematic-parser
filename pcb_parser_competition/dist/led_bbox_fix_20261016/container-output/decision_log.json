@@ -1,0 +1,35 @@
+{
+  "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+  "timestamp": "2026-10-16T11:16:21.917279+00:00",
+  "processed_cases": 1,
+  "successful_cases": 1,
+  "failed_cases": 0,
+  "output_format": "target",
+  "coordinate_origin": "bottom_left_H_minus_y",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "cases": [
+    {
+      "case_id": "0107",
+      "input": "/input/0107.png",
+      "success": true,
+      "led_geometry_seconds": 2.77,
+      "components": 74,
+      "pins": 22,
+      "nets": 0,
+      "seconds": 288.88
+    }
+  ],
+  "device": "cpu",
+  "input_cases": 1,
+  "workers": 1,
+  "gpu_memory_bytes": 0,
+  "protocol": "2026-10-08-global-power-rails",
+  "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+  "component_output_policy": "public_20261016_passive_names_template_boxes_power_v2_led_geometry_v1",
+  "wall_seconds": 292.178
+}

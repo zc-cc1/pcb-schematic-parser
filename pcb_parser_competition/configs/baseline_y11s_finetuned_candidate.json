@@ -1,0 +1,150 @@
+{
+  "version": "0.5-yolo11s-finetune-candidate",
+  "weights": "weights/detector_yolo11s_finetune_20261015.pt",
+  "detector": {
+    "imgsz": 1536,
+    "confidence": 0.2,
+    "iou": 0.5,
+    "max_det": 1000,
+    "half": false,
+    "class_confidence": {
+      "resistor": 0.494205,
+      "capacitor": 0.651995,
+      "inductor": 0.683847,
+      "diode": 0.530063,
+      "transistor": 0.2,
+      "opamp": 0.952207,
+      "ic": 0.40025,
+      "ground": 0.706494,
+      "voltage_source": 0.582695,
+      "current_source": 0.2,
+      "crystal": 0.680278,
+      "mosfet": 0.2,
+      "switch": 0.211962,
+      "led": 0.780173,
+      "net_input": 0.30922,
+      "pin_port": 0.859489,
+      "testpoint": 0.2,
+      "net_output": 0.2,
+      "net_bidirectional": 0.2,
+      "fuse": 0.2,
+      "buzzer": 0.455749,
+      "motor": 0.2,
+      "battery": 0.2,
+      "other": 0.830975,
+      "transformer": 0.2,
+      "jumper": 0.2,
+      "raw_block": 0.2,
+      "circle_header": 0.2,
+      "antenna": 0.2,
+      "esd": 0.2,
+      "raw_m": 0.2,
+      "net_short": 0.2,
+      "optocoupler": 0.2,
+      "raw_dc": 0.2,
+      "connector": 0.2
+    }
+  },
+  "sahi": {
+    "slice_height": 1024,
+    "slice_width": 1024,
+    "overlap": 0.25,
+    "merge_metric": "IOS",
+    "merge_threshold": 0.45,
+    "merge_method": "GREEDYNMM",
+    "skip_if_max_side_below": 1600
+  },
+  "fusion": {
+    "iou": 0.55
+  },
+  "ocr": {
+    "backend": "onnxruntime_cpu",
+    "det_limit_side_len": 2048
+  },
+  "binding": {
+    "max_gap_px": 100,
+    "ambiguity_margin_px": 12
+  },
+  "class_mapping": {
+    "resistor": "resistor",
+    "capacitor": "capacitor",
+    "inductor": "inductor",
+    "diode": "diode",
+    "transistor": "bjt",
+    "opamp": "opamp",
+    "ic": "ic",
+    "ground": "gnd",
+    "voltage_source": "vcc",
+    "crystal": "crystal",
+    "mosfet": "mosfet",
+    "switch": "switch",
+    "led": "led",
+    "net_input": "vbus_in",
+    "pin_port": "vbus_in",
+    "testpoint": "vbus_in",
+    "net_output": "vbus_out",
+    "net_bidirectional": "vbus_bidirectional",
+    "fuse": "fuse",
+    "buzzer": "buzzer",
+    "motor": "motor",
+    "battery": "battery",
+    "other": "other",
+    "transformer": "transformer",
+    "jumper": "jumper",
+    "raw_block": "block",
+    "circle_header": "circle_header",
+    "antenna": "antenna",
+    "esd": "esd",
+    "raw_m": "m",
+    "net_short": "net_short",
+    "optocoupler": "optocoupler",
+    "raw_dc": "dc",
+    "current_source": "current_source",
+    "connector": "connector"
+  },
+  "export_y_formula": "H-y",
+  "status": "evaluated_finetune_candidate",
+  "recommended_mode": "fused",
+  "recommended_mode_basis": "Single planned warm-start trial; separate candidate config, no automatic deployment adoption.",
+  "weights_sha256": "03f1331ab9439c1847522e16ac7cf017ddf1485935f55c3aa58673c19ba8ef7a",
+  "class_thresholds_file": "configs/class_thresholds_y11s_finetuned_candidate.json",
+  "component_text": {
+    "version": "semantic_v2",
+    "ocr": {
+      "tile_size": 768,
+      "overlap": 0.2,
+      "local_scale": 2.0,
+      "rotations": [
+        0,
+        90
+      ],
+      "min_confidence": 0.55,
+      "observation_schema_version": 2
+    },
+    "binding": {
+      "max_gap_px": 100,
+      "ambiguity_margin": 3,
+      "field_anchor_radius_px": 90,
+      "alignment_weight": 0.8,
+      "case_style_penalty": 2.0,
+      "unassigned_reference_cost": 90,
+      "field_alignment_weight": 0.6,
+      "allow_unreferenced_fields": true,
+      "unreferenced_field_gap_px": 45
+    },
+    "recovery": {
+      "enabled": true,
+      "ref_confidence": 0.96,
+      "value_confidence": 0.97,
+      "min_confidence": 0.75,
+      "max_rois": 32,
+      "padding": 1,
+      "scale": 4
+    }
+  },
+  "detector_provenance": {
+    "experiment": "C:\\Users\\Pc\\Desktop\\vision\\experiments\\y11s_finetune_20261015",
+    "checkpoint": "best.pt",
+    "selection": "calibration mAP50-95"
+  }
+}

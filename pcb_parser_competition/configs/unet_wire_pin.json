@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "model": "WirePinUNet",
+  "source_repository": "https://github.com/milesial/Pytorch-UNet",
+  "source_commit": "21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "base_channels": 32,
+  "input_channels": 3,
+  "outputs": [
+    "wire_mask",
+    "pin_tip_heatmap"
+  ],
+  "traditional_image_segmentation": false,
+  "tile_size": 512,
+  "stride": 384,
+  "label_line_width": 3,
+  "pin_sigma": 2.0,
+  "labels_status": "draft_rasterized_source_geometry_not_certified",
+  "junction_head_status": "not_enabled_pending_verified_junction_labels",
+  "training": {
+    "epochs": 60,
+    "batch_size": 2,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "amp": true,
+    "seed": 20261011,
+    "wire_positive_weight": 8.0,
+    "pin_positive_weight": 20.0,
+    "device": "cuda:0",
+    "minimum_free_gpu_gib": 4
+  },
+  "inference": {
+    "wire_threshold": 0.5,
+    "pin_threshold": 0.5
+  },
+  "checkpoint": null,
+  "official_score": null
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第6天周项目：批量图片浏览器</c>
+<c>* 使用 HALCON 自带的 ampoules 示例图片目录</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>ImageDirectory := 'C:/Users/zc/Desktop/vision/halcon/test_images'</l>
+<l>list_image_files (ImageDirectory, 'default', [], ImageFiles)</l>
+<l>SuccessCount := 0</l>
+<l>FailureCount := 0</l>
+<l>LandscapeCount := 0</l>
+<l>PortraitCount := 0</l>
+<l>SquareCount := 0</l>
+<l>dev_open_window (0, 0, 720, 540, 'black', WindowHandle)</l>
+<l>if (|ImageFiles| == 0)</l>
+<l>    disp_text (WindowHandle, '目录中没有可读取的图片', 'window', 20, 20, 'red', ['box'], ['true'])</l>
+<l>else</l>
+<l>    for ImageIndex := 0 to |ImageFiles| - 1 by 1</l>
+<l>        try</l>
+<l>            read_image (Image, ImageFiles[ImageIndex])</l>
+<l>            get_image_size (Image, Width, Height)</l>
+<l>            if (Width &gt; Height)</l>
+<l>                Orientation := '横向'</l>
+<l>                LandscapeCount := LandscapeCount + 1</l>
+<l>            elseif (Width &lt; Height)</l>
+<l>                Orientation := '竖向'</l>
+<l>                PortraitCount := PortraitCount + 1</l>
+<l>            else</l>
+<l>                Orientation := '方形'</l>
+<l>                SquareCount := SquareCount + 1</l>
+<l>            endif</l>
+<l>            SuccessCount := SuccessCount + 1</l>
+<l>            dev_set_part (0, 0, Height + 100, Width +100)</l>
+<l>            dev_display (Image)</l>
+<l>            InfoText := ['序号：' + (ImageIndex + 1) + ' / ' + |ImageFiles|, '文件：' + ImageFiles[ImageIndex], '尺寸：' + Width + ' x ' + Height, '方向：' + Orientation, '成功：' + SuccessCount + '  失败：' + FailureCount]</l>
+<l>            disp_text (WindowHandle, InfoText, 'window', 12, 12, 'white', ['box'], ['true'])</l>
+<l>        catch (Exception)</l>
+<l>            dev_get_exception_data (Exception, 'error_msg', ErrorMessage)</l>
+<l>            FailureCount := FailureCount + 1</l>
+<l>            disp_text (WindowHandle, ['读取失败', ImageFiles[ImageIndex], ErrorMessage], 'window', 12, 12, 'red', ['box'], ['true'])</l>
+<l>        endtry</l>
+<l>        stop ()</l>
+<l>    endfor</l>
+<l>    dev_clear_window ()</l>
+<l>    SummaryText := ['浏览完成', '图片总数：' + |ImageFiles|, '成功：' + SuccessCount, '失败：' + FailureCount, '横向：' + LandscapeCount, '竖向：' + PortraitCount, '方形：' + SquareCount]</l>
+<l>    disp_text (WindowHandle, SummaryText, 'window', 30, 30, 'white', ['box'], ['true'])</l>
+<l>endif</l>
+<c>* 扩展任务：改成自己的目录，并增加单张处理时间</c>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

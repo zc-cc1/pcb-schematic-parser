@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第8周第5天：生成60张带真值样本，统计正确定位、误匹配、漏检、分数、耗时和位姿误差。</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>set_system ('seed_rand',42)</l>
+<l>read_image (Image,'rings_and_nuts')</l>
+<l>get_image_size (Image,Width,Height)</l>
+<c>* 加方向标记以消除齿轮的旋转对称歧义；真实项目应使用缺口、键槽或文字等稳定方向特征。</c>
+<l>gen_circle (DirectionMark,130,190,12)</l>
+<l>paint_region (DirectionMark,Image,MarkedImage,0,'fill')</l>
+<l>gen_rectangle1 (TemplateROI,60,60,200,210)</l>
+<l>reduce_domain (MarkedImage,TemplateROI,TemplateImage)</l>
+<l>create_shape_model (TemplateImage,'auto',rad(-45),rad(90),'auto','auto','use_polarity','auto','auto',ModelID)</l>
+<l>find_shape_model (MarkedImage,ModelID,rad(-45),rad(90),0.5,1,0.5,'least_squares',0,0.8,RefRow,RefColumn,RefAngle,RefScore)</l>
+<l>CategoryNames := ['正常','大角度平移','亮度','噪声','遮挡','背景干扰']</l>
+<l>CatCorrect := [0,0,0,0,0,0]</l>
+<l>CatFalse := [0,0,0,0,0,0]</l>
+<l>CatMiss := [0,0,0,0,0,0]</l>
+<l>CatScoreSum := [0.0,0.0,0.0,0.0,0.0,0.0]</l>
+<l>CatFound := [0,0,0,0,0,0]</l>
+<l>CatTimeSum := [0.0,0.0,0.0,0.0,0.0,0.0]</l>
+<l>PositionErrors := []</l>
+<l>AngleErrors := []</l>
+<l>AllScores := []</l>
+<l>AllTimes := []</l>
+<l>for I := 0 to 59 by 1</l>
+<l>    Cat := int(I/10)</l>
+<l>    LocalIndex := I%10</l>
+<c>* 每组10张；先生成已知旋转和平移，再叠加该组专属干扰。</c>
+<l>    if (Cat == 0)</l>
+<l>        TestAngle := rad((LocalIndex%5-2)*2)</l>
+<l>        ShiftRow := (LocalIndex%3-1)*3</l>
+<l>        ShiftColumn := (LocalIndex%4-2)*3</l>
+<l>    elseif (Cat == 1)</l>
+<l>        TestAngle := rad((LocalIndex-5)*8)</l>
+<l>        ShiftRow := (LocalIndex%5-2)*10</l>
+<l>        ShiftColumn := (LocalIndex%4-2)*12</l>
+<l>    else</l>
+<l>        TestAngle := rad((LocalIndex%9-4)*5)</l>
+<l>        ShiftRow := (LocalIndex%5-2)*6</l>
+<l>        ShiftColumn := (LocalIndex%7-3)*7</l>
+<l>    endif</l>
+<l>    hom_mat2d_identity (Move)</l>
+<l>    hom_mat2d_rotate (Move,TestAngle,RefRow,RefColumn,Move)</l>
+<l>    hom_mat2d_translate (Move,ShiftRow,ShiftColumn,Move)</l>
+<l>    affine_trans_image (MarkedImage,TestImage,Move,'constant','false')</l>
+<l>    affine_trans_point_2d (Move,RefRow,RefColumn,ExpectedRow,ExpectedColumn)</l>
+<l>    if (Cat == 2)</l>
+<l>        Factor := 0.55+(LocalIndex%5)*0.15</l>
+<l>        Offset := (LocalIndex%3-1)*18</l>
+<l>        scale_image (TestImage,TestImage,Factor,Offset)</l>
+<l>    elseif (Cat == 3)</l>
+<l>        NoiseSigma := 8+(LocalIndex%5)*4</l>
+<l>        add_noise_white (TestImage,TestImage,NoiseSigma)</l>
+<l>    elseif (Cat == 4)</l>
+<l>        CoverWidth := 26+(LocalIndex%5)*4</l>
+<l>        gen_rectangle1 (Cover,ExpectedRow-20,ExpectedColumn-48,ExpectedRow+20,ExpectedColumn-48+CoverWidth)</l>
+<l>        paint_region (Cover,TestImage,TestImage,255,'fill')</l>
+<l>    elseif (Cat == 5)</l>
+<l>        gen_circle (Outer,330+(LocalIndex%3)*12,485+(LocalIndex%2)*35,42+(LocalIndex%3)*3)</l>
+<l>        gen_circle (Inner,330+(LocalIndex%3)*12,485+(LocalIndex%2)*35,22)</l>
+<l>        difference (Outer,Inner,InterferenceRing)</l>
+<l>        paint_region (InterferenceRing,TestImage,TestImage,0,'fill')</l>
+<l>    endif</l>
+<l>    count_seconds (T0)</l>
+<l>    find_shape_model (TestImage,ModelID,rad(-45),rad(90),0.35,1,0.5,'least_squares',0,0.8,Row,Column,Angle,Score)</l>
+<l>    count_seconds (T1)</l>
+<l>    Elapsed := (T1-T0)*1000</l>
+<l>    CatTimeSum[Cat] := CatTimeSum[Cat]+Elapsed</l>
+<l>    AllTimes := [AllTimes,Elapsed]</l>
+<l>    if (|Score| == 0)</l>
+<l>        CatMiss[Cat] := CatMiss[Cat]+1</l>
+<l>    else</l>
+<l>        CatFound[Cat] := CatFound[Cat]+1</l>
+<l>        CatScoreSum[Cat] := CatScoreSum[Cat]+Score[0]</l>
+<l>        AllScores := [AllScores,Score[0]]</l>
+<l>        PositionError := sqrt((Row[0]-ExpectedRow)*(Row[0]-ExpectedRow)+(Column[0]-ExpectedColumn)*(Column[0]-ExpectedColumn))</l>
+<l>        AngleError := abs(deg(Angle[0]-TestAngle))</l>
+<l>        PositionErrors := [PositionErrors,PositionError]</l>
+<l>        AngleErrors := [AngleErrors,AngleError]</l>
+<c>* “正确定位”不仅要求有Score，还要求位置误差不超过5像素、角度误差不超过3度。</c>
+<l>        if (PositionError &lt;= 5 and AngleError &lt;= 3)</l>
+<l>            CatCorrect[Cat] := CatCorrect[Cat]+1</l>
+<l>        else</l>
+<l>            CatFalse[Cat] := CatFalse[Cat]+1</l>
+<l>        endif</l>
+<l>    endif</l>
+<l>endfor</l>
+<l>CatAvgScore := []</l>
+<l>CatAvgTime := []</l>
+<l>for J := 0 to 5 by 1</l>
+<l>    if (CatFound[J] &gt; 0)</l>
+<l>        CatAvgScore := [CatAvgScore,CatScoreSum[J]/CatFound[J]]</l>
+<l>    else</l>
+<l>        CatAvgScore := [CatAvgScore,0]</l>
+<l>    endif</l>
+<l>    CatAvgTime := [CatAvgTime,CatTimeSum[J]/10.0]</l>
+<l>endfor</l>
+<l>TotalCorrect := sum(CatCorrect)</l>
+<l>TotalFalse := sum(CatFalse)</l>
+<l>TotalMiss := sum(CatMiss)</l>
+<l>MeanScore := mean(AllScores)</l>
+<l>MeanTime := mean(AllTimes)</l>
+<l>MeanPositionError := mean(PositionErrors)</l>
+<l>MaxPositionError := max(PositionErrors)</l>
+<l>MeanAngleError := mean(AngleErrors)</l>
+<l>MaxAngleError := max(AngleErrors)</l>
+<l>dev_open_window (0,0,Width,Height,'black',WindowHandle)</l>
+<l>dev_display (TestImage)</l>
+<l>disp_text (WindowHandle,['第5天60张压力测试完成','类别=' + CategoryNames,'各类正确=' + CatCorrect,'各类误匹配=' + CatFalse,'各类漏检=' + CatMiss,'各类平均Score=' + CatAvgScore$'.6f','总计正确/误匹配/漏检=' + TotalCorrect + '/' + TotalFalse + '/' + TotalMiss,'平均Score=' + MeanScore$'.6f','平均耗时=' + MeanTime$'.2f' + ' ms','位置误差均值/最大=' + MeanPositionError$'.4f' + '/' + MaxPositionError$'.4f' + ' px','角度误差均值/最大=' + MeanAngleError$'.4f' + '/' + MaxAngleError$'.4f' + ' 度'], 'window',12,12,'white',['box_color'],['black'])</l>
+<l>clear_shape_model (ModelID)</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>

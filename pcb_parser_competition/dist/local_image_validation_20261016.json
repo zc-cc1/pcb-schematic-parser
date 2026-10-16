@@ -1,0 +1,32 @@
+{
+  "image": "pcb-parser:local-cuda-2d71a26c",
+  "platform": "linux/amd64",
+  "runtime": "cuda",
+  "entrypoint": [
+    "/submission/run.sh"
+  ],
+  "source_zip": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\submission.zip",
+  "source_zip_sha256": "1040BE9FF8CCAD2FAE9CE37E521B6E4EF6E72F3F3277BA9DCC3BF94E8D471205",
+  "docker_build_passed": true,
+  "docker_inference_passed": true,
+  "docker_archive_load_passed": true,
+  "image_id": "sha256:dfc1e348f3a40e25edee813ffb1fd1999c3eb42c7f5e062fe4e28178782a8724",
+  "successful_cases": 2,
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "upload_zip": "D:\\pcb_submission_export\\pcb_image_20261016_013745_57ffa7a7\\submission_image.zip",
+  "upload_zip_sha256": "7AB30081EF37029168C9C46B58BF5B3E2D0E041595EB6CDF894EEF9833826B9B",
+  "upload_zip_bytes": 4978018768,
+  "official_score": null,
+  "zip_crc_and_full_payload_passed": true,
+  "tar_sha256": "011d1e162e8f205479b45013a4c78a0ea0e203095faccfcfb0ca6e197f417405",
+  "zip_payload_sha256": "011d1e162e8f205479b45013a4c78a0ea0e203095faccfcfb0ca6e197f417405",
+  "docker_archive_manifest_images": 1,
+  "verification_seconds": 35.02,
+  "build_dockerfile_sha256": "1a8dacce6d19bf70b4a7ec5090286117bf071f06d72e81cbed6ab4d354ed0b8b",
+  "runtime_requirements": "runtime_requirements.txt"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第三周第1天：固定阈值、自动二值阈值与多阈值</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (Image, 'rings_and_nuts')</l>
+<l>get_image_size (Image, Width, Height)</l>
+<l>get_domain (Image, FullDomain)</l>
+<c>* 当前图像是暗目标、亮背景</c>
+<l>FixedMin := 0</l>
+<l>FixedMax := 100</l>
+<c>* 方法1：人工指定固定灰度范围</c>
+<l>threshold (Image, RegionFixed, FixedMin, FixedMax)</l>
+<l>area_center (RegionFixed, FixedArea, FixedRow, FixedColumn)</l>
+<c>* 方法2：自动计算一个二分类阈值</c>
+<l>binary_threshold (Image, RegionBinary, 'max_separability', 'dark', UsedThreshold)</l>
+<l>area_center (RegionBinary, BinaryArea, BinaryRow, BinaryColumn)</l>
+<c>* 方法3：按直方图谷底分成多个灰度类别</c>
+<l>AutoSigma := 2.0</l>
+<l>auto_threshold (Image, RegionsAuto, AutoSigma)</l>
+<l>count_obj (RegionsAuto, AutoClassCount)</l>
+<l>area_center (RegionsAuto, AutoAreas, AutoRows, AutoColumns)</l>
+<c>* 人为制造整体变暗，观察固定阈值与自动阈值的差异</c>
+<l>DarkFactor := 0.35</l>
+<l>scale_image (Image, DarkImage, DarkFactor, 0)</l>
+<l>threshold (DarkImage, RegionDarkFixed, FixedMin, FixedMax)</l>
+<l>area_center (RegionDarkFixed, DarkFixedArea, DarkFixedRow, DarkFixedColumn)</l>
+<l>binary_threshold (DarkImage, RegionDarkBinary, 'max_separability', 'dark', DarkUsedThreshold)</l>
+<l>area_center (RegionDarkBinary, DarkBinaryArea, DarkBinaryRow, DarkBinaryColumn)</l>
+<l>dev_open_window (0, 0, Width, Height, 'black', WindowHandle)</l>
+<l>dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>dev_display (Image)</l>
+<l>disp_text (WindowHandle, ['原图：rings_and_nuts', '先判断目标极性：黑色零件比背景暗'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (Image)</l>
+<l>dev_set_draw ('fill')</l>
+<l>dev_set_color ('green')</l>
+<l>dev_display (RegionFixed)</l>
+<l>disp_text (WindowHandle, ['固定阈值结果', '灰度范围：' + FixedMin + ' 到 ' + FixedMax, '区域总面积：' + FixedArea], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (Image)</l>
+<l>dev_set_color ('cyan')</l>
+<l>dev_display (RegionBinary)</l>
+<l>disp_text (WindowHandle, ['自动二值阈值结果', '极性：dark', '自动阈值：' + UsedThreshold, '区域总面积：' + BinaryArea], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (Image)</l>
+<l>dev_set_colored (6)</l>
+<l>dev_display (RegionsAuto)</l>
+<l>disp_text (WindowHandle, ['auto_threshold 多阈值结果', 'Sigma：' + AutoSigma, '灰度类别数：' + AutoClassCount, '各类别面积：' + AutoAreas], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (DarkImage)</l>
+<l>dev_set_color ('red')</l>
+<l>dev_display (RegionDarkFixed)</l>
+<l>disp_text (WindowHandle, ['整体变暗后的固定阈值', '亮度系数：' + DarkFactor, '固定范围仍为：' + FixedMin + ' 到 ' + FixedMax, '区域总面积：' + DarkFixedArea, '观察背景是否被误选'], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+<l>stop ()</l>
+<l>dev_display (DarkImage)</l>
+<l>dev_set_color ('green')</l>
+<l>dev_display (RegionDarkBinary)</l>
+<l>disp_text (WindowHandle, ['整体变暗后的自动二值阈值', '原图自动阈值：' + UsedThreshold, '变暗图自动阈值：' + DarkUsedThreshold, '区域总面积：' + DarkBinaryArea], 'window', 12, 12, 'white', ['box_color'], ['black'])</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

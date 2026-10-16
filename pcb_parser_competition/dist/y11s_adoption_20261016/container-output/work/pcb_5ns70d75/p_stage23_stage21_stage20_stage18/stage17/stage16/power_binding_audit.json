@@ -1,0 +1,275 @@
+{
+  "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "size": [
+    832,
+    376
+  ],
+  "coordinate_origin": "top_left",
+  "input_graph_sha256": "0afeba70ed5ce87efc392db287fb1620e4c5d434cf97e52614a9129c12814449",
+  "input_pin_sha256": "b16d06aa64b0adb77c687eea5cd8b320c66835c842d6b7003d9b32d68dba4fd8",
+  "input_OCR_sha256": "f4535459ad4db6260bb9b9a9986b8b8d96c52104473b352f9ad483944f767d17",
+  "power_config_sha256": "7ff45b2d3f277d3b4a92d4fb7b6e4d00d39023610ec7011f597f0c8c5404cb01",
+  "recovery_config_sha256": "5e050f9c6fb0203b8f1f0070c65aa9788231c37d00b49015a06c9483145def78",
+  "OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "prediction_only": true,
+  "summary": {
+    "observed_power_sites": 0,
+    "power_groups_applied": 0,
+    "input_network_groups_joined": 0,
+    "power_components_in_review": 5,
+    "power_components_without_qualified_caption": 5,
+    "network_proposals_before": 19,
+    "network_proposals_after": 19,
+    "multi_pin_networks_before": 11,
+    "multi_pin_networks_after": 11,
+    "decision_withheld_reason_counts": {},
+    "pin_coordinates_changed": 0,
+    "pin_fields_changed": 0,
+    "physical_edges_added": 0,
+    "power_ordinary_flywires_created": 0,
+    "default_pipeline_adopted": false
+  },
+  "decisions": [],
+  "component_review_queue": [
+    {
+      "detection_index": 9,
+      "component_id": "UNRESOLVED_DET_0010",
+      "type": "gnd",
+      "bbox_top_left": [
+        758.598,
+        65.689,
+        783.835,
+        93.72
+      ],
+      "owned_tip_ids": [],
+      "bound_site_id": null,
+      "review_reasons": [
+        "no_model_bound_observed_power_caption",
+        "single_owned_power_tip_not_available"
+      ],
+      "caption_candidates": [],
+      "canonical_identity_still_unresolved": true
+    },
+    {
+      "detection_index": 10,
+      "component_id": "UNRESOLVED_DET_0011",
+      "type": "gnd",
+      "bbox_top_left": [
+        383.497,
+        65.692,
+        412.493,
+        92.849
+      ],
+      "owned_tip_ids": [
+        "PIN_CAND_0022"
+      ],
+      "bound_site_id": null,
+      "review_reasons": [
+        "no_model_bound_observed_power_caption"
+      ],
+      "caption_candidates": [],
+      "canonical_identity_still_unresolved": true
+    },
+    {
+      "detection_index": 11,
+      "component_id": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "bbox_top_left": [
+        382.745,
+        269.343,
+        411.108,
+        287.785
+      ],
+      "owned_tip_ids": [
+        "PIN_CAND_0004"
+      ],
+      "bound_site_id": null,
+      "review_reasons": [
+        "no_model_bound_observed_power_caption"
+      ],
+      "caption_candidates": [],
+      "canonical_identity_still_unresolved": true
+    },
+    {
+      "detection_index": 12,
+      "component_id": "UNRESOLVED_DET_0013",
+      "type": "gnd",
+      "bbox_top_left": [
+        256.51,
+        256.734,
+        285.257,
+        273.474
+      ],
+      "owned_tip_ids": [
+        "PIN_CAND_0007"
+      ],
+      "bound_site_id": null,
+      "review_reasons": [
+        "no_model_bound_observed_power_caption"
+      ],
+      "caption_candidates": [],
+      "canonical_identity_still_unresolved": true
+    },
+    {
+      "detection_index": 15,
+      "component_id": "UNRESOLVED_DET_0016",
+      "type": "vcc",
+      "bbox_top_left": [
+        299.371,
+        132.144,
+        346.356,
+        149.004
+      ],
+      "owned_tip_ids": [],
+      "bound_site_id": null,
+      "review_reasons": [
+        "no_model_bound_observed_power_caption",
+        "single_owned_power_tip_not_available"
+      ],
+      "caption_candidates": [],
+      "canonical_identity_still_unresolved": true
+    }
+  ],
+  "unrepresented_power_guard": {
+    "blocks": [
+      {
+        "network_id": "LOG_NET_CAND_00010",
+        "detection_index": 15,
+        "component_id": "UNRESOLVED_DET_0016",
+        "component_type": "vcc",
+        "bbox_top_left": [
+          299.371,
+          132.144,
+          346.356,
+          149.004
+        ],
+        "reasons": [
+          "detected_power_symbol_near_wire_without_attached_member"
+        ],
+        "heuristic_gate_not_certified_topology": true
+      }
+    ],
+    "components": [
+      {
+        "detection_index": 9,
+        "component_id": "UNRESOLVED_DET_0010",
+        "component_type": "gnd",
+        "bbox_top_left": [
+          758.598,
+          65.689,
+          783.835,
+          93.72
+        ],
+        "designator": null,
+        "assigned_tip_count": 0,
+        "attached_tip_count": 0,
+        "candidate_ids": [],
+        "nearby_network_ids_with_missing_power_member": [],
+        "identity_status": "unresolved",
+        "power_logical_merges_applied": false
+      },
+      {
+        "detection_index": 10,
+        "component_id": "UNRESOLVED_DET_0011",
+        "component_type": "gnd",
+        "bbox_top_left": [
+          383.497,
+          65.692,
+          412.493,
+          92.849
+        ],
+        "designator": null,
+        "assigned_tip_count": 1,
+        "attached_tip_count": 1,
+        "candidate_ids": [
+          "PIN_CAND_0022"
+        ],
+        "nearby_network_ids_with_missing_power_member": [],
+        "identity_status": "unresolved",
+        "power_logical_merges_applied": false
+      },
+      {
+        "detection_index": 11,
+        "component_id": "UNRESOLVED_DET_0012",
+        "component_type": "gnd",
+        "bbox_top_left": [
+          382.745,
+          269.343,
+          411.108,
+          287.785
+        ],
+        "designator": null,
+        "assigned_tip_count": 1,
+        "attached_tip_count": 1,
+        "candidate_ids": [
+          "PIN_CAND_0004"
+        ],
+        "nearby_network_ids_with_missing_power_member": [],
+        "identity_status": "unresolved",
+        "power_logical_merges_applied": false
+      },
+      {
+        "detection_index": 12,
+        "component_id": "UNRESOLVED_DET_0013",
+        "component_type": "gnd",
+        "bbox_top_left": [
+          256.51,
+          256.734,
+          285.257,
+          273.474
+        ],
+        "designator": null,
+        "assigned_tip_count": 1,
+        "attached_tip_count": 1,
+        "candidate_ids": [
+          "PIN_CAND_0007"
+        ],
+        "nearby_network_ids_with_missing_power_member": [],
+        "identity_status": "unresolved",
+        "power_logical_merges_applied": false
+      },
+      {
+        "detection_index": 15,
+        "component_id": "UNRESOLVED_DET_0016",
+        "component_type": "vcc",
+        "bbox_top_left": [
+          299.371,
+          132.144,
+          346.356,
+          149.004
+        ],
+        "designator": null,
+        "assigned_tip_count": 0,
+        "attached_tip_count": 0,
+        "candidate_ids": [],
+        "nearby_network_ids_with_missing_power_member": [
+          "LOG_NET_CAND_00010"
+        ],
+        "identity_status": "unresolved",
+        "power_logical_merges_applied": false
+      }
+    ],
+    "summary": {
+      "power_components": 5,
+      "power_without_owned_tip": 2,
+      "networks_with_possible_omitted_power_member": 1,
+      "power_merges_applied": 0,
+      "pin_points_created": 0
+    }
+  },
+  "source_annotations_used": false,
+  "official_NetF1": null
+}

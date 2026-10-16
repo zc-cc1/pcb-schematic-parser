@@ -1,0 +1,31 @@
+{
+  "coordinate_origin": "top_left",
+  "size": [
+    1005,
+    660
+  ],
+  "summary": {
+    "candidate_count": 99,
+    "assigned": 97,
+    "status_counts": {
+      "assigned": 97,
+      "no_component_nearby": 2
+    },
+    "all_candidates_preserved": true,
+    "coordinate_changes": 0,
+    "pin_numbers_guessed": 0,
+    "nets_constructed": false
+  },
+  "status": "component_ownership_proposals_number_name_topology_pending",
+  "input_contract": "model-predicted pin coordinates and component boxes only; no annotations",
+  "traditional_image_segmentation_used": false,
+  "official_score": null,
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "association_config_sha256": "4e212aa11d3efcf925f8abca51bb160e2d5d92faab8b14dad1c7f9fe75b27431",
+  "detector_weights_sha256": "5c63d9510681d90b7cb54a36438a63d54d479ab6763a89d9b118afd06f3425d5",
+  "unet_weights_sha256": "e2403616f764f164248fb7c1fa14965332cc533a119f52bfd26fe71a8404f0f7",
+  "used_detector_cache": false,
+  "used_pin_cache": false,
+  "OCR_component_records_used": false,
+  "wall_seconds": 6.159643438000003
+}

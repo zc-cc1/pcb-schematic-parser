@@ -1,0 +1,35 @@
+{
+  "version": "0.3",
+  "description": "Local reference annotation conversion, not a certified official converter.",
+  "source_coordinates": "top_left",
+  "export_y_origin": "height",
+  "coordinate_convention_verified_against_golden": false,
+  "bbox_source": "location",
+  "auto_number_order": "natural_raw_pin_id_skip_existing_numbers",
+  "merge_declared_edge_labels": true,
+  "merge_same_name_label_components": true,
+  "flywire_geometry": "label_points",
+  "geometry_policy": "keyPointPaths_adjacent_pairs_exact_duplicate_removal",
+  "source_duplicate_key_policy": "collapse_identical_reject_conflicting",
+  "type_mapping": {
+    "Box": "ic", "C": "capacitor", "R": "resistor", "L": "inductor",
+    "Crystal": "crystal", "Switch": "switch", "Gnd": "gnd", "V": "vcc",
+    "MOSFET": "mosfet", "BJT": "bjt", "D": "diode", "LED": "led",
+    "PIN": "vbus_in", "Testpoint": "vbus_in", "NET_input": "vbus_in",
+    "Net_output": "vbus_out", "Net_bidirection": "vbus_bidirectional",
+    "Fuse": "fuse", "Buzzer": "buzzer", "Motor": "motor", "Battary": "battery",
+    "Other": "other", "Transfomer": "transformer", "Jumper": "jumper",
+    "Block": "block", "SEG": "seg", "AMP": "opamp", "CIRCLE_HEADER": "circle_header",
+    "ANT": "antenna", "ESD": "esd", "M": "m", "Net_short": "net_short",
+    "Opt": "optocoupler", "Dc": "dc"
+  },
+  "pdf_supported_source_types": ["Box", "C", "R", "L", "Crystal", "Switch", "Gnd", "V"],
+  "label_categories": ["PIN", "Testpoint", "NET_input", "Net_output", "Net_bidirection"],
+  "power_categories": ["Gnd", "V"],
+  "notes": [
+    "Type mappings beyond the PDF common types are provisional and reported per object.",
+    "H-y is an explicit local convention; H-1-y can be selected and regenerated.",
+    "Declared edge netlabel texts are source claims, not independently verified electrical names.",
+    "Geometry preserves source path fragmentation; exact official segmentation remains pending."
+  ]
+}

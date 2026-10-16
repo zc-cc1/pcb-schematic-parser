@@ -1,0 +1,283 @@
+{
+  "config_version": "0.1",
+  "stage": "S24_observed_body_side_names_and_literal_headers_for_complete_engineering_nets",
+  "pin_reference_audit": {
+    "entrypoint": "scripts/audit_pin_references.py",
+    "report": "docs/pin_reference_audit_stage_v1.md",
+    "prediction_stage": "S18",
+    "matching_radius_px": 5,
+    "used_in_inference": false,
+    "used_in_training": false,
+    "reference_changes": 0
+  },
+  "internal_coordinates": "original_image_top_left_x_right_y_down",
+  "submission_coordinates": "original_image_bottom_left_x_right_y_up",
+  "export_y_formula": "H-y",
+  "export_y_formula_status": "explicit_local_choice_pending_official_golden",
+  "field_decisions": {
+    "components_key": "components",
+    "component_name_key": "Name",
+    "status": "provisional_from_pdf_illustrations"
+  },
+  "development_resources": {
+    "raw_dataset_root": "C:/Users/Pc/Desktop/新建文件夹/Dataset300",
+    "raw_annotation_format": "CVJsonStd",
+    "standardized_root": "C:/Users/Pc/Desktop/vision/pcb_parser_competition/data/standardized",
+    "conversion_config": "configs/conversion.json",
+    "status": "converted_local_references_pending_semantic_review"
+  },
+  "official_resources": {
+    "image_root": null,
+    "golden_root": null,
+    "evaluator_path": null,
+    "symbol_library_path": null,
+    "qa_path": null,
+    "runtime_spec_path": null
+  },
+  "official_metric_weights": {
+    "ComponentF1": 0.3,
+    "PinF1": 0.25,
+    "NetHypergraphF1": 0.35,
+    "NetLineF1": 0.1
+  },
+  "official_default_tolerances_px": {
+    "component_bbox": 20,
+    "pin_point": 5,
+    "line_endpoints": 5,
+    "comparison_details": "pending_official_evaluator"
+  },
+  "internal_batch_target": {
+    "cases": 50,
+    "cold_start_total_minutes": 100
+  },
+  "runtime": {
+    "python": ".venv-gpu/Scripts/python.exe",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "status": "real_cuda_matmul_conv_nms_passed",
+    "official_platform_compatibility": "unverified"
+  },
+  "baseline_config": "configs/baseline_v3_adopted.json",
+  "baseline_run": "runs/s3_v3_detector_quick_dev/summary.json",
+  "detector": {
+    "framework": "ultralytics",
+    "weights": "weights/detector_dataset300_v3_nano.pt",
+    "weights_sha256": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd",
+    "recommended_mode": "fused",
+    "status": "v3_imported_frozen_no_new_training",
+    "source_gpu_f1": 0.8830433023067584,
+    "local_cpu_f1": 0.8824124671119207,
+    "source_evidence": "data/local_imports/v3_20261011/source_evidence/runs/eval_v3_fused_v2thr.json",
+    "local_evaluation": "runs/detector_comparison_v3/adopted_fused_cpu.json"
+  },
+  "sahi": {
+    "slice_height": 1024,
+    "slice_width": 1024,
+    "overlap": 0.25,
+    "merge_metric": "IOS",
+    "merge_threshold": 0.45,
+    "merge_method": "GREEDYNMM",
+    "skip_if_max_side_below": 1600,
+    "fusion": {
+      "iou": 0.55
+    },
+    "status": "adopted_source_v3_parameters_frozen"
+  },
+  "ocr": {
+    "package": "rapidocr",
+    "runtime": "onnxruntime_cpu",
+    "status": "six_development_pages_optimized_coverage_target_pending",
+    "config": "configs/baseline_v3_adopted.json",
+    "entrypoint": "scripts/run_ocr_binding.ps1",
+    "report": "docs/component_text_optimization_report.md",
+    "manual_review_fields": 155,
+    "local_metrics": {
+      "designator": {
+        "correct": 69,
+        "expected": 84,
+        "matched_detection_fields": 77,
+        "exact_match_rate": 0.8214285714285714,
+        "exact_rate_given_matched_detection": 0.8961038961038961,
+        "assigned": 71,
+        "binding_precision": 0.971830985915493
+      },
+      "value": {
+        "correct": 58,
+        "expected": 62,
+        "matched_detection_fields": 61,
+        "exact_match_rate": 0.9354838709677419,
+        "exact_rate_given_matched_detection": 0.9508196721311475
+      },
+      "Name": {
+        "correct": 8,
+        "expected": 9,
+        "matched_detection_fields": 8,
+        "exact_match_rate": 0.8888888888888888,
+        "exact_rate_given_matched_detection": 1.0
+      }
+    },
+    "run": "runs/s3_component_text_quick_dev/summary.json",
+    "evaluation": "runs/s3_component_text_quick_dev/evaluation.json",
+    "official_score": null,
+    "version": "semantic_v2",
+    "original_two_case_metrics": {
+      "designator": {
+        "correct": 49,
+        "expected": 54,
+        "matched_detection_fields": 49,
+        "assigned": 51,
+        "exact_match_rate": 0.9074074074074074,
+        "exact_rate_given_matched_detection": 1.0,
+        "binding_precision": 0.9607843137254902
+      },
+      "value": {
+        "correct": 40,
+        "expected": 41,
+        "matched_detection_fields": 41,
+        "exact_match_rate": 0.975609756097561,
+        "exact_rate_given_matched_detection": 0.975609756097561
+      },
+      "Name": {
+        "correct": 5,
+        "expected": 6,
+        "matched_detection_fields": 5,
+        "exact_match_rate": 0.8333333333333334,
+        "exact_rate_given_matched_detection": 1.0
+      }
+    },
+    "additional_four_case_metrics": {
+      "designator": {
+        "correct": 20,
+        "expected": 30,
+        "matched_detection_fields": 28,
+        "assigned": 20,
+        "exact_match_rate": 0.6666666666666666,
+        "exact_rate_given_matched_detection": 0.7142857142857143,
+        "binding_precision": 1.0
+      },
+      "value": {
+        "correct": 18,
+        "expected": 21,
+        "matched_detection_fields": 20,
+        "exact_match_rate": 0.8571428571428571,
+        "exact_rate_given_matched_detection": 0.9
+      },
+      "Name": {
+        "correct": 3,
+        "expected": 3,
+        "matched_detection_fields": 3,
+        "exact_match_rate": 1.0,
+        "exact_rate_given_matched_detection": 1.0
+      }
+    },
+    "aggregate": "runs/s3_component_text_quick_dev/optimization_aggregate.json",
+    "baseline_archive": "runs/s3_component_text_v1_archive"
+  },
+  "wires": {
+    "backend": "pytorch_unet_learned_segmentation",
+    "status": "draft_supervised_model_trained_frozen_v2_inference_adopted",
+    "config": "configs/unet_wire_pin.json",
+    "report": "docs/unet_wire_pin_plan.md",
+    "traditional_image_segmentation": false,
+    "dataset_summary": "data/segmentation_unet_v1/summary.json",
+    "draft_cases": 300,
+    "structurally_usable_drafts": 132,
+    "formally_reviewed_labels": 0,
+    "checkpoint": "weights/unet_wire_pin_v1.pt",
+    "smoke_record": "runs/training/unet_wire_pin_smoke/summary.json",
+    "official_score": null
+  },
+  "nets": {
+    "backend": "networkx_with_electrical_rules",
+    "status": "physical_and_logical_candidates_implemented_complete_export_pending",
+    "latest_pilot_config": "configs/observed_net_fields_v1.json",
+    "latest_pilot_entrypoint": "scripts/run_observed_net_fields.ps1",
+    "latest_report": "docs/observed_net_fields_stage_v1.md",
+    "default_pipeline_adopted": false,
+    "strict_exported_nets_on_26_development_pages": 1,
+    "engineering_exported_nets_on_26_development_pages": 5,
+    "engineering_complete_nets_with_all_members_matching_draft_owner_and_5px": 4,
+    "local_capacitor_refined_tips": 8,
+    "engineering_numbering_policy": "left_or_top_1_right_or_bottom_2_with_explicit_unverified_provenance",
+    "engineering_numbering_officially_verified": false,
+    "identity_policy": "unique_observed_interface_or_literal_header_with_separate_footer_and_observed_pins_local_policy",
+    "official_complete_networks_certified": 0,
+    "official_NetF1": null
+  },
+  "detection_training": {
+    "status": "imported_completed_source_training_no_new_training_in_this_task",
+    "config": "configs/detector_training_v3.json",
+    "record": "data/local_imports/v3_20261011/source_evidence/runs/training/detector_dataset300_v3_nano_record.json",
+    "report": "docs/v3_import_and_ocr_binding_report.md"
+  },
+  "first_detection_training": {
+    "dataset": "data/detection_v1/dataset.yaml",
+    "config": "configs/detector_training.json",
+    "report": "docs/detector_training_report.md",
+    "train_images": 238,
+    "val_images": 59,
+    "class_count": 35,
+    "epochs_completed": 20,
+    "local_metric": "class_name_and_bbox_iou_ge_0.5_micro_f1_at_confidence_0.25",
+    "local_f1_before": 0.4152352501867065,
+    "local_f1_after": 0.7755012117206433,
+    "official_f1": null,
+    "pending": [
+      "rare_class_coverage",
+      "sahi_merge_quality",
+      "complete_source_engineering_groups"
+    ]
+  },
+  "external_data_collection": {
+    "status": "first_batch_collected_screened_pending_verified_annotation",
+    "sources": 10,
+    "schematic_pages": 8,
+    "native_cad_files": 10,
+    "parsed_native_cad_files": 9,
+    "training_candidate_pages": 6,
+    "reserved_external_test_pages": 2,
+    "training_eligible_pages": 0,
+    "rare_symbol_candidates": {
+      "mosfet_candidate": 15,
+      "clock_symbol_candidate": 7
+    },
+    "report": "docs/external_data_collection_report.md",
+    "collection_manifest": "data/external_collection_v1/manifest.jsonl",
+    "annotation_tasks": "data/external_collection_v1/annotation_tasks.json",
+    "official_data_submission_instructions": null,
+    "official_bonus_score": null,
+    "new_data_trained": false,
+    "measured_metric_change_from_external_data": null
+  },
+  "second_detection_training": {
+    "dataset": "data/detection_balanced_v2/dataset.yaml",
+    "config": "configs/detector_training_balanced.json",
+    "report": "docs/detector_balanced_training_report.md",
+    "train_images": 418,
+    "original_training_pages": 238,
+    "context_crops": 180,
+    "val_images": 59,
+    "class_count": 35,
+    "epochs_completed": 20,
+    "local_metric": "class_name_and_bbox_iou_ge_0.5_micro_f1_at_confidence_0.25",
+    "local_f1_first_whole": 0.7755012117206433,
+    "local_f1_after_whole": 0.800767099936075,
+    "local_f1_after_sliced": 0.8131781416452949,
+    "official_f1": null,
+    "pending": [
+      "two_terminal_crystal_confusion",
+      "rare_class_recall",
+      "sahi_false_positives",
+      "complete_source_engineering_groups",
+      "independent_final_test_set"
+    ]
+  },
+  "pin_localization": {
+    "backend": "shared_unet_tip_heatmap",
+    "status": "trained_tip_localization_and_owner_binding_available_fields_and_quality_pending",
+    "model_parameters": 4318434,
+    "official_score": null
+  }
+}

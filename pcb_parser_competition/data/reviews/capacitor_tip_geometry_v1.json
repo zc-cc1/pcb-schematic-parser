@@ -1,0 +1,18 @@
+{
+  "review_kind": "assistant_visual_review_of_original_PNG_native_and_multiscale_model_points",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "reference_edits": 0,
+  "official_number_name_or_tip_definition_certified": false,
+  "case_id": "0036",
+  "findings": [
+    "Native capacitor points lie farther along the leads than the plate contacts.",
+    "1.5x and 2x frozen U-Net peaks move toward the plates on the same leads.",
+    "The C1 and C3 tips in the two three-contact networks move closer to the symbol contacts without changing the visible branches.",
+    "New wire endpoints follow local learned wire probability paths; no reference coordinates enter inference."
+  ],
+  "reviewed_component_ids": ["C1", "C2", "C3", "C4"],
+  "geometry_review_index": "runs/s23_capacitor_geometry/geometry_review.json",
+  "whole_network_review_index": "runs/s23_capacitor_geometry/whole_network_review.json",
+  "scope": "Local geometry and visible connectivity review; engineering numbering and official net membership remain unverified."
+}

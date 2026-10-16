@@ -1,0 +1,769 @@
+{
+  "image": "pcb-parser:local-cuda-28da9146",
+  "platform": "linux/amd64",
+  "runtime": "cuda",
+  "entrypoint": "[\"/submission/run.sh\"]",
+  "source_zip": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\submission_official_slim_source.zip",
+  "source_zip_snapshot": "D:\\pcb_submission_export\\pcb_image_20261016_155125_dec67ea7\\source_snapshot.zip",
+  "source_zip_sha256": "21B8E4265E4172B511CF848BAD6FA0AB36BBCE0586522C2B6884E2BFC0EBACF7",
+  "docker_build_passed": true,
+  "docker_inference_passed": true,
+  "docker_archive_load_passed": true,
+  "source_manifest_matches_image": true,
+  "all_bundled_file_hashes_verified": true,
+  "image_id": "sha256:4d4182e68e5fcde38b341ef7c69c7f042f5d09c479b638a2c7ad823d89538bb8",
+  "successful_cases": 2,
+  "output_format": "target",
+  "workers_tested": 2,
+  "target_layout_verified": true,
+  "smoke_device": "cpu",
+  "gpu_inference_tested": false,
+  "base_image": "edarace-agent-base:ubuntu24",
+  "build_recipe_sha256": "68F6896BC951CA892147A7B5D63D302645206F35B63CEEB1DDC1FE740CEA7C41",
+  "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+  "component_output_policy": "public_20261016_passive_names_template_boxes_v1",
+  "remaining_limitations": [
+    "Public training/Golden IC Name conventions differ; existing IC names preserved",
+    "Power/network coverage unchanged",
+    "New official score pending",
+    "Local smoke device: cpu",
+    "Official base does not support RTX 5060 sm_120 GPU execution; use CPU locally or retain previous cu128 image",
+    "A800 sm_80 is a compiled architecture; actual A800 GPU execution not tested locally",
+    "Runtime changed from PyTorch 2.10/cu128 to official 2.5.1/cu121; two smoke cases cannot establish full dataset score equivalence"
+  ],
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "upload_zip": "D:\\pcb_submission_export\\pcb_image_20261016_155125_dec67ea7\\submission_official_slim.zip",
+  "upload_zip_sha256": "C8CFE06E8F047692A640EAF22DDEA70C1298C1611041442AD629306F1863B26A",
+  "upload_zip_bytes": 3562329214,
+  "official_score": null,
+  "export_integrity": {
+    "verified_at_utc": "2026-10-16T07:58:10.874490+00:00",
+    "zip": "D:\\pcb_submission_export\\pcb_image_20261016_155125_dec67ea7\\submission_official_slim.zip",
+    "zip_bytes": 3562329214,
+    "zip_sha256": "c8cfe06e8f047692a640eaf22ddea70c1298c1611041442ad629306f1863b26a",
+    "zip_single_member": "submission.tar",
+    "zip_crc_verified": true,
+    "payload_matches_loaded_tar": true,
+    "tar_sha256": "61334fbad0a7b9c9ca29942e492fedd23c02152b785c7efe10b8b7a1db68d998",
+    "tar_bytes": 3562329088,
+    "single_image_verified": true,
+    "image": "pcb-parser:local-cuda-28da9146",
+    "platform": "linux/amd64",
+    "entrypoint": [
+      "/submission/run.sh"
+    ],
+    "output_format": "target",
+    "official_score": null
+  },
+  "official_base": {
+    "official_tar": "C:\\Users\\Pc\\Desktop\\新建文件夹\\edarace-agent-base_ubuntu24.tar",
+    "official_tar_bytes": 3107774976,
+    "official_tar_sha256": "74d9b41fb3f9980cbe7fd2a04b22bef44d05b2fa8fd535aebf83183946c83d1f",
+    "image_tag": "edarace-agent-base:ubuntu24",
+    "image_config_sha256": "e34801350735598a6b850de3ce38eba72c5993afd4a53bb65f8a6111c1947dac",
+    "labels": {
+      "org.opencontainers.image.description": "EDARace participant base image with GPU runtime hooks (no scoring script)",
+      "org.opencontainers.image.title": "edarace-agent-base",
+      "org.opencontainers.image.version": "ubuntu24"
+    },
+    "runtime": {
+      "torch": "2.5.1+cu121",
+      "torchvision": "0.20.1",
+      "cuda": "12.1",
+      "python": "3.12.3"
+    },
+    "gpu_arches_observed": [
+      "sm_50",
+      "sm_60",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90"
+    ],
+    "local_rtx5060_gpu_probe": "no kernel image available: sm_120 unsupported",
+    "target_a800_sm80_in_arch_list": true,
+    "target_a800_gpu_execution_tested": false,
+    "contains_official_scoring_script": false
+  },
+  "runtime_profile": "official-cu121",
+  "runtime_versions": {
+    "python": "3.12.3",
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "cuda": "12.1"
+  },
+  "target_a800_gpu_execution_tested": false,
+  "runtime_output_comparison": {
+    "old_root": "D:\\pcb_submission_export\\pcb_image_20261016_150523_19da58c1",
+    "new_root": "D:\\pcb_submission_export\\pcb_image_20261016_155125_dec67ea7",
+    "changed_bundled_files": [
+      "Dockerfile",
+      "README.md"
+    ],
+    "all_model_and_algorithm_files_identical": true,
+    "old_smoke_device": "cuda:0",
+    "new_smoke_device": "cpu",
+    "cases": {
+      "0036": {
+        "components": 10,
+        "pins": 22,
+        "nets": 3,
+        "nets_exactly_equal": true,
+        "coordinate_difference_count": 78,
+        "max_coordinate_delta_px": 0.01099999999999568,
+        "other_differences": [],
+        "coordinate_differences": [
+          [
+            "/components/C1/bbox/0",
+            218.507,
+            218.5045
+          ],
+          [
+            "/components/C1/bbox/1",
+            254.462,
+            254.461
+          ],
+          [
+            "/components/C1/bbox/2",
+            234.507,
+            234.5045
+          ],
+          [
+            "/components/C1/bbox/3",
+            274.462,
+            274.461
+          ],
+          [
+            "/components/C2/bbox/0",
+            169.9725,
+            169.9715
+          ],
+          [
+            "/components/C2/bbox/1",
+            176.8885,
+            176.8875
+          ],
+          [
+            "/components/C2/bbox/2",
+            185.9725,
+            185.9715
+          ],
+          [
+            "/components/C2/bbox/3",
+            196.8885,
+            196.8875
+          ],
+          [
+            "/components/C3/bbox/0",
+            387.928,
+            387.92449999999997
+          ],
+          [
+            "/components/C3/bbox/1",
+            152.57049999999998,
+            152.5635
+          ],
+          [
+            "/components/C3/bbox/2",
+            407.928,
+            407.92449999999997
+          ],
+          [
+            "/components/C3/bbox/3",
+            168.57049999999998,
+            168.5635
+          ],
+          [
+            "/components/C4/bbox/0",
+            438.4055,
+            438.4065
+          ],
+          [
+            "/components/C4/bbox/1",
+            151.1865,
+            151.184
+          ],
+          [
+            "/components/C4/bbox/2",
+            458.4055,
+            458.4065
+          ],
+          [
+            "/components/C4/bbox/3",
+            167.1865,
+            167.184
+          ],
+          [
+            "/components/DOUT/bbox/1",
+            155.791,
+            155.792
+          ],
+          [
+            "/components/DOUT/bbox/2",
+            707.146,
+            707.147
+          ],
+          [
+            "/components/DOUT/bbox/3",
+            165.153,
+            165.154
+          ],
+          [
+            "/components/L1/bbox/0",
+            265.555,
+            265.55449999999996
+          ],
+          [
+            "/components/L1/bbox/1",
+            172.423,
+            172.421
+          ],
+          [
+            "/components/L1/bbox/2",
+            271.555,
+            271.55449999999996
+          ],
+          [
+            "/components/L1/bbox/3",
+            206.423,
+            206.421
+          ],
+          [
+            "/components/L2/bbox/1",
+            170.53750000000002,
+            170.5405
+          ],
+          [
+            "/components/L2/bbox/3",
+            204.53750000000002,
+            204.5405
+          ],
+          [
+            "/components/R1/bbox/0",
+            358.492,
+            358.49199999999996
+          ],
+          [
+            "/components/R1/bbox/2",
+            378.492,
+            378.49199999999996
+          ],
+          [
+            "/components/U1/bbox/0",
+            481.973,
+            481.969
+          ],
+          [
+            "/components/U1/bbox/1",
+            166.189,
+            166.178
+          ],
+          [
+            "/components/U1/bbox/2",
+            599.033,
+            599.036
+          ],
+          [
+            "/components/U1/bbox/3",
+            318.757,
+            318.76
+          ],
+          [
+            "/components/X1/bbox/0",
+            685.487,
+            685.481
+          ],
+          [
+            "/components/X1/bbox/1",
+            274.738,
+            274.73699999999997
+          ],
+          [
+            "/components/X1/bbox/2",
+            726.597,
+            726.598
+          ],
+          [
+            "/pins/C1/pin_1/point/x",
+            212.9478794373572,
+            212.94738133996725
+          ],
+          [
+            "/pins/C1/pin_1/point/y",
+            262.6073353290558,
+            262.60729494690895
+          ],
+          [
+            "/pins/C1/pin_2/point/x",
+            241.57573518157005,
+            241.5755768418312
+          ],
+          [
+            "/pins/C1/pin_2/point/y",
+            263.796847268939,
+            263.7966204583645
+          ],
+          [
+            "/pins/C2/pin_1/point/x",
+            177.91841065138578,
+            177.91848899424076
+          ],
+          [
+            "/pins/C2/pin_1/point/y",
+            200.53820580244064,
+            200.53811529278755
+          ],
+          [
+            "/pins/C2/pin_2/point/x",
+            177.4471568763256,
+            177.4473372399807
+          ],
+          [
+            "/pins/C2/pin_2/point/y",
+            170.44959250092506,
+            170.4495325088501
+          ],
+          [
+            "/pins/C3/pin_1/point/x",
+            397.5901312530041,
+            397.5901474952698
+          ],
+          [
+            "/pins/C3/pin_1/point/y",
+            174.70586147904396,
+            174.70656302571297
+          ],
+          [
+            "/pins/C3/pin_2/point/x",
+            396.503430634737,
+            396.50339713692665
+          ],
+          [
+            "/pins/C3/pin_2/point/y",
+            144.16753751039505,
+            144.16775773465633
+          ],
+          [
+            "/pins/C4/pin_1/point/x",
+            448.27225825190544,
+            448.2721772789955
+          ],
+          [
+            "/pins/C4/pin_1/point/y",
+            173.64355739951134,
+            173.64489278197289
+          ],
+          [
+            "/pins/C4/pin_2/point/x",
+            448.33704364299774,
+            448.3369299173355
+          ],
+          [
+            "/pins/C4/pin_2/point/y",
+            144.05236998945475,
+            144.0517731755972
+          ],
+          [
+            "/pins/DOUT/pin_1/point/x",
+            687.2911940217018,
+            687.2904855310917
+          ],
+          [
+            "/pins/DOUT/pin_1/point/y",
+            160.30549868941307,
+            160.30401641130447
+          ],
+          [
+            "/pins/L1/pin_1/point/x",
+            269.9949464411475,
+            269.9939987929538
+          ],
+          [
+            "/pins/L1/pin_1/point/y",
+            221.3792098760605,
+            221.37640422582626
+          ],
+          [
+            "/pins/L1/pin_2/point/x",
+            271.45268002152443,
+            271.4539324641228
+          ],
+          [
+            "/pins/L1/pin_2/point/y",
+            159.22741197049618,
+            159.23377393186092
+          ],
+          [
+            "/pins/L2/pin_1/point/x",
+            111.01622365787625,
+            111.01588808000088
+          ],
+          [
+            "/pins/L2/pin_1/point/y",
+            221.65500703454018,
+            221.6550573706627
+          ],
+          [
+            "/pins/L2/pin_2/point/x",
+            111.85432955622673,
+            111.85478909313679
+          ],
+          [
+            "/pins/L2/pin_2/point/y",
+            157.14151941239834,
+            157.14186435937881
+          ],
+          [
+            "/pins/R1/pin_1/point/x",
+            354.41809636354446,
+            354.41919645667076
+          ],
+          [
+            "/pins/R1/pin_1/point/y",
+            229.0564705133438,
+            229.0564123764634
+          ],
+          [
+            "/pins/R1/pin_2/point/x",
+            384.37775188684464,
+            384.3777595460415
+          ],
+          [
+            "/pins/R1/pin_2/point/y",
+            228.5127144753933,
+            228.51544988155365
+          ],
+          [
+            "/pins/U1/pin_1/point/x",
+            483.1962380260229,
+            483.1966893821955
+          ],
+          [
+            "/pins/U1/pin_1/point/y",
+            297.0390010997653,
+            297.0394257083535
+          ],
+          [
+            "/pins/U1/pin_2/point/x",
+            481.6215371489525,
+            481.6218245923519
+          ],
+          [
+            "/pins/U1/pin_2/point/y",
+            263.52521046996117,
+            263.5251339375973
+          ],
+          [
+            "/pins/U1/pin_3/point/x",
+            483.3244430720806,
+            483.3238847255707
+          ],
+          [
+            "/pins/U1/pin_3/point/y",
+            228.95338692888618,
+            228.95370470359921
+          ],
+          [
+            "/pins/U1/pin_4/point/x",
+            481.1852331459522,
+            481.18519027531147
+          ],
+          [
+            "/pins/U1/pin_4/point/y",
+            194.7536444813013,
+            194.75363579392433
+          ],
+          [
+            "/pins/U1/pin_6/point/x",
+            602.1069810315967,
+            602.1122591495514
+          ],
+          [
+            "/pins/U1/pin_6/point/y",
+            227.98143179900944,
+            227.9812292251736
+          ],
+          [
+            "/pins/U1/pin_7/point/x",
+            605.0554338358343,
+            605.0597854070365
+          ],
+          [
+            "/pins/U1/pin_7/point/y",
+            262.6518514454365,
+            262.652608782053
+          ],
+          [
+            "/pins/U1/pin_8/point/x",
+            603.2197641283274,
+            603.2147986739874
+          ],
+          [
+            "/pins/U1/pin_8/point/y",
+            295.6345884799957,
+            295.634170293808
+          ]
+        ]
+      },
+      "0042": {
+        "components": 7,
+        "pins": 10,
+        "nets": 1,
+        "nets_exactly_equal": true,
+        "coordinate_difference_count": 45,
+        "max_coordinate_delta_px": 0.02400000000000091,
+        "other_differences": [],
+        "coordinate_differences": [
+          [
+            "/components/JTAG/bbox/0",
+            351.389,
+            351.387
+          ],
+          [
+            "/components/JTAG/bbox/1",
+            30.673000000000002,
+            30.67500000000001
+          ],
+          [
+            "/components/JTAG/bbox/2",
+            474.171,
+            474.17
+          ],
+          [
+            "/components/JTAG/bbox/3",
+            193.325,
+            193.327
+          ],
+          [
+            "/components/R23/bbox/0",
+            145.59,
+            145.5905
+          ],
+          [
+            "/components/R23/bbox/1",
+            208.6055,
+            208.6045
+          ],
+          [
+            "/components/R23/bbox/2",
+            153.59,
+            153.5905
+          ],
+          [
+            "/components/R23/bbox/3",
+            228.6055,
+            228.6045
+          ],
+          [
+            "/components/R24/bbox/0",
+            181.458,
+            181.4575
+          ],
+          [
+            "/components/R24/bbox/1",
+            208.543,
+            208.546
+          ],
+          [
+            "/components/R24/bbox/2",
+            189.458,
+            189.4575
+          ],
+          [
+            "/components/R24/bbox/3",
+            228.543,
+            228.546
+          ],
+          [
+            "/components/R25/bbox/0",
+            210.3475,
+            210.3465
+          ],
+          [
+            "/components/R25/bbox/1",
+            209.211,
+            209.2135
+          ],
+          [
+            "/components/R25/bbox/2",
+            218.3475,
+            218.3465
+          ],
+          [
+            "/components/R25/bbox/3",
+            229.211,
+            229.2135
+          ],
+          [
+            "/components/R26/bbox/0",
+            238.437,
+            238.43599999999998
+          ],
+          [
+            "/components/R26/bbox/1",
+            208.4395,
+            208.44
+          ],
+          [
+            "/components/R26/bbox/2",
+            246.437,
+            246.43599999999998
+          ],
+          [
+            "/components/R26/bbox/3",
+            228.4395,
+            228.44
+          ],
+          [
+            "/components/R27/bbox/1",
+            208.58350000000002,
+            208.584
+          ],
+          [
+            "/components/R27/bbox/3",
+            228.58350000000002,
+            228.584
+          ],
+          [
+            "/components/RESET#/bbox/1",
+            67.088,
+            67.08600000000001
+          ],
+          [
+            "/components/RESET#/bbox/2",
+            104.411,
+            104.435
+          ],
+          [
+            "/components/RESET#/bbox/3",
+            85.27099999999999,
+            85.275
+          ],
+          [
+            "/pins/JTAG/pin_1/point/x",
+            347.8374991565943,
+            347.83866856992245
+          ],
+          [
+            "/pins/JTAG/pin_1/point/y",
+            175.69673737883568,
+            175.69689002633095
+          ],
+          [
+            "/pins/JTAG/pin_11/point/x",
+            346.2366582304239,
+            346.23472069203854
+          ],
+          [
+            "/pins/JTAG/pin_11/point/y",
+            118.53271320462227,
+            118.53287979960442
+          ],
+          [
+            "/pins/JTAG/pin_13/point/x",
+            345.4071940779686,
+            345.41454392671585
+          ],
+          [
+            "/pins/JTAG/pin_13/point/y",
+            90.57937169075012,
+            90.57914090156555
+          ],
+          [
+            "/pins/JTAG/pin_15/point/x",
+            344.97951384447515,
+            344.97983345389366
+          ],
+          [
+            "/pins/JTAG/pin_15/point/y",
+            76.93980756774545,
+            76.94066701829433
+          ],
+          [
+            "/pins/JTAG/pin_2/point/x",
+            475.3729616999626,
+            475.3737241923809
+          ],
+          [
+            "/pins/JTAG/pin_2/point/y",
+            175.99937072914327,
+            175.99952941932133
+          ],
+          [
+            "/pins/JTAG/pin_3/point/x",
+            346.5329801440239,
+            346.5340945124626
+          ],
+          [
+            "/pins/JTAG/pin_3/point/y",
+            161.6384841799736,
+            161.6387247145176
+          ],
+          [
+            "/pins/JTAG/pin_4/point/x",
+            475.28038784861565,
+            475.2783233821392
+          ],
+          [
+            "/pins/JTAG/pin_4/point/y",
+            161.97457428649068,
+            161.97471936792135
+          ],
+          [
+            "/pins/JTAG/pin_5/point/x",
+            347.0114574385807,
+            347.01207298692316
+          ],
+          [
+            "/pins/JTAG/pin_5/point/y",
+            148.0969797372818,
+            148.09693674743176
+          ],
+          [
+            "/pins/JTAG/pin_7/point/x",
+            347.1438779979944,
+            347.1455779969692
+          ],
+          [
+            "/pins/JTAG/pin_7/point/y",
+            132.53846514225006,
+            132.53847581148148
+          ],
+          [
+            "/pins/RESET#/pin_1/point/x",
+            107.42822402715683,
+            107.42628860473633
+          ],
+          [
+            "/pins/RESET#/pin_1/point/y",
+            76.95685079693794,
+            76.95705303549767
+          ]
+        ]
+      }
+    },
+    "official_score": null,
+    "limitation": "Two smoke cases only; this does not establish full-dataset or A800 GPU equivalence."
+  },
+  "size_comparison": {
+    "previous_zip_bytes": 4978083518,
+    "new_zip_bytes": 3562329214,
+    "saved_bytes": 1415754304,
+    "saved_percent": 28.44,
+    "zip_compression": "stored",
+    "models_removed": false,
+    "algorithm_files_changed": false
+  },
+  "post_export_cleanup": {
+    "removed_duplicate_tar": true,
+    "upload_zip_retained": true,
+    "original_export_checks_completed_before_cleanup": true,
+    "cleanup_report": "dist/submission_archive_cleanup_20261016.json"
+  }
+}

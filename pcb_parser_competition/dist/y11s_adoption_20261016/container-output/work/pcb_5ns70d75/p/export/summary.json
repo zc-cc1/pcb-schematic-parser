@@ -1,0 +1,63 @@
+{
+  "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "size": [
+    832,
+    376
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/completed_pin_text_result.json": "8a8d2d4d6488618a4318aa4e6c793fa44cde9dce19d0ed414821069b205fe9fe",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/graph_proposals.json": "d07a3605107e6d189aaed5c6b6ddf32ed369c0d6576c8ee1c3bfe4afdabc0ea2",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/completed_component_records.json": "271ff86a484f976013b592a3c515168c4725254645d2cadd54b2b6f42ee7aa3b",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/proposal_export/partial_submission.json": "719c0c0d166449b32bbe98e1ba49f497e565fc0c2cb6af87f232349a7b350a14",
+    "/output/work/pcb_5ns70d75/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "ca91aaacd4d578eeafbf0526c37db44b6a348d5d4a1c72249bd082b333506c27"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "engineering_fields": {
+    "generated_pin_numbers": 0,
+    "generated_pin_names": 0,
+    "qualified_two_terminal_components": 3,
+    "blank_owner_assignments_withdrawn": 0,
+    "withheld_component_reason_counts": {
+      "requires_exactly_two_owned_model_tips": 4
+    }
+  },
+  "baseline_export": {
+    "exported_components": 10,
+    "exported_pins": 7,
+    "exported_nets": 1
+  },
+  "engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 14,
+    "exported_nets": 1
+  },
+  "new_complete_network_ids": [],
+  "completion": {
+    "multi_pin_networks": 11,
+    "field_only_incomplete_networks": 8,
+    "non_field_export_blocker_counts": {
+      "wire_endpoint_near_component_without_member": 2
+    }
+  },
+  "network_guard": {
+    "verified_duplicate_tip_pairs": 0,
+    "blocked_networks": 2,
+    "blocker_counts": {
+      "wire_endpoint_near_component_without_member": 2
+    }
+  },
+  "original_points_edges_and_members_preserved": true,
+  "all_existing_numbers_names_and_conservative_output_preserved": true,
+  "new_OCR_observations": 0,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "complete_competition_JSON": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and S21 model/OCR predictions only; no annotations/CAD/Golden reads",
+  "wall_seconds": 0.21455088100000808
+}

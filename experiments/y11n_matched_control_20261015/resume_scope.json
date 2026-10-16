@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-15T04:41:33.105255+00:00",
+  "user_request": "恢复已训练59轮的COCO起点v8n作为对照",
+  "run": "v8n_seed20261012",
+  "original_protocol_sha256": "1d56120c702133d488deca1580f5fa2fb9faa15e3b3763fbfe379d1b7d0423ad",
+  "changes": "Only resume existing checkpoint; no changed data, hyperparameters, threshold policy or additional training budget.",
+  "comparison": "Same-seed COCO-initialized v8n and 11n; existing deployed v8n remains an additional practical reference.",
+  "limits": [
+    "Framework checkpoint resume; data-loader/RNG states are not serialized, so future stochastic ordering is not bitwise identical to an uninterrupted run.",
+    "Only one matched v8n seed; other 11n seed is a repeat reference, not a second paired architecture trial.",
+    "Score pages were previously examined; old development data, not a new blind engineering-source test."
+  ]
+}

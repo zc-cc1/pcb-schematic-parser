@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "initial_weights": "weights/detector_dataset300_balanced_v2.pt",
+  "dataset": "data/detection_balanced_v2/dataset.yaml",
+  "run_name": "detector_dataset300_v3_nano",
+  "training": {
+    "epochs": 120, "imgsz": 1536, "batch": 4, "workers": 2,
+    "device": 0, "amp": true, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.0003, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 3, "patience": 25, "seed": 20261012, "deterministic": true,
+    "mosaic": 0.35, "close_mosaic": 15, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.1, "scale": 0.4, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.0, "fliplr": 0.0, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.25,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": [
+    "v3 recipe on the same architecture (warm start from balanced_v2 best): the two biggest knobs are imgsz 1024->1536 and amp fp16, which restores the VRAM headroom that amp:false was spending.",
+    "epochs 20->120 with patience 25: round-2 runs stopped while val metrics were still improving; 4.2 minutes for 20 epochs leaves ample budget.",
+    "lr0 lowered to 3e-4 because this is a warm optimizer restart, not a fresh fit.",
+    "mosaic 0.15->0.35 and close_mosaic 5->15: dense small-symbol pages benefit from longer mosaic exposure; scale 0.2->0.4 and translate 0.05->0.1 widen position/size coverage.",
+    "hsv_v 0.1->0.25 simulates scan brightness drift on datasheet pages; hue/saturation stay off and rotation/flip remain off because schematic text and topology are orientation- and mirror-sensitive.",
+    "Rare-class coverage still comes from the balanced_v2 context crops; no dataset change in this config.",
+    "If OOM at imgsz 1536 batch 4 on the 8 GB card, rerun with --batch 2 or --imgsz 1280 via CLI overrides.",
+    "Expect the largest gains on small resistors/capacitors inside 3-5k pixel datasheet pages; verify with scripts/error_breakdown.py after evaluation."
+  ]
+}

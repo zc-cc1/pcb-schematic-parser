@@ -1,0 +1,211 @@
+{
+  "status": "completed",
+  "completed_at_utc": "2026-10-16T15:33:42.424523+00:00",
+  "selected_detector": {
+    "architecture": "YOLO11s",
+    "config": "configs/baseline_y11s.json",
+    "weights": "weights/detector_yolo11s_base_20261015.pt",
+    "weights_sha256": "5c63d9510681d90b7cb54a36438a63d54d479ab6763a89d9b118afd06f3425d5",
+    "calibration_epoch": 76,
+    "class_thresholds_file": "configs/class_thresholds_y11s_base.json"
+  },
+  "regression_tests": {
+    "passed": 106,
+    "failures": 0
+  },
+  "runtime": {
+    "requested_device": "cpu",
+    "torch": "2.5.1+cu121",
+    "torch_cuda_build": "12.1",
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "environment": {
+      "PCB_DEVICE": "cpu",
+      "CUDA_VISIBLE_DEVICES": null,
+      "NVIDIA_VISIBLE_DEVICES": "all",
+      "NVIDIA_DRIVER_CAPABILITIES": "compute,utility"
+    },
+    "cuda_probe": {
+      "attempted": false,
+      "success": false
+    },
+    "selected_device": "cpu"
+  },
+  "container_image": "pcb-parser:method1-348b97c5",
+  "test_mode": "network_disabled_existing_official_runtime_with_read_only_new_source",
+  "new_y11s_image_built": false,
+  "official_submission_performed": false,
+  "source_package": {
+    "source_directory": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\submission\\platform_test_20261016_y11s_main_1",
+    "archive": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\submission_y11s_main_source.zip",
+    "bytes": 94544036,
+    "sha256": "f47ec6619198238a144d84a993a8c7fd35667e7108b4514485bc0c2af4441624",
+    "file_count": 112,
+    "scripts": 19,
+    "crc_verified": true,
+    "run_sh_lf_and_executable": true,
+    "docker_build_verified": false
+  },
+  "package_files_unchanged_after_smoke": true,
+  "package_and_zip_hashes_verified": true,
+  "smoke": {
+    "method": "yolo11s_base_rapidocr_unet_v1_S24_engineering",
+    "timestamp": "2026-10-16T15:30:27.588382+00:00",
+    "processed_cases": 2,
+    "successful_cases": 2,
+    "failed_cases": 0,
+    "output_format": "target",
+    "coordinate_origin": "bottom_left_H_minus_y",
+    "token_usage": {
+      "total_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "api_calls": 0
+    },
+    "cases": [
+      {
+        "case_id": "0036",
+        "input": "/input/0036.png",
+        "success": true,
+        "ic_geometry_seconds": 0.04,
+        "components": 15,
+        "pins": 14,
+        "nets": 1,
+        "seconds": 43.224,
+        "target_contract_valid": true
+      },
+      {
+        "case_id": "0147",
+        "input": "/input/0147.png",
+        "success": true,
+        "ic_geometry_seconds": 0.017,
+        "led_geometry_seconds": 2.082,
+        "components": 53,
+        "pins": 32,
+        "nets": 1,
+        "seconds": 67.295,
+        "target_contract_valid": true
+      }
+    ],
+    "detector": {
+      "config": "configs/baseline_y11s.json",
+      "config_sha256": "c5c9dd78f8753de76b21a79f4623636ad32a35d44b4cc25198c530941aaa58ee",
+      "weights": "weights/detector_yolo11s_base_20261015.pt",
+      "weights_sha256": "5c63d9510681d90b7cb54a36438a63d54d479ab6763a89d9b118afd06f3425d5",
+      "mode": "fused",
+      "calibration_epoch": 76
+    },
+    "device": "cpu",
+    "input_cases": 2,
+    "workers": 1,
+    "gpu_memory_bytes": 0,
+    "protocol": "2026-10-08-global-power-rails",
+    "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+    "component_output_policy": "public_20261016_passive_names_template_boxes_power_v2_led_geometry_v1_ic_name_priority_v1_ic_geometry_v1",
+    "wall_seconds": 114.106
+  },
+  "fresh_detector_cache_evidence": [
+    {
+      "path": "dist\\y11s_adoption_20261016\\container-output\\work\\pcb_5ns70d75\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\upstream\\ownership\\detector_predictions.json",
+      "weights_sha256": "5c63d9510681d90b7cb54a36438a63d54d479ab6763a89d9b118afd06f3425d5",
+      "source": "PNG_model_inference",
+      "detections": 16
+    },
+    {
+      "path": "dist\\y11s_adoption_20261016\\container-output\\work\\pcb_ufgmwy4i\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\upstream\\ownership\\detector_predictions.json",
+      "weights_sha256": "5c63d9510681d90b7cb54a36438a63d54d479ab6763a89d9b118afd06f3425d5",
+      "source": "PNG_model_inference",
+      "detections": 57
+    }
+  ],
+  "led_local_detector_matches_main": true,
+  "led_entries": 3,
+  "legacy_cache_rejected": {
+    "legacy_cache": "runs\\s5_pin_ownership_v1\\0036\\detector_predictions.json",
+    "returncode": 1,
+    "expected_rejection": "Detector cache uses a different checkpoint",
+    "rejected": true
+  },
+  "legacy_assets_preserved": {
+    "configs/baseline_v3_adopted.json": "2f477d84dd8c8accefa6a4ce5e57bfa16e9d2a48f08382806bffd83d859e8c80",
+    "configs/pin_ownership_detector_v3.json": "be6591211d98196ca6f25466415d50cb8312e38b1ff96ed642c3265d8d16e404",
+    "weights/detector_dataset300_v3_nano.pt": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd"
+  },
+  "changes": {
+    "scripts/run_baseline.py": {
+      "before_sha256": "ac8df400b2eb5353e68ab93bea29c9b695e22d2d9990d3614525c420692ca7cf",
+      "after_sha256": "42de524ff8cac7ca8e62b1b8475e31fcffb3318bafb6e4dee888310ed57097a3",
+      "changed": true
+    },
+    "scripts/run_component_text.py": {
+      "before_sha256": "0c461f6e99716037cdf2351f5f758b45b6d90b10645eb511a94b2dd8ac27662a",
+      "after_sha256": "15b3c23c21153c7456ca97c1444569944a45ad573d5f84783af21eca8d4d8b31",
+      "changed": true
+    },
+    "scripts/run_pin_ownership.py": {
+      "before_sha256": "020212b4729d6adef6b327f5604d269d27d2b5e5045a684c6979a7a4c9509da8",
+      "after_sha256": "27a6b0f98a6ee3b6668c51d14ca0251318937cd0364a83e98bb23f19a347f198",
+      "changed": true
+    },
+    "scripts/run_ocr_binding.ps1": {
+      "before_sha256": "ce7ec824fbea127a6d73b1d6f705a671bbc39e6b1a3299ea59281d69a85a1da1",
+      "after_sha256": "83183be0f64ea223594cc44b90c6dcd72416cafb082c9db2dfcba9cdbb9ede0a",
+      "changed": true
+    },
+    "scripts/run_quick_dev.ps1": {
+      "before_sha256": "83a909fd072bcbb778ecb1ae618709b4eacaf96d2a6a6ac4853bc87194bf420e",
+      "after_sha256": "3558dbcd34eb22acf4ea6c3df121496c1ac6ca650d3802deb4f08b5679f5a47c",
+      "changed": true
+    },
+    "scripts/build_platform_submission.py": {
+      "before_sha256": "7191907eef2ad76158869da5587a990e0eb188d795258676b37a94b7707b617c",
+      "after_sha256": "9e55bc94a57d026c624de1e4b6cb8fb8161eff10c894f6ebc192e42312a3f2c1",
+      "changed": true
+    },
+    "submission/platform_adapter/agent.py": {
+      "before_sha256": "f68e8fc7175e5a343536a495dc89236eaafd4dc204a2ad0d33289989f2721fdd",
+      "after_sha256": "a01e396897ad899f195d7a1a95f720874172b6072426f8bb5513e0b1db8570a3",
+      "changed": true
+    },
+    "configs/project.json": {
+      "before_sha256": "d8d526ffc8f75a070764ebe4848c7cca03dca5cc6b7616db0798e8aa74d3b40c",
+      "after_sha256": "333e4959cfb4cf613a43adaa6e33b4efac5f000a27edf558f45a6448b90ee7ed",
+      "changed": true
+    },
+    "README.md": {
+      "before_sha256": "1d41bc26712c189a324527319164985499b567aef90c850cdcfaa76ac9951179",
+      "after_sha256": "4f8c1b026374877cfe9d293343edd4f85e32eb5d3bbee162541b2cd869b554d2",
+      "changed": true
+    },
+    "dist/local_image_build/build_test_export.ps1": {
+      "before_sha256": "fc3262b710e49ce496c0ffa79da6b02081557805b5de9b396efe5b4511241aa2",
+      "after_sha256": "0be37589ba24f524a20d73b08bc457836d0d307d3d2ec52450e851dd0d50057a",
+      "changed": true
+    },
+    "dist/上传说明.md": {
+      "before_sha256": "426ea438230765c75d27c525bbe34d89238eafde36e4c06e71312ee9fbb0246c",
+      "after_sha256": "9c6279f6cb516222867ca348c5f9a8ca114437c07c35c76800a59403c18b309e",
+      "changed": true
+    },
+    "scripts/run_observed_net_fields.ps1": {
+      "before_sha256": "c25052111ee93b91eccd4b46a47ef986c3618668624dd087c7cbca6c86f2a98e",
+      "after_sha256": "a669b2091f7f11cc1746a0fc106ca0130d929211a6e59742844fdc42dd20aae5",
+      "changed": true
+    },
+    "scripts/run_pin_ownership.ps1": {
+      "before_sha256": "66965ba0ab8940c1d276a74371375ebff6d2ef37ebaca891bf103f6247d8532b",
+      "after_sha256": "9a2d12b7591a25aa8d63d392aa4ed7a0d50a890a7d0d7f8d228f786e5ef1e23b",
+      "changed": true
+    },
+    "scripts/run_external_collection_proposals.ps1": {
+      "before_sha256": "ceba8f2f0c7f2ad1cc5624f78e3ac20c4223782e3b8aa5717a13f4097e3bd1da",
+      "after_sha256": "2fe6d61b9a5cbb41fa5bfe4dc01c26fd38dc8d299a683f016d0151a9fb932b2c",
+      "changed": true
+    }
+  },
+  "limits": [
+    "Two-page CPU smoke verifies integration, not accuracy or online score.",
+    "New source mounted into an existing official runtime; a new immutable YOLO11s image has not been built.",
+    "No A800 end-to-end or platform submission performed."
+  ]
+}

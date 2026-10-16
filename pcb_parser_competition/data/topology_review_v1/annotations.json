@@ -1,0 +1,6280 @@
+{
+  "records": [
+    {
+      "review_id": "0002_junction_001",
+      "case_id": "0002",
+      "kind": "junction",
+      "source_image_sha256": "4f615f7d913c93eef13d2aba8c4489c96aab2d889c6464e77c0b369358add70a",
+      "center_top_left": [
+        151.0,
+        302.0
+      ],
+      "crop_top_left": [
+        103,
+        254,
+        200,
+        351
+      ],
+      "crop_file": "crops/0002_junction_001.png",
+      "crop_sha256": "1f6f483e5cc4adbc3c60ea870008b4261c4db6f2785100f4890bafce400005de",
+      "candidate": {
+        "case_id": "0002",
+        "kind": "junction",
+        "junction_id": "J00009",
+        "point": [
+          151.0,
+          302.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00009_V1",
+          "J00009_V2"
+        ],
+        "edge_ids": [
+          "W00020",
+          "W00025",
+          "W00027",
+          "W00028"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0002",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0007_gap_001",
+      "case_id": "0007",
+      "kind": "gap",
+      "source_image_sha256": "aca413e60495e7d6ca27ea63d9af11e330b3ffedb21d43488ebcd747491a5b99",
+      "center_top_left": [
+        860.5,
+        485.0
+      ],
+      "crop_top_left": [
+        812,
+        437,
+        909,
+        534
+      ],
+      "crop_file": "crops/0007_gap_001.png",
+      "crop_sha256": "0322a8a8b327f26092e0207d830f9b6d4e49950caeb9e84e29b3e02b9f6365c6",
+      "candidate": {
+        "case_id": "0007",
+        "kind": "gap",
+        "endpoints": [
+          "N00154",
+          "N00155"
+        ],
+        "points": [
+          [
+            856,
+            485
+          ],
+          [
+            865,
+            485
+          ]
+        ],
+        "distance_px": 9.0,
+        "probability_mean": 0.3751249313354492,
+        "probability_min": 0.2266789972782135,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00062",
+          "NET_CAND_00063"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0007",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_junction_001",
+      "case_id": "0012",
+      "kind": "junction",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        993.5,
+        426.5
+      ],
+      "crop_top_left": [
+        946,
+        378,
+        1043,
+        475
+      ],
+      "crop_file": "crops/0012_junction_001.png",
+      "crop_sha256": "64e3c9c00803c5f090545b6ae23ce0dd68d1734e04b8cf15ffb272b739103342",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "junction",
+        "junction_id": "J00027",
+        "point": [
+          993.5,
+          426.5
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00027_V1",
+          "J00027_V2",
+          "J00027_V3",
+          "J00027_V4"
+        ],
+        "edge_ids": [
+          "W00145",
+          "W00146",
+          "W00147",
+          "W00148"
+        ],
+        "conservative_hypothesis": "all_arms_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_001",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        415.5,
+        61.0
+      ],
+      "crop_top_left": [
+        368,
+        13,
+        465,
+        110
+      ],
+      "crop_file": "crops/0012_gap_001.png",
+      "crop_sha256": "7ea8e8c26635b3441c84e6f42cb1b6cf07484d17f1f5d1f6245f95d2ca5e19b4",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00041",
+          "N00042"
+        ],
+        "points": [
+          [
+            410,
+            61
+          ],
+          [
+            421,
+            61
+          ]
+        ],
+        "distance_px": 11.0,
+        "probability_mean": 0.40452563762664795,
+        "probability_min": 0.23834984004497528,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00016",
+          "NET_CAND_00017"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_002",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        429.0,
+        61.0
+      ],
+      "crop_top_left": [
+        381,
+        13,
+        478,
+        110
+      ],
+      "crop_file": "crops/0012_gap_002.png",
+      "crop_sha256": "fcfa218026aa8a958c10163c700cb97916102f75a16209609f09bc0e8526e005",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00043",
+          "N00044"
+        ],
+        "points": [
+          [
+            426,
+            61
+          ],
+          [
+            432,
+            61
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.461835652589798,
+        "probability_min": 0.4101368188858032,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00017",
+          "NET_CAND_00018"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_003",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        485.0,
+        61.0
+      ],
+      "crop_top_left": [
+        437,
+        13,
+        534,
+        110
+      ],
+      "crop_file": "crops/0012_gap_003.png",
+      "crop_sha256": "54d2375a6a94edadd4d08e60e683123ad8920c3e8835569c1680e597016e50f5",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00047",
+          "N00048"
+        ],
+        "points": [
+          [
+            480,
+            61
+          ],
+          [
+            490,
+            61
+          ]
+        ],
+        "distance_px": 10.0,
+        "probability_mean": 0.3944997787475586,
+        "probability_min": 0.2818576991558075,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00019",
+          "NET_CAND_00020"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_004",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        494.0,
+        61.0
+      ],
+      "crop_top_left": [
+        446,
+        13,
+        543,
+        110
+      ],
+      "crop_file": "crops/0012_gap_004.png",
+      "crop_sha256": "56ad59c6ed5e793360367d137151fb5f49a4133fd28768c4e6fa1cf66e05c00b",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00049",
+          "N00050"
+        ],
+        "points": [
+          [
+            492,
+            61
+          ],
+          [
+            496,
+            61
+          ]
+        ],
+        "distance_px": 4.0,
+        "probability_mean": 0.488898366689682,
+        "probability_min": 0.4608430862426758,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00020",
+          "NET_CAND_00021"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_005",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        505.5,
+        61.0
+      ],
+      "crop_top_left": [
+        458,
+        13,
+        555,
+        110
+      ],
+      "crop_file": "crops/0012_gap_005.png",
+      "crop_sha256": "1676cac7de3faef9bf2818fd51f267743f06430e2c6ff3c976a7dea44bcb74c1",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00051",
+          "N00052"
+        ],
+        "points": [
+          [
+            504,
+            61
+          ],
+          [
+            507,
+            61
+          ]
+        ],
+        "distance_px": 3.0,
+        "probability_mean": 0.5062637329101562,
+        "probability_min": 0.4809539318084717,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00021",
+          "NET_CAND_00022"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_006",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        633.5,
+        61.0
+      ],
+      "crop_top_left": [
+        586,
+        13,
+        683,
+        110
+      ],
+      "crop_file": "crops/0012_gap_006.png",
+      "crop_sha256": "33f5c0c2c66bdf6b0c9ca00001925d397caf96fa6952acadb898ac400024a03b",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00061",
+          "N00062"
+        ],
+        "points": [
+          [
+            632,
+            61
+          ],
+          [
+            635,
+            61
+          ]
+        ],
+        "distance_px": 3.0,
+        "probability_mean": 0.5046947002410889,
+        "probability_min": 0.48430052399635315,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00026",
+          "NET_CAND_00027"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_007",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        766.0,
+        61.0
+      ],
+      "crop_top_left": [
+        718,
+        13,
+        815,
+        110
+      ],
+      "crop_file": "crops/0012_gap_007.png",
+      "crop_sha256": "d3fb9a79b543c84c71a4b05f6bb21cd3ae1d88f3d0bb8119ef469752e38f7818",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00072",
+          "N00074"
+        ],
+        "points": [
+          [
+            763,
+            61
+          ],
+          [
+            769,
+            61
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.47687003016471863,
+        "probability_min": 0.2892245650291443,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00032",
+          "NET_CAND_00034"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_008",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        877.0,
+        61.0
+      ],
+      "crop_top_left": [
+        829,
+        13,
+        926,
+        110
+      ],
+      "crop_file": "crops/0012_gap_008.png",
+      "crop_sha256": "f19ced9eaa95eb13caa65c9952d9fae762b0f9e9aebd73fcc46b5ce4b4692393",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00081",
+          "N00082"
+        ],
+        "points": [
+          [
+            873,
+            61
+          ],
+          [
+            881,
+            61
+          ]
+        ],
+        "distance_px": 8.0,
+        "probability_mean": 0.43007123470306396,
+        "probability_min": 0.30934321880340576,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00037",
+          "NET_CAND_00038"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_009",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        890.0,
+        61.0
+      ],
+      "crop_top_left": [
+        842,
+        13,
+        939,
+        110
+      ],
+      "crop_file": "crops/0012_gap_009.png",
+      "crop_sha256": "9782de7a156e667b5e5eb2fd36b4368127d2d74cc448e4db6ecfbb5edd660a97",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00083",
+          "N00085"
+        ],
+        "points": [
+          [
+            886,
+            61
+          ],
+          [
+            894,
+            61
+          ]
+        ],
+        "distance_px": 8.0,
+        "probability_mean": 0.4487379789352417,
+        "probability_min": 0.35667312145233154,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00038",
+          "NET_CAND_00040"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_010",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        944.0,
+        62.0
+      ],
+      "crop_top_left": [
+        896,
+        14,
+        993,
+        111
+      ],
+      "crop_file": "crops/0012_gap_010.png",
+      "crop_sha256": "1d433d56af8206984c21a95b71ae4af795a9c8868f8990814d4b2c6add1adbd8",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00090",
+          "N00091"
+        ],
+        "points": [
+          [
+            943,
+            62
+          ],
+          [
+            945,
+            62
+          ]
+        ],
+        "distance_px": 2.0,
+        "probability_mean": 0.5209183096885681,
+        "probability_min": 0.4949989914894104,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00041",
+          "NET_CAND_00043"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_011",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        985.5,
+        105.0
+      ],
+      "crop_top_left": [
+        938,
+        57,
+        1035,
+        154
+      ],
+      "crop_file": "crops/0012_gap_011.png",
+      "crop_sha256": "a3a1a52ee1a47d9cd116438a3112164bb4d699a3b17bb9b8d6c53db7a8f58f59",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00105",
+          "N00108"
+        ],
+        "points": [
+          [
+            986,
+            103
+          ],
+          [
+            985,
+            107
+          ]
+        ],
+        "distance_px": 4.123105625617661,
+        "probability_mean": 0.5864794850349426,
+        "probability_min": 0.3340824842453003,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00044",
+          "NET_CAND_00046"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_012",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        985.5,
+        148.5
+      ],
+      "crop_top_left": [
+        938,
+        100,
+        1035,
+        197
+      ],
+      "crop_file": "crops/0012_gap_012.png",
+      "crop_sha256": "ef2e1213dc789592e898bf585c93c7440c69f61fe4bba80d48df639a8547d25e",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00135",
+          "N00138"
+        ],
+        "points": [
+          [
+            986,
+            146
+          ],
+          [
+            985,
+            151
+          ]
+        ],
+        "distance_px": 5.0990195135927845,
+        "probability_mean": 0.5236767530441284,
+        "probability_min": 0.2501421272754669,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00046",
+          "NET_CAND_00060"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_013",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        793.0,
+        185.0
+      ],
+      "crop_top_left": [
+        745,
+        137,
+        842,
+        234
+      ],
+      "crop_file": "crops/0012_gap_013.png",
+      "crop_sha256": "731a1dc06e21e3b10fae598d6bc13f55349b951422d56ff2af1eaf96853bad1d",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00150",
+          "N00151"
+        ],
+        "points": [
+          [
+            791,
+            185
+          ],
+          [
+            795,
+            185
+          ]
+        ],
+        "distance_px": 4.0,
+        "probability_mean": 0.523655116558075,
+        "probability_min": 0.40077611804008484,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00004",
+          "NET_CAND_00003"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_014",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        925.0,
+        185.0
+      ],
+      "crop_top_left": [
+        877,
+        137,
+        974,
+        234
+      ],
+      "crop_file": "crops/0012_gap_014.png",
+      "crop_sha256": "73b1ac40a769efaa19197bf4467f7c8a00a2e51b55b15802d882fd919cd27cc7",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00152",
+          "N00153"
+        ],
+        "points": [
+          [
+            924,
+            185
+          ],
+          [
+            926,
+            185
+          ]
+        ],
+        "distance_px": 2.0,
+        "probability_mean": 0.46776047348976135,
+        "probability_min": 0.3653245270252228,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00003",
+          "NET_CAND_00065"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_015",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        922.0,
+        193.0
+      ],
+      "crop_top_left": [
+        874,
+        145,
+        971,
+        242
+      ],
+      "crop_file": "crops/0012_gap_015.png",
+      "crop_sha256": "6d0e2cdf5f5a1e20dbbf5a72cff2a99ba746178d66b9c03e0a9dea6715ea008e",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00171",
+          "N00172"
+        ],
+        "points": [
+          [
+            916,
+            193
+          ],
+          [
+            928,
+            193
+          ]
+        ],
+        "distance_px": 12.0,
+        "probability_mean": 0.3830544054508209,
+        "probability_min": 0.0006487874779850245,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00074",
+          "NET_CAND_00075"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_016",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        935.5,
+        193.0
+      ],
+      "crop_top_left": [
+        888,
+        145,
+        985,
+        242
+      ],
+      "crop_file": "crops/0012_gap_016.png",
+      "crop_sha256": "209d4bd05b49a9ec854250692ada52b28584f4822f2eea3f275820a311c4b077",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00173",
+          "N00174"
+        ],
+        "points": [
+          [
+            933,
+            193
+          ],
+          [
+            938,
+            193
+          ]
+        ],
+        "distance_px": 5.0,
+        "probability_mean": 0.47227466106414795,
+        "probability_min": 0.35431718826293945,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00075",
+          "NET_CAND_00076"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_017",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        984.5,
+        213.5
+      ],
+      "crop_top_left": [
+        936,
+        166,
+        1033,
+        263
+      ],
+      "crop_file": "crops/0012_gap_017.png",
+      "crop_sha256": "35685339a2032f00f689de79b51f027757270a3dcc1c28701d707b0c3e49c908",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00191",
+          "N00194"
+        ],
+        "points": [
+          [
+            984,
+            210
+          ],
+          [
+            985,
+            217
+          ]
+        ],
+        "distance_px": 7.0710678118654755,
+        "probability_mean": 0.34120050072669983,
+        "probability_min": 0.055113401263952255,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00079",
+          "NET_CAND_00082"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_018",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        985.0,
+        234.5
+      ],
+      "crop_top_left": [
+        937,
+        186,
+        1034,
+        283
+      ],
+      "crop_file": "crops/0012_gap_018.png",
+      "crop_sha256": "d5fa10b3906ba37a057973e6cba4d03880acf509d20164d34af923119b14def1",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00196",
+          "N00201"
+        ],
+        "points": [
+          [
+            985,
+            231
+          ],
+          [
+            985,
+            238
+          ]
+        ],
+        "distance_px": 7.0,
+        "probability_mean": 0.38329464197158813,
+        "probability_min": 0.09847388416528702,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00082",
+          "NET_CAND_00085"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_019",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        984.5,
+        257.5
+      ],
+      "crop_top_left": [
+        936,
+        210,
+        1033,
+        307
+      ],
+      "crop_file": "crops/0012_gap_019.png",
+      "crop_sha256": "e05050aa55fb3b211cbd5fc0d6ff9a6b500391ae385ce281d1e892c3eb9566a7",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00209",
+          "N00217"
+        ],
+        "points": [
+          [
+            984,
+            254
+          ],
+          [
+            985,
+            261
+          ]
+        ],
+        "distance_px": 7.0710678118654755,
+        "probability_mean": 0.319961279630661,
+        "probability_min": 0.04763718321919441,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00085",
+          "NET_CAND_00092"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_020",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        985.5,
+        277.5
+      ],
+      "crop_top_left": [
+        938,
+        230,
+        1035,
+        327
+      ],
+      "crop_file": "crops/0012_gap_020.png",
+      "crop_sha256": "15b79d91cf61152403047fef7fa51f178c0e4b09a6f84fad96b9445bf2009279",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00219",
+          "N00224"
+        ],
+        "points": [
+          [
+            986,
+            273
+          ],
+          [
+            985,
+            282
+          ]
+        ],
+        "distance_px": 9.055385138137417,
+        "probability_mean": 0.37776440382003784,
+        "probability_min": 0.08171752095222473,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00092",
+          "NET_CAND_00094"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0012_gap_021",
+      "case_id": "0012",
+      "kind": "gap",
+      "source_image_sha256": "0e10ea7acd26d39b68f80f6b992d4a48f724a6d457a2cde0cd23943bc8852816",
+      "center_top_left": [
+        1009.0,
+        405.5
+      ],
+      "crop_top_left": [
+        961,
+        358,
+        1058,
+        455
+      ],
+      "crop_file": "crops/0012_gap_021.png",
+      "crop_sha256": "437ef05721a5ab577d8399257ccf29965471871da134ee5edc632b71159fb8f4",
+      "candidate": {
+        "case_id": "0012",
+        "kind": "gap",
+        "endpoints": [
+          "N00241",
+          "N00242"
+        ],
+        "points": [
+          [
+            1004,
+            405
+          ],
+          [
+            1014,
+            406
+          ]
+        ],
+        "distance_px": 10.04987562112089,
+        "probability_mean": 0.37909913063049316,
+        "probability_min": 0.026471272110939026,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00098",
+          "NET_CAND_00099"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0012",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_junction_001",
+      "case_id": "0018",
+      "kind": "junction",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1112.0,
+        109.0
+      ],
+      "crop_top_left": [
+        1064,
+        61,
+        1161,
+        158
+      ],
+      "crop_file": "crops/0018_junction_001.png",
+      "crop_sha256": "abf711fa5479f9f52f3ef3514cc70aa6ee0405066901c10b4327616ca1234834",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "junction",
+        "junction_id": "J00002",
+        "point": [
+          1112.0,
+          109.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00002_V1",
+          "J00002_V2"
+        ],
+        "edge_ids": [
+          "W00022",
+          "W00023",
+          "W00026",
+          "W00027"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_junction_002",
+      "case_id": "0018",
+      "kind": "junction",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        205.5,
+        489.0
+      ],
+      "crop_top_left": [
+        158,
+        441,
+        255,
+        538
+      ],
+      "crop_file": "crops/0018_junction_002.png",
+      "crop_sha256": "1e2054b47cfec41af781d67e82830f5ad21c015f5551e0226f8102f8f933e45d",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "junction",
+        "junction_id": "J00012",
+        "point": [
+          205.5,
+          489.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00012_V1",
+          "J00012_V2",
+          "J00012_V3",
+          "J00012_V4"
+        ],
+        "edge_ids": [
+          "W00106",
+          "W00110",
+          "W00123",
+          "W00124"
+        ],
+        "conservative_hypothesis": "all_arms_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_junction_003",
+      "case_id": "0018",
+      "kind": "junction",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1243.5,
+        489.0
+      ],
+      "crop_top_left": [
+        1196,
+        441,
+        1293,
+        538
+      ],
+      "crop_file": "crops/0018_junction_003.png",
+      "crop_sha256": "6d0216a37cce65ecad7def52223f95c60feb45272129d43a452b789965a95b67",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "junction",
+        "junction_id": "J00013",
+        "point": [
+          1243.5,
+          489.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00013_V1",
+          "J00013_V2",
+          "J00013_V3",
+          "J00013_V4"
+        ],
+        "edge_ids": [
+          "W00107",
+          "W00113",
+          "W00125",
+          "W00126"
+        ],
+        "conservative_hypothesis": "all_arms_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_junction_004",
+      "case_id": "0018",
+      "kind": "junction",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1273.0,
+        489.0
+      ],
+      "crop_top_left": [
+        1225,
+        441,
+        1322,
+        538
+      ],
+      "crop_file": "crops/0018_junction_004.png",
+      "crop_sha256": "a9b3c32dae6cc5a7b1f1f007bbb2b5519ff8c92bbcde5a546e256c44ed941ec8",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "junction",
+        "junction_id": "J00014",
+        "point": [
+          1273.0,
+          489.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00014_V1",
+          "J00014_V2"
+        ],
+        "edge_ids": [
+          "W00109",
+          "W00115",
+          "W00126",
+          "W00127"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_001",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1363.0,
+        64.5
+      ],
+      "crop_top_left": [
+        1315,
+        16,
+        1412,
+        113
+      ],
+      "crop_file": "crops/0018_gap_001.png",
+      "crop_sha256": "b152d0676cbbe72f680ce19265c3b2cf45ebf30d845eee906c1d5d4038ae1503",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00029",
+          "N00035"
+        ],
+        "points": [
+          [
+            1360,
+            64
+          ],
+          [
+            1366,
+            65
+          ]
+        ],
+        "distance_px": 6.082762530298219,
+        "probability_mean": 0.4421616792678833,
+        "probability_min": 0.26054662466049194,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00025",
+          "NET_CAND_00028"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_002",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1387.0,
+        65.5
+      ],
+      "crop_top_left": [
+        1339,
+        18,
+        1436,
+        115
+      ],
+      "crop_file": "crops/0018_gap_002.png",
+      "crop_sha256": "d03ed7a69b9aa3c0e8ef260035fef9a44f23ff1ba7134f41b6158f1380a48fcd",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00036",
+          "N00039"
+        ],
+        "points": [
+          [
+            1390,
+            65
+          ],
+          [
+            1384,
+            66
+          ]
+        ],
+        "distance_px": 6.082762530298219,
+        "probability_mean": 0.4516421854496002,
+        "probability_min": 0.267818808555603,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00026",
+          "NET_CAND_00028"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_003",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1375.5,
+        79.0
+      ],
+      "crop_top_left": [
+        1328,
+        31,
+        1425,
+        128
+      ],
+      "crop_file": "crops/0018_gap_003.png",
+      "crop_sha256": "68355f8719d2d4e1f445128775ad7c29e0d7ad199cd269a5b7339e481830dc3f",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00042",
+          "N00043"
+        ],
+        "points": [
+          [
+            1371,
+            79
+          ],
+          [
+            1380,
+            79
+          ]
+        ],
+        "distance_px": 9.0,
+        "probability_mean": 0.38533422350883484,
+        "probability_min": 0.09903774410486221,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00031",
+          "NET_CAND_00032"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_004",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1391.0,
+        79.0
+      ],
+      "crop_top_left": [
+        1343,
+        31,
+        1440,
+        128
+      ],
+      "crop_file": "crops/0018_gap_004.png",
+      "crop_sha256": "5266795c24db7bd35bdc4cc1dce661402c7da75c55e5b834e18bc5dc6ab26d4c",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00044",
+          "N00045"
+        ],
+        "points": [
+          [
+            1388,
+            79
+          ],
+          [
+            1394,
+            79
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.4198358356952667,
+        "probability_min": 0.2827048897743225,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00032",
+          "NET_CAND_00033"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_005",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        127.0,
+        137.5
+      ],
+      "crop_top_left": [
+        79,
+        90,
+        176,
+        187
+      ],
+      "crop_file": "crops/0018_gap_005.png",
+      "crop_sha256": "bcbded5d7cd7805897f776367e8acf16a96e691f59bd2ac7193cb6209e8cbbd8",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00077",
+          "N00081"
+        ],
+        "points": [
+          [
+            123,
+            137
+          ],
+          [
+            131,
+            138
+          ]
+        ],
+        "distance_px": 8.06225774829855,
+        "probability_mean": 0.4559508264064789,
+        "probability_min": 0.23928454518318176,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00046",
+          "NET_CAND_00049"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_006",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        671.0,
+        211.0
+      ],
+      "crop_top_left": [
+        623,
+        163,
+        720,
+        260
+      ],
+      "crop_file": "crops/0018_gap_006.png",
+      "crop_sha256": "4e47af35f1be2bea2082673951c3d7f11f831bee287629053608f8d2da19da57",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00116",
+          "N00117"
+        ],
+        "points": [
+          [
+            668,
+            211
+          ],
+          [
+            674,
+            211
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.3396073877811432,
+        "probability_min": 0.16178539395332336,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00063",
+          "NET_CAND_00064"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_007",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        1333.5,
+        254.5
+      ],
+      "crop_top_left": [
+        1286,
+        206,
+        1383,
+        303
+      ],
+      "crop_file": "crops/0018_gap_007.png",
+      "crop_sha256": "6ecd6a8568c500bfddc68c728b5d7c73eb11e886ef76a37d6926c7bf65e106a6",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00131",
+          "N00135"
+        ],
+        "points": [
+          [
+            1328,
+            254
+          ],
+          [
+            1339,
+            255
+          ]
+        ],
+        "distance_px": 11.045361017187261,
+        "probability_mean": 0.25560587644577026,
+        "probability_min": 0.04943399131298065,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00071",
+          "NET_CAND_00074"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_008",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        122.5,
+        283.5
+      ],
+      "crop_top_left": [
+        74,
+        236,
+        171,
+        333
+      ],
+      "crop_file": "crops/0018_gap_008.png",
+      "crop_sha256": "a24030f1a2e005b026bb9946374b8a8dd86dd2f4edf77428982de0e3da10eb0d",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00145",
+          "N00148"
+        ],
+        "points": [
+          [
+            120,
+            283
+          ],
+          [
+            125,
+            284
+          ]
+        ],
+        "distance_px": 5.0990195135927845,
+        "probability_mean": 0.6262742877006531,
+        "probability_min": 0.435646116733551,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00078",
+          "NET_CAND_00080"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0018_gap_009",
+      "case_id": "0018",
+      "kind": "gap",
+      "source_image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "center_top_left": [
+        740.0,
+        517.0
+      ],
+      "crop_top_left": [
+        692,
+        469,
+        789,
+        566
+      ],
+      "crop_file": "crops/0018_gap_009.png",
+      "crop_sha256": "5cfd2f498e929b7ef8bdb09694dccaff38f7413c51cd0d19807e0401b3404954",
+      "candidate": {
+        "case_id": "0018",
+        "kind": "gap",
+        "endpoints": [
+          "N00234",
+          "N00235"
+        ],
+        "points": [
+          [
+            739,
+            517
+          ],
+          [
+            741,
+            517
+          ]
+        ],
+        "distance_px": 2.0,
+        "probability_mean": 0.525097131729126,
+        "probability_min": 0.457273930311203,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00111",
+          "NET_CAND_00112"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0018",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_001",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        289.0,
+        93.0
+      ],
+      "crop_top_left": [
+        241,
+        45,
+        338,
+        142
+      ],
+      "crop_file": "crops/0022_junction_001.png",
+      "crop_sha256": "3f77ba190c00aadaa505b61457fe53cb2320e86b452cd25ee526834cd2b5b50c",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00004",
+        "point": [
+          289.0,
+          93.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00004_V1",
+          "J00004_V2"
+        ],
+        "edge_ids": [
+          "W00001",
+          "W00004",
+          "W00010",
+          "W00015"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_002",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        477.0,
+        93.0
+      ],
+      "crop_top_left": [
+        429,
+        45,
+        526,
+        142
+      ],
+      "crop_file": "crops/0022_junction_002.png",
+      "crop_sha256": "2fd19cdb36b3091b90fcd95e7790642ea3db65570033df834c542c41ae869a82",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00005",
+        "point": [
+          477.0,
+          93.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00005_V1",
+          "J00005_V2"
+        ],
+        "edge_ids": [
+          "W00006",
+          "W00009",
+          "W00011",
+          "W00016"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_003",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        665.0,
+        93.0
+      ],
+      "crop_top_left": [
+        617,
+        45,
+        714,
+        142
+      ],
+      "crop_file": "crops/0022_junction_003.png",
+      "crop_sha256": "917f0122ecd9f8855265f61c0635eff97b4d8e319a8d29ec35b026cc30d35aa2",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          665.0,
+          93.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00002",
+          "W00012",
+          "W00014",
+          "W00017"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_004",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        289.0,
+        168.0
+      ],
+      "crop_top_left": [
+        241,
+        120,
+        338,
+        217
+      ],
+      "crop_file": "crops/0022_junction_004.png",
+      "crop_sha256": "669fd497e87803922f0f17af5890a69a3cdd6fcdd14646786df65c250e1f193a",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00014",
+        "point": [
+          289.0,
+          168.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00014_V1",
+          "J00014_V2"
+        ],
+        "edge_ids": [
+          "W00021",
+          "W00022",
+          "W00030",
+          "W00036"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_005",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        477.0,
+        168.0
+      ],
+      "crop_top_left": [
+        429,
+        120,
+        526,
+        217
+      ],
+      "crop_file": "crops/0022_junction_005.png",
+      "crop_sha256": "af9888f99672e46194eed23c74e9ef5eadc5b646faf78b40b9d099932c27cf30",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00015",
+        "point": [
+          477.0,
+          168.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00015_V1",
+          "J00015_V2"
+        ],
+        "edge_ids": [
+          "W00025",
+          "W00031",
+          "W00033",
+          "W00037"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_006",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        665.0,
+        168.0
+      ],
+      "crop_top_left": [
+        617,
+        120,
+        714,
+        217
+      ],
+      "crop_file": "crops/0022_junction_006.png",
+      "crop_sha256": "688e6c234de7cd6e5631f7a5855e93b9c80c8fbb70eebe9042295273509c039d",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00016",
+        "point": [
+          665.0,
+          168.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00016_V1",
+          "J00016_V2"
+        ],
+        "edge_ids": [
+          "W00028",
+          "W00032",
+          "W00034",
+          "W00038"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_007",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        289.0,
+        243.0
+      ],
+      "crop_top_left": [
+        241,
+        195,
+        338,
+        292
+      ],
+      "crop_file": "crops/0022_junction_007.png",
+      "crop_sha256": "a5d51cd7c19e33b070febd29bf99b5515a2a68c72d4ed8c83b2cf1c12982551e",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00023",
+        "point": [
+          289.0,
+          243.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00023_V1",
+          "J00023_V2"
+        ],
+        "edge_ids": [
+          "W00041",
+          "W00043",
+          "W00052",
+          "W00056"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_008",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        477.0,
+        243.0
+      ],
+      "crop_top_left": [
+        429,
+        195,
+        526,
+        292
+      ],
+      "crop_file": "crops/0022_junction_008.png",
+      "crop_sha256": "7da543e2724a4319bc8350990f651b82e0e33a26a7f92ccc756554a58dfa3db8",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00024",
+        "point": [
+          477.0,
+          243.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00024_V1",
+          "J00024_V2"
+        ],
+        "edge_ids": [
+          "W00046",
+          "W00051",
+          "W00054",
+          "W00057"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_009",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        665.0,
+        243.0
+      ],
+      "crop_top_left": [
+        617,
+        195,
+        714,
+        292
+      ],
+      "crop_file": "crops/0022_junction_009.png",
+      "crop_sha256": "0f07b95a3f671dd3c6cbe0da952a4ac7dd010051fec9bffe745d44ed89f2d0d2",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00025",
+        "point": [
+          665.0,
+          243.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00025_V1",
+          "J00025_V2"
+        ],
+        "edge_ids": [
+          "W00049",
+          "W00053",
+          "W00058",
+          "W00059"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_010",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        289.0,
+        318.0
+      ],
+      "crop_top_left": [
+        241,
+        270,
+        338,
+        367
+      ],
+      "crop_file": "crops/0022_junction_010.png",
+      "crop_sha256": "2726895900f6d147a8e4bbc1c65a47fb045b85ba4f286910b2288a549c290f62",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00032",
+        "point": [
+          289.0,
+          318.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00032_V1",
+          "J00032_V2"
+        ],
+        "edge_ids": [
+          "W00064",
+          "W00065",
+          "W00074",
+          "W00076"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_011",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        477.0,
+        318.0
+      ],
+      "crop_top_left": [
+        429,
+        270,
+        526,
+        367
+      ],
+      "crop_file": "crops/0022_junction_011.png",
+      "crop_sha256": "4ddfed02d338c9f0ebb1eda27a8da6db2e6679b7ac2c239018eadae13cbd6ee6",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00033",
+        "point": [
+          477.0,
+          318.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00033_V1",
+          "J00033_V2"
+        ],
+        "edge_ids": [
+          "W00068",
+          "W00073",
+          "W00077",
+          "W00078"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0022_junction_012",
+      "case_id": "0022",
+      "kind": "junction",
+      "source_image_sha256": "a2f84e2e6908d31d51a002aa2749571e9c778ac9cb564434cf720fa6c98deb37",
+      "center_top_left": [
+        665.0,
+        318.0
+      ],
+      "crop_top_left": [
+        617,
+        270,
+        714,
+        367
+      ],
+      "crop_file": "crops/0022_junction_012.png",
+      "crop_sha256": "a12a202e74fa2d5bef7f66827ecf127eb6636f0bc11a45de77324a74f772c927",
+      "candidate": {
+        "case_id": "0022",
+        "kind": "junction",
+        "junction_id": "J00035",
+        "point": [
+          665.0,
+          318.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00035_V1",
+          "J00035_V2"
+        ],
+        "edge_ids": [
+          "W00070",
+          "W00079",
+          "W00080",
+          "W00081"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0022",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0026_junction_001",
+      "case_id": "0026",
+      "kind": "junction",
+      "source_image_sha256": "815f9abaf12280c0b305cce85d2512580e605cbaba4d0d185787aef046220da1",
+      "center_top_left": [
+        203.0,
+        85.0
+      ],
+      "crop_top_left": [
+        155,
+        37,
+        252,
+        134
+      ],
+      "crop_file": "crops/0026_junction_001.png",
+      "crop_sha256": "14218716e692ed897a4e0653c50b2e555a8aaa4769f5f240b8c2169523494257",
+      "candidate": {
+        "case_id": "0026",
+        "kind": "junction",
+        "junction_id": "J00004",
+        "point": [
+          203.0,
+          85.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00004_V1",
+          "J00004_V2"
+        ],
+        "edge_ids": [
+          "W00006",
+          "W00011",
+          "W00013",
+          "W00014"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0026",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0029_gap_001",
+      "case_id": "0029",
+      "kind": "gap",
+      "source_image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "center_top_left": [
+        581.0,
+        148.0
+      ],
+      "crop_top_left": [
+        533,
+        100,
+        630,
+        197
+      ],
+      "crop_file": "crops/0029_gap_001.png",
+      "crop_sha256": "da180dec45cb7515153fc826d25dc34f1ac9ce170c25789c9b88b2bbcdc6ebee",
+      "candidate": {
+        "case_id": "0029",
+        "kind": "gap",
+        "endpoints": [
+          "N00041",
+          "N00042"
+        ],
+        "points": [
+          [
+            581,
+            144
+          ],
+          [
+            581,
+            152
+          ]
+        ],
+        "distance_px": 8.0,
+        "probability_mean": 0.4988149106502533,
+        "probability_min": 0.35259586572647095,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00018",
+          "NET_CAND_00022"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0029",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0029_gap_002",
+      "case_id": "0029",
+      "kind": "gap",
+      "source_image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "center_top_left": [
+        580.5,
+        200.0
+      ],
+      "crop_top_left": [
+        532,
+        152,
+        629,
+        249
+      ],
+      "crop_file": "crops/0029_gap_002.png",
+      "crop_sha256": "c5b6a7e75bb0097422a34079b1872900f0df411fee8acfb829906e0cba861e55",
+      "candidate": {
+        "case_id": "0029",
+        "kind": "gap",
+        "endpoints": [
+          "N00070",
+          "N00071"
+        ],
+        "points": [
+          [
+            579,
+            200
+          ],
+          [
+            582,
+            200
+          ]
+        ],
+        "distance_px": 3.0,
+        "probability_mean": 0.40563374757766724,
+        "probability_min": 0.24164094030857086,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00031",
+          "NET_CAND_00032"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0029",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0029_gap_003",
+      "case_id": "0029",
+      "kind": "gap",
+      "source_image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "center_top_left": [
+        386.0,
+        574.0
+      ],
+      "crop_top_left": [
+        338,
+        526,
+        435,
+        623
+      ],
+      "crop_file": "crops/0029_gap_003.png",
+      "crop_sha256": "b245e3b2ddee8f78a710b70255359093cddaac541d591cb57d1f8442eb452001",
+      "candidate": {
+        "case_id": "0029",
+        "kind": "gap",
+        "endpoints": [
+          "N00123",
+          "N00129"
+        ],
+        "points": [
+          [
+            386,
+            570
+          ],
+          [
+            386,
+            578
+          ]
+        ],
+        "distance_px": 8.0,
+        "probability_mean": 0.4969951808452606,
+        "probability_min": 0.4881284534931183,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00046",
+          "NET_CAND_00049"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0029",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0029_gap_004",
+      "case_id": "0029",
+      "kind": "gap",
+      "source_image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "center_top_left": [
+        581.0,
+        662.0
+      ],
+      "crop_top_left": [
+        533,
+        614,
+        630,
+        711
+      ],
+      "crop_file": "crops/0029_gap_004.png",
+      "crop_sha256": "1c2480c97c7197700f12dfe4a7b0e64cbaeeae861fb38dc2ddafd740c70f2c8c",
+      "candidate": {
+        "case_id": "0029",
+        "kind": "gap",
+        "endpoints": [
+          "N00152",
+          "N00157"
+        ],
+        "points": [
+          [
+            581,
+            656
+          ],
+          [
+            581,
+            668
+          ]
+        ],
+        "distance_px": 12.0,
+        "probability_mean": 0.2869732975959778,
+        "probability_min": 0.14493528008460999,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00058",
+          "NET_CAND_00015"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0029",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0033_junction_001",
+      "case_id": "0033",
+      "kind": "junction",
+      "source_image_sha256": "6a5aea8137fd23ace9038f881f859e00275d2d40e5b11f53f7aca5952ea92a5a",
+      "center_top_left": [
+        533.0,
+        221.0
+      ],
+      "crop_top_left": [
+        485,
+        173,
+        582,
+        270
+      ],
+      "crop_file": "crops/0033_junction_001.png",
+      "crop_sha256": "31fd4689b6ad66413cb52aa37ae9fc24a67ce65b94ac725aba73b049dd06bd98",
+      "candidate": {
+        "case_id": "0033",
+        "kind": "junction",
+        "junction_id": "J00015",
+        "point": [
+          533.0,
+          221.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00015_V1",
+          "J00015_V2"
+        ],
+        "edge_ids": [
+          "W00033",
+          "W00041",
+          "W00042",
+          "W00043"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0033",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0033_gap_001",
+      "case_id": "0033",
+      "kind": "gap",
+      "source_image_sha256": "6a5aea8137fd23ace9038f881f859e00275d2d40e5b11f53f7aca5952ea92a5a",
+      "center_top_left": [
+        148.0,
+        53.0
+      ],
+      "crop_top_left": [
+        100,
+        5,
+        197,
+        102
+      ],
+      "crop_file": "crops/0033_gap_001.png",
+      "crop_sha256": "245754835c4a5a098f6f93b88d9a22ca4a1516bb5dbea9ae835c8c9d4cd75c3a",
+      "candidate": {
+        "case_id": "0033",
+        "kind": "gap",
+        "endpoints": [
+          "N00027",
+          "N00030"
+        ],
+        "points": [
+          [
+            148,
+            51
+          ],
+          [
+            148,
+            55
+          ]
+        ],
+        "distance_px": 4.0,
+        "probability_mean": 0.5011872053146362,
+        "probability_min": 0.49927496910095215,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00001",
+          "NET_CAND_00009"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0033",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_001",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        150.0,
+        132.0
+      ],
+      "crop_top_left": [
+        102,
+        84,
+        199,
+        181
+      ],
+      "crop_file": "crops/0042_junction_001.png",
+      "crop_sha256": "7e90385f365d451e82bfea7d04cc6d338f91a5806e9874cfcb00ad40251083d4",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          150.0,
+          132.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00013",
+          "W00018",
+          "W00019",
+          "W00020"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_002",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        185.0,
+        132.0
+      ],
+      "crop_top_left": [
+        137,
+        84,
+        234,
+        181
+      ],
+      "crop_file": "crops/0042_junction_002.png",
+      "crop_sha256": "14dd9791e740cbcddb22b14ff8b63839b433be05a278159a65c41eb6be85d6f8",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00007",
+        "point": [
+          185.0,
+          132.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00007_V1",
+          "J00007_V2"
+        ],
+        "edge_ids": [
+          "W00014",
+          "W00019",
+          "W00021",
+          "W00022"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_003",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        214.0,
+        132.0
+      ],
+      "crop_top_left": [
+        166,
+        84,
+        263,
+        181
+      ],
+      "crop_file": "crops/0042_junction_003.png",
+      "crop_sha256": "14973b494dc8c9c6776af7905bf98639dc3b1641640ac3961756d6030e5a9859",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00008",
+        "point": [
+          214.0,
+          132.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00008_V1",
+          "J00008_V2"
+        ],
+        "edge_ids": [
+          "W00015",
+          "W00021",
+          "W00023",
+          "W00024"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_004",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        242.0,
+        132.0
+      ],
+      "crop_top_left": [
+        194,
+        84,
+        291,
+        181
+      ],
+      "crop_file": "crops/0042_junction_004.png",
+      "crop_sha256": "a506ced317ffb6535c0da9980e545092b48b7c3d4aaab89ee60e3bf29e7686e5",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00009",
+        "point": [
+          242.0,
+          132.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00009_V1",
+          "J00009_V2"
+        ],
+        "edge_ids": [
+          "W00016",
+          "W00023",
+          "W00025",
+          "W00026"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_005",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        150.0,
+        146.0
+      ],
+      "crop_top_left": [
+        102,
+        98,
+        199,
+        195
+      ],
+      "crop_file": "crops/0042_junction_005.png",
+      "crop_sha256": "0b87c319bb0adf2fdfb732d3aac59724d6a046775f4c598e35082dcce8d6bae7",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00012",
+        "point": [
+          150.0,
+          146.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00012_V1",
+          "J00012_V2"
+        ],
+        "edge_ids": [
+          "W00020",
+          "W00032",
+          "W00033",
+          "W00034"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_006",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        185.0,
+        146.0
+      ],
+      "crop_top_left": [
+        137,
+        98,
+        234,
+        195
+      ],
+      "crop_file": "crops/0042_junction_006.png",
+      "crop_sha256": "9b15554d61c6d1837c0d96937f50fe77e0f71a2fa26990b9a44adce4f9086c0c",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00013",
+        "point": [
+          185.0,
+          146.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00013_V1",
+          "J00013_V2"
+        ],
+        "edge_ids": [
+          "W00022",
+          "W00033",
+          "W00035",
+          "W00036"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_007",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        214.0,
+        146.0
+      ],
+      "crop_top_left": [
+        166,
+        98,
+        263,
+        195
+      ],
+      "crop_file": "crops/0042_junction_007.png",
+      "crop_sha256": "09734ca8216ee10c465654a932ce77ef1bbea3e07dad2f2eba2bdbc0584ce715",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00014",
+        "point": [
+          214.0,
+          146.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00014_V1",
+          "J00014_V2"
+        ],
+        "edge_ids": [
+          "W00024",
+          "W00031",
+          "W00035",
+          "W00037"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_008",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        150.0,
+        161.0
+      ],
+      "crop_top_left": [
+        102,
+        113,
+        199,
+        210
+      ],
+      "crop_file": "crops/0042_junction_008.png",
+      "crop_sha256": "38142697b29544c6e468c321882022d1a1e247ae944518e8b1fca385cd352a8f",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00015",
+        "point": [
+          150.0,
+          161.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00015_V1",
+          "J00015_V2"
+        ],
+        "edge_ids": [
+          "W00034",
+          "W00042",
+          "W00043",
+          "W00044"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_009",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        185.0,
+        161.0
+      ],
+      "crop_top_left": [
+        137,
+        113,
+        234,
+        210
+      ],
+      "crop_file": "crops/0042_junction_009.png",
+      "crop_sha256": "f04598dd27e6cba66744c80442c47e5083352dc8d04d56541d9b94312d643ac7",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00016",
+        "point": [
+          185.0,
+          161.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00016_V1",
+          "J00016_V2"
+        ],
+        "edge_ids": [
+          "W00036",
+          "W00041",
+          "W00043",
+          "W00045"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_010",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        184.5,
+        174.5
+      ],
+      "crop_top_left": [
+        136,
+        126,
+        233,
+        223
+      ],
+      "crop_file": "crops/0042_junction_010.png",
+      "crop_sha256": "c8e7968c222323e48382eb445f34a4a09f0774758820971555b941787ee95df5",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00017",
+        "point": [
+          184.5,
+          174.5
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00017_V1",
+          "J00017_V2"
+        ],
+        "edge_ids": [
+          "W00045",
+          "W00049",
+          "W00052",
+          "W00053"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_junction_011",
+      "case_id": "0042",
+      "kind": "junction",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        150.0,
+        175.0
+      ],
+      "crop_top_left": [
+        102,
+        127,
+        199,
+        224
+      ],
+      "crop_file": "crops/0042_junction_011.png",
+      "crop_sha256": "8cd774b390daa2e74c3af78e1bff2cfaf7860c83cb35f2f7e1baec7037e76f81",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "junction",
+        "junction_id": "J00018",
+        "point": [
+          150.0,
+          175.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00018_V1",
+          "J00018_V2"
+        ],
+        "edge_ids": [
+          "W00044",
+          "W00049",
+          "W00050",
+          "W00051"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_gap_001",
+      "case_id": "0042",
+      "kind": "gap",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        211.5,
+        159.5
+      ],
+      "crop_top_left": [
+        164,
+        112,
+        261,
+        209
+      ],
+      "crop_file": "crops/0042_gap_001.png",
+      "crop_sha256": "de9833eed34b4e1c8a85f6cbb4edafecbed0cc8daa3f49597299bbd3d75c2211",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "gap",
+        "endpoints": [
+          "N00048",
+          "N00049"
+        ],
+        "points": [
+          [
+            214,
+            159
+          ],
+          [
+            209,
+            160
+          ]
+        ],
+        "distance_px": 5.0990195135927845,
+        "probability_mean": 0.46912285685539246,
+        "probability_min": 0.06862951815128326,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00015",
+          "NET_CAND_00007"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0042_gap_002",
+      "case_id": "0042",
+      "kind": "gap",
+      "source_image_sha256": "4ec31216f39ce377b23dcabd10668de85cbb19ded8d529ffdd42acfc64e04737",
+      "center_top_left": [
+        228.5,
+        175.5
+      ],
+      "crop_top_left": [
+        180,
+        128,
+        277,
+        225
+      ],
+      "crop_file": "crops/0042_gap_002.png",
+      "crop_sha256": "6aa3152db67e3eb20734b571eacf44c48a70db8d62a7a04d4af94fd0da3c70a0",
+      "candidate": {
+        "case_id": "0042",
+        "kind": "gap",
+        "endpoints": [
+          "N00057",
+          "N00063"
+        ],
+        "points": [
+          [
+            233,
+            175
+          ],
+          [
+            224,
+            176
+          ]
+        ],
+        "distance_px": 9.055385138137417,
+        "probability_mean": 0.3714170753955841,
+        "probability_min": 0.1929766982793808,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00018",
+          "NET_CAND_00008"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0042",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0049_junction_001",
+      "case_id": "0049",
+      "kind": "junction",
+      "source_image_sha256": "19675ac0d651573c2c9e4ef76c0977e6ffa2ac2eca15c589f399a908b7a93d96",
+      "center_top_left": [
+        439.0,
+        133.0
+      ],
+      "crop_top_left": [
+        391,
+        85,
+        488,
+        182
+      ],
+      "crop_file": "crops/0049_junction_001.png",
+      "crop_sha256": "d750d8843a33849b4efcb89746c96103bb5c24b420d124ee97bb9a2c36798503",
+      "candidate": {
+        "case_id": "0049",
+        "kind": "junction",
+        "junction_id": "J00001",
+        "point": [
+          439.0,
+          133.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00001_V1",
+          "J00001_V2"
+        ],
+        "edge_ids": [
+          "W00001",
+          "W00002",
+          "W00003",
+          "W00004"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0049",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0049_junction_002",
+      "case_id": "0049",
+      "kind": "junction",
+      "source_image_sha256": "19675ac0d651573c2c9e4ef76c0977e6ffa2ac2eca15c589f399a908b7a93d96",
+      "center_top_left": [
+        804.0,
+        176.0
+      ],
+      "crop_top_left": [
+        756,
+        128,
+        853,
+        225
+      ],
+      "crop_file": "crops/0049_junction_002.png",
+      "crop_sha256": "98a3287ca11f9dfb04c183d124de206346433bb05b5f86ab1ee52a9761d17277",
+      "candidate": {
+        "case_id": "0049",
+        "kind": "junction",
+        "junction_id": "J00008",
+        "point": [
+          804.0,
+          176.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00008_V1",
+          "J00008_V2"
+        ],
+        "edge_ids": [
+          "W00016",
+          "W00020",
+          "W00021",
+          "W00022"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0049",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0049_junction_003",
+      "case_id": "0049",
+      "kind": "junction",
+      "source_image_sha256": "19675ac0d651573c2c9e4ef76c0977e6ffa2ac2eca15c589f399a908b7a93d96",
+      "center_top_left": [
+        857.0,
+        176.0
+      ],
+      "crop_top_left": [
+        809,
+        128,
+        906,
+        225
+      ],
+      "crop_file": "crops/0049_junction_003.png",
+      "crop_sha256": "0e9197166e8817cc5a2700b069e00846f024d85fe70a0e0920e1b34a603fa173",
+      "candidate": {
+        "case_id": "0049",
+        "kind": "junction",
+        "junction_id": "J00009",
+        "point": [
+          857.0,
+          176.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00009_V1",
+          "J00009_V2"
+        ],
+        "edge_ids": [
+          "W00015",
+          "W00021",
+          "W00023",
+          "W00024"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0049",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0049_gap_001",
+      "case_id": "0049",
+      "kind": "gap",
+      "source_image_sha256": "19675ac0d651573c2c9e4ef76c0977e6ffa2ac2eca15c589f399a908b7a93d96",
+      "center_top_left": [
+        445.5,
+        654.0
+      ],
+      "crop_top_left": [
+        398,
+        606,
+        495,
+        703
+      ],
+      "crop_file": "crops/0049_gap_001.png",
+      "crop_sha256": "c12f6b32855e7fccc72a9cfd401e2557ec2146fa36fe20c7cc7baabe3e753aba",
+      "candidate": {
+        "case_id": "0049",
+        "kind": "gap",
+        "endpoints": [
+          "N00093",
+          "N00094"
+        ],
+        "points": [
+          [
+            441,
+            654
+          ],
+          [
+            450,
+            654
+          ]
+        ],
+        "distance_px": 9.0,
+        "probability_mean": 0.4700392186641693,
+        "probability_min": 2.3576938474434428e-05,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00030",
+          "NET_CAND_00013"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0049",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0096_junction_001",
+      "case_id": "0096",
+      "kind": "junction",
+      "source_image_sha256": "c5c8a75d2b5a7647cfe2796a78a9fc1c0588b4af2f86d63d0938fe1330d98d1e",
+      "center_top_left": [
+        1208.0,
+        443.0
+      ],
+      "crop_top_left": [
+        1160,
+        395,
+        1257,
+        492
+      ],
+      "crop_file": "crops/0096_junction_001.png",
+      "crop_sha256": "55e3778dd060906c644d7916fba83b9f26a3edcb1ab88a3cbf88329408daa17f",
+      "candidate": {
+        "case_id": "0096",
+        "kind": "junction",
+        "junction_id": "J00005",
+        "point": [
+          1208.0,
+          443.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00005_V1",
+          "J00005_V2"
+        ],
+        "edge_ids": [
+          "W00022",
+          "W00031",
+          "W00032",
+          "W00033"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0096",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_junction_001",
+      "case_id": "0105",
+      "kind": "junction",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        360.0,
+        165.0
+      ],
+      "crop_top_left": [
+        312,
+        117,
+        409,
+        214
+      ],
+      "crop_file": "crops/0105_junction_001.png",
+      "crop_sha256": "f4e31693f8aad6927006aa307333e70c8fd1caeca5e0c722c0cd9804aef53cc3",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "junction",
+        "junction_id": "J00002",
+        "point": [
+          360.0,
+          165.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00002_V1",
+          "J00002_V2"
+        ],
+        "edge_ids": [
+          "W00008",
+          "W00011",
+          "W00017",
+          "W00018"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_junction_002",
+      "case_id": "0105",
+      "kind": "junction",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        486.4,
+        229.2
+      ],
+      "crop_top_left": [
+        438,
+        181,
+        535,
+        278
+      ],
+      "crop_file": "crops/0105_junction_002.png",
+      "crop_sha256": "d05cbdb1f5403818914f4fa8ebe6c17e68cd778144dab9d95a7a68b395a95bcd",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "junction",
+        "junction_id": "J00017",
+        "point": [
+          486.4,
+          229.2
+        ],
+        "arms": 5,
+        "degree": 5,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00017_V1",
+          "J00017_V2",
+          "J00017_V3",
+          "J00017_V4",
+          "J00017_V5"
+        ],
+        "edge_ids": [
+          "W00050",
+          "W00055",
+          "W00057",
+          "W00061",
+          "W00062"
+        ],
+        "conservative_hypothesis": "all_arms_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_gap_001",
+      "case_id": "0105",
+      "kind": "gap",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        678.0,
+        241.5
+      ],
+      "crop_top_left": [
+        630,
+        194,
+        727,
+        291
+      ],
+      "crop_file": "crops/0105_gap_001.png",
+      "crop_sha256": "d453aaa57e5e6412858803371d73792c6468af50f87f5b03cddf5a0f57065a77",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "gap",
+        "endpoints": [
+          "N00132",
+          "N00143"
+        ],
+        "points": [
+          [
+            682,
+            240
+          ],
+          [
+            674,
+            243
+          ]
+        ],
+        "distance_px": 8.54400374531753,
+        "probability_mean": 0.18162086606025696,
+        "probability_min": 0.0037921511102467775,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00012",
+          "NET_CAND_00013"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_gap_002",
+      "case_id": "0105",
+      "kind": "gap",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        677.0,
+        243.0
+      ],
+      "crop_top_left": [
+        629,
+        195,
+        726,
+        292
+      ],
+      "crop_file": "crops/0105_gap_002.png",
+      "crop_sha256": "a5081fbb7a90cd0b63679ccec7ca1f85cf63600487269e203212e7e717697fe7",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "gap",
+        "endpoints": [
+          "N00143",
+          "N00144"
+        ],
+        "points": [
+          [
+            674,
+            243
+          ],
+          [
+            680,
+            243
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.44079989194869995,
+        "probability_min": 0.07702977955341339,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00013",
+          "NET_CAND_00012"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_gap_003",
+      "case_id": "0105",
+      "kind": "gap",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        543.5,
+        537.5
+      ],
+      "crop_top_left": [
+        496,
+        490,
+        593,
+        587
+      ],
+      "crop_file": "crops/0105_gap_003.png",
+      "crop_sha256": "bba74878fc1de981816123895935919f850e76410903117e29ea714d303adb42",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "gap",
+        "endpoints": [
+          "N00191",
+          "N00194"
+        ],
+        "points": [
+          [
+            549,
+            537
+          ],
+          [
+            538,
+            538
+          ]
+        ],
+        "distance_px": 11.045361017187261,
+        "probability_mean": 0.2651295065879822,
+        "probability_min": 0.002438904484733939,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00020",
+          "NET_CAND_00019"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_gap_004",
+      "case_id": "0105",
+      "kind": "gap",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        561.5,
+        543.5
+      ],
+      "crop_top_left": [
+        514,
+        496,
+        611,
+        593
+      ],
+      "crop_file": "crops/0105_gap_004.png",
+      "crop_sha256": "263291663c1366f1ea64a268d72c33d943541f9b2202da80f436fcc898663635",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "gap",
+        "endpoints": [
+          "N00211",
+          "N00217"
+        ],
+        "points": [
+          [
+            559,
+            543
+          ],
+          [
+            564,
+            544
+          ]
+        ],
+        "distance_px": 5.0990195135927845,
+        "probability_mean": 0.4152795672416687,
+        "probability_min": 0.07490832358598709,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00022",
+          "NET_CAND_00021"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0105_gap_005",
+      "case_id": "0105",
+      "kind": "gap",
+      "source_image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "center_top_left": [
+        533.0,
+        544.0
+      ],
+      "crop_top_left": [
+        485,
+        496,
+        582,
+        593
+      ],
+      "crop_file": "crops/0105_gap_005.png",
+      "crop_sha256": "f1587b341141e1642f31174cfc3d8b86ffe537da78c90f3704eed03e80f20fd6",
+      "candidate": {
+        "case_id": "0105",
+        "kind": "gap",
+        "endpoints": [
+          "N00214",
+          "N00215"
+        ],
+        "points": [
+          [
+            532,
+            544
+          ],
+          [
+            534,
+            544
+          ]
+        ],
+        "distance_px": 2.0,
+        "probability_mean": 0.6219049096107483,
+        "probability_min": 0.4742989242076874,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00019",
+          "NET_CAND_00058"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0105",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0131_junction_001",
+      "case_id": "0131",
+      "kind": "junction",
+      "source_image_sha256": "b8fd483ef4e50663d31651d7a0f0e5f8808ba52071685824cf7be17dda9beb46",
+      "center_top_left": [
+        460.0,
+        75.0
+      ],
+      "crop_top_left": [
+        412,
+        27,
+        509,
+        124
+      ],
+      "crop_file": "crops/0131_junction_001.png",
+      "crop_sha256": "93635874dd9931c0cc1be054525d247722db8d9fdf0526777a8810b50f1aca18",
+      "candidate": {
+        "case_id": "0131",
+        "kind": "junction",
+        "junction_id": "J00003",
+        "point": [
+          460.0,
+          75.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00003_V1",
+          "J00003_V2"
+        ],
+        "edge_ids": [
+          "W00001",
+          "W00007",
+          "W00009",
+          "W00010"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0131",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0131_junction_002",
+      "case_id": "0131",
+      "kind": "junction",
+      "source_image_sha256": "b8fd483ef4e50663d31651d7a0f0e5f8808ba52071685824cf7be17dda9beb46",
+      "center_top_left": [
+        390.0,
+        190.0
+      ],
+      "crop_top_left": [
+        342,
+        142,
+        439,
+        239
+      ],
+      "crop_file": "crops/0131_junction_002.png",
+      "crop_sha256": "856f4e67e30c4d8e1a81a32d98dfa07ce779543db17058dfc953332ec2cb942d",
+      "candidate": {
+        "case_id": "0131",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          390.0,
+          190.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00017",
+          "W00018",
+          "W00021",
+          "W00022"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0131",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0131_junction_003",
+      "case_id": "0131",
+      "kind": "junction",
+      "source_image_sha256": "b8fd483ef4e50663d31651d7a0f0e5f8808ba52071685824cf7be17dda9beb46",
+      "center_top_left": [
+        495.0,
+        190.0
+      ],
+      "crop_top_left": [
+        447,
+        142,
+        544,
+        239
+      ],
+      "crop_file": "crops/0131_junction_003.png",
+      "crop_sha256": "6f839d572d8f3a6bb3893afdae19866cfe9142638d34085fb2e1684cd97f531b",
+      "candidate": {
+        "case_id": "0131",
+        "kind": "junction",
+        "junction_id": "J00007",
+        "point": [
+          495.0,
+          190.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00007_V1",
+          "J00007_V2"
+        ],
+        "edge_ids": [
+          "W00014",
+          "W00015",
+          "W00019",
+          "W00023"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0131",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0148_junction_001",
+      "case_id": "0148",
+      "kind": "junction",
+      "source_image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+      "center_top_left": [
+        684.0,
+        240.0
+      ],
+      "crop_top_left": [
+        636,
+        192,
+        733,
+        289
+      ],
+      "crop_file": "crops/0148_junction_001.png",
+      "crop_sha256": "a064ec76a0db8d78dd71ce6e4598bb3fa6e90b88f2b0d46a13c8f4fce426a935",
+      "candidate": {
+        "case_id": "0148",
+        "kind": "junction",
+        "junction_id": "J00005",
+        "point": [
+          684.0,
+          240.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00005_V1",
+          "J00005_V2"
+        ],
+        "edge_ids": [
+          "W00006",
+          "W00010",
+          "W00013",
+          "W00015"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0148",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0148_junction_002",
+      "case_id": "0148",
+      "kind": "junction",
+      "source_image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+      "center_top_left": [
+        684.5,
+        280.0
+      ],
+      "crop_top_left": [
+        636,
+        232,
+        733,
+        329
+      ],
+      "crop_file": "crops/0148_junction_002.png",
+      "crop_sha256": "2570fcdffa654f4e90cd012e71b13fa0678f2c788f320dfc2c147eedbcfdf6ca",
+      "candidate": {
+        "case_id": "0148",
+        "kind": "junction",
+        "junction_id": "J00007",
+        "point": [
+          684.5,
+          280.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00007_V1",
+          "J00007_V2"
+        ],
+        "edge_ids": [
+          "W00020",
+          "W00023",
+          "W00025",
+          "W00026"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0148",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0148_junction_003",
+      "case_id": "0148",
+      "kind": "junction",
+      "source_image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+      "center_top_left": [
+        914.0,
+        430.0
+      ],
+      "crop_top_left": [
+        866,
+        382,
+        963,
+        479
+      ],
+      "crop_file": "crops/0148_junction_003.png",
+      "crop_sha256": "4a530cabd61148f247c3d72163e93a398d3cc2e224b2c7500309057195022bd9",
+      "candidate": {
+        "case_id": "0148",
+        "kind": "junction",
+        "junction_id": "J00019",
+        "point": [
+          914.0,
+          430.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00019_V1",
+          "J00019_V2"
+        ],
+        "edge_ids": [
+          "W00052",
+          "W00055",
+          "W00060",
+          "W00061"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0148",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0148_junction_004",
+      "case_id": "0148",
+      "kind": "junction",
+      "source_image_sha256": "8784fd88c5efcbb02441e3c674008c0a9cdc1497434043ffd768c1c27c80424a",
+      "center_top_left": [
+        535.0,
+        450.0
+      ],
+      "crop_top_left": [
+        487,
+        402,
+        584,
+        499
+      ],
+      "crop_file": "crops/0148_junction_004.png",
+      "crop_sha256": "63aebf27400204adb085a3f6569e0ce221c7b00f5d230227a202e1784e39e616",
+      "candidate": {
+        "case_id": "0148",
+        "kind": "junction",
+        "junction_id": "J00022",
+        "point": [
+          535.0,
+          450.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00022_V1",
+          "J00022_V2"
+        ],
+        "edge_ids": [
+          "W00059",
+          "W00064",
+          "W00065",
+          "W00067"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0148",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0149_junction_001",
+      "case_id": "0149",
+      "kind": "junction",
+      "source_image_sha256": "b2ae05107bad10e093d54f57972c177e4d24d375a7f1e37ffed37d0d9e022da1",
+      "center_top_left": [
+        715.0,
+        160.0
+      ],
+      "crop_top_left": [
+        667,
+        112,
+        764,
+        209
+      ],
+      "crop_file": "crops/0149_junction_001.png",
+      "crop_sha256": "0e7488dbe522d206d9b9180b0b1fe924a8fd594188ecdb0b80e75304d5c20b60",
+      "candidate": {
+        "case_id": "0149",
+        "kind": "junction",
+        "junction_id": "J00007",
+        "point": [
+          715.0,
+          160.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00007_V1",
+          "J00007_V2"
+        ],
+        "edge_ids": [
+          "W00009",
+          "W00015",
+          "W00020",
+          "W00022"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0149",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_001",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        369.5,
+        309.5
+      ],
+      "crop_top_left": [
+        322,
+        262,
+        419,
+        359
+      ],
+      "crop_file": "crops/0170_junction_001.png",
+      "crop_sha256": "6bec3e0d617bca28563cef657c63812e0b03856211c05d306a551d9c9d3b2334",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00005",
+        "point": [
+          369.5,
+          309.5
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00005_V1",
+          "J00005_V2"
+        ],
+        "edge_ids": [
+          "W00121",
+          "W00124",
+          "W00125",
+          "W00129"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_002",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        664.5,
+        309.5
+      ],
+      "crop_top_left": [
+        616,
+        262,
+        713,
+        359
+      ],
+      "crop_file": "crops/0170_junction_002.png",
+      "crop_sha256": "014111aff6ca6cd6bebc0fbf551741bd6cf623a78a68c52123264acdb5b4dfd9",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          664.5,
+          309.5
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00122",
+          "W00127",
+          "W00136",
+          "W00137"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_003",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        559.5,
+        375.0
+      ],
+      "crop_top_left": [
+        512,
+        327,
+        609,
+        424
+      ],
+      "crop_file": "crops/0170_junction_003.png",
+      "crop_sha256": "deef4989e263edb938f897fae83434bfb54e54d9b3573a0cc61d304dd7522512",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00013",
+        "point": [
+          559.5,
+          375.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00013_V1",
+          "J00013_V2"
+        ],
+        "edge_ids": [
+          "W00156",
+          "W00162",
+          "W00163",
+          "W00164"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_004",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        130.0,
+        520.0
+      ],
+      "crop_top_left": [
+        82,
+        472,
+        179,
+        569
+      ],
+      "crop_file": "crops/0170_junction_004.png",
+      "crop_sha256": "fd5967bc8694f7bbe887b594482a9681043369ee3717f8fd0f0696830b3c22b2",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00017",
+        "point": [
+          130.0,
+          520.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00017_V1",
+          "J00017_V2"
+        ],
+        "edge_ids": [
+          "W00194",
+          "W00199",
+          "W00201",
+          "W00202"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_005",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        305.0,
+        520.0
+      ],
+      "crop_top_left": [
+        257,
+        472,
+        354,
+        569
+      ],
+      "crop_file": "crops/0170_junction_005.png",
+      "crop_sha256": "4e779fbda7a21fe6401b7f6b0fe204e6b67c7f36ff03b84b206e521cd4a62a3e",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00019",
+        "point": [
+          305.0,
+          520.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00019_V1",
+          "J00019_V2"
+        ],
+        "edge_ids": [
+          "W00192",
+          "W00203",
+          "W00205",
+          "W00206"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_junction_006",
+      "case_id": "0170",
+      "kind": "junction",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        525.0,
+        520.0
+      ],
+      "crop_top_left": [
+        477,
+        472,
+        574,
+        569
+      ],
+      "crop_file": "crops/0170_junction_006.png",
+      "crop_sha256": "d90826f3a6754c61c01032a5cd91911ad3adf6858a6bbfeea54d41c92301c55b",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "junction",
+        "junction_id": "J00020",
+        "point": [
+          525.0,
+          520.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00020_V1",
+          "J00020_V2"
+        ],
+        "edge_ids": [
+          "W00185",
+          "W00189",
+          "W00207",
+          "W00208"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_001",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        883.0,
+        409.0
+      ],
+      "crop_top_left": [
+        835,
+        361,
+        932,
+        458
+      ],
+      "crop_file": "crops/0170_gap_001.png",
+      "crop_sha256": "50608a928ec8b7e8150676d6721e282cfd97fed9061bbc5766bef7ca11f49660",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00313",
+          "N00314"
+        ],
+        "points": [
+          [
+            877,
+            409
+          ],
+          [
+            889,
+            409
+          ]
+        ],
+        "distance_px": 12.0,
+        "probability_mean": 0.44078800082206726,
+        "probability_min": 0.3714931309223175,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00147",
+          "NET_CAND_00149"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_002",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        893.5,
+        409.0
+      ],
+      "crop_top_left": [
+        846,
+        361,
+        943,
+        458
+      ],
+      "crop_file": "crops/0170_gap_002.png",
+      "crop_sha256": "8f5f105360651246441ce0c319f1fcafe09ca63bcc78693a425c5098f1fa8b2c",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00315",
+          "N00316"
+        ],
+        "points": [
+          [
+            891,
+            409
+          ],
+          [
+            896,
+            409
+          ]
+        ],
+        "distance_px": 5.0,
+        "probability_mean": 0.4673675000667572,
+        "probability_min": 0.35115742683410645,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00149",
+          "NET_CAND_00150"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_003",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        993.0,
+        409.0
+      ],
+      "crop_top_left": [
+        945,
+        361,
+        1042,
+        458
+      ],
+      "crop_file": "crops/0170_gap_003.png",
+      "crop_sha256": "c41c4684952412b6a23673796a195a4a8c248fdac6ac64ef79723e2b75794112",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00319",
+          "N00320"
+        ],
+        "points": [
+          [
+            991,
+            409
+          ],
+          [
+            995,
+            409
+          ]
+        ],
+        "distance_px": 4.0,
+        "probability_mean": 0.4998590350151062,
+        "probability_min": 0.4979569613933563,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00151",
+          "NET_CAND_00152"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_004",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        894.0,
+        423.5
+      ],
+      "crop_top_left": [
+        846,
+        376,
+        943,
+        473
+      ],
+      "crop_file": "crops/0170_gap_004.png",
+      "crop_sha256": "a40d558e1d7bc68c992b700f56fdba3164a9145c9ea10a89bab6fde683a672ba",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00322",
+          "N00327"
+        ],
+        "points": [
+          [
+            892,
+            423
+          ],
+          [
+            896,
+            424
+          ]
+        ],
+        "distance_px": 4.123105625617661,
+        "probability_mean": 0.5745349526405334,
+        "probability_min": 0.4427209496498108,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00153",
+          "NET_CAND_00157"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_005",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        1149.5,
+        538.0
+      ],
+      "crop_top_left": [
+        1102,
+        490,
+        1190,
+        587
+      ],
+      "crop_file": "crops/0170_gap_005.png",
+      "crop_sha256": "3831327c6ebdab5dd561a6ae95eb3e4f42dc9b774552d4dc01f0ec520c6b869c",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00368",
+          "N00374"
+        ],
+        "points": [
+          [
+            1149,
+            533
+          ],
+          [
+            1150,
+            543
+          ]
+        ],
+        "distance_px": 10.04987562112089,
+        "probability_mean": 0.42551907896995544,
+        "probability_min": 0.32562538981437683,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00161",
+          "NET_CAND_00174"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0170_gap_006",
+      "case_id": "0170",
+      "kind": "gap",
+      "source_image_sha256": "7bb8695914459cc9eb87c9a1b7b91ffacc85fa30afc892758df2ea608ab0cbf9",
+      "center_top_left": [
+        171.0,
+        819.0
+      ],
+      "crop_top_left": [
+        123,
+        771,
+        220,
+        845
+      ],
+      "crop_file": "crops/0170_gap_006.png",
+      "crop_sha256": "25207961544074e39a7757a8fe9a3cd18731aa21393c18e7dc0e178a0ce00515",
+      "candidate": {
+        "case_id": "0170",
+        "kind": "gap",
+        "endpoints": [
+          "N00432",
+          "N00433"
+        ],
+        "points": [
+          [
+            165,
+            819
+          ],
+          [
+            177,
+            819
+          ]
+        ],
+        "distance_px": 12.0,
+        "probability_mean": 0.3833046555519104,
+        "probability_min": 0.27936288714408875,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00192",
+          "NET_CAND_00193"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0170",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0227_junction_001",
+      "case_id": "0227",
+      "kind": "junction",
+      "source_image_sha256": "c01500d295ac7836b6ea4a86d83341f59afcd77347effde52539081ae2a43e99",
+      "center_top_left": [
+        1071.5,
+        321.0
+      ],
+      "crop_top_left": [
+        1024,
+        273,
+        1121,
+        370
+      ],
+      "crop_file": "crops/0227_junction_001.png",
+      "crop_sha256": "71d64d60ca9428cb6ae8ddeac3aabe991d8fb2e8312a9cde2727326cded2764f",
+      "candidate": {
+        "case_id": "0227",
+        "kind": "junction",
+        "junction_id": "J00004",
+        "point": [
+          1071.5,
+          321.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00004_V1",
+          "J00004_V2"
+        ],
+        "edge_ids": [
+          "W00006",
+          "W00018",
+          "W00020",
+          "W00021"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0227",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0227_gap_001",
+      "case_id": "0227",
+      "kind": "gap",
+      "source_image_sha256": "c01500d295ac7836b6ea4a86d83341f59afcd77347effde52539081ae2a43e99",
+      "center_top_left": [
+        315.5,
+        183.0
+      ],
+      "crop_top_left": [
+        268,
+        135,
+        365,
+        232
+      ],
+      "crop_file": "crops/0227_gap_001.png",
+      "crop_sha256": "8d206e42a06e62af06ecdc592eda5df2c6ce1d4a167d86d7398f1c1af4f7c99d",
+      "candidate": {
+        "case_id": "0227",
+        "kind": "gap",
+        "endpoints": [
+          "N00014",
+          "N00015"
+        ],
+        "points": [
+          [
+            314,
+            183
+          ],
+          [
+            317,
+            183
+          ]
+        ],
+        "distance_px": 3.0,
+        "probability_mean": 0.5168393850326538,
+        "probability_min": 0.4590228796005249,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00006",
+          "NET_CAND_00007"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0227",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0227_gap_002",
+      "case_id": "0227",
+      "kind": "gap",
+      "source_image_sha256": "c01500d295ac7836b6ea4a86d83341f59afcd77347effde52539081ae2a43e99",
+      "center_top_left": [
+        865.0,
+        183.0
+      ],
+      "crop_top_left": [
+        817,
+        135,
+        914,
+        232
+      ],
+      "crop_file": "crops/0227_gap_002.png",
+      "crop_sha256": "8461e7b8a7430cbe579f976d7788fd3237c70f3ba46a7c59d7c9df7d29b0d167",
+      "candidate": {
+        "case_id": "0227",
+        "kind": "gap",
+        "endpoints": [
+          "N00018",
+          "N00019"
+        ],
+        "points": [
+          [
+            863,
+            183
+          ],
+          [
+            867,
+            183
+          ]
+        ],
+        "distance_px": 4.0,
+        "probability_mean": 0.5476457476615906,
+        "probability_min": 0.3869798183441162,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00008",
+          "NET_CAND_00009"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0227",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0236_junction_001",
+      "case_id": "0236",
+      "kind": "junction",
+      "source_image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+      "center_top_left": [
+        808.0,
+        68.0
+      ],
+      "crop_top_left": [
+        760,
+        20,
+        857,
+        117
+      ],
+      "crop_file": "crops/0236_junction_001.png",
+      "crop_sha256": "1b8ca76787bf79022fd8ac7f1e1887edc9c949f9a8d4b069fc300a3edb8fb2a4",
+      "candidate": {
+        "case_id": "0236",
+        "kind": "junction",
+        "junction_id": "J00003",
+        "point": [
+          808.0,
+          68.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00003_V1",
+          "J00003_V2"
+        ],
+        "edge_ids": [
+          "W00001",
+          "W00005",
+          "W00007",
+          "W00008"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0236",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0236_junction_002",
+      "case_id": "0236",
+      "kind": "junction",
+      "source_image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+      "center_top_left": [
+        257.0,
+        276.0
+      ],
+      "crop_top_left": [
+        209,
+        228,
+        306,
+        325
+      ],
+      "crop_file": "crops/0236_junction_002.png",
+      "crop_sha256": "65c78f45221116ecf8759b521bcdf447cd7e8f009a1885c911bb108b14ff580c",
+      "candidate": {
+        "case_id": "0236",
+        "kind": "junction",
+        "junction_id": "J00005",
+        "point": [
+          257.0,
+          276.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00005_V1",
+          "J00005_V2"
+        ],
+        "edge_ids": [
+          "W00011",
+          "W00016",
+          "W00017",
+          "W00018"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0236",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0236_junction_003",
+      "case_id": "0236",
+      "kind": "junction",
+      "source_image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+      "center_top_left": [
+        314.0,
+        276.0
+      ],
+      "crop_top_left": [
+        266,
+        228,
+        363,
+        325
+      ],
+      "crop_file": "crops/0236_junction_003.png",
+      "crop_sha256": "8728317fb99fcecbd911f4965d7620cb76e6b9d2667a98b42ab3d83703d42a33",
+      "candidate": {
+        "case_id": "0236",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          314.0,
+          276.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00012",
+          "W00015",
+          "W00017",
+          "W00019"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0236",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0236_junction_004",
+      "case_id": "0236",
+      "kind": "junction",
+      "source_image_sha256": "9e917343a593ff879dbf676bfea55112a8c28034c7837edbc14c76c063eb24aa",
+      "center_top_left": [
+        314.0,
+        393.0
+      ],
+      "crop_top_left": [
+        266,
+        345,
+        363,
+        442
+      ],
+      "crop_file": "crops/0236_junction_004.png",
+      "crop_sha256": "fad6aaa54bb3226684a9a222804a76fd79c36668217f5ef09b7142fcab74b353",
+      "candidate": {
+        "case_id": "0236",
+        "kind": "junction",
+        "junction_id": "J00008",
+        "point": [
+          314.0,
+          393.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00008_V1",
+          "J00008_V2"
+        ],
+        "edge_ids": [
+          "W00019",
+          "W00023",
+          "W00024",
+          "W00025"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0236",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0240_junction_001",
+      "case_id": "0240",
+      "kind": "junction",
+      "source_image_sha256": "edcf4b131309cc5cd349ab44ebdb44782977ffcb782819a63653dd8c01824b8c",
+      "center_top_left": [
+        315.0,
+        210.0
+      ],
+      "crop_top_left": [
+        267,
+        162,
+        364,
+        259
+      ],
+      "crop_file": "crops/0240_junction_001.png",
+      "crop_sha256": "e12624ce9dd05cd51a5d871a3a8f13ba5910f8a39bcd0c04c1fa66557b07ebb8",
+      "candidate": {
+        "case_id": "0240",
+        "kind": "junction",
+        "junction_id": "J00003",
+        "point": [
+          315.0,
+          210.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00003_V1",
+          "J00003_V2"
+        ],
+        "edge_ids": [
+          "W00004",
+          "W00009",
+          "W00010",
+          "W00011"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0240",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0240_junction_002",
+      "case_id": "0240",
+      "kind": "junction",
+      "source_image_sha256": "edcf4b131309cc5cd349ab44ebdb44782977ffcb782819a63653dd8c01824b8c",
+      "center_top_left": [
+        415.0,
+        210.0
+      ],
+      "crop_top_left": [
+        367,
+        162,
+        464,
+        259
+      ],
+      "crop_file": "crops/0240_junction_002.png",
+      "crop_sha256": "131ca358c8f9277962eeed061f9a56f050edadeb509ae973d04412cc74b3199a",
+      "candidate": {
+        "case_id": "0240",
+        "kind": "junction",
+        "junction_id": "J00004",
+        "point": [
+          415.0,
+          210.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00004_V1",
+          "J00004_V2"
+        ],
+        "edge_ids": [
+          "W00005",
+          "W00007",
+          "W00009",
+          "W00012"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0240",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0240_junction_003",
+      "case_id": "0240",
+      "kind": "junction",
+      "source_image_sha256": "edcf4b131309cc5cd349ab44ebdb44782977ffcb782819a63653dd8c01824b8c",
+      "center_top_left": [
+        315.0,
+        334.0
+      ],
+      "crop_top_left": [
+        267,
+        286,
+        364,
+        383
+      ],
+      "crop_file": "crops/0240_junction_003.png",
+      "crop_sha256": "ce027e9bf99c4713d92f33e33bf1ac42a0a05fdc8c6f8702a77b80f4aaa828e7",
+      "candidate": {
+        "case_id": "0240",
+        "kind": "junction",
+        "junction_id": "J00006",
+        "point": [
+          315.0,
+          334.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00006_V1",
+          "J00006_V2"
+        ],
+        "edge_ids": [
+          "W00010",
+          "W00015",
+          "W00017",
+          "W00018"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0240",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0240_gap_001",
+      "case_id": "0240",
+      "kind": "gap",
+      "source_image_sha256": "edcf4b131309cc5cd349ab44ebdb44782977ffcb782819a63653dd8c01824b8c",
+      "center_top_left": [
+        239.0,
+        410.0
+      ],
+      "crop_top_left": [
+        191,
+        362,
+        288,
+        459
+      ],
+      "crop_file": "crops/0240_gap_001.png",
+      "crop_sha256": "b1a6ee02c84ecd3c446505f20f2718abda821f63e8267c3ed31b89a4563cfd8b",
+      "candidate": {
+        "case_id": "0240",
+        "kind": "gap",
+        "endpoints": [
+          "N00035",
+          "N00036"
+        ],
+        "points": [
+          [
+            236,
+            410
+          ],
+          [
+            242,
+            410
+          ]
+        ],
+        "distance_px": 6.0,
+        "probability_mean": 0.40794500708580017,
+        "probability_min": 0.19246412813663483,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00012",
+          "NET_CAND_00013"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0240",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0264_junction_001",
+      "case_id": "0264",
+      "kind": "junction",
+      "source_image_sha256": "a37816e5f8eea79d9e9812e5afadaafc8e2295ec05406d793c367f44a0736536",
+      "center_top_left": [
+        462.0,
+        249.0
+      ],
+      "crop_top_left": [
+        414,
+        201,
+        511,
+        298
+      ],
+      "crop_file": "crops/0264_junction_001.png",
+      "crop_sha256": "303f6a620a35b630eaeff171bd329d852b25879c38a891731efadbf8e5def2ae",
+      "candidate": {
+        "case_id": "0264",
+        "kind": "junction",
+        "junction_id": "J00004",
+        "point": [
+          462.0,
+          249.0
+        ],
+        "arms": 4,
+        "degree": 4,
+        "status": "connected_or_crossing_model_not_available",
+        "observed_hypothesis": "all_arms_connected",
+        "virtual_nodes": [
+          "J00004_V1",
+          "J00004_V2"
+        ],
+        "edge_ids": [
+          "W00011",
+          "W00013",
+          "W00017",
+          "W00018"
+        ],
+        "conservative_hypothesis": "straight_pairs_separate",
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "connected_junction",
+        "crossing_without_connection",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0264",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0286_gap_001",
+      "case_id": "0286",
+      "kind": "gap",
+      "source_image_sha256": "e7e0b20f6b74684cd19a09346fac26e22c2d565e8be374e11a06fd7ec8e2be96",
+      "center_top_left": [
+        701.5,
+        87.0
+      ],
+      "crop_top_left": [
+        654,
+        39,
+        751,
+        136
+      ],
+      "crop_file": "crops/0286_gap_001.png",
+      "crop_sha256": "83398427daf8983abc576e58507d738cb10974efcec80585a98e8f49b08e95f3",
+      "candidate": {
+        "case_id": "0286",
+        "kind": "gap",
+        "endpoints": [
+          "N00007",
+          "N00008"
+        ],
+        "points": [
+          [
+            700,
+            87
+          ],
+          [
+            703,
+            87
+          ]
+        ],
+        "distance_px": 3.0,
+        "probability_mean": 0.514037013053894,
+        "probability_min": 0.4894096255302429,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00001",
+          "NET_CAND_00005"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0286",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    },
+    {
+      "review_id": "0286_gap_002",
+      "case_id": "0286",
+      "kind": "gap",
+      "source_image_sha256": "e7e0b20f6b74684cd19a09346fac26e22c2d565e8be374e11a06fd7ec8e2be96",
+      "center_top_left": [
+        949.5,
+        297.0
+      ],
+      "crop_top_left": [
+        902,
+        249,
+        999,
+        346
+      ],
+      "crop_file": "crops/0286_gap_002.png",
+      "crop_sha256": "f86a3adc61c5b1f4cb211ba1aa68cd1069b534794c8fd56cc74a4571c028200d",
+      "candidate": {
+        "case_id": "0286",
+        "kind": "gap",
+        "endpoints": [
+          "N00027",
+          "N00028"
+        ],
+        "points": [
+          [
+            946,
+            297
+          ],
+          [
+            953,
+            297
+          ]
+        ],
+        "distance_px": 7.0,
+        "probability_mean": 0.4497435390949249,
+        "probability_min": 0.31539663672447205,
+        "status": "gap_candidate_not_filled",
+        "automatically_connected": false,
+        "network_ids": [
+          "NET_CAND_00013",
+          "NET_CAND_00014"
+        ],
+        "label_change_applied": false
+      },
+      "allowed_labels": [
+        "true_wire_break",
+        "should_remain_separate",
+        "segmentation_artifact",
+        "uncertain"
+      ],
+      "label": null,
+      "reviewed": false,
+      "source_group": "0286",
+      "reference_status": "model_candidate_from_existing_development_pages_not_new_external_data"
+    }
+  ],
+  "total": 115,
+  "reviewed_count": 0,
+  "labels_generated_automatically": 0,
+  "training_dataset_modified": false,
+  "source_scope": "Existing 26 development validation pages; not eligible as newly collected independent data",
+  "split_rule": "If trained later, split by original schematic/source group, not by crop; old validation scores cease to be independent"
+}

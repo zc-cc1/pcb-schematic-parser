@@ -1,0 +1,105 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "top_left",
+  "input_graph_sha256": "a6d098eae3bf15a7a52fb34c49d350631b52d06f84672dc3c42c3f5aa115138f",
+  "input_pin_sha256": "7949c8f8b69467b3262c14d9fb047b68cd65567b153aa90dff98ca3c400b8b54",
+  "input_OCR_sha256": "01583dec289c72f3e8d6f5cbbe5dc2e11e6e9ead1947a230c93509172b04ca59",
+  "power_config_sha256": "7ff45b2d3f277d3b4a92d4fb7b6e4d00d39023610ec7011f597f0c8c5404cb01",
+  "recovery_config_sha256": "5e050f9c6fb0203b8f1f0070c65aa9788231c37d00b49015a06c9483145def78",
+  "OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "prediction_only": true,
+  "before_power": {
+    "observed_power_sites": 0,
+    "power_groups_applied": 0,
+    "input_network_groups_joined": 0,
+    "power_components_in_review": 24,
+    "power_components_without_qualified_caption": 24,
+    "network_proposals_before": 62,
+    "network_proposals_after": 62,
+    "multi_pin_networks_before": 29,
+    "multi_pin_networks_after": 29,
+    "decision_withheld_reason_counts": {},
+    "pin_coordinates_changed": 0,
+    "pin_fields_changed": 0,
+    "physical_edges_added": 0,
+    "power_ordinary_flywires_created": 0,
+    "default_pipeline_adopted": false
+  },
+  "power": {
+    "observed_power_sites": 2,
+    "power_groups_applied": 0,
+    "input_network_groups_joined": 0,
+    "power_components_in_review": 24,
+    "power_components_without_qualified_caption": 22,
+    "network_proposals_before": 62,
+    "network_proposals_after": 62,
+    "multi_pin_networks_before": 29,
+    "multi_pin_networks_after": 29,
+    "decision_withheld_reason_counts": {
+      "single_observed_power_occurrence": 2,
+      "already_same_input_network": 2
+    },
+    "pin_coordinates_changed": 0,
+    "pin_fields_changed": 0,
+    "physical_edges_added": 0,
+    "power_ordinary_flywires_created": 0,
+    "default_pipeline_adopted": false
+  },
+  "recovery": {
+    "roi_count": 15,
+    "skipped_by_budget": 0,
+    "localized_observations": 221,
+    "new_power_caption_sites": 3
+  },
+  "baseline_export": {
+    "conservative": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    },
+    "candidate": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    }
+  },
+  "proposal_export": {
+    "conservative": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    },
+    "candidate": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    }
+  },
+  "all_original_tips_fields_owners_and_physical_edges_preserved": true,
+  "all_original_network_members_retained": true,
+  "default_pipeline_adopted": false,
+  "input_contract": "PNG and hash-checked S14 predictions only; no annotations/CAD/Golden reads",
+  "new_training": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "wall_seconds": 7.912595604000003,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 29.221405227999995
+}

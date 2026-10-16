@@ -1,0 +1,26 @@
+{
+  "version": "0.1",
+  "purpose": "Explicit manual corrections for visually inspected development examples only.",
+  "cases": {
+    "0001": {
+      "evidence": "Visual review of 0001-KiCad.png; model text RP2350B and designator U2 visible.",
+      "components": {"C_1": {"Name": "RP2350B"}, "C_2": {"designator": "U2"}},
+      "pins": {}
+    },
+    "0002": {
+      "evidence": "Visual review of 0002-Datasheet.png: crystal X2/frequency 19M2, its four pin numbers, C74 left/right numbers, and eight IC2 pad labels.",
+      "components": {"C_1": {"designator": "X2", "value": "19M2"}},
+      "pins": {
+        "C_1": {"P_17": {"number": "1"}, "P_12": {"number": "2"}, "P_9": {"number": "3"}, "P_13": {"number": "4"}},
+        "C_5": {"P_19": {"number": "1"}, "P_16": {"number": "2"}},
+        "C_2": {
+          "P_8": {"number": "P9"}, "P_3": {"number": "N7"},
+          "P_4": {"number": "P7"}, "P_5": {"number": "N8"},
+          "P_10": {"number": "R8"}, "P_18": {"number": "R9"},
+          "P_26": {"number": "U18"}, "P_25": {"number": "V1"}
+        }
+      }
+    }
+  },
+  "notes": ["These image-verified corrections improve local references; official Golden numbering may still differ from a raw-null auto-numbering policy."]
+}

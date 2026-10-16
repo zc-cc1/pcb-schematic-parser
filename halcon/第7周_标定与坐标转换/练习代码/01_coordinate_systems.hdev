@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第7周第1天：图像坐标与世界平面坐标</c><c>* [逐行] 关闭HDevelop自动更新，避免逐条执行时产生不必要的刷新。</c>
+<l>dev_update_off ()</l><c>* [逐行] 关闭当前HDevelop图形窗口，防止重复运行时窗口不断累积。</c>
+<l>dev_close_window ()</l>
+<c>* [逐行] 生成面阵相机初始参数，并采用division畸变模型。</c>
+<l>gen_cam_par_area_scan_division (0.008,0,0.0000086,0.0000086,384,288,768,576,CamParam)</l><c>* [逐行] 根据平移、旋转和姿态约定创建三维位姿。</c>
+<l>create_pose (0,0,-0.5,0,0,0,'Rp+T','gba','point',Pose)</l>
+<c>* [逐行] 设置行列坐标变量 Rows 的元组数据，供后续批量处理。</c>
+<l>Rows := [288,288,388]</l><c>* [逐行] 设置行列坐标变量 Columns 的元组数据，供后续批量处理。</c>
+<l>Columns := [384,484,384]</l><c>* [逐行] 把图像行列坐标投影到指定世界平面，并按给定单位输出X/Y坐标。</c>
+<l>image_points_to_world_plane (CamParam,Pose,Rows,Columns,'mm',X,Y)</l><c>* [逐行] 根据当前数据计算几何尺寸，并把结果保存到 Distance01。</c>
+<l>Distance01 := sqrt((X[1]-X[0])*(X[1]-X[0]) + (Y[1]-Y[0])*(Y[1]-Y[0]))</l>
+<c>* [逐行] 创建指定尺寸和类型的常量图像，作为合成图像背景。</c>
+<l>gen_image_const (Image,'byte',768,576)</l><c>* [逐行] 按照给定位置和尺寸打开HDevelop图形窗口，并取得窗口句柄。</c>
+<l>dev_open_window (0,0,768,576,'black',WindowHandle)</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Image)</l><c>* [逐行] 在指定坐标生成十字XLD，用于标记位置或特征点。</c>
+<l>gen_cross_contour_xld (Cross,Rows,Columns,15,0)</l><c>* [逐行] 设置后续图形对象的显示颜色。</c>
+<l>dev_set_color ('green')</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Cross)</l>
+<c>* [逐行] 在指定窗口位置显示说明文字、参数或检测结果。</c>
+<l>disp_text (WindowHandle,['图像坐标：Row向下，Column向右','世界平面：X/Y，单位由参数决定','100像素横向距离 = ' + Distance01$'.3f' + ' mm'], 'window',12,12,'white',['box_color'],['black'])</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>

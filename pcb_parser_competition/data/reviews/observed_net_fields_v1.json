@@ -1,0 +1,33 @@
+{
+  "stage": "S24",
+  "reviewer": "assistant_visual_review_of_original_PNG_crops_and_model_overlays",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "official_identity_numbering_or_network_verified": false,
+  "items": [
+    {
+      "case_id": "0018",
+      "network_id": "LOG_NET_CAND_00116",
+      "visible_header": "L1",
+      "visible_footer": "LDO",
+      "visible_pin_number": "4",
+      "visible_pin_name": "BYP",
+      "visible_connection": "BYP lead turns down to the upper C14 plate",
+      "engineering_pin_reference": "C14.1",
+      "capacitor_number_and_name_are_printed": false,
+      "review_image": "runs/s24_observed_net_fields/whole_net_0018_LOG_NET_CAND_00116.png"
+    },
+    {
+      "case_id": "0036",
+      "network_id": "LOG_NET_CAND_00012",
+      "visible_header": "U1",
+      "visible_pin_number": "4",
+      "visible_pin_name": "CAGC",
+      "opposite_side_name_in_same_row": "DOUT",
+      "visible_connection": "CAGC lead turns down to the upper C4 plate",
+      "engineering_pin_reference": "C4.1",
+      "capacitor_number_and_name_are_printed": false,
+      "review_image": "runs/s24_observed_net_fields/whole_net_0036_LOG_NET_CAND_00012.png"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "size": [
+    832,
+    376
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "input_pin_sha256": "e2d01d390e905133f3c8afcb9fd55685d78a785cc9ecdb73d5e03e3fba56cb2a",
+  "input_graph_sha256": "6a47c4730334375dfbbe103e425698a4d13b736a8c8a4214c24ae6a91718c66e",
+  "input_records_sha256": "eb8c8c2719c4dbab0ad11a6459bc344bef6ca1656b147f4c8cb20014a08c183b",
+  "input_OCR_sha256": "f4535459ad4db6260bb9b9a9986b8b8d96c52104473b352f9ad483944f767d17",
+  "whole_network_config_sha256": "479f873f56bed79b17127e9ae0ea5376fd2d46bdc4009b3f7761984b2f406f8b",
+  "blocks": [
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "reasons": [
+        "wire_endpoint_near_component_without_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00014",
+      "reasons": [
+        "wire_endpoint_near_component_without_member"
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "original_member_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0025",
+        "PIN_CAND_0026"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0025",
+        "PIN_CAND_0026"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0002": "PIN_CAND_0002",
+        "PIN_CAND_0025": "PIN_CAND_0025",
+        "PIN_CAND_0026": "PIN_CAND_0026"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "original_member_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0016",
+        "PIN_CAND_0029"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0016",
+        "PIN_CAND_0029"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0011": "PIN_CAND_0011",
+        "PIN_CAND_0016": "PIN_CAND_0016",
+        "PIN_CAND_0029": "PIN_CAND_0029"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00003",
+      "original_member_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0012",
+        "PIN_CAND_0027"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0012",
+        "PIN_CAND_0027"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0005": "PIN_CAND_0005",
+        "PIN_CAND_0012": "PIN_CAND_0012",
+        "PIN_CAND_0027": "PIN_CAND_0027"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00004",
+      "original_member_ids": [
+        "PIN_CAND_0003",
+        "PIN_CAND_0022"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0003",
+        "PIN_CAND_0022"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0003": "PIN_CAND_0003",
+        "PIN_CAND_0022": "PIN_CAND_0022"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "original_member_ids": [
+        "PIN_CAND_0030"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0030"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0030": "PIN_CAND_0030"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00007",
+      "original_member_ids": [
+        "PIN_CAND_0028"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0028"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0028": "PIN_CAND_0028"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "original_member_ids": [
+        "PIN_CAND_0024"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0024"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0024": "PIN_CAND_0024"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00010",
+      "original_member_ids": [
+        "PIN_CAND_0015"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0015"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0015": "PIN_CAND_0015"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "original_member_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0021"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0021"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0021": "PIN_CAND_0021"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "original_member_ids": [
+        "PIN_CAND_0006",
+        "PIN_CAND_0019"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0006",
+        "PIN_CAND_0019"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0006": "PIN_CAND_0006",
+        "PIN_CAND_0019": "PIN_CAND_0019"
+      },
+      "unrepresented_component_endpoints": [
+        {
+          "node_id": "N00030",
+          "point": [
+            448,
+            193
+          ],
+          "detection_index": 8,
+          "component_id": "C4"
+        }
+      ],
+      "withheld_reasons": [
+        "wire_endpoint_near_component_without_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "original_member_ids": [
+        "PIN_CAND_0017"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0017"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0017": "PIN_CAND_0017"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00014",
+      "original_member_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0014"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0014"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0008": "PIN_CAND_0008",
+        "PIN_CAND_0014": "PIN_CAND_0014"
+      },
+      "unrepresented_component_endpoints": [
+        {
+          "node_id": "N00031",
+          "point": [
+            178,
+            211
+          ],
+          "detection_index": 4,
+          "component_id": "C2"
+        }
+      ],
+      "withheld_reasons": [
+        "wire_endpoint_near_component_without_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "original_member_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0020"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0020"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0007": "PIN_CAND_0007",
+        "PIN_CAND_0020": "PIN_CAND_0020"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00016",
+      "original_member_ids": [
+        "PIN_CAND_0018",
+        "PIN_CAND_0023"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0018",
+        "PIN_CAND_0023"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0018": "PIN_CAND_0018",
+        "PIN_CAND_0023": "PIN_CAND_0023"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00017",
+      "original_member_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0004"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0004"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0001": "PIN_CAND_0001",
+        "PIN_CAND_0004": "PIN_CAND_0004"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    },
+    {
+      "network_id": "LOG_NET_CAND_00018",
+      "original_member_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0013"
+      ],
+      "canonical_contact_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0013"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0009": "PIN_CAND_0009",
+        "PIN_CAND_0013": "PIN_CAND_0013"
+      },
+      "unrepresented_component_endpoints": [],
+      "withheld_reasons": []
+    }
+  ],
+  "verified_alias_proofs": [],
+  "original_members_removed": 0,
+  "wire_geometry_changed": false,
+  "summary": {
+    "verified_duplicate_tip_pairs": 0,
+    "blocked_networks": 2,
+    "blocker_counts": {
+      "wire_endpoint_near_component_without_member": 2
+    }
+  }
+}

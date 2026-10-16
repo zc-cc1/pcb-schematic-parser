@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "initial_weights": "weights/circuit_yolov8n_v3.pt",
+  "dataset": "data/detection_v1/dataset.yaml",
+  "run_name": "detector_dataset300_v1",
+  "training": {
+    "epochs": 20, "imgsz": 1024, "batch": 4, "workers": 2,
+    "device": 0, "amp": false, "cache": false,
+    "optimizer": "AdamW", "lr0": 0.001, "lrf": 0.1, "weight_decay": 0.0005,
+    "warmup_epochs": 2, "patience": 8, "seed": 20261011, "deterministic": true,
+    "mosaic": 0.25, "close_mosaic": 5, "mixup": 0.0,
+    "degrees": 0.0, "translate": 0.05, "scale": 0.2, "shear": 0.0, "perspective": 0.0,
+    "flipud": 0.25, "fliplr": 0.25, "hsv_h": 0.0, "hsv_s": 0.0, "hsv_v": 0.15,
+    "plots": true, "save": true, "max_det": 1000
+  },
+  "notes": ["FP32 initial fine-tuning avoids automatic download of unrelated AMP-check models.", "Overlapping pretrained classification rows are explicitly copied by class name; new classes get fresh output rows.", "0001/0002 and duplicate groups are held out from training. Metrics are provisional detector metrics, not competition ComponentF1."]
+}

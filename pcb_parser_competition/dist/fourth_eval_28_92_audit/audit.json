@@ -1,0 +1,4565 @@
+{
+  "analysis_only": true,
+  "old_root": "C:\\Users\\Pc\\Desktop\\新建文件夹\\评测结果\\第三次评测-20.45\\scoring_result",
+  "new_root": "C:\\Users\\Pc\\Desktop\\新建文件夹\\评测结果\\第四次评测-28.92\\scoring_result",
+  "old_summary": {
+    "timestamp_utc": "2026-10-16T03:18:28.163697+00:00",
+    "cases_scored": 10,
+    "cases_skipped": 0,
+    "threshold_px": 20.0,
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "macro_avg": {
+      "component_f1": 0.04989,
+      "pin_f1": 0.692889,
+      "connectivity_f1": 0.042857,
+      "wire_f1": 0.013016,
+      "final_score": 20.449074
+    },
+    "cases": [
+      {
+        "case": "1",
+        "component_f1": 0.0,
+        "pin_f1": 0.938776,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 23.4694
+      },
+      {
+        "case": "10",
+        "component_f1": 0.122449,
+        "pin_f1": 0.5,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 16.17347
+      },
+      {
+        "case": "2",
+        "component_f1": 0.0,
+        "pin_f1": 0.608696,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 15.2174
+      },
+      {
+        "case": "3",
+        "component_f1": 0.1,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 19.666675
+      },
+      {
+        "case": "4",
+        "component_f1": 0.108108,
+        "pin_f1": 0.555556,
+        "connectivity_f1": 0.285714,
+        "wire_f1": 0.063492,
+        "final_score": 27.76705
+      },
+      {
+        "case": "5",
+        "component_f1": 0.054054,
+        "pin_f1": 0.615385,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 17.006245
+      },
+      {
+        "case": "6",
+        "component_f1": 0.066667,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 18.666685
+      },
+      {
+        "case": "7",
+        "component_f1": 0.047619,
+        "pin_f1": 0.857143,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 22.857145
+      },
+      {
+        "case": "8",
+        "component_f1": 0.0,
+        "pin_f1": 0.72,
+        "connectivity_f1": 0.142857,
+        "wire_f1": 0.066667,
+        "final_score": 23.666665
+      },
+      {
+        "case": "9",
+        "component_f1": 0.0,
+        "pin_f1": 0.8,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 20.0
+      }
+    ]
+  },
+  "summary": {
+    "timestamp_utc": "2026-10-16T09:11:36.374928+00:00",
+    "cases_scored": 13,
+    "cases_skipped": 0,
+    "threshold_px": 20.0,
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "macro_avg": {
+      "component_f1": 0.541866,
+      "pin_f1": 0.437584,
+      "connectivity_f1": 0.045788,
+      "wire_f1": 0.012409,
+      "final_score": 28.92223
+    },
+    "cases": [
+      {
+        "case": "1",
+        "component_f1": 0.511111,
+        "pin_f1": 0.222222,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 20.88888
+      },
+      {
+        "case": "10",
+        "component_f1": 0.77551,
+        "pin_f1": 0.5,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 35.7653
+      },
+      {
+        "case": "11",
+        "component_f1": 0.380952,
+        "pin_f1": 0.26087,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 17.95031
+      },
+      {
+        "case": "12",
+        "component_f1": 0.333333,
+        "pin_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 9.99999
+      },
+      {
+        "case": "13",
+        "component_f1": 0.285714,
+        "pin_f1": 0.4,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 18.57142
+      },
+      {
+        "case": "2",
+        "component_f1": 0.4,
+        "pin_f1": 0.608696,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 27.2174
+      },
+      {
+        "case": "3",
+        "component_f1": 0.65,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 36.166675
+      },
+      {
+        "case": "4",
+        "component_f1": 0.648649,
+        "pin_f1": 0.555556,
+        "connectivity_f1": 0.285714,
+        "wire_f1": 0.064516,
+        "final_score": 43.99352
+      },
+      {
+        "case": "5",
+        "component_f1": 0.378378,
+        "pin_f1": 0.230769,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 17.120565
+      },
+      {
+        "case": "6",
+        "component_f1": 0.633333,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.166667,
+        "wire_f1": 0.022727,
+        "final_score": 41.72728
+      },
+      {
+        "case": "7",
+        "component_f1": 0.809524,
+        "pin_f1": 0.857143,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 45.714295
+      },
+      {
+        "case": "8",
+        "component_f1": 0.645161,
+        "pin_f1": 0.72,
+        "connectivity_f1": 0.142857,
+        "wire_f1": 0.074074,
+        "final_score": 43.095565
+      },
+      {
+        "case": "9",
+        "component_f1": 0.592593,
+        "pin_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 17.77779
+      }
+    ]
+  },
+  "weighted_points": {
+    "component_f1": 16.255979999999997,
+    "pin_f1": 10.939599999999999,
+    "connectivity_f1": 1.6025800000000001,
+    "wire_f1": 0.12409
+  },
+  "decision_log": {
+    "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+    "timestamp": "2026-10-16T08:56:08.901780+00:00",
+    "processed_cases": 13,
+    "successful_cases": 13,
+    "failed_cases": 0,
+    "output_format": "target",
+    "coordinate_origin": "bottom_left_H_minus_y",
+    "token_usage": {
+      "total_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "api_calls": 0
+    },
+    "cases": [
+      {
+        "case_id": "1",
+        "input": "/input/1.png",
+        "success": true,
+        "components": 32,
+        "pins": 24,
+        "nets": 0,
+        "seconds": 112.143
+      },
+      {
+        "case_id": "10",
+        "input": "/input/10.png",
+        "success": true,
+        "components": 20,
+        "pins": 10,
+        "nets": 0,
+        "seconds": 90.059
+      },
+      {
+        "case_id": "11",
+        "input": "/input/11.png",
+        "success": true,
+        "components": 6,
+        "pins": 3,
+        "nets": 0,
+        "seconds": 46.48
+      },
+      {
+        "case_id": "12",
+        "input": "/input/12.png",
+        "success": true,
+        "components": 9,
+        "pins": 2,
+        "nets": 0,
+        "seconds": 43.348
+      },
+      {
+        "case_id": "13",
+        "input": "/input/13.png",
+        "success": true,
+        "components": 15,
+        "pins": 3,
+        "nets": 0,
+        "seconds": 40.746
+      },
+      {
+        "case_id": "2",
+        "input": "/input/2.png",
+        "success": true,
+        "components": 12,
+        "pins": 19,
+        "nets": 0,
+        "seconds": 74.768
+      },
+      {
+        "case_id": "3",
+        "input": "/input/3.png",
+        "success": true,
+        "components": 14,
+        "pins": 7,
+        "nets": 0,
+        "seconds": 74.944
+      },
+      {
+        "case_id": "4",
+        "input": "/input/4.png",
+        "success": true,
+        "components": 13,
+        "pins": 10,
+        "nets": 1,
+        "seconds": 62.452
+      },
+      {
+        "case_id": "5",
+        "input": "/input/5.png",
+        "success": true,
+        "components": 11,
+        "pins": 14,
+        "nets": 0,
+        "seconds": 73.453
+      },
+      {
+        "case_id": "6",
+        "input": "/input/6.png",
+        "success": true,
+        "components": 22,
+        "pins": 14,
+        "nets": 1,
+        "seconds": 84.488
+      },
+      {
+        "case_id": "7",
+        "input": "/input/7.png",
+        "success": true,
+        "components": 18,
+        "pins": 14,
+        "nets": 0,
+        "seconds": 69.235
+      },
+      {
+        "case_id": "8",
+        "input": "/input/8.png",
+        "success": true,
+        "components": 11,
+        "pins": 17,
+        "nets": 1,
+        "seconds": 72.965
+      },
+      {
+        "case_id": "9",
+        "input": "/input/9.png",
+        "success": true,
+        "components": 10,
+        "pins": 6,
+        "nets": 0,
+        "seconds": 78.565
+      }
+    ],
+    "device": "cpu",
+    "input_cases": 13,
+    "workers": 1,
+    "gpu_memory_bytes": 0,
+    "protocol": "2026-10-08-global-power-rails",
+    "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+    "component_output_policy": "public_20261016_passive_names_template_boxes_v1",
+    "wall_seconds": 925.112
+  },
+  "orchestration": {
+    "team": "submission",
+    "run_id": "20261016T085457Z",
+    "participant_image": "pcb-parser:local-cuda-28da9146",
+    "status": "ok",
+    "participant_exit_code": 0,
+    "elapsed_seconds": 927,
+    "timeout_budget_seconds": 1200,
+    "grace_seconds": 30,
+    "pred_files_collected": 13,
+    "score_exit_code": 0,
+    "started_at_utc": "2026-10-16T08:56:08Z",
+    "ended_at_utc": "2026-10-16T09:11:36Z",
+    "gpu_devices": "0"
+  },
+  "outer_metadata": "elapsedTime: 301.859281539917\nexitCode: 1\ningestionElapsedTime: 1043.7371723651886\ningestionExitCode: 0\n",
+  "totals": {
+    "pred_components": 193,
+    "pred_pins_all_types": 143,
+    "gt_power_symbols": 134,
+    "pred_power_symbols": 0,
+    "matched_ordinary_keys": 192,
+    "gt_ordinary_components": 212,
+    "gt_logical_nets": 132,
+    "pred_logical_nets": 3,
+    "gt_raw_nets": 231,
+    "exact_net_tp": 3,
+    "pending_pins": 649,
+    "withheld_networks": 324,
+    "field_only_withheld_networks": 94,
+    "internal_power_review_candidates": 132
+  },
+  "component_counts": {
+    "tp": 150,
+    "fp": 43,
+    "fn": 196
+  },
+  "pin_counts": {
+    "tp": 56,
+    "fp": 10,
+    "fn": 135
+  },
+  "wire_counts": {
+    "tp": 5,
+    "fp": 4,
+    "fn": 739
+  },
+  "component_failed_checks": {
+    "type": 3,
+    "value": 15,
+    "Name": 12,
+    "bbox": 18
+  },
+  "component_failure_combinations": {
+    "type+value": 3,
+    "Name": 10,
+    "Name+bbox": 2,
+    "bbox": 15,
+    "value": 11,
+    "bbox+value": 1
+  },
+  "component_failed_checks_by_type": {
+    "vbus_in": {
+      "type": 3,
+      "value": 3
+    },
+    "led": {
+      "Name": 3,
+      "bbox": 3
+    },
+    "r": {
+      "bbox": 4,
+      "value": 2
+    },
+    "box": {
+      "Name": 9,
+      "bbox": 5
+    },
+    "l": {
+      "value": 7,
+      "bbox": 2
+    },
+    "c": {
+      "value": 3,
+      "bbox": 4
+    }
+  },
+  "pending_pin_reason_counts": {
+    "pin_number_unresolved": 627,
+    "component_identity_unresolved": 294,
+    "pin_name_unresolved": 562
+  },
+  "withheld_network_reason_counts": {
+    "contains_pin_with_unresolved_identity_number_or_name": 299,
+    "power_logical_membership_provisional": 11,
+    "wire_endpoint_near_component_without_member": 39,
+    "junction_semantics_unresolved": 71,
+    "single_pin_fragment": 152,
+    "detected_power_symbol_near_wire_without_attached_member": 9,
+    "suspected_disconnection": 14
+  },
+  "validation_issue_counts": {
+    "missing component pin group": 129
+  },
+  "shared_image_cases": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
+  "paired_image_macro_scores": {
+    "old": {
+      "component_f1": 0.055433,
+      "pin_f1": 0.6655682222222222,
+      "connectivity_f1": 0.047619,
+      "wire_f1": 0.014462111111111113,
+      "final_score": 20.113481666666665
+    },
+    "new": {
+      "component_f1": 0.6147942222222222,
+      "pin_f1": 0.5339442222222223,
+      "connectivity_f1": 0.06613755555555556,
+      "wire_f1": 0.017924111111111113,
+      "final_score": 34.28648777777778
+    }
+  },
+  "paired_image_comparison_limit": "Same pixels do not establish unchanged ground truth or scorer. Cases 5 and 9 contradict unchanged geometric scoring.",
+  "cases": [
+    {
+      "case": "1",
+      "scores": {
+        "component_stage": 0.379798,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.511111,
+        "pin_f1": 0.222222,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 20.88888
+      },
+      "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+      "image_size": [
+        2240,
+        1149
+      ],
+      "component_counts": {
+        "tp": 23,
+        "fp": 9,
+        "fn": 35,
+        "precision": 0.71875,
+        "recall": 0.396552,
+        "f1": 0.511111
+      },
+      "pin_counts": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 35,
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.222222
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 116,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "type": 3,
+        "value": 5,
+        "Name": 3,
+        "bbox": 3
+      },
+      "component_error_examples": [
+        {
+          "component_id": "BAT",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "type",
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 4.903
+        },
+        {
+          "component_id": "LED+",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "type",
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 3.606
+        },
+        {
+          "component_id": "LED-",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "type",
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 4.802
+        },
+        {
+          "component_id": "LED1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 17.0975
+        },
+        {
+          "component_id": "LED2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.3295
+        },
+        {
+          "component_id": "LED3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 45.8735
+        },
+        {
+          "component_id": "R12",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 21.1505
+        },
+        {
+          "component_id": "R13",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 10.0435
+        },
+        {
+          "component_id": "R14",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 10.093
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_10\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_11\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_12\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_13\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_14\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_8\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_9\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_1\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 19,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 23,
+      "internal_power_candidates": 19,
+      "comparison": {
+        "same_input_image_sha256": false,
+        "old_image_sha256": "b6fbf993baa18593b09c9297cb462c2f4e5844eeaf27eceb5bfa03bcc32ae3f9",
+        "old_image_size": [
+          1478,
+          1202
+        ],
+        "old_scores": {
+          "component_stage": 0.426716,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.0,
+          "pin_f1": 0.938776,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 23.4694
+        },
+        "old_pin_distance_summary": {
+          "count": 23,
+          "mean": 2.475388,
+          "median": 0.0,
+          "p95": 7.247858,
+          "max": 7.501219
+        },
+        "new_pin_distance_summary": {
+          "count": 5,
+          "mean": 10.80108,
+          "median": 0.0,
+          "p95": 17.115011,
+          "max": 18.899945
+        },
+        "old_component_counts": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 22,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C151",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.462
+          },
+          {
+            "component_id": "C152",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.224
+          },
+          {
+            "component_id": "C153",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.43
+          },
+          {
+            "component_id": "C154",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.64
+          },
+          {
+            "component_id": "C155",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.066
+          },
+          {
+            "component_id": "C156",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.244
+          },
+          {
+            "component_id": "C157",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.151
+          },
+          {
+            "component_id": "C158",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.947
+          },
+          {
+            "component_id": "C159",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.358
+          },
+          {
+            "component_id": "C160",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.676
+          },
+          {
+            "component_id": "C161",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.694
+          },
+          {
+            "component_id": "C162",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.249
+          },
+          {
+            "component_id": "R164",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 15.651
+          },
+          {
+            "component_id": "U1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 60.278
+          },
+          {
+            "component_id": "∅109",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅113",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅117",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅121",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅125",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅200",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅202",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅208",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 469.86004203407754,
+        "common_pin_position_changes_px": {
+          "U1.pin_8": 317.3199029991724,
+          "U1.pin_9": 469.86004203407754
+        },
+        "added_pin_ids": [
+          [
+            "BAT",
+            "pin_1"
+          ],
+          [
+            "C11",
+            "pin_1"
+          ],
+          [
+            "C11",
+            "pin_2"
+          ],
+          [
+            "C13",
+            "pin_1"
+          ],
+          [
+            "C13",
+            "pin_2"
+          ],
+          [
+            "C14",
+            "pin_1"
+          ],
+          [
+            "C14",
+            "pin_2"
+          ],
+          [
+            "LED+",
+            "pin_1"
+          ],
+          [
+            "LED-",
+            "pin_1"
+          ],
+          [
+            "R10",
+            "pin_1"
+          ],
+          [
+            "R10",
+            "pin_2"
+          ],
+          [
+            "R15",
+            "pin_1"
+          ],
+          [
+            "R15",
+            "pin_2"
+          ],
+          [
+            "R16",
+            "pin_1"
+          ],
+          [
+            "R16",
+            "pin_2"
+          ],
+          [
+            "R19",
+            "pin_1"
+          ],
+          [
+            "R19",
+            "pin_2"
+          ],
+          [
+            "R3",
+            "pin_1"
+          ],
+          [
+            "R3",
+            "pin_2"
+          ],
+          [
+            "U2",
+            "pin_2"
+          ],
+          [
+            "U2",
+            "pin_3"
+          ],
+          [
+            "U3",
+            "pin_3"
+          ]
+        ],
+        "removed_pin_ids": [
+          [
+            "C151",
+            "pin_1"
+          ],
+          [
+            "C151",
+            "pin_2"
+          ],
+          [
+            "C152",
+            "pin_1"
+          ],
+          [
+            "C152",
+            "pin_2"
+          ],
+          [
+            "C153",
+            "pin_1"
+          ],
+          [
+            "C153",
+            "pin_2"
+          ],
+          [
+            "C156",
+            "pin_1"
+          ],
+          [
+            "C156",
+            "pin_2"
+          ],
+          [
+            "C158",
+            "pin_1"
+          ],
+          [
+            "C158",
+            "pin_2"
+          ],
+          [
+            "C160",
+            "pin_1"
+          ],
+          [
+            "C160",
+            "pin_2"
+          ],
+          [
+            "U1",
+            "pin_10"
+          ],
+          [
+            "U1",
+            "pin_113"
+          ],
+          [
+            "U1",
+            "pin_114"
+          ],
+          [
+            "U1",
+            "pin_115"
+          ],
+          [
+            "U1",
+            "pin_122"
+          ],
+          [
+            "U1",
+            "pin_16"
+          ],
+          [
+            "U1",
+            "pin_17"
+          ],
+          [
+            "U1",
+            "pin_26"
+          ],
+          [
+            "U1",
+            "pin_28"
+          ],
+          [
+            "U1",
+            "pin_39"
+          ],
+          [
+            "U1",
+            "pin_47"
+          ],
+          [
+            "U1",
+            "pin_48"
+          ],
+          [
+            "U1",
+            "pin_51"
+          ],
+          [
+            "U1",
+            "pin_52"
+          ],
+          [
+            "U1",
+            "pin_58"
+          ],
+          [
+            "U1",
+            "pin_68"
+          ],
+          [
+            "U1",
+            "pin_69"
+          ],
+          [
+            "U1",
+            "pin_7"
+          ],
+          [
+            "U1",
+            "pin_79"
+          ],
+          [
+            "U1",
+            "pin_80"
+          ],
+          [
+            "U1",
+            "pin_90"
+          ]
+        ],
+        "pin_name_changes": [
+          [
+            "U1",
+            "pin_8",
+            "VDDA",
+            "VOUT"
+          ],
+          [
+            "U1",
+            "pin_9",
+            "VREFA+",
+            "EP"
+          ]
+        ]
+      }
+    },
+    {
+      "case": "2",
+      "scores": {
+        "component_stage": 0.494862,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.4,
+        "pin_f1": 0.608696,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 27.2174
+      },
+      "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+      "image_size": [
+        2063,
+        1116
+      ],
+      "component_counts": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 20,
+        "precision": 0.666667,
+        "recall": 0.285714,
+        "f1": 0.4
+      },
+      "pin_counts": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 9,
+        "precision": 1.0,
+        "recall": 0.4375,
+        "f1": 0.608696
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "Name": 4
+      },
+      "component_error_examples": [
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 13.206
+        },
+        {
+          "component_id": "U2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 12.814
+        },
+        {
+          "component_id": "U3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 13.036
+        },
+        {
+          "component_id": "U4",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 13.17
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U4\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U4\",\"pin_4\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 16,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 10,
+      "internal_power_candidates": 16,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+        "old_image_size": [
+          2063,
+          1116
+        ],
+        "old_scores": {
+          "component_stage": 0.27668,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.0,
+          "pin_f1": 0.608696,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 15.2174
+        },
+        "old_pin_distance_summary": {
+          "count": 7,
+          "mean": 3.123828,
+          "median": 0.0,
+          "p95": 4.304004,
+          "max": 4.372235
+        },
+        "new_pin_distance_summary": {
+          "count": 7,
+          "mean": 9.979973,
+          "median": 0.0,
+          "p95": 12.435725,
+          "max": 12.437524
+        },
+        "old_component_counts": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "old_component_errors": [
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.433
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.026
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.038
+          },
+          {
+            "component_id": "R4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.567
+          },
+          {
+            "component_id": "R5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.449
+          },
+          {
+            "component_id": "R6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.21
+          },
+          {
+            "component_id": "R7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.783
+          },
+          {
+            "component_id": "R8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.711
+          },
+          {
+            "component_id": "U1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.204
+          },
+          {
+            "component_id": "U2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.812
+          },
+          {
+            "component_id": "U3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.035
+          },
+          {
+            "component_id": "U4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.167
+          },
+          {
+            "component_id": "∅104",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅110",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅118",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅122",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅126",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅140",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅144",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅149",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅153",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅157",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅161",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅165",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅169",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅173",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅177",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅181",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.007865602065744447,
+        "common_pin_position_changes_px": {
+          "R1.pin_1": 0.0022225980925512775,
+          "R1.pin_2": 0.0007434342027316498,
+          "R2.pin_1": 0.0028848708617968508,
+          "R2.pin_2": 0.003322944412552479,
+          "R4.pin_1": 0.002178309681997838,
+          "R4.pin_2": 0.003570650560311288,
+          "R5.pin_1": 0.00044118648058824947,
+          "R5.pin_2": 0.007865602065744447,
+          "R6.pin_1": 0.001801203696779129,
+          "R6.pin_2": 0.0015584001379198391,
+          "R8.pin_1": 0.0018546802037976659,
+          "R8.pin_2": 0.0014412326626542947,
+          "U1.pin_2": 0.0016530717293304644,
+          "U1.pin_3": 0.0009790574520204657,
+          "U2.pin_3": 0.00045911882804463487,
+          "U3.pin_3": 0.00041647183791190806,
+          "U3.pin_4": 0.0004127223744287691,
+          "U4.pin_2": 0.0003787197000554415,
+          "U4.pin_3": 0.00011852725413644144
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "3",
+      "scores": {
+        "component_stage": 0.657576,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.65,
+        "pin_f1": 0.666667,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 36.166675
+      },
+      "image_sha256": "30c65062c9032ee83e20b9a16cbe33e0ea40beb2ac532e632fd51d5294bdecb8",
+      "image_size": [
+        2247,
+        1195
+      ],
+      "component_counts": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 13,
+        "precision": 0.928571,
+        "recall": 0.5,
+        "f1": 0.65
+      },
+      "pin_counts": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.666667
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 46,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.8835
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 11,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 7,
+      "internal_power_candidates": 11,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "30c65062c9032ee83e20b9a16cbe33e0ea40beb2ac532e632fd51d5294bdecb8",
+        "old_image_size": [
+          2247,
+          1195
+        ],
+        "old_scores": {
+          "component_stage": 0.357576,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.1,
+          "pin_f1": 0.666667,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 19.666675
+        },
+        "old_pin_distance_summary": {
+          "count": 3,
+          "mean": 3.146073,
+          "median": 0.0,
+          "p95": 3.291345,
+          "max": 3.295566
+        },
+        "new_pin_distance_summary": {
+          "count": 3,
+          "mean": 9.393752,
+          "median": 0.0,
+          "p95": 9.981171,
+          "max": 10.064903
+        },
+        "old_component_counts": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 24,
+          "precision": 0.142857,
+          "recall": 0.076923,
+          "f1": 0.1
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.272
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.358
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.028
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.817
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.686
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.811
+          },
+          {
+            "component_id": "L1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.65
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.516
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.786
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.883
+          },
+          {
+            "component_id": "R4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.245
+          },
+          {
+            "component_id": "R5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.72
+          },
+          {
+            "component_id": "C7",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅118",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅122",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅56",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅60",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅70",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅74",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅78",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅82",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅86",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅90",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅94",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.00570052870306413,
+        "common_pin_position_changes_px": {
+          "C4.pin_1": 0.002244628842980367,
+          "C4.pin_2": 0.0015844115051961065,
+          "R1.pin_1": 0.00570052870306413,
+          "R1.pin_2": 0.002143023232385643,
+          "U1.pin_3": 0.0023123439631159526,
+          "U1.pin_4": 0.0001863895719153128,
+          "U1.pin_5": 0.0007139761483670579
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "4",
+      "scores": {
+        "component_stage": 0.606334,
+        "wire_stage": 0.064516,
+        "connectivity_stage": 0.285714,
+        "component_f1": 0.648649,
+        "pin_f1": 0.555556,
+        "wire_f1": 0.064516,
+        "connectivity_f1": 0.285714,
+        "final_score": 43.99352
+      },
+      "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+      "image_size": [
+        1849,
+        1032
+      ],
+      "component_counts": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 12,
+        "precision": 0.923077,
+        "recall": 0.5,
+        "f1": 0.648649
+      },
+      "pin_counts": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.833333,
+        "recall": 0.416667,
+        "f1": 0.555556
+      },
+      "wire_counts": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 57,
+        "precision": 0.666667,
+        "recall": 0.033898,
+        "f1": 0.064516
+      },
+      "component_failed_checks": {
+        "Name": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "U2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 17.087
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U2\",\"pin_3\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position",
+            "pin_name"
+          ],
+          "tip_distance_px": 21.126086
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_4\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 11,
+      "pred_power_symbols": 0,
+      "pred_nets": 1,
+      "gt_logical_nets": 6,
+      "internal_power_candidates": 11,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+        "old_image_size": [
+          1849,
+          1032
+        ],
+        "old_scores": {
+          "component_stage": 0.311493,
+          "wire_stage": 0.063492,
+          "connectivity_stage": 0.285714,
+          "component_f1": 0.108108,
+          "pin_f1": 0.555556,
+          "wire_f1": 0.063492,
+          "connectivity_f1": 0.285714,
+          "final_score": 27.76705
+        },
+        "old_pin_distance_summary": {
+          "count": 6,
+          "mean": 5.266044,
+          "median": 2.050898,
+          "p95": 16.123686,
+          "max": 19.106638
+        },
+        "new_pin_distance_summary": {
+          "count": 6,
+          "mean": 9.86998,
+          "median": 8.237328,
+          "p95": 18.080409,
+          "max": 21.126086
+        },
+        "old_component_counts": {
+          "tp": 2,
+          "fp": 11,
+          "fn": 22,
+          "precision": 0.153846,
+          "recall": 0.083333,
+          "f1": 0.108108
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.783
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 30.889
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.365
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.873
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 19.563
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.654
+          },
+          {
+            "component_id": "C7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 30.397
+          },
+          {
+            "component_id": "LED1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.46
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 27.177
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 26.434
+          },
+          {
+            "component_id": "U2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 16.084
+          },
+          {
+            "component_id": "∅106",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅131",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅135",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅139",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅143",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅147",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅151",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅56",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅78",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅82",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅96",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.0033835997063426594,
+        "common_pin_position_changes_px": {
+          "R1.pin_1": 0.0006453348097304448,
+          "R1.pin_2": 0.000929469921969975,
+          "R2.pin_1": 0.002852561106701698,
+          "R2.pin_2": 0.0010870276144246713,
+          "U1.pin_2": 0.0033835997063426594,
+          "U1.pin_3": 0.002119182971397593,
+          "U2.pin_3": 0.0008915334443831534,
+          "U2.pin_4": 0.0006724871522070559,
+          "U3.pin_3": 0.002094926761651363,
+          "U3.pin_5": 0.0006725600165630099
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "5",
+      "scores": {
+        "component_stage": 0.311283,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.378378,
+        "pin_f1": 0.230769,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 17.120565
+      },
+      "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+      "image_size": [
+        2057,
+        1096
+      ],
+      "component_counts": {
+        "tp": 7,
+        "fp": 4,
+        "fn": 19,
+        "precision": 0.636364,
+        "recall": 0.269231,
+        "f1": 0.378378
+      },
+      "pin_counts": {
+        "tp": 3,
+        "fp": 5,
+        "fn": 15,
+        "precision": 0.375,
+        "recall": 0.166667,
+        "f1": 0.230769
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 57,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 2,
+        "bbox": 2
+      },
+      "component_error_examples": [
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 18.0865
+        },
+        {
+          "component_id": "L2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.5435
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 27.004
+        },
+        {
+          "component_id": "U2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 27.942
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "component_id": "U1",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 31.540598
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_3\"]",
+          "component_id": "U1",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 29.370062
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_5\"]",
+          "component_id": "U1",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 28.890854
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 28.631913
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_3\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 29.383813
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_2\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 15,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 6,
+      "internal_power_candidates": 15,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+        "old_image_size": [
+          2057,
+          1096
+        ],
+        "old_scores": {
+          "component_stage": 0.309204,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.054054,
+          "pin_f1": 0.615385,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 17.006245
+        },
+        "old_pin_distance_summary": {
+          "count": 8,
+          "mean": 3.892253,
+          "median": 2.535628,
+          "p95": 11.315625,
+          "max": 14.046305
+        },
+        "new_pin_distance_summary": {
+          "count": 8,
+          "mean": 22.480735,
+          "median": 28.761384,
+          "p95": 30.785723,
+          "max": 31.540598
+        },
+        "old_component_counts": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 25,
+          "precision": 0.090909,
+          "recall": 0.038462,
+          "f1": 0.054054
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.49
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 11.788
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.651
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 15.067
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.649
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.228
+          },
+          {
+            "component_id": "L1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.45
+          },
+          {
+            "component_id": "L2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 29.737
+          },
+          {
+            "component_id": "U1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 27.005
+          },
+          {
+            "component_id": "U2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.942
+          },
+          {
+            "component_id": "∅102",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅111",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅115",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅129",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅133",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅137",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅141",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅150",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅171",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅175",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅179",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅183",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅194",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅83",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅93",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.005162555077877977,
+        "common_pin_position_changes_px": {
+          "C3.pin_1": 0.004822530053086747,
+          "C3.pin_2": 0.0003773924520370757,
+          "C5.pin_1": 0.0020009787091497147,
+          "C5.pin_2": 0.0007787061517074692,
+          "L1.pin_1": 0.00157351937685286,
+          "L1.pin_2": 0.0007220548528336286,
+          "U1.pin_2": 0.001543926514338346,
+          "U1.pin_3": 0.003193385658892429,
+          "U1.pin_4": 0.0016993145891975293,
+          "U1.pin_5": 0.005162555077877977,
+          "U2.pin_2": 0.00017685763051300944,
+          "U2.pin_3": 0.0032078271915345776,
+          "U3.pin_3": 0.0012461808488811806,
+          "U3.pin_4": 0.0006775830621291319
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "6",
+      "scores": {
+        "component_stage": 0.648485,
+        "wire_stage": 0.022727,
+        "connectivity_stage": 0.166667,
+        "component_f1": 0.633333,
+        "pin_f1": 0.666667,
+        "wire_f1": 0.022727,
+        "connectivity_f1": 0.166667,
+        "final_score": 41.72728
+      },
+      "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984",
+      "image_size": [
+        2186,
+        1110
+      ],
+      "component_counts": {
+        "tp": 19,
+        "fp": 3,
+        "fn": 19,
+        "precision": 0.863636,
+        "recall": 0.5,
+        "f1": 0.633333
+      },
+      "pin_counts": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.666667
+      },
+      "wire_counts": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 85,
+        "precision": 0.5,
+        "recall": 0.011628,
+        "f1": 0.022727
+      },
+      "component_failed_checks": {
+        "value": 1,
+        "Name": 2
+      },
+      "component_error_examples": [
+        {
+          "component_id": "C11",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 11.498
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 17.764
+        },
+        {
+          "component_id": "U3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 16.655
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U3\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U4\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U4\",\"pin_2\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 16,
+      "pred_power_symbols": 0,
+      "pred_nets": 1,
+      "gt_logical_nets": 11,
+      "internal_power_candidates": 16,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984",
+        "old_image_size": [
+          2186,
+          1110
+        ],
+        "old_scores": {
+          "component_stage": 0.339394,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.066667,
+          "pin_f1": 0.666667,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 18.666685
+        },
+        "old_pin_distance_summary": {
+          "count": 8,
+          "mean": 2.868821,
+          "median": 2.700755,
+          "p95": 5.298575,
+          "max": 5.425859
+        },
+        "new_pin_distance_summary": {
+          "count": 8,
+          "mean": 7.854397,
+          "median": 8.064761,
+          "p95": 9.40665,
+          "max": 9.511237
+        },
+        "old_component_counts": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 36,
+          "precision": 0.090909,
+          "recall": 0.052632,
+          "f1": 0.066667
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.011
+          },
+          {
+            "component_id": "C10",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.526
+          },
+          {
+            "component_id": "C11",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value"
+            ],
+            "bbox_max_coordinate_error_px": 14.306
+          },
+          {
+            "component_id": "C12",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.922
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 30.746
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 33.458
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 26.501
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.927
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.654
+          },
+          {
+            "component_id": "C7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 26.326
+          },
+          {
+            "component_id": "C8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 29.623
+          },
+          {
+            "component_id": "C9",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.747
+          },
+          {
+            "component_id": "LED1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.882
+          },
+          {
+            "component_id": "LED2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.991
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.221
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.678
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.334
+          },
+          {
+            "component_id": "R4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.493
+          },
+          {
+            "component_id": "U1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 17.759
+          },
+          {
+            "component_id": "U3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 16.645
+          },
+          {
+            "component_id": "∅122",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅126",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅135",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅139",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅148",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅157",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅161",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅180",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅214",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅218",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.04417120062219446,
+        "common_pin_position_changes_px": {
+          "R2.pin_1": 0.0015007114711585684,
+          "R2.pin_2": 0.0008936992165868195,
+          "R4.pin_1": 0.0009801412620592137,
+          "R4.pin_2": 0.0011206667497236707,
+          "U1.pin_3": 0.0005074704329639265,
+          "U2.pin_4": 9.877021671778297e-05,
+          "U2.pin_5": 0.0018404297032692076,
+          "U3.pin_2": 0.0008689216816446506,
+          "U3.pin_3": 0.04417120062219446,
+          "U4.pin_3": 0.002221139550138812,
+          "U4.pin_4": 0.000341451585839555,
+          "U4.pin_5": 0.0008679521151116038
+        },
+        "added_pin_ids": [
+          [
+            "R3",
+            "pin_1"
+          ],
+          [
+            "R3",
+            "pin_2"
+          ]
+        ],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "7",
+      "scores": {
+        "component_stage": 0.831169,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.809524,
+        "pin_f1": 0.857143,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 45.714295
+      },
+      "image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+      "image_size": [
+        2202,
+        1003
+      ],
+      "component_counts": {
+        "tp": 17,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.944444,
+        "recall": 0.708333,
+        "f1": 0.809524
+      },
+      "pin_counts": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.857143
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 68,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.3845
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 6,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 10,
+      "internal_power_candidates": 6,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+        "old_image_size": [
+          2202,
+          1003
+        ],
+        "old_scores": {
+          "component_stage": 0.415584,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.047619,
+          "pin_f1": 0.857143,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 22.857145
+        },
+        "old_pin_distance_summary": {
+          "count": 6,
+          "mean": 2.974752,
+          "median": 1.333473,
+          "p95": 7.553626,
+          "max": 8.086464
+        },
+        "new_pin_distance_summary": {
+          "count": 6,
+          "mean": 4.92694,
+          "median": 5.393569,
+          "p95": 7.398095,
+          "max": 7.489537
+        },
+        "old_component_counts": {
+          "tp": 1,
+          "fp": 17,
+          "fn": 23,
+          "precision": 0.055556,
+          "recall": 0.041667,
+          "f1": 0.047619
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 15.031
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.64
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 30.475
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.403
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.138
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.137
+          },
+          {
+            "component_id": "C7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.724
+          },
+          {
+            "component_id": "C8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 17.638
+          },
+          {
+            "component_id": "C9",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.623
+          },
+          {
+            "component_id": "D1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.19
+          },
+          {
+            "component_id": "L1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 29.6
+          },
+          {
+            "component_id": "LED1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.853
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.308
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.633
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.041
+          },
+          {
+            "component_id": "R4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 26.988
+          },
+          {
+            "component_id": "R5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.99
+          },
+          {
+            "component_id": "∅145",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅149",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅47",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅61",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅65",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅79",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.007129869601374497,
+        "common_pin_position_changes_px": {
+          "C5.pin_1": 0.007129869601374497,
+          "C5.pin_2": 0.001646433314945078,
+          "R3.pin_1": 0.0010521621262918742,
+          "R3.pin_2": 0.003618143566243194,
+          "R4.pin_1": 0.00028277025512801117,
+          "R4.pin_2": 0.0009453995891492371,
+          "U1.pin_1": 0.0011835533749687697,
+          "U1.pin_3": 0.000229417497404512,
+          "U1.pin_4": 0.0012150361886274948,
+          "U1.pin_5": 0.00025800917831134986,
+          "U1.pin_6": 0.0005798372087640933,
+          "U1.pin_8": 0.003038244010107165
+        },
+        "added_pin_ids": [
+          [
+            "L1",
+            "pin_1"
+          ],
+          [
+            "L1",
+            "pin_2"
+          ]
+        ],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "8",
+      "scores": {
+        "component_stage": 0.679179,
+        "wire_stage": 0.074074,
+        "connectivity_stage": 0.142857,
+        "component_f1": 0.645161,
+        "pin_f1": 0.72,
+        "wire_f1": 0.074074,
+        "connectivity_f1": 0.142857,
+        "final_score": 43.095565
+      },
+      "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+      "image_size": [
+        2229,
+        1192
+      ],
+      "component_counts": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 10,
+        "precision": 0.909091,
+        "recall": 0.5,
+        "f1": 0.645161
+      },
+      "pin_counts": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 7,
+        "precision": 1.0,
+        "recall": 0.5625,
+        "f1": 0.72
+      },
+      "wire_counts": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 48,
+        "precision": 0.5,
+        "recall": 0.04,
+        "f1": 0.074074
+      },
+      "component_failed_checks": {
+        "bbox": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 27.432
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_15\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_16\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_9\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 9,
+      "pred_power_symbols": 0,
+      "pred_nets": 1,
+      "gt_logical_nets": 13,
+      "internal_power_candidates": 9,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+        "old_image_size": [
+          2229,
+          1192
+        ],
+        "old_scores": {
+          "component_stage": 0.327273,
+          "wire_stage": 0.066667,
+          "connectivity_stage": 0.142857,
+          "component_f1": 0.0,
+          "pin_f1": 0.72,
+          "wire_f1": 0.066667,
+          "connectivity_f1": 0.142857,
+          "final_score": 23.666665
+        },
+        "old_pin_distance_summary": {
+          "count": 9,
+          "mean": 6.211279,
+          "median": 0.0,
+          "p95": 11.144018,
+          "max": 11.576955
+        },
+        "new_pin_distance_summary": {
+          "count": 9,
+          "mean": 7.692102,
+          "median": 0.0,
+          "p95": 10.156609,
+          "max": 10.591785
+        },
+        "old_component_counts": {
+          "tp": 0,
+          "fp": 11,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.448
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.937
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.189
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.908
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 13.268
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.408
+          },
+          {
+            "component_id": "C7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 11.862
+          },
+          {
+            "component_id": "C8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.491
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 20.408
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.27
+          },
+          {
+            "component_id": "U1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 26.407
+          },
+          {
+            "component_id": "∅120",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅129",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅137",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅141",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅65",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅69",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅78",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅92",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅96",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.015305581662029197,
+        "common_pin_position_changes_px": {
+          "C2.pin_1": 0.002672187685004654,
+          "C2.pin_2": 0.00014757309974976023,
+          "C4.pin_1": 0.003155190463309487,
+          "C4.pin_2": 0.0028047136098163384,
+          "C5.pin_1": 0.015305581662029197,
+          "C5.pin_2": 0.009827309169036786,
+          "R1.pin_1": 0.0021403054378319867,
+          "R1.pin_2": 0.004299023344296205,
+          "U1.pin_10": 0.002879271321287332,
+          "U1.pin_11": 0.0004902703045644071,
+          "U1.pin_12": 0.0019264014540422718,
+          "U1.pin_13": 0.013568474682403837,
+          "U1.pin_14": 0.004511690925362297,
+          "U1.pin_3": 0.00019723717743492695,
+          "U1.pin_4": 0.0005433385892272049,
+          "U1.pin_5": 0.005241412687524021,
+          "U1.pin_8": 0.007340961125205845
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "9",
+      "scores": {
+        "component_stage": 0.323233,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.592593,
+        "pin_f1": 0.0,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 17.77779
+      },
+      "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+      "image_size": [
+        2222,
+        1199
+      ],
+      "component_counts": {
+        "tp": 8,
+        "fp": 2,
+        "fn": 9,
+        "precision": 0.8,
+        "recall": 0.470588,
+        "f1": 0.592593
+      },
+      "pin_counts": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 39,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 1,
+        "bbox": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.3365
+        },
+        {
+          "component_id": "U2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 24.361
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 20.644814
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_3\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 28.30609
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_4\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 29.996755
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_5\"]",
+          "component_id": "U2",
+          "failed_checks": [
+            "tip_position"
+          ],
+          "tip_distance_px": 29.262636
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_6\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 7,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 6,
+      "internal_power_candidates": 7,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+        "old_image_size": [
+          2222,
+          1199
+        ],
+        "old_scores": {
+          "component_stage": 0.363636,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.0,
+          "pin_f1": 0.8,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 20.0
+        },
+        "old_pin_distance_summary": {
+          "count": 4,
+          "mean": 2.999518,
+          "median": 1.439828,
+          "p95": 7.396691,
+          "max": 8.384044
+        },
+        "new_pin_distance_summary": {
+          "count": 4,
+          "mean": 27.052574,
+          "median": 28.784363,
+          "p95": 29.886637,
+          "max": 29.996755
+        },
+        "old_component_counts": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 17,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 15.132
+          },
+          {
+            "component_id": "C2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.151
+          },
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.702
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 12.281
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.647
+          },
+          {
+            "component_id": "L1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 29.197
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.117
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.318
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.821
+          },
+          {
+            "component_id": "U2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.367
+          },
+          {
+            "component_id": "∅102",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅112",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅44",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅59",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅69",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅93",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅97",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.011099073027885719,
+        "common_pin_position_changes_px": {
+          "R2.pin_1": 0.0010053950175320735,
+          "R2.pin_2": 0.011099073027885719,
+          "U2.pin_2": 0.0018618168057108915,
+          "U2.pin_3": 0.0030593734016235268,
+          "U2.pin_4": 0.0014868607777577163,
+          "U2.pin_5": 0.0010168986152100732
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "10",
+      "scores": {
+        "component_stage": 0.650278,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.77551,
+        "pin_f1": 0.5,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 35.7653
+      },
+      "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+      "image_size": [
+        2200,
+        1017
+      ],
+      "component_counts": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 10,
+        "precision": 0.95,
+        "recall": 0.655172,
+        "f1": 0.77551
+      },
+      "pin_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.333333,
+        "f1": 0.5
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 82,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 18.317
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_9\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U2\",\"pin_3\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 9,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 8,
+      "internal_power_candidates": 9,
+      "comparison": {
+        "same_input_image_sha256": true,
+        "old_image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+        "old_image_size": [
+          2200,
+          1017
+        ],
+        "old_scores": {
+          "component_stage": 0.294063,
+          "wire_stage": 0.0,
+          "connectivity_stage": 0.0,
+          "component_f1": 0.122449,
+          "pin_f1": 0.5,
+          "wire_f1": 0.0,
+          "connectivity_f1": 0.0,
+          "final_score": 16.17347
+        },
+        "old_pin_distance_summary": {
+          "count": 4,
+          "mean": 1.625002,
+          "median": 1.407847,
+          "p95": 2.782737,
+          "max": 2.917607
+        },
+        "new_pin_distance_summary": {
+          "count": 4,
+          "mean": 8.18465,
+          "median": 8.402405,
+          "p95": 8.867992,
+          "max": 8.9162
+        },
+        "old_component_counts": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 26,
+          "precision": 0.15,
+          "recall": 0.103448,
+          "f1": 0.122449
+        },
+        "old_component_errors": [
+          {
+            "component_id": "C3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.114
+          },
+          {
+            "component_id": "C4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.357
+          },
+          {
+            "component_id": "C5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name"
+            ],
+            "bbox_max_coordinate_error_px": 14.802
+          },
+          {
+            "component_id": "C6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.709
+          },
+          {
+            "component_id": "C7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.306
+          },
+          {
+            "component_id": "C8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.111
+          },
+          {
+            "component_id": "C9",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.447
+          },
+          {
+            "component_id": "L1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "value",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 28.015
+          },
+          {
+            "component_id": "LED1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.071
+          },
+          {
+            "component_id": "R1",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 21.802
+          },
+          {
+            "component_id": "R2",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.494
+          },
+          {
+            "component_id": "R3",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.645
+          },
+          {
+            "component_id": "R4",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.545
+          },
+          {
+            "component_id": "R5",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 25.265
+          },
+          {
+            "component_id": "R6",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 22.897
+          },
+          {
+            "component_id": "R7",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 24.225
+          },
+          {
+            "component_id": "R8",
+            "error": "attribute_or_position_mismatch",
+            "failed_checks": [
+              "Name",
+              "bbox"
+            ],
+            "bbox_max_coordinate_error_px": 23.313
+          },
+          {
+            "component_id": "∅100",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅109",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅129",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅133",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅174",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅178",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅182",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅87",
+            "error": "missing"
+          },
+          {
+            "component_id": "∅96",
+            "error": "missing"
+          }
+        ],
+        "max_common_pin_position_change_px": 0.0033282767596425843,
+        "common_pin_position_changes_px": {
+          "C5.pin_1": 0.0033282767596425843,
+          "C5.pin_2": 0.0011529984850671433,
+          "R1.pin_1": 0.0005959679360016031,
+          "R1.pin_2": 0.000577294471206464,
+          "R6.pin_1": 0.0014422139776434802,
+          "R6.pin_2": 0.0006479152169442517,
+          "U1.pin_3": 0.0007999293004387896,
+          "U1.pin_5": 0.0019633719850347823,
+          "U1.pin_6": 0.0005893448448236367,
+          "U1.pin_8": 0.000593567650751531
+        },
+        "added_pin_ids": [],
+        "removed_pin_ids": [],
+        "pin_name_changes": []
+      }
+    },
+    {
+      "case": "11",
+      "scores": {
+        "component_stage": 0.326369,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.380952,
+        "pin_f1": 0.26087,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 17.95031
+      },
+      "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+      "image_size": [
+        1469,
+        770
+      ],
+      "component_counts": {
+        "tp": 4,
+        "fp": 2,
+        "fn": 11,
+        "precision": 0.666667,
+        "recall": 0.266667,
+        "f1": 0.380952
+      },
+      "pin_counts": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 17,
+        "precision": 1.0,
+        "recall": 0.15,
+        "f1": 0.26087
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "bbox": 1,
+        "Name": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "LED1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.568
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 11.32
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_A12\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_A5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_A9\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_B12\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_B5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB1\",\"pin_B9\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"USB2\",\"pin_5\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 5,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 10,
+      "internal_power_candidates": 4
+    },
+    {
+      "case": "12",
+      "scores": {
+        "component_stage": 0.181818,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.333333,
+        "pin_f1": 0.0,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 9.99999
+      },
+      "image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb",
+      "image_size": [
+        1658,
+        752
+      ],
+      "component_counts": {
+        "tp": 5,
+        "fp": 4,
+        "fn": 16,
+        "precision": 0.555556,
+        "recall": 0.238095,
+        "f1": 0.333333
+      },
+      "pin_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "value": 3,
+        "bbox": 1,
+        "Name": 1
+      },
+      "component_error_examples": [
+        {
+          "component_id": "C2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 19.491
+        },
+        {
+          "component_id": "C3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 18.036
+        },
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 29.8795
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 19.729
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_8\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_9\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 6,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 12,
+      "internal_power_candidates": 6
+    },
+    {
+      "case": "13",
+      "scores": {
+        "component_stage": 0.337662,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.285714,
+        "pin_f1": 0.4,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 18.57142
+      },
+      "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+      "image_size": [
+        1370,
+        797
+      ],
+      "component_counts": {
+        "tp": 5,
+        "fp": 10,
+        "fn": 15,
+        "precision": 0.333333,
+        "recall": 0.25,
+        "f1": 0.285714
+      },
+      "pin_counts": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 9,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "wire_counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 49,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "component_failed_checks": {
+        "bbox": 9
+      },
+      "component_error_examples": [
+        {
+          "component_id": "C1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.352
+        },
+        {
+          "component_id": "C5",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.1575
+        },
+        {
+          "component_id": "C6",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.5255
+        },
+        {
+          "component_id": "C8",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.033
+        },
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 34.121
+        },
+        {
+          "component_id": "R2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.979
+        },
+        {
+          "component_id": "R3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 21.993
+        },
+        {
+          "component_id": "R4",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 22.7815
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 22.067
+        }
+      ],
+      "pin_error_examples": [
+        {
+          "pin_id": "[\"H1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"H1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"H1\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_9\"]",
+          "error": "missing"
+        }
+      ],
+      "gt_power_symbols": 4,
+      "pred_power_symbols": 0,
+      "pred_nets": 0,
+      "gt_logical_nets": 10,
+      "internal_power_candidates": 3
+    }
+  ],
+  "submission_id": 8422,
+  "user_supplied_ingestion_log_confirmation": {
+    "loaded_image": "pcb-parser:local-cuda-28da9146",
+    "gpu_setting": "0",
+    "participant_actual_device": "cpu",
+    "participant_workers": 1,
+    "participant_elapsed_seconds": 927,
+    "cases_scored": 13,
+    "cases_skipped": 0,
+    "evaluation_completed_successfully": true,
+    "nested_participant_full_command_or_cuda_diagnostics_present": false
+  },
+  "local_image_env_inspection": {
+    "PCB_DEVICE": "auto",
+    "NVIDIA_VISIBLE_DEVICES": "all",
+    "NVIDIA_DRIVER_CAPABILITIES": "compute,utility",
+    "conclusion": "CPU smoke-test setting was not baked into default image environment; actual platform launch parameters and GPU availability unknown."
+  },
+  "pin_id_counts": {
+    "tp": 66,
+    "fp": 0,
+    "fn": 125
+  },
+  "pin_failed_checks": {
+    "tip_position": 10,
+    "pin_name": 1,
+    "overlap": 1
+  }
+}

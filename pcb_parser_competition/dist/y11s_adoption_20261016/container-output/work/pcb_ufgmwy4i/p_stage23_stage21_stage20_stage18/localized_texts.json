@@ -1,0 +1,1052 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "5d2999f6078fae0fc12c1ac4c019f2690bb0625855f27555bfabd32b49282187",
+  "input_graph_sha256": "1341ea29843382c3a6273408ba6ebdf47ebe0eca65648d1af09019fe7841e3da",
+  "input_records_sha256": "26ec0eabbf894c0c7e3516fab7c8410b4f890c588fd597d64bf3a5cda22e76f4",
+  "targeted_OCR_config_sha256": "5dbaf5fbcf7bb56836fb751c08103acc06aa5740b9d969f861887cac1c3d3df7",
+  "OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "prediction_only": true,
+  "texts": [
+    {
+      "text": "LE01",
+      "confidence": 0.99266,
+      "bbox": [
+        522.0,
+        138.0,
+        540.0,
+        147.5
+      ],
+      "polygon": [
+        [
+          522.0,
+          138.0
+        ],
+        [
+          540.0,
+          138.0
+        ],
+        [
+          540.0,
+          147.5
+        ],
+        [
+          522.0,
+          147.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00001"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.99572,
+      "bbox": [
+        522.5,
+        147.5,
+        540.5,
+        156.5
+      ],
+      "polygon": [
+        [
+          522.5,
+          147.5
+        ],
+        [
+          540.5,
+          147.5
+        ],
+        [
+          540.5,
+          156.5
+        ],
+        [
+          522.5,
+          156.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00002"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.87822,
+      "bbox": [
+        564.0,
+        147.0,
+        579.0,
+        156.5
+      ],
+      "polygon": [
+        [
+          564.0,
+          147.0
+        ],
+        [
+          579.0,
+          147.0
+        ],
+        [
+          579.0,
+          156.5
+        ],
+        [
+          564.0,
+          156.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00003"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.99198,
+      "bbox": [
+        522.0,
+        156.0,
+        540.5,
+        165.5
+      ],
+      "polygon": [
+        [
+          522.0,
+          156.0
+        ],
+        [
+          540.5,
+          156.0
+        ],
+        [
+          540.5,
+          165.5
+        ],
+        [
+          522.0,
+          165.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00004"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.97035,
+      "bbox": [
+        563.0,
+        156.0,
+        579.0,
+        165.5
+      ],
+      "polygon": [
+        [
+          563.0,
+          156.0
+        ],
+        [
+          579.0,
+          156.0
+        ],
+        [
+          579.0,
+          165.5
+        ],
+        [
+          563.0,
+          165.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00005"
+    },
+    {
+      "text": "LE01",
+      "confidence": 0.99195,
+      "bbox": [
+        521.0,
+        138.33333333333334,
+        540.6666666666666,
+        147.33333333333334
+      ],
+      "polygon": [
+        [
+          521.0,
+          138.33333333333334
+        ],
+        [
+          540.6666666666666,
+          138.33333333333334
+        ],
+        [
+          540.6666666666666,
+          147.33333333333334
+        ],
+        [
+          521.0,
+          147.33333333333334
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00006"
+    },
+    {
+      "text": "SW",
+      "confidence": 0.85308,
+      "bbox": [
+        565.3333333333334,
+        138.0,
+        579.3333333333334,
+        147.33333333333334
+      ],
+      "polygon": [
+        [
+          565.3333333333334,
+          138.0
+        ],
+        [
+          579.3333333333334,
+          138.0
+        ],
+        [
+          579.3333333333334,
+          147.33333333333334
+        ],
+        [
+          565.3333333333334,
+          147.33333333333334
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00007"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.99143,
+      "bbox": [
+        520.6666666666666,
+        147.0,
+        541.6666666666666,
+        156.66666666666666
+      ],
+      "polygon": [
+        [
+          520.6666666666666,
+          147.0
+        ],
+        [
+          541.6666666666666,
+          147.0
+        ],
+        [
+          541.6666666666666,
+          156.66666666666666
+        ],
+        [
+          520.6666666666666,
+          156.66666666666666
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00008"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.93456,
+      "bbox": [
+        563.0,
+        146.66666666666666,
+        579.3333333333334,
+        157.0
+      ],
+      "polygon": [
+        [
+          563.0,
+          146.66666666666666
+        ],
+        [
+          579.3333333333334,
+          146.66666666666666
+        ],
+        [
+          579.3333333333334,
+          157.0
+        ],
+        [
+          563.0,
+          157.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00009"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.97991,
+      "bbox": [
+        520.3333333333334,
+        155.66666666666666,
+        541.3333333333334,
+        166.0
+      ],
+      "polygon": [
+        [
+          520.3333333333334,
+          155.66666666666666
+        ],
+        [
+          541.3333333333334,
+          155.66666666666666
+        ],
+        [
+          541.3333333333334,
+          166.0
+        ],
+        [
+          520.3333333333334,
+          166.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00010"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.99421,
+      "bbox": [
+        562.6666666666666,
+        156.0,
+        579.3333333333334,
+        165.66666666666666
+      ],
+      "polygon": [
+        [
+          562.6666666666666,
+          156.0
+        ],
+        [
+          579.3333333333334,
+          156.0
+        ],
+        [
+          579.3333333333334,
+          165.66666666666666
+        ],
+        [
+          562.6666666666666,
+          165.66666666666666
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00011"
+    },
+    {
+      "text": "LE01",
+      "confidence": 0.99133,
+      "bbox": [
+        521.25,
+        138.5,
+        539.75,
+        146.75
+      ],
+      "polygon": [
+        [
+          521.25,
+          138.5
+        ],
+        [
+          539.75,
+          138.5
+        ],
+        [
+          539.75,
+          146.75
+        ],
+        [
+          521.25,
+          146.75
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00012"
+    },
+    {
+      "text": "SW",
+      "confidence": 0.86689,
+      "bbox": [
+        565.75,
+        138.25,
+        579.25,
+        147.25
+      ],
+      "polygon": [
+        [
+          565.75,
+          138.25
+        ],
+        [
+          579.25,
+          138.25
+        ],
+        [
+          579.25,
+          147.25
+        ],
+        [
+          565.75,
+          147.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00013"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.98658,
+      "bbox": [
+        520.75,
+        147.25,
+        541.0,
+        156.25
+      ],
+      "polygon": [
+        [
+          520.75,
+          147.25
+        ],
+        [
+          541.0,
+          147.25
+        ],
+        [
+          541.0,
+          156.25
+        ],
+        [
+          520.75,
+          156.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00014"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.96811,
+      "bbox": [
+        563.5,
+        147.0,
+        579.0,
+        156.5
+      ],
+      "polygon": [
+        [
+          563.5,
+          147.0
+        ],
+        [
+          579.0,
+          147.0
+        ],
+        [
+          579.0,
+          156.5
+        ],
+        [
+          563.5,
+          156.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00015"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.97738,
+      "bbox": [
+        520.75,
+        156.25,
+        541.0,
+        165.25
+      ],
+      "polygon": [
+        [
+          520.75,
+          156.25
+        ],
+        [
+          541.0,
+          156.25
+        ],
+        [
+          541.0,
+          165.25
+        ],
+        [
+          520.75,
+          165.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00016"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.99523,
+      "bbox": [
+        563.25,
+        156.5,
+        579.0,
+        165.25
+      ],
+      "polygon": [
+        [
+          563.25,
+          156.5
+        ],
+        [
+          579.0,
+          156.5
+        ],
+        [
+          579.0,
+          165.25
+        ],
+        [
+          563.25,
+          165.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r0",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00017"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.97009,
+      "bbox": [
+        521.5,
+        154.5,
+        541.0,
+        165.5
+      ],
+      "polygon": [
+        [
+          521.5,
+          165.5
+        ],
+        [
+          521.5,
+          154.5
+        ],
+        [
+          541.0,
+          154.5
+        ],
+        [
+          541.0,
+          165.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00018"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.99134,
+      "bbox": [
+        521.5,
+        146.5,
+        540.5,
+        156.0
+      ],
+      "polygon": [
+        [
+          521.5,
+          156.0
+        ],
+        [
+          521.5,
+          146.5
+        ],
+        [
+          540.5,
+          146.5
+        ],
+        [
+          540.5,
+          156.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00019"
+    },
+    {
+      "text": "LE01",
+      "confidence": 0.9893,
+      "bbox": [
+        521.5,
+        136.5,
+        540.5,
+        148.0
+      ],
+      "polygon": [
+        [
+          521.5,
+          148.0
+        ],
+        [
+          521.5,
+          136.5
+        ],
+        [
+          540.5,
+          136.5
+        ],
+        [
+          540.5,
+          148.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00020"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.96538,
+      "bbox": [
+        563.0,
+        155.0,
+        578.5,
+        164.5
+      ],
+      "polygon": [
+        [
+          563.0,
+          164.5
+        ],
+        [
+          563.0,
+          155.0
+        ],
+        [
+          578.5,
+          155.0
+        ],
+        [
+          578.5,
+          164.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00021"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.85964,
+      "bbox": [
+        563.5,
+        146.0,
+        578.5,
+        156.0
+      ],
+      "polygon": [
+        [
+          563.5,
+          156.0
+        ],
+        [
+          563.5,
+          146.0
+        ],
+        [
+          578.5,
+          146.0
+        ],
+        [
+          578.5,
+          156.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s2.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00022"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.98214,
+      "bbox": [
+        522.0,
+        154.66666666666666,
+        541.3333333333334,
+        165.0
+      ],
+      "polygon": [
+        [
+          522.0,
+          165.0
+        ],
+        [
+          522.0,
+          154.66666666666666
+        ],
+        [
+          541.3333333333334,
+          154.66666666666666
+        ],
+        [
+          541.3333333333334,
+          165.0
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00023"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.9899,
+      "bbox": [
+        521.6666666666666,
+        146.33333333333334,
+        540.6666666666666,
+        155.66666666666666
+      ],
+      "polygon": [
+        [
+          521.6666666666666,
+          155.66666666666666
+        ],
+        [
+          521.6666666666666,
+          146.33333333333334
+        ],
+        [
+          540.6666666666666,
+          146.33333333333334
+        ],
+        [
+          540.6666666666666,
+          155.66666666666666
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00024"
+    },
+    {
+      "text": "LE01",
+      "confidence": 0.99478,
+      "bbox": [
+        522.0,
+        137.33333333333334,
+        540.0,
+        146.33333333333334
+      ],
+      "polygon": [
+        [
+          522.0,
+          146.33333333333334
+        ],
+        [
+          522.0,
+          137.33333333333334
+        ],
+        [
+          540.0,
+          137.33333333333334
+        ],
+        [
+          540.0,
+          146.33333333333334
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00025"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.99641,
+      "bbox": [
+        564.0,
+        156.0,
+        579.3333333333334,
+        164.33333333333334
+      ],
+      "polygon": [
+        [
+          564.0,
+          164.33333333333334
+        ],
+        [
+          564.0,
+          156.0
+        ],
+        [
+          579.3333333333334,
+          156.0
+        ],
+        [
+          579.3333333333334,
+          164.33333333333334
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00026"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.95029,
+      "bbox": [
+        564.3333333333334,
+        146.33333333333334,
+        578.3333333333334,
+        154.66666666666666
+      ],
+      "polygon": [
+        [
+          564.3333333333334,
+          154.66666666666666
+        ],
+        [
+          564.3333333333334,
+          146.33333333333334
+        ],
+        [
+          578.3333333333334,
+          146.33333333333334
+        ],
+        [
+          578.3333333333334,
+          154.66666666666666
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00027"
+    },
+    {
+      "text": "SW",
+      "confidence": 0.85304,
+      "bbox": [
+        565.6666666666666,
+        137.66666666666666,
+        578.6666666666666,
+        146.33333333333334
+      ],
+      "polygon": [
+        [
+          565.6666666666666,
+          146.33333333333334
+        ],
+        [
+          565.6666666666666,
+          137.66666666666666
+        ],
+        [
+          578.6666666666666,
+          137.66666666666666
+        ],
+        [
+          578.6666666666666,
+          146.33333333333334
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s3.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00028"
+    },
+    {
+      "text": "LEOS",
+      "confidence": 0.96872,
+      "bbox": [
+        522.0,
+        155.25,
+        540.75,
+        164.5
+      ],
+      "polygon": [
+        [
+          522.0,
+          164.5
+        ],
+        [
+          522.0,
+          155.25
+        ],
+        [
+          540.75,
+          155.25
+        ],
+        [
+          540.75,
+          164.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00029"
+    },
+    {
+      "text": "LE02",
+      "confidence": 0.99159,
+      "bbox": [
+        522.0,
+        146.75,
+        540.25,
+        155.25
+      ],
+      "polygon": [
+        [
+          522.0,
+          155.25
+        ],
+        [
+          522.0,
+          146.75
+        ],
+        [
+          540.25,
+          146.75
+        ],
+        [
+          540.25,
+          155.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00030"
+    },
+    {
+      "text": "LE01",
+      "confidence": 0.99661,
+      "bbox": [
+        521.5,
+        137.25,
+        540.25,
+        147.25
+      ],
+      "polygon": [
+        [
+          521.75,
+          147.25
+        ],
+        [
+          521.5,
+          138.0
+        ],
+        [
+          539.75,
+          137.25
+        ],
+        [
+          540.25,
+          146.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00031"
+    },
+    {
+      "text": "KEY",
+      "confidence": 0.99096,
+      "bbox": [
+        563.75,
+        155.75,
+        579.0,
+        164.5
+      ],
+      "polygon": [
+        [
+          563.75,
+          164.5
+        ],
+        [
+          563.75,
+          155.75
+        ],
+        [
+          579.0,
+          155.75
+        ],
+        [
+          579.0,
+          164.5
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00032"
+    },
+    {
+      "text": "BAI",
+      "confidence": 0.96555,
+      "bbox": [
+        564.25,
+        146.5,
+        578.25,
+        155.25
+      ],
+      "polygon": [
+        [
+          564.25,
+          155.25
+        ],
+        [
+          564.25,
+          146.5
+        ],
+        [
+          578.25,
+          146.5
+        ],
+        [
+          578.25,
+          155.25
+        ]
+      ],
+      "view": "missing_pin_PIN_CAND_0030_s4.0_r90",
+      "target_candidate_id": "PIN_CAND_0030",
+      "text_id": "TARGET_PIN_TEXT_00033"
+    }
+  ]
+}

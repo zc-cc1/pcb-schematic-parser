@@ -1,0 +1,195 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    1005,
+    660
+  ],
+  "entries": [
+    {
+      "component_id": "U12",
+      "before_bbox_bottom_left": [
+        555.106,
+        173.154,
+        631.794,
+        216.88
+      ],
+      "after_bbox_bottom_left": [
+        563.0,
+        178.0,
+        623.0,
+        212.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          535,
+          432,
+          651,
+          498
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 3,
+          "bottom": 3
+        },
+        "best": {
+          "bbox_top_left": [
+            563.0,
+            448.0,
+            623.0,
+            482.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.988646162033616
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U22",
+      "before_bbox_bottom_left": [
+        512.058,
+        491.187,
+        588.704,
+        548.581
+      ],
+      "after_bbox_bottom_left": [
+        520.0,
+        493.0,
+        580.0,
+        545.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          492,
+          97,
+          608,
+          184
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 3,
+          "top": 1,
+          "bottom": 4
+        },
+        "best": {
+          "bbox_top_left": [
+            520.0,
+            115.0,
+            580.0,
+            167.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9912498687790215
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U21",
+      "before_bbox_bottom_left": [
+        140.258,
+        132.49300000000005,
+        209.156,
+        190.365
+      ],
+      "after_bbox_bottom_left": [
+        149.0,
+        135.0,
+        201.0,
+        187.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          123,
+          455,
+          227,
+          542
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 2,
+          "top": 2,
+          "bottom": 5
+        },
+        "best": {
+          "bbox_top_left": [
+            149.0,
+            473.0,
+            201.0,
+            525.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9908190716521413
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U9",
+      "before_bbox_bottom_left": [
+        774.488,
+        95.32100000000003,
+        807.432,
+        126.60500000000002
+      ],
+      "after_bbox_bottom_left": [
+        774.488,
+        95.32100000000003,
+        807.432,
+        126.60500000000002
+      ],
+      "changed": false,
+      "evidence": {
+        "reason": "symbol_too_small_for_four_side_evidence"
+      }
+    },
+    {
+      "component_id": "U16",
+      "before_bbox_bottom_left": [
+        401.575,
+        110.74099999999999,
+        431.865,
+        143.24199999999996
+      ],
+      "after_bbox_bottom_left": [
+        401.575,
+        110.74099999999999,
+        431.865,
+        143.24199999999996
+      ],
+      "changed": false,
+      "evidence": {
+        "reason": "symbol_too_small_for_four_side_evidence"
+      }
+    }
+  ],
+  "changed_IC_boxes": 3,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "wall_seconds": 0.017
+}

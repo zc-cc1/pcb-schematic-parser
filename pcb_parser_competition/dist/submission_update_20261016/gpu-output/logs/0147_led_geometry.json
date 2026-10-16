@@ -1,0 +1,412 @@
+{
+  "policy": "led_image_lead_axis_local_consensus_v1",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "mixed_explicit_field_names",
+  "entries": [
+    {
+      "component_id": "LED1",
+      "raw_bbox_bottom_left": [
+        603.314,
+        28.267000000000053,
+        631.929,
+        53.28800000000001
+      ],
+      "before_bbox_bottom_left": [
+        607.6215,
+        33.77750000000003,
+        627.6215,
+        47.77750000000003
+      ],
+      "after_bbox_bottom_left": [
+        607.6215,
+        33.77750000000003,
+        627.6215,
+        47.77750000000003
+      ],
+      "axis_evidence": {
+        "axis": "horizontal",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 1.0,
+        "vertical_support": 0.1,
+        "roi_top_left": [
+          584,
+          590,
+          651,
+          648
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              426,
+              276,
+              810,
+              660
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  603.0484924316406,
+                  606.9181518554688,
+                  631.7830200195312,
+                  632.8609008789062
+                ],
+                "confidence": 0.9840307235717773,
+                "distance_from_original_px": 0.698036299366679
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              298,
+              20,
+              938,
+              660
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  604.7987670898438,
+                  607.4974365234375,
+                  631.8497314453125,
+                  632.8399658203125
+                ],
+                "confidence": 0.972979724407196,
+                "distance_from_original_px": 1.1786234304218282
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 0.9504200013260045,
+        "shift_px": 0.8425201088112496
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    },
+    {
+      "component_id": "LED5",
+      "raw_bbox_bottom_left": [
+        431.183,
+        433.791,
+        455.763,
+        458.601
+      ],
+      "before_bbox_bottom_left": [
+        436.47299999999996,
+        436.196,
+        450.47299999999996,
+        456.196
+      ],
+      "after_bbox_bottom_left": [
+        436.47299999999996,
+        436.196,
+        450.47299999999996,
+        456.196
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 1.0,
+        "roi_top_left": [
+          415,
+          185,
+          472,
+          243
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              251,
+              22,
+              635,
+              406
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  430.7600402832031,
+                  201.73834228515625,
+                  455.6749572753906,
+                  226.5169219970703
+                ],
+                "confidence": 0.9559428691864014,
+                "distance_from_original_px": 0.41233316206961834
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              123,
+              0,
+              763,
+              640
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  430.98065185546875,
+                  200.734375,
+                  454.97296142578125,
+                  226.27685546875
+                ],
+                "confidence": 0.8950124382972717,
+                "distance_from_original_px": 0.5790002748228121
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 0.6669615715217038,
+        "shift_px": 0.3725877358886557
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    },
+    {
+      "component_id": "LED3",
+      "raw_bbox_bottom_left": [
+        357.473,
+        434.101,
+        382.311,
+        459.5
+      ],
+      "before_bbox_bottom_left": [
+        362.892,
+        436.8005,
+        376.892,
+        456.8005
+      ],
+      "after_bbox_bottom_left": [
+        362.892,
+        436.8005,
+        376.892,
+        456.8005
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 1.0,
+        "roi_top_left": [
+          341,
+          183,
+          399,
+          243
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              178,
+              21,
+              562,
+              405
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  357.2207794189453,
+                  200.31431579589844,
+                  382.6563720703125,
+                  226.7490997314453
+                ],
+                "confidence": 0.9746778607368469,
+                "distance_from_original_px": 0.3354568500293376
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              50,
+              0,
+              690,
+              640
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  357.4146728515625,
+                  200.38446044921875,
+                  381.873779296875,
+                  226.24557495117188
+                ],
+                "confidence": 0.9239276647567749,
+                "distance_from_original_px": 0.27337932869085835
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 0.3655082927650812,
+        "shift_px": 0.24650293917546987
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    },
+    {
+      "component_id": "LED4",
+      "raw_bbox_bottom_left": [
+        458.922,
+        439.248,
+        484.464,
+        466.161
+      ],
+      "before_bbox_bottom_left": [
+        464.693,
+        442.7045,
+        478.693,
+        462.7045
+      ],
+      "after_bbox_bottom_left": [
+        464.693,
+        442.7045,
+        478.693,
+        462.7045
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 1.0,
+        "roi_top_left": [
+          442,
+          176,
+          502,
+          239
+        ]
+      },
+      "local_detection": {
+        "reason": "local_detection_not_supported",
+        "views": [
+          {
+            "roi_top_left": [
+              280,
+              15,
+              664,
+              399
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  459.1690979003906,
+                  194.14450073242188,
+                  484.6813201904297,
+                  218.3790283203125
+                ],
+                "confidence": 0.8737511038780212,
+                "distance_from_original_px": 1.059495195938692
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              152,
+              0,
+              792,
+              640
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    },
+    {
+      "component_id": "LED2",
+      "raw_bbox_bottom_left": [
+        385.417,
+        439.31399999999996,
+        411.754,
+        466.35
+      ],
+      "before_bbox_bottom_left": [
+        391.5855,
+        442.832,
+        405.5855,
+        462.832
+      ],
+      "after_bbox_bottom_left": [
+        391.5855,
+        442.832,
+        405.5855,
+        462.832
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 0.9545,
+        "roi_top_left": [
+          368,
+          176,
+          429,
+          239
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              207,
+              15,
+              591,
+              399
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  385.9576416015625,
+                  193.84364318847656,
+                  411.61961364746094,
+                  219.41275024414062
+                ],
+                "confidence": 0.8269720673561096,
+                "distance_from_original_px": 0.5767568091698576
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              79,
+              0,
+              719,
+              640
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  386.9425048828125,
+                  194.950927734375,
+                  411.42333984375,
+                  222.430419921875
+                ],
+                "confidence": 0.81733638048172,
+                "distance_from_original_px": 1.6356800014077775
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 2.0998286067648184,
+        "shift_px": 0.6284123782234396
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    }
+  ],
+  "changed_LED_boxes": 0,
+  "changed_LED_centers": 0,
+  "input_contract": "current image and model predictions only; no references or reported errors",
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "wall_seconds": 0.282
+}

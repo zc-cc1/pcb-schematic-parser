@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第5天：异常处理</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>ImageNames := ['fabrik', 'missing_image_for_training', 'clip']</l>
+<l>SuccessCount := 0</l>
+<l>FailureCount := 0</l>
+<l>dev_open_window (0, 0, 640, 480, 'black', WindowHandle)</l>
+<l>for ImageIndex := 0 to |ImageNames| - 1 by 1</l>
+<l>    try</l>
+<l>        read_image (Image, ImageNames[ImageIndex])</l>
+<l>        get_image_size (Image, Width, Height)</l>
+<l>        dev_set_part (0, 0, Height - 1, Width - 1)</l>
+<l>        dev_display (Image)</l>
+<l>        SuccessCount := SuccessCount + 1</l>
+<l>        InfoText := ['读取成功：' + ImageNames[ImageIndex], '成功：' + SuccessCount, '失败：' + FailureCount]</l>
+<l>        disp_text (WindowHandle, InfoText, 'window', 12, 12, 'green', ['box'], ['true'])</l>
+<l>    catch (Exception)</l>
+<l>        dev_get_exception_data (Exception, 'error_code', ErrorCode)</l>
+<l>        dev_get_exception_data (Exception, 'error_msg', ErrorMessage)</l>
+<l>        FailureCount := FailureCount + 1</l>
+<l>        InfoText := ['读取失败：' + ImageNames[ImageIndex], '错误码：' + ErrorCode, ErrorMessage, '程序将继续处理下一张图片']</l>
+<l>        disp_text (WindowHandle, InfoText, 'window', 12, 12, 'red', ['box'], ['true'])</l>
+<l>    endtry</l>
+<l>    stop ()</l>
+<l>endfor</l>
+<l>dev_clear_window ()</l>
+<l>disp_text (WindowHandle, ['批处理完成', '成功：' + SuccessCount, '失败：' + FailureCount], 'window', 40, 40, 'white', ['box'], ['true'])</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

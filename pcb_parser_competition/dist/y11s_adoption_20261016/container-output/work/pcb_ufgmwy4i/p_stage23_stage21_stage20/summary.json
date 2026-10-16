@@ -1,0 +1,72 @@
+{
+  "image_sha256": "83d6e39fce4adbcbdd502c42e3b96a775bf1fc47cba8a4b6f4403caada9dcc80",
+  "size": [
+    1005,
+    660
+  ],
+  "coordinate_origin": "top_left",
+  "input_pin_sha256": "5c2b284c2d535a41567b2e591f9a0db2f56e54e6fd171f4a749586023c72e407",
+  "input_graph_sha256": "544e9e2881f9cda84039852311fabdfea203e5eb51e868577c5bd5917f37af98",
+  "input_records_sha256": "26ec0eabbf894c0c7e3516fab7c8410b4f890c588fd597d64bf3a5cda22e76f4",
+  "nearby_tip_config_sha256": "f533d4e0a4cb2d2c5e84a02b45e8ad49b81da28147ac7600f510141d3b8c3481",
+  "prediction_only": true,
+  "reconciliation": {
+    "names_reconciled": 0,
+    "numbers_added": 0,
+    "tips_removed_or_moved": 0,
+    "members_removed_or_merged": 0,
+    "withheld_reason_counts": {}
+  },
+  "baseline_export": {
+    "conservative": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    },
+    "candidate": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    }
+  },
+  "proposal_export": {
+    "conservative": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    },
+    "candidate": {
+      "exported_components": 29,
+      "exported_pins": 2,
+      "exported_nets": 0
+    }
+  },
+  "completion": {
+    "conservative": {
+      "multi_pin_networks": 29,
+      "field_only_incomplete_networks": 22,
+      "non_field_export_blocker_counts": {
+        "junction_semantics_unresolved": 6,
+        "detected_power_symbol_near_wire_without_attached_member": 2
+      }
+    },
+    "candidate": {
+      "multi_pin_networks": 29,
+      "field_only_incomplete_networks": 22,
+      "non_field_export_blocker_counts": {
+        "junction_semantics_unresolved": 6,
+        "detected_power_symbol_near_wire_without_attached_member": 2
+      }
+    }
+  },
+  "original_points_owners_fields_edges_and_members_preserved": true,
+  "new_OCR_observations": 0,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "wall_seconds": 0.31448426099998983,
+  "input_contract": "PNG and S18 model/OCR predictions only; no annotation/CAD/Golden reads",
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 37.032442106999994
+}

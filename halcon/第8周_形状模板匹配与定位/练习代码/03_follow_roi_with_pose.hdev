@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第8周第3天：修改模型原点，并用同一刚性变换让检测ROI跟随目标。</c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (Image,'rings_and_nuts')</l>
+<l>get_image_size (Image,Width,Height)</l>
+<l>gen_circle (DirectionMark,130,190,12)</l>
+<l>paint_region (DirectionMark,Image,MarkedImage,0,'fill')</l>
+<l>gen_rectangle1 (TemplateROI,60,60,200,210)</l>
+<l>reduce_domain (MarkedImage,TemplateROI,TemplateImage)</l>
+<l>create_shape_model (TemplateImage,'auto',rad(-45),rad(90),'auto','auto','use_polarity','auto','auto',ModelID)</l>
+<c>* 先取得默认模型中心，后面围绕它生成已知旋转和平移。</c>
+<l>find_shape_model (MarkedImage,ModelID,rad(-45),rad(90),0.5,1,0.5,'least_squares',0,0.8,CenterRow,CenterColumn,CenterAngle,CenterScore)</l>
+<c>* 把模型原点移到中心下方20像素、右侧85像素；此点直接作为检测ROI中心。</c>
+<l>set_shape_model_origin (ModelID,20,85)</l>
+<l>find_shape_model (MarkedImage,ModelID,rad(-45),rad(90),0.5,1,0.5,'least_squares',0,0.8,RefRow,RefColumn,RefAngle,RefScore)</l>
+<l>gen_rectangle2 (InspectionROI,RefRow,RefColumn,RefAngle,32,18)</l>
+<c>* 构造28度旋转、Row方向+18、Column方向+26的测试图。</c>
+<l>hom_mat2d_identity (KnownMove)</l>
+<l>hom_mat2d_rotate (KnownMove,rad(28),CenterRow,CenterColumn,KnownMove)</l>
+<l>hom_mat2d_translate (KnownMove,18,26,KnownMove)</l>
+<l>affine_trans_image (MarkedImage,TestImage,KnownMove,'constant','false')</l>
+<l>find_shape_model (TestImage,ModelID,rad(-45),rad(90),0.5,1,0.5,'least_squares',0,0.8,Row,Column,Angle,Score)</l>
+<c>* 从参考位姿到当前位姿只建立一次矩阵，模型轮廓和检测ROI共用该矩阵。</c>
+<l>vector_angle_to_rigid (RefRow,RefColumn,RefAngle,Row[0],Column[0],Angle[0],PoseTransform)</l>
+<l>affine_trans_region (InspectionROI,InspectionROIMoved,PoseTransform,'nearest_neighbor')</l>
+<l>dev_open_window (0,0,Width,Height,'black',WindowHandle)</l>
+<l>dev_display (TestImage)</l>
+<l>dev_set_draw ('margin')</l>
+<l>dev_set_line_width (3)</l>
+<l>dev_set_color ('green')</l>
+<l>dev_display (InspectionROIMoved)</l>
+<l>gen_cross_contour_xld (PoseCross,Row,Column,18,Angle)</l>
+<l>dev_set_color ('yellow')</l>
+<l>dev_display (PoseCross)</l>
+<l>disp_text (WindowHandle,['第3天实验已完成','已知角度=28.000度；实测=' + deg(Angle[0])$'.3f' + '度','已知平移Row/Column=18 / 26 px','Score=' + Score[0]$'.6f','绿色=跟随位姿后的检测ROI','结论：方向特征必须与零件刚性相连'], 'window',12,12,'white',['box_color'],['black'])</l>
+<l>clear_shape_model (ModelID)</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>

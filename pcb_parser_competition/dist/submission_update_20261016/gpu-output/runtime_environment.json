@@ -1,0 +1,33 @@
+{
+  "requested_device": "auto",
+  "torch": "2.10.0+cu128",
+  "torch_cuda_build": "12.8",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "environment": {
+    "PCB_DEVICE": "auto",
+    "CUDA_VISIBLE_DEVICES": null,
+    "NVIDIA_VISIBLE_DEVICES": "all",
+    "NVIDIA_DRIVER_CAPABILITIES": null
+  },
+  "cuda_probe": {
+    "attempted": true,
+    "success": true,
+    "device": "cuda:0",
+    "name": "NVIDIA GeForce RTX 5060",
+    "capability": [
+      12,
+      0
+    ],
+    "compiled_arches": [
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ]
+  },
+  "selected_device": "cuda:0"
+}

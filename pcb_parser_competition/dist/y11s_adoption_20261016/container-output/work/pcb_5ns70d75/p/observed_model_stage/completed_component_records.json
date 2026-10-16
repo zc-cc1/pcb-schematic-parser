@@ -1,0 +1,559 @@
+{
+  "image_sha256": "f680770009d7f315eaeb80d2df0a1e2391e4374fb2fbea8482b891bd25a5d7c9",
+  "records": [
+    {
+      "component_id": "U1",
+      "detection_index": 0,
+      "type": "ic",
+      "designator": "U1",
+      "Name": "MRF521",
+      "value": null,
+      "bbox_top_left": [
+        486.72,
+        54.384,
+        599.102,
+        211.593
+      ],
+      "detection_confidence": 0.964423,
+      "fields": {
+        "designator": {
+          "token_id": "token_0005",
+          "text_id": "text_0005",
+          "text": "U1",
+          "bbox": [
+            489.0,
+            40.5,
+            511.0,
+            57.0
+          ],
+          "confidence": 0.99918,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "U",
+          "source_text": "U1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 51.35224318186682,
+        "designator_assignment_margin": 38.6477568181333,
+        "Name": {
+          "token_id": "token_0045",
+          "text_id": "text_0042",
+          "text": "MRF521",
+          "bbox": [
+            533.0,
+            208.5,
+            590.5,
+            223.5
+          ],
+          "confidence": 0.99993,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "MRF521",
+          "approximate_split_geometry": false
+        },
+        "Name_score": 13.768359999999989,
+        "Name_assignment_margin": 76.23163999999997
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "X1",
+      "detection_index": 1,
+      "type": "crystal",
+      "designator": "X1",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        688.073,
+        57.68,
+        725.35,
+        102.035
+      ],
+      "detection_confidence": 0.946415,
+      "fields": {
+        "designator": {
+          "token_id": "token_0003",
+          "text_id": "text_0003",
+          "text": "X1",
+          "bbox": [
+            699.0,
+            32.0,
+            721.0,
+            48.0
+          ],
+          "confidence": 0.99964,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "X",
+          "source_text": "X1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 19.51240759919418,
+        "designator_assignment_margin": 70.48759240080585
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "R1",
+      "detection_index": 2,
+      "type": "resistor",
+      "designator": "R1",
+      "Name": null,
+      "value": "8",
+      "bbox_top_left": [
+        353.227,
+        137.903,
+        384.416,
+        155.36
+      ],
+      "detection_confidence": 0.911923,
+      "fields": {
+        "designator": {
+          "token_id": "token_0021",
+          "text_id": "text_0021",
+          "text": "R1",
+          "bbox": [
+            359.5,
+            122.0,
+            381.0,
+            137.5
+          ],
+          "confidence": 0.99986,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 4.59644966960479,
+        "designator_assignment_margin": 85.40355033039532,
+        "value": {
+          "token_id": "token_0037",
+          "text_id": "text_0036",
+          "text": "8",
+          "bbox": [
+            366.5,
+            182.0,
+            389.5,
+            200.0
+          ],
+          "confidence": 0.82524,
+          "role": "numeric",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "8",
+          "approximate_split_geometry": false
+        },
+        "value_score": 74.56101349732839,
+        "value_assignment_margin": 15.438986502671469
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "L1",
+      "detection_index": 3,
+      "type": "inductor",
+      "designator": "L1",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        256.337,
+        155.375,
+        281.97,
+        220.959
+      ],
+      "detection_confidence": 0.909016,
+      "fields": {
+        "designator": {
+          "token_id": "token_0038",
+          "text_id": "text_0037",
+          "text": "L1",
+          "bbox": [
+            237.0,
+            182.5,
+            257.5,
+            199.5
+          ],
+          "confidence": 0.99986,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "L",
+          "source_text": "L1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 6.242991056428408,
+        "designator_assignment_margin": 83.75700894357169
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C2",
+      "detection_index": 4,
+      "type": "capacitor",
+      "designator": "C2",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        157.54,
+        173.505,
+        199.703,
+        203.9
+      ],
+      "detection_confidence": 0.900964,
+      "fields": {
+        "designator": {
+          "token_id": "token_0036",
+          "text_id": "text_0035",
+          "text": "C2",
+          "bbox": [
+            132.0,
+            180.0,
+            158.0,
+            200.0
+          ],
+          "confidence": 0.99932,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "C",
+          "source_text": "C2",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.099814831481298,
+        "designator_assignment_margin": 82.90018516851865
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "L2",
+      "detection_index": 5,
+      "type": "inductor",
+      "designator": "L2",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        97.209,
+        157.292,
+        119.604,
+        219.338
+      ],
+      "detection_confidence": 0.896875,
+      "fields": {
+        "designator": {
+          "token_id": "token_0035",
+          "text_id": "text_0034",
+          "text": "L2",
+          "bbox": [
+            74.5,
+            179.0,
+            97.5,
+            196.5
+          ],
+          "confidence": 0.99992,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "L",
+          "source_text": "L2",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 4.487092024612509,
+        "designator_assignment_margin": 85.51290797538763
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C3",
+      "detection_index": 6,
+      "type": "capacitor",
+      "designator": "C3",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        377.165,
+        200.688,
+        418.705,
+        228.741
+      ],
+      "detection_confidence": 0.885407,
+      "fields": {
+        "designator": {
+          "token_id": "token_0039",
+          "text_id": "text_0038",
+          "text": "C3",
+          "bbox": [
+            366.0,
+            183.5,
+            390.5,
+            200.5
+          ],
+          "confidence": 0.99877,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "C",
+          "source_text": "C3",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 21.356173318946244,
+        "designator_assignment_margin": 55.480247333786224
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C1",
+      "detection_index": 7,
+      "type": "capacitor",
+      "designator": "C1",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        213.137,
+        88.663,
+        238.774,
+        132.836
+      ],
+      "detection_confidence": 0.874239,
+      "fields": {
+        "designator": {
+          "token_id": "token_0011",
+          "text_id": "text_0011",
+          "text": "C1",
+          "bbox": [
+            215.5,
+            71.0,
+            237.5,
+            87.0
+          ],
+          "confidence": 0.99922,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "C",
+          "source_text": "C1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 7.82059036790446,
+        "designator_assignment_margin": 82.17940963209571
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "C4",
+      "detection_index": 8,
+      "type": "capacitor",
+      "designator": "C4",
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        427.268,
+        200.794,
+        469.497,
+        229.76
+      ],
+      "detection_confidence": 0.869597,
+      "fields": {
+        "designator": {
+          "token_id": "token_0040",
+          "text_id": "text_0039",
+          "text": "C4",
+          "bbox": [
+            420.5,
+            185.5,
+            444.5,
+            202.5
+          ],
+          "confidence": 0.99976,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "C",
+          "source_text": "C4",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 17.487130284356603,
+        "designator_assignment_margin": 55.480247333786224
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "detection_index": 9,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        758.598,
+        65.689,
+        783.835,
+        93.72
+      ],
+      "detection_confidence": 0.824498,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0011",
+      "detection_index": 10,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        383.497,
+        65.692,
+        412.493,
+        92.849
+      ],
+      "detection_confidence": 0.787327,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "detection_index": 11,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        382.745,
+        269.343,
+        411.108,
+        287.785
+      ],
+      "detection_confidence": 0.733704,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0013",
+      "detection_index": 12,
+      "type": "gnd",
+      "designator": null,
+      "Name": "GND",
+      "value": null,
+      "bbox_top_left": [
+        256.51,
+        256.734,
+        285.257,
+        273.474
+      ],
+      "detection_confidence": 0.705909,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0014",
+      "detection_index": 13,
+      "type": "block",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        623.612,
+        102.232,
+        645.683,
+        123.896
+      ],
+      "detection_confidence": 0.615035,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    },
+    {
+      "component_id": "SHUT",
+      "detection_index": 14,
+      "type": "vbus_in",
+      "designator": "SHUT",
+      "Name": "SHUT",
+      "value": null,
+      "bbox_top_left": [
+        686.605,
+        141.56,
+        707.691,
+        152.876
+      ],
+      "detection_confidence": 0.467936,
+      "fields": {
+        "designator": {
+          "text": "SHUT",
+          "bbox": [
+            690.0,
+            139.0,
+            756.0,
+            159.0
+          ],
+          "confidence": 0.99936,
+          "source": "ordinary_label_symbol_OCR",
+          "site_id": "LABEL_SITE_00008",
+          "source_component_order_available": false
+        }
+      },
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified",
+      "identity_status": "observed_unique_label_name"
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0016",
+      "detection_index": 15,
+      "type": "vcc",
+      "designator": null,
+      "Name": null,
+      "value": null,
+      "bbox_top_left": [
+        299.371,
+        132.144,
+        346.356,
+        149.004
+      ],
+      "detection_confidence": 0.362142,
+      "fields": {},
+      "duplicate_of_detection_index": null,
+      "status": "provisional_image_prediction_not_manually_verified"
+    }
+  ],
+  "size": [
+    832,
+    376
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "bf63cafd4186dbbcb040dc525e94a0b516c3911d2d99794ec0076854d8b8e18a",
+  "original_S23_input_sha256": {
+    "/output/work/pcb_5ns70d75/p_stage23/export/engineering_pin_text_result.json": "8f383a507f133e4c8a096880e177b93349b67737f0463a65a5b46a3815441c37",
+    "/output/work/pcb_5ns70d75/p_stage23/export/engineering_graph_proposals.json": "659f1bd95d9c26fd6ca50ac2686da842b9b6ba17d4398a767e06b0173121ddf8",
+    "/output/work/pcb_5ns70d75/p_stage23/export/completed_component_records.json": "eb8c8c2719c4dbab0ad11a6459bc344bef6ca1656b147f4c8cb20014a08c183b",
+    "/output/work/pcb_5ns70d75/p_stage23/export/engineering_submission.json": "a4bcb85c33a207148ef7fc5762cc36210a084c7ffd2d9f62b5eea6c2b7a1748a",
+    "/output/work/pcb_5ns70d75/p_stage23/export/baseline_export/partial_submission.json": "719c0c0d166449b32bbe98e1ba49f497e565fc0c2cb6af87f232349a7b350a14",
+    "/output/work/pcb_5ns70d75/p_stage23/export/baseline_export/conservative_export_coverage.json": "ca91aaacd4d578eeafbf0526c37db44b6a348d5d4a1c72249bd082b333506c27",
+    "/output/work/pcb_5ns70d75/p_stage23_stage21_stage20_stage18/stage17/stage16/upstream/pin_text/texts.json": "f4535459ad4db6260bb9b9a9986b8b8d96c52104473b352f9ad483944f767d17"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false
+}

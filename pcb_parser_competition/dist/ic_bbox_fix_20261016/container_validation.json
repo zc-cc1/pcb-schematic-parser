@@ -1,0 +1,96 @@
+{
+  "fresh_PNG_case": "0036",
+  "device": "cpu",
+  "network_disabled": true,
+  "successful_cases": 1,
+  "full_output_matches_declared_changes": true,
+  "only_IC_bbox_changed_in_geometry_step": true,
+  "source_hashes_unchanged": true,
+  "IC_Name_after": {
+    "U1": "MRF521"
+  },
+  "IC_boxes": [
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        481.969,
+        166.178,
+        599.036,
+        318.76
+      ],
+      "after_bbox_bottom_left": [
+        491.0,
+        172.0,
+        592.0,
+        314.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          452,
+          19,
+          629,
+          248
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            491.0,
+            62.0,
+            592.0,
+            204.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9942827806710144
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "IC_geometry_seconds": 0.028,
+  "compatibility_cases": [
+    {
+      "case": "0001",
+      "ICs": 7,
+      "changed": 4,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    },
+    {
+      "case": "0074",
+      "ICs": 5,
+      "changed": 5,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    },
+    {
+      "case": "0123",
+      "ICs": 3,
+      "changed": 2,
+      "host_expected_matches": true,
+      "all_non_bbox_fields_preserved": true
+    }
+  ],
+  "source_sha256": {
+    "submission\\platform_adapter\\agent.py": "013023d166c1b811ec5a08bff443e9caaf52495745db43930d6c8f351425a631",
+    "submission\\platform_adapter\\adapter.py": "76bba927a14ccb32738b7e1251f637d1d26b63c54887b1e9e9dddeeb438ac94a",
+    "submission\\platform_adapter\\component_export.py": "7814b45badbb38cf59fec4aaa2a3eaf44e46cb32fe853422e15e4d47ecefe29d",
+    "src\\pcb_parser\\component_text.py": "826fe6eb53c894cdbeac128e511d653a75728cc048d7f390a0f24a5bbaacafde",
+    "src\\pcb_parser\\ic_name_selection.py": "87d05374513c707eb289ecfb5a9d9b67987d709e08198993d6e6eaca81d04a67",
+    "src\\pcb_parser\\ic_geometry.py": "00f5c5120babb7124d6d7355f22e31948ab8bb06f434be9e0c5d64269f9f97d7",
+    "src\\pcb_parser\\led_geometry.py": "03c1e0d3e45ee708b47a8051bd12c6fea400f36228a65f3ab183a1b13389efc5"
+  },
+  "scope": "Fresh PNG CPU inference plus 3 cached-proposal image-only compatibility checks. No official evaluation."
+}

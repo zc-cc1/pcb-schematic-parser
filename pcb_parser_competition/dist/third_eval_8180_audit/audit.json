@@ -1,0 +1,793 @@
+{
+  "submission_id": 8180,
+  "source_directory": "C:\\Users\\Pc\\Desktop\\新建文件夹\\第三次评测-20.45\\scoring_result",
+  "source_zip_originally_supplied": "C:\\Users\\Pc\\Downloads\\scoring_result.zip",
+  "snapshot": "C:\\Users\\Pc\\Desktop\\vision\\pcb_parser_competition\\dist\\third_eval_8180_audit\\official_result_snapshot",
+  "summary": {
+    "timestamp_utc": "2026-10-16T03:18:28.163697+00:00",
+    "cases_scored": 10,
+    "cases_skipped": 0,
+    "threshold_px": 20.0,
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "macro_avg": {
+      "component_f1": 0.04989,
+      "pin_f1": 0.692889,
+      "connectivity_f1": 0.042857,
+      "wire_f1": 0.013016,
+      "final_score": 20.449074
+    },
+    "cases": [
+      {
+        "case": "1",
+        "component_f1": 0.0,
+        "pin_f1": 0.938776,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 23.4694
+      },
+      {
+        "case": "10",
+        "component_f1": 0.122449,
+        "pin_f1": 0.5,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 16.17347
+      },
+      {
+        "case": "2",
+        "component_f1": 0.0,
+        "pin_f1": 0.608696,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 15.2174
+      },
+      {
+        "case": "3",
+        "component_f1": 0.1,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 19.666675
+      },
+      {
+        "case": "4",
+        "component_f1": 0.108108,
+        "pin_f1": 0.555556,
+        "connectivity_f1": 0.285714,
+        "wire_f1": 0.063492,
+        "final_score": 27.76705
+      },
+      {
+        "case": "5",
+        "component_f1": 0.054054,
+        "pin_f1": 0.615385,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 17.006245
+      },
+      {
+        "case": "6",
+        "component_f1": 0.066667,
+        "pin_f1": 0.666667,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 18.666685
+      },
+      {
+        "case": "7",
+        "component_f1": 0.047619,
+        "pin_f1": 0.857143,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 22.857145
+      },
+      {
+        "case": "8",
+        "component_f1": 0.0,
+        "pin_f1": 0.72,
+        "connectivity_f1": 0.142857,
+        "wire_f1": 0.066667,
+        "final_score": 23.666665
+      },
+      {
+        "case": "9",
+        "component_f1": 0.0,
+        "pin_f1": 0.8,
+        "connectivity_f1": 0.0,
+        "wire_f1": 0.0,
+        "final_score": 20.0
+      }
+    ]
+  },
+  "weighted_points": {
+    "component_f1": 1.4967,
+    "pin_f1": 17.322225,
+    "connectivity_f1": 1.499995,
+    "wire_f1": 0.13016
+  },
+  "totals": {
+    "component_tp": 11,
+    "component_fp": 134,
+    "component_fn": 243,
+    "pin_tp": 77,
+    "pin_fp": 1,
+    "pin_fn": 59,
+    "wire_tp": 4,
+    "wire_fp": 3,
+    "wire_fn": 635,
+    "component_key_tp": 145,
+    "component_key_fp": 0,
+    "component_key_fn": 1,
+    "matched_id_count": 145,
+    "gt_power_symbol_count": 108,
+    "pred_power_symbol_count": 0,
+    "gt_net_count": 80,
+    "pred_net_count": 2,
+    "gt_raw_net_count": 160,
+    "exported_pins": 142,
+    "withheld_networks": 257,
+    "pending_pins": 470,
+    "field_only_withheld_networks": 73,
+    "validation_issue_count": 93,
+    "validation_bad_cases": 10
+  },
+  "component_attribute_failures": {
+    "Name": 124,
+    "bbox": 87,
+    "value": 7
+  },
+  "failure_patterns": {
+    "Name,bbox": 71,
+    "Name": 46,
+    "bbox": 10,
+    "Name,value,bbox": 6,
+    "Name,value": 1
+  },
+  "type_counts": {
+    "r": 38,
+    "c": 72,
+    "box": 21,
+    "d": 3,
+    "l": 6,
+    "led": 5
+  },
+  "name_null_counts": {
+    "r": 38,
+    "c": 72,
+    "box": 6,
+    "d": 0,
+    "l": 6,
+    "led": 1
+  },
+  "failures_by_type": {
+    "c": {
+      "Name": 72,
+      "bbox": 33,
+      "value": 1
+    },
+    "r": {
+      "Name": 38,
+      "bbox": 37
+    },
+    "box": {
+      "bbox": 5,
+      "Name": 7
+    },
+    "l": {
+      "Name": 6,
+      "value": 6,
+      "bbox": 6
+    },
+    "led": {
+      "bbox": 5,
+      "Name": 1
+    },
+    "d": {
+      "bbox": 1
+    }
+  },
+  "validation_messages": {
+    "missing component pin group": 93
+  },
+  "withheld_reason_counts": {
+    "contains_pin_with_unresolved_identity_number_or_name": 221,
+    "power_logical_membership_provisional": 9,
+    "wire_endpoint_near_component_without_member": 28,
+    "suspected_disconnection": 7,
+    "single_pin_fragment": 126,
+    "detected_power_symbol_near_wire_without_attached_member": 6,
+    "junction_semantics_unresolved": 49
+  },
+  "pending_pin_reason_counts": {
+    "pin_number_unresolved": 465,
+    "pin_name_unresolved": 422,
+    "component_identity_unresolved": 181
+  },
+  "pin_error_examples": {
+    "missing": 58,
+    "pin_name": 1
+  },
+  "orchestration": {
+    "team": "submission",
+    "run_id": "20261016T031435Z",
+    "participant_image": "pcb-parser:local-cuda-fd63748e",
+    "status": "ok",
+    "participant_exit_code": 0,
+    "elapsed_seconds": 165,
+    "timeout_budget_seconds": 1200,
+    "grace_seconds": 30,
+    "pred_files_collected": 10,
+    "score_exit_code": 0,
+    "started_at_utc": "2026-10-16T03:15:42Z",
+    "ended_at_utc": "2026-10-16T03:18:28Z",
+    "gpu_devices": "1"
+  },
+  "decision": {
+    "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+    "timestamp": "2026-10-16T03:15:43.549625+00:00",
+    "processed_cases": 10,
+    "successful_cases": 10,
+    "failed_cases": 0,
+    "output_format": "target",
+    "coordinate_origin": "bottom_left_H_minus_y",
+    "token_usage": {
+      "total_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "api_calls": 0
+    },
+    "cases": [
+      {
+        "case_id": "1",
+        "input": "/input/1.png",
+        "success": true,
+        "components": 14,
+        "pins": 35,
+        "nets": 0,
+        "seconds": 41.54
+      },
+      {
+        "case_id": "2",
+        "input": "/input/2.png",
+        "success": true,
+        "components": 12,
+        "pins": 19,
+        "nets": 0,
+        "seconds": 44.799
+      },
+      {
+        "case_id": "10",
+        "input": "/input/10.png",
+        "success": true,
+        "components": 20,
+        "pins": 10,
+        "nets": 0,
+        "seconds": 44.947
+      },
+      {
+        "case_id": "3",
+        "input": "/input/3.png",
+        "success": true,
+        "components": 14,
+        "pins": 7,
+        "nets": 0,
+        "seconds": 39.935
+      },
+      {
+        "case_id": "4",
+        "input": "/input/4.png",
+        "success": true,
+        "components": 13,
+        "pins": 10,
+        "nets": 1,
+        "seconds": 38.293
+      },
+      {
+        "case_id": "5",
+        "input": "/input/5.png",
+        "success": true,
+        "components": 11,
+        "pins": 14,
+        "nets": 0,
+        "seconds": 45.581
+      },
+      {
+        "case_id": "7",
+        "input": "/input/7.png",
+        "success": true,
+        "components": 18,
+        "pins": 12,
+        "nets": 0,
+        "seconds": 39.381
+      },
+      {
+        "case_id": "6",
+        "input": "/input/6.png",
+        "success": true,
+        "components": 22,
+        "pins": 12,
+        "nets": 0,
+        "seconds": 46.073
+      },
+      {
+        "case_id": "8",
+        "input": "/input/8.png",
+        "success": true,
+        "components": 11,
+        "pins": 17,
+        "nets": 1,
+        "seconds": 38.358
+      },
+      {
+        "case_id": "9",
+        "input": "/input/9.png",
+        "success": true,
+        "components": 10,
+        "pins": 6,
+        "nets": 0,
+        "seconds": 38.098
+      }
+    ],
+    "device": "cuda:0",
+    "input_cases": 10,
+    "workers": 3,
+    "gpu_memory_bytes": 85293072384,
+    "protocol": "2026-10-08-global-power-rails",
+    "type_mapping_status": "r documented; Box/C/L/D aliases inferred from source taxonomy and evaluation diagnostics",
+    "wall_seconds": 162.559
+  },
+  "cases": [
+    {
+      "case": 1,
+      "scores": {
+        "component_stage": 0.426716,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.0,
+        "pin_f1": 0.938776,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 23.4694
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 13,
+        "bbox": 13
+      },
+      "component_f1_counts": {
+        "tp": 0,
+        "fp": 14,
+        "fn": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1_counts": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.884615,
+        "f1": 0.938776
+      },
+      "pred_nets": 0,
+      "gt_nets": 4,
+      "withheld_networks": 32,
+      "validation_issues": 7
+    },
+    {
+      "case": 2,
+      "scores": {
+        "component_stage": 0.27668,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.0,
+        "pin_f1": 0.608696,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 15.2174
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 12,
+        "bbox": 8
+      },
+      "component_f1_counts": {
+        "tp": 0,
+        "fp": 12,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1_counts": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 9,
+        "precision": 1.0,
+        "recall": 0.4375,
+        "f1": 0.608696
+      },
+      "pred_nets": 0,
+      "gt_nets": 10,
+      "withheld_networks": 18,
+      "validation_issues": 2
+    },
+    {
+      "case": 3,
+      "scores": {
+        "component_stage": 0.357576,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.1,
+        "pin_f1": 0.666667,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 19.666675
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 12,
+        "bbox": 7,
+        "value": 1
+      },
+      "component_f1_counts": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 24,
+        "precision": 0.142857,
+        "recall": 0.076923,
+        "f1": 0.1
+      },
+      "pin_f1_counts": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.666667
+      },
+      "pred_nets": 0,
+      "gt_nets": 7,
+      "withheld_networks": 12,
+      "validation_issues": 11
+    },
+    {
+      "case": 4,
+      "scores": {
+        "component_stage": 0.311493,
+        "wire_stage": 0.063492,
+        "connectivity_stage": 0.285714,
+        "component_f1": 0.108108,
+        "pin_f1": 0.555556,
+        "wire_f1": 0.063492,
+        "connectivity_f1": 0.285714,
+        "final_score": 27.76705
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 10,
+        "bbox": 9
+      },
+      "component_f1_counts": {
+        "tp": 2,
+        "fp": 11,
+        "fn": 22,
+        "precision": 0.153846,
+        "recall": 0.083333,
+        "f1": 0.108108
+      },
+      "pin_f1_counts": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 7,
+        "precision": 0.833333,
+        "recall": 0.416667,
+        "f1": 0.555556
+      },
+      "pred_nets": 1,
+      "gt_nets": 6,
+      "withheld_networks": 27,
+      "validation_issues": 8
+    },
+    {
+      "case": 5,
+      "scores": {
+        "component_stage": 0.309204,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.054054,
+        "pin_f1": 0.615385,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 17.006245
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 8,
+        "value": 2,
+        "bbox": 4
+      },
+      "component_f1_counts": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 25,
+        "precision": 0.090909,
+        "recall": 0.038462,
+        "f1": 0.054054
+      },
+      "pin_f1_counts": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 10,
+        "precision": 1.0,
+        "recall": 0.444444,
+        "f1": 0.615385
+      },
+      "pred_nets": 0,
+      "gt_nets": 6,
+      "withheld_networks": 31,
+      "validation_issues": 5
+    },
+    {
+      "case": 6,
+      "scores": {
+        "component_stage": 0.339394,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.066667,
+        "pin_f1": 0.666667,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 18.666685
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 18,
+        "bbox": 14,
+        "value": 1
+      },
+      "component_f1_counts": {
+        "tp": 2,
+        "fp": 20,
+        "fn": 36,
+        "precision": 0.090909,
+        "recall": 0.052632,
+        "f1": 0.066667
+      },
+      "pin_f1_counts": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.666667
+      },
+      "pred_nets": 0,
+      "gt_nets": 10,
+      "withheld_networks": 41,
+      "validation_issues": 16
+    },
+    {
+      "case": 7,
+      "scores": {
+        "component_stage": 0.415584,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.047619,
+        "pin_f1": 0.857143,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 22.857145
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 15,
+        "bbox": 9,
+        "value": 1
+      },
+      "component_f1_counts": {
+        "tp": 1,
+        "fp": 17,
+        "fn": 23,
+        "precision": 0.055556,
+        "recall": 0.041667,
+        "f1": 0.047619
+      },
+      "pin_f1_counts": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.857143
+      },
+      "pred_nets": 0,
+      "gt_nets": 10,
+      "withheld_networks": 23,
+      "validation_issues": 14
+    },
+    {
+      "case": 8,
+      "scores": {
+        "component_stage": 0.327273,
+        "wire_stage": 0.066667,
+        "connectivity_stage": 0.142857,
+        "component_f1": 0.0,
+        "pin_f1": 0.72,
+        "wire_f1": 0.066667,
+        "connectivity_f1": 0.142857,
+        "final_score": 23.666665
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 10,
+        "bbox": 4
+      },
+      "component_f1_counts": {
+        "tp": 0,
+        "fp": 11,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1_counts": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 7,
+        "precision": 1.0,
+        "recall": 0.5625,
+        "f1": 0.72
+      },
+      "pred_nets": 1,
+      "gt_nets": 13,
+      "withheld_networks": 19,
+      "validation_issues": 6
+    },
+    {
+      "case": 9,
+      "scores": {
+        "component_stage": 0.363636,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.0,
+        "pin_f1": 0.8,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 20.0
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 9,
+        "value": 1,
+        "bbox": 5
+      },
+      "component_f1_counts": {
+        "tp": 0,
+        "fp": 10,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.666667,
+        "f1": 0.8
+      },
+      "pred_nets": 0,
+      "gt_nets": 6,
+      "withheld_networks": 21,
+      "validation_issues": 8
+    },
+    {
+      "case": 10,
+      "scores": {
+        "component_stage": 0.294063,
+        "wire_stage": 0.0,
+        "connectivity_stage": 0.0,
+        "component_f1": 0.122449,
+        "pin_f1": 0.5,
+        "wire_f1": 0.0,
+        "connectivity_f1": 0.0,
+        "final_score": 16.17347
+      },
+      "type_accuracy_on_matched": 1.0,
+      "component_errors": {
+        "Name": 17,
+        "bbox": 14,
+        "value": 1
+      },
+      "component_f1_counts": {
+        "tp": 3,
+        "fp": 17,
+        "fn": 26,
+        "precision": 0.15,
+        "recall": 0.103448,
+        "f1": 0.122449
+      },
+      "pin_f1_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.333333,
+        "f1": 0.5
+      },
+      "pred_nets": 0,
+      "gt_nets": 8,
+      "withheld_networks": 33,
+      "validation_issues": 16
+    }
+  ],
+  "limits": [
+    "Source and label values for failed Name/bbox are not present in the report; no guessed replacement",
+    "Candidate nets are not certified correct and cannot be blindly exported",
+    "Type mapping verified only on six observed types across these ten cases",
+    "No scorer or ground truth reconstructed; no new score claimed"
+  ],
+  "internal_power_review": [
+    {
+      "case": 1,
+      "power_components_in_review": 8,
+      "power_components_without_qualified_caption": 2
+    },
+    {
+      "case": 2,
+      "power_components_in_review": 16,
+      "power_components_without_qualified_caption": 6
+    },
+    {
+      "case": 3,
+      "power_components_in_review": 11,
+      "power_components_without_qualified_caption": 5
+    },
+    {
+      "case": 4,
+      "power_components_in_review": 11,
+      "power_components_without_qualified_caption": 2
+    },
+    {
+      "case": 5,
+      "power_components_in_review": 15,
+      "power_components_without_qualified_caption": 3
+    },
+    {
+      "case": 6,
+      "power_components_in_review": 16,
+      "power_components_without_qualified_caption": 4
+    },
+    {
+      "case": 7,
+      "power_components_in_review": 6,
+      "power_components_without_qualified_caption": 2
+    },
+    {
+      "case": 8,
+      "power_components_in_review": 9,
+      "power_components_without_qualified_caption": 3
+    },
+    {
+      "case": 9,
+      "power_components_in_review": 7,
+      "power_components_without_qualified_caption": 5
+    },
+    {
+      "case": 10,
+      "power_components_in_review": 9,
+      "power_components_without_qualified_caption": 3
+    }
+  ],
+  "internal_power_candidate_count": 108,
+  "type_mapping_validation": "All 145 matched ordinary components passed raw type comparison; six observed types only.",
+  "analysis_only": true
+}

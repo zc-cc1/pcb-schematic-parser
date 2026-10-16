@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0">
+<procedure name="main">
+<interface/>
+<body>
+<c>* 第2周项目：预处理方法对比</c>
+<c>* TODO 1：读取一张含噪或光照不均的图片</c>
+<c>* TODO 2：设置 ROI，并保留原图用于对照</c>
+<c>* TODO 3：实现均值、高斯、中值三种滤波</c>
+<c>* TODO 4：实现光照校正或灰度增强</c>
+<c>* TODO 5：记录每种方法参数和运行时间</c>
+<c>* TODO 6：显示对后续分割最有利的推荐结果</c>
+<c>* TODO 7：批量测试并归档失败样本</c>
+</body>
+<docu id="main"><parameters/></docu>
+</procedure>
+</hdevelop>
+

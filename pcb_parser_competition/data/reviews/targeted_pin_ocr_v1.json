@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-13",
+  "scope": "Assistant visual check of literal text at 11 new pin field crops; tip positions and complete network not certified",
+  "used_in_inference": false,
+  "used_in_training": false,
+  "official_Golden": false,
+  "items": [
+    {
+      "case_id": "0002",
+      "candidate_id": "PIN_CAND_0011",
+      "owner": "C87",
+      "field": "number",
+      "literal": "2",
+      "review_card": "field_0002_PIN_CAND_0011_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "owner_or_location_unmatched",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0018",
+      "candidate_id": "PIN_CAND_0099",
+      "owner": "U1",
+      "field": "number",
+      "literal": "35",
+      "review_card": "field_0018_PIN_CAND_0099_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "reference_field_missing",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0105",
+      "candidate_id": "PIN_CAND_0006",
+      "owner": "U2",
+      "field": "number",
+      "literal": "3",
+      "review_card": "field_0105_PIN_CAND_0006_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "agrees_with_draft",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0105",
+      "candidate_id": "PIN_CAND_0051",
+      "owner": "U2",
+      "field": "pinname",
+      "literal": "LX",
+      "review_card": "field_0105_PIN_CAND_0051_pinname.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "agrees_with_draft",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0148",
+      "candidate_id": "PIN_CAND_0024",
+      "owner": "U6",
+      "field": "number",
+      "literal": "3",
+      "review_card": "field_0148_PIN_CAND_0024_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "owner_or_location_unmatched",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0149",
+      "candidate_id": "PIN_CAND_0001",
+      "owner": "U3",
+      "field": "number",
+      "literal": "2",
+      "review_card": "field_0149_PIN_CAND_0001_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "agrees_with_draft",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0055",
+      "owner": "LD1",
+      "field": "number",
+      "literal": "12",
+      "review_card": "field_0170_PIN_CAND_0055_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "owner_or_location_unmatched",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0122",
+      "owner": "LD2",
+      "field": "pinname",
+      "literal": "F",
+      "review_card": "field_0170_PIN_CAND_0122_pinname.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "owner_or_location_unmatched",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0156",
+      "owner": "LD2",
+      "field": "number",
+      "literal": "11",
+      "review_card": "field_0170_PIN_CAND_0156_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "owner_or_location_unmatched",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0178",
+      "owner": "LD1",
+      "field": "number",
+      "literal": "5",
+      "review_card": "field_0170_PIN_CAND_0178_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "reference_field_missing",
+      "tip_geometry_independently_certified": false
+    },
+    {
+      "case_id": "0170",
+      "candidate_id": "PIN_CAND_0189",
+      "owner": "LD2",
+      "field": "number",
+      "literal": "5",
+      "review_card": "field_0170_PIN_CAND_0189_number.png",
+      "visual_finding": "Literal matches visible pin number/name in original image context",
+      "draft_reference_status": "reference_field_missing",
+      "tip_geometry_independently_certified": false
+    }
+  ],
+  "rejected_fragment": {
+    "case_id": "0105",
+    "candidate_id": "PIN_CAND_0033",
+    "prediction": "N",
+    "visible_complete_text": "IN",
+    "replacement_applied": false
+  }
+}

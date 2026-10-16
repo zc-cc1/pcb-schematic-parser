@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第12周第5天：测试集只做最终评估，不再据此反复调参</c><c>* [逐行] 关闭HDevelop自动更新，避免逐条执行时产生不必要的刷新。</c>
+<l>dev_update_off ()</l><c>* [逐行] 关闭当前HDevelop图形窗口，防止重复运行时窗口不断累积。</c>
+<l>dev_close_window ()</l><c>* [逐行] 设置布尔判定结果变量 GroundTruthNG 的元组数据，供后续批量处理。</c>
+<l>GroundTruthNG := [0,0,1,1,0,1,0,1,1,0,0,1]</l><c>* [逐行] 设置布尔判定结果变量 PredictedNG 的元组数据，供后续批量处理。</c>
+<l>PredictedNG := [0,0,1,0,0,1,1,1,1,0,0,1]</l><c>* [逐行] 计算判断条件，并把真假结果保存到 TP。</c>
+<l>TP := sum((GroundTruthNG == 1) and (PredictedNG == 1))</l><c>* [逐行] 计算判断条件，并把真假结果保存到 TN。</c>
+<l>TN := sum((GroundTruthNG == 0) and (PredictedNG == 0))</l><c>* [逐行] 计算判断条件，并把真假结果保存到 FP。</c>
+<l>FP := sum((GroundTruthNG == 0) and (PredictedNG == 1))</l><c>* [逐行] 计算判断条件，并把真假结果保存到 FN。</c>
+<l>FN := sum((GroundTruthNG == 1) and (PredictedNG == 0))</l><c>* [逐行] 根据当前参数和中间结果计算几何尺寸变量 Accuracy。</c>
+<l>Accuracy := (TP+TN)*1.0/|GroundTruthNG|</l><c>* [逐行] 根据当前参数和中间结果计算控制变量变量 Precision。</c>
+<l>Precision := TP*1.0/max2(1,TP+FP)</l><c>* [逐行] 根据当前参数和中间结果计算控制变量变量 Recall。</c>
+<l>Recall := TP*1.0/max2(1,TP+FN)</l><c>* [逐行] 根据当前参数和中间结果计算几何尺寸变量 FalsePositiveRate。</c>
+<l>FalsePositiveRate := FP*1.0/max2(1,FP+TN)</l><c>* [逐行] 根据当前参数和中间结果计算几何尺寸变量 FalseNegativeRate。</c>
+<l>FalseNegativeRate := FN*1.0/max2(1,FN+TP)</l><c>* [逐行] 创建指定尺寸和类型的常量图像，作为合成图像背景。</c>
+<l>gen_image_const (Image,'byte',720,420)</l><c>* [逐行] 按照给定位置和尺寸打开HDevelop图形窗口，并取得窗口句柄。</c>
+<l>dev_open_window (0,0,720,420,'black',WindowHandle)</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Image)</l><c>* [逐行] 在指定窗口位置显示说明文字、参数或检测结果。</c>
+<l>disp_text (WindowHandle,['TP=' + TP + ' TN=' + TN + ' FP=' + FP + ' FN=' + FN,'准确率=' + Accuracy$'.3f','精确率=' + Precision$'.3f','召回率=' + Recall$'.3f','误检率=' + FalsePositiveRate$'.3f','漏检率=' + FalseNegativeRate$'.3f'], 'window',12,12,'white',['box_color'],['black'])</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>

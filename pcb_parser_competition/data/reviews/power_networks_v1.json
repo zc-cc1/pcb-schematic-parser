@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "case_id": "0018",
+      "label": "GND",
+      "network_id": "PWR_NET_CAND_00018",
+      "site_ids": [
+        "LABEL_SITE_00158",
+        "LABEL_SITE_00157",
+        "LABEL_SITE_00154",
+        "LABEL_SITE_00126",
+        "LABEL_SITE_00155"
+      ],
+      "input_network_ids": [
+        "LOG_NET_CAND_00018",
+        "LOG_NET_CAND_00019",
+        "LOG_NET_CAND_00020",
+        "LOG_NET_CAND_00021",
+        "LOG_NET_CAND_00096"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0014",
+        "PIN_CAND_0027",
+        "PIN_CAND_0036",
+        "PIN_CAND_0048",
+        "PIN_CAND_0050",
+        "PIN_CAND_0053",
+        "PIN_CAND_0058",
+        "PIN_CAND_0066",
+        "PIN_CAND_0110",
+        "PIN_CAND_0114",
+        "PIN_CAND_0124",
+        "PIN_CAND_0129"
+      ],
+      "card": "power_group_0018_01.png",
+      "visually_reviewed": true,
+      "caption_symbol_roles_correct": true,
+      "all_physical_member_paths_verified": false,
+      "official_reference_verified": false,
+      "reviewer": "assistant_visual_inspection",
+      "image_sha256": "5706610bf93b4a5f50f64f18e67ecece8fbfb41c2d45d7a4068e0d134ce1cd36",
+      "note": "All shown captions match the printed name and visible power/ground symbol. Existing learned tip and wire contact appear plausible. All remote member paths and complete source identity order are not certified.",
+      "approved_for_training": false
+    },
+    {
+      "case_id": "0029",
+      "label": "PVDD",
+      "network_id": "PWR_NET_CAND_00001",
+      "site_ids": [
+        "LABEL_SITE_00039",
+        "LABEL_SITE_00001"
+      ],
+      "input_network_ids": [
+        "LOG_NET_CAND_00001",
+        "LOG_NET_CAND_00014"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0006",
+        "PIN_CAND_0009",
+        "PIN_CAND_0021",
+        "PIN_CAND_0027",
+        "PIN_CAND_0030",
+        "PIN_CAND_0031",
+        "PIN_CAND_0057"
+      ],
+      "card": "power_group_0029_02.png",
+      "visually_reviewed": true,
+      "caption_symbol_roles_correct": true,
+      "all_physical_member_paths_verified": false,
+      "official_reference_verified": false,
+      "reviewer": "assistant_visual_inspection",
+      "image_sha256": "37e632c77a2ef567ee1c5c4c7a337ad21efe6986081130f0e9510799efae0500",
+      "note": "All shown captions match the printed name and visible power/ground symbol. Existing learned tip and wire contact appear plausible. All remote member paths and complete source identity order are not certified.",
+      "approved_for_training": false
+    },
+    {
+      "case_id": "0105",
+      "label": "GND",
+      "network_id": "PWR_NET_CAND_00028",
+      "site_ids": [
+        "LABEL_SITE_00016",
+        "LABEL_SITE_00015",
+        "LABEL_SITE_00018",
+        "LABEL_SITE_00001",
+        "LABEL_SITE_00017"
+      ],
+      "input_network_ids": [
+        "LOG_NET_CAND_00028",
+        "LOG_NET_CAND_00033",
+        "LOG_NET_CAND_00037",
+        "LOG_NET_CAND_00038",
+        "LOG_NET_CAND_00039"
+      ],
+      "pin_candidate_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0010",
+        "PIN_CAND_0014",
+        "PIN_CAND_0029",
+        "PIN_CAND_0031",
+        "PIN_CAND_0055",
+        "PIN_CAND_0062",
+        "PIN_CAND_0076",
+        "PIN_CAND_0080"
+      ],
+      "card": "power_group_0105_03.png",
+      "visually_reviewed": true,
+      "caption_symbol_roles_correct": true,
+      "all_physical_member_paths_verified": false,
+      "official_reference_verified": false,
+      "reviewer": "assistant_visual_inspection",
+      "image_sha256": "a26dbc4a313be56d8b614198329f15b613804529a263fa73404b3d946100915e",
+      "note": "All shown captions match the printed name and visible power/ground symbol. Existing learned tip and wire contact appear plausible. All remote member paths and complete source identity order are not certified.",
+      "approved_for_training": false
+    }
+  ],
+  "used_in_inference": false,
+  "training_labels_created": 0,
+  "official_reference_verified": false
+}

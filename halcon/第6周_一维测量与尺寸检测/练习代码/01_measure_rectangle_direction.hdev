@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.2" halcon_version="20.11.1.0"><procedure name="main"><interface/><body>
+<c>* 第6周第1天：测量矩形与方向</c><c>* [逐行] 关闭HDevelop自动更新，避免逐条执行时产生不必要的刷新。</c>
+<l>dev_update_off ()</l><c>* [逐行] 关闭当前HDevelop图形窗口，防止重复运行时窗口不断累积。</c>
+<l>dev_close_window ()</l><c>* [逐行] 读取指定图像文件或HALCON示例图像，并保存到输出图像变量。</c>
+<l>read_image (Image, 'ic_pin')</l><c>* [逐行] 读取图像宽度和高度，供窗口、ROI或边界计算使用。</c>
+<l>get_image_size (Image, Width, Height)</l>
+<c>* [逐行] 设置行列坐标变量 Row 的数值初值或阈值。</c>
+<l>Row := 47</l><c>* [逐行] 设置行列坐标变量 Column 的数值初值或阈值。</c>
+<l>Column := 485</l><c>* [逐行] 设置方向角变量 Phi 的数值初值或阈值。</c>
+<l>Phi := 0</l><c>* [逐行] 设置几何尺寸变量 Length1 的数值初值或阈值。</c>
+<l>Length1 := 420</l><c>* [逐行] 设置几何尺寸变量 Length2 的数值初值或阈值。</c>
+<l>Length2 := 10</l><c>* [逐行] 根据中心、方向和两个半边长生成可旋转矩形区域。</c>
+<l>gen_rectangle2 (MeasureROI, Row, Column, Phi, Length1, Length2)</l><c>* [逐行] 生成箭头XLD轮廓，用于可视化方向。</c>
+<l>gen_arrow_contour_xld (DirectionArrow, Row, Column - 80, Row, Column + 80, 18, 14)</l>
+<c>* [逐行] 按照给定位置和尺寸打开HDevelop图形窗口，并取得窗口句柄。</c>
+<l>dev_open_window (0,0,Width/2,Height/2,'black',WindowHandle)</l><c>* [逐行] 设置图像坐标与窗口显示区域的对应范围。</c>
+<l>dev_set_part (0,0,Height-1,Width-1)</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (Image)</l><c>* [逐行] 设置区域按填充或轮廓方式显示。</c>
+<l>dev_set_draw ('margin')</l><c>* [逐行] 设置后续轮廓和区域边界的显示线宽。</c>
+<l>dev_set_line_width (4)</l><c>* [逐行] 设置后续图形对象的显示颜色。</c>
+<l>dev_set_color ('green')</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (MeasureROI)</l><c>* [逐行] 设置后续图形对象的显示颜色。</c>
+<l>dev_set_color ('yellow')</l><c>* [逐行] 把当前图像、区域或XLD对象显示到活动图形窗口。</c>
+<l>dev_display (DirectionArrow)</l><c>* [逐行] 在指定窗口位置显示说明文字、参数或检测结果。</c>
+<l>disp_text (WindowHandle, ['绿色：测量矩形','黄色：测量方向','Phi决定Length1方向，灰度沿箭头方向采样'], 'window',12,12,'white',['box_color'],['black'])</l>
+</body><docu id="main"><parameters/></docu></procedure></hdevelop>
