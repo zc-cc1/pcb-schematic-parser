@@ -1,0 +1,260 @@
+{
+  "method": "isolated path-preserving split replay",
+  "device": "cpu; all neural predictions and LED boxes reused from baseline",
+  "cases": [
+    {
+      "case_id": "1",
+      "input": "D:\\pcb_open_gt_in\\1.png",
+      "success": true,
+      "ic_geometry_seconds": 0.112,
+      "led_geometry_seconds": 0.005,
+      "bbox_convention_applied": 42,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 6,
+      "pin_lead_snap": 28,
+      "wire_cleanup": {
+        "merged": 41,
+        "dropped": 24
+      },
+      "components": 55,
+      "pins": 97,
+      "nets": 35,
+      "seconds": 51.301
+    },
+    {
+      "case_id": "10",
+      "input": "D:\\pcb_open_gt_in\\10.png",
+      "success": true,
+      "ic_geometry_seconds": 0.04,
+      "led_geometry_seconds": 0.002,
+      "bbox_convention_applied": 26,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 32,
+        "dropped": 6
+      },
+      "components": 29,
+      "pins": 54,
+      "nets": 22,
+      "seconds": 36.04
+    },
+    {
+      "case_id": "11",
+      "input": "D:\\pcb_open_gt_in\\11.png",
+      "success": true,
+      "ic_geometry_seconds": 0.018,
+      "led_geometry_seconds": 0.001,
+      "bbox_convention_applied": 8,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 10,
+      "wire_cleanup": {
+        "merged": 8,
+        "dropped": 7
+      },
+      "components": 12,
+      "pins": 23,
+      "nets": 10,
+      "seconds": 39.043
+    },
+    {
+      "case_id": "12",
+      "input": "D:\\pcb_open_gt_in\\12.png",
+      "success": true,
+      "ic_geometry_seconds": 0.014,
+      "bbox_convention_applied": 14,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 9,
+      "wire_cleanup": {
+        "merged": 20,
+        "dropped": 3
+      },
+      "components": 16,
+      "pins": 20,
+      "nets": 13,
+      "seconds": 28.641
+    },
+    {
+      "case_id": "13",
+      "input": "D:\\pcb_open_gt_in\\13.png",
+      "success": true,
+      "ic_geometry_seconds": 0.019,
+      "bbox_convention_applied": 17,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 27,
+        "dropped": 9
+      },
+      "components": 19,
+      "pins": 59,
+      "nets": 26,
+      "seconds": 26.531
+    },
+    {
+      "case_id": "2",
+      "input": "D:\\pcb_open_gt_in\\2.png",
+      "success": true,
+      "ic_geometry_seconds": 0.049,
+      "bbox_convention_applied": 24,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 4,
+      "pin_lead_snap": 15,
+      "wire_cleanup": {
+        "merged": 9,
+        "dropped": 0
+      },
+      "components": 28,
+      "pins": 37,
+      "nets": 15,
+      "seconds": 39.55
+    },
+    {
+      "case_id": "3",
+      "input": "D:\\pcb_open_gt_in\\3.png",
+      "success": true,
+      "ic_geometry_seconds": 0.035,
+      "bbox_convention_applied": 24,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 6,
+      "wire_cleanup": {
+        "merged": 7,
+        "dropped": 0
+      },
+      "components": 25,
+      "pins": 38,
+      "nets": 9,
+      "seconds": 25.128
+    },
+    {
+      "case_id": "4",
+      "input": "D:\\pcb_open_gt_in\\4.png",
+      "success": true,
+      "ic_geometry_seconds": 0.036,
+      "led_geometry_seconds": 0.001,
+      "bbox_convention_applied": 20,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 3,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 11,
+        "dropped": 13
+      },
+      "components": 24,
+      "pins": 33,
+      "nets": 22,
+      "seconds": 28.468
+    },
+    {
+      "case_id": "5",
+      "input": "D:\\pcb_open_gt_in\\5.png",
+      "success": true,
+      "ic_geometry_seconds": 0.052,
+      "bbox_convention_applied": 23,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 3,
+      "pin_lead_snap": 18,
+      "wire_cleanup": {
+        "merged": 15,
+        "dropped": 2
+      },
+      "components": 26,
+      "pins": 34,
+      "nets": 12,
+      "seconds": 55.271
+    },
+    {
+      "case_id": "6",
+      "input": "D:\\pcb_open_gt_in\\6.png",
+      "success": true,
+      "ic_geometry_seconds": 0.062,
+      "led_geometry_seconds": 0.002,
+      "bbox_convention_applied": 32,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 16,
+      "wire_cleanup": {
+        "merged": 6,
+        "dropped": 21
+      },
+      "components": 38,
+      "pins": 56,
+      "nets": 33,
+      "seconds": 39.813
+    },
+    {
+      "case_id": "7",
+      "input": "D:\\pcb_open_gt_in\\7.png",
+      "success": true,
+      "ic_geometry_seconds": 0.044,
+      "led_geometry_seconds": 0.002,
+      "bbox_convention_applied": 22,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 8,
+      "wire_cleanup": {
+        "merged": 25,
+        "dropped": 9
+      },
+      "components": 24,
+      "pins": 51,
+      "nets": 21,
+      "seconds": 26.507
+    },
+    {
+      "case_id": "8",
+      "input": "D:\\pcb_open_gt_in\\8.png",
+      "success": true,
+      "ic_geometry_seconds": 0.045,
+      "bbox_convention_applied": 19,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 13,
+      "wire_cleanup": {
+        "merged": 9,
+        "dropped": 6
+      },
+      "components": 20,
+      "pins": 34,
+      "nets": 16,
+      "seconds": 24.757
+    },
+    {
+      "case_id": "9",
+      "input": "D:\\pcb_open_gt_in\\9.png",
+      "success": true,
+      "ic_geometry_seconds": 0.029,
+      "bbox_convention_applied": 16,
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 6,
+      "wire_cleanup": {
+        "merged": 11,
+        "dropped": 8
+      },
+      "components": 17,
+      "pins": 26,
+      "nets": 13,
+      "seconds": 33.426
+    }
+  ],
+  "successes": 13
+}

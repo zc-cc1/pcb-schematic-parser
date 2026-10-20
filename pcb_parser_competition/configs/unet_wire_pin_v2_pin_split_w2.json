@@ -1,0 +1,55 @@
+{
+  "version": "2.0",
+  "model": "WirePinUNet",
+  "source_repository": "https://github.com/milesial/Pytorch-UNet",
+  "source_commit": "21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "base_channels": 32,
+  "input_channels": 3,
+  "outputs": [
+    "wire_mask",
+    "pin_tip_heatmap"
+  ],
+  "traditional_image_segmentation": false,
+  "tile_size": 512,
+  "stride": 384,
+  "label_line_width": 3,
+  "pin_sigma": 2.5,
+  "ignore_halo_px": 5,
+  "unowned_pin_ignore_radius_px": 8,
+  "labels_status": "draft_rasterized_source_geometry_v2_with_coordinates_fallback_not_certified",
+  "junction_head_status": "not_enabled_pending_verified_junction_labels",
+  "dataset": {
+    "manifest": "D:/pcb_unet_v2/data/segmentation_unet_v2/manifest.jsonl",
+    "summary": "D:/pcb_unet_v2/data/segmentation_unet_v2/summary.json",
+    "reviews": "D:/pcb_unet_v2/reports/label_reviews",
+    "v1_manifest_reference": "C:/Users/Pc/Desktop/新建文件夹/pcb_parser_competition/data/segmentation_unet_v1/manifest.jsonl",
+    "cache_root": "D:/pcb_unet_v2/data/tile_cache_v2"
+  },
+  "training": {
+    "epochs": 40,
+    "batch_size": 2,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "amp": true,
+    "seed": 20261011,
+    "wire_positive_weight": 8.0,
+    "pin_positive_weight": 20.0,
+    "device": "cuda:0",
+    "minimum_free_gpu_gib": 4,
+    "num_workers": 4,
+    "pin_loss_weight": 2.0
+  },
+  "inference": {
+    "wire_threshold": 0.5,
+    "pin_threshold": 0.9,
+    "pin_peak_kernel": 9,
+    "pin_tolerance_px": 5
+  },
+  "checkpoint": null,
+  "official_score": null,
+  "notes": [
+    "A3-combo: split decoder + pin loss weight 2.0. Tests whether the split architecture recovers the pin precision that pin_l1 reached, while keeping its wire gain."
+  ],
+  "model_variant": "split",
+  "pin_target": "pin_heatmap"
+}

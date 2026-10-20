@@ -1,0 +1,306 @@
+{
+  "gt_pin_fn": 42,
+  "categories": {
+    "name_number_correct_but_point_over_20px": 7,
+    "missing_exported_number_key": 28,
+    "wrong_name_at_existing_number": 7
+  },
+  "rows": [
+    {
+      "case": "1",
+      "owner": "U1",
+      "key": "pin_9",
+      "name": "EP",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "1",
+      "owner": "U2",
+      "key": "pin_4",
+      "name": "EN",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "U3",
+      "key": "pin_5",
+      "name": "VM",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_1",
+      "name": "GND",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_4",
+      "name": "CC1",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_5",
+      "name": "DN2",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_6",
+      "name": "DP1",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_7",
+      "name": "DN1",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_9",
+      "name": "SBU1",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_10",
+      "name": "CC2",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_11",
+      "name": "VBUS",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "1",
+      "owner": "USB1",
+      "key": "pin_13",
+      "name": "SHELL",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB2",
+      "key": "pin_6",
+      "name": "6",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB2",
+      "key": "pin_5",
+      "name": "5",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "1",
+      "owner": "USB2",
+      "key": "pin_2",
+      "name": "D-",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "2",
+      "owner": "U2",
+      "key": "pin_2",
+      "name": "VCC",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "4",
+      "owner": "U2",
+      "key": "pin_2",
+      "name": "VOUT",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "4",
+      "owner": "U2",
+      "key": "pin_3",
+      "name": "VIN",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "5",
+      "owner": "U1",
+      "key": "pin_1",
+      "name": "GND",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "5",
+      "owner": "U3",
+      "key": "pin_1",
+      "name": "ADJ(GND)",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "5",
+      "owner": "U3",
+      "key": "pin_2",
+      "name": "VOUT(TAB)",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "6",
+      "owner": "U1",
+      "key": "pin_1",
+      "name": "IN",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "6",
+      "owner": "U1",
+      "key": "pin_2",
+      "name": "GND",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "8",
+      "owner": "U1",
+      "key": "pin_2",
+      "name": "NC",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "8",
+      "owner": "U1",
+      "key": "pin_6",
+      "name": "NC",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "8",
+      "owner": "U1",
+      "key": "pin_16",
+      "name": "NC",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "10",
+      "owner": "U1",
+      "key": "pin_4",
+      "name": "VIA",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_1",
+      "name": "Vout",
+      "kind": "name_number_correct_but_point_over_20px"
+    },
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_2",
+      "name": "GND",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_3",
+      "name": "Vin",
+      "kind": "wrong_name_at_existing_number"
+    },
+    {
+      "case": "11",
+      "owner": "U1",
+      "key": "pin_2",
+      "name": "BAT",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "U1",
+      "key": "pin_6",
+      "name": "VDD",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "U1",
+      "key": "pin_8",
+      "name": "LED1",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB1",
+      "key": "pin_7",
+      "name": "EH",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB1",
+      "key": "pin_A5",
+      "name": "CC1",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB1",
+      "key": "pin_B5",
+      "name": "CC2",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB2",
+      "key": "pin_5",
+      "name": "SHLD",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB2",
+      "key": "pin_4",
+      "name": "GND",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB2",
+      "key": "pin_3",
+      "name": "D+",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB2",
+      "key": "pin_2",
+      "name": "D-",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "11",
+      "owner": "USB2",
+      "key": "pin_1",
+      "name": "VCC",
+      "kind": "missing_exported_number_key"
+    },
+    {
+      "case": "13",
+      "owner": "H1",
+      "key": "pin_3",
+      "name": "3",
+      "kind": "missing_exported_number_key"
+    }
+  ],
+  "post_hoc_only": true,
+  "used_by_prediction_code": false
+}

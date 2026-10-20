@@ -1,0 +1,255 @@
+{
+  "source_image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+  "entries": [
+    {
+      "component_id": "L1",
+      "type": "inductor",
+      "missing_fields": [
+        "value"
+      ],
+      "bbox_top_left": [
+        1326.402,
+        366.258,
+        1416.834,
+        394.944
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0033",
+          "text_id": "text_0030",
+          "text": "L1",
+          "bbox": [
+            1333.2421875,
+            355.5894470214844,
+            1359.046875,
+            377.2058410644531
+          ],
+          "confidence": 0.99966,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "L",
+          "source_text": "L1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 16.61521494804295,
+        "designator_assignment_margin": 73.38478505195701
+      },
+      "nearby_OCR": [
+        {
+          "text": "3",
+          "bbox": [
+            1336.5,
+            370.0,
+            1378.0,
+            388.5
+          ],
+          "confidence": 0.99881,
+          "view": "tile_614_235_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "3",
+              "confidence": 0.99881,
+              "view": "tile_614_235_r0"
+            }
+          ]
+        },
+        {
+          "text": "10uH",
+          "bbox": [
+            1338.0,
+            384.0,
+            1375.0,
+            400.0
+          ],
+          "confidence": 0.99574,
+          "view": "tile_1228_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "10uH",
+              "confidence": 0.99574,
+              "view": "tile_1228_0_r0"
+            },
+            {
+              "text": "10uH",
+              "confidence": 0.99492,
+              "view": "global"
+            },
+            {
+              "text": "10uH",
+              "confidence": 0.99403,
+              "view": "tile_1228_235_r0"
+            }
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            1333.2421875,
+            355.5894470214844,
+            1359.046875,
+            377.2058410644531
+          ],
+          "confidence": 0.99966,
+          "view": "global",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "L1",
+              "confidence": 0.99966,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            1338.0,
+            359.0,
+            1355.0,
+            372.5
+          ],
+          "confidence": 0.99988,
+          "view": "tile_1228_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "L1",
+              "confidence": 0.99988,
+              "view": "tile_1228_0_r0"
+            },
+            {
+              "text": "L1",
+              "confidence": 0.99984,
+              "view": "tile_1228_235_r0"
+            },
+            {
+              "text": "L1",
+              "confidence": 0.99978,
+              "view": "tile_614_235_r0"
+            }
+          ]
+        },
+        {
+          "text": "100nF",
+          "bbox": [
+            1239.0,
+            360.0,
+            1283.0,
+            376.0
+          ],
+          "confidence": 0.99979,
+          "view": "tile_614_0_r0",
+          "distance_px": 43.402,
+          "alternatives": [
+            {
+              "text": "100nF",
+              "confidence": 0.99979,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "100nF",
+              "confidence": 0.99977,
+              "view": "tile_1228_0_r0"
+            },
+            {
+              "text": "100nF",
+              "confidence": 0.99976,
+              "view": "tile_614_235_r90"
+            }
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            1239.0,
+            310.5,
+            1262.0,
+            328.5
+          ],
+          "confidence": 0.9767,
+          "view": "tile_614_0_r90",
+          "distance_px": 74.654,
+          "alternatives": [
+            {
+              "text": "8",
+              "confidence": 0.9767,
+              "view": "tile_614_0_r90"
+            },
+            {
+              "text": "8",
+              "confidence": 0.95671,
+              "view": "tile_1228_0_r90"
+            },
+            {
+              "text": "8",
+              "confidence": 0.84537,
+              "view": "tile_1228_235_r90"
+            }
+          ]
+        },
+        {
+          "text": "C8",
+          "bbox": [
+            1238.0,
+            312.0,
+            1261.0,
+            328.0
+          ],
+          "confidence": 0.99929,
+          "view": "tile_614_0_r0",
+          "distance_px": 75.77,
+          "alternatives": [
+            {
+              "text": "C8",
+              "confidence": 0.99929,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "C8",
+              "confidence": 0.99929,
+              "view": "tile_614_235_r0"
+            },
+            {
+              "text": "C8",
+              "confidence": 0.99929,
+              "view": "tile_1228_235_r0"
+            }
+          ]
+        },
+        {
+          "text": "C4",
+          "bbox": [
+            1398.5,
+            481.5,
+            1421.0,
+            497.5
+          ],
+          "confidence": 0.99959,
+          "view": "tile_1228_235_r0",
+          "distance_px": 86.556,
+          "alternatives": [
+            {
+              "text": "C4",
+              "confidence": 0.99959,
+              "view": "tile_1228_235_r0"
+            },
+            {
+              "text": "C4",
+              "confidence": 0.99892,
+              "view": "global"
+            },
+            {
+              "text": "C4",
+              "confidence": 0.99851,
+              "view": "tile_1228_0_r0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_fields_are_not_automatically_errors": true,
+  "values_or_names_changed": 0
+}

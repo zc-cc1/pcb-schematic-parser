@@ -1,0 +1,177 @@
+{
+  "enabled": true,
+  "policy": "image_lead_geometry_v1",
+  "frames": {
+    "U1": {
+      "box": [
+        956.5,
+        359.5,
+        1075,
+        458.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "USB1": {
+      "box": [
+        136.5,
+        270.5,
+        254.5,
+        408.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "USB2": {
+      "box": [
+        620.5,
+        349.5,
+        699.5,
+        448.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U1",
+      "row": 379,
+      "length": 19,
+      "side": "left",
+      "edge": 956.5,
+      "point": [
+        937.5,
+        379
+      ],
+      "name": "OUT",
+      "number": null,
+      "name_support": {
+        "OUT": 4
+      },
+      "number_support": {},
+      "number_offset": -5.862869958703698,
+      "status": "insufficient_fields"
+    },
+    {
+      "owner": "U1",
+      "row": 398.5,
+      "length": 29.0,
+      "side": "left",
+      "edge": 956.5,
+      "point": [
+        927.5,
+        398.5
+      ],
+      "name": "BAT",
+      "number": "2",
+      "name_support": {
+        "BAT": 4
+      },
+      "number_support": {
+        "2": 2
+      },
+      "number_offset": -5.862869958703698,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "U1",
+      "row": 379,
+      "length": 55,
+      "side": "right",
+      "edge": 1075,
+      "point": [
+        1091.8485848158598,
+        378.8161755949259
+      ],
+      "name": "LED1",
+      "number": "8",
+      "name_support": {
+        "LED1": 4
+      },
+      "number_support": {
+        "8": 2
+      },
+      "number_offset": -6.964301784833282,
+      "source_candidate_id": "PIN_CAND_0001",
+      "status": "owner_resolved_by_lead_and_text"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "row": 398.5,
+      "length": 29.0,
+      "side": "left",
+      "edge": 956.5,
+      "point": [
+        927.5,
+        398.5
+      ],
+      "name": "BAT",
+      "number": "2",
+      "name_support": {
+        "BAT": 4
+      },
+      "number_support": {
+        "2": 2
+      },
+      "number_offset": -5.862869958703698,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "U1",
+      "row": 379,
+      "length": 55,
+      "side": "right",
+      "edge": 1075,
+      "point": [
+        1091.8485848158598,
+        378.8161755949259
+      ],
+      "name": "LED1",
+      "number": "8",
+      "name_support": {
+        "LED1": 4
+      },
+      "number_support": {
+        "8": 2
+      },
+      "number_offset": -6.964301784833282,
+      "source_candidate_id": "PIN_CAND_0001",
+      "status": "owner_resolved_by_lead_and_text"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U1.2",
+      "status": "withheld",
+      "reason": "no_visible_green_wire"
+    },
+    {
+      "member": "U1.8",
+      "status": "withheld",
+      "reason": "no_unique_existing_exported_net",
+      "candidate_networks": [
+        "LOG_NET_CAND_00012"
+      ]
+    }
+  ],
+  "ocr_calls": 18,
+  "budget_exhausted": false,
+  "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "config_sha256": "614ab33ffebde2b48b941a19104a9011d532c1371d04e1162db1afc8aad45714",
+  "ocr_models": null
+}

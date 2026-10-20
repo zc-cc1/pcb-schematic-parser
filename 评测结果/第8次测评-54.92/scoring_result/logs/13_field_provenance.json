@@ -1,0 +1,127 @@
+{
+  "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+  "size": [
+    1370,
+    797
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/tmp/pcb_1f6z5qk2/p/observed_model_stage/completed_pin_text_result.json": "041d64a3e879fbda3b62b844e20f45aa8715da622faf48798bf80bcce6c03042",
+    "/tmp/pcb_1f6z5qk2/p/observed_model_stage/graph_proposals.json": "73c9e48b7f741129fcbe4c69819692bf54bd471952c72a5ab94240eccf08cfe9",
+    "/tmp/pcb_1f6z5qk2/p/observed_model_stage/completed_component_records.json": "c386af642654cb9799d33d2016e83ace57d302034be588cd8b98e93b433b9274",
+    "/tmp/pcb_1f6z5qk2/p/observed_model_stage/proposal_export/partial_submission.json": "be9135a7bcdeccdc32ca31da9201f9eb55f4447aaac9e513b704b70e5e7d3d4b",
+    "/tmp/pcb_1f6z5qk2/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "10455874ad0bd38af8870ac12a5597ca8847289c98581c107eaab2ecb2d0c0e8"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "all_original_member_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0010",
+        "PIN_CAND_0015"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0008": "PIN_CAND_0008",
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0015": "PIN_CAND_0015"
+      },
+      "all_pin_references": [
+        "C5.2",
+        "C6.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00001",
+        "W00004",
+        "W00005",
+        "W00006",
+        "W00007",
+        "W00008",
+        "W00009"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0008",
+          "contact_candidate_id": "PIN_CAND_0008",
+          "pin_reference": "C5.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0010",
+          "contact_candidate_id": "PIN_CAND_0010",
+          "pin_reference": "UNRESOLVED_DET_0010.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0015",
+          "contact_candidate_id": "PIN_CAND_0015",
+          "pin_reference": "C6.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "all_original_member_ids": [
+        "PIN_CAND_0020",
+        "PIN_CAND_0033"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0020": "PIN_CAND_0020",
+        "PIN_CAND_0033": "PIN_CAND_0033"
+      },
+      "all_pin_references": [
+        "L1.2",
+        "R1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00002"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0020",
+          "contact_candidate_id": "PIN_CAND_0020",
+          "pin_reference": "L1.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0033",
+          "contact_candidate_id": "PIN_CAND_0033",
+          "pin_reference": "R1.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    }
+  ]
+}

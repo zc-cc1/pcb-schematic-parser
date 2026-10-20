@@ -1,0 +1,635 @@
+{
+  "cases": [
+    "5",
+    "6",
+    "13"
+  ],
+  "macro": {
+    "baseline": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.3334333333333333,
+        "wire_f1": 0.30193333333333333
+      },
+      "score_100": 65.33666666666667,
+      "geometry_f1": 0.42042620134339326,
+      "one_to_one_network_wire_f1": 0.3334937539458296
+    },
+    "restore_existing_members": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.4056666666666667,
+        "wire_f1": 0.27233333333333337
+      },
+      "score_100": 67.57000000000001,
+      "geometry_f1": 0.6492312462126016,
+      "one_to_one_network_wire_f1": 0.41953099677278427
+    },
+    "restore_observed_power_contacts": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.43596666666666667,
+        "wire_f1": 0.27233333333333337
+      },
+      "score_100": 68.63000000000001,
+      "geometry_f1": 0.6492312462126016,
+      "one_to_one_network_wire_f1": 0.41953099677278427
+    },
+    "restore_physical_existing": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.4796666666666667,
+        "wire_f1": 0.2750666666666667
+      },
+      "score_100": 70.18666666666667,
+      "geometry_f1": 0.5955502461774165,
+      "one_to_one_network_wire_f1": 0.5111766909300748
+    },
+    "restore_physical_contacts": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.5882666666666666,
+        "wire_f1": 0.2601
+      },
+      "score_100": 73.84,
+      "geometry_f1": 0.6492312462126016,
+      "one_to_one_network_wire_f1": 0.5655702588818895
+    }
+  },
+  "per_case": [
+    {
+      "case": "5",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.4194,
+            "wire_f1": 0.3023
+          },
+          "score_100": 68.53,
+          "geometry_f1": 0.37209302325581395,
+          "one_to_one_network_wire_f1": 0.32558139534883723,
+          "restored": []
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.4595,
+            "wire_f1": 0.3119
+          },
+          "score_100": 70.03,
+          "geometry_f1": 0.5504587155963303,
+          "one_to_one_network_wire_f1": 0.3853211009174312,
+          "restored": [
+            {
+              "network_id": "PWR_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 8,
+              "added_power_contacts": 0,
+              "edges": 17,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00001",
+                "POWER_ROI_SITE_00006",
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00022",
+              "observed_rail": "GND",
+              "members": 5,
+              "added_power_contacts": 0,
+              "edges": 6,
+              "source_power_sites": [
+                "LABEL_SITE_00024",
+                "LABEL_SITE_00021",
+                "LABEL_SITE_00031",
+                "LABEL_SITE_00023",
+                "LABEL_SITE_00030"
+              ]
+            }
+          ]
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.5,
+            "wire_f1": 0.3119
+          },
+          "score_100": 71.45,
+          "geometry_f1": 0.5504587155963303,
+          "one_to_one_network_wire_f1": 0.3853211009174312,
+          "restored": [
+            {
+              "network_id": "PWR_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 11,
+              "added_power_contacts": 3,
+              "edges": 17,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00001",
+                "POWER_ROI_SITE_00006",
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00022",
+              "observed_rail": "GND",
+              "members": 10,
+              "added_power_contacts": 5,
+              "edges": 6,
+              "source_power_sites": [
+                "LABEL_SITE_00024",
+                "LABEL_SITE_00021",
+                "LABEL_SITE_00031",
+                "LABEL_SITE_00023",
+                "LABEL_SITE_00030"
+              ]
+            }
+          ]
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.5797,
+            "wire_f1": 0.2913
+          },
+          "score_100": 74.03,
+          "geometry_f1": 0.5436893203883495,
+          "one_to_one_network_wire_f1": 0.5048543689320388,
+          "restored": [
+            {
+              "network_id": "RESTORED_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 2,
+              "added_power_contacts": 0,
+              "edges": 7,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00001"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00005",
+              "observed_rail": "+5V",
+              "members": 4,
+              "added_power_contacts": 0,
+              "edges": 7,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00009",
+              "observed_rail": "+5V",
+              "members": 2,
+              "added_power_contacts": 0,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00006"
+              ]
+            }
+          ]
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.7805,
+            "wire_f1": 0.2752
+          },
+          "score_100": 80.9,
+          "geometry_f1": 0.5504587155963303,
+          "one_to_one_network_wire_f1": 0.5137614678899083,
+          "restored": [
+            {
+              "network_id": "RESTORED_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 3,
+              "added_power_contacts": 1,
+              "edges": 7,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00001"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00005",
+              "observed_rail": "+5V",
+              "members": 5,
+              "added_power_contacts": 1,
+              "edges": 7,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00009",
+              "observed_rail": "+5V",
+              "members": 3,
+              "added_power_contacts": 1,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00006"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00024",
+              "observed_rail": "GND",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 1,
+              "source_power_sites": [
+                "LABEL_SITE_00023"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00025",
+              "observed_rail": "GND",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 1,
+              "source_power_sites": [
+                "LABEL_SITE_00024"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00026",
+              "observed_rail": "GND",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 2,
+              "source_power_sites": [
+                "LABEL_SITE_00021"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00028",
+              "observed_rail": "GND",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 1,
+              "source_power_sites": [
+                "LABEL_SITE_00030"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00029",
+              "observed_rail": "GND",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 1,
+              "source_power_sites": [
+                "LABEL_SITE_00031"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "6",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.2105,
+            "wire_f1": 0.3178
+          },
+          "score_100": 60.050000000000004,
+          "geometry_f1": 0.3177570093457944,
+          "one_to_one_network_wire_f1": 0.3177570093457944,
+          "restored": []
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.3871,
+            "wire_f1": 0.2194
+          },
+          "score_100": 65.25,
+          "geometry_f1": 0.8258064516129032,
+          "one_to_one_network_wire_f1": 0.5161290322580645,
+          "restored": [
+            {
+              "network_id": "PWR_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 7,
+              "added_power_contacts": 0,
+              "edges": 12,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00009",
+                "POWER_ROI_SITE_00010"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00002",
+              "observed_rail": "3.3V",
+              "members": 9,
+              "added_power_contacts": 0,
+              "edges": 24,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00003",
+                "POWER_ROI_SITE_00004",
+                "POWER_ROI_SITE_00007",
+                "POWER_ROI_SITE_00008"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00004",
+              "observed_rail": "+12V",
+              "members": 3,
+              "added_power_contacts": 0,
+              "edges": 12,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00005",
+                "POWER_ROI_SITE_00006"
+              ]
+            }
+          ]
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.4375,
+            "wire_f1": 0.2194
+          },
+          "score_100": 67.01,
+          "geometry_f1": 0.8258064516129032,
+          "one_to_one_network_wire_f1": 0.5161290322580645,
+          "restored": [
+            {
+              "network_id": "PWR_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 9,
+              "added_power_contacts": 2,
+              "edges": 12,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00009",
+                "POWER_ROI_SITE_00010"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00002",
+              "observed_rail": "3.3V",
+              "members": 13,
+              "added_power_contacts": 4,
+              "edges": 24,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00003",
+                "POWER_ROI_SITE_00004",
+                "POWER_ROI_SITE_00007",
+                "POWER_ROI_SITE_00008"
+              ]
+            },
+            {
+              "network_id": "PWR_NET_CAND_00004",
+              "observed_rail": "+12V",
+              "members": 5,
+              "added_power_contacts": 2,
+              "edges": 12,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00005",
+                "POWER_ROI_SITE_00006"
+              ]
+            }
+          ]
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.4889,
+            "wire_f1": 0.2482
+          },
+          "score_100": 69.1,
+          "geometry_f1": 0.6715328467153284,
+          "one_to_one_network_wire_f1": 0.6715328467153284,
+          "restored": [
+            {
+              "network_id": "RESTORED_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 5,
+              "added_power_contacts": 0,
+              "edges": 9,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00009"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00004",
+              "observed_rail": "+5V",
+              "members": 2,
+              "added_power_contacts": 0,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00010"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00002",
+              "observed_rail": "3.3V",
+              "members": 2,
+              "added_power_contacts": 0,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00003",
+              "observed_rail": "3.3V",
+              "members": 5,
+              "added_power_contacts": 0,
+              "edges": 9,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00008"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00006",
+              "observed_rail": "+12V",
+              "members": 2,
+              "added_power_contacts": 0,
+              "edges": 6,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00006"
+              ]
+            }
+          ]
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.6139,
+            "wire_f1": 0.2194
+          },
+          "score_100": 73.19,
+          "geometry_f1": 0.8258064516129032,
+          "one_to_one_network_wire_f1": 0.8258064516129032,
+          "restored": [
+            {
+              "network_id": "RESTORED_NET_CAND_00001",
+              "observed_rail": "+5V",
+              "members": 6,
+              "added_power_contacts": 1,
+              "edges": 9,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00009"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00004",
+              "observed_rail": "+5V",
+              "members": 3,
+              "added_power_contacts": 1,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00010"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00002",
+              "observed_rail": "3.3V",
+              "members": 3,
+              "added_power_contacts": 1,
+              "edges": 3,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00007"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00003",
+              "observed_rail": "3.3V",
+              "members": 6,
+              "added_power_contacts": 1,
+              "edges": 9,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00008"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00007",
+              "observed_rail": "3.3V",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 6,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00003"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00009",
+              "observed_rail": "3.3V",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 6,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00004"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00006",
+              "observed_rail": "+12V",
+              "members": 3,
+              "added_power_contacts": 1,
+              "edges": 6,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00006"
+              ]
+            },
+            {
+              "network_id": "RESTORED_NET_CAND_00008",
+              "observed_rail": "+12V",
+              "members": 2,
+              "added_power_contacts": 1,
+              "edges": 6,
+              "source_power_sites": [
+                "POWER_ROI_SITE_00005"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "13",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.2857
+          },
+          "score_100": 67.43,
+          "geometry_f1": 0.5714285714285714,
+          "one_to_one_network_wire_f1": 0.35714285714285715,
+          "restored": []
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.2857
+          },
+          "score_100": 67.43,
+          "geometry_f1": 0.5714285714285714,
+          "one_to_one_network_wire_f1": 0.35714285714285715,
+          "restored": []
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.2857
+          },
+          "score_100": 67.43,
+          "geometry_f1": 0.5714285714285714,
+          "one_to_one_network_wire_f1": 0.35714285714285715,
+          "restored": []
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.2857
+          },
+          "score_100": 67.43,
+          "geometry_f1": 0.5714285714285714,
+          "one_to_one_network_wire_f1": 0.35714285714285715,
+          "restored": []
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.2857
+          },
+          "score_100": 67.43,
+          "geometry_f1": 0.5714285714285714,
+          "one_to_one_network_wire_f1": 0.35714285714285715,
+          "restored": []
+        }
+      }
+    }
+  ],
+  "starting_point": "Previously validated path-preserving test copy; deployment unchanged.",
+  "neural_inference_calls": 0,
+  "new_training": false,
+  "gt_used_by_transformation": false
+}

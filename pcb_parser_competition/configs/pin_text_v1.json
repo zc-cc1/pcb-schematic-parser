@@ -11,19 +11,32 @@
   "confidence_cost_px": 20,
   "distance_cost_weight": 0.06,
   "unmatched_cost": 38,
-  "ambiguity_margin": 3,
+  "ambiguity_margin": 0,
   "spelling_margin": 2,
-  "name_component_types": ["ic", "connector", "block", "opamp"],
-  "ball_number_component_types": ["ic", "connector", "block"],
+  "name_component_types": [
+    "ic",
+    "connector",
+    "block",
+    "opamp"
+  ],
+  "ball_number_component_types": [
+    "ic",
+    "connector",
+    "block"
+  ],
   "local_ocr": {
     "enabled": false,
     "max_rois": 64,
     "scale": 3,
-    "rotations": [0, 90],
+    "rotations": [
+      0,
+      90
+    ],
     "tangent_padding_px": 24,
     "crop_boundary_guard_px": 2,
     "min_observation_confidence": 0.55
   },
   "onnx_threads": 4,
-  "status": "image_text_evidence_only_no_number_guess_no_nets"
+  "status": "image_text_evidence_only_no_number_guess_no_nets",
+  "ambiguity_margin_note": "Relaxing 3 -> 0 raised OCR number correctness 50.2% -> 56.7% on 735 labelled pins, but geometric auto-numbering is more accurate than OCR numbers for two-pin parts (74.5%), so the relaxation replaced better numbers with worse ones and did not improve the score. Kept at 3."
 }

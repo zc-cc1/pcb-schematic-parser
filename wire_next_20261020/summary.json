@@ -1,0 +1,1230 @@
+{
+  "summary": {
+    "baseline": {
+      "wire_f1": 0.5568153846153846,
+      "connectivity_f1": 0.5345004510569931
+    },
+    "unique_only": {
+      "wire_f1": 0.5928538461538462,
+      "connectivity_f1": 0.5793598276697539
+    },
+    "unique_or_explicit_primary": {
+      "wire_f1": 0.6063923076923077,
+      "connectivity_f1": 0.5925975398790766
+    }
+  },
+  "changes": {
+    "wire": {
+      "improved": 7,
+      "unchanged": 6,
+      "worse": 0
+    },
+    "connectivity": {
+      "improved": 10,
+      "unchanged": 3,
+      "worse": 0
+    }
+  },
+  "contacts_added": 41,
+  "order_checks_passed": 65,
+  "idempotent_cases": 13,
+  "component_and_pin_metrics_unchanged_cases": 13,
+  "wire_geometry_unchanged_cases": 13,
+  "neural_inference_calls": 0,
+  "connectivity_historical_calibration_cases": 26,
+  "production_modified": false,
+  "per_case": [
+    {
+      "case": "1",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 77,
+            "fp": 59,
+            "fn": 39,
+            "precision": 0.5662,
+            "recall": 0.6638,
+            "f1": 0.6111
+          },
+          "connectivity": 0.6013613375243256,
+          "score_100": 68.25214681335139,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 77,
+            "fp": 59,
+            "fn": 39,
+            "precision": 0.5662,
+            "recall": 0.6638,
+            "f1": 0.6111
+          },
+          "connectivity": 0.6394087152257086,
+          "score_100": 69.5838050328998,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00061",
+              "owner": "UNRESOLVED_DET_0021",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0006",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00035",
+              "owner": "UNRESOLVED_DET_0047",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0022",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0054",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0078",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00044",
+              "owner": "UNRESOLVED_DET_0052",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0082",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 77,
+            "fp": 59,
+            "fn": 39,
+            "precision": 0.5662,
+            "recall": 0.6638,
+            "f1": 0.6111
+          },
+          "connectivity": 0.6394087152257086,
+          "score_100": 69.5838050328998,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00061",
+              "owner": "UNRESOLVED_DET_0021",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0006",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00035",
+              "owner": "UNRESOLVED_DET_0047",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0022",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0054",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0078",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00044",
+              "owner": "UNRESOLVED_DET_0052",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0082",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "2",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 30,
+            "fp": 14,
+            "fn": 10,
+            "precision": 0.6818,
+            "recall": 0.75,
+            "f1": 0.7143
+          },
+          "connectivity": 0.7321212121212122,
+          "score_100": 84.06274242424243,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 32,
+            "fp": 12,
+            "fn": 8,
+            "precision": 0.7273,
+            "recall": 0.8,
+            "f1": 0.7619
+          },
+          "connectivity": 0.8250517598343684,
+          "score_100": 87.79131159420291,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0028",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0015",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00026",
+              "owner": "UNRESOLVED_DET_0026",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0020",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00021",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0030",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 34,
+            "fp": 10,
+            "fn": 6,
+            "precision": 0.7727,
+            "recall": 0.85,
+            "f1": 0.8095
+          },
+          "connectivity": 0.9338624338624338,
+          "score_100": 92.07568518518518,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0028",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0015",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00026",
+              "owner": "UNRESOLVED_DET_0026",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0020",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00009",
+              "owner": "UNRESOLVED_DET_0014",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0029",
+              "duplicate_count": 1
+            },
+            {
+              "network_id": "LOG_NET_CAND_00021",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0030",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00011",
+              "owner": "UNRESOLVED_DET_0015",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0034",
+              "duplicate_count": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "3",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 28,
+            "fp": 18,
+            "fn": 18,
+            "precision": 0.6087,
+            "recall": 0.6087,
+            "f1": 0.6087
+          },
+          "connectivity": 0.7649896800825593,
+          "score_100": 84.92163880288956,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 28,
+            "fp": 18,
+            "fn": 18,
+            "precision": 0.6087,
+            "recall": 0.6087,
+            "f1": 0.6087
+          },
+          "connectivity": 0.7649896800825593,
+          "score_100": 84.92163880288956,
+          "contacts": []
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 28,
+            "fp": 18,
+            "fn": 18,
+            "precision": 0.6087,
+            "recall": 0.6087,
+            "f1": 0.6087
+          },
+          "connectivity": 0.7649896800825593,
+          "score_100": 84.92163880288956,
+          "contacts": []
+        }
+      }
+    },
+    {
+      "case": "4",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 26,
+            "fp": 21,
+            "fn": 33,
+            "precision": 0.5532,
+            "recall": 0.4407,
+            "f1": 0.4906
+          },
+          "connectivity": 0.2746678608747574,
+          "score_100": 65.00837513061651,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 36,
+            "fp": 11,
+            "fn": 23,
+            "precision": 0.766,
+            "recall": 0.6102,
+            "f1": 0.6792
+          },
+          "connectivity": 0.35641025641025637,
+          "score_100": 69.75535897435897,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00003",
+              "owner": "UNRESOLVED_DET_0022",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0006",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00010",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0015",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00008",
+              "owner": "UNRESOLVED_DET_0013",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0017",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00014",
+              "owner": "UNRESOLVED_DET_0014",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00004",
+              "owner": "UNRESOLVED_DET_0009",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0030",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 36,
+            "fp": 11,
+            "fn": 23,
+            "precision": 0.766,
+            "recall": 0.6102,
+            "f1": 0.6792
+          },
+          "connectivity": 0.35641025641025637,
+          "score_100": 69.75535897435897,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00003",
+              "owner": "UNRESOLVED_DET_0022",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0006",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00010",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0015",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00008",
+              "owner": "UNRESOLVED_DET_0013",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0017",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00014",
+              "owner": "UNRESOLVED_DET_0014",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00004",
+              "owner": "UNRESOLVED_DET_0009",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0030",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "5",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 26,
+            "fp": 26,
+            "fn": 31,
+            "precision": 0.5,
+            "recall": 0.4561,
+            "f1": 0.4771
+          },
+          "connectivity": 0.5612049533618161,
+          "score_100": 75.24567336766357,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 28,
+            "fp": 24,
+            "fn": 29,
+            "precision": 0.5385,
+            "recall": 0.4912,
+            "f1": 0.5138
+          },
+          "connectivity": 0.6522765969132751,
+          "score_100": 78.80018089196463,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00008",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "+3.3V",
+              "candidate_id": "PIN_CAND_0008",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0015",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00002",
+              "owner": "UNRESOLVED_DET_0017",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0013",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 28,
+            "fp": 24,
+            "fn": 29,
+            "precision": 0.5385,
+            "recall": 0.4912,
+            "f1": 0.5138
+          },
+          "connectivity": 0.6522765969132751,
+          "score_100": 78.80018089196463,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00008",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "+3.3V",
+              "candidate_id": "PIN_CAND_0008",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0015",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00002",
+              "owner": "UNRESOLVED_DET_0017",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0013",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "6",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 56,
+            "fp": 13,
+            "fn": 30,
+            "precision": 0.8116,
+            "recall": 0.6512,
+            "f1": 0.7226
+          },
+          "connectivity": 0.3519879647539222,
+          "score_100": 69.05357876638728,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 57,
+            "fp": 12,
+            "fn": 29,
+            "precision": 0.8261,
+            "recall": 0.6628,
+            "f1": 0.7355
+          },
+          "connectivity": 0.38746556473829197,
+          "score_100": 70.42429476584022,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00013",
+              "owner": "UNRESOLVED_DET_0007",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0031",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00011",
+              "owner": "UNRESOLVED_DET_0011",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0053",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00024",
+              "owner": "UNRESOLVED_DET_0016",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0061",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00023",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0070",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 59,
+            "fp": 10,
+            "fn": 27,
+            "precision": 0.8551,
+            "recall": 0.686,
+            "f1": 0.7613
+          },
+          "connectivity": 0.4010051736881005,
+          "score_100": 71.15618107908352,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00013",
+              "owner": "UNRESOLVED_DET_0007",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0031",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00021",
+              "owner": "UNRESOLVED_DET_0008",
+              "number": "2",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0034",
+              "duplicate_count": 1
+            },
+            {
+              "network_id": "LOG_NET_CAND_00015",
+              "owner": "UNRESOLVED_DET_0006",
+              "number": "2",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0072",
+              "duplicate_count": 1
+            },
+            {
+              "network_id": "LOG_NET_CAND_00011",
+              "owner": "UNRESOLVED_DET_0011",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0053",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00024",
+              "owner": "UNRESOLVED_DET_0016",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0061",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0010",
+              "number": "2",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0068",
+              "duplicate_count": 1
+            },
+            {
+              "network_id": "LOG_NET_CAND_00023",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0070",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "7",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 35,
+            "fp": 31,
+            "fn": 33,
+            "precision": 0.5303,
+            "recall": 0.5147,
+            "f1": 0.5224
+          },
+          "connectivity": 0.5372434017595309,
+          "score_100": 79.02751906158358,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 39,
+            "fp": 27,
+            "fn": 29,
+            "precision": 0.5909,
+            "recall": 0.5735,
+            "f1": 0.5821
+          },
+          "connectivity": 0.6333333333333334,
+          "score_100": 82.98766666666667,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00010",
+              "owner": "UNRESOLVED_DET_0010",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0004",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00001",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "+12V",
+              "candidate_id": "PIN_CAND_0007",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0014",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0010",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00014",
+              "owner": "UNRESOLVED_DET_0003",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0008",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0019",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00015",
+              "owner": "UNRESOLVED_DET_0019",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 39,
+            "fp": 27,
+            "fn": 29,
+            "precision": 0.5909,
+            "recall": 0.5735,
+            "f1": 0.5821
+          },
+          "connectivity": 0.6333333333333334,
+          "score_100": 82.98766666666667,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00010",
+              "owner": "UNRESOLVED_DET_0010",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0004",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00001",
+              "owner": "UNRESOLVED_DET_0012",
+              "number": "1",
+              "rail": "+12V",
+              "candidate_id": "PIN_CAND_0007",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0014",
+              "number": "1",
+              "rail": "+5V",
+              "candidate_id": "PIN_CAND_0010",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00014",
+              "owner": "UNRESOLVED_DET_0003",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0008",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0019",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00015",
+              "owner": "UNRESOLVED_DET_0019",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "8",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 39,
+            "fp": 11,
+            "fn": 11,
+            "precision": 0.78,
+            "recall": 0.78,
+            "f1": 0.78
+          },
+          "connectivity": 0.7815873015873015,
+          "score_100": 86.07055555555556,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 39,
+            "fp": 11,
+            "fn": 11,
+            "precision": 0.78,
+            "recall": 0.78,
+            "f1": 0.78
+          },
+          "connectivity": 0.8171428571428571,
+          "score_100": 87.31500000000001,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00001",
+              "owner": "UNRESOLVED_DET_0011",
+              "number": "1",
+              "rail": "VDD_1.9V",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0023",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0021",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 39,
+            "fp": 11,
+            "fn": 11,
+            "precision": 0.78,
+            "recall": 0.78,
+            "f1": 0.78
+          },
+          "connectivity": 0.8171428571428571,
+          "score_100": 87.31500000000001,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00001",
+              "owner": "UNRESOLVED_DET_0011",
+              "number": "1",
+              "rail": "VDD_1.9V",
+              "candidate_id": "PIN_CAND_0011",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00022",
+              "owner": "UNRESOLVED_DET_0023",
+              "number": "1",
+              "rail": "3.3V",
+              "candidate_id": "PIN_CAND_0021",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "9",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 12,
+            "fp": 9,
+            "fn": 27,
+            "precision": 0.5714,
+            "recall": 0.3077,
+            "f1": 0.4
+          },
+          "connectivity": 0.48888888888888893,
+          "score_100": 72.58311111111111,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 13,
+            "fp": 8,
+            "fn": 26,
+            "precision": 0.619,
+            "recall": 0.3333,
+            "f1": 0.4333
+          },
+          "connectivity": 0.522488038277512,
+          "score_100": 74.0920813397129,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00021",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0017",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0002",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0018",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 13,
+            "fp": 8,
+            "fn": 26,
+            "precision": 0.619,
+            "recall": 0.3333,
+            "f1": 0.4333
+          },
+          "connectivity": 0.522488038277512,
+          "score_100": 74.0920813397129,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00021",
+              "owner": "UNRESOLVED_DET_0020",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0017",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00006",
+              "owner": "UNRESOLVED_DET_0002",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0018",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "10",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 33,
+            "fp": 41,
+            "fn": 49,
+            "precision": 0.4459,
+            "recall": 0.4024,
+            "f1": 0.4231
+          },
+          "connectivity": 0.4388888888888889,
+          "score_100": 64.91461111111111,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 40,
+            "fp": 34,
+            "fn": 42,
+            "precision": 0.5405,
+            "recall": 0.4878,
+            "f1": 0.5128
+          },
+          "connectivity": 0.4961180124223602,
+          "score_100": 67.81463043478261,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00003",
+              "owner": "UNRESOLVED_DET_0018",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0008",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00012",
+              "owner": "UNRESOLVED_DET_0003",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0010",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0026",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0018",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00025",
+              "owner": "UNRESOLVED_DET_0017",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0047",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 48,
+            "fp": 26,
+            "fn": 34,
+            "precision": 0.6486,
+            "recall": 0.5854,
+            "f1": 0.6154
+          },
+          "connectivity": 0.5458579881656804,
+          "score_100": 70.58152958579882,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00003",
+              "owner": "UNRESOLVED_DET_0018",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0008",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00012",
+              "owner": "UNRESOLVED_DET_0003",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0010",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0026",
+              "number": "1",
+              "rail": "VCC",
+              "candidate_id": "PIN_CAND_0018",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00024",
+              "owner": "UNRESOLVED_DET_0008",
+              "number": "2",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0055",
+              "duplicate_count": 2
+            },
+            {
+              "network_id": "LOG_NET_CAND_00025",
+              "owner": "UNRESOLVED_DET_0017",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0047",
+              "duplicate_count": 0
+            },
+            {
+              "network_id": "LOG_NET_CAND_00010",
+              "owner": "UNRESOLVED_DET_0013",
+              "number": "2",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0058",
+              "duplicate_count": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "11",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 18,
+            "fp": 11,
+            "fn": 6,
+            "precision": 0.6207,
+            "recall": 0.75,
+            "f1": 0.6792
+          },
+          "connectivity": 0.5380952380952381,
+          "score_100": 58.40333333333333,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 18,
+            "fp": 11,
+            "fn": 6,
+            "precision": 0.6207,
+            "recall": 0.75,
+            "f1": 0.6792
+          },
+          "connectivity": 0.5595238095238095,
+          "score_100": 59.15333333333332,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0007",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            }
+          ]
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 18,
+            "fp": 11,
+            "fn": 6,
+            "precision": 0.6207,
+            "recall": 0.75,
+            "f1": 0.6792
+          },
+          "connectivity": 0.5595238095238095,
+          "score_100": 59.15333333333332,
+          "contacts": [
+            {
+              "network_id": "LOG_NET_CAND_00007",
+              "owner": "UNRESOLVED_DET_0007",
+              "number": "1",
+              "rail": "GND",
+              "candidate_id": "PIN_CAND_0023",
+              "duplicate_count": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "12",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 13,
+            "fp": 11,
+            "fn": 15,
+            "precision": 0.5417,
+            "recall": 0.4643,
+            "f1": 0.5
+          },
+          "connectivity": 0.5666666666666667,
+          "score_100": 70.91433333333333,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 13,
+            "fp": 11,
+            "fn": 15,
+            "precision": 0.5417,
+            "recall": 0.4643,
+            "f1": 0.5
+          },
+          "connectivity": 0.5666666666666667,
+          "score_100": 70.91433333333333,
+          "contacts": []
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 13,
+            "fp": 11,
+            "fn": 15,
+            "precision": 0.5417,
+            "recall": 0.4643,
+            "f1": 0.5
+          },
+          "connectivity": 0.5666666666666667,
+          "score_100": 70.91433333333333,
+          "contacts": []
+        }
+      }
+    },
+    {
+      "case": "13",
+      "variants": {
+        "baseline": {
+          "wire": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "connectivity": 0.31080246913580245,
+          "score_100": 65.5785864197531,
+          "contacts": []
+        },
+        "unique_only": {
+          "wire": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "connectivity": 0.31080246913580245,
+          "score_100": 65.5785864197531,
+          "contacts": []
+        },
+        "unique_or_explicit_primary": {
+          "wire": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "connectivity": 0.31080246913580245,
+          "score_100": 65.5785864197531,
+          "contacts": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1460 @@
+{
+  "status": "partial_image_predictions_only_not_complete_submission",
+  "local_contract_valid": true,
+  "official_evaluator_verified": false,
+  "exported_components": 36,
+  "exported_pins": 97,
+  "exported_nets": 35,
+  "pending_pins": [
+    {
+      "candidate_id": "PIN_CAND_0006",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0018",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0022",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0045",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0047",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0061",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0064",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0065",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0067",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0068",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0072",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0078",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0079",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0080",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0082",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0086",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0087",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0092",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0093",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0094",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0096",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0097",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0098",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0102",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0103",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0105",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0107",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0110",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0111",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0112",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0114",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0117",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0118",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0120",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0122",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0123",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0124",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0126",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0127",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0129",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0130",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0131",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0132",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0134",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0135",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0136",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0138",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0141",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0142",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0143",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0144",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0145",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0148",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0149",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0150",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0152",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0154",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0155",
+      "reasons": [
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0156",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0157",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0158",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0159",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0160",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0161",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0162",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0163",
+      "reasons": [
+        "component_identity_unresolved",
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0165",
+      "reasons": [
+        "pin_number_unresolved",
+        "pin_name_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0166",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0167",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    }
+  ],
+  "withheld_networks": [
+    {
+      "network_id": "LOG_NET_CAND_00020",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00024",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00026",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00030",
+      "reasons": [
+        "no_resolvable_member",
+        "detected_power_symbol_near_wire_without_attached_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00046",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00047",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00060",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00062",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00063",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00018",
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00019",
+      "reasons": [
+        "detected_power_symbol_near_wire_without_attached_member"
+      ]
+    },
+    {
+      "network_id": "PWR_NET_CAND_00028",
+      "reasons": [
+        "power_logical_membership_provisional"
+      ]
+    }
+  ],
+  "pin_reason_counts": {
+    "component_identity_unresolved": 38,
+    "pin_number_unresolved": 37,
+    "pin_name_unresolved": 27
+  },
+  "network_reason_counts": {
+    "no_resolvable_member": 9,
+    "detected_power_symbol_near_wire_without_attached_member": 4,
+    "power_logical_membership_provisional": 1
+  },
+  "coordinate_transform": "H-y; local provisional convention",
+  "blank_pin_names_guessed": 0,
+  "logical_flywire_merges": 0,
+  "power_symbol_merges": 0,
+  "complete_competition_JSON": false,
+  "flywire_zero_length_geometry": "provisional_from_PDF_example_no_official_Golden",
+  "exported_network_ids": [
+    "LOG_NET_CAND_00001",
+    "LOG_NET_CAND_00002",
+    "LOG_NET_CAND_00003",
+    "LOG_NET_CAND_00004",
+    "LOG_NET_CAND_00005",
+    "LOG_NET_CAND_00006",
+    "LOG_NET_CAND_00007",
+    "LOG_NET_CAND_00008",
+    "LOG_NET_CAND_00009",
+    "LOG_NET_CAND_00011",
+    "LOG_NET_CAND_00012",
+    "LOG_NET_CAND_00014",
+    "LOG_NET_CAND_00016",
+    "LOG_NET_CAND_00017",
+    "LOG_NET_CAND_00021",
+    "LOG_NET_CAND_00022",
+    "LOG_NET_CAND_00023",
+    "LOG_NET_CAND_00027",
+    "LOG_NET_CAND_00029",
+    "LOG_NET_CAND_00032",
+    "LOG_NET_CAND_00034",
+    "LOG_NET_CAND_00035",
+    "LOG_NET_CAND_00036",
+    "LOG_NET_CAND_00037",
+    "LOG_NET_CAND_00038",
+    "LOG_NET_CAND_00039",
+    "LOG_NET_CAND_00040",
+    "LOG_NET_CAND_00042",
+    "LOG_NET_CAND_00043",
+    "LOG_NET_CAND_00044",
+    "LOG_NET_CAND_00045",
+    "LOG_NET_CAND_00049",
+    "LOG_NET_CAND_00054",
+    "LOG_NET_CAND_00057",
+    "LOG_NET_CAND_00061"
+  ],
+  "power_guard_excluded_network_ids": [
+    "LOG_NET_CAND_00015",
+    "LOG_NET_CAND_00018",
+    "LOG_NET_CAND_00019"
+  ],
+  "power_guard_is_heuristic": true,
+  "power_guard_blocked_network_ids": [
+    "LOG_NET_CAND_00015",
+    "LOG_NET_CAND_00018",
+    "LOG_NET_CAND_00019",
+    "LOG_NET_CAND_00030"
+  ],
+  "atomic_complete_network_proofs": [
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "all_original_member_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0028",
+        "PIN_CAND_0062",
+        "PIN_CAND_0076",
+        "PIN_CAND_0157"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0011": "PIN_CAND_0011",
+        "PIN_CAND_0028": "PIN_CAND_0028",
+        "PIN_CAND_0062": "PIN_CAND_0062",
+        "PIN_CAND_0076": "PIN_CAND_0076",
+        "PIN_CAND_0157": "PIN_CAND_0157"
+      },
+      "all_pin_references": [
+        "U1.8",
+        "USB2.1",
+        "C11.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00006",
+        "W00007",
+        "W00008_1",
+        "W00008_2",
+        "W00009",
+        "W00010"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00003",
+      "all_original_member_ids": [
+        "PIN_CAND_0030",
+        "PIN_CAND_0046",
+        "PIN_CAND_0144"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0030": "PIN_CAND_0030",
+        "PIN_CAND_0046": "PIN_CAND_0046",
+        "PIN_CAND_0144": "PIN_CAND_0144"
+      },
+      "all_pin_references": [
+        "USB1.11",
+        "USB1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00020",
+        "W00021",
+        "W00023",
+        "W00024",
+        "W00025_1",
+        "W00025_2"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "all_original_member_ids": [
+        "PIN_CAND_0008",
+        "PIN_CAND_0021",
+        "PIN_CAND_0036"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0008": "PIN_CAND_0008",
+        "PIN_CAND_0021": "PIN_CAND_0021",
+        "PIN_CAND_0036": "PIN_CAND_0036"
+      },
+      "all_pin_references": [
+        "U1.2",
+        "LED2.2",
+        "LED1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00033",
+        "W00050",
+        "W00051"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "all_original_member_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0013",
+        "PIN_CAND_0050"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0005": "PIN_CAND_0005",
+        "PIN_CAND_0013": "PIN_CAND_0013",
+        "PIN_CAND_0050": "PIN_CAND_0050"
+      },
+      "all_pin_references": [
+        "U1.3",
+        "LED4.5",
+        "LED4.4"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00040",
+        "W00052",
+        "W00053"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00007",
+      "all_original_member_ids": [
+        "PIN_CAND_0009",
+        "PIN_CAND_0032",
+        "PIN_CAND_0034",
+        "PIN_CAND_0081",
+        "PIN_CAND_0108"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0009": "PIN_CAND_0009",
+        "PIN_CAND_0032": "PIN_CAND_0032",
+        "PIN_CAND_0034": "PIN_CAND_0034",
+        "PIN_CAND_0081": "PIN_CAND_0081",
+        "PIN_CAND_0108": "PIN_CAND_0108"
+      },
+      "all_pin_references": [
+        "R12.1",
+        "U3.2",
+        "H2.1",
+        "U3.3",
+        "C9.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 5,
+      "model_edge_ids": [
+        "W00063",
+        "W00064",
+        "W00065",
+        "W00070",
+        "W00071",
+        "W00074",
+        "W00075"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "all_original_member_ids": [
+        "PIN_CAND_0060",
+        "PIN_CAND_0066",
+        "PIN_CAND_0088",
+        "PIN_CAND_0091",
+        "PIN_CAND_0137",
+        "PIN_CAND_0139"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0060": "PIN_CAND_0060",
+        "PIN_CAND_0066": "PIN_CAND_0066",
+        "PIN_CAND_0088": "PIN_CAND_0088",
+        "PIN_CAND_0091": "PIN_CAND_0091",
+        "PIN_CAND_0137": "PIN_CAND_0137",
+        "PIN_CAND_0139": "PIN_CAND_0139"
+      },
+      "all_pin_references": [
+        "U1.4",
+        "LED1.1",
+        "LED4.2",
+        "LED2.1",
+        "LED4.1",
+        "LED4.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 6,
+      "model_edge_ids": [
+        "W00044",
+        "W00057",
+        "W00058",
+        "W00059",
+        "W00060",
+        "W00068",
+        "W00069"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "all_original_member_ids": [
+        "PIN_CAND_0071",
+        "PIN_CAND_0075",
+        "PIN_CAND_0084",
+        "PIN_CAND_0093",
+        "PIN_CAND_0102",
+        "PIN_CAND_0145",
+        "PIN_CAND_0154",
+        "PIN_CAND_0156",
+        "PIN_CAND_0166"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0071": "PIN_CAND_0071",
+        "PIN_CAND_0075": "PIN_CAND_0075",
+        "PIN_CAND_0084": "PIN_CAND_0084",
+        "PIN_CAND_0093": "PIN_CAND_0093",
+        "PIN_CAND_0102": "PIN_CAND_0102",
+        "PIN_CAND_0145": "PIN_CAND_0145",
+        "PIN_CAND_0154": "PIN_CAND_0154",
+        "PIN_CAND_0156": "PIN_CAND_0156",
+        "PIN_CAND_0166": "PIN_CAND_0166"
+      },
+      "all_pin_references": [
+        "R12.2",
+        "C10.1",
+        "U3.4"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00047_1",
+        "W00047_2",
+        "W00047_3",
+        "W00062",
+        "W00066",
+        "W00076",
+        "W00077",
+        "W00079_1",
+        "W00079_2",
+        "W00080",
+        "W00081",
+        "W00082",
+        "W00084"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "all_original_member_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0038",
+        "PIN_CAND_0095"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0001": "PIN_CAND_0001",
+        "PIN_CAND_0038": "PIN_CAND_0038",
+        "PIN_CAND_0095": "PIN_CAND_0095"
+      },
+      "all_pin_references": [
+        "U3.1",
+        "C9.1",
+        "R1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00078",
+        "W00085",
+        "W00086"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "all_original_member_ids": [
+        "PIN_CAND_0054",
+        "PIN_CAND_0061",
+        "PIN_CAND_0116",
+        "PIN_CAND_0147"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0054": "PIN_CAND_0054",
+        "PIN_CAND_0061": "PIN_CAND_0061",
+        "PIN_CAND_0116": "PIN_CAND_0116",
+        "PIN_CAND_0147": "PIN_CAND_0147"
+      },
+      "all_pin_references": [
+        "R15.2",
+        "SW2.6",
+        "R15.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00096",
+        "W00097",
+        "W00098",
+        "W00099",
+        "W00106",
+        "W00107",
+        "W00117",
+        "W00126",
+        "W00183",
+        "W00186"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00014",
+      "all_original_member_ids": [
+        "PIN_CAND_0012",
+        "PIN_CAND_0031",
+        "PIN_CAND_0057",
+        "PIN_CAND_0105",
+        "PIN_CAND_0110",
+        "PIN_CAND_0130"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0012": "PIN_CAND_0012",
+        "PIN_CAND_0031": "PIN_CAND_0031",
+        "PIN_CAND_0057": "PIN_CAND_0057",
+        "PIN_CAND_0105": "PIN_CAND_0105",
+        "PIN_CAND_0110": "PIN_CAND_0110",
+        "PIN_CAND_0130": "PIN_CAND_0130"
+      },
+      "all_pin_references": [
+        "R17.5",
+        "R16.2",
+        "R18.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00101",
+        "W00102",
+        "W00103",
+        "W00104",
+        "W00105",
+        "W00108",
+        "W00112_1",
+        "W00112_2",
+        "W00122",
+        "W00123",
+        "W00124",
+        "W00125",
+        "W00127",
+        "W00181_1",
+        "W00181_2",
+        "W00188",
+        "W00191",
+        "W00192"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00017",
+      "all_original_member_ids": [
+        "PIN_CAND_0026",
+        "PIN_CAND_0033",
+        "PIN_CAND_0040",
+        "PIN_CAND_0042",
+        "PIN_CAND_0051",
+        "PIN_CAND_0052",
+        "PIN_CAND_0058",
+        "PIN_CAND_0063",
+        "PIN_CAND_0073",
+        "PIN_CAND_0077"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0026": "PIN_CAND_0026",
+        "PIN_CAND_0033": "PIN_CAND_0033",
+        "PIN_CAND_0040": "PIN_CAND_0040",
+        "PIN_CAND_0042": "PIN_CAND_0042",
+        "PIN_CAND_0051": "PIN_CAND_0051",
+        "PIN_CAND_0052": "PIN_CAND_0052",
+        "PIN_CAND_0058": "PIN_CAND_0058",
+        "PIN_CAND_0063": "PIN_CAND_0063",
+        "PIN_CAND_0073": "PIN_CAND_0073",
+        "PIN_CAND_0077": "PIN_CAND_0077"
+      },
+      "all_pin_references": [
+        "U2.3",
+        "R15.1",
+        "R18.1",
+        "R11.2",
+        "R19.1",
+        "R10.1",
+        "LED-.1",
+        "R17.1",
+        "R20.1",
+        "R16.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 10,
+      "model_edge_ids": [
+        "W00139",
+        "W00142",
+        "W00143",
+        "W00144",
+        "W00145",
+        "W00146",
+        "W00147",
+        "W00149",
+        "W00150",
+        "W00151",
+        "W00152",
+        "W00153",
+        "W00154",
+        "W00155",
+        "W00156",
+        "W00157",
+        "W00158"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "all_original_member_ids": [
+        "PIN_CAND_0029",
+        "PIN_CAND_0049",
+        "PIN_CAND_0056",
+        "PIN_CAND_0089"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0029": "PIN_CAND_0029",
+        "PIN_CAND_0049": "PIN_CAND_0049",
+        "PIN_CAND_0056": "PIN_CAND_0056",
+        "PIN_CAND_0089": "PIN_CAND_0089"
+      },
+      "all_pin_references": [
+        "LED+.1",
+        "D1.1",
+        "R11.1",
+        "C14.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 4,
+      "model_edge_ids": [
+        "W00171",
+        "W00174",
+        "W00175",
+        "W00176",
+        "W00180"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00022",
+      "all_original_member_ids": [
+        "PIN_CAND_0078",
+        "PIN_CAND_0099"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0078": "PIN_CAND_0078",
+        "PIN_CAND_0099": "PIN_CAND_0099"
+      },
+      "all_pin_references": [
+        "L2.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00172",
+        "W00177"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "all_original_member_ids": [
+        "PIN_CAND_0017",
+        "PIN_CAND_0085",
+        "PIN_CAND_0090"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0017": "PIN_CAND_0017",
+        "PIN_CAND_0085": "PIN_CAND_0085",
+        "PIN_CAND_0090": "PIN_CAND_0090"
+      },
+      "all_pin_references": [
+        "D1.2",
+        "U2.1",
+        "L2.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00164",
+        "W00173",
+        "W00178"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00027",
+      "all_original_member_ids": [
+        "PIN_CAND_0069",
+        "PIN_CAND_0096",
+        "PIN_CAND_0107"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0069": "PIN_CAND_0069",
+        "PIN_CAND_0096": "PIN_CAND_0096",
+        "PIN_CAND_0107": "PIN_CAND_0107"
+      },
+      "all_pin_references": [
+        "USB2.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00011"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00029",
+      "all_original_member_ids": [
+        "PIN_CAND_0037"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0037": "PIN_CAND_0037"
+      },
+      "all_pin_references": [
+        "USB2.4"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00015"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00032",
+      "all_original_member_ids": [
+        "PIN_CAND_0004"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0004": "PIN_CAND_0004"
+      },
+      "all_pin_references": [
+        "U1.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00022"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00034",
+      "all_original_member_ids": [
+        "PIN_CAND_0039",
+        "PIN_CAND_0059"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0039": "PIN_CAND_0039",
+        "PIN_CAND_0059": "PIN_CAND_0059"
+      },
+      "all_pin_references": [
+        "R13.2",
+        "USB1.10"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00031"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00035",
+      "all_original_member_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0022"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0007": "PIN_CAND_0007",
+        "PIN_CAND_0022": "PIN_CAND_0022"
+      },
+      "all_pin_references": [
+        "R13.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00032"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00036",
+      "all_original_member_ids": [
+        "PIN_CAND_0003",
+        "PIN_CAND_0016"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0003": "PIN_CAND_0003",
+        "PIN_CAND_0016": "PIN_CAND_0016"
+      },
+      "all_pin_references": [
+        "L1.1",
+        "U1.7"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00034"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00037",
+      "all_original_member_ids": [
+        "PIN_CAND_0146"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0146": "PIN_CAND_0146"
+      },
+      "all_pin_references": [
+        "USB1.8"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00043"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00038",
+      "all_original_member_ids": [
+        "PIN_CAND_0055",
+        "PIN_CAND_0119"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0055": "PIN_CAND_0055",
+        "PIN_CAND_0119": "PIN_CAND_0119"
+      },
+      "all_pin_references": [
+        "R2.2",
+        "R2.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00045"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00039",
+      "all_original_member_ids": [
+        "PIN_CAND_0101",
+        "PIN_CAND_0121"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0101": "PIN_CAND_0101",
+        "PIN_CAND_0121": "PIN_CAND_0121"
+      },
+      "all_pin_references": [
+        "USB1.4",
+        "R14.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00046"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00040",
+      "all_original_member_ids": [
+        "PIN_CAND_0019"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0019": "PIN_CAND_0019"
+      },
+      "all_pin_references": [
+        "USB1.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00048"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00042",
+      "all_original_member_ids": [
+        "PIN_CAND_0128"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0128": "PIN_CAND_0128"
+      },
+      "all_pin_references": [
+        "R2.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00049"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00043",
+      "all_original_member_ids": [
+        "PIN_CAND_0044"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0044": "PIN_CAND_0044"
+      },
+      "all_pin_references": [
+        "C12.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00054"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00044",
+      "all_original_member_ids": [
+        "PIN_CAND_0082",
+        "PIN_CAND_0083"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0082": "PIN_CAND_0082",
+        "PIN_CAND_0083": "PIN_CAND_0083"
+      },
+      "all_pin_references": [
+        "USB1.14"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00055"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00045",
+      "all_original_member_ids": [
+        "PIN_CAND_0043"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0043": "PIN_CAND_0043"
+      },
+      "all_pin_references": [
+        "C12.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00056"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00049",
+      "all_original_member_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0015"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0015": "PIN_CAND_0015"
+      },
+      "all_pin_references": [
+        "R1.1",
+        "R1.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00087"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00054",
+      "all_original_member_ids": [
+        "PIN_CAND_0074"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0074": "PIN_CAND_0074"
+      },
+      "all_pin_references": [
+        "R3.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00135"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00057",
+      "all_original_member_ids": [
+        "PIN_CAND_0133",
+        "PIN_CAND_0140"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0133": "PIN_CAND_0133",
+        "PIN_CAND_0140": "PIN_CAND_0140"
+      },
+      "all_pin_references": [
+        "R17.4",
+        "R17.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00138"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00061",
+      "all_original_member_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0006"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0002": "PIN_CAND_0002",
+        "PIN_CAND_0006": "PIN_CAND_0006"
+      },
+      "all_pin_references": [
+        "U2.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00162"
+      ],
+      "graph_geometry_preserved": true
+    }
+  ],
+  "whole_network_guard": {
+    "verified_duplicate_tip_pairs": 0,
+    "blocked_networks": 5,
+    "blocker_counts": {
+      "wire_endpoint_near_component_without_member": 5
+    }
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "engineering_generated_pin_numbers": 82,
+  "engineering_generated_pin_names": 0,
+  "official_numbering_verified": false,
+  "current_stage_generated_pin_numbers": 0,
+  "current_stage_generated_pin_names": 0,
+  "observed_pin_names_added": 0,
+  "observed_component_ids_added": 0
+}

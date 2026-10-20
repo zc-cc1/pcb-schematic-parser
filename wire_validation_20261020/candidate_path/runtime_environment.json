@@ -1,0 +1,18 @@
+{
+  "requested_device": "cpu",
+  "torch": "2.10.0+cu128",
+  "torch_cuda_build": "12.8",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "environment": {
+    "PCB_DEVICE": null,
+    "CUDA_VISIBLE_DEVICES": null,
+    "NVIDIA_VISIBLE_DEVICES": null,
+    "NVIDIA_DRIVER_CAPABILITIES": null
+  },
+  "cuda_probe": {
+    "attempted": false,
+    "success": false
+  },
+  "selected_device": "cpu"
+}

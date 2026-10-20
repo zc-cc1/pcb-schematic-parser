@@ -1,0 +1,83 @@
+{
+  "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "size": [
+    2240,
+    1149
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "6ed13c557c8277ca8e3daca8f7045a2cf478b987367d975d0ed899c972bdfc0d",
+  "original_S23_input_sha256": {
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\engineering_pin_text_result.json": "a7922d3686e5a0e1e233b21a98fba249405bb2650b3df001f5ccdf24747c58f5",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\engineering_graph_proposals.json": "1ce888f9b7a7d1965f41233bcc052d71028f12834ce8090f871173fe117f8dab",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\completed_component_records.json": "f8a5738817f162e74e6e94eecc886f329339f73d70f49a3b09b9db7af6152304",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\engineering_submission.json": "2c13fd7d62725e67b191d8fc2734da89e0bf9af7d12316e15ce398dbbc4b3718",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\baseline_export\\partial_submission.json": "1f4846f9c89cf86ec2f3570f893378993a019593299b970aff18c32c2b461053",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23\\export\\baseline_export\\conservative_export_coverage.json": "f02500cfafd0fd4f46e177351c2ad107a4449e0f36fb15d3e7e040ac09de9df9",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\pin_text\\texts.json": "c300d769f991b457b5d73b21ebf796a74e7290a3eeca307bf6057a0de9232477"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false,
+  "observed_fields": {
+    "observed_pin_names_added": 0,
+    "observed_component_ids_added": 0,
+    "observed_footer_names_added": 0,
+    "new_pin_numbers": 0,
+    "points_or_edges_changed": 0,
+    "raw_members_removed": 0,
+    "new_OCR_model_runs": 0
+  },
+  "engineering_export": {
+    "exported_components": 36,
+    "exported_pins": 97,
+    "exported_nets": 35
+  },
+  "baseline_export": {
+    "exported_components": 36,
+    "exported_pins": 14,
+    "exported_nets": 11
+  },
+  "previous_engineering_export": {
+    "exported_components": 36,
+    "exported_pins": 96,
+    "exported_nets": 35
+  },
+  "new_complete_network_ids": [],
+  "net_preserve_violations": [],
+  "completion": {
+    "multi_pin_networks": 34,
+    "field_only_incomplete_networks": 8,
+    "non_field_export_blocker_counts": {
+      "detected_power_symbol_near_wire_without_attached_member": 2,
+      "junction_semantics_unresolved": 7,
+      "no_resolvable_member": 4,
+      "suspected_disconnection": 1,
+      "power_logical_membership_provisional": 1
+    }
+  },
+  "all_existing_fields_and_conservative_output_preserved": true,
+  "original_points_edges_and_members_preserved": true,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and frozen image-model/OCR predictions only; no annotation/CAD/Golden reads",
+  "wall_seconds": 9.394372199996724,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 48.98514750000322
+}

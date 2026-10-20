@@ -1,0 +1,245 @@
+{
+  "variants": {
+    "baseline": {
+      "pin": {
+        "tp": 28,
+        "fp": 7,
+        "fn": 12,
+        "precision": 0.8,
+        "recall": 0.7,
+        "f1": 0.7467
+      },
+      "gained": [],
+      "lost": [],
+      "changes": [],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    },
+    "merge_only": {
+      "pin": {
+        "tp": 29,
+        "fp": 7,
+        "fn": 11,
+        "precision": 0.8056,
+        "recall": 0.725,
+        "f1": 0.7632
+      },
+      "gained": [
+        "USB2.2"
+      ],
+      "lost": [],
+      "changes": [
+        {
+          "candidate_id": "PIN_CAND_0107",
+          "owner": "USB2",
+          "number": "2",
+          "name": "D-"
+        }
+      ],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    },
+    "existing_crop_binding": {
+      "pin": {
+        "tp": 30,
+        "fp": 7,
+        "fn": 10,
+        "precision": 0.8108,
+        "recall": 0.75,
+        "f1": 0.7792
+      },
+      "gained": [
+        "USB2.6",
+        "USB2.2"
+      ],
+      "lost": [],
+      "changes": [
+        {
+          "candidate_id": "PIN_CAND_0107",
+          "owner": "USB2",
+          "number": "2",
+          "name": "D-"
+        },
+        {
+          "candidate_id": "PIN_CAND_0135",
+          "owner": "USB2",
+          "number": "6",
+          "name": "6"
+        }
+      ],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    },
+    "local_strip_binding": {
+      "pin": {
+        "tp": 31,
+        "fp": 8,
+        "fn": 9,
+        "precision": 0.7949,
+        "recall": 0.775,
+        "f1": 0.7848
+      },
+      "gained": [
+        "USB2.6",
+        "USB2.5",
+        "USB2.2"
+      ],
+      "lost": [],
+      "changes": [
+        {
+          "candidate_id": "PIN_CAND_0098",
+          "owner": "USB1",
+          "number": "6",
+          "name": "SBU1"
+        },
+        {
+          "candidate_id": "PIN_CAND_0107",
+          "owner": "USB2",
+          "number": "2",
+          "name": "D-"
+        },
+        {
+          "candidate_id": "PIN_CAND_0135",
+          "owner": "USB2",
+          "number": "6",
+          "name": "6"
+        },
+        {
+          "candidate_id": "PIN_CAND_0155",
+          "owner": "USB2",
+          "number": "5",
+          "name": "5"
+        }
+      ],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    },
+    "isolated_digit_binding": {
+      "pin": {
+        "tp": 33,
+        "fp": 7,
+        "fn": 7,
+        "precision": 0.825,
+        "recall": 0.825,
+        "f1": 0.825
+      },
+      "gained": [
+        "U3.5",
+        "USB1.7",
+        "USB2.6",
+        "USB2.5",
+        "USB2.2"
+      ],
+      "lost": [],
+      "changes": [
+        {
+          "candidate_id": "PIN_CAND_0084",
+          "owner": "U3",
+          "number": "5",
+          "name": "VM"
+        },
+        {
+          "candidate_id": "PIN_CAND_0093",
+          "owner": "U3",
+          "number": "4",
+          "name": "VM"
+        },
+        {
+          "candidate_id": "PIN_CAND_0107",
+          "owner": "USB2",
+          "number": "2",
+          "name": "D-"
+        },
+        {
+          "candidate_id": "PIN_CAND_0135",
+          "owner": "USB2",
+          "number": "6",
+          "name": "6"
+        },
+        {
+          "candidate_id": "PIN_CAND_0155",
+          "owner": "USB2",
+          "number": "5",
+          "name": "5"
+        },
+        {
+          "candidate_id": "PIN_CAND_0158",
+          "owner": "USB1",
+          "number": "7",
+          "name": "DN1"
+        }
+      ],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    },
+    "orientation_checked_binding": {
+      "pin": {
+        "tp": 34,
+        "fp": 7,
+        "fn": 6,
+        "precision": 0.8293,
+        "recall": 0.85,
+        "f1": 0.8395
+      },
+      "gained": [
+        "U3.5",
+        "USB1.7",
+        "USB1.9",
+        "USB2.6",
+        "USB2.5",
+        "USB2.2"
+      ],
+      "lost": [],
+      "changes": [
+        {
+          "candidate_id": "PIN_CAND_0084",
+          "owner": "U3",
+          "number": "5",
+          "name": "VM"
+        },
+        {
+          "candidate_id": "PIN_CAND_0093",
+          "owner": "U3",
+          "number": "4",
+          "name": "VM"
+        },
+        {
+          "candidate_id": "PIN_CAND_0098",
+          "owner": "USB1",
+          "number": "9",
+          "name": "SBU1"
+        },
+        {
+          "candidate_id": "PIN_CAND_0107",
+          "owner": "USB2",
+          "number": "2",
+          "name": "D-"
+        },
+        {
+          "candidate_id": "PIN_CAND_0135",
+          "owner": "USB2",
+          "number": "6",
+          "name": "6"
+        },
+        {
+          "candidate_id": "PIN_CAND_0155",
+          "owner": "USB2",
+          "number": "5",
+          "name": "5"
+        },
+        {
+          "candidate_id": "PIN_CAND_0158",
+          "owner": "USB1",
+          "number": "7",
+          "name": "DN1"
+        }
+      ],
+      "components_and_nets_unchanged": true,
+      "scope": "pin_fields_and_selected_positions_only"
+    }
+  },
+  "production_modified": false,
+  "gt_used_before_prediction_freeze": false,
+  "external_api_calls": 0,
+  "net_membership_validation_pending": true
+}

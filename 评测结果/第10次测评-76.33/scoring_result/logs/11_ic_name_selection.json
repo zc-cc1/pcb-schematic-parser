@@ -1,0 +1,1793 @@
+{
+  "policy": "ic_observed_model_reference_description_v1",
+  "priority": [
+    "model",
+    "reference",
+    "description"
+  ],
+  "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "size": [
+    1469,
+    770
+  ],
+  "components": [
+    {
+      "component_id": "USB1",
+      "before_Name": null,
+      "after_Name": "USB1",
+      "selected_category": "reference",
+      "selected_evidence": {
+        "source": "observed_designator_fallback",
+        "token_id": "token_0006",
+        "text_id": "text_0006",
+        "text": "USB1",
+        "bbox": [
+          134.0,
+          253.5,
+          175.0,
+          271.0
+        ],
+        "confidence": 0.99996,
+        "role": "designator",
+        "source_view": "tile_0_0_r0",
+        "prefix": "USB",
+        "source_text": "USB1",
+        "approximate_split_geometry": false
+      },
+      "candidates": [
+        {
+          "token_id": "token_0007",
+          "text_id": "text_0007",
+          "text": "A12",
+          "bbox": [
+            263.5,
+            275.0,
+            294.5,
+            291.5
+          ],
+          "confidence": 0.99999,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "A12",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0033",
+          "text_id": "text_0031",
+          "text": "B12",
+          "bbox": [
+            262.5,
+            374.0,
+            294.5,
+            390.0
+          ],
+          "confidence": 0.99998,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "B12",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0006",
+          "text_id": "text_0006",
+          "text": "USB1",
+          "bbox": [
+            134.0,
+            253.5,
+            175.0,
+            271.0
+          ],
+          "confidence": 0.99996,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "USB",
+          "source_text": "USB1",
+          "approximate_split_geometry": false,
+          "category": "reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0011",
+          "text_id": "text_0010",
+          "text": "A9",
+          "bbox": [
+            264.5,
+            295.5,
+            286.0,
+            311.5
+          ],
+          "confidence": 0.99996,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "A9",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0049",
+          "text_id": "text_0046",
+          "text": "TYPE-C",
+          "bbox": [
+            134.5,
+            411.0,
+            181.42857142857144,
+            430.5
+          ],
+          "confidence": 0.99995,
+          "role": "other",
+          "source_view": "tile_0_2_r0",
+          "prefix": null,
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": true,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 8.210742857142854,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0050",
+          "text_id": "text_0046",
+          "text": "6P(073)",
+          "bbox": [
+            189.25,
+            411.0,
+            244.0,
+            430.5
+          ],
+          "confidence": 0.99995,
+          "role": "other",
+          "source_view": "tile_0_2_r0",
+          "prefix": null,
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": true,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 3.522600000000003,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0010",
+          "text_id": "text_0009",
+          "text": "GND",
+          "bbox": [
+            214.0,
+            284.0,
+            249.5,
+            302.0
+          ],
+          "confidence": 0.99994,
+          "role": "net_or_pin_label",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0017",
+          "text_id": "text_0016",
+          "text": "A5",
+          "bbox": [
+            260.0,
+            333.0,
+            292.0,
+            352.0
+          ],
+          "confidence": 0.99993,
+          "role": "model_candidate",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "A5",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0030",
+          "text_id": "text_0028",
+          "text": "VBUS",
+          "bbox": [
+            205.0,
+            362.0,
+            252.0,
+            383.0
+          ],
+          "confidence": 0.99992,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VBUS",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0012",
+          "text_id": "text_0011",
+          "text": "VBUS",
+          "bbox": [
+            206.0,
+            303.0,
+            252.0,
+            325.0
+          ],
+          "confidence": 0.99991,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VBUS",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0014",
+          "text_id": "text_0013",
+          "text": "B5",
+          "bbox": [
+            263.5,
+            315.5,
+            288.0,
+            331.0
+          ],
+          "confidence": 0.99991,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "B5",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0025",
+          "text_id": "text_0024",
+          "text": "B9",
+          "bbox": [
+            263.5,
+            355.5,
+            286.5,
+            371.0
+          ],
+          "confidence": 0.9999,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "B9",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0020",
+          "text_id": "text_0019",
+          "text": "EH",
+          "bbox": [
+            138.0,
+            343.5,
+            163.5,
+            360.5
+          ],
+          "confidence": 0.99983,
+          "role": "other",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "EH",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0021",
+          "text_id": "text_0020",
+          "text": "CC1",
+          "bbox": [
+            217.0,
+            343.5,
+            249.5,
+            362.5
+          ],
+          "confidence": 0.99947,
+          "role": "model_candidate",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "CC1",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": true,
+          "selection_score": 8.222910000000008,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0039",
+          "text_id": "text_0037",
+          "text": "GND",
+          "bbox": [
+            214.5,
+            384.5,
+            248.5,
+            401.0
+          ],
+          "confidence": 0.99838,
+          "role": "net_or_pin_label",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0015",
+          "text_id": "text_0014",
+          "text": "CC2",
+          "bbox": [
+            215.0,
+            323.0,
+            252.0,
+            345.0
+          ],
+          "confidence": 0.99774,
+          "role": "model_candidate",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "CC2",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": true,
+          "selection_score": 7.45457,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0036",
+          "text_id": "text_0034",
+          "text": "GND",
+          "bbox": [
+            209.5,
+            378.0,
+            255.0,
+            408.0
+          ],
+          "confidence": 0.97338,
+          "role": "net_or_pin_label",
+          "source_view": "tile_0_2_r90",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0024",
+          "text_id": "text_0023",
+          "text": "6",
+          "bbox": [
+            264.0,
+            354.5,
+            286.0,
+            370.5
+          ],
+          "confidence": 0.86535,
+          "role": "numeric",
+          "source_view": "tile_0_2_r90",
+          "prefix": null,
+          "source_text": "6",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0013",
+          "text_id": "text_0012",
+          "text": "5",
+          "bbox": [
+            263.0,
+            314.0,
+            287.5,
+            332.0
+          ],
+          "confidence": 0.66662,
+          "role": "numeric",
+          "source_view": "tile_0_2_r90",
+          "prefix": null,
+          "source_text": "5",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "ic_full_00084",
+          "text_id": "text_0046",
+          "text": "TYPE-C 6P(073)",
+          "bbox": [
+            134.5,
+            411.0,
+            244.0,
+            430.5
+          ],
+          "confidence": 0.99995,
+          "source_view": "tile_0_2_r0",
+          "role": "full_caption",
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 1.9535999999999973,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00085",
+          "text_id": "text_0046",
+          "text": "TYPE-C 6P(073)",
+          "bbox": [
+            134.0,
+            410.0,
+            244.0,
+            431.0
+          ],
+          "confidence": 0.99995,
+          "source_view": "tile_0_2_r90",
+          "role": "full_caption",
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.0035999999999974,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00086",
+          "text_id": "text_0046",
+          "text": "TYPE-C 6P(073)",
+          "bbox": [
+            134.5,
+            410.0,
+            243.5,
+            431.0
+          ],
+          "confidence": 0.99994,
+          "source_view": "tile_0_0_r90",
+          "role": "full_caption",
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.003719999999997,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00087",
+          "text_id": "text_0046",
+          "text": "TYPE-C 6P(073)",
+          "bbox": [
+            133.0,
+            409.0,
+            246.0,
+            432.0
+          ],
+          "confidence": 0.99982,
+          "source_view": "global",
+          "role": "full_caption",
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 1.9051599999999969,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00088",
+          "text_id": "text_0046",
+          "text": "TYPE-C 6P(073)",
+          "bbox": [
+            134.5,
+            411.5,
+            243.5,
+            430.0
+          ],
+          "confidence": 0.99901,
+          "source_view": "tile_0_0_r0",
+          "role": "full_caption",
+          "source_text": "TYPE-C 6P(073)",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.014879999999998,
+          "reason": "top_or_bottom_caption"
+        }
+      ],
+      "observed_reference": {
+        "token_id": "token_0006",
+        "text_id": "text_0006",
+        "text": "USB1",
+        "bbox": [
+          134.0,
+          253.5,
+          175.0,
+          271.0
+        ],
+        "confidence": 0.99996,
+        "role": "designator",
+        "source_view": "tile_0_0_r0",
+        "prefix": "USB",
+        "source_text": "USB1",
+        "approximate_split_geometry": false
+      },
+      "changed": true
+    },
+    {
+      "component_id": "U1",
+      "before_Name": null,
+      "after_Name": "U1",
+      "selected_category": "reference",
+      "selected_evidence": {
+        "source": "observed_designator_fallback",
+        "token_id": "token_0022",
+        "text_id": "text_0021",
+        "text": "U1",
+        "bbox": [
+          954.5,
+          343.5,
+          976.5,
+          359.5
+        ],
+        "confidence": 0.99942,
+        "role": "designator",
+        "source_view": "tile_701_0_r0",
+        "prefix": "U",
+        "source_text": "U1",
+        "approximate_split_geometry": false
+      },
+      "candidates": [
+        {
+          "token_id": "token_0041",
+          "text_id": "text_0039",
+          "text": "BAT",
+          "bbox": [
+            961.0,
+            394.5,
+            992.5,
+            411.0
+          ],
+          "confidence": 0.99999,
+          "role": "other",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "BAT",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 8.344119999999988,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0063",
+          "text_id": "text_0057",
+          "text": "TP4333",
+          "bbox": [
+            954.5,
+            460.0,
+            1009.0,
+            479.0
+          ],
+          "confidence": 0.99999,
+          "role": "designator",
+          "source_view": "tile_614_0_r90",
+          "prefix": "TP",
+          "source_text": "TP4333",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_other_reference"
+        },
+        {
+          "token_id": "token_0067",
+          "text_id": "text_0061",
+          "text": "4",
+          "bbox": [
+            1082.0,
+            528.0,
+            1094.5,
+            539.0
+          ],
+          "confidence": 0.99999,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "4",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0068",
+          "text_id": "text_0062",
+          "text": "2",
+          "bbox": [
+            1044.0,
+            529.0,
+            1054.0,
+            537.0
+          ],
+          "confidence": 0.99999,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "2",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0031",
+          "text_id": "text_0029",
+          "text": "8",
+          "bbox": [
+            1076.5,
+            367.5,
+            1085.0,
+            378.0
+          ],
+          "confidence": 0.99998,
+          "role": "numeric",
+          "source_view": "tile_701_2_r0",
+          "prefix": null,
+          "source_text": "8",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0040",
+          "text_id": "text_0038",
+          "text": "LED2",
+          "bbox": [
+            1030.0,
+            393.5,
+            1071.0,
+            411.0
+          ],
+          "confidence": 0.99998,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "LED",
+          "source_text": "LED2",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_other_reference"
+        },
+        {
+          "token_id": "token_0016",
+          "text_id": "text_0015",
+          "text": "LED1",
+          "bbox": [
+            1146.5,
+            323.5,
+            1185.5,
+            339.5
+          ],
+          "confidence": 0.99997,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "LED",
+          "source_text": "LED1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0019",
+          "text_id": "text_0018",
+          "text": "NCD0805R1",
+          "bbox": [
+            1143.0,
+            342.0,
+            1226.0,
+            357.0
+          ],
+          "confidence": 0.99997,
+          "role": "model_candidate",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "NCD0805R1",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0034",
+          "text_id": "text_0032",
+          "text": "LED1",
+          "bbox": [
+            1030.0,
+            374.0,
+            1070.5,
+            391.5
+          ],
+          "confidence": 0.99997,
+          "role": "designator",
+          "source_view": "tile_701_0_r0",
+          "prefix": "LED",
+          "source_text": "LED1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_other_reference"
+        },
+        {
+          "token_id": "token_0048",
+          "text_id": "text_0045",
+          "text": "3",
+          "bbox": [
+            946.5,
+            405.5,
+            956.5,
+            418.5
+          ],
+          "confidence": 0.99997,
+          "role": "numeric",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "3",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0053",
+          "text_id": "text_0049",
+          "text": "NCD0805R1",
+          "bbox": [
+            1105.0,
+            420.0,
+            1190.0,
+            437.0
+          ],
+          "confidence": 0.99997,
+          "role": "model_candidate",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "NCD0805R1",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0055",
+          "text_id": "text_0051",
+          "text": "5",
+          "bbox": [
+            1075.5,
+            424.5,
+            1085.5,
+            439.0
+          ],
+          "confidence": 0.99997,
+          "role": "numeric",
+          "source_view": "tile_701_2_r90",
+          "prefix": null,
+          "source_text": "5",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0070",
+          "text_id": "text_0064",
+          "text": "TS665CJ",
+          "bbox": [
+            1104.0,
+            561.0,
+            1166.0,
+            576.5
+          ],
+          "confidence": 0.99997,
+          "role": "model_candidate",
+          "source_view": "tile_701_0_r0",
+          "prefix": null,
+          "source_text": "TS665CJ",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0043",
+          "text_id": "text_0041",
+          "text": "LED2",
+          "bbox": [
+            1085.5,
+            401.0,
+            1127.0,
+            417.0
+          ],
+          "confidence": 0.99996,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "LED",
+          "source_text": "LED2",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "inside_another_component"
+        },
+        {
+          "token_id": "token_0057",
+          "text_id": "text_0053",
+          "text": "GND",
+          "bbox": [
+            961.5,
+            434.5,
+            997.5,
+            450.5
+          ],
+          "confidence": 0.99996,
+          "role": "net_or_pin_label",
+          "source_view": "tile_614_2_r0",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0065",
+          "text_id": "text_0059",
+          "text": "R1",
+          "bbox": [
+            1112.5,
+            461.5,
+            1134.5,
+            478.0
+          ],
+          "confidence": 0.99994,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "R",
+          "source_text": "R1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0051",
+          "text_id": "text_0047",
+          "text": "VDD",
+          "bbox": [
+            1032.0,
+            411.0,
+            1072.0,
+            433.0
+          ],
+          "confidence": 0.99993,
+          "role": "net_or_pin_label",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VDD",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0056",
+          "text_id": "text_0052",
+          "text": "SWT",
+          "bbox": [
+            1034.0,
+            433.5,
+            1070.5,
+            451.5
+          ],
+          "confidence": 0.99993,
+          "role": "other",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "SWT",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 10.731840000000012,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0035",
+          "text_id": "text_0033",
+          "text": "OUT",
+          "bbox": [
+            962.0,
+            374.5,
+            996.0,
+            391.0
+          ],
+          "confidence": 0.99986,
+          "role": "other",
+          "source_view": "tile_614_2_r0",
+          "prefix": null,
+          "source_text": "OUT",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0032",
+          "text_id": "text_0030",
+          "text": "L1",
+          "bbox": [
+            865.5,
+            372.5,
+            885.5,
+            388.5
+          ],
+          "confidence": 0.99984,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "L",
+          "source_text": "L1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0008",
+          "text_id": "text_0008",
+          "text": "GND",
+          "bbox": [
+            974.5,
+            280.0,
+            1018.0,
+            300.0
+          ],
+          "confidence": 0.99983,
+          "role": "net_or_pin_label",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0045",
+          "text_id": "text_0043",
+          "text": "1.5uH",
+          "bbox": [
+            865.5,
+            402.5,
+            908.0,
+            418.5
+          ],
+          "confidence": 0.9997,
+          "role": "inductance",
+          "source_view": "tile_701_0_r0",
+          "prefix": null,
+          "source_text": "1.5uH",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0069",
+          "text_id": "text_0063",
+          "text": "SW1",
+          "bbox": [
+            1103.0,
+            540.0,
+            1136.5,
+            556.5
+          ],
+          "confidence": 0.9997,
+          "role": "designator",
+          "source_view": "tile_701_2_r90",
+          "prefix": "SW",
+          "source_text": "SW1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_other_reference"
+        },
+        {
+          "token_id": "token_0066",
+          "text_id": "text_0060",
+          "text": "10kΩ",
+          "bbox": [
+            1113.0,
+            480.0,
+            1152.0,
+            499.0
+          ],
+          "confidence": 0.99956,
+          "role": "resistance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "10kΩ",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0022",
+          "text_id": "text_0021",
+          "text": "U1",
+          "bbox": [
+            954.5,
+            343.5,
+            976.5,
+            359.5
+          ],
+          "confidence": 0.99942,
+          "role": "designator",
+          "source_view": "tile_701_0_r0",
+          "prefix": "U",
+          "source_text": "U1",
+          "approximate_split_geometry": false,
+          "category": "reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0046",
+          "text_id": "text_0043",
+          "text": ".5uH",
+          "bbox": [
+            873.5,
+            401.0,
+            908.5,
+            419.0
+          ],
+          "confidence": 0.99681,
+          "role": "other",
+          "source_view": "tile_701_0_r90",
+          "prefix": null,
+          "source_text": ".5uH",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0052",
+          "text_id": "text_0048",
+          "text": "SW",
+          "bbox": [
+            961.5,
+            414.0,
+            990.5,
+            431.0
+          ],
+          "confidence": 0.98337,
+          "role": "other",
+          "source_view": "tile_701_0_r0",
+          "prefix": null,
+          "source_text": "SW",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0009",
+          "text_id": "text_0008",
+          "text": "GÑD",
+          "bbox": [
+            973.0,
+            277.0,
+            1020.0,
+            303.0
+          ],
+          "confidence": 0.97005,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "GÑD",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0047",
+          "text_id": "text_0044",
+          "text": "9",
+          "bbox": [
+            1077.0,
+            404.5,
+            1086.5,
+            417.5
+          ],
+          "confidence": 0.95901,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "9",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0064",
+          "text_id": "text_0058",
+          "text": "R",
+          "bbox": [
+            1111.5,
+            460.0,
+            1135.0,
+            478.5
+          ],
+          "confidence": 0.9175,
+          "role": "other",
+          "source_view": "tile_701_0_r90",
+          "prefix": null,
+          "source_text": "R",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0023",
+          "text_id": "text_0022",
+          "text": "U",
+          "bbox": [
+            956.0,
+            343.5,
+            975.0,
+            357.5
+          ],
+          "confidence": 0.71743,
+          "role": "other",
+          "source_view": "tile_701_2_r90",
+          "prefix": null,
+          "source_text": "U",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0005",
+          "text_id": "text_0005",
+          "text": "H",
+          "bbox": [
+            969.0,
+            244.0,
+            1024.0,
+            305.5
+          ],
+          "confidence": 0.67389,
+          "role": "other",
+          "source_view": "tile_701_2_r90",
+          "prefix": null,
+          "source_text": "H",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "inside_another_component"
+        }
+      ],
+      "observed_reference": {
+        "token_id": "token_0022",
+        "text_id": "text_0021",
+        "text": "U1",
+        "bbox": [
+          954.5,
+          343.5,
+          976.5,
+          359.5
+        ],
+        "confidence": 0.99942,
+        "role": "designator",
+        "source_view": "tile_701_0_r0",
+        "prefix": "U",
+        "source_text": "U1",
+        "approximate_split_geometry": false
+      },
+      "changed": true
+    },
+    {
+      "component_id": "USB2",
+      "before_Name": null,
+      "after_Name": "USB2",
+      "selected_category": "reference",
+      "selected_evidence": {
+        "source": "observed_designator_fallback",
+        "token_id": "token_0018",
+        "text_id": "text_0017",
+        "text": "USB2",
+        "bbox": [
+          618.0,
+          333.0,
+          662.0,
+          351.0
+        ],
+        "confidence": 0.99995,
+        "role": "designator",
+        "source_view": "global",
+        "prefix": "USB",
+        "source_text": "USB2",
+        "approximate_split_geometry": false
+      },
+      "candidates": [
+        {
+          "token_id": "token_0018",
+          "text_id": "text_0017",
+          "text": "USB2",
+          "bbox": [
+            618.0,
+            333.0,
+            662.0,
+            351.0
+          ],
+          "confidence": 0.99995,
+          "role": "designator",
+          "source_view": "global",
+          "prefix": "USB",
+          "source_text": "USB2",
+          "approximate_split_geometry": false,
+          "category": "reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0029",
+          "text_id": "text_0027",
+          "text": "GND",
+          "bbox": [
+            757.5,
+            359.0,
+            801.0,
+            379.0
+          ],
+          "confidence": 0.99995,
+          "role": "net_or_pin_label",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0054",
+          "text_id": "text_0050",
+          "text": "GND",
+          "bbox": [
+            656.0,
+            421.0,
+            692.0,
+            439.5
+          ],
+          "confidence": 0.99995,
+          "role": "net_or_pin_label",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0062",
+          "text_id": "text_0056",
+          "text": "G",
+          "bbox": [
+            701.0,
+            453.5,
+            710.5,
+            467.5
+          ],
+          "confidence": 0.99978,
+          "role": "other",
+          "source_view": "tile_701_0_r0",
+          "prefix": null,
+          "source_text": "G",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 10.33344,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0038",
+          "text_id": "text_0036",
+          "text": "C1",
+          "bbox": [
+            796.0,
+            382.5,
+            818.0,
+            399.0
+          ],
+          "confidence": 0.99916,
+          "role": "designator",
+          "source_view": "tile_701_2_r0",
+          "prefix": "C",
+          "source_text": "C1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0058",
+          "text_id": "text_0054",
+          "text": "10uF",
+          "bbox": [
+            795.0,
+            439.0,
+            835.0,
+            461.0
+          ],
+          "confidence": 0.99907,
+          "role": "capacitance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "10uF",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0037",
+          "text_id": "text_0035",
+          "text": "D-",
+          "bbox": [
+            672.5,
+            382.5,
+            692.5,
+            399.0
+          ],
+          "confidence": 0.99873,
+          "role": "other",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "D-",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 6.620639999999998,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0059",
+          "text_id": "text_0055",
+          "text": "AF",
+          "bbox": [
+            617.5,
+            451.5,
+            634.6818181818181,
+            469.0
+          ],
+          "confidence": 0.99581,
+          "role": "other",
+          "source_view": "tile_0_2_r0",
+          "prefix": null,
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": true,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 5.6512981818182,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0060",
+          "text_id": "text_0055",
+          "text": "90°",
+          "bbox": [
+            643.2727272727273,
+            451.5,
+            669.0454545454545,
+            469.0
+          ],
+          "confidence": 0.99581,
+          "role": "other",
+          "source_view": "tile_0_2_r0",
+          "prefix": null,
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": true,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0061",
+          "text_id": "text_0055",
+          "text": "WJDG",
+          "bbox": [
+            677.6363636363636,
+            451.5,
+            712.0,
+            469.0
+          ],
+          "confidence": 0.99581,
+          "role": "other",
+          "source_view": "tile_0_2_r0",
+          "prefix": null,
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": true,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 8.194716363636351,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0042",
+          "text_id": "text_0040",
+          "text": "D+",
+          "bbox": [
+            668.0,
+            401.0,
+            694.0,
+            421.0
+          ],
+          "confidence": 0.98558,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "D+",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 6.6542400000000015,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0028",
+          "text_id": "text_0026",
+          "text": "VCC",
+          "bbox": [
+            653.0,
+            358.0,
+            695.0,
+            382.0
+          ],
+          "confidence": 0.94521,
+          "role": "net_or_pin_label",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VCC",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0044",
+          "text_id": "text_0042",
+          "text": "0",
+          "bbox": [
+            669.5,
+            402.0,
+            692.5,
+            418.0
+          ],
+          "confidence": 0.76679,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "0",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "ic_full_00089",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            617.5,
+            451.5,
+            712.0,
+            469.0
+          ],
+          "confidence": 0.99581,
+          "source_view": "tile_0_2_r0",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.1810799999999997,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00090",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            617.0,
+            452.0,
+            712.0,
+            469.0
+          ],
+          "confidence": 0.99442,
+          "source_view": "global",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.14776,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00091",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.5,
+            451.0,
+            711.5,
+            468.0
+          ],
+          "confidence": 0.99341,
+          "source_view": "tile_614_2_r90",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.359879999999999,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00092",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.0,
+            451.5,
+            711.5,
+            468.0
+          ],
+          "confidence": 0.98447,
+          "source_view": "tile_614_0_r90",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.41716,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00093",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.0,
+            451.0,
+            712.0,
+            468.0
+          ],
+          "confidence": 0.97889,
+          "source_view": "tile_0_2_r90",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.534119999999999,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00094",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.0,
+            451.5,
+            711.5,
+            468.5
+          ],
+          "confidence": 0.9769,
+          "source_view": "tile_0_0_r90",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.5079999999999996,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00095",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            618.0,
+            453.0,
+            711.0,
+            468.0
+          ],
+          "confidence": 0.95578,
+          "source_view": "tile_0_0_r0",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.61144,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00096",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.0,
+            453.0,
+            711.0,
+            468.0
+          ],
+          "confidence": 0.95202,
+          "source_view": "tile_614_0_r0",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.7565599999999995,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00097",
+          "text_id": "text_0055",
+          "text": "AF 90° WJDG",
+          "bbox": [
+            619.0,
+            453.0,
+            711.0,
+            468.0
+          ],
+          "confidence": 0.95202,
+          "source_view": "tile_614_2_r0",
+          "role": "full_caption",
+          "source_text": "AF 90° WJDG",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 2.7565599999999995,
+          "reason": "top_or_bottom_caption"
+        }
+      ],
+      "observed_reference": {
+        "token_id": "token_0018",
+        "text_id": "text_0017",
+        "text": "USB2",
+        "bbox": [
+          618.0,
+          333.0,
+          662.0,
+          351.0
+        ],
+        "confidence": 0.99995,
+        "role": "designator",
+        "source_view": "global",
+        "prefix": "USB",
+        "source_text": "USB2",
+        "approximate_split_geometry": false
+      },
+      "changed": true
+    }
+  ],
+  "assignment_rejections": [
+    {
+      "field": "IC_Name_model",
+      "detection_index": 0,
+      "candidate_index": 1,
+      "reason": "ambiguous_geometry",
+      "score": 7.45457,
+      "alternatives": [
+        [
+          8.222910000000008,
+          0
+        ]
+      ],
+      "competing_components": [],
+      "global_assignment_margin": 0.7683400000000233
+    }
+  ],
+  "changed_Name_count": 3,
+  "full_OCR_log_required": true,
+  "OCR_row_count": 67,
+  "only_IC_Name_changed": true,
+  "reference_labels_or_model_dictionary_used": false
+}

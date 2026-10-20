@@ -1,6 +1,137 @@
 {
-  "version": "0.1",
-  "approved_cases": [],
-  "status": "no_full_page_wire_and_tip_label_reviews_completed",
-  "approval_contract": "Each approved case must include reviewer evidence for wire coverage, line width, tip positions and absence of logical flywires. Source structure checks alone are not approval."
+  "version": "0.2",
+  "approved_cases": [
+    "0001",
+    "0018",
+    "0022",
+    "0080",
+    "0102",
+    "0131",
+    "0149",
+    "0170",
+    "0208",
+    "0224"
+  ],
+  "status": "ten_validation_pages_visually_reviewed_labels_approved_model_quality_separate",
+  "approval_contract": "Each approved case must include reviewer evidence for wire coverage, line width, tip positions and absence of logical flywires. Source structure checks alone are not approval.",
+  "method": "Rendered each page as green=wire supervision, blue=pin tips, yellow=ignore, plus a second overlay marking large unlabelled ink in red. Compared both against the rendered drawing. Quantitative cross-checks: share of label pixels within 1 px of ink, label-pixel distance percentiles, and the grey level of nearby ink.",
+  "reviews": {
+    "0001": {
+      "source_kind": "kicad",
+      "wire_pixels": 22994,
+      "pin_tips": 224,
+      "render_style": "black/green wire strokes, coloured net labels",
+      "alignment": {"label_on_ink_within_1px": 0.993, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "labelled segments sit on the drawn wires across the RP2350 core, radio module, flash and PSRAM sections; tips land on component terminals",
+      "caveats": "page frame ruler and title block are not wires and are correctly unlabelled; a few short leads at IC pins are outside the wire labels",
+      "verdict": "approved"
+    },
+    "0018": {
+      "source_kind": "ad",
+      "wire_pixels": 30029,
+      "pin_tips": 132,
+      "render_style": "black symbol bodies, green wire strokes",
+      "alignment": {"label_on_ink_within_1px": 0.999, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "decoupling networks, crystal, LED, LDO and header wires are labelled; symbol outlines inside the STM32 block are not and should not be",
+      "caveats": "dense IC body leaves most of the ink unlabelled by design; tip positions trace the pin stubs",
+      "verdict": "approved"
+    },
+    "0022": {
+      "source_kind": "datasheet",
+      "wire_pixels": 24426,
+      "pin_tips": 35,
+      "render_style": "green wire strokes, black symbols",
+      "alignment": {"label_on_ink_within_1px": 1.0, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "every green interconnect of the 4x4 switch matrix and the J5 connector is covered; tips sit at the switch terminals",
+      "caveats": "none observed",
+      "verdict": "approved"
+    },
+    "0080": {
+      "source_kind": "datasheet",
+      "wire_pixels": 75569,
+      "pin_tips": 265,
+      "render_style": "green wire strokes, black symbols, dense page",
+      "alignment": {"label_on_ink_within_1px": 0.988, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "labelled wires follow the drawing; nothing contradicts the supervision at page scale",
+      "caveats": "densest validation page (265 tips); label recall is the risk, not alignment. Per-page wire F1 with the A3 model is 0.627, the lowest of the dense set",
+      "verdict": "approved_with_reservation"
+    },
+    "0102": {
+      "source_kind": "jlc",
+      "wire_pixels": 8205,
+      "pin_tips": 148,
+      "render_style": "red symbol/component drawing, green wires only",
+      "alignment": {"label_on_ink_within_1px": 0.823, "median_distance_px": 0.0, "p90_distance_px": 4.0},
+      "visual": "green interconnect is labelled; the red symbol-internal nets and outlines are not, which is a rendering convention rather than a label gap",
+      "caveats": "least aligned page of the ten (82.3%); the low share is dominated by symbol-internal red drawing, not by missing wires",
+      "verdict": "approved_with_reservation"
+    },
+    "0131": {
+      "source_kind": "jlc",
+      "wire_pixels": 5055,
+      "pin_tips": 31,
+      "render_style": "red frame and symbols, green wires",
+      "alignment": {"label_on_ink_within_1px": 1.0, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "the MT3520B buck converter and its feedback divider are fully covered; only the page frame and title block stay unlabelled",
+      "caveats": "sparse page: 5055 wire pixels, so a few pixels move the percentage a lot",
+      "verdict": "approved"
+    },
+    "0149": {
+      "source_kind": "jlc",
+      "wire_pixels": 3316,
+      "pin_tips": 29,
+      "render_style": "red frame and symbols, green wires",
+      "alignment": {"label_on_ink_within_1px": 0.957, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "TX4137 buck converter wiring labelled end to end; the red parts list text block and page frame stay unlabelled",
+      "caveats": "sparsest validation page; also carries a large red text block that is not a wire",
+      "verdict": "approved"
+    },
+    "0170": {
+      "source_kind": "jlc",
+      "wire_pixels": 17077,
+      "pin_tips": 251,
+      "render_style": "red frame and symbols, green wires",
+      "alignment": {"label_on_ink_within_1px": 0.997, "median_distance_px": 0.0, "p90_distance_px": 1.0},
+      "visual": "densest tip page that still has clean wire geometry; interconnect coverage looks complete",
+      "caveats": "251 tips; model-side pin recall is the limiting factor, not the labels",
+      "verdict": "approved"
+    },
+    "0208": {
+      "source_kind": "datasheet",
+      "wire_pixels": 2824,
+      "pin_tips": 62,
+      "render_style": "three panels of medium-grey strokes (about 183 grey) inside a large page",
+      "alignment": {"label_on_ink_within_1px": 0.791, "median_distance_px": 0.0, "p90_distance_px": 4.21},
+      "visual": "labels follow the panel wiring; alignment is the weakest of the ten because the strokes are light and the page frame contributes dark ink",
+      "caveats": "approved as label-valid, but the current model outputs no wire or pin probability above threshold on this page (F1 = 0). This is a documented unreachable page, not a label defect; see reports/page_0208_diagnosis.md",
+      "verdict": "approved_label_unreachable_by_current_model"
+    },
+    "0224": {
+      "source_kind": "datasheet",
+      "wire_pixels": 6331,
+      "pin_tips": 23,
+      "render_style": "dark strokes, red component symbols, green wires",
+      "alignment": {"label_on_ink_within_1px": 0.999, "median_distance_px": 0.0, "p90_distance_px": 0.0},
+      "visual": "tone-control network fully covered; tips on the op-amp and passive terminals",
+      "caveats": "none observed",
+      "verdict": "approved"
+    }
+  },
+  "coverage_plan": {
+    "validation_pages": 10,
+    "source_kinds": {"datasheet": 4, "jlc": 4, "ad": 1, "kicad": 1},
+    "density_span_tips": [23, 265],
+    "includes_documented_failures": ["0080", "0102", "0208"],
+    "all_approved_cases_are_validation_pages": true,
+    "training_pages_approved": 0,
+    "why": "approval is for evidence, not for training: v2 training used all 238 draft train pages regardless, and approved_cases only gates whether a run may claim reviewed labels"
+  },
+  "what_approval_does_not_establish": [
+    "that the letters/values/pin names on these pages are correct (only geometry was reviewed)",
+    "that the model reaches acceptable accuracy - this record separates label quality from model quality",
+    "engineering-level provenance or duplicate-free splitting",
+    "any official competition score; official_NetF1 and ComponentF1 remain unavailable"
+  ],
+  "reviewed_by": "assistant visual review on 2026-10-17",
+  "review_artifacts": "D:/pcb_unet_v2/reports/label_reviews/<case>.png (green wire / blue tip / yellow ignore) and D:/pcb_unet_v2/reports/approval_<case>_coverage.png (green labelled, red large unlabelled ink)"
 }

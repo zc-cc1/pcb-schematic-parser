@@ -1,0 +1,963 @@
+[
+  {
+    "case": "13",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_3uq099b5",
+    "hit_segments_by_status": {
+      "exported": 29,
+      "no_attached_pins": 1,
+      "no_resolvable_member": 10
+    },
+    "network_reasons": {
+      "no_resolvable_member": 10
+    },
+    "attachment_counts": {
+      "attached": 63,
+      "no_wire_within_radius": 30,
+      "ambiguous_nearby_networks": 4
+    },
+    "omitted_matching_networks": [
+      {
+        "net": "LOG_NET_CAND_00010",
+        "matched_geometry": 5,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0026",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              1166.3298117518425,
+              685.7021171450615
+            ]
+          },
+          {
+            "id": "PIN_CAND_0048",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              1035.9237743541598,
+              685.6509656012058
+            ]
+          },
+          {
+            "id": "PIN_CAND_0057",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              905.4529324173927,
+              685.9261381924152
+            ]
+          }
+        ],
+        "edges": 5
+      },
+      {
+        "net": "LOG_NET_CAND_00012",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0007",
+            "owner": "UNRESOLVED_DET_0010",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1258.7284995913506,
+              98.70321124792099
+            ]
+          },
+          {
+            "id": "PIN_CAND_0080",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              1257.9216456860304,
+              113.46528840065002
+            ]
+          }
+        ],
+        "edges": 1
+      },
+      {
+        "net": "LOG_NET_CAND_00019",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0045",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              129.2604177594185,
+              373.1952371150255
+            ]
+          }
+        ],
+        "edges": 3
+      },
+      {
+        "net": "LOG_NET_CAND_00033",
+        "matched_geometry": 1,
+        "status": "no_attached_pins",
+        "unresolved_junctions": [],
+        "pins": [],
+        "edges": 2
+      },
+      {
+        "net": "LOG_NET_CAND_00034",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0095",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              128.7071449160576,
+              402.8203780055046
+            ]
+          }
+        ],
+        "edges": 1
+      },
+      {
+        "net": "LOG_NET_CAND_00035",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0043",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              1171.3642892241478,
+              512.4609379768372
+            ]
+          }
+        ],
+        "edges": 1
+      },
+      {
+        "net": "LOG_NET_CAND_00047",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0021",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              775.0277605950832,
+              685.6614909768105
+            ]
+          },
+          {
+            "id": "PIN_CAND_0078",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              658.6188851296902,
+              685.9452872574329
+            ]
+          }
+        ],
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "case": "6",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_boli9fib",
+    "hit_segments_by_status": {
+      "power_logical_membership_provisional": 48,
+      "exported": 19,
+      "no_attached_pins": 15
+    },
+    "network_reasons": {
+      "power_logical_membership_provisional": 3
+    },
+    "attachment_counts": {
+      "attached": 78,
+      "no_wire_within_radius": 2
+    },
+    "omitted_matching_networks": [
+      {
+        "net": "PWR_NET_CAND_00002",
+        "matched_geometry": 24,
+        "status": "power_logical_membership_provisional",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0005",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": "IN",
+            "point": [
+              485.26903384923935,
+              668.946139048785
+            ]
+          },
+          {
+            "id": "PIN_CAND_0006",
+            "owner": "UNRESOLVED_DET_0021",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              196.4542651474476,
+              658.8430299311876
+            ]
+          },
+          {
+            "id": "PIN_CAND_0007",
+            "owner": "UNRESOLVED_DET_0030",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              376.99041569419205,
+              131.1967368274927
+            ]
+          },
+          {
+            "id": "PIN_CAND_0008",
+            "owner": "U4",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": "OUT",
+            "point": [
+              1761.8508192747831,
+              207.59257355332375
+            ]
+          },
+          {
+            "id": "PIN_CAND_0010",
+            "owner": "UNRESOLVED_DET_0017",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1111.845325395465,
+              647.2042725086212
+            ]
+          },
+          {
+            "id": "PIN_CAND_0024",
+            "owner": "U2",
+            "owner_status": "assigned",
+            "number": "5",
+            "pinname": "IN",
+            "point": [
+              650.0771622881293,
+              218.95507765561342
+            ]
+          },
+          {
+            "id": "PIN_CAND_0026",
+            "owner": "UNRESOLVED_DET_0028",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              2076.4152572155,
+              107.61630448698997
+            ]
+          },
+          {
+            "id": "PIN_CAND_0027",
+            "owner": "R2",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              455.88138303905725,
+              369.4643332064152
+            ]
+          },
+          {
+            "id": "PIN_CAND_0035",
+            "owner": "U3",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": "IN",
+            "point": [
+              1400.7785634845495,
+              654.9799276441336
+            ]
+          },
+          {
+            "id": "PIN_CAND_0038",
+            "owner": "C12",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              2076.580134421587,
+              268.6604052186012
+            ]
+          },
+          {
+            "id": "PIN_CAND_0044",
+            "owner": "R1",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              504.5205402970314,
+              258.53908827900887
+            ]
+          },
+          {
+            "id": "PIN_CAND_0052",
+            "owner": "C5",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              321.427552908659,
+              286.9487884454429
+            ]
+          },
+          {
+            "id": "PIN_CAND_0076",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              2076.749575316906,
+              248.68468096852303
+            ]
+          },
+          {
+            "id": "PIN_CAND_0078",
+            "owner": "C5",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": null,
+            "point": [
+              321.7594785243273,
+              263.29021990299225
+            ]
+          }
+        ],
+        "edges": 27
+      },
+      {
+        "net": "PWR_NET_CAND_00001",
+        "matched_geometry": 12,
+        "status": "power_logical_membership_provisional",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0009",
+            "owner": "U4",
+            "owner_status": "assigned",
+            "number": "5",
+            "pinname": "IN",
+            "point": [
+              1620.8262471109629,
+              207.39143985509872
+            ]
+          },
+          {
+            "id": "PIN_CAND_0013",
+            "owner": "UNRESOLVED_DET_0035",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1106.0576876662672,
+              119.92648871243
+            ]
+          },
+          {
+            "id": "PIN_CAND_0022",
+            "owner": "UNRESOLVED_DET_0032",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1347.2182599753141,
+              116.26148453354836
+            ]
+          },
+          {
+            "id": "PIN_CAND_0025",
+            "owner": "R4",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              1426.729567795992,
+              357.52569621801376
+            ]
+          },
+          {
+            "id": "PIN_CAND_0029",
+            "owner": "R3",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1473.8430911004543,
+              246.65570971369743
+            ]
+          },
+          {
+            "id": "PIN_CAND_0033",
+            "owner": "U2",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": "OUT",
+            "point": [
+              793.4708300232887,
+              218.77238248288631
+            ]
+          },
+          {
+            "id": "PIN_CAND_0043",
+            "owner": "C6",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              1106.5460171997547,
+              281.02070090919733
+            ]
+          },
+          {
+            "id": "PIN_CAND_0066",
+            "owner": "C11",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              1291.4547735154629,
+              271.1971778869629
+            ]
+          },
+          {
+            "id": "PIN_CAND_0077",
+            "owner": "C11",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": null,
+            "point": [
+              1292.646542429924,
+              251.36472502350807
+            ]
+          },
+          {
+            "id": "PIN_CAND_0079",
+            "owner": null,
+            "owner_status": "no_component_nearby",
+            "number": null,
+            "pinname": null,
+            "point": [
+              1106.6997582614422,
+              260.2487536072731
+            ]
+          }
+        ],
+        "edges": 14
+      },
+      {
+        "net": "PWR_NET_CAND_00004",
+        "matched_geometry": 12,
+        "status": "power_logical_membership_provisional",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0014",
+            "owner": "UNRESOLVED_DET_0027",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1736.6943845450878,
+              646.0380033552647
+            ]
+          },
+          {
+            "id": "PIN_CAND_0017",
+            "owner": "U3",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": "OUT",
+            "point": [
+              1440.3586230576038,
+              661.8360883444548
+            ]
+          },
+          {
+            "id": "PIN_CAND_0018",
+            "owner": "UNRESOLVED_DET_0025",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              821.2566193044186,
+              657.2674441039562
+            ]
+          },
+          {
+            "id": "PIN_CAND_0030",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": "OUT",
+            "point": [
+              525.5397025346756,
+              673.5425969660282
+            ]
+          },
+          {
+            "id": "PIN_CAND_0075",
+            "owner": "C10",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": null,
+            "point": [
+              1736.8743424415588,
+              752.2863930761814
+            ]
+          }
+        ],
+        "edges": 13
+      },
+      {
+        "net": "LOG_NET_CAND_00010",
+        "matched_geometry": 8,
+        "status": "no_attached_pins",
+        "unresolved_junctions": [
+          "J00020"
+        ],
+        "pins": [],
+        "edges": 9
+      },
+      {
+        "net": "LOG_NET_CAND_00012",
+        "matched_geometry": 6,
+        "status": "no_attached_pins",
+        "unresolved_junctions": [
+          "J00023"
+        ],
+        "pins": [],
+        "edges": 7
+      },
+      {
+        "net": "LOG_NET_CAND_00047",
+        "matched_geometry": 1,
+        "status": "no_attached_pins",
+        "unresolved_junctions": [],
+        "pins": [],
+        "edges": 1
+      }
+    ]
+  },
+  {
+    "case": "5",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_ivd0cfdu",
+    "hit_segments_by_status": {
+      "power_logical_membership_provisional": 16,
+      "exported": 25,
+      "no_resolvable_member": 1,
+      "no_attached_pins": 0,
+      "no_resolvable_member,detected_power_symbol_near_wire_without_attached_member": 2
+    },
+    "network_reasons": {
+      "no_resolvable_member": 6,
+      "detected_power_symbol_near_wire_without_attached_member": 1,
+      "power_logical_membership_provisional": 2
+    },
+    "attachment_counts": {
+      "attached": 69,
+      "ambiguous_nearby_networks": 1,
+      "no_wire_within_radius": 1
+    },
+    "omitted_matching_networks": [
+      {
+        "net": "PWR_NET_CAND_00001",
+        "matched_geometry": 14,
+        "status": "power_logical_membership_provisional",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0003",
+            "owner": "U3",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": "VIN",
+            "point": [
+              539.2286578714848,
+              774.5835176110268
+            ]
+          },
+          {
+            "id": "PIN_CAND_0006",
+            "owner": "UNRESOLVED_DET_0026",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              293.26515302062035,
+              774.5546154677868
+            ]
+          },
+          {
+            "id": "PIN_CAND_0009",
+            "owner": "UNRESOLVED_DET_0013",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              928.924455948174,
+              166.28171706199646
+            ]
+          },
+          {
+            "id": "PIN_CAND_0014",
+            "owner": "C5",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              382.5326340198517,
+              834.5703179240227
+            ]
+          },
+          {
+            "id": "PIN_CAND_0016",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": null,
+            "pinname": null,
+            "point": [
+              652.6386936903,
+              270.50011745095253
+            ]
+          },
+          {
+            "id": "PIN_CAND_0021",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": "VOUT",
+            "point": [
+              652.9028808102012,
+              230.8024316430092
+            ]
+          },
+          {
+            "id": "PIN_CAND_0026",
+            "owner": "U2",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": "VOUT",
+            "point": [
+              1640.950550235808,
+              460.5926596522331
+            ]
+          },
+          {
+            "id": "PIN_CAND_0031",
+            "owner": "C4",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              1853.4150827527046,
+              522.5132986903191
+            ]
+          },
+          {
+            "id": "PIN_CAND_0053",
+            "owner": "U2",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": "FB",
+            "point": [
+              1644.6900309026241,
+              500.63358294963837
+            ]
+          },
+          {
+            "id": "PIN_CAND_0058",
+            "owner": "UNRESOLVED_DET_0027",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1914.68257188797,
+              392.5228778719902
+            ]
+          },
+          {
+            "id": "PIN_CAND_0065",
+            "owner": "C4",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": null,
+            "point": [
+              1853.8939198926091,
+              503.23663833737373
+            ]
+          },
+          {
+            "id": "PIN_CAND_0066",
+            "owner": "U2",
+            "owner_status": "assigned",
+            "number": "8",
+            "pinname": null,
+            "point": [
+              1666.3614421188831,
+              499.54742324352264
+            ]
+          },
+          {
+            "id": "PIN_CAND_0071",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": "3",
+            "pinname": "FB",
+            "point": [
+              669.6144964694977,
+              270.8043785840273
+            ]
+          }
+        ],
+        "edges": 20
+      },
+      {
+        "net": "LOG_NET_CAND_00016",
+        "matched_geometry": 2,
+        "status": "no_resolvable_member,detected_power_symbol_near_wire_without_attached_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0046",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": null,
+            "pinname": null,
+            "point": [
+              648.580086261034,
+              329.4898270666599
+            ]
+          },
+          {
+            "id": "PIN_CAND_0054",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": null,
+            "pinname": null,
+            "point": [
+              658.1969403475523,
+              329.9563787318766
+            ]
+          },
+          {
+            "id": "PIN_CAND_0056",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": null,
+            "pinname": null,
+            "point": [
+              654.8439337313175,
+              330.05536698922515
+            ]
+          },
+          {
+            "id": "PIN_CAND_0070",
+            "owner": "U1",
+            "owner_status": "assigned",
+            "number": null,
+            "pinname": null,
+            "point": [
+              679.8561094254255,
+              329.0115888006985
+            ]
+          }
+        ],
+        "edges": 3
+      },
+      {
+        "net": "PWR_NET_CAND_00022",
+        "matched_geometry": 2,
+        "status": "power_logical_membership_provisional",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0001",
+            "owner": "U3",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": "GND",
+            "point": [
+              537.9938666475937,
+              734.7046810686588
+            ]
+          },
+          {
+            "id": "PIN_CAND_0024",
+            "owner": "UNRESOLVED_DET_0006",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1213.5448143780231,
+              686.3657113313675
+            ]
+          },
+          {
+            "id": "PIN_CAND_0029",
+            "owner": "UNRESOLVED_DET_0009",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              442.4425052702427,
+              655.4599066674709
+            ]
+          },
+          {
+            "id": "PIN_CAND_0030",
+            "owner": "UNRESOLVED_DET_0014",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              382.58663523197174,
+              935.1385980397463
+            ]
+          },
+          {
+            "id": "PIN_CAND_0033",
+            "owner": "C5",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              382.52631333470345,
+              868.1200856864452
+            ]
+          },
+          {
+            "id": "PIN_CAND_0040",
+            "owner": "C3",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1213.3484118878841,
+              610.5022841393948
+            ]
+          },
+          {
+            "id": "PIN_CAND_0042",
+            "owner": "UNRESOLVED_DET_0019",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              897.5911344587803,
+              927.0271421391517
+            ]
+          },
+          {
+            "id": "PIN_CAND_0044",
+            "owner": "UNRESOLVED_DET_0018",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1853.6629452109337,
+              609.980164706707
+            ]
+          },
+          {
+            "id": "PIN_CAND_0049",
+            "owner": "C4",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              1853.2016373723745,
+              559.2734880745411
+            ]
+          },
+          {
+            "id": "PIN_CAND_0050",
+            "owner": "C6",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              896.4867866933346,
+              858.9478709846735
+            ]
+          }
+        ],
+        "edges": 6
+      },
+      {
+        "net": "LOG_NET_CAND_00018",
+        "matched_geometry": 1,
+        "status": "no_resolvable_member",
+        "unresolved_junctions": [],
+        "pins": [
+          {
+            "id": "PIN_CAND_0032",
+            "owner": "UNRESOLVED_DET_0011",
+            "owner_status": "assigned",
+            "number": "1",
+            "pinname": null,
+            "point": [
+              867.0861465632915,
+              390.1844010204077
+            ]
+          },
+          {
+            "id": "PIN_CAND_0062",
+            "owner": "UNRESOLVED_DET_0011",
+            "owner_status": "assigned",
+            "number": "2",
+            "pinname": null,
+            "point": [
+              865.4163328111172,
+              382.6273991763592
+            ]
+          }
+        ],
+        "edges": 1
+      }
+    ]
+  }
+]

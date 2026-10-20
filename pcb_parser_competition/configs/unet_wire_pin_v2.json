@@ -1,0 +1,59 @@
+{
+  "version": "2.0",
+  "model": "WirePinUNet",
+  "source_repository": "https://github.com/milesial/Pytorch-UNet",
+  "source_commit": "21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "base_channels": 32,
+  "input_channels": 3,
+  "outputs": [
+    "wire_mask",
+    "pin_tip_heatmap"
+  ],
+  "traditional_image_segmentation": false,
+  "tile_size": 512,
+  "stride": 384,
+  "label_line_width": 3,
+  "pin_sigma": 2.5,
+  "ignore_halo_px": 5,
+  "unowned_pin_ignore_radius_px": 8,
+  "labels_status": "draft_rasterized_source_geometry_v2_with_coordinates_fallback_not_certified",
+  "junction_head_status": "not_enabled_pending_verified_junction_labels",
+  "dataset": {
+    "manifest": "D:/pcb_unet_v2/data/segmentation_unet_v2/manifest.jsonl",
+    "summary": "D:/pcb_unet_v2/data/segmentation_unet_v2/summary.json",
+    "reviews": "D:/pcb_unet_v2/reports/label_reviews",
+    "v1_manifest_reference": "C:/Users/Pc/Desktop/新建文件夹/pcb_parser_competition/data/segmentation_unet_v1/manifest.jsonl",
+    "cache_root": "D:/pcb_unet_v2/data/tile_cache_v2"
+  },
+  "training": {
+    "epochs": 60,
+    "batch_size": 2,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "amp": true,
+    "seed": 20261011,
+    "wire_positive_weight": 8.0,
+    "pin_positive_weight": 20.0,
+    "device": "cuda:0",
+    "minimum_free_gpu_gib": 4,
+    "num_workers": 4,
+    "pin_loss_weight": 2.0
+  },
+  "inference": {
+    "wire_threshold": 0.5,
+    "pin_threshold": 0.9,
+    "pin_peak_kernel": 9,
+    "pin_tolerance_px": 5
+  },
+  "checkpoint": "D:/pcb_unet_v2/runs/A3_split_w2/best.pt",
+  "official_score": null,
+  "notes": [
+    "v2 changes labels only: the v1 wire target dropped 692 edges whose geometry lives in edge.coordinates instead of edge.keyPointPaths.wire, and rejected every page containing one.",
+    "Ignore masks replace page-level rejection: unowned root pins, invalid tips and edges without geometry are marked do-not-score per channel.",
+    "pin_sigma 2.0 -> 2.5 so the target's decay length matches the official 5 px pin tolerance.",
+    "No weights or v1 artifacts are modified; runs/unet_wire_pin_v1/best.pt stays the rollback baseline.",
+    "2026-10-17: pin decode default moved from (threshold 0.8, kernel 5) to (0.9, 9). Full 59-page validation: pin F1 0.7063 -> 0.7364 (+3.01), and it holds on the 47 pages that were not used to pick the setting (+2.48). Evidence: reports/pin_decoder_full.json.",
+    "2026-10-17 (A3): adopted default = split decoder + pin_loss_weight 2.0 (run A3_split_w2, epoch 30 checkpoint). 59-page validation: wire F1 0.8394, pin F1 0.7578 at k9/t0.90; pin precision 0.7794 and median per-page pin F1 0.8043 are the best of all variants. Alternatives kept: A3_pin_l1 (minimal change, pin 0.7599), A3_pin_split (wire 0.8491). Evidence: reports/A3_pin_head_report.md."
+  ],
+  "model_variant": "split"
+}

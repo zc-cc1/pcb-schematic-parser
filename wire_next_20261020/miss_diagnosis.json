@@ -1,0 +1,1835 @@
+[
+  {
+    "case": "5",
+    "wire": {
+      "tp": 26,
+      "fp": 26,
+      "fn": 31,
+      "precision": 0.5,
+      "recall": 0.4561,
+      "f1": 0.4771
+    },
+    "pure_geometry_tp": 30,
+    "missing_nets": [
+      {
+        "gt": [
+          "net_3",
+          "net_9"
+        ],
+        "gt_edges": 18,
+        "tp": 3,
+        "fn": 15,
+        "geometry_in_any_net": 7,
+        "pred": [
+          "LOG_NET_CAND_00002"
+        ],
+        "pred_edges": 5,
+        "pin_set_f1": 0.3636,
+        "missing_vertices": [
+          [
+            "ic",
+            "U2",
+            "4"
+          ],
+          [
+            "ic",
+            "U2",
+            "6"
+          ],
+          [
+            "ordinary",
+            "C1"
+          ],
+          [
+            "ordinary",
+            "C3"
+          ],
+          [
+            "ordinary",
+            "L1"
+          ],
+          [
+            "ordinary",
+            "L2"
+          ],
+          [
+            "rail",
+            "supply",
+            "3.3V"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_1",
+          "net_11",
+          "net_12",
+          "net_13",
+          "net_16",
+          "net_17",
+          "net_5",
+          "net_6",
+          "net_7"
+        ],
+        "gt_edges": 12,
+        "tp": 3,
+        "fn": 9,
+        "geometry_in_any_net": 3,
+        "pred": [
+          "LOG_NET_CAND_00019",
+          "LOG_NET_CAND_00023",
+          "RESTORED_NET_CAND_00024",
+          "RESTORED_NET_CAND_00025",
+          "RESTORED_NET_CAND_00026",
+          "RESTORED_NET_CAND_00028",
+          "RESTORED_NET_CAND_00029"
+        ],
+        "pred_edges": 9,
+        "pin_set_f1": 0.8889,
+        "missing_vertices": [
+          [
+            "ic",
+            "U1",
+            "1"
+          ],
+          [
+            "ordinary",
+            "C2"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_15",
+          "net_2",
+          "net_8"
+        ],
+        "gt_edges": 17,
+        "tp": 12,
+        "fn": 5,
+        "geometry_in_any_net": 12,
+        "pred": [
+          "RESTORED_NET_CAND_00001",
+          "RESTORED_NET_CAND_00005",
+          "RESTORED_NET_CAND_00009"
+        ],
+        "pred_edges": 17,
+        "pin_set_f1": 0.9412,
+        "missing_vertices": [
+          [
+            "ordinary",
+            "C2"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_4"
+        ],
+        "gt_edges": 1,
+        "tp": 0,
+        "fn": 1,
+        "geometry_in_any_net": 0,
+        "pred": [
+          "LOG_NET_CAND_00010"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_10"
+        ],
+        "gt_edges": 1,
+        "tp": 0,
+        "fn": 1,
+        "geometry_in_any_net": 0,
+        "pred": [
+          "LOG_NET_CAND_00004"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_14"
+        ],
+        "gt_edges": 8,
+        "tp": 8,
+        "fn": 0,
+        "geometry_in_any_net": 8,
+        "pred": [
+          "LOG_NET_CAND_00008"
+        ],
+        "pred_edges": 8,
+        "pin_set_f1": 0.8571,
+        "missing_vertices": [
+          [
+            "rail",
+            "supply",
+            "+3.3V"
+          ]
+        ],
+        "extra_vertices": []
+      }
+    ],
+    "omitted_model_nets": [
+      {
+        "id": "PWR_NET_CAND_00001",
+        "edges": 22,
+        "unresolved_junctions": [],
+        "power_names": [
+          "+5V"
+        ],
+        "members": [
+          {
+            "owner": "U3",
+            "number": "3",
+            "pinname": "VIN",
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0026",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0013",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C5",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": "2",
+            "pinname": "VOUT",
+            "status": "assigned"
+          },
+          {
+            "owner": "U2",
+            "number": "2",
+            "pinname": "VOUT",
+            "status": "assigned"
+          },
+          {
+            "owner": "C4",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U2",
+            "number": "3",
+            "pinname": "FB",
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0027",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C4",
+            "number": "3",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U2",
+            "number": "8",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": "3",
+            "pinname": "FB",
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00011",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0025",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00012",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00015",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00016",
+        "edges": 4,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00017",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0025",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00018",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0011",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0011",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00020",
+        "edges": 0,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0016",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00022",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "PWR_NET_CAND_00022",
+        "edges": 6,
+        "unresolved_junctions": [],
+        "power_names": [
+          "GND"
+        ],
+        "members": [
+          {
+            "owner": "U3",
+            "number": "1",
+            "pinname": "GND",
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0006",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0009",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0014",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C5",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C3",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0019",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0018",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C4",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "C6",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00027",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "U3",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      }
+    ],
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_ivd0cfdu",
+    "power_decisions": [
+      {
+        "label": "+3.3V",
+        "site_ids": [
+          "POWER_ROI_SITE_00005"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00008"
+        ],
+        "withheld_reasons": [
+          "single_observed_power_occurrence",
+          "already_same_input_network"
+        ],
+        "status": "withheld",
+        "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      },
+      {
+        "label": "+5V",
+        "site_ids": [
+          "POWER_ROI_SITE_00001",
+          "POWER_ROI_SITE_00006",
+          "POWER_ROI_SITE_00007"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00001",
+          "LOG_NET_CAND_00005",
+          "LOG_NET_CAND_00009"
+        ],
+        "withheld_reasons": [],
+        "status": "power_logical_connectivity_proposal",
+        "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      },
+      {
+        "label": "3.3V",
+        "site_ids": [
+          "POWER_ROI_SITE_00002",
+          "POWER_ROI_SITE_00003"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00002",
+          "LOG_NET_CAND_00006"
+        ],
+        "withheld_reasons": [
+          "junction_semantics_unresolved"
+        ],
+        "status": "withheld",
+        "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      },
+      {
+        "label": "GND",
+        "site_ids": [
+          "LABEL_SITE_00024",
+          "LABEL_SITE_00021",
+          "LABEL_SITE_00031",
+          "LABEL_SITE_00023",
+          "LABEL_SITE_00030"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00024",
+          "LOG_NET_CAND_00025",
+          "LOG_NET_CAND_00026",
+          "LOG_NET_CAND_00028",
+          "LOG_NET_CAND_00029"
+        ],
+        "withheld_reasons": [],
+        "status": "power_logical_connectivity_proposal",
+        "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      }
+    ],
+    "withheld_reasons": {
+      "no_resolvable_member": 6,
+      "detected_power_symbol_near_wire_without_attached_member": 1,
+      "power_logical_membership_provisional": 2
+    }
+  },
+  {
+    "case": "9",
+    "wire": {
+      "tp": 12,
+      "fp": 9,
+      "fn": 27,
+      "precision": 0.5714,
+      "recall": 0.3077,
+      "f1": 0.4
+    },
+    "pure_geometry_tp": 14,
+    "missing_nets": [
+      {
+        "gt": [
+          "net_1",
+          "net_2",
+          "net_3",
+          "net_9"
+        ],
+        "gt_edges": 14,
+        "tp": 0,
+        "fn": 14,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00008"
+        ],
+        "pred_edges": 0,
+        "pin_set_f1": 0.2,
+        "missing_vertices": [
+          [
+            "ic",
+            "U2",
+            "5"
+          ],
+          [
+            "ordinary",
+            "C3"
+          ],
+          [
+            "ordinary",
+            "C4"
+          ],
+          [
+            "ordinary",
+            "C5"
+          ],
+          [
+            "ordinary",
+            "L1"
+          ],
+          [
+            "ordinary",
+            "R1"
+          ],
+          [
+            "ordinary",
+            "R3"
+          ],
+          [
+            "rail",
+            "supply",
+            "VCC"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_10",
+          "net_11",
+          "net_5"
+        ],
+        "gt_edges": 13,
+        "tp": 4,
+        "fn": 9,
+        "geometry_in_any_net": 4,
+        "pred": [
+          "LOG_NET_CAND_00006"
+        ],
+        "pred_edges": 6,
+        "pin_set_f1": 0.4444,
+        "missing_vertices": [
+          [
+            "ordinary",
+            "C2"
+          ],
+          [
+            "ordinary",
+            "C3"
+          ],
+          [
+            "ordinary",
+            "C4"
+          ],
+          [
+            "ordinary",
+            "C5"
+          ],
+          [
+            "rail",
+            "ground",
+            "GND"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_4"
+        ],
+        "gt_edges": 3,
+        "tp": 2,
+        "fn": 1,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00005"
+        ],
+        "pred_edges": 4,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_6"
+        ],
+        "gt_edges": 3,
+        "tp": 2,
+        "fn": 1,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00013"
+        ],
+        "pred_edges": 3,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_7"
+        ],
+        "gt_edges": 4,
+        "tp": 3,
+        "fn": 1,
+        "geometry_in_any_net": 3,
+        "pred": [
+          "LOG_NET_CAND_00002"
+        ],
+        "pred_edges": 4,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_8"
+        ],
+        "gt_edges": 2,
+        "tp": 1,
+        "fn": 1,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00018"
+        ],
+        "pred_edges": 2,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      }
+    ],
+    "omitted_model_nets": [
+      {
+        "id": "LOG_NET_CAND_00001",
+        "edges": 4,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0006",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0010",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00003",
+        "edges": 5,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "L1",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00004",
+        "edges": 5,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "C4",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          },
+          {
+            "owner": "UNRESOLVED_DET_0014",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00007",
+        "edges": 5,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "C4",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00009",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0012",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00010",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0012",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00015",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0016",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00016",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0008",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00022",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0015",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      }
+    ],
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_37q55mki",
+    "power_decisions": [
+      {
+        "label": "GND",
+        "site_ids": [
+          "LABEL_SITE_00013",
+          "LABEL_SITE_00001",
+          "LABEL_SITE_00004"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00001",
+          "LOG_NET_CAND_00006",
+          "LOG_NET_CAND_00016"
+        ],
+        "withheld_reasons": [
+          "junction_semantics_unresolved"
+        ],
+        "status": "withheld",
+        "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      }
+    ],
+    "withheld_reasons": {
+      "no_resolvable_member": 6,
+      "detected_power_symbol_near_wire_without_attached_member": 3
+    }
+  },
+  {
+    "case": "10",
+    "wire": {
+      "tp": 33,
+      "fp": 41,
+      "fn": 49,
+      "precision": 0.4459,
+      "recall": 0.4024,
+      "f1": 0.4231
+    },
+    "pure_geometry_tp": 63,
+    "missing_nets": [
+      {
+        "gt": [
+          "net_1",
+          "net_12",
+          "net_8"
+        ],
+        "gt_edges": 33,
+        "tp": 9,
+        "fn": 24,
+        "geometry_in_any_net": 22,
+        "pred": [
+          "LOG_NET_CAND_00006"
+        ],
+        "pred_edges": 11,
+        "pin_set_f1": 0.5,
+        "missing_vertices": [
+          [
+            "ic",
+            "U1",
+            "1"
+          ],
+          [
+            "ic",
+            "U1",
+            "9"
+          ],
+          [
+            "ic",
+            "U2",
+            "3"
+          ],
+          [
+            "ordinary",
+            "C7"
+          ],
+          [
+            "ordinary",
+            "C8"
+          ],
+          [
+            "ordinary",
+            "C9"
+          ],
+          [
+            "ordinary",
+            "R1"
+          ],
+          [
+            "ordinary",
+            "R3"
+          ],
+          [
+            "ordinary",
+            "R6"
+          ],
+          [
+            "ordinary",
+            "R7"
+          ],
+          [
+            "ordinary",
+            "R8"
+          ],
+          [
+            "rail",
+            "supply",
+            "VCC"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_10",
+          "net_13",
+          "net_14",
+          "net_15",
+          "net_2",
+          "net_9"
+        ],
+        "gt_edges": 26,
+        "tp": 7,
+        "fn": 19,
+        "geometry_in_any_net": 22,
+        "pred": [
+          "LOG_NET_CAND_00003"
+        ],
+        "pred_edges": 7,
+        "pin_set_f1": 0.3333,
+        "missing_vertices": [
+          [
+            "ic",
+            "U2",
+            "2"
+          ],
+          [
+            "ordinary",
+            "C4"
+          ],
+          [
+            "ordinary",
+            "C5"
+          ],
+          [
+            "ordinary",
+            "C6"
+          ],
+          [
+            "ordinary",
+            "C7"
+          ],
+          [
+            "ordinary",
+            "C8"
+          ],
+          [
+            "ordinary",
+            "C9"
+          ],
+          [
+            "ordinary",
+            "D1"
+          ],
+          [
+            "ordinary",
+            "LED1"
+          ],
+          [
+            "ordinary",
+            "R4"
+          ],
+          [
+            "ordinary",
+            "R5"
+          ],
+          [
+            "rail",
+            "ground",
+            "GND"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_6"
+        ],
+        "gt_edges": 7,
+        "tp": 1,
+        "fn": 6,
+        "geometry_in_any_net": 3,
+        "pred": [
+          "LOG_NET_CAND_00004"
+        ],
+        "pred_edges": 3,
+        "pin_set_f1": 0.75,
+        "missing_vertices": [
+          [
+            "ordinary",
+            "D1"
+          ],
+          [
+            "ordinary",
+            "R2"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_3"
+        ],
+        "gt_edges": 3,
+        "tp": 3,
+        "fn": 0,
+        "geometry_in_any_net": 3,
+        "pred": [
+          "LOG_NET_CAND_00002"
+        ],
+        "pred_edges": 3,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_4"
+        ],
+        "gt_edges": 7,
+        "tp": 7,
+        "fn": 0,
+        "geometry_in_any_net": 7,
+        "pred": [
+          "LOG_NET_CAND_00011"
+        ],
+        "pred_edges": 7,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_5"
+        ],
+        "gt_edges": 3,
+        "tp": 3,
+        "fn": 0,
+        "geometry_in_any_net": 3,
+        "pred": [
+          "LOG_NET_CAND_00017"
+        ],
+        "pred_edges": 4,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_7"
+        ],
+        "gt_edges": 1,
+        "tp": 1,
+        "fn": 0,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00015"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_11"
+        ],
+        "gt_edges": 2,
+        "tp": 2,
+        "fn": 0,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00016"
+        ],
+        "pred_edges": 2,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      }
+    ],
+    "omitted_model_nets": [
+      {
+        "id": "LOG_NET_CAND_00009",
+        "edges": 2,
+        "unresolved_junctions": [
+          "J00016"
+        ],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0023",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00013",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0021",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": "U2",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00014",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "U2",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      }
+    ],
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_701vy31t",
+    "power_decisions": [
+      {
+        "label": "GND",
+        "site_ids": [
+          "LABEL_SITE_00022",
+          "LABEL_SITE_00023",
+          "LABEL_SITE_00021",
+          "LABEL_SITE_00001"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00003",
+          "LOG_NET_CAND_00012",
+          "LOG_NET_CAND_00013",
+          "LOG_NET_CAND_00025"
+        ],
+        "withheld_reasons": [
+          "junction_semantics_unresolved"
+        ],
+        "status": "withheld",
+        "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      }
+    ],
+    "withheld_reasons": {
+      "no_resolvable_member": 3
+    }
+  },
+  {
+    "case": "13",
+    "wire": {
+      "tp": 13,
+      "fp": 22,
+      "fn": 36,
+      "precision": 0.3714,
+      "recall": 0.2653,
+      "f1": 0.3095
+    },
+    "pure_geometry_tp": 24,
+    "missing_nets": [
+      {
+        "gt": [
+          "net_7"
+        ],
+        "gt_edges": 21,
+        "tp": 7,
+        "fn": 14,
+        "geometry_in_any_net": 12,
+        "pred": [
+          "LOG_NET_CAND_00002"
+        ],
+        "pred_edges": 8,
+        "pin_set_f1": 0.2667,
+        "missing_vertices": [
+          [
+            "ic",
+            "H1",
+            "2"
+          ],
+          [
+            "ic",
+            "U1",
+            "4"
+          ],
+          [
+            "ic",
+            "U1",
+            "9"
+          ],
+          [
+            "ordinary",
+            "C1"
+          ],
+          [
+            "ordinary",
+            "C2"
+          ],
+          [
+            "ordinary",
+            "C3"
+          ],
+          [
+            "ordinary",
+            "C5"
+          ],
+          [
+            "ordinary",
+            "C6"
+          ],
+          [
+            "ordinary",
+            "R3"
+          ],
+          [
+            "ordinary",
+            "R4"
+          ],
+          [
+            "rail",
+            "ground",
+            "GND"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_2"
+        ],
+        "gt_edges": 10,
+        "tp": 1,
+        "fn": 9,
+        "geometry_in_any_net": 4,
+        "pred": [
+          "LOG_NET_CAND_00013"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 0.4444,
+        "missing_vertices": [
+          [
+            "ic",
+            "H1",
+            "1"
+          ],
+          [
+            "ordinary",
+            "C5"
+          ],
+          [
+            "ordinary",
+            "C6"
+          ],
+          [
+            "ordinary",
+            "C7"
+          ],
+          [
+            "rail",
+            "supply",
+            "VOUT"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_11",
+          "net_6"
+        ],
+        "gt_edges": 7,
+        "tp": 0,
+        "fn": 7,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00006"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 0.25,
+        "missing_vertices": [
+          [
+            "ic",
+            "H1",
+            "3"
+          ],
+          [
+            "ordinary",
+            "C1"
+          ],
+          [
+            "ordinary",
+            "C2"
+          ],
+          [
+            "ordinary",
+            "C3"
+          ],
+          [
+            "ordinary",
+            "R5"
+          ],
+          [
+            "rail",
+            "supply",
+            "VIN"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_4"
+        ],
+        "gt_edges": 3,
+        "tp": 0,
+        "fn": 3,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00011"
+        ],
+        "pred_edges": 0,
+        "pin_set_f1": 0.5,
+        "missing_vertices": [
+          [
+            "ic",
+            "U1",
+            "1"
+          ],
+          [
+            "ordinary",
+            "C4"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_1"
+        ],
+        "gt_edges": 3,
+        "tp": 1,
+        "fn": 2,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00022"
+        ],
+        "pred_edges": 2,
+        "pin_set_f1": 0.8,
+        "missing_vertices": [
+          [
+            "ic",
+            "U1",
+            "5"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_9"
+        ],
+        "gt_edges": 2,
+        "tp": 1,
+        "fn": 1,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00008"
+        ],
+        "pred_edges": 3,
+        "pin_set_f1": 0.6667,
+        "missing_vertices": [
+          [
+            "ordinary",
+            "C8"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_3"
+        ],
+        "gt_edges": 0,
+        "tp": 0,
+        "fn": 0,
+        "geometry_in_any_net": 0,
+        "pred": [],
+        "pred_edges": 0,
+        "pin_set_f1": 0,
+        "missing_vertices": [
+          [
+            "ic",
+            "U1",
+            "2"
+          ],
+          [
+            "ordinary",
+            "C4"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_5"
+        ],
+        "gt_edges": 1,
+        "tp": 1,
+        "fn": 0,
+        "geometry_in_any_net": 1,
+        "pred": [
+          "LOG_NET_CAND_00037"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_8"
+        ],
+        "gt_edges": 0,
+        "tp": 0,
+        "fn": 0,
+        "geometry_in_any_net": 0,
+        "pred": [
+          "LOG_NET_CAND_00040"
+        ],
+        "pred_edges": 1,
+        "pin_set_f1": 0.6667,
+        "missing_vertices": [
+          [
+            "ordinary",
+            "C8"
+          ]
+        ],
+        "extra_vertices": []
+      },
+      {
+        "gt": [
+          "net_10"
+        ],
+        "gt_edges": 2,
+        "tp": 2,
+        "fn": 0,
+        "geometry_in_any_net": 2,
+        "pred": [
+          "LOG_NET_CAND_00007"
+        ],
+        "pred_edges": 2,
+        "pin_set_f1": 1.0,
+        "missing_vertices": [],
+        "extra_vertices": []
+      }
+    ],
+    "omitted_model_nets": [
+      {
+        "id": "LOG_NET_CAND_00003",
+        "edges": 2,
+        "unresolved_junctions": [
+          "J00005"
+        ],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00004",
+        "edges": 3,
+        "unresolved_junctions": [
+          "J00005"
+        ],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00010",
+        "edges": 7,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          },
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          },
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00012",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0010",
+            "number": "1",
+            "pinname": null,
+            "status": "assigned"
+          },
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00015",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00018",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00019",
+        "edges": 2,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00020",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00025",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "H1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00026",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "U1",
+            "number": null,
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00027",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00029",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00030",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00033",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00034",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00035",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00036",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00038",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00041",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00042",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00047",
+        "edges": 2,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          },
+          {
+            "owner": null,
+            "number": null,
+            "pinname": null,
+            "status": "no_component_nearby"
+          }
+        ]
+      },
+      {
+        "id": "LOG_NET_CAND_00048",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": []
+      },
+      {
+        "id": "LOG_NET_CAND_00049",
+        "edges": 1,
+        "unresolved_junctions": [],
+        "power_names": [],
+        "members": [
+          {
+            "owner": "UNRESOLVED_DET_0012",
+            "number": "2",
+            "pinname": null,
+            "status": "assigned"
+          }
+        ]
+      }
+    ],
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_3uq099b5",
+    "power_decisions": [
+      {
+        "label": "VOUT",
+        "site_ids": [
+          "LABEL_SITE_00001"
+        ],
+        "input_network_ids": [
+          "LOG_NET_CAND_00012"
+        ],
+        "withheld_reasons": [
+          "single_observed_power_occurrence",
+          "already_same_input_network"
+        ],
+        "status": "withheld",
+        "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+        "creates_ordinary_flywire": false,
+        "physical_wire_added": false
+      }
+    ],
+    "withheld_reasons": {
+      "no_resolvable_member": 10
+    }
+  }
+]

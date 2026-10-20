@@ -1,0 +1,424 @@
+{
+  "enabled": true,
+  "policy": "bottom_number_cycle_v1",
+  "groups": [
+    {
+      "owner": "U1",
+      "rows": [
+        {
+          "owner": "U1",
+          "candidate_id": "PIN_CAND_0005",
+          "old_number": "2",
+          "number": "1",
+          "name": "IN",
+          "expected_name": "IN",
+          "number_support": {
+            "1": 2
+          },
+          "number_readings": [
+            {
+              "text": "1",
+              "confidence": 0.98984,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0005_r90_s3.0"
+            },
+            {
+              "text": "1",
+              "confidence": 0.98935,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0005_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            471,
+            658,
+            488,
+            675
+          ],
+          "name_support": {
+            "IN": 2
+          },
+          "network_id": "RESTORED_NET_CAND_00009"
+        },
+        {
+          "owner": "U1",
+          "candidate_id": "PIN_CAND_0020",
+          "old_number": "1",
+          "number": "2",
+          "name": "GND",
+          "expected_name": "GND",
+          "number_support": {
+            "2": 2
+          },
+          "number_readings": [
+            {
+              "text": "2",
+              "confidence": 0.9988,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0020_r90_s3.0"
+            },
+            {
+              "text": "2",
+              "confidence": 0.9987,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0020_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            491,
+            658,
+            508,
+            675
+          ],
+          "name_support": {
+            "GND": 4
+          },
+          "network_id": "LOG_NET_CAND_00013"
+        },
+        {
+          "owner": "U1",
+          "candidate_id": "PIN_CAND_0030",
+          "old_number": "3",
+          "number": "3",
+          "name": "OUT",
+          "expected_name": "OUT",
+          "number_support": {
+            "3": 2
+          },
+          "number_readings": [
+            {
+              "text": "3",
+              "confidence": 0.99837,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0030_r90_s3.0"
+            },
+            {
+              "text": "3",
+              "confidence": 0.99808,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0030_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            511,
+            658,
+            528,
+            675
+          ],
+          "name_support": {
+            "OUT": 2
+          },
+          "network_id": "RESTORED_NET_CAND_00008"
+        }
+      ],
+      "anchor_candidates": [
+        "PIN_CAND_0030"
+      ],
+      "preserved_unresolved_junctions": {
+        "LOG_NET_CAND_00013": [
+          "J00023"
+        ]
+      },
+      "glyph_rotation": 90,
+      "status": "closed_number_and_network_permutation"
+    },
+    {
+      "owner": "U3",
+      "rows": [
+        {
+          "owner": "U3",
+          "candidate_id": "PIN_CAND_0035",
+          "old_number": "1",
+          "number": "1",
+          "name": "IN",
+          "expected_name": "IN",
+          "number_support": {
+            "1": 2
+          },
+          "number_readings": [
+            {
+              "text": "1",
+              "confidence": 0.99761,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0035_r90_s3.0"
+            },
+            {
+              "text": "1",
+              "confidence": 0.99734,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0035_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            1386,
+            647,
+            1403,
+            664
+          ],
+          "name_support": {
+            "IN": 2
+          },
+          "network_id": "RESTORED_NET_CAND_00007"
+        },
+        {
+          "owner": "U3",
+          "candidate_id": "PIN_CAND_0016",
+          "old_number": "2",
+          "number": "2",
+          "name": "GND",
+          "expected_name": "GND",
+          "number_support": {
+            "2": 2
+          },
+          "number_readings": [
+            {
+              "text": "2",
+              "confidence": 0.9996,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0016_r90_s3.0"
+            },
+            {
+              "text": "2",
+              "confidence": 0.99957,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0016_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            1406,
+            647,
+            1423,
+            664
+          ],
+          "name_support": {
+            "GND": 4
+          },
+          "network_id": "LOG_NET_CAND_00011"
+        },
+        {
+          "owner": "U3",
+          "candidate_id": "PIN_CAND_0017",
+          "old_number": "3",
+          "number": "3",
+          "name": "OUT",
+          "expected_name": "OUT",
+          "number_support": {
+            "3": 2
+          },
+          "number_readings": [
+            {
+              "text": "3",
+              "confidence": 0.99935,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0017_r90_s3.0"
+            },
+            {
+              "text": "3",
+              "confidence": 0.99916,
+              "bbox": [
+                0,
+                0,
+                37,
+                37
+              ],
+              "view": "cycle_glyph_PIN_CAND_0017_r90_s5.0"
+            }
+          ],
+          "number_crop": [
+            1426,
+            647,
+            1443,
+            664
+          ],
+          "name_support": {
+            "OUT": 2
+          },
+          "network_id": "RESTORED_NET_CAND_00006"
+        }
+      ],
+      "anchor_candidates": [
+        "PIN_CAND_0017"
+      ],
+      "preserved_unresolved_junctions": {
+        "LOG_NET_CAND_00011": [
+          "J00020"
+        ]
+      },
+      "glyph_rotation": 90,
+      "status": "verified_unchanged"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "candidate_id": "PIN_CAND_0005",
+      "old_number": "2",
+      "number": "1",
+      "name": "IN",
+      "expected_name": "IN",
+      "number_support": {
+        "1": 2
+      },
+      "number_readings": [
+        {
+          "text": "1",
+          "confidence": 0.98984,
+          "bbox": [
+            0,
+            0,
+            37,
+            37
+          ],
+          "view": "cycle_glyph_PIN_CAND_0005_r90_s3.0"
+        },
+        {
+          "text": "1",
+          "confidence": 0.98935,
+          "bbox": [
+            0,
+            0,
+            37,
+            37
+          ],
+          "view": "cycle_glyph_PIN_CAND_0005_r90_s5.0"
+        }
+      ],
+      "number_crop": [
+        471,
+        658,
+        488,
+        675
+      ],
+      "name_support": {
+        "IN": 2
+      },
+      "network_id": "RESTORED_NET_CAND_00009"
+    },
+    {
+      "owner": "U1",
+      "candidate_id": "PIN_CAND_0020",
+      "old_number": "1",
+      "number": "2",
+      "name": "GND",
+      "expected_name": "GND",
+      "number_support": {
+        "2": 2
+      },
+      "number_readings": [
+        {
+          "text": "2",
+          "confidence": 0.9988,
+          "bbox": [
+            0,
+            0,
+            37,
+            37
+          ],
+          "view": "cycle_glyph_PIN_CAND_0020_r90_s3.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.9987,
+          "bbox": [
+            0,
+            0,
+            37,
+            37
+          ],
+          "view": "cycle_glyph_PIN_CAND_0020_r90_s5.0"
+        }
+      ],
+      "number_crop": [
+        491,
+        658,
+        508,
+        675
+      ],
+      "name_support": {
+        "GND": 4
+      },
+      "network_id": "LOG_NET_CAND_00013"
+    }
+  ],
+  "network_changes": [
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "before": [
+        "U1.1",
+        "UNRESOLVED_DET_0007.1"
+      ],
+      "after": [
+        "U1.2",
+        "UNRESOLVED_DET_0007.1"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00009",
+      "before": [
+        "U1.2",
+        "UNRESOLVED_DET_0021.1"
+      ],
+      "after": [
+        "U1.1",
+        "UNRESOLVED_DET_0021.1"
+      ]
+    }
+  ],
+  "ocr_calls": 24,
+  "budget_exhausted": false
+}

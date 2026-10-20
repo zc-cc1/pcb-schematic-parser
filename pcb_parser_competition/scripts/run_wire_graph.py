@@ -38,24 +38,23 @@ def predict_wire(rgb,device,inference):
     from pcb_parser.unet_model import WirePinUNet
     from pcb_parser.unet_inference import predict_configured
     torch.set_num_threads(4)
-    weights=ROOT/'weights/unet_wire_pin_v1.pt'
-    if not weights.is_file():weights=ROOT/'runs/training/unet_wire_pin_v1/best.pt'
+    from pcb_parser.unet_checkpoint import load_wire_pin_checkpoint
+    weights=Path(inference['checkpoint']) if inference.get('checkpoint') else ROOT/'weights/unet_wire_pin_v1.pt'
+    if not weights.is_file() and not inference.get('checkpoint'):
+        weights=ROOT/'runs/training/unet_wire_pin_v1/best.pt'
     if sha(weights)!=inference['checkpoint_sha256']:raise ValueError('U-Net checkpoint changed')
-    checkpoint=torch.load(weights,map_location='cpu',weights_only=True)
-    if checkpoint['kind'] in {'cpu_smoke_only','partial_training_debug'}:raise ValueError('Debug checkpoint cannot produce electrical graphs')
-    model=WirePinUNet(checkpoint['base_channels']);model.load_state_dict(checkpoint['state_dict'],strict=True)
-    model.to(device).eval()
+    model,checkpoint,_unet_info=load_wire_pin_checkpoint(weights,device)
     return predict_configured(model,rgb,device,checkpoint['config'],inference)[0]
 
 
-def process(image_path,pin_path,wire_path,output,cfg,metadata_path=None,device='cpu',junction_predictor=None):
+def process(image_path,pin_path,wire_path,output,cfg,metadata_path=None,device='cpu',junction_predictor=None,inference_path=None,box_library=None):
     start=time.perf_counter()
     with Image.open(image_path) as image:rgb=np.asarray(image.convert('RGB'))
     image_hash=sha(image_path);size=[rgb.shape[1],rgb.shape[0]]
     pin_result=read(pin_path)
     if pin_result.get('image_sha256')!=image_hash or pin_result.get('size')!=size or pin_result.get('coordinate_origin')!='top_left':
         raise ValueError('Pin text predictions do not match input image')
-    inference_path=ROOT/'configs/unet_inference_v2.json';inference=read(inference_path)
+    inference_path=Path(inference_path) if inference_path else ROOT/'configs/unet_inference_v2.json';inference=read(inference_path)
     if wire_path:
         metadata=read(metadata_path or wire_path.with_suffix('.json'))
         validate_cache(metadata,wire_path,image_hash,size,inference['checkpoint_sha256'],sha(inference_path))
@@ -92,7 +91,70 @@ def process(image_path,pin_path,wire_path,output,cfg,metadata_path=None,device='
         component=components.get(record['detection_index'])
         if not component or record['component_id']!=component['component_id'] or not np.allclose(record['bbox_top_left'],component['bbox_top_left'],atol=.05,rtol=0):
             raise ValueError('Component identities do not match the frozen pin predictions')
-    submission,coverage=partial_submission(pin_result,result,records['records'])
+    # R15 allows auto-generated numbers for pins whose number is missing.  Applying the
+    # rule here (before export) also unblocks the net/hypergraph item: without numbers no
+    # pin is exportable and therefore no net is exportable.
+    if cfg.get('pin_completion_enabled'):
+        from pcb_parser.pin_completion import complete_pins
+        completion_audit = complete_pins(pin_result,
+                                         two_pin_types=cfg.get('pin_completion_two_pin_types'),
+                                         ic_types=cfg.get('pin_completion_ic_types'))
+    else:
+        completion_audit = None
+    from pcb_parser.pin_numbering import assign_numbers
+    inferred_numbers, numbering_audit = assign_numbers(pin_result['pin_candidates'], pin_result['components'],
+        geometric_types=cfg.get('geometric_numbering_types'),
+        dip_types=cfg.get('dip_numbering_types'))
+    if completion_audit is not None:
+        numbering_audit['pin_completion'] = completion_audit
+    dip_numbered = numbering_audit.get('pins_dip_numbered', 0)
+    for pin in pin_result['pin_candidates']:
+        number = inferred_numbers.get(pin['candidate_id'])
+        if number is None:
+            continue
+        # `assign_numbers` owns the precedence decision: it keeps an observed number
+        # unless the component is a two-pin passive or an IC numbered by the package
+        # convention, where the derived number is the better estimate.  Applying its
+        # answer unconditionally keeps that decision in one place.
+        if pin.get('number') is None:
+            pin['number_source'] = 'spatial_reading_order_auto'
+        elif str(pin['number']) != str(number):
+            pin['number_source'] = 'package_or_geometry_override'
+        pin['number'] = number
+    # Component library (optional, off unless a config is passed): on datasheet pages the
+    # schematic prints pin NAMES but not numbers, so the printed name is the only route to
+    # a number.  Runs after `assign_numbers` so it can overrule both the observed number
+    # and the package convention, and before the number->name backfill so a real library
+    # name is never replaced by a bare number.
+    if box_library is not None:
+        from pcb_parser.box_ic_library import apply_library
+        texts_path=pin_path.parent/'texts.json'
+        tokens=read(texts_path).get('texts') or [] if texts_path.is_file() else []
+        library,library_config=box_library
+        numbering_audit['box_library']=apply_library(pin_result,tokens,library,library_config)
+    # Pin names: 43.9% of the public reference pins use the pin number itself as the
+    # name, and 0% are empty.  Supplying the number when no name text was bound keeps
+    # the field non-null (the schema requires a string) and matches the reference
+    # convention for those pins.  Anything the OCR actually read is never overwritten.
+    name_filled = 0
+    for pin in pin_result['pin_candidates']:
+        if (pin.get('pinname') or '').strip():
+            continue
+        if pin.get('number') is not None:
+            pin['pinname'] = str(pin['number'])
+            pin['pinname_source'] = 'pin_number_fallback'
+            name_filled += 1
+    numbering_audit['pin_names_backfilled_from_number'] = name_filled
+    if cfg.get('pin_tip_refine_enabled'):
+        from pcb_parser.pin_tip_refine import refine_points
+        gray = np.asarray(Image.fromarray(rgb).convert('L'))
+        refine_audit = refine_points(pin_result, gray, enabled_types=cfg.get('pin_tip_refine_types'))
+        numbering_audit['pin_tip_refine'] = refine_audit
+    submission,coverage=partial_submission(pin_result,result,records['records'],
+        auto_id_for_unnamed=bool(cfg.get('auto_id_for_unnamed_components',False)),
+        auto_id_prefix=str(cfg.get('auto_id_prefix','DET')),
+        gates=cfg.get('export_gates'))
+    coverage['pin_numbering'] = numbering_audit
     save(output/'partial_submission.json',submission);save(output/'export_coverage.json',coverage)
     review=[{'kind':'junction',**j} for j in result['junction_candidates'] if not j.get('resolved',False)]+[{'kind':'gap',**g} for g in result['gap_candidates']]
     review += [{'kind':'pin_attachment',**p} for p in result['pin_attachments'] if p['attachment_status']!='attached']
@@ -114,7 +176,14 @@ def main():
     parser.add_argument('--wire-cache',type=Path,help='Optional U-Net wire probability cache, with its .json metadata')
     parser.add_argument('--device',default='cpu')
     parser.add_argument('--config',type=Path,default=ROOT/'configs/wire_graph_v1.json')
+    parser.add_argument('--unet-inference-config',type=Path,default=None,help='U-Net inference config the wire cache was produced with')
+    parser.add_argument('--box-library-config',type=Path,default=None,
+                        help='Optional component-library config; omitted means the library stage is skipped entirely')
     args=parser.parse_args()
+    box_library=None
+    if args.box_library_config is not None:
+        from pcb_parser.box_ic_library import library_from_config
+        box_library=library_from_config(args.box_library_config)
     pin_path=args.pin_text;wire_path=args.wire_cache;metadata_path=None
     if pin_path is None:
         upstream=args.output/'upstream'
@@ -128,8 +197,9 @@ def main():
             save(metadata_path,{'image_sha256':origin['image_sha256'],'size':origin['size'],'coordinate_origin':'top_left',
                  'weights_sha256':origin['unet_weights_sha256'],'inference_config_sha256':sha(inf),
                  'probabilities_sha256':sha(wire_path),'prediction_only':True,'source':'Current_PNG_upstream_U-Net_inference'})
-    summary=process(args.image,pin_path,wire_path,args.output,read(args.config),metadata_path,args.device)
+    summary=process(args.image,pin_path,wire_path,args.output,read(args.config),metadata_path,args.device,inference_path=args.unet_inference_config,box_library=box_library)
     summary['used_frozen_pin_input']=args.pin_text is not None;summary['used_external_wire_cache']=args.wire_cache is not None
+    summary['used_component_library']=box_library is not None
     save(args.output/'summary.json',summary)
     print(json.dumps({k:summary[k] for k in ['summary','exported_components','exported_pins','exported_nets','used_frozen_pin_input','used_external_wire_cache','official_NetF1']},ensure_ascii=False))
 

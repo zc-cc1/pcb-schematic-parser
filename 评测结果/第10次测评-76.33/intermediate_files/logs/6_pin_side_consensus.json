@@ -1,0 +1,189 @@
+{
+  "enabled": true,
+  "modified_pin_count": 0,
+  "groups": [
+    {
+      "component": "U2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 649.2997298836708,
+            "y": 851.6250213086605
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 650.0772582665086,
+            "y": 891.0449951440096
+          },
+          "length": 18
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 793.4647137820721,
+            "y": 891.2279091179371
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 793.2159402966499,
+            "y": 871.2826519906521
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 793.5298282504082,
+            "y": 851.2360472679138
+          },
+          "length": 18
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 18,
+      "changes": []
+    },
+    {
+      "component": "U4",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 1617.105953000486,
+            "y": 863.2805891633034
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 1620.8248081356287,
+            "y": 902.6068432331085
+          },
+          "length": 18
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U4",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1761.8508640527725,
+            "y": 902.4074650704861
+          },
+          "length": 19
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 1761.503612279892,
+            "y": 883.6233431398869
+          },
+          "length": 19
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 1765.4835715293884,
+            "y": 863.3745316267014
+          },
+          "length": 19
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 19,
+      "changes": []
+    },
+    {
+      "component": "U1",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 485.2687723338604,
+            "y": 441.0519625544548
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 505.3948998451233,
+            "y": 439.3312475681305
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 525.5396819114685,
+            "y": 436.46194818615913
+          },
+          "length": 18
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 18,
+      "changes": []
+    },
+    {
+      "component": "U3",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 1420.075265750289,
+            "y": 450.47451463341713
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 1440.3592779040337,
+            "y": 448.16155706346035
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1400.7788321077824,
+            "y": 455.02015996724367
+          },
+          "length": 18
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 18,
+      "changes": []
+    }
+  ],
+  "policy": "same_side_image_length_consensus_v1"
+}

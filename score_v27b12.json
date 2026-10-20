@@ -1,0 +1,701 @@
+{
+  "cases": 13,
+  "metrics": {
+    "component_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 346,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "pin_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 191,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "connectivity_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 231,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wire_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 744,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "final_score": 0.0,
+  "per_case": [
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 58,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 116,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 40,
+        "pred_scored": 0
+      },
+      "case_id": "1"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 40,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 16,
+        "pred_scored": 0
+      },
+      "case_id": "2"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 46,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 6,
+        "pred_scored": 0
+      },
+      "case_id": "3"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 59,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 12,
+        "pred_scored": 0
+      },
+      "case_id": "4"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 57,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 18,
+        "pred_scored": 0
+      },
+      "case_id": "5"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 38,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 22,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 86,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 16,
+        "pred_scored": 0
+      },
+      "case_id": "6"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 13,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 68,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 8,
+        "pred_scored": 0
+      },
+      "case_id": "7"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 18,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 50,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 16,
+        "pred_scored": 0
+      },
+      "case_id": "8"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 17,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 39,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 6,
+        "pred_scored": 0
+      },
+      "case_id": "9"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 82,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 12,
+        "pred_scored": 0
+      },
+      "case_id": "10"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 15,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 20,
+        "pred_scored": 0
+      },
+      "case_id": "11"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 21,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 9,
+        "pred_scored": 0
+      },
+      "case_id": "12"
+    },
+    {
+      "component_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "pin_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 12,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "connectivity_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "wire_f1": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 49,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "final_score": 0.0,
+      "detail": {
+        "ordinary_tp": 0,
+        "power_tp": 0,
+        "gt_scored": 12,
+        "pred_scored": 0
+      },
+      "case_id": "13"
+    }
+  ],
+  "weights": {
+    "component_f1": 0.3,
+    "pin_f1": 0.25,
+    "connectivity_f1": 0.35,
+    "wire_f1": 0.1
+  },
+  "official": false,
+  "note": "protocol transcribed from the platform report; local re-implementation, not the platform",
+  "predictions": "D:\\pcb_open_gt_v27b12\\final_results",
+  "inventory": [
+    {
+      "case": "1",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 58,
+      "truth_nets": 40
+    },
+    {
+      "case": "2",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 28,
+      "truth_nets": 24
+    },
+    {
+      "case": "3",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 26,
+      "truth_nets": 16
+    },
+    {
+      "case": "4",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 24,
+      "truth_nets": 14
+    },
+    {
+      "case": "5",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 26,
+      "truth_nets": 17
+    },
+    {
+      "case": "6",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 38,
+      "truth_nets": 22
+    },
+    {
+      "case": "7",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 24,
+      "truth_nets": 13
+    },
+    {
+      "case": "8",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 20,
+      "truth_nets": 18
+    },
+    {
+      "case": "9",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 17,
+      "truth_nets": 11
+    },
+    {
+      "case": "10",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 29,
+      "truth_nets": 15
+    },
+    {
+      "case": "11",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 15,
+      "truth_nets": 14
+    },
+    {
+      "case": "12",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 21,
+      "truth_nets": 16
+    },
+    {
+      "case": "13",
+      "predicted_components": 0,
+      "predicted_pins": 0,
+      "predicted_nets": 0,
+      "truth_components": 20,
+      "truth_nets": 11
+    }
+  ]
+}

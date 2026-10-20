@@ -1,0 +1,109 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    2200,
+    1017
+  ],
+  "entries": [
+    {
+      "component_id": "U2",
+      "before_bbox_bottom_left": [
+        1596.511,
+        632.45,
+        1733.054,
+        743.774
+      ],
+      "after_bbox_bottom_left": [
+        1604.0,
+        648.0,
+        1723.0,
+        728.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          1562,
+          245,
+          1768,
+          413
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 2,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            1604.0,
+            289.0,
+            1723.0,
+            369.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9891868037173299
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        483.127,
+        457.24699999999996,
+        608.759,
+        587.696
+      ],
+      "after_bbox_bottom_left": [
+        495.0,
+        463.0,
+        595.0,
+        581.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          451,
+          396,
+          641,
+          593
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 3,
+          "top": 1,
+          "bottom": 4
+        },
+        "best": {
+          "bbox_top_left": [
+            495.0,
+            436.0,
+            595.0,
+            554.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9920137326107926
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "changed_IC_boxes": 2,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+  "wall_seconds": 0.03
+}

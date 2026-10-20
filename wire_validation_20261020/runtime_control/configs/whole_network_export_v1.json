@@ -1,0 +1,19 @@
+{
+  "version": "whole-network-export-v1-development",
+  "interface_component_types": ["ic", "connector", "block"],
+  "header_min_confidence": 0.98,
+  "header_min_views": 3,
+  "footer_min_views": 2,
+  "minimum_observed_numbers": 6,
+  "header_max_gap_px": 24,
+  "header_max_inset_px": 10,
+  "footer_max_gap_px": 24,
+  "horizontal_padding_px": 8,
+  "endpoint_component_types": ["ic", "connector", "block", "opamp", "resistor", "capacitor", "inductor", "crystal", "gnd", "vcc"],
+  "endpoint_component_margin_px": 8,
+  "endpoint_owned_tip_radius_px": 10,
+  "endpoint_min_detection_confidence": 0.8,
+  "header_identity_policy": "unique_observed_title_with_matching_PIN_count_footer",
+  "default_pipeline_adopted": false,
+  "official_evaluator_verified": false
+}

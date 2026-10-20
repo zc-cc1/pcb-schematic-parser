@@ -1,0 +1,52 @@
+[
+  {
+    "case": "1",
+    "baseline": {
+      "tp": 25,
+      "fp": 10,
+      "fn": 15,
+      "precision": 0.7143,
+      "recall": 0.625,
+      "f1": 0.6667
+    },
+    "experimental": {
+      "tp": 28,
+      "fp": 7,
+      "fn": 12,
+      "precision": 0.8,
+      "recall": 0.7,
+      "f1": 0.7467
+    },
+    "gained": [
+      "USB1.pin_4",
+      "USB1.pin_10",
+      "USB1.pin_11"
+    ],
+    "lost": [],
+    "changed_points": 14,
+    "components_nets_and_keys_unchanged": true
+  },
+  {
+    "case": "11",
+    "baseline": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9,
+      "recall": 0.45,
+      "f1": 0.6
+    },
+    "experimental": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9,
+      "recall": 0.45,
+      "f1": 0.6
+    },
+    "gained": [],
+    "lost": [],
+    "changed_points": 0,
+    "components_nets_and_keys_unchanged": true
+  }
+]

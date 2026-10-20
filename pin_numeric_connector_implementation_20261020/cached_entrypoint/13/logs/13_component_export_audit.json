@@ -1,0 +1,85 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "type": "vcc",
+      "value": "VOUT",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "VOUT",
+          "bbox": [
+            1228.0,
+            54.5,
+            1289.5,
+            77.5
+          ],
+          "views": [
+            "global",
+            "tile_602_0_r0",
+            "tile_602_0_r90",
+            "tile_602_29_r0",
+            "tile_602_29_r90"
+          ]
+        }
+      ],
+      "detection_index": 9
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            214.5,
+            742.5,
+            279.0,
+            773.0
+          ],
+          "views": [
+            "global",
+            "tile_0_29_r0"
+          ]
+        }
+      ],
+      "detection_index": 11
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0015",
+      "type": "vcc",
+      "value": "VIN",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "VIN",
+          "bbox": [
+            113.5,
+            586.0,
+            148.5,
+            606.5
+          ],
+          "views": [
+            "tile_0_0_r0"
+          ]
+        }
+      ],
+      "detection_index": 14
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+  "added_count": 3,
+  "type_counts": {
+    "vcc": 2,
+    "gnd": 1
+  },
+  "value_counts": {
+    "observed": 3
+  }
+}

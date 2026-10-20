@@ -1,0 +1,10 @@
+FROM pcb-parser:local-cuda-0e4a7241
+
+COPY agent.py /submission/agent.py
+COPY overlay_check.py /submission/overlay_check.py
+COPY src/pcb_parser/export_geometry.py /submission/src/pcb_parser/export_geometry.py
+COPY configs/bbox_convention_v1.json /submission/configs/bbox_convention_v1.json
+
+RUN python3 /submission/overlay_check.py
+
+ENTRYPOINT ["/submission/run.sh"]

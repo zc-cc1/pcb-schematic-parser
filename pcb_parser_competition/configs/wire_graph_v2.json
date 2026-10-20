@@ -21,5 +21,41 @@
   "status": "development_pilot_learned_junctions_not_official_complete_nets",
   "junction_checkpoint": "weights/junction_classifier_v1.pt",
   "junction_checkpoint_sha256": "901b0e693c7363eeb8f6bb3638fe4a0f42a7e32e24972a8bc254960fa4e87091",
-  "junction_confidence_threshold": 0.95
+  "junction_confidence_threshold": 0.95,
+  "auto_id_for_unnamed_components": false,
+  "auto_id_prefix": "DET",
+  "auto_id_note": "Disabled by measurement: a key absent from the reference can never match (p7 keys component matching), so its pins are pure false positives. Official-rule PinF1 0.1346 -> 0.1471 when they are dropped.",
+  "geometric_numbering_types": [
+    "resistor",
+    "capacitor",
+    "inductor"
+  ],
+  "geometric_numbering_note": "Two-pin types whose reference numbers are sequential and whose pin-1 direction matches the generic reading order (measured: r 68.6%, c 83.8% correct). diode/led/crystal were tried and gave no gain: the diode symbol puts pin_1 on the opposite side (verified on 0065 and 0099 D1), so extrapolating the generic order is a coin flip there and the change scored identically. Symbols (gnd/v/amp/battery) use internal counters and reach 0% by construction.",
+  "dip_numbering_types": [
+    "ic"
+  ],
+  "dip_numbering_note": "ICs with balanced left/right pin columns are numbered by the standard package convention (left 1..k downwards, right 2k..k+1 downwards). Verified on the public reference: 3 of 6 ICs matched exactly (8/8, 8/8, 28/28); the others had only partly annotated pins so the columns were unbalanced and the rule declines.",
+  "pin_tip_refine_enabled": false,
+  "pin_tip_refine_types": [
+    "resistor",
+    "capacitor",
+    "inductor",
+    "diode",
+    "ic",
+    "bjt",
+    "mosfet",
+    "crystal",
+    "switch"
+  ],
+  "pin_tip_refine_note": "Disabled: the +7 pin gain was measured by applying the correction only to pins already known to fail, which needs the reference. Applied to every pin in the real pipeline it moved correct points too and pin F1 fell 0.1528 -> lower.",
+  "pin_completion_enabled": false,
+  "pin_completion_two_pin_types": [
+    "resistor",
+    "capacitor",
+    "inductor"
+  ],
+  "pin_completion_ic_types": [
+    "ic"
+  ],
+  "pin_completion_note": "Disabled by measurement: the added pins are geometrically right but land ~10 px outside the contest convention, so under the 5 px rule they cost precision (pin F1 0.1528 -> 0.1456: tp 35->34, fp 45->55). Re-enable once the body box is accurate."
 }

@@ -1,0 +1,701 @@
+{
+  "cases": 13,
+  "metrics": {
+    "component_f1": {
+      "tp": 303,
+      "fp": 30,
+      "fn": 43,
+      "precision": 0.9099,
+      "recall": 0.8757,
+      "f1": 0.8925
+    },
+    "pin_f1": {
+      "tp": 138,
+      "fp": 19,
+      "fn": 53,
+      "precision": 0.879,
+      "recall": 0.7225,
+      "f1": 0.7931
+    },
+    "connectivity_f1": {
+      "tp": 311,
+      "fp": 77,
+      "fn": 351,
+      "precision": 0.8015,
+      "recall": 0.4698,
+      "f1": 0.5924
+    },
+    "wire_f1": {
+      "tp": 194,
+      "fp": 368,
+      "fn": 550,
+      "precision": 0.3452,
+      "recall": 0.2608,
+      "f1": 0.2971
+    }
+  },
+  "final_score": 0.7031,
+  "per_case": [
+    {
+      "component_f1": {
+        "tp": 46,
+        "fp": 9,
+        "fn": 12,
+        "precision": 0.8364,
+        "recall": 0.7931,
+        "f1": 0.8142
+      },
+      "pin_f1": {
+        "tp": 19,
+        "fp": 9,
+        "fn": 21,
+        "precision": 0.6786,
+        "recall": 0.475,
+        "f1": 0.5588
+      },
+      "connectivity_f1": {
+        "tp": 62,
+        "fp": 7,
+        "fn": 59,
+        "precision": 0.8986,
+        "recall": 0.5124,
+        "f1": 0.6526
+      },
+      "wire_f1": {
+        "tp": 55,
+        "fp": 71,
+        "fn": 61,
+        "precision": 0.4365,
+        "recall": 0.4741,
+        "f1": 0.4545
+      },
+      "final_score": 0.6578,
+      "detail": {
+        "ordinary_tp": 28,
+        "power_tp": 18,
+        "gt_scored": 40,
+        "pred_scored": 28
+      },
+      "case_id": "1"
+    },
+    {
+      "component_f1": {
+        "tp": 26,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.9286,
+        "recall": 0.9286,
+        "f1": 0.9286
+      },
+      "pin_f1": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9375,
+        "recall": 0.9375,
+        "f1": 0.9375
+      },
+      "connectivity_f1": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 25,
+        "precision": 1.0,
+        "recall": 0.4792,
+        "f1": 0.6479
+      },
+      "wire_f1": {
+        "tp": 11,
+        "fp": 26,
+        "fn": 29,
+        "precision": 0.2973,
+        "recall": 0.275,
+        "f1": 0.2857
+      },
+      "final_score": 0.7683,
+      "detail": {
+        "ordinary_tp": 11,
+        "power_tp": 15,
+        "gt_scored": 16,
+        "pred_scored": 16
+      },
+      "case_id": "2"
+    },
+    {
+      "component_f1": {
+        "tp": 23,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.92,
+        "recall": 0.8846,
+        "f1": 0.902
+      },
+      "pin_f1": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "connectivity_f1": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 21,
+        "precision": 1.0,
+        "recall": 0.5333,
+        "f1": 0.6957
+      },
+      "wire_f1": {
+        "tp": 16,
+        "fp": 23,
+        "fn": 30,
+        "precision": 0.4103,
+        "recall": 0.3478,
+        "f1": 0.3765
+      },
+      "final_score": 0.8017,
+      "detail": {
+        "ordinary_tp": 14,
+        "power_tp": 9,
+        "gt_scored": 6,
+        "pred_scored": 6
+      },
+      "case_id": "3"
+    },
+    {
+      "component_f1": {
+        "tp": 23,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9583,
+        "recall": 0.9583,
+        "f1": 0.9583
+      },
+      "pin_f1": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9091,
+        "recall": 0.8333,
+        "f1": 0.8696
+      },
+      "connectivity_f1": {
+        "tp": 19,
+        "fp": 9,
+        "fn": 24,
+        "precision": 0.6786,
+        "recall": 0.4419,
+        "f1": 0.5352
+      },
+      "wire_f1": {
+        "tp": 17,
+        "fp": 18,
+        "fn": 42,
+        "precision": 0.4857,
+        "recall": 0.2881,
+        "f1": 0.3617
+      },
+      "final_score": 0.7284,
+      "detail": {
+        "ordinary_tp": 12,
+        "power_tp": 11,
+        "gt_scored": 12,
+        "pred_scored": 11
+      },
+      "case_id": "4"
+    },
+    {
+      "component_f1": {
+        "tp": 26,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pin_f1": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333
+      },
+      "connectivity_f1": {
+        "tp": 15,
+        "fp": 5,
+        "fn": 32,
+        "precision": 0.75,
+        "recall": 0.3191,
+        "f1": 0.4478
+      },
+      "wire_f1": {
+        "tp": 9,
+        "fp": 20,
+        "fn": 48,
+        "precision": 0.3103,
+        "recall": 0.1579,
+        "f1": 0.2093
+      },
+      "final_score": 0.686,
+      "detail": {
+        "ordinary_tp": 11,
+        "power_tp": 15,
+        "gt_scored": 18,
+        "pred_scored": 18
+      },
+      "case_id": "5"
+    },
+    {
+      "component_f1": {
+        "tp": 35,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9211,
+        "recall": 0.9211,
+        "f1": 0.9211
+      },
+      "pin_f1": {
+        "tp": 13,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.8667,
+        "recall": 0.8125,
+        "f1": 0.8387
+      },
+      "connectivity_f1": {
+        "tp": 23,
+        "fp": 14,
+        "fn": 45,
+        "precision": 0.6216,
+        "recall": 0.3382,
+        "f1": 0.4381
+      },
+      "wire_f1": {
+        "tp": 4,
+        "fp": 17,
+        "fn": 82,
+        "precision": 0.1905,
+        "recall": 0.0465,
+        "f1": 0.0748
+      },
+      "final_score": 0.6468,
+      "detail": {
+        "ordinary_tp": 20,
+        "power_tp": 15,
+        "gt_scored": 16,
+        "pred_scored": 15
+      },
+      "case_id": "6"
+    },
+    {
+      "component_f1": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pin_f1": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "connectivity_f1": {
+        "tp": 30,
+        "fp": 8,
+        "fn": 18,
+        "precision": 0.7895,
+        "recall": 0.625,
+        "f1": 0.6977
+      },
+      "wire_f1": {
+        "tp": 15,
+        "fp": 51,
+        "fn": 53,
+        "precision": 0.2273,
+        "recall": 0.2206,
+        "f1": 0.2239
+      },
+      "final_score": 0.8166,
+      "detail": {
+        "ordinary_tp": 18,
+        "power_tp": 6,
+        "gt_scored": 8,
+        "pred_scored": 8
+      },
+      "case_id": "7"
+    },
+    {
+      "component_f1": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1": 0.95
+      },
+      "pin_f1": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8125,
+        "f1": 0.8966
+      },
+      "connectivity_f1": {
+        "tp": 20,
+        "fp": 3,
+        "fn": 21,
+        "precision": 0.8696,
+        "recall": 0.4878,
+        "f1": 0.625
+      },
+      "wire_f1": {
+        "tp": 11,
+        "fp": 19,
+        "fn": 39,
+        "precision": 0.3667,
+        "recall": 0.22,
+        "f1": 0.275
+      },
+      "final_score": 0.7554,
+      "detail": {
+        "ordinary_tp": 11,
+        "power_tp": 8,
+        "gt_scored": 16,
+        "pred_scored": 13
+      },
+      "case_id": "8"
+    },
+    {
+      "component_f1": {
+        "tp": 15,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.8824,
+        "recall": 0.8824,
+        "f1": 0.8824
+      },
+      "pin_f1": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091
+      },
+      "connectivity_f1": {
+        "tp": 17,
+        "fp": 2,
+        "fn": 14,
+        "precision": 0.8947,
+        "recall": 0.5484,
+        "f1": 0.68
+      },
+      "wire_f1": {
+        "tp": 6,
+        "fp": 15,
+        "fn": 33,
+        "precision": 0.2857,
+        "recall": 0.1538,
+        "f1": 0.2
+      },
+      "final_score": 0.75,
+      "detail": {
+        "ordinary_tp": 10,
+        "power_tp": 5,
+        "gt_scored": 6,
+        "pred_scored": 5
+      },
+      "case_id": "9"
+    },
+    {
+      "component_f1": {
+        "tp": 27,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.931,
+        "recall": 0.931,
+        "f1": 0.931
+      },
+      "pin_f1": {
+        "tp": 8,
+        "fp": 2,
+        "fn": 4,
+        "precision": 0.8,
+        "recall": 0.6667,
+        "f1": 0.7273
+      },
+      "connectivity_f1": {
+        "tp": 37,
+        "fp": 9,
+        "fn": 19,
+        "precision": 0.8043,
+        "recall": 0.6607,
+        "f1": 0.7255
+      },
+      "wire_f1": {
+        "tp": 26,
+        "fp": 48,
+        "fn": 56,
+        "precision": 0.3514,
+        "recall": 0.3171,
+        "f1": 0.3333
+      },
+      "final_score": 0.7484,
+      "detail": {
+        "ordinary_tp": 19,
+        "power_tp": 8,
+        "gt_scored": 12,
+        "pred_scored": 10
+      },
+      "case_id": "10"
+    },
+    {
+      "component_f1": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 7,
+        "precision": 0.6667,
+        "recall": 0.5333,
+        "f1": 0.5926
+      },
+      "pin_f1": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 12,
+        "precision": 0.8889,
+        "recall": 0.4,
+        "f1": 0.5517
+      },
+      "connectivity_f1": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 21,
+        "precision": 0.9286,
+        "recall": 0.3824,
+        "f1": 0.5417
+      },
+      "wire_f1": {
+        "tp": 11,
+        "fp": 16,
+        "fn": 13,
+        "precision": 0.4074,
+        "recall": 0.4583,
+        "f1": 0.4314
+      },
+      "final_score": 0.5484,
+      "detail": {
+        "ordinary_tp": 4,
+        "power_tp": 4,
+        "gt_scored": 20,
+        "pred_scored": 9
+      },
+      "case_id": "11"
+    },
+    {
+      "component_f1": {
+        "tp": 13,
+        "fp": 3,
+        "fn": 8,
+        "precision": 0.8125,
+        "recall": 0.619,
+        "f1": 0.7027
+      },
+      "pin_f1": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "connectivity_f1": {
+        "tp": 14,
+        "fp": 3,
+        "fn": 22,
+        "precision": 0.8235,
+        "recall": 0.3889,
+        "f1": 0.5283
+      },
+      "wire_f1": {
+        "tp": 8,
+        "fp": 15,
+        "fn": 20,
+        "precision": 0.3478,
+        "recall": 0.2857,
+        "f1": 0.3137
+      },
+      "final_score": 0.6771,
+      "detail": {
+        "ordinary_tp": 9,
+        "power_tp": 4,
+        "gt_scored": 9,
+        "pred_scored": 9
+      },
+      "case_id": "12"
+    },
+    {
+      "component_f1": {
+        "tp": 18,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9474,
+        "recall": 0.9,
+        "f1": 0.9231
+      },
+      "pin_f1": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571
+      },
+      "connectivity_f1": {
+        "tp": 14,
+        "fp": 16,
+        "fn": 30,
+        "precision": 0.4667,
+        "recall": 0.3182,
+        "f1": 0.3784
+      },
+      "wire_f1": {
+        "tp": 5,
+        "fp": 29,
+        "fn": 44,
+        "precision": 0.1471,
+        "recall": 0.102,
+        "f1": 0.1205
+      },
+      "final_score": 0.6357,
+      "detail": {
+        "ordinary_tp": 16,
+        "power_tp": 2,
+        "gt_scored": 12,
+        "pred_scored": 9
+      },
+      "case_id": "13"
+    }
+  ],
+  "weights": {
+    "component_f1": 0.3,
+    "pin_f1": 0.25,
+    "connectivity_f1": 0.35,
+    "wire_f1": 0.1
+  },
+  "official": false,
+  "note": "protocol transcribed from the platform report; local re-implementation, not the platform",
+  "predictions": "D:\\pcb_open_gt_v30nosplit\\final_results",
+  "inventory": [
+    {
+      "case": "1",
+      "predicted_components": 55,
+      "predicted_pins": 90,
+      "predicted_nets": 34,
+      "truth_components": 58,
+      "truth_nets": 40
+    },
+    {
+      "case": "2",
+      "predicted_components": 28,
+      "predicted_pins": 37,
+      "predicted_nets": 15,
+      "truth_components": 28,
+      "truth_nets": 24
+    },
+    {
+      "case": "3",
+      "predicted_components": 25,
+      "predicted_pins": 38,
+      "predicted_nets": 9,
+      "truth_components": 26,
+      "truth_nets": 16
+    },
+    {
+      "case": "4",
+      "predicted_components": 24,
+      "predicted_pins": 33,
+      "predicted_nets": 22,
+      "truth_components": 24,
+      "truth_nets": 14
+    },
+    {
+      "case": "5",
+      "predicted_components": 26,
+      "predicted_pins": 34,
+      "predicted_nets": 12,
+      "truth_components": 26,
+      "truth_nets": 17
+    },
+    {
+      "case": "6",
+      "predicted_components": 38,
+      "predicted_pins": 55,
+      "predicted_nets": 33,
+      "truth_components": 38,
+      "truth_nets": 22
+    },
+    {
+      "case": "7",
+      "predicted_components": 24,
+      "predicted_pins": 51,
+      "predicted_nets": 21,
+      "truth_components": 24,
+      "truth_nets": 13
+    },
+    {
+      "case": "8",
+      "predicted_components": 20,
+      "predicted_pins": 34,
+      "predicted_nets": 16,
+      "truth_components": 20,
+      "truth_nets": 18
+    },
+    {
+      "case": "9",
+      "predicted_components": 17,
+      "predicted_pins": 25,
+      "predicted_nets": 13,
+      "truth_components": 17,
+      "truth_nets": 11
+    },
+    {
+      "case": "10",
+      "predicted_components": 29,
+      "predicted_pins": 53,
+      "predicted_nets": 22,
+      "truth_components": 29,
+      "truth_nets": 15
+    },
+    {
+      "case": "11",
+      "predicted_components": 12,
+      "predicted_pins": 22,
+      "predicted_nets": 9,
+      "truth_components": 15,
+      "truth_nets": 14
+    },
+    {
+      "case": "12",
+      "predicted_components": 16,
+      "predicted_pins": 20,
+      "predicted_nets": 13,
+      "truth_components": 21,
+      "truth_nets": 16
+    },
+    {
+      "case": "13",
+      "predicted_components": 19,
+      "predicted_pins": 57,
+      "predicted_nets": 25,
+      "truth_components": 20,
+      "truth_nets": 11
+    }
+  ]
+}

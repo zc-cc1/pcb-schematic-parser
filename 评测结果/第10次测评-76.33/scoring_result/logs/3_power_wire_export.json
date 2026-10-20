@@ -1,0 +1,92 @@
+{
+  "version": "observed-physical-power-wires-v2",
+  "restored_networks": [
+    {
+      "network_id": "RESTORED_NET_CAND_00010",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00013"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00013",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00014"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00014",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00017"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00015",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00015"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00016",
+      "observed_rail": "GND",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00016"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00017",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00018"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00018",
+      "observed_rail": "GND",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00019"
+      ]
+    }
+  ],
+  "primary_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "candidate_id": "PIN_CAND_0047",
+      "member": "UNRESOLVED_DET_0018.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    }
+  ],
+  "restored_net_count": 7,
+  "primary_contact_count": 1,
+  "existing_power_contacts": [],
+  "existing_power_contact_count": 0,
+  "inference_calls": 0,
+  "enabled": true,
+  "image_sha256": "30c65062c9032ee83e20b9a16cbe33e0ea40beb2ac532e632fd51d5294bdecb8"
+}

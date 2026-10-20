@@ -7,7 +7,43 @@
     "iou": 0.5,
     "max_det": 1000,
     "half": false,
-    "class_confidence": {}
+    "class_confidence": {
+      "battery": 0.0973,
+      "buzzer": 0.25,
+      "capacitor": 0.5222,
+      "crystal": 0.4815,
+      "current_source": 0.25,
+      "diode": 0.7517,
+      "fuse": 0.0785,
+      "ground": 0.4121,
+      "ic": 0.6044,
+      "inductor": 0.5211,
+      "jumper": 0.0519,
+      "led": 0.6189,
+      "mosfet": 0.7883,
+      "motor": 0.1006,
+      "net_input": 0.3678,
+      "net_output": 0.6745,
+      "net_short": 0.5042,
+      "opamp": 0.8896,
+      "other": 0.1447,
+      "pin_port": 0.4433,
+      "raw_block": 0.0596,
+      "raw_dc": 0.3021,
+      "raw_m": 0.7205,
+      "resistor": 0.5868,
+      "switch": 0.2363,
+      "transformer": 0.3979,
+      "transistor": 0.3523,
+      "voltage_source": 0.25
+    },
+    "class_confidence_source": {
+      "file": "configs/class_thresholds.json",
+      "weights_sha256": "69a4fa4583f17be7c56408f6069ddc2ee9ae18dc07d6a39e60014da324d8fdcd",
+      "micro_f1_at_global_threshold": 0.856204,
+      "micro_f1_with_thresholds": 0.876003,
+      "note": "tuned by scripts/tune_class_thresholds.py; the adoption checklist required pasting these here and it had not been done, so the shipped pipeline ran on the plain 0.2 global confidence"
+    }
   },
   "sahi": {
     "slice_height": 1024,
@@ -67,6 +103,12 @@
     "connector": "connector"
   },
   "export_y_formula": "H-y",
+  "bbox_convention": {
+    "enabled": true,
+    "mode": "canonical",
+    "path": "configs/bbox_convention_v1.json",
+    "note": "The official GT boxes the drawn symbol at its natural size, not our detected cell. 'canonical' replaces the size and keeps a calibrated centre; measured on the public 40-page subset: component F1 .8641 -> .8999, power .9369 -> .9616 (held-out fit gives the same numbers). Set enabled=false to restore raw detector boxes."
+  },
   "status": "v3_recipe_draft_awaits_detector_dataset300_v3_training",
   "recommended_mode": "fused",
   "recommended_mode_basis": "To be re-evaluated on the unchanged 59-case validation manifest once v3 weights exist; fused mode merges whole (precision) and sliced (recall) paths with class-aware WBF",
@@ -75,5 +117,10 @@
     "Rename or point this weights field at the adopted checkpoint",
     "Run tune_class_thresholds.py on the validation split and paste its thresholds into detector.class_confidence",
     "Re-run evaluate_detector.py --mode fused --thresholds configs/class_thresholds.json and compare against the v2 numbers before adopting"
-  ]
+  ],
+  "export_vocabulary": {
+    "enabled": true,
+    "path": "configs/export_vocabulary.json",
+    "note": "Official GT compares the type string exactly (only box/ic and power are aliased). Exporting resistor/capacitor/ic instead of r/c/box costs ~40 component F1 points on the public subset; it also un-collapses pin_port/testpoint/net_input which used to be flattened to vbus_in and could never match."
+  }
 }

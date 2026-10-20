@@ -1,0 +1,2171 @@
+{
+  "enabled": true,
+  "policy": "image_numeric_pin_recovery_v1",
+  "selected_groups": 14,
+  "changes": [
+    {
+      "id": "PIN_CAND_0084",
+      "owner": "U3",
+      "point": [
+        1331.8918783590198,
+        570.2084034234285
+      ],
+      "side": "left",
+      "box": [
+        1345.0,
+        521.0,
+        1443.0,
+        600.0
+      ],
+      "members": [
+        "PIN_CAND_0084",
+        "PIN_CAND_0145"
+      ],
+      "number": "5",
+      "name": "VM",
+      "original_number": "4",
+      "original_name": "VM",
+      "library_number": true,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 2
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99825,
+            "bbox": [
+              1337,
+              573,
+              1344,
+              582
+            ],
+            "view": "glyph_PIN_CAND_0084_2_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0084"
+          },
+          {
+            "text": "5",
+            "confidence": 0.99796,
+            "bbox": [
+              1337,
+              573,
+              1344,
+              582
+            ],
+            "view": "glyph_PIN_CAND_0084_2_s5.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0084"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0093",
+      "owner": "U3",
+      "point": [
+        1331.8025059103966,
+        549.493056088686
+      ],
+      "side": "left",
+      "box": [
+        1345.0,
+        521.0,
+        1443.0,
+        600.0
+      ],
+      "members": [
+        "PIN_CAND_0093"
+      ],
+      "number": "4",
+      "name": "VM",
+      "original_number": null,
+      "original_name": "VM",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "4": 3
+        },
+        "readings": [
+          {
+            "text": "4",
+            "confidence": 0.99915,
+            "bbox": [
+              1330.0,
+              549.0,
+              1347.0,
+              569.0
+            ],
+            "polygon": [
+              [
+                1330.0,
+                549.0
+              ],
+              [
+                1347.0,
+                549.0
+              ],
+              [
+                1347.0,
+                569.0
+              ],
+              [
+                1330.0,
+                569.0
+              ]
+            ],
+            "view": "component_U3_s1.0_r0",
+            "owner": "U3",
+            "rotation": 0
+          },
+          {
+            "text": "4",
+            "confidence": 0.99988,
+            "bbox": [
+              1336,
+              552,
+              1344,
+              562
+            ],
+            "view": "glyph_PIN_CAND_0093_1_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0093"
+          },
+          {
+            "text": "4",
+            "confidence": 0.99987,
+            "bbox": [
+              1336,
+              552,
+              1344,
+              562
+            ],
+            "view": "glyph_PIN_CAND_0093_1_s5.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0093"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0098",
+      "owner": "USB1",
+      "point": [
+        266.03494491800666,
+        263.2293096780777
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0098"
+      ],
+      "number": "9",
+      "name": "SBU1",
+      "original_number": null,
+      "original_name": "SBU1",
+      "library_number": false,
+      "ambiguous": false,
+      "preferred_rotation": 0,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "9": 3
+        },
+        "readings": [
+          {
+            "text": "9",
+            "confidence": 0.99986,
+            "bbox": [
+              258.0,
+              251.66666666666669,
+              268.66666666666663,
+              265.3333333333333
+            ],
+            "polygon": [
+              [
+                258.0,
+                251.66666666666669
+              ],
+              [
+                268.66666666666663,
+                251.66666666666669
+              ],
+              [
+                268.66666666666663,
+                265.3333333333333
+              ],
+              [
+                258.0,
+                265.3333333333333
+              ]
+            ],
+            "view": "component_USB1_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0
+          },
+          {
+            "text": "9",
+            "confidence": 0.99971,
+            "bbox": [
+              260,
+              254,
+              267,
+              263
+            ],
+            "view": "glyph_PIN_CAND_0098_1_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0098"
+          },
+          {
+            "text": "9",
+            "confidence": 0.99969,
+            "bbox": [
+              260,
+              254,
+              267,
+              263
+            ],
+            "view": "glyph_PIN_CAND_0098_1_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0098"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0123",
+      "owner": "USB1",
+      "point": [
+        263.85470351576805,
+        420.5265229344368
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0123"
+      ],
+      "number": "1",
+      "name": "GND",
+      "original_number": null,
+      "original_name": "GND",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "1": 2
+        },
+        "readings": [
+          {
+            "text": "1",
+            "confidence": 0.99936,
+            "bbox": [
+              260,
+              412,
+              265,
+              422
+            ],
+            "view": "glyph_PIN_CAND_0123_2_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0123"
+          },
+          {
+            "text": "1",
+            "confidence": 0.99935,
+            "bbox": [
+              260,
+              412,
+              265,
+              422
+            ],
+            "view": "glyph_PIN_CAND_0123_2_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0123"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0158",
+      "owner": "USB1",
+      "point": [
+        261.7840058654547,
+        302.43458876013756
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0158"
+      ],
+      "number": "7",
+      "name": "DN1",
+      "original_number": null,
+      "original_name": "DN1",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "7": 2
+        },
+        "readings": [
+          {
+            "text": "7",
+            "confidence": 0.99853,
+            "bbox": [
+              260,
+              293,
+              267,
+              303
+            ],
+            "view": "glyph_PIN_CAND_0158_2_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0158"
+          },
+          {
+            "text": "7",
+            "confidence": 0.99846,
+            "bbox": [
+              260,
+              293,
+              267,
+              303
+            ],
+            "view": "glyph_PIN_CAND_0158_2_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0158"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0107",
+      "owner": "USB2",
+      "point": [
+        1574.3496566712856,
+        125.37200438976288
+      ],
+      "side": "left",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0096",
+        "PIN_CAND_0107"
+      ],
+      "number": "2",
+      "name": "D-",
+      "original_number": null,
+      "original_name": "D-",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "2": 2
+        },
+        "readings": [
+          {
+            "text": "2",
+            "confidence": 0.99998,
+            "bbox": [
+              1570.0,
+              110.0,
+              1588.0,
+              128.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "2",
+            "confidence": 0.99998,
+            "bbox": [
+              1572.0,
+              112.33333333333333,
+              1584.6666666666667,
+              127.0
+            ],
+            "view": "component_USB2_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0135",
+      "owner": "USB2",
+      "point": [
+        1650.9186462834477,
+        49.086204662919044
+      ],
+      "side": "top",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0092",
+        "PIN_CAND_0135",
+        "PIN_CAND_0165"
+      ],
+      "number": "6",
+      "name": "6",
+      "original_number": null,
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "6": 5
+        },
+        "readings": [
+          {
+            "text": "6",
+            "confidence": 0.99989,
+            "bbox": [
+              1632.0,
+              68.0,
+              1651.0,
+              84.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99992,
+            "bbox": [
+              1634.3333333333333,
+              70.0,
+              1649.6666666666667,
+              82.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99615,
+            "bbox": [
+              1633.3333333333333,
+              70.33333333333333,
+              1650.0,
+              83.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1634.0,
+              70.0,
+              1649.6666666666667,
+              82.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99994,
+            "bbox": [
+              1634.8,
+              70.4,
+              1649.4,
+              81.2
+            ],
+            "view": "vertical_PIN_CAND_0135_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "accepted",
+        "support": {
+          "6": 6
+        },
+        "readings": [
+          {
+            "text": "6",
+            "confidence": 0.99458,
+            "bbox": [
+              1640.0,
+              91.0,
+              1659.0,
+              107.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99994,
+            "bbox": [
+              1640.0,
+              91.0,
+              1658.0,
+              106.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.9999,
+            "bbox": [
+              1641.3333333333333,
+              92.33333333333334,
+              1656.3333333333333,
+              104.0
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.98479,
+            "bbox": [
+              1640.3333333333333,
+              92.66666666666666,
+              1656.6666666666667,
+              105.0
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1641.0,
+              91.66666666666666,
+              1656.6666666666667,
+              104.33333333333333
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1641.8,
+              92.6,
+              1656.2,
+              103.6
+            ],
+            "view": "vertical_PIN_CAND_0135_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0155",
+      "owner": "USB2",
+      "point": [
+        1645.612586915493,
+        224.3618398308754
+      ],
+      "side": "bottom",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0155"
+      ],
+      "number": "5",
+      "name": "5",
+      "original_number": "5",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 8
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99986,
+            "bbox": [
+              1635.0,
+              197.0,
+              1649.0,
+              209.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1633.0,
+              196.0,
+              1649.0,
+              208.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99996,
+            "bbox": [
+              1634.3333333333333,
+              197.66666666666666,
+              1649.0,
+              208.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.0,
+              196.33333333333334,
+              1649.6666666666667,
+              208.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.0,
+              197.66666666666666,
+              1649.6666666666667,
+              209.0
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.3333333333333,
+              196.33333333333331,
+              1649.6666666666667,
+              208.33333333333331
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99995,
+            "bbox": [
+              1634.2,
+              197.4,
+              1648.8,
+              208.2
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99998,
+            "bbox": [
+              1634.4,
+              196.6,
+              1649.2,
+              207.4
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 3
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99971,
+            "bbox": [
+              1641.0,
+              175.66666666666666,
+              1655.6666666666667,
+              186.0
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99899,
+            "bbox": [
+              1641.3333333333333,
+              176.0,
+              1656.6666666666667,
+              186.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99977,
+            "bbox": [
+              1641.4,
+              175.4,
+              1655.2,
+              185.2
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      }
+    }
+  ],
+  "network_changes": [
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "before": [
+        "C11.1",
+        "UNRESOLVED_DET_0024.1"
+      ],
+      "after": [
+        "C11.1",
+        "UNRESOLVED_DET_0024.1",
+        "USB2.5"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "before": [
+        "C10.1",
+        "R12.2",
+        "U3.4",
+        "UNRESOLVED_DET_0029.1"
+      ],
+      "after": [
+        "C10.1",
+        "R12.2",
+        "U3.4",
+        "U3.5",
+        "UNRESOLVED_DET_0029.1"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00026",
+      "status": "withheld_new_net",
+      "reason": "no_existing_exported_network"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00027",
+      "before": [
+        "USB2.3"
+      ],
+      "after": [
+        "USB2.2",
+        "USB2.3"
+      ]
+    }
+  ],
+  "ocr_calls": 52,
+  "budget_exhausted": false,
+  "groups": [
+    {
+      "id": "PIN_CAND_0065",
+      "owner": "SW2",
+      "point": [
+        1295.190453916788,
+        978.83945068717
+      ],
+      "side": "bottom",
+      "box": [
+        1196.0,
+        857.0,
+        1354.0,
+        975.0
+      ],
+      "members": [
+        "PIN_CAND_0065"
+      ],
+      "number": "4",
+      "name": null,
+      "original_number": "4",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      },
+      "name_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0080",
+      "owner": "SW2",
+      "point": [
+        1275.858611896634,
+        982.1265496462584
+      ],
+      "side": "bottom",
+      "box": [
+        1196.0,
+        857.0,
+        1354.0,
+        975.0
+      ],
+      "members": [
+        "PIN_CAND_0080"
+      ],
+      "number": "3",
+      "name": null,
+      "original_number": "3",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "3": 7
+        },
+        "readings": [
+          {
+            "text": "3",
+            "confidence": 0.99987,
+            "bbox": [
+              1256.0,
+              977.0,
+              1276.0,
+              992.0
+            ],
+            "polygon": [
+              [
+                1256.0,
+                977.0
+              ],
+              [
+                1276.0,
+                977.0
+              ],
+              [
+                1276.0,
+                992.0
+              ],
+              [
+                1256.0,
+                992.0
+              ]
+            ],
+            "view": "component_SW2_s1.0_r0",
+            "owner": "SW2",
+            "rotation": 0
+          },
+          {
+            "text": "3",
+            "confidence": 0.99996,
+            "bbox": [
+              1257.0,
+              977.0,
+              1275.0,
+              989.0
+            ],
+            "polygon": [
+              [
+                1257.0,
+                989.0
+              ],
+              [
+                1257.0,
+                977.0
+              ],
+              [
+                1275.0,
+                977.0
+              ],
+              [
+                1275.0,
+                989.0
+              ]
+            ],
+            "view": "component_SW2_s1.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          },
+          {
+            "text": "3",
+            "confidence": 0.99992,
+            "bbox": [
+              1258.6666666666667,
+              978.3333333333334,
+              1273.0,
+              989.6666666666666
+            ],
+            "polygon": [
+              [
+                1258.6666666666667,
+                978.3333333333334
+              ],
+              [
+                1273.0,
+                978.3333333333334
+              ],
+              [
+                1273.0,
+                989.6666666666666
+              ],
+              [
+                1258.6666666666667,
+                989.6666666666666
+              ]
+            ],
+            "view": "component_SW2_s3.0_r0",
+            "owner": "SW2",
+            "rotation": 0
+          },
+          {
+            "text": "3",
+            "confidence": 0.99996,
+            "bbox": [
+              1258.0,
+              977.0,
+              1273.6666666666667,
+              989.6666666666666
+            ],
+            "polygon": [
+              [
+                1258.0,
+                989.6666666666666
+              ],
+              [
+                1258.0,
+                977.0
+              ],
+              [
+                1273.6666666666667,
+                977.0
+              ],
+              [
+                1273.6666666666667,
+                989.6666666666666
+              ]
+            ],
+            "view": "component_SW2_s3.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          },
+          {
+            "text": "3",
+            "confidence": 0.99992,
+            "bbox": [
+              1257.6666666666667,
+              977.3333333333334,
+              1274.3333333333333,
+              990.3333333333334
+            ],
+            "view": "vertical_PIN_CAND_0080_s3.0_r0",
+            "owner": "SW2",
+            "rotation": 0
+          },
+          {
+            "text": "3",
+            "confidence": 0.99993,
+            "bbox": [
+              1257.6666666666667,
+              976.6666666666666,
+              1274.0,
+              990.0
+            ],
+            "view": "vertical_PIN_CAND_0080_s3.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          },
+          {
+            "text": "3",
+            "confidence": 0.99998,
+            "bbox": [
+              1258.6,
+              977.8,
+              1273.4,
+              988.8
+            ],
+            "view": "vertical_PIN_CAND_0080_s5.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0094",
+      "owner": "SW2",
+      "point": [
+        1275.6647548377514,
+        849.4505214691162
+      ],
+      "side": "top",
+      "box": [
+        1196.0,
+        857.0,
+        1354.0,
+        975.0
+      ],
+      "members": [
+        "PIN_CAND_0094"
+      ],
+      "number": "0",
+      "name": null,
+      "original_number": "0",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "0": 4
+        },
+        "readings": [
+          {
+            "text": "0",
+            "confidence": 0.98851,
+            "bbox": [
+              1258.0,
+              844.0,
+              1274.0,
+              855.0
+            ],
+            "polygon": [
+              [
+                1258.0,
+                844.0
+              ],
+              [
+                1274.0,
+                844.0
+              ],
+              [
+                1274.0,
+                855.0
+              ],
+              [
+                1258.0,
+                855.0
+              ]
+            ],
+            "view": "component_SW2_s1.0_r0",
+            "owner": "SW2",
+            "rotation": 0
+          },
+          {
+            "text": "0",
+            "confidence": 0.99897,
+            "bbox": [
+              1259.3333333333333,
+              845.0,
+              1272.6666666666667,
+              854.6666666666666
+            ],
+            "polygon": [
+              [
+                1259.3333333333333,
+                845.0
+              ],
+              [
+                1272.6666666666667,
+                845.0
+              ],
+              [
+                1272.6666666666667,
+                854.6666666666666
+              ],
+              [
+                1259.3333333333333,
+                854.6666666666666
+              ]
+            ],
+            "view": "component_SW2_s3.0_r0",
+            "owner": "SW2",
+            "rotation": 0
+          },
+          {
+            "text": "0",
+            "confidence": 0.99984,
+            "bbox": [
+              1258.3333333333333,
+              843.3333333333334,
+              1273.0,
+              854.3333333333334
+            ],
+            "polygon": [
+              [
+                1258.3333333333333,
+                854.3333333333334
+              ],
+              [
+                1258.3333333333333,
+                843.3333333333334
+              ],
+              [
+                1273.0,
+                843.3333333333334
+              ],
+              [
+                1273.0,
+                854.3333333333334
+              ]
+            ],
+            "view": "component_SW2_s3.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          },
+          {
+            "text": "0",
+            "confidence": 0.99977,
+            "bbox": [
+              1256.6666666666667,
+              842.6666666666666,
+              1274.6666666666667,
+              855.3333333333334
+            ],
+            "view": "vertical_PIN_CAND_0094_s3.0_r90",
+            "owner": "SW2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0130",
+      "owner": "SW2",
+      "point": [
+        1314.657488256693,
+        978.6075697541237
+      ],
+      "side": "bottom",
+      "box": [
+        1196.0,
+        857.0,
+        1354.0,
+        975.0
+      ],
+      "members": [
+        "PIN_CAND_0130"
+      ],
+      "number": "5",
+      "name": null,
+      "original_number": "5",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      },
+      "name_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0132",
+      "owner": "SW2",
+      "point": [
+        1333.478580325842,
+        987.3633378148079
+      ],
+      "side": "bottom",
+      "box": [
+        1196.0,
+        857.0,
+        1354.0,
+        975.0
+      ],
+      "members": [
+        "PIN_CAND_0116",
+        "PIN_CAND_0120",
+        "PIN_CAND_0132",
+        "PIN_CAND_0152"
+      ],
+      "number": "6",
+      "name": "6",
+      "original_number": null,
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {
+          "9": 1
+        }
+      },
+      "withheld": "existing_key_not_in_transaction"
+    },
+    {
+      "id": "PIN_CAND_0032",
+      "owner": "U3",
+      "point": [
+        1454.3153684139252,
+        560.3508100807667
+      ],
+      "side": "right",
+      "box": [
+        1345.0,
+        521.0,
+        1443.0,
+        600.0
+      ],
+      "members": [
+        "PIN_CAND_0032"
+      ],
+      "number": "2",
+      "name": "GND",
+      "original_number": "2",
+      "original_name": "GND",
+      "library_number": true,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "2": 3
+        },
+        "readings": [
+          {
+            "text": "2",
+            "confidence": 0.99999,
+            "bbox": [
+              1444.6666666666667,
+              562.3333333333334,
+              1453.0,
+              573.0
+            ],
+            "polygon": [
+              [
+                1444.6666666666667,
+                562.3333333333334
+              ],
+              [
+                1453.0,
+                562.3333333333334
+              ],
+              [
+                1453.0,
+                573.0
+              ],
+              [
+                1444.6666666666667,
+                573.0
+              ]
+            ],
+            "view": "component_U3_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0
+          },
+          {
+            "text": "2",
+            "confidence": 0.99996,
+            "bbox": [
+              1445,
+              562,
+              1452,
+              572
+            ],
+            "view": "glyph_PIN_CAND_0032_2_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0032"
+          },
+          {
+            "text": "2",
+            "confidence": 0.99996,
+            "bbox": [
+              1445,
+              562,
+              1452,
+              572
+            ],
+            "view": "glyph_PIN_CAND_0032_2_s5.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0032"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0084",
+      "owner": "U3",
+      "point": [
+        1331.8918783590198,
+        570.2084034234285
+      ],
+      "side": "left",
+      "box": [
+        1345.0,
+        521.0,
+        1443.0,
+        600.0
+      ],
+      "members": [
+        "PIN_CAND_0084",
+        "PIN_CAND_0145"
+      ],
+      "number": "5",
+      "name": "VM",
+      "original_number": "4",
+      "original_name": "VM",
+      "library_number": true,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 2
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99825,
+            "bbox": [
+              1337,
+              573,
+              1344,
+              582
+            ],
+            "view": "glyph_PIN_CAND_0084_2_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0084"
+          },
+          {
+            "text": "5",
+            "confidence": 0.99796,
+            "bbox": [
+              1337,
+              573,
+              1344,
+              582
+            ],
+            "view": "glyph_PIN_CAND_0084_2_s5.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0084"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0093",
+      "owner": "U3",
+      "point": [
+        1331.8025059103966,
+        549.493056088686
+      ],
+      "side": "left",
+      "box": [
+        1345.0,
+        521.0,
+        1443.0,
+        600.0
+      ],
+      "members": [
+        "PIN_CAND_0093"
+      ],
+      "number": "4",
+      "name": "VM",
+      "original_number": null,
+      "original_name": "VM",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "4": 3
+        },
+        "readings": [
+          {
+            "text": "4",
+            "confidence": 0.99915,
+            "bbox": [
+              1330.0,
+              549.0,
+              1347.0,
+              569.0
+            ],
+            "polygon": [
+              [
+                1330.0,
+                549.0
+              ],
+              [
+                1347.0,
+                549.0
+              ],
+              [
+                1347.0,
+                569.0
+              ],
+              [
+                1330.0,
+                569.0
+              ]
+            ],
+            "view": "component_U3_s1.0_r0",
+            "owner": "U3",
+            "rotation": 0
+          },
+          {
+            "text": "4",
+            "confidence": 0.99988,
+            "bbox": [
+              1336,
+              552,
+              1344,
+              562
+            ],
+            "view": "glyph_PIN_CAND_0093_1_s3.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0093"
+          },
+          {
+            "text": "4",
+            "confidence": 0.99987,
+            "bbox": [
+              1336,
+              552,
+              1344,
+              562
+            ],
+            "view": "glyph_PIN_CAND_0093_1_s5.0_r0",
+            "owner": "U3",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0093"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0098",
+      "owner": "USB1",
+      "point": [
+        266.03494491800666,
+        263.2293096780777
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0098"
+      ],
+      "number": "9",
+      "name": "SBU1",
+      "original_number": null,
+      "original_name": "SBU1",
+      "library_number": false,
+      "ambiguous": false,
+      "preferred_rotation": 0,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "9": 3
+        },
+        "readings": [
+          {
+            "text": "9",
+            "confidence": 0.99986,
+            "bbox": [
+              258.0,
+              251.66666666666669,
+              268.66666666666663,
+              265.3333333333333
+            ],
+            "polygon": [
+              [
+                258.0,
+                251.66666666666669
+              ],
+              [
+                268.66666666666663,
+                251.66666666666669
+              ],
+              [
+                268.66666666666663,
+                265.3333333333333
+              ],
+              [
+                258.0,
+                265.3333333333333
+              ]
+            ],
+            "view": "component_USB1_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0
+          },
+          {
+            "text": "9",
+            "confidence": 0.99971,
+            "bbox": [
+              260,
+              254,
+              267,
+              263
+            ],
+            "view": "glyph_PIN_CAND_0098_1_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0098"
+          },
+          {
+            "text": "9",
+            "confidence": 0.99969,
+            "bbox": [
+              260,
+              254,
+              267,
+              263
+            ],
+            "view": "glyph_PIN_CAND_0098_1_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0098"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0123",
+      "owner": "USB1",
+      "point": [
+        263.85470351576805,
+        420.5265229344368
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0123"
+      ],
+      "number": "1",
+      "name": "GND",
+      "original_number": null,
+      "original_name": "GND",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "1": 2
+        },
+        "readings": [
+          {
+            "text": "1",
+            "confidence": 0.99936,
+            "bbox": [
+              260,
+              412,
+              265,
+              422
+            ],
+            "view": "glyph_PIN_CAND_0123_2_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0123"
+          },
+          {
+            "text": "1",
+            "confidence": 0.99935,
+            "bbox": [
+              260,
+              412,
+              265,
+              422
+            ],
+            "view": "glyph_PIN_CAND_0123_2_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0123"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0158",
+      "owner": "USB1",
+      "point": [
+        261.7840058654547,
+        302.43458876013756
+      ],
+      "side": "right",
+      "box": [
+        119.975,
+        177.61599999999999,
+        268.967,
+        447.798
+      ],
+      "members": [
+        "PIN_CAND_0158"
+      ],
+      "number": "7",
+      "name": "DN1",
+      "original_number": null,
+      "original_name": "DN1",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "7": 2
+        },
+        "readings": [
+          {
+            "text": "7",
+            "confidence": 0.99853,
+            "bbox": [
+              260,
+              293,
+              267,
+              303
+            ],
+            "view": "glyph_PIN_CAND_0158_2_s3.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0158"
+          },
+          {
+            "text": "7",
+            "confidence": 0.99846,
+            "bbox": [
+              260,
+              293,
+              267,
+              303
+            ],
+            "view": "glyph_PIN_CAND_0158_2_s5.0_r0",
+            "owner": "USB1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0158"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0107",
+      "owner": "USB2",
+      "point": [
+        1574.3496566712856,
+        125.37200438976288
+      ],
+      "side": "left",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0096",
+        "PIN_CAND_0107"
+      ],
+      "number": "2",
+      "name": "D-",
+      "original_number": null,
+      "original_name": "D-",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "2": 2
+        },
+        "readings": [
+          {
+            "text": "2",
+            "confidence": 0.99998,
+            "bbox": [
+              1570.0,
+              110.0,
+              1588.0,
+              128.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "2",
+            "confidence": 0.99998,
+            "bbox": [
+              1572.0,
+              112.33333333333333,
+              1584.6666666666667,
+              127.0
+            ],
+            "view": "component_USB2_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0135",
+      "owner": "USB2",
+      "point": [
+        1650.9186462834477,
+        49.086204662919044
+      ],
+      "side": "top",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0092",
+        "PIN_CAND_0135",
+        "PIN_CAND_0165"
+      ],
+      "number": "6",
+      "name": "6",
+      "original_number": null,
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "6": 5
+        },
+        "readings": [
+          {
+            "text": "6",
+            "confidence": 0.99989,
+            "bbox": [
+              1632.0,
+              68.0,
+              1651.0,
+              84.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99992,
+            "bbox": [
+              1634.3333333333333,
+              70.0,
+              1649.6666666666667,
+              82.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99615,
+            "bbox": [
+              1633.3333333333333,
+              70.33333333333333,
+              1650.0,
+              83.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1634.0,
+              70.0,
+              1649.6666666666667,
+              82.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99994,
+            "bbox": [
+              1634.8,
+              70.4,
+              1649.4,
+              81.2
+            ],
+            "view": "vertical_PIN_CAND_0135_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "accepted",
+        "support": {
+          "6": 6
+        },
+        "readings": [
+          {
+            "text": "6",
+            "confidence": 0.99458,
+            "bbox": [
+              1640.0,
+              91.0,
+              1659.0,
+              107.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99994,
+            "bbox": [
+              1640.0,
+              91.0,
+              1658.0,
+              106.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.9999,
+            "bbox": [
+              1641.3333333333333,
+              92.33333333333334,
+              1656.3333333333333,
+              104.0
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.98479,
+            "bbox": [
+              1640.3333333333333,
+              92.66666666666666,
+              1656.6666666666667,
+              105.0
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1641.0,
+              91.66666666666666,
+              1656.6666666666667,
+              104.33333333333333
+            ],
+            "view": "vertical_PIN_CAND_0135_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "6",
+            "confidence": 0.99991,
+            "bbox": [
+              1641.8,
+              92.6,
+              1656.2,
+              103.6
+            ],
+            "view": "vertical_PIN_CAND_0135_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": "PIN_CAND_0155",
+      "owner": "USB2",
+      "point": [
+        1645.612586915493,
+        224.3618398308754
+      ],
+      "side": "bottom",
+      "box": [
+        1592.0,
+        86.0,
+        1710.0,
+        185.0
+      ],
+      "members": [
+        "PIN_CAND_0155"
+      ],
+      "number": "5",
+      "name": "5",
+      "original_number": "5",
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 8
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99986,
+            "bbox": [
+              1635.0,
+              197.0,
+              1649.0,
+              209.0
+            ],
+            "view": "component_USB2_s1.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1633.0,
+              196.0,
+              1649.0,
+              208.0
+            ],
+            "view": "component_USB2_s1.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99996,
+            "bbox": [
+              1634.3333333333333,
+              197.66666666666666,
+              1649.0,
+              208.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.0,
+              196.33333333333334,
+              1649.6666666666667,
+              208.33333333333334
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.0,
+              197.66666666666666,
+              1649.6666666666667,
+              209.0
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99997,
+            "bbox": [
+              1634.3333333333333,
+              196.33333333333331,
+              1649.6666666666667,
+              208.33333333333331
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99995,
+            "bbox": [
+              1634.2,
+              197.4,
+              1648.8,
+              208.2
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r0",
+            "owner": "USB2",
+            "rotation": 0
+          },
+          {
+            "text": "5",
+            "confidence": 0.99998,
+            "bbox": [
+              1634.4,
+              196.6,
+              1649.2,
+              207.4
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      },
+      "name_audit": {
+        "reason": "accepted",
+        "support": {
+          "5": 3
+        },
+        "readings": [
+          {
+            "text": "5",
+            "confidence": 0.99971,
+            "bbox": [
+              1641.0,
+              175.66666666666666,
+              1655.6666666666667,
+              186.0
+            ],
+            "view": "component_USB2_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99899,
+            "bbox": [
+              1641.3333333333333,
+              176.0,
+              1656.6666666666667,
+              186.33333333333334
+            ],
+            "view": "vertical_PIN_CAND_0155_s3.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          },
+          {
+            "text": "5",
+            "confidence": 0.99977,
+            "bbox": [
+              1641.4,
+              175.4,
+              1655.2,
+              185.2
+            ],
+            "view": "vertical_PIN_CAND_0155_s5.0_r90",
+            "owner": "USB2",
+            "rotation": 90
+          }
+        ]
+      }
+    }
+  ],
+  "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "config_sha256": "6738edad4ba39239b504ff82fdf5d547c1587d64ce1acc4786e849ed5238e89d",
+  "ocr_models": null
+}

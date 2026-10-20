@@ -1,0 +1,258 @@
+{
+  "policy": "led_image_lead_axis_local_consensus_v1",
+  "size": [
+    2240,
+    1149
+  ],
+  "coordinate_origin": "mixed_explicit_field_names",
+  "entries": [
+    {
+      "component_id": "LED4",
+      "raw_bbox_bottom_left": [
+        753.722,
+        678.4929999999999,
+        856.926,
+        733.869
+      ],
+      "before_bbox_bottom_left": [
+        787.7983750000001,
+        693.9130625,
+        822.8496250000001,
+        718.4489375
+      ],
+      "after_bbox_bottom_left": [
+        787.7983750000001,
+        693.9130625,
+        822.8496250000001,
+        718.4489375
+      ],
+      "axis_evidence": {
+        "axis": null,
+        "reason": "lead_axis_ambiguous",
+        "horizontal_support": 0.0,
+        "vertical_support": 0.0,
+        "roi_top_left": [
+          686,
+          379,
+          925,
+          507
+        ]
+      },
+      "local_detection": {
+        "reason": "local_views_disagree",
+        "views": [
+          {
+            "roi_top_left": [
+              613,
+              251,
+              997,
+              635
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  800.6836090087891,
+                  416.29217529296875,
+                  856.4179077148438,
+                  461.74034118652344
+                ],
+                "confidence": 0.8956704139709473,
+                "distance_from_original_px": 23.535996874859247
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              485,
+              123,
+              1125,
+              763
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  788.8290405273438,
+                  417.48773193359375,
+                  857.6626586914062,
+                  467.12103271484375
+                ],
+                "confidence": 0.9184196591377258,
+                "distance_from_original_px": 17.929236592038126
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 6.241299293145505
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    },
+    {
+      "component_id": "LED2",
+      "raw_bbox_bottom_left": [
+        659.832,
+        681.538,
+        729.501,
+        732.909
+      ],
+      "before_bbox_bottom_left": [
+        677.140875,
+        694.9555625,
+        712.192125,
+        719.4914375000001
+      ],
+      "after_bbox_bottom_left": [
+        687.6665,
+        697.2235000000001,
+        701.6665,
+        717.2235000000001
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 0.7805,
+        "roi_top_left": [
+          614,
+          382,
+          775,
+          501
+        ]
+      },
+      "local_detection": {
+        "reason": "local_views_disagree",
+        "views": [
+          {
+            "roi_top_left": [
+              503,
+              250,
+              887,
+              634
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  646.2472839355469,
+                  415.53672790527344,
+                  727.8961639404297,
+                  469.57044982910156
+                ],
+                "confidence": 0.842415988445282,
+                "distance_from_original_px": 7.634427977236646
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              375,
+              122,
+              1015,
+              762
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  669.4581298828125,
+                  415.65399169921875,
+                  728.854248046875,
+                  465.39154052734375
+                ],
+                "confidence": 0.9525763988494873,
+                "distance_from_original_px": 4.661454243017545
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 12.25391921154519
+      },
+      "center_changed": false,
+      "bbox_changed": true
+    },
+    {
+      "component_id": "LED1",
+      "raw_bbox_bottom_left": [
+        615.577,
+        679.7470000000001,
+        678.587,
+        728.924
+      ],
+      "before_bbox_bottom_left": [
+        629.556375,
+        692.0675625,
+        664.607625,
+        716.6034375
+      ],
+      "after_bbox_bottom_left": [
+        640.082,
+        694.3355,
+        654.082,
+        714.3355
+      ],
+      "axis_evidence": {
+        "axis": "vertical",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 0.0,
+        "vertical_support": 0.6923,
+        "roi_top_left": [
+          574,
+          388,
+          720,
+          502
+        ]
+      },
+      "local_detection": {
+        "reason": "local_views_disagree",
+        "views": [
+          {
+            "roi_top_left": [
+              455,
+              253,
+              839,
+              637
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  676.3202056884766,
+                  416.60060119628906,
+                  727.6672668457031,
+                  465.3874816894531
+                ],
+                "confidence": 0.7354125380516052,
+                "distance_from_original_px": 55.034271557694225
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              327,
+              125,
+              967,
+              765
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  667.2125854492188,
+                  414.8150329589844,
+                  729.0237426757812,
+                  466.4136047363281
+                ],
+                "confidence": 0.9440407156944275,
+                "distance_from_original_px": 51.19662107582118
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 3.8941300905729994
+      },
+      "center_changed": false,
+      "bbox_changed": true
+    }
+  ],
+  "changed_LED_boxes": 2,
+  "changed_LED_centers": 0,
+  "input_contract": "current image and model predictions only; no references or reported errors",
+  "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "wall_seconds": 5.835
+}

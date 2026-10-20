@@ -1,0 +1,82 @@
+{
+  "target_distances": [
+    {
+      "component": "U1",
+      "pin": "pin_9",
+      "name": "EP",
+      "distance": 5.952
+    },
+    {
+      "component": "U2",
+      "pin": "pin_4",
+      "name": "EN",
+      "distance": 0.707
+    },
+    {
+      "component": "USB1",
+      "pin": "pin_5",
+      "name": "DN2",
+      "distance": 2.55
+    },
+    {
+      "component": "USB1",
+      "pin": "pin_6",
+      "name": "DP1",
+      "distance": 2.55
+    },
+    {
+      "component": "USB1",
+      "pin": "pin_13",
+      "name": "SHELL",
+      "distance": 3.925
+    }
+  ],
+  "remaining_false_positives": [
+    {
+      "component": "SW2",
+      "key": "pin_14",
+      "name": "14",
+      "truth_component_type": "switch",
+      "reason": "predicted_IC_but_reference_not_IC"
+    },
+    {
+      "component": "SW2",
+      "key": "pin_2",
+      "name": "2",
+      "truth_component_type": "switch",
+      "reason": "predicted_IC_but_reference_not_IC"
+    },
+    {
+      "component": "SW2",
+      "key": "pin_13",
+      "name": "13",
+      "truth_component_type": "switch",
+      "reason": "predicted_IC_but_reference_not_IC"
+    },
+    {
+      "component": "SW2",
+      "key": "pin_6",
+      "name": "6",
+      "truth_component_type": "switch",
+      "reason": "predicted_IC_but_reference_not_IC"
+    },
+    {
+      "component": "H2",
+      "key": "pin_1",
+      "name": "1",
+      "truth_component_type": "pin",
+      "reason": "predicted_IC_but_reference_not_IC"
+    },
+    {
+      "component": "H1",
+      "key": "pin_1",
+      "name": "1",
+      "truth_component_type": "pin",
+      "reason": "predicted_IC_but_reference_not_IC"
+    }
+  ],
+  "other_existing_pins_unchanged": true,
+  "new_pin_records": 4,
+  "changed_existing_positions": 1,
+  "production_unchanged": true
+}

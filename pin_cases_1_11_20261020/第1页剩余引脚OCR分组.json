@@ -1,0 +1,43 @@
+{
+  "case": "1",
+  "remaining": [
+    "U1.9",
+    "U2.4",
+    "U3.5",
+    "USB1.1",
+    "USB1.5",
+    "USB1.6",
+    "USB1.7",
+    "USB1.9",
+    "USB1.13",
+    "USB2.6",
+    "USB2.5",
+    "USB2.2"
+  ],
+  "groups": {
+    "ocr_evidence_present": [
+      "USB1.9",
+      "USB2.2",
+      "USB2.5",
+      "USB2.6"
+    ],
+    "needs_new_number_read": [
+      "U3.5",
+      "USB1.7"
+    ],
+    "ownership_and_fields": [
+      "USB1.1",
+      "USB1.13"
+    ],
+    "missing_geometry": [
+      "U2.4",
+      "USB1.5",
+      "USB1.6"
+    ],
+    "position_only": [
+      "U1.9"
+    ]
+  },
+  "new_ocr_calls": 0,
+  "actual_recovered_tp_not_yet_tested": true
+}

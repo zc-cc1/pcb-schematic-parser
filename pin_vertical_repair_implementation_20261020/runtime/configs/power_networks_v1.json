@@ -1,0 +1,15 @@
+{
+  "version": "power-logical-networks-pilot-v1",
+  "min_OCR_confidence": 0.98,
+  "min_distinct_views": 3,
+  "same_glyph_iou": 0.4,
+  "conflicting_spelling_min_views": 2,
+  "ground_name_pattern": "(?:GND|AGND|DGND|PGND|SGND|CGND|EGND)(?:_[A-Za-z0-9]+)*",
+  "supply_name_pattern": "(?:VCC|VDDIO|VDD|VSS|VEE|VBUS|VBAT|VIN|VOUT|AVDD|DVDD|PVDD|AVCC|DVCC|VIO)(?:[0-9_+.-][A-Za-z0-9_+.-]*)?|[+-]?(?:[0-9]+(?:[._][0-9]+)?V(?:[0-9]+)?|V[0-9]+(?:P[0-9]+)?)(?:_[A-Za-z0-9]+)*",
+  "name_matching": "exact_literal_no_aliases",
+  "allow_incomplete_topology_merges": false,
+  "allow_unrepresented_power_near_wire": false,
+  "allow_ordinary_flywire_in_power_merge": false,
+  "change_pin_fields": false,
+  "default_pipeline_adopted": false
+}

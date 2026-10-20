@@ -1,0 +1,53 @@
+{
+  "version": "pin-number-strip-local-ocr-v2",
+  "scales": [
+    3.0,
+    4.0,
+    6.0
+  ],
+  "rotations": [
+    0,
+    90
+  ],
+  "along_px": 22,
+  "up_px": 18,
+  "down_px": 2,
+  "min_confidence": 0.9,
+  "single_view_confidence": 0.99,
+  "min_views": 2,
+  "component_types": [
+    "ic",
+    "connector",
+    "block"
+  ],
+  "onnx_threads": 4,
+  "scope": "all",
+  "single_view_no_conflict": true,
+  "pitch_aware_window": false,
+  "pitch_window_fraction": 0.45,
+  "up_px_min": 6.0,
+  "inside_digit_fallback": false,
+  "inside_depth_px": 34,
+  "inside_half_px": 8,
+  "probe_directions": [
+    [
+      -22,
+      -20,
+      22,
+      0
+    ],
+    [
+      -30,
+      -12,
+      -4,
+      12
+    ],
+    [
+      4,
+      -12,
+      30,
+      12
+    ]
+  ],
+  "digit_name_from_number": true
+}

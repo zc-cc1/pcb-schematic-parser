@@ -1,0 +1,838 @@
+{
+  "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984",
+  "groups": [
+    {
+      "owner": "U1",
+      "frame": [
+        465.5,
+        543.5,
+        544.5,
+        661.5
+      ],
+      "offset": [
+        -5.914702534675598,
+        4.75
+      ],
+      "anchors": [
+        "PIN_CAND_0030"
+      ],
+      "pins": [
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "number": "2",
+          "name": "IN",
+          "point": [
+            485.26903384923935,
+            668.946139048785
+          ],
+          "crop": [
+            471,
+            658,
+            488,
+            675
+          ],
+          "readings": {
+            "90": {
+              "number": "1",
+              "support": {
+                "1": 2
+              },
+              "tokens": [
+                {
+                  "text": "1",
+                  "confidence": 0.98984,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0005_r90_s3.0"
+                },
+                {
+                  "text": "1",
+                  "confidence": 0.98935,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0005_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "1",
+                  "confidence": 0.46901,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0005_r270_s3.0"
+                },
+                {
+                  "text": "1",
+                  "confidence": 0.45666,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0005_r270_s5.0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0020",
+          "number": "1",
+          "name": "GND",
+          "point": [
+            505.3948677480221,
+            670.6688205301762
+          ],
+          "crop": [
+            491,
+            658,
+            508,
+            675
+          ],
+          "readings": {
+            "90": {
+              "number": "2",
+              "support": {
+                "2": 2
+              },
+              "tokens": [
+                {
+                  "text": "2",
+                  "confidence": 0.9988,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0020_r90_s3.0"
+                },
+                {
+                  "text": "2",
+                  "confidence": 0.9987,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0020_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "乙",
+                  "confidence": 0.81718,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0020_r270_s3.0"
+                },
+                {
+                  "text": "乙",
+                  "confidence": 0.81716,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0020_r270_s5.0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0030",
+          "number": "3",
+          "name": "OUT",
+          "point": [
+            525.5397025346756,
+            673.5425969660282
+          ],
+          "crop": [
+            511,
+            658,
+            528,
+            675
+          ],
+          "readings": {
+            "90": {
+              "number": "3",
+              "support": {
+                "3": 2
+              },
+              "tokens": [
+                {
+                  "text": "3",
+                  "confidence": 0.99837,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0030_r90_s3.0"
+                },
+                {
+                  "text": "3",
+                  "confidence": 0.99808,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0030_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "ε",
+                  "confidence": 0.99609,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0030_r270_s3.0"
+                },
+                {
+                  "text": "ε",
+                  "confidence": 0.99612,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0030_r270_s5.0"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "whole": [
+        {
+          "text": "U1",
+          "confidence": 0.94939,
+          "bbox": [
+            544.0,
+            542.0,
+            569.0,
+            561.0
+          ],
+          "view": "cycle_component_U1_s1.0_r0"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99968,
+          "bbox": [
+            497.0,
+            619.0,
+            524.0,
+            660.0
+          ],
+          "view": "cycle_component_U1_s1.0_r0"
+        },
+        {
+          "text": "IN",
+          "confidence": 0.99613,
+          "bbox": [
+            479.0,
+            637.0,
+            500.0,
+            658.0
+          ],
+          "view": "cycle_component_U1_s1.0_r90"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99995,
+          "bbox": [
+            498.0,
+            620.0,
+            521.0,
+            658.0
+          ],
+          "view": "cycle_component_U1_s1.0_r90"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.99974,
+          "bbox": [
+            518.0,
+            621.0,
+            541.0,
+            658.0
+          ],
+          "view": "cycle_component_U1_s1.0_r90"
+        },
+        {
+          "text": "5",
+          "confidence": 0.92474,
+          "bbox": [
+            545.0,
+            540.0,
+            570.0,
+            561.0
+          ],
+          "view": "cycle_component_U1_s1.0_r90"
+        },
+        {
+          "text": "U1",
+          "confidence": 0.89815,
+          "bbox": [
+            544.3333333333334,
+            541.6666666666666,
+            568.0,
+            560.3333333333334
+          ],
+          "view": "cycle_component_U1_s3.0_r0"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            500.3333333333333,
+            621.3333333333334,
+            520.3333333333334,
+            657.3333333333334
+          ],
+          "view": "cycle_component_U1_s3.0_r0"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.91581,
+          "bbox": [
+            518.0,
+            622.6666666666666,
+            536.6666666666666,
+            656.3333333333334
+          ],
+          "view": "cycle_component_U1_s3.0_r0"
+        },
+        {
+          "text": "N",
+          "confidence": 0.94328,
+          "bbox": [
+            482.0,
+            638.6666666666666,
+            498.0,
+            656.3333333333334
+          ],
+          "view": "cycle_component_U1_s3.0_r0"
+        },
+        {
+          "text": "IN",
+          "confidence": 0.99901,
+          "bbox": [
+            481.6666666666667,
+            637.3333333333333,
+            498.0,
+            657.0
+          ],
+          "view": "cycle_component_U1_s3.0_r90"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99989,
+          "bbox": [
+            501.3333333333333,
+            621.0,
+            518.3333333333334,
+            656.3333333333334
+          ],
+          "view": "cycle_component_U1_s3.0_r90"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.99983,
+          "bbox": [
+            519.6666666666666,
+            622.3333333333334,
+            537.3333333333334,
+            656.6666666666666
+          ],
+          "view": "cycle_component_U1_s3.0_r90"
+        }
+      ]
+    },
+    {
+      "owner": "U3",
+      "frame": [
+        1381,
+        531.5,
+        1460,
+        650
+      ],
+      "offset": [
+        -5.983623057603836,
+        5.25
+      ],
+      "anchors": [
+        "PIN_CAND_0017"
+      ],
+      "pins": [
+        {
+          "candidate_id": "PIN_CAND_0035",
+          "number": "1",
+          "name": "IN",
+          "point": [
+            1400.7785634845495,
+            654.9799276441336
+          ],
+          "crop": [
+            1386,
+            647,
+            1403,
+            664
+          ],
+          "readings": {
+            "90": {
+              "number": "1",
+              "support": {
+                "1": 2
+              },
+              "tokens": [
+                {
+                  "text": "1",
+                  "confidence": 0.99761,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0035_r90_s3.0"
+                },
+                {
+                  "text": "1",
+                  "confidence": 0.99734,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0035_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "1",
+                  "confidence": 0.94736,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0035_r270_s3.0"
+                },
+                {
+                  "text": "1",
+                  "confidence": 0.94168,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0035_r270_s5.0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0016",
+          "number": "2",
+          "name": "GND",
+          "point": [
+            1420.076125137508,
+            659.5237722098827
+          ],
+          "crop": [
+            1406,
+            647,
+            1423,
+            664
+          ],
+          "readings": {
+            "90": {
+              "number": "2",
+              "support": {
+                "2": 2
+              },
+              "tokens": [
+                {
+                  "text": "2",
+                  "confidence": 0.9996,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0016_r90_s3.0"
+                },
+                {
+                  "text": "2",
+                  "confidence": 0.99957,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0016_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "乙",
+                  "confidence": 0.68599,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0016_r270_s3.0"
+                },
+                {
+                  "text": "乙",
+                  "confidence": 0.67505,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0016_r270_s5.0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0017",
+          "number": "3",
+          "name": "OUT",
+          "point": [
+            1440.3586230576038,
+            661.8360883444548
+          ],
+          "crop": [
+            1426,
+            647,
+            1443,
+            664
+          ],
+          "readings": {
+            "90": {
+              "number": "3",
+              "support": {
+                "3": 2
+              },
+              "tokens": [
+                {
+                  "text": "3",
+                  "confidence": 0.99935,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0017_r90_s3.0"
+                },
+                {
+                  "text": "3",
+                  "confidence": 0.99916,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0017_r90_s5.0"
+                }
+              ]
+            },
+            "270": {
+              "number": null,
+              "support": {},
+              "tokens": [
+                {
+                  "text": "ε",
+                  "confidence": 0.91824,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0017_r270_s3.0"
+                },
+                {
+                  "text": "ε",
+                  "confidence": 0.91254,
+                  "bbox": [
+                    0,
+                    0,
+                    37,
+                    37
+                  ],
+                  "view": "cycle_glyph_PIN_CAND_0017_r270_s5.0"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "whole": [
+        {
+          "text": "u3",
+          "confidence": 0.93458,
+          "bbox": [
+            1458.0,
+            530.0,
+            1485.0,
+            549.0
+          ],
+          "view": "cycle_component_U3_s1.0_r0"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99995,
+          "bbox": [
+            1414.0,
+            608.0,
+            1437.0,
+            646.0
+          ],
+          "view": "cycle_component_U3_s1.0_r0"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.71645,
+          "bbox": [
+            1433.0,
+            609.0,
+            1456.0,
+            646.0
+          ],
+          "view": "cycle_component_U3_s1.0_r0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.99998,
+          "bbox": [
+            1406.0,
+            650.0,
+            1421.0,
+            664.0
+          ],
+          "view": "cycle_component_U3_s1.0_r0"
+        },
+        {
+          "text": "3",
+          "confidence": 0.99983,
+          "bbox": [
+            1425.0,
+            650.0,
+            1444.0,
+            664.0
+          ],
+          "view": "cycle_component_U3_s1.0_r0"
+        },
+        {
+          "text": "IN",
+          "confidence": 0.99618,
+          "bbox": [
+            1395.0,
+            625.0,
+            1416.0,
+            647.0
+          ],
+          "view": "cycle_component_U3_s1.0_r90"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99995,
+          "bbox": [
+            1414.0,
+            607.0,
+            1436.0,
+            645.0
+          ],
+          "view": "cycle_component_U3_s1.0_r90"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.99978,
+          "bbox": [
+            1434.0,
+            608.0,
+            1456.0,
+            645.0
+          ],
+          "view": "cycle_component_U3_s1.0_r90"
+        },
+        {
+          "text": "U3",
+          "confidence": 0.82226,
+          "bbox": [
+            1459.3333333333333,
+            530.3333333333334,
+            1483.3333333333333,
+            548.3333333333334
+          ],
+          "view": "cycle_component_U3_s3.0_r0"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99996,
+          "bbox": [
+            1415.0,
+            609.3333333333334,
+            1436.0,
+            646.0
+          ],
+          "view": "cycle_component_U3_s3.0_r0"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.89625,
+          "bbox": [
+            1434.3333333333333,
+            610.6666666666666,
+            1453.0,
+            644.3333333333334
+          ],
+          "view": "cycle_component_U3_s3.0_r0"
+        },
+        {
+          "text": "N",
+          "confidence": 0.96093,
+          "bbox": [
+            1396.6666666666667,
+            628.0,
+            1413.3333333333333,
+            644.3333333333334
+          ],
+          "view": "cycle_component_U3_s3.0_r0"
+        },
+        {
+          "text": "3",
+          "confidence": 0.99998,
+          "bbox": [
+            1428.3333333333333,
+            652.0,
+            1439.6666666666667,
+            659.6666666666666
+          ],
+          "view": "cycle_component_U3_s3.0_r0"
+        },
+        {
+          "text": "IN",
+          "confidence": 0.99724,
+          "bbox": [
+            1396.6666666666667,
+            626.6666666666667,
+            1413.0,
+            644.3333333333334
+          ],
+          "view": "cycle_component_U3_s3.0_r90"
+        },
+        {
+          "text": "GND",
+          "confidence": 0.99991,
+          "bbox": [
+            1416.3333333333333,
+            609.0,
+            1433.0,
+            644.0
+          ],
+          "view": "cycle_component_U3_s3.0_r90"
+        },
+        {
+          "text": "3",
+          "confidence": 0.99997,
+          "bbox": [
+            1427.0,
+            650.0,
+            1441.0,
+            661.0
+          ],
+          "view": "cycle_component_U3_s3.0_r90"
+        },
+        {
+          "text": "OUT",
+          "confidence": 0.99977,
+          "bbox": [
+            1436.3333333333333,
+            610.3333333333334,
+            1453.0,
+            644.0
+          ],
+          "view": "cycle_component_U3_s3.0_r90"
+        },
+        {
+          "text": "33",
+          "confidence": 0.65541,
+          "bbox": [
+            1459.6666666666667,
+            529.6666666666666,
+            1484.0,
+            547.3333333333334
+          ],
+          "view": "cycle_component_U3_s3.0_r90"
+        }
+      ]
+    }
+  ],
+  "new_ocr_calls": 32,
+  "reused_ocr_calls": 0
+}

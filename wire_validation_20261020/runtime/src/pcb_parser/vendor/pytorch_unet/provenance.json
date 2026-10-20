@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/milesial/Pytorch-UNet",
+  "commit": "21d7850f2af30a9695bbeea75f3136aa538cfc4a",
+  "license": "GPL-3.0",
+  "modification": "upstream files unchanged; PCB adapter is separate",
+  "files": [
+    {
+      "remote": "unet/unet_parts.py",
+      "local": "unet_parts.py",
+      "sha256": "4b0441f549caf588642f7e5ef3ba2dfb1032c1ded0ba350e46f96f43caa93ea1"
+    },
+    {
+      "remote": "unet/unet_model.py",
+      "local": "unet_model.py",
+      "sha256": "f042e977a90ac4b5b0c7529613ade1ebbcdfe6015f80df82e4fcd8f5753368b0"
+    },
+    {
+      "remote": "LICENSE",
+      "local": "LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  ]
+}

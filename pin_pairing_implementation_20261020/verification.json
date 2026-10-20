@@ -1,0 +1,76 @@
+{
+  "release_hashes_verified": true,
+  "unit_tests_passed": 94,
+  "new_tests": 21,
+  "fully_unchanged_pages": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "all_existing_wire_segments_preserved": true,
+  "old_pin_geometry_preserved_under_rekey": true,
+  "new_power_branch_matches_model_segments": true,
+  "fourth_page_matches_verified_pilot": true,
+  "fresh_local_ocr_matches_cache": true,
+  "fresh_local_ocr_calls": 8,
+  "entrypoint": {
+    "mode": "cached_model_and_ocr_live_entrypoint",
+    "cases": [
+      {
+        "case": "1",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "pairing_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "restored_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "2",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "pairing_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "restored_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "4",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "pairing_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 2,
+          "changed_networks": 1,
+          "restored_networks": 1,
+          "ocr_calls": 8
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      }
+    ],
+    "kept_work": true
+  }
+}

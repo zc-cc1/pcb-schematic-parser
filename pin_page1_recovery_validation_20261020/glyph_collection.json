@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "owner": "U3",
+      "candidate_id": "PIN_CAND_0084",
+      "column": 1338.5,
+      "offset": 6.370449076096293,
+      "texts": [
+        {
+          "text": "5",
+          "confidence": 0.99825,
+          "bbox": [
+            1337,
+            573,
+            1344,
+            582
+          ],
+          "view": "glyph_PIN_CAND_0084_2_s3.0_r0",
+          "source": "isolated_glyph"
+        },
+        {
+          "text": "5",
+          "confidence": 0.99796,
+          "bbox": [
+            1337,
+            573,
+            1344,
+            582
+          ],
+          "view": "glyph_PIN_CAND_0084_2_s5.0_r0",
+          "source": "isolated_glyph"
+        }
+      ]
+    },
+    {
+      "owner": "U3",
+      "candidate_id": "PIN_CAND_0093",
+      "column": 1338.5,
+      "offset": 6.370449076096293,
+      "texts": [
+        {
+          "text": "4",
+          "confidence": 0.99988,
+          "bbox": [
+            1336,
+            552,
+            1344,
+            562
+          ],
+          "view": "glyph_PIN_CAND_0093_1_s3.0_r0",
+          "source": "isolated_glyph"
+        },
+        {
+          "text": "4",
+          "confidence": 0.99987,
+          "bbox": [
+            1336,
+            552,
+            1344,
+            562
+          ],
+          "view": "glyph_PIN_CAND_0093_1_s5.0_r0",
+          "source": "isolated_glyph"
+        }
+      ]
+    },
+    {
+      "owner": "USB1",
+      "candidate_id": "PIN_CAND_0098",
+      "column": 263.6666666666667,
+      "offset": -6.092795098821341,
+      "texts": [
+        {
+          "text": "9",
+          "confidence": 0.99971,
+          "bbox": [
+            260,
+            254,
+            267,
+            263
+          ],
+          "view": "glyph_PIN_CAND_0098_1_s3.0_r0",
+          "source": "isolated_glyph"
+        },
+        {
+          "text": "9",
+          "confidence": 0.99969,
+          "bbox": [
+            260,
+            254,
+            267,
+            263
+          ],
+          "view": "glyph_PIN_CAND_0098_1_s5.0_r0",
+          "source": "isolated_glyph"
+        }
+      ]
+    },
+    {
+      "owner": "USB1",
+      "candidate_id": "PIN_CAND_0158",
+      "column": 263.6666666666667,
+      "offset": -6.092795098821341,
+      "texts": [
+        {
+          "text": "7",
+          "confidence": 0.99853,
+          "bbox": [
+            260,
+            293,
+            267,
+            303
+          ],
+          "view": "glyph_PIN_CAND_0158_2_s3.0_r0",
+          "source": "isolated_glyph"
+        },
+        {
+          "text": "7",
+          "confidence": 0.99846,
+          "bbox": [
+            260,
+            293,
+            267,
+            303
+          ],
+          "view": "glyph_PIN_CAND_0158_2_s5.0_r0",
+          "source": "isolated_glyph"
+        }
+      ]
+    }
+  ],
+  "new_ocr_calls": 8,
+  "models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "external_api_calls": 0,
+  "uses_reference": false
+}

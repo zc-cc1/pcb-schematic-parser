@@ -1,0 +1,97 @@
+{
+  "policy": "led_image_lead_axis_local_consensus_v1",
+  "size": [
+    1849,
+    1032
+  ],
+  "coordinate_origin": "mixed_explicit_field_names",
+  "entries": [
+    {
+      "component_id": "LED1",
+      "raw_bbox_bottom_left": [
+        951.545,
+        419.14300000000003,
+        1011.738,
+        473.78999999999996
+      ],
+      "before_bbox_bottom_left": [
+        971.6415,
+        439.4665,
+        991.6415,
+        453.4665
+      ],
+      "after_bbox_bottom_left": [
+        971.6415,
+        439.4665,
+        991.6415,
+        453.4665
+      ],
+      "axis_evidence": {
+        "axis": "horizontal",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 1.0,
+        "vertical_support": 0.0,
+        "roi_top_left": [
+          912,
+          522,
+          1051,
+          649
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              790,
+              394,
+              1174,
+              778
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  952.7865600585938,
+                  558.7238464355469,
+                  1009.8385620117188,
+                  613.0478668212891
+                ],
+                "confidence": 0.9699041843414307,
+                "distance_from_original_px": 0.48203323140891585
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              662,
+              266,
+              1302,
+              906
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  954.6019287109375,
+                  559.9562377929688,
+                  1010.4717407226562,
+                  612.7926025390625
+                ],
+                "confidence": 0.7924380302429199,
+                "distance_from_original_px": 1.2283203900911066
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 1.3181579487405244,
+        "shift_px": 0.6134462752686144
+      },
+      "center_changed": false,
+      "bbox_changed": false
+    }
+  ],
+  "changed_LED_boxes": 0,
+  "changed_LED_centers": 0,
+  "input_contract": "current image and model predictions only; no references or reported errors",
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "wall_seconds": 0.063
+}

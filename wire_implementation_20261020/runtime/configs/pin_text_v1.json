@@ -1,0 +1,29 @@
+{
+  "version": "pin-text-v1",
+  "min_confidence": 0.85,
+  "number_inner_band_px": 18,
+  "number_outer_band_px": 52,
+  "name_min_inward_px": 10,
+  "name_max_inward_px": 160,
+  "tangent_limit_px": 22,
+  "dense_pin_spacing_fraction": 0.65,
+  "minimum_tangent_limit_px": 8,
+  "confidence_cost_px": 20,
+  "distance_cost_weight": 0.06,
+  "unmatched_cost": 38,
+  "ambiguity_margin": 3,
+  "spelling_margin": 2,
+  "name_component_types": ["ic", "connector", "block", "opamp"],
+  "ball_number_component_types": ["ic", "connector", "block"],
+  "local_ocr": {
+    "enabled": false,
+    "max_rois": 64,
+    "scale": 3,
+    "rotations": [0, 90],
+    "tangent_padding_px": 24,
+    "crop_boundary_guard_px": 2,
+    "min_observation_confidence": 0.55
+  },
+  "onnx_threads": 4,
+  "status": "image_text_evidence_only_no_number_guess_no_nets"
+}

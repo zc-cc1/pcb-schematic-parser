@@ -1,0 +1,131 @@
+{
+  "enabled": true,
+  "policy": "image_lead_geometry_v1",
+  "frames": {
+    "U1": {
+      "box": [
+        993.5,
+        453.5,
+        1171.5,
+        769.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U1",
+      "row": 690,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        690
+      ],
+      "name": "NC",
+      "number": null,
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {},
+      "number_offset": -6.24793304502964,
+      "status": "insufficient_fields"
+    },
+    {
+      "owner": "U1",
+      "row": 710.5,
+      "length": 16.0,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        710.5
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.24793304502964,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "U1",
+      "row": 730,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        730
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.24793304502964,
+      "status": "existing_number"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "row": 710.5,
+      "length": 16.0,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        710.5
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.24793304502964,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U1.6",
+      "status": "withheld",
+      "reason": "no_connect_field_without_model_attachment"
+    }
+  ],
+  "ocr_calls": 10,
+  "budget_exhausted": false,
+  "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+  "config_sha256": "614ab33ffebde2b48b941a19104a9011d532c1371d04e1162db1afc8aad45714",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

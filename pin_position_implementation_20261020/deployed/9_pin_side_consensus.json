@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "modified_pin_count": 0,
+  "groups": [
+    {
+      "component": "U2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 829.7453326880932,
+            "y": 620.3337091207504
+          },
+          "length": 38
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 823.7978580594063,
+            "y": 600.4050984978676
+          },
+          "length": 38
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 973.1891942620277,
+            "y": 580.4478040337563
+          },
+          "length": 39
+        },
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 966.3970693349838,
+            "y": 600.4663331210613
+          },
+          "length": 38
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 817.8282413929701,
+            "y": 580.2409324347973
+          },
+          "length": null
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "top",
+      "measurements": [
+        {
+          "key": "pin_6",
+          "raw_point": {
+            "x": 995.9601959437132,
+            "y": 620.0668598487973
+          },
+          "length": null
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    }
+  ],
+  "policy": "same_side_image_length_consensus_v1"
+}

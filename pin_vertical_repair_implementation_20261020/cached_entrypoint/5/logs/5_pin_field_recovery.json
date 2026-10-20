@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "policy": "image_numeric_pin_recovery_v1",
+  "selected_groups": 1,
+  "changes": [],
+  "network_changes": [],
+  "ocr_calls": 4,
+  "budget_exhausted": false,
+  "groups": [
+    {
+      "id": "PIN_CAND_0069",
+      "owner": "U2",
+      "point": [
+        1651.893985003233,
+        538.3179775178432
+      ],
+      "side": "right",
+      "box": [
+        1510.0,
+        441.0,
+        1629.0,
+        579.0
+      ],
+      "members": [
+        "PIN_CAND_0018",
+        "PIN_CAND_0069"
+      ],
+      "number": "7",
+      "name": "PP",
+      "original_number": null,
+      "original_name": null,
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      },
+      "withheld": "existing_key_not_in_transaction"
+    }
+  ],
+  "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+  "config_sha256": "6738edad4ba39239b504ff82fdf5d547c1587d64ce1acc4786e849ed5238e89d",
+  "ocr_models": null
+}

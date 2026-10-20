@@ -1,0 +1,40 @@
+{
+ "version": "submission-fields-v1-development",
+ "label_component_types": [
+  "vbus_in",
+  "vbus_out",
+  "vbus_bidirectional",
+  "net_short"
+ ],
+ "single_pin_label_types": [
+  "vbus_in",
+  "vbus_out",
+  "vbus_bidirectional"
+ ],
+ "identity_min_confidence": 0.95,
+ "identity_min_distinct_views": 3,
+ "allow_two_tip_label_identity": false,
+ "duplicate_suffix_policy": "visual_order_proposal_only_not_source_component_ID",
+ "single_tip_auto_number": "1",
+ "blank_pinname_policy": "keep_unresolved",
+ "review_network_count": 8,
+ "local_ocr": {
+  "enabled": true,
+  "scales": [
+   2,
+   3,
+   4
+  ],
+  "padding_x_px": 2,
+  "padding_y_px": 1,
+  "max_sites": 64,
+  "min_suggestion_confidence": 0.98,
+  "onnx_threads": 2,
+  "apply_spelling_changes": false
+ },
+ "inside_label_identity": true,
+ "inside_label_min_confidence": 0.9,
+ "inside_label_min_distinct_views": 1,
+ "label_value_from_name": true,
+ "inside_label_max_gap_px": 12.0
+}

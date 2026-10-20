@@ -1,0 +1,2209 @@
+{
+  "library_path": "D:\\pcb5_submission\\data\\component_library\\BoxICLibrary.json",
+  "library_sha256": "b6f7fd06561524ffe2e8b03b06e67e2fa066d75de7acfcc5f1cb7b4f000ca9ac",
+  "models": {
+    "TP4333": {
+      "owner": "U1",
+      "raw_library_pins": [
+        {
+          "pin_id": "e5",
+          "name": "OUT",
+          "number": "1",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e9",
+          "name": "BAT",
+          "number": "2",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e13",
+          "name": "SW",
+          "number": "3",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e17",
+          "name": "GND",
+          "number": "4",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e21",
+          "name": "SWT",
+          "number": "5",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e25",
+          "name": "VDD",
+          "number": "6",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e29",
+          "name": "LED2",
+          "number": "7",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e33",
+          "name": "LED1",
+          "number": "8",
+          "pin_type": "Undefined"
+        }
+      ],
+      "unique_number_name_pairs": [
+        {
+          "number": "1",
+          "name": "OUT"
+        },
+        {
+          "number": "2",
+          "name": "BAT"
+        },
+        {
+          "number": "3",
+          "name": "SW"
+        },
+        {
+          "number": "4",
+          "name": "GND"
+        },
+        {
+          "number": "5",
+          "name": "SWT"
+        },
+        {
+          "number": "6",
+          "name": "VDD"
+        },
+        {
+          "number": "7",
+          "name": "LED2"
+        },
+        {
+          "number": "8",
+          "name": "LED1"
+        }
+      ],
+      "model_ocr_readings": [
+        {
+          "text": "TP4333",
+          "confidence": 0.99999,
+          "bbox": [
+            954.0,
+            459.0,
+            1011.0,
+            479.0
+          ],
+          "view": "row_component_U1_s1.0_r0"
+        },
+        {
+          "text": "TP4333",
+          "confidence": 0.99999,
+          "bbox": [
+            956.0,
+            461.0,
+            1010.0,
+            478.0
+          ],
+          "view": "row_component_U1_s1.0_r90"
+        },
+        {
+          "text": "TP4333",
+          "confidence": 0.99999,
+          "bbox": [
+            954.0,
+            462.0,
+            1008.0,
+            477.33333333333337
+          ],
+          "view": "row_component_U1_s3.0_r0"
+        },
+        {
+          "text": "TP4333",
+          "confidence": 0.99999,
+          "bbox": [
+            955.6666666666666,
+            460.33333333333337,
+            1008.6666666666666,
+            477.33333333333337
+          ],
+          "view": "row_component_U1_s3.0_r90"
+        }
+      ],
+      "observed_rows": [
+        {
+          "row": 379,
+          "length": 19,
+          "side": "left",
+          "edge": 956.5,
+          "point": [
+            937.5,
+            379
+          ],
+          "old_key": "pin_1",
+          "old_record": {
+            "pinname": "OUT",
+            "point": {
+              "x": 939.0,
+              "y": 399.0082884700969
+            }
+          },
+          "number": "1",
+          "name": "OUT",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 398.5,
+          "length": 29.0,
+          "side": "left",
+          "edge": 956.5,
+          "point": [
+            927.5,
+            398.5
+          ],
+          "old_key": "pin_2",
+          "old_record": {
+            "pinname": "BAT",
+            "point": {
+              "x": 927.5,
+              "y": 371.5
+            }
+          },
+          "number": "2",
+          "name": "BAT",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 418.5,
+          "length": 19.0,
+          "side": "left",
+          "edge": 956.5,
+          "point": [
+            937.5,
+            418.5
+          ],
+          "old_key": "pin_3",
+          "old_record": {
+            "pinname": "SW",
+            "point": {
+              "x": 939.0,
+              "y": 351.9704633746296
+            }
+          },
+          "number": "3",
+          "name": "SW",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 438.5,
+          "length": 19.0,
+          "side": "left",
+          "edge": 956.5,
+          "point": [
+            937.5,
+            438.5
+          ],
+          "old_key": "pin_4",
+          "old_record": {
+            "pinname": "GND",
+            "point": {
+              "x": 939.0,
+              "y": 331.86528888344765
+            }
+          },
+          "number": "4",
+          "name": "GND",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 379,
+          "length": 55,
+          "side": "right",
+          "edge": 1075,
+          "point": [
+            1130,
+            379
+          ],
+          "old_key": "pin_8",
+          "old_record": {
+            "pinname": "LED1",
+            "point": {
+              "x": 1091.8485848158598,
+              "y": 391.1838244050741
+            }
+          },
+          "number": "8",
+          "name": "LED1",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 398.5,
+          "length": 55.5,
+          "side": "right",
+          "edge": 1075,
+          "point": [
+            1130.5,
+            398.5
+          ],
+          "old_key": "pin_7",
+          "old_record": {
+            "pinname": "LED2",
+            "point": {
+              "x": 1093.0,
+              "y": 371.494650632143
+            }
+          },
+          "number": "7",
+          "name": "LED2",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 418.5,
+          "length": 20.0,
+          "side": "right",
+          "edge": 1075,
+          "point": [
+            1095.0,
+            418.5
+          ],
+          "old_key": "pin_9",
+          "old_record": {
+            "pinname": "VDD",
+            "point": {
+              "x": 1093.0,
+              "y": 351.2850082218647
+            }
+          },
+          "number": "6",
+          "name": "VDD",
+          "method": "fresh_observed_rekey",
+          "number_support": {
+            "6": 2
+          },
+          "name_support": {
+            "VDD": 4
+          },
+          "number_readings": [
+            {
+              "text": "9",
+              "confidence": 0.96367,
+              "bbox": [
+                1076.3333333333333,
+                405.0,
+                1086.0,
+                416.3333333333333
+              ],
+              "view": "row_component_U1_s3.0_r90"
+            },
+            {
+              "text": "6",
+              "confidence": 0.99958,
+              "bbox": [
+                0,
+                0,
+                30,
+                32
+              ],
+              "view": "row_confirm_U1_right_418.5_number_False_s3.0"
+            },
+            {
+              "text": "6",
+              "confidence": 0.99956,
+              "bbox": [
+                0,
+                0,
+                30,
+                32
+              ],
+              "view": "row_confirm_U1_right_418.5_number_False_s5.0"
+            }
+          ],
+          "name_readings": [
+            {
+              "text": "VDD",
+              "confidence": 0.99994,
+              "bbox": [
+                1031.0,
+                410.0,
+                1074.0,
+                434.0
+              ],
+              "view": "row_component_U1_s1.0_r0"
+            },
+            {
+              "text": "VDD",
+              "confidence": 0.99992,
+              "bbox": [
+                1033.0,
+                412.0,
+                1072.0,
+                432.0
+              ],
+              "view": "row_component_U1_s1.0_r90"
+            },
+            {
+              "text": "VDD",
+              "confidence": 0.99991,
+              "bbox": [
+                1035.3333333333333,
+                414.6666666666667,
+                1070.6666666666667,
+                431.0
+              ],
+              "view": "row_component_U1_s3.0_r0"
+            },
+            {
+              "text": "VDD",
+              "confidence": 0.99987,
+              "bbox": [
+                1035.0,
+                412.6666666666667,
+                1070.3333333333333,
+                431.0
+              ],
+              "view": "row_component_U1_s3.0_r90"
+            }
+          ],
+          "old_networks": []
+        },
+        {
+          "row": 438.5,
+          "length": 20.0,
+          "side": "right",
+          "edge": 1075,
+          "point": [
+            1095.0,
+            438.5
+          ],
+          "old_key": "pin_5",
+          "old_record": {
+            "pinname": "SWT",
+            "point": {
+              "x": 1093.0,
+              "y": 331.61903154850006
+            }
+          },
+          "number": "5",
+          "name": "SWT",
+          "method": "preserved_existing_record"
+        }
+      ]
+    },
+    "TYPE-C 6P(073)": {
+      "owner": "USB1",
+      "raw_library_pins": [
+        {
+          "pin_id": "e4",
+          "name": "EH",
+          "number": "7",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e3",
+          "name": "EH",
+          "number": "7",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie4",
+          "name": "EH",
+          "number": "7",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e3",
+          "name": "EH",
+          "number": "7",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e4",
+          "name": "EH",
+          "number": "7",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e102",
+          "name": "GND",
+          "number": "7",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e8",
+          "name": "GND",
+          "number": "A12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e7",
+          "name": "GND",
+          "number": "A12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie8",
+          "name": "GND",
+          "number": "A12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e7",
+          "name": "GND",
+          "number": "A12",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e7",
+          "name": "GND",
+          "number": "A12",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e16",
+          "name": "CC1",
+          "number": "A5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e15",
+          "name": "CC1",
+          "number": "A5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie16",
+          "name": "CC1",
+          "number": "A5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e15",
+          "name": "CC1",
+          "number": "A5",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e13",
+          "name": "CC1",
+          "number": "A5",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e12",
+          "name": "VBUS",
+          "number": "A9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e11",
+          "name": "VBUS",
+          "number": "A9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie12",
+          "name": "VBUS",
+          "number": "A9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e11",
+          "name": "VBUS",
+          "number": "A9",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e10",
+          "name": "VBUS",
+          "number": "A9",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e28",
+          "name": "GND",
+          "number": "B12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e27",
+          "name": "GND",
+          "number": "B12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie28",
+          "name": "GND",
+          "number": "B12",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e27",
+          "name": "GND",
+          "number": "B12",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e22",
+          "name": "GND",
+          "number": "B12",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e20",
+          "name": "CC2",
+          "number": "B5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e19",
+          "name": "CC2",
+          "number": "B5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie20",
+          "name": "CC2",
+          "number": "B5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e19",
+          "name": "CC2",
+          "number": "B5",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e16",
+          "name": "CC2",
+          "number": "B5",
+          "pin_type": ""
+        },
+        {
+          "pin_id": "e24",
+          "name": "VBUS",
+          "number": "B9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e23",
+          "name": "VBUS",
+          "number": "B9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie24",
+          "name": "VBUS",
+          "number": "B9",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e23",
+          "name": "VBUS",
+          "number": "B9",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "e19",
+          "name": "VBUS",
+          "number": "B9",
+          "pin_type": ""
+        }
+      ],
+      "unique_number_name_pairs": [
+        {
+          "number": "7",
+          "name": "EH"
+        },
+        {
+          "number": "7",
+          "name": "GND"
+        },
+        {
+          "number": "A12",
+          "name": "GND"
+        },
+        {
+          "number": "A5",
+          "name": "CC1"
+        },
+        {
+          "number": "A9",
+          "name": "VBUS"
+        },
+        {
+          "number": "B12",
+          "name": "GND"
+        },
+        {
+          "number": "B5",
+          "name": "CC2"
+        },
+        {
+          "number": "B9",
+          "name": "VBUS"
+        }
+      ],
+      "model_ocr_readings": [
+        {
+          "text": "TYPE-C 6P(073)",
+          "confidence": 0.99974,
+          "bbox": [
+            133.0,
+            410.0,
+            246.0,
+            433.0
+          ],
+          "polygon": [
+            [
+              134.0,
+              410.0
+            ],
+            [
+              246.0,
+              412.0
+            ],
+            [
+              245.0,
+              433.0
+            ],
+            [
+              133.0,
+              430.0
+            ]
+          ],
+          "view": "row_component_USB1_s1.0_r0"
+        },
+        {
+          "text": "TYPE-C 6P(073)",
+          "confidence": 0.99994,
+          "bbox": [
+            132.0,
+            408.0,
+            249.0,
+            434.0
+          ],
+          "polygon": [
+            [
+              132.0,
+              434.0
+            ],
+            [
+              132.0,
+              408.0
+            ],
+            [
+              249.0,
+              408.0
+            ],
+            [
+              249.0,
+              434.0
+            ]
+          ],
+          "view": "row_component_USB1_s1.0_r90"
+        },
+        {
+          "text": "TYPE-C 6P(073)",
+          "confidence": 0.97991,
+          "bbox": [
+            135.0,
+            412.0,
+            243.33333333333334,
+            430.33333333333337
+          ],
+          "polygon": [
+            [
+              135.33333333333334,
+              412.0
+            ],
+            [
+              243.33333333333334,
+              413.66666666666663
+            ],
+            [
+              243.33333333333334,
+              430.33333333333337
+            ],
+            [
+              135.0,
+              428.66666666666663
+            ]
+          ],
+          "view": "row_component_USB1_s3.0_r0"
+        },
+        {
+          "text": "TYPE-C 6P(073)",
+          "confidence": 0.99993,
+          "bbox": [
+            133.66666666666666,
+            411.66666666666663,
+            244.0,
+            430.0
+          ],
+          "polygon": [
+            [
+              133.66666666666666,
+              429.0
+            ],
+            [
+              134.0,
+              411.66666666666663
+            ],
+            [
+              244.0,
+              413.0
+            ],
+            [
+              244.0,
+              430.0
+            ]
+          ],
+          "view": "row_component_USB1_s3.0_r90"
+        }
+      ],
+      "observed_rows": [
+        {
+          "row": 349.5,
+          "length": 45.0,
+          "side": "left",
+          "edge": 136.5,
+          "point": [
+            91.5,
+            349.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "7",
+          "name": "EH",
+          "method": "fresh_observed_number_and_name",
+          "number_support": {
+            "7": 2
+          },
+          "name_support": {
+            "EH": 2
+          },
+          "number_readings": [
+            {
+              "text": "7",
+              "confidence": 0.97941,
+              "bbox": [
+                113.0,
+                334.0,
+                132.0,
+                351.0
+              ],
+              "polygon": [
+                [
+                  113.0,
+                  334.0
+                ],
+                [
+                  132.0,
+                  334.0
+                ],
+                [
+                  132.0,
+                  351.0
+                ],
+                [
+                  113.0,
+                  351.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "7",
+              "confidence": 0.96719,
+              "bbox": [
+                0,
+                0,
+                39,
+                37
+              ],
+              "view": "row_confirm_USB1_left_349.5_number_False_s3.0"
+            },
+            {
+              "text": "7",
+              "confidence": 0.96652,
+              "bbox": [
+                0,
+                0,
+                39,
+                37
+              ],
+              "view": "row_confirm_USB1_left_349.5_number_False_s5.0"
+            },
+            {
+              "text": "7",
+              "confidence": 0.99995,
+              "bbox": [
+                0,
+                0,
+                16,
+                18
+              ],
+              "view": "row_confirm_USB1_left_349.5_number_True_s3.0"
+            },
+            {
+              "text": "7",
+              "confidence": 0.99996,
+              "bbox": [
+                0,
+                0,
+                16,
+                18
+              ],
+              "view": "row_confirm_USB1_left_349.5_number_True_s5.0"
+            }
+          ],
+          "name_readings": [
+            {
+              "text": "EH",
+              "confidence": 0.99971,
+              "bbox": [
+                136.0,
+                341.0,
+                165.0,
+                362.0
+              ],
+              "polygon": [
+                [
+                  136.0,
+                  341.0
+                ],
+                [
+                  165.0,
+                  341.0
+                ],
+                [
+                  165.0,
+                  362.0
+                ],
+                [
+                  136.0,
+                  362.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "EH",
+              "confidence": 0.99982,
+              "bbox": [
+                137.66666666666666,
+                343.6666666666667,
+                163.33333333333331,
+                360.0
+              ],
+              "polygon": [
+                [
+                  137.66666666666666,
+                  343.6666666666667
+                ],
+                [
+                  163.33333333333331,
+                  343.6666666666667
+                ],
+                [
+                  163.33333333333331,
+                  360.0
+                ],
+                [
+                  137.66666666666666,
+                  360.0
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r0"
+            }
+          ]
+        },
+        {
+          "row": 290.5,
+          "length": 40.0,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            294.5,
+            290.5
+          ],
+          "old_key": "pin_A12",
+          "old_record": {
+            "pinname": "GND",
+            "point": {
+              "x": 292.0,
+              "y": 479.9804099854082
+            }
+          },
+          "number": "A12",
+          "name": "GND",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 310,
+          "length": 40,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            294.5,
+            310
+          ],
+          "old_key": "pin_A9",
+          "old_record": {
+            "pinname": "VBUS",
+            "point": {
+              "x": 292.0,
+              "y": 459.93065256625414
+            }
+          },
+          "number": "A9",
+          "name": "VBUS",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 329.5,
+          "length": 38.0,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            292.5,
+            329.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "B5",
+          "name": "CC2",
+          "method": "fresh_observed_number_and_name",
+          "number_support": {
+            "B5": 4
+          },
+          "name_support": {
+            "CC2": 4
+          },
+          "number_readings": [
+            {
+              "text": "B5",
+              "confidence": 0.99958,
+              "bbox": [
+                259.0,
+                312.0,
+                295.0,
+                334.0
+              ],
+              "polygon": [
+                [
+                  259.0,
+                  312.0
+                ],
+                [
+                  295.0,
+                  312.0
+                ],
+                [
+                  295.0,
+                  334.0
+                ],
+                [
+                  259.0,
+                  334.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "B5",
+              "confidence": 0.99986,
+              "bbox": [
+                262.0,
+                313.0,
+                292.0,
+                333.0
+              ],
+              "polygon": [
+                [
+                  262.0,
+                  333.0
+                ],
+                [
+                  262.0,
+                  313.0
+                ],
+                [
+                  292.0,
+                  313.0
+                ],
+                [
+                  292.0,
+                  333.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r90"
+            },
+            {
+              "text": "B5",
+              "confidence": 0.99992,
+              "bbox": [
+                263.66666666666663,
+                315.6666666666667,
+                286.66666666666663,
+                331.0
+              ],
+              "polygon": [
+                [
+                  263.66666666666663,
+                  315.6666666666667
+                ],
+                [
+                  286.66666666666663,
+                  315.6666666666667
+                ],
+                [
+                  286.66666666666663,
+                  331.0
+                ],
+                [
+                  263.66666666666663,
+                  331.0
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r0"
+            },
+            {
+              "text": "B5",
+              "confidence": 0.99988,
+              "bbox": [
+                263.33333333333337,
+                315.0,
+                287.66666666666663,
+                331.3333333333333
+              ],
+              "polygon": [
+                [
+                  263.33333333333337,
+                  330.6666666666667
+                ],
+                [
+                  264.0,
+                  315.0
+                ],
+                [
+                  287.66666666666663,
+                  315.66666666666663
+                ],
+                [
+                  287.0,
+                  331.3333333333333
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r90"
+            }
+          ],
+          "name_readings": [
+            {
+              "text": "CC2",
+              "confidence": 0.99837,
+              "bbox": [
+                214.0,
+                323.0,
+                252.0,
+                345.0
+              ],
+              "polygon": [
+                [
+                  214.0,
+                  323.0
+                ],
+                [
+                  252.0,
+                  323.0
+                ],
+                [
+                  252.0,
+                  345.0
+                ],
+                [
+                  214.0,
+                  345.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "CC2",
+              "confidence": 0.99577,
+              "bbox": [
+                215.0,
+                324.0,
+                251.0,
+                342.0
+              ],
+              "polygon": [
+                [
+                  215.0,
+                  342.0
+                ],
+                [
+                  215.0,
+                  324.0
+                ],
+                [
+                  251.0,
+                  324.0
+                ],
+                [
+                  251.0,
+                  342.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r90"
+            },
+            {
+              "text": "CC2",
+              "confidence": 0.99312,
+              "bbox": [
+                216.66666666666666,
+                324.6666666666667,
+                250.66666666666666,
+                342.6666666666667
+              ],
+              "polygon": [
+                [
+                  217.33333333333334,
+                  324.6666666666667
+                ],
+                [
+                  250.66666666666666,
+                  325.6666666666667
+                ],
+                [
+                  250.0,
+                  342.6666666666667
+                ],
+                [
+                  216.66666666666666,
+                  341.6666666666667
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r0"
+            },
+            {
+              "text": "CC2",
+              "confidence": 0.99214,
+              "bbox": [
+                215.66666666666666,
+                323.6666666666667,
+                251.0,
+                343.0
+              ],
+              "polygon": [
+                [
+                  215.66666666666666,
+                  342.0
+                ],
+                [
+                  216.33333333333334,
+                  323.6666666666667
+                ],
+                [
+                  251.0,
+                  324.6666666666667
+                ],
+                [
+                  250.33333333333334,
+                  343.0
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r90"
+            }
+          ]
+        },
+        {
+          "row": 349.5,
+          "length": 38.0,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            292.5,
+            349.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "A5",
+          "name": "CC1",
+          "method": "fresh_observed_number_and_name",
+          "number_support": {
+            "A5": 3
+          },
+          "name_support": {
+            "CC1": 4
+          },
+          "number_readings": [
+            {
+              "text": "A5",
+              "confidence": 0.99992,
+              "bbox": [
+                260.0,
+                332.0,
+                293.0,
+                354.0
+              ],
+              "polygon": [
+                [
+                  260.0,
+                  332.0
+                ],
+                [
+                  293.0,
+                  332.0
+                ],
+                [
+                  293.0,
+                  354.0
+                ],
+                [
+                  260.0,
+                  354.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "A5",
+              "confidence": 0.99995,
+              "bbox": [
+                262.0,
+                333.0,
+                291.0,
+                352.0
+              ],
+              "polygon": [
+                [
+                  262.0,
+                  352.0
+                ],
+                [
+                  262.0,
+                  333.0
+                ],
+                [
+                  291.0,
+                  333.0
+                ],
+                [
+                  291.0,
+                  352.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r90"
+            },
+            {
+              "text": "A5",
+              "confidence": 0.99992,
+              "bbox": [
+                264.0,
+                336.0,
+                287.0,
+                351.3333333333333
+              ],
+              "polygon": [
+                [
+                  264.0,
+                  336.0
+                ],
+                [
+                  287.0,
+                  336.0
+                ],
+                [
+                  287.0,
+                  351.3333333333333
+                ],
+                [
+                  264.0,
+                  351.3333333333333
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r0"
+            }
+          ],
+          "name_readings": [
+            {
+              "text": "CC1",
+              "confidence": 0.99887,
+              "bbox": [
+                214.0,
+                342.0,
+                252.0,
+                365.0
+              ],
+              "polygon": [
+                [
+                  214.0,
+                  342.0
+                ],
+                [
+                  252.0,
+                  342.0
+                ],
+                [
+                  252.0,
+                  365.0
+                ],
+                [
+                  214.0,
+                  365.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r0"
+            },
+            {
+              "text": "CC1",
+              "confidence": 0.9993,
+              "bbox": [
+                214.0,
+                342.0,
+                252.0,
+                364.0
+              ],
+              "polygon": [
+                [
+                  214.0,
+                  364.0
+                ],
+                [
+                  214.0,
+                  342.0
+                ],
+                [
+                  252.0,
+                  342.0
+                ],
+                [
+                  252.0,
+                  364.0
+                ]
+              ],
+              "view": "row_component_USB1_s1.0_r90"
+            },
+            {
+              "text": "CC1",
+              "confidence": 0.99831,
+              "bbox": [
+                216.66666666666666,
+                345.0,
+                250.0,
+                362.66666666666663
+              ],
+              "polygon": [
+                [
+                  217.33333333333334,
+                  345.0
+                ],
+                [
+                  250.0,
+                  345.6666666666667
+                ],
+                [
+                  249.33333333333334,
+                  362.66666666666663
+                ],
+                [
+                  216.66666666666666,
+                  362.0
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r0"
+            },
+            {
+              "text": "CC1",
+              "confidence": 0.99866,
+              "bbox": [
+                216.33333333333334,
+                344.0,
+                249.66666666666666,
+                362.0
+              ],
+              "polygon": [
+                [
+                  216.33333333333334,
+                  362.0
+                ],
+                [
+                  216.33333333333334,
+                  344.0
+                ],
+                [
+                  249.66666666666666,
+                  344.0
+                ],
+                [
+                  249.66666666666666,
+                  362.0
+                ]
+              ],
+              "view": "row_component_USB1_s3.0_r90"
+            }
+          ]
+        },
+        {
+          "row": 369.5,
+          "length": 40.0,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            294.5,
+            369.5
+          ],
+          "old_key": "pin_B9",
+          "old_record": {
+            "pinname": "VBUS",
+            "point": {
+              "x": 292.0,
+              "y": 400.303421407938
+            }
+          },
+          "number": "B9",
+          "name": "VBUS",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 389,
+          "length": 40,
+          "side": "right",
+          "edge": 254.5,
+          "point": [
+            294.5,
+            389
+          ],
+          "old_key": "pin_B12",
+          "old_record": {
+            "pinname": "GND",
+            "point": {
+              "x": 292.0,
+              "y": 381.5308330655098
+            }
+          },
+          "number": "B12",
+          "name": "GND",
+          "method": "preserved_existing_record"
+        }
+      ]
+    },
+    "AF 90° WJDG": {
+      "owner": "USB2",
+      "raw_library_pins": [
+        {
+          "pin_id": "e19",
+          "name": "VCC",
+          "number": "1",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie19",
+          "name": "VCC",
+          "number": "1",
+          "pin_type": "Passive"
+        },
+        {
+          "pin_id": "e15",
+          "name": "D-",
+          "number": "2",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie15",
+          "name": "D-",
+          "number": "2",
+          "pin_type": "Passive"
+        },
+        {
+          "pin_id": "e11",
+          "name": "D+",
+          "number": "3",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie11",
+          "name": "D+",
+          "number": "3",
+          "pin_type": "Passive"
+        },
+        {
+          "pin_id": "e7",
+          "name": "GND",
+          "number": "4",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "ie7",
+          "name": "GND",
+          "number": "4",
+          "pin_type": "Passive"
+        },
+        {
+          "pin_id": "e3",
+          "name": "SHLD",
+          "number": "5",
+          "pin_type": "IN"
+        },
+        {
+          "pin_id": "e3",
+          "name": "SHLD",
+          "number": "5",
+          "pin_type": "Undefined"
+        },
+        {
+          "pin_id": "ie3",
+          "name": "SHLD",
+          "number": "5",
+          "pin_type": "Passive"
+        }
+      ],
+      "unique_number_name_pairs": [
+        {
+          "number": "1",
+          "name": "VCC"
+        },
+        {
+          "number": "2",
+          "name": "D-"
+        },
+        {
+          "number": "3",
+          "name": "D+"
+        },
+        {
+          "number": "4",
+          "name": "GND"
+        },
+        {
+          "number": "5",
+          "name": "SHLD"
+        }
+      ],
+      "model_ocr_readings": [
+        {
+          "text": "AF 90° WJDG",
+          "confidence": 0.98102,
+          "bbox": [
+            617.0,
+            452.0,
+            713.0,
+            470.0
+          ],
+          "polygon": [
+            [
+              617.0,
+              452.0
+            ],
+            [
+              713.0,
+              452.0
+            ],
+            [
+              713.0,
+              470.0
+            ],
+            [
+              617.0,
+              470.0
+            ]
+          ],
+          "view": "row_component_USB2_s1.0_r0"
+        },
+        {
+          "text": "AF 90° WJDG",
+          "confidence": 0.98401,
+          "bbox": [
+            616.0,
+            449.0,
+            715.0,
+            471.0
+          ],
+          "polygon": [
+            [
+              616.0,
+              471.0
+            ],
+            [
+              616.0,
+              449.0
+            ],
+            [
+              715.0,
+              449.0
+            ],
+            [
+              715.0,
+              471.0
+            ]
+          ],
+          "view": "row_component_USB2_s1.0_r90"
+        },
+        {
+          "text": "AF 90° WJDG",
+          "confidence": 0.99679,
+          "bbox": [
+            619.3333333333334,
+            453.66666666666663,
+            710.6666666666666,
+            467.66666666666663
+          ],
+          "polygon": [
+            [
+              619.3333333333334,
+              453.66666666666663
+            ],
+            [
+              710.6666666666666,
+              453.66666666666663
+            ],
+            [
+              710.6666666666666,
+              467.66666666666663
+            ],
+            [
+              619.3333333333334,
+              467.66666666666663
+            ]
+          ],
+          "view": "row_component_USB2_s3.0_r0"
+        },
+        {
+          "text": "AF 90° WJDG",
+          "confidence": 0.9917,
+          "bbox": [
+            619.0,
+            451.66666666666663,
+            711.6666666666666,
+            468.33333333333337
+          ],
+          "polygon": [
+            [
+              619.0,
+              468.33333333333337
+            ],
+            [
+              619.0,
+              451.66666666666663
+            ],
+            [
+              711.6666666666666,
+              451.66666666666663
+            ],
+            [
+              711.6666666666666,
+              468.33333333333337
+            ]
+          ],
+          "view": "row_component_USB2_s3.0_r90"
+        }
+      ],
+      "observed_rows": [
+        {
+          "row": 389,
+          "length": 41,
+          "side": "left",
+          "edge": 620.5,
+          "point": [
+            579.5,
+            389
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "5",
+          "name": "SHLD",
+          "method": "unique_remaining_library_contact",
+          "number_support": {},
+          "name_support": {},
+          "number_readings": [],
+          "name_readings": []
+        },
+        {
+          "row": 369.5,
+          "length": 39.0,
+          "side": "right",
+          "edge": 699.5,
+          "point": [
+            738.5,
+            369.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "1",
+          "name": "VCC",
+          "method": "exact_model_unique_name",
+          "number_support": {},
+          "name_support": {
+            "VCC": 2
+          },
+          "number_readings": [],
+          "name_readings": [
+            {
+              "text": "VCC",
+              "confidence": 0.94582,
+              "bbox": [
+                655.0,
+                360.0,
+                695.0,
+                381.0
+              ],
+              "polygon": [
+                [
+                  655.0,
+                  360.0
+                ],
+                [
+                  695.0,
+                  360.0
+                ],
+                [
+                  695.0,
+                  381.0
+                ],
+                [
+                  655.0,
+                  381.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r0"
+            },
+            {
+              "text": "VCC",
+              "confidence": 0.96755,
+              "bbox": [
+                656.0,
+                360.0,
+                695.0,
+                381.0
+              ],
+              "polygon": [
+                [
+                  656.0,
+                  381.0
+                ],
+                [
+                  656.0,
+                  360.0
+                ],
+                [
+                  695.0,
+                  360.0
+                ],
+                [
+                  695.0,
+                  381.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r90"
+            },
+            {
+              "text": "VCC",
+              "confidence": 0.9552,
+              "bbox": [
+                657.3333333333334,
+                362.3333333333333,
+                692.3333333333334,
+                379.0
+              ],
+              "polygon": [
+                [
+                  657.3333333333334,
+                  362.3333333333333
+                ],
+                [
+                  692.3333333333334,
+                  362.3333333333333
+                ],
+                [
+                  692.3333333333334,
+                  379.0
+                ],
+                [
+                  657.3333333333334,
+                  379.0
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r0"
+            },
+            {
+              "text": "VCC",
+              "confidence": 0.93357,
+              "bbox": [
+                657.3333333333334,
+                360.6666666666667,
+                692.6666666666666,
+                379.0
+              ],
+              "polygon": [
+                [
+                  657.3333333333334,
+                  379.0
+                ],
+                [
+                  657.3333333333334,
+                  360.6666666666667
+                ],
+                [
+                  692.6666666666666,
+                  360.6666666666667
+                ],
+                [
+                  692.6666666666666,
+                  379.0
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r90"
+            },
+            {
+              "text": "vCC",
+              "confidence": 0.54634,
+              "bbox": [
+                0,
+                0,
+                58,
+                40
+              ],
+              "view": "row_confirm_USB2_right_369.5_name_False_s3.0"
+            },
+            {
+              "text": "vCC",
+              "confidence": 0.5361,
+              "bbox": [
+                0,
+                0,
+                58,
+                40
+              ],
+              "view": "row_confirm_USB2_right_369.5_name_False_s5.0"
+            },
+            {
+              "text": "VCC",
+              "confidence": 0.98198,
+              "bbox": [
+                0,
+                0,
+                38,
+                18
+              ],
+              "view": "row_confirm_USB2_right_369.5_name_True_s3.0"
+            },
+            {
+              "text": "VCC",
+              "confidence": 0.98026,
+              "bbox": [
+                0,
+                0,
+                38,
+                18
+              ],
+              "view": "row_confirm_USB2_right_369.5_name_True_s5.0"
+            }
+          ]
+        },
+        {
+          "row": 389,
+          "length": 39,
+          "side": "right",
+          "edge": 699.5,
+          "point": [
+            738.5,
+            389
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "2",
+          "name": "D-",
+          "method": "exact_model_unique_name",
+          "number_support": {},
+          "name_support": {
+            "D-": 2
+          },
+          "number_readings": [],
+          "name_readings": [
+            {
+              "text": "D-",
+              "confidence": 0.9988,
+              "bbox": [
+                670.0,
+                381.0,
+                694.0,
+                401.0
+              ],
+              "polygon": [
+                [
+                  670.0,
+                  381.0
+                ],
+                [
+                  694.0,
+                  381.0
+                ],
+                [
+                  694.0,
+                  401.0
+                ],
+                [
+                  670.0,
+                  401.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r0"
+            },
+            {
+              "text": "D-",
+              "confidence": 0.99902,
+              "bbox": [
+                672.3333333333334,
+                382.3333333333333,
+                692.6666666666666,
+                399.0
+              ],
+              "polygon": [
+                [
+                  672.3333333333334,
+                  382.3333333333333
+                ],
+                [
+                  692.6666666666666,
+                  382.3333333333333
+                ],
+                [
+                  692.6666666666666,
+                  399.0
+                ],
+                [
+                  672.3333333333334,
+                  399.0
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r0"
+            }
+          ]
+        },
+        {
+          "row": 408.5,
+          "length": 39.0,
+          "side": "right",
+          "edge": 699.5,
+          "point": [
+            738.5,
+            408.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "3",
+          "name": "D+",
+          "method": "exact_model_unique_name",
+          "number_support": {},
+          "name_support": {
+            "D+": 2
+          },
+          "number_readings": [],
+          "name_readings": [
+            {
+              "text": "D+",
+              "confidence": 0.99172,
+              "bbox": [
+                666.0,
+                401.0,
+                694.0,
+                420.0
+              ],
+              "polygon": [
+                [
+                  666.0,
+                  401.0
+                ],
+                [
+                  694.0,
+                  401.0
+                ],
+                [
+                  694.0,
+                  420.0
+                ],
+                [
+                  666.0,
+                  420.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r0"
+            },
+            {
+              "text": "D+",
+              "confidence": 0.99098,
+              "bbox": [
+                669.6666666666666,
+                402.3333333333333,
+                692.6666666666666,
+                419.0
+              ],
+              "polygon": [
+                [
+                  669.6666666666666,
+                  402.3333333333333
+                ],
+                [
+                  692.6666666666666,
+                  402.3333333333333
+                ],
+                [
+                  692.6666666666666,
+                  419.0
+                ],
+                [
+                  669.6666666666666,
+                  419.0
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r0"
+            }
+          ]
+        },
+        {
+          "row": 428.5,
+          "length": 39.0,
+          "side": "right",
+          "edge": 699.5,
+          "point": [
+            738.5,
+            428.5
+          ],
+          "old_key": null,
+          "old_record": null,
+          "number": "4",
+          "name": "GND",
+          "method": "exact_model_unique_name",
+          "number_support": {},
+          "name_support": {
+            "GND": 4
+          },
+          "number_readings": [],
+          "name_readings": [
+            {
+              "text": "GND",
+              "confidence": 0.99986,
+              "bbox": [
+                654.0,
+                420.0,
+                694.0,
+                442.0
+              ],
+              "polygon": [
+                [
+                  654.0,
+                  420.0
+                ],
+                [
+                  694.0,
+                  420.0
+                ],
+                [
+                  694.0,
+                  442.0
+                ],
+                [
+                  654.0,
+                  442.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r0"
+            },
+            {
+              "text": "GND",
+              "confidence": 0.9999,
+              "bbox": [
+                654.0,
+                420.0,
+                694.0,
+                441.0
+              ],
+              "polygon": [
+                [
+                  654.0,
+                  441.0
+                ],
+                [
+                  654.0,
+                  420.0
+                ],
+                [
+                  694.0,
+                  420.0
+                ],
+                [
+                  694.0,
+                  441.0
+                ]
+              ],
+              "view": "row_component_USB2_s1.0_r90"
+            },
+            {
+              "text": "GND",
+              "confidence": 0.99994,
+              "bbox": [
+                656.3333333333334,
+                422.6666666666667,
+                692.3333333333334,
+                439.0
+              ],
+              "polygon": [
+                [
+                  656.3333333333334,
+                  422.6666666666667
+                ],
+                [
+                  692.3333333333334,
+                  422.6666666666667
+                ],
+                [
+                  692.3333333333334,
+                  439.0
+                ],
+                [
+                  656.3333333333334,
+                  439.0
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r0"
+            },
+            {
+              "text": "GND",
+              "confidence": 0.99994,
+              "bbox": [
+                655.6666666666666,
+                420.6666666666667,
+                692.6666666666666,
+                439.66666666666663
+              ],
+              "polygon": [
+                [
+                  655.6666666666666,
+                  439.66666666666663
+                ],
+                [
+                  655.6666666666666,
+                  420.6666666666667
+                ],
+                [
+                  692.6666666666666,
+                  420.6666666666667
+                ],
+                [
+                  692.6666666666666,
+                  439.66666666666663
+                ]
+              ],
+              "view": "row_component_USB2_s3.0_r90"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

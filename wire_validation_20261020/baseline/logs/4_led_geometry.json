@@ -1,0 +1,97 @@
+{
+  "policy": "led_image_lead_axis_local_consensus_v1",
+  "size": [
+    1849,
+    1032
+  ],
+  "coordinate_origin": "mixed_explicit_field_names",
+  "entries": [
+    {
+      "component_id": "LED1",
+      "raw_bbox_bottom_left": [
+        951.537,
+        419.144,
+        1011.74,
+        473.789
+      ],
+      "before_bbox_bottom_left": [
+        959.4831875,
+        430.95778125,
+        1003.7938125000001,
+        461.97521875
+      ],
+      "after_bbox_bottom_left": [
+        971.6385,
+        439.4665,
+        991.6385,
+        453.4665
+      ],
+      "axis_evidence": {
+        "axis": "horizontal",
+        "reason": "opposite_aligned_image_leads",
+        "horizontal_support": 1.0,
+        "vertical_support": 0.0,
+        "roi_top_left": [
+          912,
+          522,
+          1051,
+          649
+        ]
+      },
+      "local_detection": {
+        "reason": "original_center_already_stable",
+        "views": [
+          {
+            "roi_top_left": [
+              790,
+              394,
+              1174,
+              778
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  952.7799835205078,
+                  558.7188262939453,
+                  1009.8416595458984,
+                  613.0492248535156
+                ],
+                "confidence": 0.9699828028678894,
+                "distance_from_original_px": 0.47983471679468626
+              }
+            ]
+          },
+          {
+            "roi_top_left": [
+              662,
+              266,
+              1302,
+              906
+            ],
+            "candidates": [
+              {
+                "bbox_top_left": [
+                  954.6045532226562,
+                  559.9562377929688,
+                  1010.4754638671875,
+                  612.7915649414062
+                ],
+                "confidence": 0.7923458218574524,
+                "distance_from_original_px": 1.232473981282254
+              }
+            ]
+          }
+        ],
+        "disagreement_px": 1.3232078456513272,
+        "shift_px": 0.6135089824694652
+      },
+      "center_changed": false,
+      "bbox_changed": true
+    }
+  ],
+  "changed_LED_boxes": 1,
+  "changed_LED_centers": 0,
+  "input_contract": "current image and model predictions only; no references or reported errors",
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "wall_seconds": 0.134
+}

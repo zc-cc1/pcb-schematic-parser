@@ -1,0 +1,614 @@
+{
+  "status": "partial_image_predictions_only_not_complete_submission",
+  "local_contract_valid": true,
+  "official_evaluator_verified": false,
+  "exported_components": 13,
+  "exported_pins": 34,
+  "exported_nets": 22,
+  "pending_pins": [
+    {
+      "candidate_id": "PIN_CAND_0001",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0004",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0005",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0007",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0008",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0009",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0011",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0013",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0015",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0023",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0024",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0025",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0028",
+      "reasons": [
+        "pin_number_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0030",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0031",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0032",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0037",
+      "reasons": [
+        "component_identity_unresolved"
+      ]
+    }
+  ],
+  "withheld_networks": [
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00007",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "reasons": [
+        "no_resolvable_member",
+        "detected_power_symbol_near_wire_without_attached_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00020",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00025",
+      "reasons": [
+        "no_resolvable_member"
+      ]
+    },
+    {
+      "network_id": "PWR_NET_CAND_00001",
+      "reasons": [
+        "power_logical_membership_provisional"
+      ]
+    }
+  ],
+  "pin_reason_counts": {
+    "component_identity_unresolved": 15,
+    "pin_number_unresolved": 2
+  },
+  "network_reason_counts": {
+    "no_resolvable_member": 5,
+    "detected_power_symbol_near_wire_without_attached_member": 1,
+    "power_logical_membership_provisional": 1
+  },
+  "coordinate_transform": "H-y; local provisional convention",
+  "blank_pin_names_guessed": 2,
+  "logical_flywire_merges": 0,
+  "power_symbol_merges": 0,
+  "complete_competition_JSON": false,
+  "flywire_zero_length_geometry": "provisional_from_PDF_example_no_official_Golden",
+  "exported_network_ids": [
+    "LOG_NET_CAND_00003",
+    "LOG_NET_CAND_00004",
+    "LOG_NET_CAND_00008",
+    "LOG_NET_CAND_00009",
+    "LOG_NET_CAND_00010",
+    "LOG_NET_CAND_00011",
+    "LOG_NET_CAND_00012",
+    "LOG_NET_CAND_00013",
+    "LOG_NET_CAND_00016",
+    "LOG_NET_CAND_00018",
+    "LOG_NET_CAND_00019",
+    "LOG_NET_CAND_00021",
+    "LOG_NET_CAND_00022",
+    "LOG_NET_CAND_00023",
+    "LOG_NET_CAND_00024",
+    "LOG_NET_CAND_00026",
+    "LOG_NET_CAND_00027",
+    "LOG_NET_CAND_00028",
+    "LOG_NET_CAND_00029",
+    "LOG_NET_CAND_00030",
+    "LOG_NET_CAND_00031",
+    "LOG_NET_CAND_00032"
+  ],
+  "power_guard_excluded_network_ids": [],
+  "power_guard_is_heuristic": true,
+  "power_guard_blocked_network_ids": [
+    "LOG_NET_CAND_00015"
+  ],
+  "atomic_complete_network_proofs": [
+    {
+      "network_id": "LOG_NET_CAND_00004",
+      "all_original_member_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0024",
+        "PIN_CAND_0028",
+        "PIN_CAND_0048"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0007": "PIN_CAND_0007",
+        "PIN_CAND_0024": "PIN_CAND_0024",
+        "PIN_CAND_0028": "PIN_CAND_0028",
+        "PIN_CAND_0048": "PIN_CAND_0048"
+      },
+      "all_pin_references": [
+        "C5.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00004",
+        "W00024",
+        "W00026"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "all_original_member_ids": [
+        "PIN_CAND_0011",
+        "PIN_CAND_0018",
+        "PIN_CAND_0033",
+        "PIN_CAND_0050"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0011": "PIN_CAND_0011",
+        "PIN_CAND_0018": "PIN_CAND_0018",
+        "PIN_CAND_0033": "PIN_CAND_0033",
+        "PIN_CAND_0050": "PIN_CAND_0050"
+      },
+      "all_pin_references": [
+        "U3.4",
+        "R1.1",
+        "C6.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00041",
+        "W00042",
+        "W00043",
+        "W00048",
+        "W00049"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "all_original_member_ids": [
+        "PIN_CAND_0026"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0026": "PIN_CAND_0026"
+      },
+      "all_pin_references": [
+        "U3.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00046",
+        "W00052",
+        "W00056"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00010",
+      "all_original_member_ids": [
+        "PIN_CAND_0010",
+        "PIN_CAND_0030",
+        "PIN_CAND_0045"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0030": "PIN_CAND_0030",
+        "PIN_CAND_0045": "PIN_CAND_0045"
+      },
+      "all_pin_references": [
+        "U3.3",
+        "C7.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00047",
+        "W00050",
+        "W00051",
+        "W00053"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "all_original_member_ids": [
+        "PIN_CAND_0015",
+        "PIN_CAND_0035"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0015": "PIN_CAND_0015",
+        "PIN_CAND_0035": "PIN_CAND_0035"
+      },
+      "all_pin_references": [
+        "U3.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00054",
+        "W00057",
+        "W00066"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "all_original_member_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0042"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0001": "PIN_CAND_0001",
+        "PIN_CAND_0042": "PIN_CAND_0042"
+      },
+      "all_pin_references": [
+        "U1.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00001"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00016",
+      "all_original_member_ids": [
+        "PIN_CAND_0029"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0029": "PIN_CAND_0029"
+      },
+      "all_pin_references": [
+        "C4.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00019"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00018",
+      "all_original_member_ids": [
+        "PIN_CAND_0034"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0034": "PIN_CAND_0034"
+      },
+      "all_pin_references": [
+        "C3.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00021"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00019",
+      "all_original_member_ids": [
+        "PIN_CAND_0038"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0038": "PIN_CAND_0038"
+      },
+      "all_pin_references": [
+        "C1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00022"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "all_original_member_ids": [
+        "PIN_CAND_0043"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0043": "PIN_CAND_0043"
+      },
+      "all_pin_references": [
+        "C5.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00025"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00022",
+      "all_original_member_ids": [
+        "PIN_CAND_0017"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0017": "PIN_CAND_0017"
+      },
+      "all_pin_references": [
+        "C4.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00028"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "all_original_member_ids": [
+        "PIN_CAND_0020"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0020": "PIN_CAND_0020"
+      },
+      "all_pin_references": [
+        "C3.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00029"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00024",
+      "all_original_member_ids": [
+        "PIN_CAND_0014"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0014": "PIN_CAND_0014"
+      },
+      "all_pin_references": [
+        "C1.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00030"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00026",
+      "all_original_member_ids": [
+        "PIN_CAND_0027",
+        "PIN_CAND_0049"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0027": "PIN_CAND_0027",
+        "PIN_CAND_0049": "PIN_CAND_0049"
+      },
+      "all_pin_references": [
+        "LED1.1",
+        "R1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00044"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00027",
+      "all_original_member_ids": [
+        "PIN_CAND_0039"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0039": "PIN_CAND_0039"
+      },
+      "all_pin_references": [
+        "LED1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00045"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00028",
+      "all_original_member_ids": [
+        "PIN_CAND_0002",
+        "PIN_CAND_0022"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0002": "PIN_CAND_0002",
+        "PIN_CAND_0022": "PIN_CAND_0022"
+      },
+      "all_pin_references": [
+        "U3.5",
+        "R2.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00055"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00029",
+      "all_original_member_ids": [
+        "PIN_CAND_0036"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0036": "PIN_CAND_0036"
+      },
+      "all_pin_references": [
+        "C6.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00058"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00030",
+      "all_original_member_ids": [
+        "PIN_CAND_0040"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0040": "PIN_CAND_0040"
+      },
+      "all_pin_references": [
+        "C7.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00059"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00031",
+      "all_original_member_ids": [
+        "PIN_CAND_0021"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0021": "PIN_CAND_0021"
+      },
+      "all_pin_references": [
+        "C6.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00060"
+      ],
+      "graph_geometry_preserved": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00032",
+      "all_original_member_ids": [
+        "PIN_CAND_0041"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0041": "PIN_CAND_0041"
+      },
+      "all_pin_references": [
+        "C7.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00061"
+      ],
+      "graph_geometry_preserved": true
+    }
+  ],
+  "whole_network_guard": {
+    "verified_duplicate_tip_pairs": 0,
+    "blocked_networks": 2,
+    "blocker_counts": {
+      "wire_endpoint_near_component_without_member": 2
+    }
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "engineering_generated_pin_numbers": 39,
+  "engineering_generated_pin_names": 2,
+  "official_numbering_verified": false,
+  "current_stage_generated_pin_numbers": 0,
+  "current_stage_generated_pin_names": 0,
+  "observed_pin_names_added": 0,
+  "observed_component_ids_added": 0
+}

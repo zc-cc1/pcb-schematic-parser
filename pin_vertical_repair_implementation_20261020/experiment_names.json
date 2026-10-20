@@ -1,0 +1,120 @@
+[
+  {
+    "point": [
+      1663.5,
+      251.5
+    ],
+    "name": "GND",
+    "support": {
+      "GND": 2
+    },
+    "readings": [
+      {
+        "text": "GND",
+        "confidence": 0.99982,
+        "bbox": [
+          0,
+          0,
+          56,
+          45
+        ],
+        "view": "vertical_name_U2_top_1663.5_s3.0"
+      },
+      {
+        "text": "GND",
+        "confidence": 0.99981,
+        "bbox": [
+          0,
+          0,
+          56,
+          45
+        ],
+        "view": "vertical_name_U2_top_1663.5_s5.0"
+      }
+    ],
+    "crop": [
+      1649,
+      291,
+      1678,
+      331
+    ]
+  },
+  {
+    "point": [
+      1624.5,
+      408.5
+    ],
+    "name": "Vout",
+    "support": {
+      "Vout": 2
+    },
+    "readings": [
+      {
+        "text": "Vout",
+        "confidence": 0.99895,
+        "bbox": [
+          0,
+          0,
+          60,
+          45
+        ],
+        "view": "vertical_name_U2_bottom_1624.5_s3.0"
+      },
+      {
+        "text": "Vout",
+        "confidence": 0.99895,
+        "bbox": [
+          0,
+          0,
+          60,
+          45
+        ],
+        "view": "vertical_name_U2_bottom_1624.5_s5.0"
+      }
+    ],
+    "crop": [
+      1610,
+      327,
+      1639,
+      371
+    ]
+  },
+  {
+    "point": [
+      1703.5,
+      408.5
+    ],
+    "name": null,
+    "support": {},
+    "readings": [
+      {
+        "text": "Vin",
+        "confidence": 0.86556,
+        "bbox": [
+          0,
+          0,
+          60,
+          45
+        ],
+        "view": "vertical_name_U2_bottom_1703.5_s3.0"
+      },
+      {
+        "text": "Vin",
+        "confidence": 0.85933,
+        "bbox": [
+          0,
+          0,
+          60,
+          45
+        ],
+        "view": "vertical_name_U2_bottom_1703.5_s5.0"
+      }
+    ],
+    "crop": [
+      1689,
+      327,
+      1718,
+      371
+    ]
+  }
+]

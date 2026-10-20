@@ -1,0 +1,157 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    1849,
+    1032
+  ],
+  "entries": [
+    {
+      "component_id": "U2",
+      "before_bbox_bottom_left": [
+        1377.534,
+        744.6469999999999,
+        1545.087,
+        840.227
+      ],
+      "after_bbox_bottom_left": [
+        1391.0,
+        753.0,
+        1529.0,
+        831.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          1335,
+          167,
+          1587,
+          312
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            1391.0,
+            201.0,
+            1529.0,
+            279.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9904486747621702
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U3",
+      "before_bbox_bottom_left": [
+        772.692,
+        292.922,
+        962.637,
+        387.679
+      ],
+      "after_bbox_bottom_left": [
+        787.0,
+        300.0,
+        945.0,
+        379.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          725,
+          620,
+          1011,
+          763
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 2,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            787.0,
+            653.0,
+            945.0,
+            732.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9909079580106638
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        396.18,
+        775.384,
+        546.378,
+        849.152
+      ],
+      "after_bbox_bottom_left": [
+        410.0,
+        782.0,
+        528.0,
+        842.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          358,
+          164,
+          584,
+          276
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            410.0,
+            190.0,
+            528.0,
+            250.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9890386304058377
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "changed_IC_boxes": 3,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "wall_seconds": 0.041
+}

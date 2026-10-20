@@ -1,0 +1,265 @@
+{
+  "predictions": "D:\\pcb_open_gt_v34angle60\\final_results",
+  "gt_ic_pins": 191,
+  "tp": 142,
+  "fn": 49,
+  "fp": {
+    "identity_fp": 5,
+    "orphan": 13,
+    "spurious_near": 6,
+    "name_fp": 3
+  },
+  "buckets": {
+    "TP": 142,
+    "tip_20_40": 18,
+    "tip_5_20": 12,
+    "identity": 3,
+    "miss": 13,
+    "name": 3
+  },
+  "levels": {
+    "TP": 142,
+    "C_键在_点偏>5px": 19,
+    "B_键未导出": 28,
+    "D_键在_名字错": 2
+  },
+  "missing_keys": {
+    "1/U2": [
+      "4"
+    ],
+    "1/U3": [
+      "5"
+    ],
+    "1/USB1": [
+      "1",
+      "5",
+      "6",
+      "7",
+      "9",
+      "13"
+    ],
+    "1/USB2": [
+      "6",
+      "5",
+      "2"
+    ],
+    "4/U2": [
+      "2"
+    ],
+    "8/U1": [
+      "2",
+      "6",
+      "16"
+    ],
+    "10/U1": [
+      "4"
+    ],
+    "11/U1": [
+      "2",
+      "6",
+      "8"
+    ],
+    "11/USB1": [
+      "7",
+      "A5",
+      "B5"
+    ],
+    "11/USB2": [
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "13/H1": [
+      "3"
+    ]
+  },
+  "pin_f1_current": 0.8,
+  "pin_f1_identity_fixed": 0.8101,
+  "pin_f1_detection_fixed": 0.8199,
+  "per_case": [
+    {
+      "case": "1",
+      "gt": 40,
+      "tp": 19,
+      "identity": 1,
+      "name": 0,
+      "tip_5_20": 7,
+      "tip_20_40": 9,
+      "miss": 4,
+      "f1": 0.5,
+      "platform_tp": 19,
+      "platform_fn": 21,
+      "platform_fp": 17
+    },
+    {
+      "case": "2",
+      "gt": 16,
+      "tp": 15,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 1,
+      "f1": 0.9375,
+      "platform_tp": 15,
+      "platform_fn": 1,
+      "platform_fp": 1
+    },
+    {
+      "case": "3",
+      "gt": 6,
+      "tp": 6,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 0,
+      "f1": 1.0,
+      "platform_tp": 6,
+      "platform_fn": 0,
+      "platform_fp": 0
+    },
+    {
+      "case": "4",
+      "gt": 12,
+      "tp": 10,
+      "identity": 1,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 1,
+      "miss": 0,
+      "f1": 0.8696,
+      "platform_tp": 10,
+      "platform_fn": 2,
+      "platform_fp": 1
+    },
+    {
+      "case": "5",
+      "gt": 18,
+      "tp": 15,
+      "identity": 0,
+      "name": 2,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 1,
+      "f1": 0.8333,
+      "platform_tp": 15,
+      "platform_fn": 3,
+      "platform_fp": 3
+    },
+    {
+      "case": "6",
+      "gt": 16,
+      "tp": 14,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 2,
+      "tip_20_40": 0,
+      "miss": 0,
+      "f1": 0.875,
+      "platform_tp": 14,
+      "platform_fn": 2,
+      "platform_fp": 2
+    },
+    {
+      "case": "7",
+      "gt": 8,
+      "tp": 8,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 0,
+      "f1": 1.0,
+      "platform_tp": 8,
+      "platform_fn": 0,
+      "platform_fp": 0
+    },
+    {
+      "case": "8",
+      "gt": 16,
+      "tp": 13,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 1,
+      "tip_20_40": 2,
+      "miss": 0,
+      "f1": 0.8966,
+      "platform_tp": 13,
+      "platform_fn": 3,
+      "platform_fp": 0
+    },
+    {
+      "case": "9",
+      "gt": 6,
+      "tp": 6,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 0,
+      "f1": 1.0,
+      "platform_tp": 6,
+      "platform_fn": 0,
+      "platform_fp": 0
+    },
+    {
+      "case": "10",
+      "gt": 12,
+      "tp": 8,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 3,
+      "miss": 1,
+      "f1": 0.6957,
+      "platform_tp": 8,
+      "platform_fn": 4,
+      "platform_fp": 3
+    },
+    {
+      "case": "11",
+      "gt": 20,
+      "tp": 8,
+      "identity": 1,
+      "name": 1,
+      "tip_5_20": 2,
+      "tip_20_40": 2,
+      "miss": 6,
+      "f1": 0.5333,
+      "platform_tp": 8,
+      "platform_fn": 12,
+      "platform_fp": 2
+    },
+    {
+      "case": "12",
+      "gt": 9,
+      "tp": 9,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 0,
+      "miss": 0,
+      "f1": 1.0,
+      "platform_tp": 9,
+      "platform_fn": 0,
+      "platform_fp": 0
+    },
+    {
+      "case": "13",
+      "gt": 12,
+      "tp": 11,
+      "identity": 0,
+      "name": 0,
+      "tip_5_20": 0,
+      "tip_20_40": 1,
+      "miss": 0,
+      "f1": 0.9167,
+      "platform_tp": 11,
+      "platform_fn": 1,
+      "platform_fp": 1
+    }
+  ]
+}

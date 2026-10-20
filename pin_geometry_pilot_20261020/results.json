@@ -1,0 +1,131 @@
+{
+  "before": {
+    "tp": 35,
+    "fp": 7,
+    "fn": 5,
+    "precision": 0.8333,
+    "recall": 0.875,
+    "f1": 0.8537
+  },
+  "after": {
+    "tp": 40,
+    "fp": 6,
+    "fn": 0,
+    "precision": 0.8696,
+    "recall": 1.0,
+    "f1": 0.9302
+  },
+  "gained": [
+    "U1.9",
+    "U2.4",
+    "USB1.5",
+    "USB1.6",
+    "USB1.13"
+  ],
+  "lost": [],
+  "remaining": [],
+  "changes": [
+    {
+      "owner": "U1",
+      "number": "9",
+      "name": "EP",
+      "status": "unique_collinear_ground_contact",
+      "ground": "UNRESOLVED_DET_0046",
+      "before": {
+        "x": 1008.3843226730824,
+        "y": 962.0
+      },
+      "after": {
+        "x": 1008.4886248111725,
+        "y": 989.9301234558225
+      }
+    },
+    {
+      "owner": "U2",
+      "row": 896.5,
+      "length": 19.0,
+      "side": "left",
+      "edge": 1680.5,
+      "point": [
+        1661.5,
+        896.5
+      ],
+      "name": "EN",
+      "number": "4",
+      "name_support": {
+        "EN": 2
+      },
+      "number_support": {
+        "4": 2
+      },
+      "number_offset": 6.975829978783963,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 205,
+      "length": 60,
+      "side": "left",
+      "edge": 129.5,
+      "point": [
+        112.8520115017891,
+        204.2439866811037
+      ],
+      "name": "SHELL",
+      "number": "13",
+      "name_support": {
+        "SHELL": 4
+      },
+      "number_support": {
+        "13": 4
+      },
+      "number_offset": -3.949232906103134,
+      "source_candidate_id": "PIN_CAND_0068",
+      "status": "owner_resolved_by_lead_and_text"
+    },
+    {
+      "owner": "USB1",
+      "row": 323.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        323.5
+      ],
+      "name": "DP1",
+      "number": "6",
+      "name_support": {
+        "DP1": 4
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 343.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        343.5
+      ],
+      "name": "DN2",
+      "number": "5",
+      "name_support": {
+        "DN2": 4
+      },
+      "number_support": {
+        "5": 3
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "network_sync_not_tested": true,
+  "production_modified": false
+}

@@ -1,0 +1,93 @@
+{
+  "enabled": true,
+  "policy": "image_lead_geometry_v1",
+  "frames": {
+    "U1": {
+      "box": [
+        495.5,
+        436.5,
+        594.5,
+        554.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "U2": {
+      "box": [
+        1604.5,
+        289.5,
+        1723.5,
+        368.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U1",
+      "row": 535,
+      "length": 16,
+      "side": "left",
+      "edge": 495.5,
+      "point": [
+        479.5,
+        535
+      ],
+      "name": "VIA",
+      "number": "4",
+      "name_support": {
+        "VIA": 3
+      },
+      "number_support": {
+        "4": 2
+      },
+      "number_offset": -6.631559160848468,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "row": 535,
+      "length": 16,
+      "side": "left",
+      "edge": 495.5,
+      "point": [
+        479.5,
+        535
+      ],
+      "name": "VIA",
+      "number": "4",
+      "name_support": {
+        "VIA": 3
+      },
+      "number_support": {
+        "4": 2
+      },
+      "number_offset": -6.631559160848468,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U1.4",
+      "status": "withheld",
+      "reason": "no_unique_existing_exported_net",
+      "candidate_networks": []
+    }
+  ],
+  "ocr_calls": 6,
+  "budget_exhausted": false,
+  "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+  "config_sha256": "614ab33ffebde2b48b941a19104a9011d532c1371d04e1162db1afc8aad45714",
+  "ocr_models": null
+}

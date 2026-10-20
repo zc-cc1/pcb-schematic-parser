@@ -1,0 +1,522 @@
+{
+  "source": "D:\\pcb_open_gt_v35merge",
+  "cases": 13,
+  "macro": {
+    "existing_output": {
+      "component_f1": 0.8850769230769231,
+      "pin_f1": 0.8716076923076923,
+      "connectivity_f1": 0.4947692307692308,
+      "wire_f1": 0.4612769230769231,
+      "score_100": 70.27153846153846,
+      "edge_count": 42.92307692307692
+    },
+    "reproduced_cleanup": {
+      "component_f1": 0.8850769230769231,
+      "pin_f1": 0.8716076923076923,
+      "connectivity_f1": 0.4947692307692308,
+      "wire_f1": 0.4612769230769231,
+      "score_100": 70.27153846153846,
+      "edge_count": 42.92307692307692
+    },
+    "protect_1px": {
+      "component_f1": 0.8850769230769231,
+      "pin_f1": 0.8716076923076923,
+      "connectivity_f1": 0.4947692307692308,
+      "wire_f1": 0.46104615384615383,
+      "score_100": 70.27,
+      "edge_count": 45.07692307692308
+    },
+    "protect_4px": {
+      "component_f1": 0.8850769230769231,
+      "pin_f1": 0.8716076923076923,
+      "connectivity_f1": 0.4947692307692308,
+      "wire_f1": 0.4607769230769231,
+      "score_100": 70.26692307692308,
+      "edge_count": 45.15384615384615
+    }
+  },
+  "per_case": [
+    {
+      "case": "1",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.8142,
+          "pin_f1": 0.6667,
+          "connectivity_f1": 0.5862,
+          "wire_f1": 0.664,
+          "score_100": 68.25,
+          "edge_count": 131
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.8142,
+          "pin_f1": 0.6667,
+          "connectivity_f1": 0.5862,
+          "wire_f1": 0.664,
+          "score_100": 68.25,
+          "edge_count": 131
+        },
+        "protect_1px": {
+          "component_f1": 0.8142,
+          "pin_f1": 0.6667,
+          "connectivity_f1": 0.5862,
+          "wire_f1": 0.664,
+          "score_100": 68.25,
+          "edge_count": 131
+        },
+        "protect_4px": {
+          "component_f1": 0.8142,
+          "pin_f1": 0.6667,
+          "connectivity_f1": 0.5862,
+          "wire_f1": 0.664,
+          "score_100": 68.25,
+          "edge_count": 131
+        }
+      }
+    },
+    {
+      "case": "2",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.9286,
+          "pin_f1": 0.9375,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.7273,
+          "score_100": 76.07000000000001,
+          "edge_count": 37
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.9286,
+          "pin_f1": 0.9375,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.7273,
+          "score_100": 76.07000000000001,
+          "edge_count": 37
+        },
+        "protect_1px": {
+          "component_f1": 0.9286,
+          "pin_f1": 0.9375,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.7,
+          "score_100": 75.8,
+          "edge_count": 40
+        },
+        "protect_4px": {
+          "component_f1": 0.9286,
+          "pin_f1": 0.9375,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.7,
+          "score_100": 75.8,
+          "edge_count": 40
+        }
+      }
+    },
+    {
+      "case": "3",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.902,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.6364,
+          "wire_f1": 0.7059,
+          "score_100": 81.39,
+          "edge_count": 39
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.902,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.6364,
+          "wire_f1": 0.7059,
+          "score_100": 81.39,
+          "edge_count": 39
+        },
+        "protect_1px": {
+          "component_f1": 0.902,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.6364,
+          "wire_f1": 0.6897,
+          "score_100": 81.23,
+          "edge_count": 41
+        },
+        "protect_4px": {
+          "component_f1": 0.902,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.6364,
+          "wire_f1": 0.6897,
+          "score_100": 81.23,
+          "edge_count": 41
+        }
+      }
+    },
+    {
+      "case": "4",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.9583,
+          "pin_f1": 0.8696,
+          "connectivity_f1": 0.4,
+          "wire_f1": 0.4468,
+          "score_100": 68.96,
+          "edge_count": 35
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.9583,
+          "pin_f1": 0.8696,
+          "connectivity_f1": 0.4,
+          "wire_f1": 0.4468,
+          "score_100": 68.96,
+          "edge_count": 35
+        },
+        "protect_1px": {
+          "component_f1": 0.9583,
+          "pin_f1": 0.8696,
+          "connectivity_f1": 0.4,
+          "wire_f1": 0.4421,
+          "score_100": 68.91000000000001,
+          "edge_count": 36
+        },
+        "protect_4px": {
+          "component_f1": 0.9583,
+          "pin_f1": 0.8696,
+          "connectivity_f1": 0.4,
+          "wire_f1": 0.4421,
+          "score_100": 68.91000000000001,
+          "edge_count": 36
+        }
+      }
+    },
+    {
+      "case": "5",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 1.0,
+          "pin_f1": 0.8333,
+          "connectivity_f1": 0.4194,
+          "wire_f1": 0.2195,
+          "score_100": 67.71000000000001,
+          "edge_count": 25
+        },
+        "reproduced_cleanup": {
+          "component_f1": 1.0,
+          "pin_f1": 0.8333,
+          "connectivity_f1": 0.4194,
+          "wire_f1": 0.2195,
+          "score_100": 67.71000000000001,
+          "edge_count": 25
+        },
+        "protect_1px": {
+          "component_f1": 1.0,
+          "pin_f1": 0.8333,
+          "connectivity_f1": 0.4194,
+          "wire_f1": 0.241,
+          "score_100": 67.92,
+          "edge_count": 26
+        },
+        "protect_4px": {
+          "component_f1": 1.0,
+          "pin_f1": 0.8333,
+          "connectivity_f1": 0.4194,
+          "wire_f1": 0.241,
+          "score_100": 67.92,
+          "edge_count": 26
+        }
+      }
+    },
+    {
+      "case": "6",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.9211,
+          "pin_f1": 0.875,
+          "connectivity_f1": 0.2105,
+          "wire_f1": 0.3178,
+          "score_100": 60.050000000000004,
+          "edge_count": 21
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.9211,
+          "pin_f1": 0.875,
+          "connectivity_f1": 0.2105,
+          "wire_f1": 0.3178,
+          "score_100": 60.050000000000004,
+          "edge_count": 21
+        },
+        "protect_1px": {
+          "component_f1": 0.9211,
+          "pin_f1": 0.875,
+          "connectivity_f1": 0.2105,
+          "wire_f1": 0.3178,
+          "score_100": 60.050000000000004,
+          "edge_count": 21
+        },
+        "protect_4px": {
+          "component_f1": 0.9211,
+          "pin_f1": 0.875,
+          "connectivity_f1": 0.2105,
+          "wire_f1": 0.3178,
+          "score_100": 60.050000000000004,
+          "edge_count": 21
+        }
+      }
+    },
+    {
+      "case": "7",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 1.0,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.7532,
+          "wire_f1": 0.3582,
+          "score_100": 84.94,
+          "edge_count": 66
+        },
+        "reproduced_cleanup": {
+          "component_f1": 1.0,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.7532,
+          "wire_f1": 0.3582,
+          "score_100": 84.94,
+          "edge_count": 66
+        },
+        "protect_1px": {
+          "component_f1": 1.0,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.7532,
+          "wire_f1": 0.3357,
+          "score_100": 84.72,
+          "edge_count": 75
+        },
+        "protect_4px": {
+          "component_f1": 1.0,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.7532,
+          "wire_f1": 0.3357,
+          "score_100": 84.72,
+          "edge_count": 75
+        }
+      }
+    },
+    {
+      "case": "8",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.95,
+          "pin_f1": 0.8966,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.45,
+          "score_100": 72.92,
+          "edge_count": 30
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.95,
+          "pin_f1": 0.8966,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.45,
+          "score_100": 72.92,
+          "edge_count": 30
+        },
+        "protect_1px": {
+          "component_f1": 0.95,
+          "pin_f1": 0.8966,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.4691,
+          "score_100": 73.11,
+          "edge_count": 31
+        },
+        "protect_4px": {
+          "component_f1": 0.95,
+          "pin_f1": 0.8966,
+          "connectivity_f1": 0.5,
+          "wire_f1": 0.4691,
+          "score_100": 73.11,
+          "edge_count": 31
+        }
+      }
+    },
+    {
+      "case": "9",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.8824,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.5581,
+          "wire_f1": 0.3729,
+          "score_100": 74.72999999999999,
+          "edge_count": 20
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.8824,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.5581,
+          "wire_f1": 0.3729,
+          "score_100": 74.72999999999999,
+          "edge_count": 20
+        },
+        "protect_1px": {
+          "component_f1": 0.8824,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.5581,
+          "wire_f1": 0.4127,
+          "score_100": 75.13,
+          "edge_count": 24
+        },
+        "protect_4px": {
+          "component_f1": 0.8824,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.5581,
+          "wire_f1": 0.4127,
+          "score_100": 75.13,
+          "edge_count": 24
+        }
+      }
+    },
+    {
+      "case": "10",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.931,
+          "pin_f1": 0.6957,
+          "connectivity_f1": 0.7447,
+          "wire_f1": 0.5752,
+          "score_100": 77.14,
+          "edge_count": 71
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.931,
+          "pin_f1": 0.6957,
+          "connectivity_f1": 0.7447,
+          "wire_f1": 0.5752,
+          "score_100": 77.14,
+          "edge_count": 71
+        },
+        "protect_1px": {
+          "component_f1": 0.931,
+          "pin_f1": 0.6957,
+          "connectivity_f1": 0.7447,
+          "wire_f1": 0.566,
+          "score_100": 77.05,
+          "edge_count": 77
+        },
+        "protect_4px": {
+          "component_f1": 0.931,
+          "pin_f1": 0.6957,
+          "connectivity_f1": 0.7447,
+          "wire_f1": 0.5625,
+          "score_100": 77.01,
+          "edge_count": 78
+        }
+      }
+    },
+    {
+      "case": "11",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.5926,
+          "pin_f1": 0.6,
+          "connectivity_f1": 0.381,
+          "wire_f1": 0.5098,
+          "score_100": 51.21,
+          "edge_count": 27
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.5926,
+          "pin_f1": 0.6,
+          "connectivity_f1": 0.381,
+          "wire_f1": 0.5098,
+          "score_100": 51.21,
+          "edge_count": 27
+        },
+        "protect_1px": {
+          "component_f1": 0.5926,
+          "pin_f1": 0.6,
+          "connectivity_f1": 0.381,
+          "wire_f1": 0.5098,
+          "score_100": 51.21,
+          "edge_count": 27
+        },
+        "protect_4px": {
+          "component_f1": 0.5926,
+          "pin_f1": 0.6,
+          "connectivity_f1": 0.381,
+          "wire_f1": 0.5098,
+          "score_100": 51.21,
+          "edge_count": 27
+        }
+      }
+    },
+    {
+      "case": "12",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.7027,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.3721,
+          "wire_f1": 0.36,
+          "score_100": 62.7,
+          "edge_count": 22
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.7027,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.3721,
+          "wire_f1": 0.36,
+          "score_100": 62.7,
+          "edge_count": 22
+        },
+        "protect_1px": {
+          "component_f1": 0.7027,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.3721,
+          "wire_f1": 0.36,
+          "score_100": 62.7,
+          "edge_count": 22
+        },
+        "protect_4px": {
+          "component_f1": 0.7027,
+          "pin_f1": 1.0,
+          "connectivity_f1": 0.3721,
+          "wire_f1": 0.36,
+          "score_100": 62.7,
+          "edge_count": 22
+        }
+      }
+    },
+    {
+      "case": "13",
+      "metrics": {
+        "existing_output": {
+          "component_f1": 0.9231,
+          "pin_f1": 0.9565,
+          "connectivity_f1": 0.3704,
+          "wire_f1": 0.2892,
+          "score_100": 67.46,
+          "edge_count": 34
+        },
+        "reproduced_cleanup": {
+          "component_f1": 0.9231,
+          "pin_f1": 0.9565,
+          "connectivity_f1": 0.3704,
+          "wire_f1": 0.2892,
+          "score_100": 67.46,
+          "edge_count": 34
+        },
+        "protect_1px": {
+          "component_f1": 0.9231,
+          "pin_f1": 0.9565,
+          "connectivity_f1": 0.3704,
+          "wire_f1": 0.2857,
+          "score_100": 67.43,
+          "edge_count": 35
+        },
+        "protect_4px": {
+          "component_f1": 0.9231,
+          "pin_f1": 0.9565,
+          "connectivity_f1": 0.3704,
+          "wire_f1": 0.2857,
+          "score_100": 67.43,
+          "edge_count": 35
+        }
+      }
+    }
+  ],
+  "note": "Frozen existing predictions, only wire edges changed. No GT used by transformation."
+}

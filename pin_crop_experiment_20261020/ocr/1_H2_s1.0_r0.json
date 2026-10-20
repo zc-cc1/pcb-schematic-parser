@@ -1,0 +1,118 @@
+{
+  "case": "1",
+  "owner": "H2",
+  "index": 50,
+  "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "crop": [
+    1451,
+    423,
+    1575,
+    520
+  ],
+  "scale": 1.0,
+  "rotation": 0,
+  "texts": [
+    {
+      "text": "H2",
+      "confidence": 0.9999,
+      "bbox": [
+        1494.0,
+        444.0,
+        1519.0,
+        463.0
+      ],
+      "polygon": [
+        [
+          1494.0,
+          444.0
+        ],
+        [
+          1519.0,
+          444.0
+        ],
+        [
+          1519.0,
+          463.0
+        ],
+        [
+          1494.0,
+          463.0
+        ]
+      ],
+      "view": "component_crop_50_s1.0_r0"
+    },
+    {
+      "text": "1",
+      "confidence": 0.99966,
+      "bbox": [
+        1496.0,
+        464.0,
+        1514.0,
+        483.0
+      ],
+      "polygon": [
+        [
+          1496.0,
+          464.0
+        ],
+        [
+          1514.0,
+          464.0
+        ],
+        [
+          1514.0,
+          483.0
+        ],
+        [
+          1496.0,
+          483.0
+        ]
+      ],
+      "view": "component_crop_50_s1.0_r0"
+    },
+    {
+      "text": "BAT-",
+      "confidence": 0.99995,
+      "bbox": [
+        1495.0,
+        485.0,
+        1530.0,
+        504.0
+      ],
+      "polygon": [
+        [
+          1495.0,
+          485.0
+        ],
+        [
+          1530.0,
+          485.0
+        ],
+        [
+          1530.0,
+          504.0
+        ],
+        [
+          1495.0,
+          504.0
+        ]
+      ],
+      "view": "component_crop_50_s1.0_r0"
+    }
+  ],
+  "wall_seconds": 0.03999489999841899,
+  "models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

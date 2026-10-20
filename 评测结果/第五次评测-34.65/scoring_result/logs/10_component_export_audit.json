@@ -1,0 +1,190 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0003",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            890.52734375,
+            747.9187622070312,
+            929.19921875,
+            768.0469360351562
+          ],
+          "views": [
+            "global",
+            "tile_614_0_r0",
+            "tile_614_249_r0"
+          ]
+        }
+      ],
+      "detection_index": 2
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0008",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1501.0,
+            703.5,
+            1537.5,
+            721.0
+          ],
+          "views": [
+            "global",
+            "tile_1228_0_r90",
+            "tile_1228_249_r0",
+            "tile_1228_249_r90",
+            "tile_1432_0_r90",
+            "tile_1432_249_r90"
+          ]
+        },
+        {
+          "text": "GND",
+          "bbox": [
+            1501.5,
+            704.0,
+            1537.5,
+            720.5
+          ],
+          "views": [
+            "tile_1228_0_r0",
+            "tile_1432_0_r0",
+            "tile_1432_249_r0"
+          ]
+        }
+      ],
+      "detection_index": 7
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0013",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1606.0,
+            704.0,
+            1642.5,
+            720.5
+          ],
+          "views": [
+            "tile_1228_0_r0",
+            "tile_1228_0_r90",
+            "tile_1228_249_r0",
+            "tile_1228_249_r90",
+            "tile_1432_0_r0",
+            "tile_1432_0_r90",
+            "tile_1432_249_r0",
+            "tile_1432_249_r90"
+          ]
+        }
+      ],
+      "detection_index": 12
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0014",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 13
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0017",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 16
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0018",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            51.0,
+            746.5,
+            87.0,
+            763.0
+          ],
+          "views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90",
+            "tile_0_249_r0"
+          ]
+        }
+      ],
+      "detection_index": 17
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0021",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1644.62890625,
+            133.48126220703125,
+            1684.375,
+            153.609375
+          ],
+          "views": [
+            "global",
+            "tile_1228_0_r0",
+            "tile_1228_0_r90",
+            "tile_1432_0_r0",
+            "tile_1432_0_r90"
+          ]
+        }
+      ],
+      "detection_index": 20
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0023",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 22
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0026",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 25
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+  "added_count": 9,
+  "type_counts": {
+    "gnd": 6,
+    "vcc": 3
+  },
+  "value_counts": {
+    "observed": 5,
+    "null": 4
+  }
+}

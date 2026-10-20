@@ -1,0 +1,255 @@
+{
+  "enabled": true,
+  "policy": "shared_number_joint_pairing_v1",
+  "groups": [
+    {
+      "owner": "U2",
+      "shared_token_ids": [
+        "PT_00038"
+      ],
+      "rows": [
+        {
+          "candidate_id": "PIN_CAND_0022",
+          "old_number": "3",
+          "old_name": "VOUT",
+          "number": "2",
+          "name": "VOUT",
+          "number_support": {
+            "2": 2
+          },
+          "name_support": {
+            "VOUT": 4
+          },
+          "number_readings": [
+            {
+              "text": "2",
+              "confidence": 0.99964,
+              "bbox": [
+                0,
+                0,
+                41,
+                41
+              ],
+              "view": "pair_glyph_PIN_CAND_0022_s3.0"
+            },
+            {
+              "text": "2",
+              "confidence": 0.99964,
+              "bbox": [
+                0,
+                0,
+                41,
+                41
+              ],
+              "view": "pair_glyph_PIN_CAND_0022_s5.0"
+            }
+          ],
+          "number_crop": [
+            1374,
+            218,
+            1395,
+            239
+          ],
+          "point": [
+            1371.5,
+            240
+          ],
+          "owner": "U2"
+        },
+        {
+          "candidate_id": "PIN_CAND_0020",
+          "old_number": null,
+          "old_name": "VIN",
+          "number": "3",
+          "name": "VIN",
+          "number_support": {
+            "3": 2
+          },
+          "name_support": {
+            "VIN": 4
+          },
+          "number_readings": [
+            {
+              "text": "3",
+              "confidence": 0.99889,
+              "bbox": [
+                0,
+                0,
+                41,
+                41
+              ],
+              "view": "pair_glyph_PIN_CAND_0020_s3.0"
+            },
+            {
+              "text": "3",
+              "confidence": 0.99878,
+              "bbox": [
+                0,
+                0,
+                41,
+                41
+              ],
+              "view": "pair_glyph_PIN_CAND_0020_s5.0"
+            }
+          ],
+          "number_crop": [
+            1374,
+            237,
+            1395,
+            258
+          ],
+          "point": [
+            1371.5,
+            259.5
+          ],
+          "owner": "U2"
+        }
+      ],
+      "status": "complete_observed_rekey_and_restore"
+    }
+  ],
+  "changes": [
+    {
+      "candidate_id": "PIN_CAND_0022",
+      "old_number": "3",
+      "old_name": "VOUT",
+      "number": "2",
+      "name": "VOUT",
+      "number_support": {
+        "2": 2
+      },
+      "name_support": {
+        "VOUT": 4
+      },
+      "number_readings": [
+        {
+          "text": "2",
+          "confidence": 0.99964,
+          "bbox": [
+            0,
+            0,
+            41,
+            41
+          ],
+          "view": "pair_glyph_PIN_CAND_0022_s3.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.99964,
+          "bbox": [
+            0,
+            0,
+            41,
+            41
+          ],
+          "view": "pair_glyph_PIN_CAND_0022_s5.0"
+        }
+      ],
+      "number_crop": [
+        1374,
+        218,
+        1395,
+        239
+      ],
+      "point": [
+        1371.5,
+        240
+      ],
+      "owner": "U2"
+    },
+    {
+      "candidate_id": "PIN_CAND_0020",
+      "old_number": null,
+      "old_name": "VIN",
+      "number": "3",
+      "name": "VIN",
+      "number_support": {
+        "3": 2
+      },
+      "name_support": {
+        "VIN": 4
+      },
+      "number_readings": [
+        {
+          "text": "3",
+          "confidence": 0.99889,
+          "bbox": [
+            0,
+            0,
+            41,
+            41
+          ],
+          "view": "pair_glyph_PIN_CAND_0020_s3.0"
+        },
+        {
+          "text": "3",
+          "confidence": 0.99878,
+          "bbox": [
+            0,
+            0,
+            41,
+            41
+          ],
+          "view": "pair_glyph_PIN_CAND_0020_s5.0"
+        }
+      ],
+      "number_crop": [
+        1374,
+        237,
+        1395,
+        258
+      ],
+      "point": [
+        1371.5,
+        259.5
+      ],
+      "owner": "U2"
+    }
+  ],
+  "network_changes": [
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "before": [
+        "C5.1",
+        "C5.3",
+        "U2.3"
+      ],
+      "after": [
+        "C5.1",
+        "C5.3",
+        "U2.2"
+      ],
+      "reason": "observed_number_rekey"
+    }
+  ],
+  "restored_networks": [
+    {
+      "network_id": "RESTORED_NET_CAND_00015",
+      "observed_rail": "+5V",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00005"
+      ]
+    }
+  ],
+  "ocr_calls": 8,
+  "budget_exhausted": false,
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "config_sha256": "3a439917309cf8b273edce159142d284013beac9a24c31ec456cdea9cd1ed89e",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

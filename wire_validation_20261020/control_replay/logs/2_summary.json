@@ -1,0 +1,82 @@
+{
+  "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+  "size": [
+    2063,
+    1116
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "6ed13c557c8277ca8e3daca8f7045a2cf478b987367d975d0ed899c972bdfc0d",
+  "original_S23_input_sha256": {
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\engineering_pin_text_result.json": "cc025ae28c360709bf8faa4927266b05922986da1164a681fce7784e9975a8b3",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\engineering_graph_proposals.json": "fb67186a97cba9592616187cebc64810afab2c5dfa3bc894f90dff70bbd121fe",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\completed_component_records.json": "fe641d0077e943549977d3639e42f0a2fe22bfde84a69a240f82685c6da51253",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\engineering_submission.json": "f1bf64b2eb472a3e5f9381021cde4c59de3feaab39041377f5ab72eb790d8422",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\baseline_export\\partial_submission.json": "d3e46e063d28cf9b1c0272338017e70a7ff9c0b9eec34fe267345ee82d1f606f",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23\\export\\baseline_export\\conservative_export_coverage.json": "ddcec25807e7415f9a5e63479b9e6acf42761b85fe21a6b7f0272ac41a046941",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\control_replay\\work\\pcb_zg7ww2v8\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\pin_text\\texts.json": "ca7809e714555a95137aca887880f4729feb010c5c3825ab2acc3622d1e89fbd"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false,
+  "observed_fields": {
+    "observed_pin_names_added": 0,
+    "observed_component_ids_added": 0,
+    "observed_footer_names_added": 0,
+    "new_pin_numbers": 0,
+    "points_or_edges_changed": 0,
+    "raw_members_removed": 0,
+    "new_OCR_model_runs": 0
+  },
+  "engineering_export": {
+    "exported_components": 12,
+    "exported_pins": 37,
+    "exported_nets": 15
+  },
+  "baseline_export": {
+    "exported_components": 12,
+    "exported_pins": 6,
+    "exported_nets": 6
+  },
+  "previous_engineering_export": {
+    "exported_components": 12,
+    "exported_pins": 36,
+    "exported_nets": 15
+  },
+  "new_complete_network_ids": [],
+  "net_preserve_violations": [],
+  "completion": {
+    "multi_pin_networks": 17,
+    "field_only_incomplete_networks": 6,
+    "non_field_export_blocker_counts": {
+      "junction_semantics_unresolved": 8,
+      "suspected_disconnection": 1,
+      "no_resolvable_member": 1,
+      "power_logical_membership_provisional": 1
+    }
+  },
+  "all_existing_fields_and_conservative_output_preserved": true,
+  "original_points_edges_and_members_preserved": true,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and frozen image-model/OCR predictions only; no annotation/CAD/Golden reads",
+  "wall_seconds": 4.1277732999951695,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 38.512440600003174
+}

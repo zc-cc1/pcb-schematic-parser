@@ -25,13 +25,54 @@ Set-Location -LiteralPath 'C:\Users\Pc\Desktop\新建文件夹\pcb_parser_compet
 
 ## 数据状态与口径
 
-300页标签来自原始标注的实际wire路径和pin tip，不是传统图像分割的输出。132页通过当前结构完整性检查，其中103页训练、28页验证、1页排除。逻辑飞线、deleted记录被排除，缺路径不按端点虚构直线。
+### v2 监督数据（2026-10-17，当前应使用这套）
 
-完整像素/接点人工批准页目前为0；导线以3px描绘源路径，仍需复核线宽、漏线与tip位置。`-AllowDraft`明确运行草稿监督实验，不把草稿称为正式Golden。默认不加该参数时仅使用`configs/unet_label_reviews.json`的approved_cases。
+旧数据 v1 有一个字段回退缺失：`edge.keyPointPaths.wire` 为空的边本可以从 `edge.coordinates` 取得折线，但 v1 没读，导致 692 条边（4.65%）被当成背景，并用"任一坏项即整页否决"丢掉所有含它们的页面——**238 个训练页只用上 103 页，59 个验证页只用上 28 页**。
+
+v2 已修：238 训练 / 59 验证页全部可用，边数 3,040→11,650，无几何的边 0 条。
+
+- 数据：`D:\pcb_unet_v2\data\segmentation_unet_v2\`（manifest.jsonl + summary.json + 每页 wire_mask/pin_heatmap/ignore_masks.npz/pin_points.json）
+- 复核图：`D:\pcb_unet_v2\reports\label_reviews\<case>.png`（绿=导线、蓝=pin、黄=ignore）
+- 配置：`configs/unet_wire_pin_v2.json`
+- 构建入口：`scripts/prepare_unet_dataset_v2.py`（新文件，不替换 v1 脚本）
+- 证据与限制：`D:\pcb_unet_v2\reports\step1_dataset_v2_report.md`
+
+v2 只改标签，不改模型、不改权重、不改旧数据。`runs/training/unet_wire_pin_v1/best.pt` 仍是回退基线。
+
+### A2 结果（2026-10-17，已采纳）
+
+v2 数据 + 原超参（仅 warm start 自 v1 第 57 轮），60 轮约 76 分钟，59 页验证集：
+
+| 指标 | E0（旧权重/旧数据） | A2 | 变化 |
+|---|---:|---:|---:|
+| 导线 F1（逐像素） | 0.7439 | **0.8437** | +9.98 |
+| 引脚 F1（5px 点集） | 0.6661 | **0.7062** | +4.01 |
+
+关键对照：**标签逐像素未变的 26 张历史页也从 0.7946 涨到 0.8641**，说明提升来自新数据而不是换尺子。
+jlc 来源受益最大（0.634→0.865），因为缺路径最集中在该来源。
+仍未解决：0208（多分区 datasheet）F1=0、0102 导线 0.393、ad/kicad 小幅回退、引脚精确率 0.657 偏弱。
+
+- 新权重：`D:\pcb_unet_v2\runs\A2_full60\best.pt`（综合）、`best_pin.pt`（引脚最优 0.7207）
+- 训练入口：`scripts/train_unet_v2.py`；评测：`scripts/evaluate_unet_v2.py`、`scripts/compare_unet_checkpoints.py`
+- 报告：`D:\pcb_unet_v2\reports\A2_report.md`、`baseline_e0_report.md`、`A2_comparison.json`
+- 训练脚本对 manifest 做 sha256 绑定，换数据后不能续训旧 checkpoint（这是有意的）
+
+### v1 数据（保留，只读）
+
+300页标签来自原始标注的实际wire路径和pin tip，不是传统图像分割的输出。v1 的页面级门槛下 132页通过结构完整性检查，其中103页训练、28页验证、1页排除。逻辑飞线、deleted记录被排除，缺路径不按端点虚构直线。
+
+完整像素/接点人工批准页：**2026-10-17 已核验 10 个验证页**（datasheet 4 / jlc 4 / ad 1 / kicad 1，密度 23~265 tip，含 3 个已知问题页），登记在 `configs/unet_label_reviews.json` v0.2。批准只覆盖**几何**（导线覆盖、线宽、tip 位置），不覆盖字母/数值/引脚名；训练页批准数仍为 0。导线以3px描绘源路径。`-AllowDraft`明确运行草稿监督实验，不把草稿称为正式Golden。默认不加该参数时仅使用`configs/unet_label_reviews.json`的approved_cases。
 
 沿用既有case划分，工程级去重尚未确认，不能把验证分数说成独立工程泛化或比赛成绩。当前双输出为导线mask与pin-tip热图；引脚归属、编号、名称、交叉连接分类及完整nets仍待实现。
 
 数据清单和metadata已在目标工程重新生成，全部图像/标签路径指向本目标工程。Python沿用工程原有`.venv-gpu`目录联接；它共享vision工程的GPU环境，不复制或修改环境包。
+
+## 大体积产物放 D 盘（2026-10-17 起）
+
+C 盘剩余空间不足（约 11 GB），新增的 U-Net 数据集、预测缓存和新训练 checkpoint 一律写到
+`D:\pcb_unet_v2\`（目录约定见该目录内 `README.md`）。本工程内只保留脚本、配置、文档和体积很小的结论性证据。
+旧产物 `runs/training/unet_wire_pin_v1/` 保持只读，作为回退基线，不移动、不删除。
+训练数据 manifest 用绝对路径指向 D 盘，避免仓库出现大文件。
 
 ## 日志、续训与回传结果
 

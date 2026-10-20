@@ -1,0 +1,2456 @@
+{
+  "prediction_root": "D:\\pcb_open_gt_v37dots_b\\final_results",
+  "tolerance_px": 20,
+  "cases": 13,
+  "totals": {
+    "tp": 149,
+    "fp": 21,
+    "fn": 42
+  },
+  "gt_ic_pins": 191,
+  "categories": {
+    "exported_position_error": 7,
+    "candidate_offset_or_crowded_assignment": 7,
+    "candidate_number_mismatch": 3,
+    "candidate_owner_unresolved_or_wrong": 4,
+    "candidate_fields_incomplete": 14,
+    "exported_name_or_number_mismatch": 7
+  },
+  "per_case": [
+    {
+      "case": "1",
+      "score": {
+        "tp": 25,
+        "fp": 10,
+        "fn": 15,
+        "precision": 0.7143,
+        "recall": 0.625,
+        "f1": 0.6667
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 167,
+      "primary_candidates": 153,
+      "miss_categories": {
+        "exported_position_error": 4,
+        "candidate_offset_or_crowded_assignment": 3,
+        "candidate_number_mismatch": 1,
+        "candidate_owner_unresolved_or_wrong": 2,
+        "candidate_fields_incomplete": 5
+      },
+      "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s"
+    },
+    {
+      "case": "2",
+      "score": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9375,
+        "recall": 0.9375,
+        "f1": 0.9375
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 61,
+      "primary_candidates": 50,
+      "miss_categories": {
+        "exported_position_error": 1
+      },
+      "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_be5a0vsk"
+    },
+    {
+      "case": "3",
+      "score": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 53,
+      "primary_candidates": 46,
+      "miss_categories": {},
+      "image_sha256": "30c65062c9032ee83e20b9a16cbe33e0ea40beb2ac532e632fd51d5294bdecb8",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_jugrkevn"
+    },
+    {
+      "case": "4",
+      "score": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9091,
+        "recall": 0.8333,
+        "f1": 0.8696
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 47,
+      "primary_candidates": 45,
+      "miss_categories": {
+        "candidate_number_mismatch": 1,
+        "exported_name_or_number_mismatch": 1
+      },
+      "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_ai5q5tdd"
+    },
+    {
+      "case": "5",
+      "score": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 71,
+      "primary_candidates": 56,
+      "miss_categories": {
+        "exported_position_error": 1,
+        "exported_name_or_number_mismatch": 2
+      },
+      "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_ivd0cfdu"
+    },
+    {
+      "case": "6",
+      "score": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 80,
+      "primary_candidates": 75,
+      "miss_categories": {
+        "exported_name_or_number_mismatch": 2
+      },
+      "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_boli9fib"
+    },
+    {
+      "case": "7",
+      "score": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 64,
+      "primary_candidates": 53,
+      "miss_categories": {},
+      "image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_553mzlfy"
+    },
+    {
+      "case": "8",
+      "score": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8125,
+        "f1": 0.8966
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 49,
+      "primary_candidates": 48,
+      "miss_categories": {
+        "candidate_offset_or_crowded_assignment": 3
+      },
+      "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_ko3e0ap2"
+    },
+    {
+      "case": "9",
+      "score": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 44,
+      "primary_candidates": 37,
+      "miss_categories": {},
+      "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_37q55mki"
+    },
+    {
+      "case": "10",
+      "score": {
+        "tp": 8,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.7273,
+        "recall": 0.6667,
+        "f1": 0.6957
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 72,
+      "primary_candidates": 59,
+      "miss_categories": {
+        "candidate_offset_or_crowded_assignment": 1,
+        "exported_position_error": 1,
+        "exported_name_or_number_mismatch": 2
+      },
+      "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_701vy31t"
+    },
+    {
+      "case": "11",
+      "score": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 11,
+        "precision": 0.9,
+        "recall": 0.45,
+        "f1": 0.6
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 57,
+      "primary_candidates": 50,
+      "miss_categories": {
+        "candidate_owner_unresolved_or_wrong": 2,
+        "candidate_number_mismatch": 1,
+        "candidate_fields_incomplete": 8
+      },
+      "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_y5bbxjt1"
+    },
+    {
+      "case": "12",
+      "score": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 36,
+      "primary_candidates": 34,
+      "miss_categories": {},
+      "image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_792aqvh3"
+    },
+    {
+      "case": "13",
+      "score": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1": 0.9565
+      },
+      "frozen_ic_pins_identical": true,
+      "raw_candidates": 97,
+      "primary_candidates": 94,
+      "miss_categories": {
+        "candidate_fields_incomplete": 1
+      },
+      "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+      "model_cache": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_3uq099b5"
+    }
+  ],
+  "misses": [
+    {
+      "case": "1",
+      "component": "U1",
+      "key": "pin_9",
+      "name": "EP",
+      "gt_point": {
+        "x": 1009,
+        "y": 984
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "EP",
+        "point": {
+          "x": 1008.3843226730824,
+          "y": 962.0
+        }
+      },
+      "export_distance_px": 22.01,
+      "candidate": {
+        "id": "PIN_CAND_0064",
+        "owner": "UNRESOLVED_DET_0046",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": null,
+        "number_status": "engineering_convention_unverified",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1008.4886248111725,
+          159.06987654417753
+        ],
+        "distance_px": 5.95
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0064",
+        "owner": "UNRESOLVED_DET_0046",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": null,
+        "number_status": "engineering_convention_unverified",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1008.4886248111725,
+          159.06987654417753
+        ],
+        "distance_px": 5.95
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_9",
+          "name": "EP",
+          "distance_px": 22.01
+        },
+        {
+          "key": "pin_8",
+          "name": "VOUT",
+          "distance_px": 112.98
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "U2",
+      "key": "pin_4",
+      "name": "EN",
+      "gt_point": {
+        "x": 1661,
+        "y": 252
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0014",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": "5",
+        "pinname": "VIN",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1666.2377009093761,
+          916.6075033545494
+        ],
+        "distance_px": 20.01
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_5",
+          "name": "VIN",
+          "distance_px": 20.01
+        },
+        {
+          "key": "pin_6",
+          "name": "NC",
+          "distance_px": 39.03
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "U3",
+      "key": "pin_5",
+      "name": "VM",
+      "gt_point": {
+        "x": 1325,
+        "y": 579
+      },
+      "category": "candidate_number_mismatch",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0084",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "4",
+        "pinname": "VM",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1331.8918783590198,
+          570.2084034234285
+        ],
+        "distance_px": 4.01
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0084",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "4",
+        "pinname": "VM",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1331.8918783590198,
+          570.2084034234285
+        ],
+        "distance_px": 4.01
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_4",
+          "name": "VM",
+          "distance_px": 1.02
+        },
+        {
+          "key": "pin_2",
+          "name": "GND",
+          "distance_px": 139.33
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_1",
+      "name": "GND",
+      "gt_point": {
+        "x": 277,
+        "y": 727
+      },
+      "category": "candidate_owner_unresolved_or_wrong",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0103",
+        "owner": "UNRESOLVED_DET_0057",
+        "owner_status": "assigned",
+        "number": "8",
+        "pinname": null,
+        "number_status": "observed_OCR_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          277.46294260025024,
+          430.3059828877449
+        ],
+        "distance_px": 8.32
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0103",
+        "owner": "UNRESOLVED_DET_0057",
+        "owner_status": "assigned",
+        "number": "8",
+        "pinname": null,
+        "number_status": "observed_OCR_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          277.46294260025024,
+          430.3059828877449
+        ],
+        "distance_px": 8.32
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_2",
+          "name": "VBUS",
+          "distance_px": 23.23
+        },
+        {
+          "key": "pin_3",
+          "name": "SBU2",
+          "distance_px": 40.95
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_4",
+      "name": "CC1",
+      "gt_point": {
+        "x": 277,
+        "y": 786
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "CC1",
+        "point": {
+          "x": 298.967,
+          "y": 786.410706281662
+        }
+      },
+      "export_distance_px": 21.97,
+      "candidate": {
+        "id": "PIN_CAND_0101",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "4",
+        "pinname": "CC1",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          271.0561273880303,
+          362.589293718338
+        ],
+        "distance_px": 5.96
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0101",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "4",
+        "pinname": "CC1",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          271.0561273880303,
+          362.589293718338
+        ],
+        "distance_px": 5.96
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_4",
+          "name": "CC1",
+          "distance_px": 21.97
+        },
+        {
+          "key": "pin_3",
+          "name": "SBU2",
+          "distance_px": 22.0
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_5",
+      "name": "DN2",
+      "gt_point": {
+        "x": 277,
+        "y": 806
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0101",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "4",
+        "pinname": "CC1",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          271.0561273880303,
+          362.589293718338
+        ],
+        "distance_px": 20.47
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_4",
+          "name": "CC1",
+          "distance_px": 29.43
+        },
+        {
+          "key": "pin_3",
+          "name": "SBU2",
+          "distance_px": 40.74
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_6",
+      "name": "DP1",
+      "gt_point": {
+        "x": 277,
+        "y": 826
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "DN1",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          261.7840058654547,
+          302.43458876013756
+        ],
+        "distance_px": 25.58
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_8",
+          "name": "DP2",
+          "distance_px": 43.24
+        },
+        {
+          "key": "pin_4",
+          "name": "CC1",
+          "distance_px": 45.28
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_7",
+      "name": "DN1",
+      "gt_point": {
+        "x": 277,
+        "y": 845
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "DN1",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          261.7840058654547,
+          302.43458876013756
+        ],
+        "distance_px": 15.3
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "DN1",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          261.7840058654547,
+          302.43458876013756
+        ],
+        "distance_px": 15.3
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_8",
+          "name": "DP2",
+          "distance_px": 26.49
+        },
+        {
+          "key": "pin_4",
+          "name": "CC1",
+          "distance_px": 62.57
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_9",
+      "name": "SBU1",
+      "gt_point": {
+        "x": 277,
+        "y": 885
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "SBU1",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          266.03494491800666,
+          263.2293096780777
+        ],
+        "distance_px": 10.99
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "SBU1",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          266.03494491800666,
+          263.2293096780777
+        ],
+        "distance_px": 10.99
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_8",
+          "name": "DP2",
+          "distance_px": 24.57
+        },
+        {
+          "key": "pin_10",
+          "name": "CC2",
+          "distance_px": 29.65
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_10",
+      "name": "CC2",
+      "gt_point": {
+        "x": 277,
+        "y": 905
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "CC2",
+        "point": {
+          "x": 298.967,
+          "y": 904.9131350591779
+        }
+      },
+      "export_distance_px": 21.97,
+      "candidate": {
+        "id": "PIN_CAND_0059",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "10",
+        "pinname": "CC2",
+        "number_status": "observed_targeted_local_OCR_missing_field_fill",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          269.72854804992676,
+          244.08686494082212
+        ],
+        "distance_px": 7.27
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0059",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "10",
+        "pinname": "CC2",
+        "number_status": "observed_targeted_local_OCR_missing_field_fill",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          269.72854804992676,
+          244.08686494082212
+        ],
+        "distance_px": 7.27
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_10",
+          "name": "CC2",
+          "distance_px": 21.97
+        },
+        {
+          "key": "pin_11",
+          "name": "VBUS",
+          "distance_px": 29.53
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_11",
+      "name": "VBUS",
+      "gt_point": {
+        "x": 277,
+        "y": 924
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "VBUS",
+        "point": {
+          "x": 298.967,
+          "y": 924.7370368540287
+        }
+      },
+      "export_distance_px": 21.98,
+      "candidate": {
+        "id": "PIN_CAND_0030",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "11",
+        "pinname": "VBUS",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          270.36869272589684,
+          224.2629631459713
+        ],
+        "distance_px": 6.67
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0030",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": "11",
+        "pinname": "VBUS",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          270.36869272589684,
+          224.2629631459713
+        ],
+        "distance_px": 6.67
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_11",
+          "name": "VBUS",
+          "distance_px": 21.98
+        },
+        {
+          "key": "pin_12",
+          "name": "GND",
+          "distance_px": 24.14
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB1",
+      "key": "pin_13",
+      "name": "SHELL",
+      "gt_point": {
+        "x": 109,
+        "y": 944
+      },
+      "category": "candidate_owner_unresolved_or_wrong",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0068",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          112.8520115017891,
+          204.2439866811037
+        ],
+        "distance_px": 3.93
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0068",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          112.8520115017891,
+          204.2439866811037
+        ],
+        "distance_px": 3.93
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_12",
+          "name": "GND",
+          "distance_px": 155.95
+        },
+        {
+          "key": "pin_8",
+          "name": "DP2",
+          "distance_px": 170.87
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB2",
+      "key": "pin_6",
+      "name": "6",
+      "gt_point": {
+        "x": 1651,
+        "y": 1102
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "ambiguous_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1650.9186462834477,
+          49.086204662919044
+        ],
+        "distance_px": 0.51
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "ambiguous_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1650.9186462834477,
+          49.086204662919044
+        ],
+        "distance_px": 0.51
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_1",
+          "name": "VCC",
+          "distance_px": 113.43
+        },
+        {
+          "key": "pin_3",
+          "name": "D+",
+          "distance_px": 138.21
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB2",
+      "key": "pin_5",
+      "name": "5",
+      "gt_point": {
+        "x": 1651,
+        "y": 924
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": "5",
+        "pinname": null,
+        "number_status": "observed_OCR_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1645.612586915493,
+          224.3618398308754
+        ],
+        "distance_px": 5.43
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": "5",
+        "pinname": null,
+        "number_status": "observed_OCR_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1645.612586915493,
+          224.3618398308754
+        ],
+        "distance_px": 5.43
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_4",
+          "name": "GND",
+          "distance_px": 113.79
+        },
+        {
+          "key": "pin_3",
+          "name": "D+",
+          "distance_px": 125.45
+        }
+      ]
+    },
+    {
+      "case": "1",
+      "component": "USB2",
+      "key": "pin_2",
+      "name": "D-",
+      "gt_point": {
+        "x": 1552,
+        "y": 1023
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "D-",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1574.3496566712856,
+          125.37200438976288
+        ],
+        "distance_px": 1.63
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "D-",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1574.3496566712856,
+          125.37200438976288
+        ],
+        "distance_px": 1.63
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "D+",
+          "distance_px": 19.56
+        },
+        {
+          "key": "pin_1",
+          "name": "VCC",
+          "distance_px": 20.3
+        }
+      ]
+    },
+    {
+      "case": "2",
+      "component": "U2",
+      "key": "pin_2",
+      "name": "VCC",
+      "gt_point": {
+        "x": 1009,
+        "y": 786
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "VCC",
+        "point": {
+          "x": 1085.840150207281,
+          "y": 728.2798150777817
+        }
+      },
+      "export_distance_px": 96.1,
+      "candidate": {
+        "id": "PIN_CAND_0009",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          1015.3559246957302,
+          329.7148879170418
+        ],
+        "distance_px": 6.36
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0009",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          1015.3559246957302,
+          329.7148879170418
+        ],
+        "distance_px": 6.36
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "SCL",
+          "distance_px": 19.75
+        },
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 20.16
+        }
+      ]
+    },
+    {
+      "case": "4",
+      "component": "U2",
+      "key": "pin_2",
+      "name": "VOUT",
+      "gt_point": {
+        "x": 1370,
+        "y": 792
+      },
+      "category": "candidate_number_mismatch",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0022",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": "3",
+        "pinname": "VOUT",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1376.7417352199554,
+          239.9337067976594
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0022",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": "3",
+        "pinname": "VOUT",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1376.7417352199554,
+          239.9337067976594
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "VOUT",
+          "distance_px": 2.0
+        },
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 20.16
+        }
+      ]
+    },
+    {
+      "case": "4",
+      "component": "U2",
+      "key": "pin_3",
+      "name": "VIN",
+      "gt_point": {
+        "x": 1370,
+        "y": 772
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "VOUT",
+        "point": {
+          "x": 1372.0,
+          "y": 792.0662932023406
+        }
+      },
+      "export_distance_px": 20.17,
+      "candidate": {
+        "id": "PIN_CAND_0020",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "VIN",
+        "number_status": "text_used_by_other_pin",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1379.77011243999,
+          259.63248857855797
+        ],
+        "distance_px": 2.03
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0020",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "VIN",
+        "number_status": "text_used_by_other_pin",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1379.77011243999,
+          259.63248857855797
+        ],
+        "distance_px": 2.03
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "VOUT",
+          "distance_px": 20.17
+        },
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 40.11
+        }
+      ]
+    },
+    {
+      "case": "5",
+      "component": "U1",
+      "key": "pin_1",
+      "name": "GND",
+      "gt_point": {
+        "x": 682,
+        "y": 766
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "GND",
+        "point": {
+          "x": 486.0,
+          "y": 786.6819199323654
+        }
+      },
+      "export_distance_px": 197.09,
+      "candidate": {
+        "id": "PIN_CAND_0054",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          658.1969403475523,
+          329.9563787318766
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0054",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          658.1969403475523,
+          329.9563787318766
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_7",
+          "name": "PP",
+          "distance_px": 20.15
+        },
+        {
+          "key": "pin_3",
+          "name": "FB",
+          "distance_px": 59.23
+        }
+      ]
+    },
+    {
+      "case": "5",
+      "component": "U3",
+      "key": "pin_1",
+      "name": "ADJ(GND)",
+      "gt_point": {
+        "x": 531,
+        "y": 361
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "GND",
+        "point": {
+          "x": 533.0,
+          "y": 361.29531893134117
+        }
+      },
+      "export_distance_px": 2.02,
+      "candidate": {
+        "id": "PIN_CAND_0001",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "GND",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          537.9938666475937,
+          734.7046810686588
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0001",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "GND",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          537.9938666475937,
+          734.7046810686588
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 2.02
+        },
+        {
+          "key": "pin_2",
+          "name": "VOUT",
+          "distance_px": 19.46
+        }
+      ]
+    },
+    {
+      "case": "5",
+      "component": "U3",
+      "key": "pin_2",
+      "name": "VOUT(TAB)",
+      "gt_point": {
+        "x": 531,
+        "y": 341
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "VOUT",
+        "point": {
+          "x": 533.0,
+          "y": 341.64173474907875
+        }
+      },
+      "export_distance_px": 2.1,
+      "candidate": {
+        "id": "PIN_CAND_0002",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "2",
+        "pinname": "VOUT",
+        "number_status": "observed_targeted_local_OCR_missing_field_fill",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          539.1365008950233,
+          754.3582652509212
+        ],
+        "distance_px": 2.1
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0002",
+        "owner": "U3",
+        "owner_status": "assigned",
+        "number": "2",
+        "pinname": "VOUT",
+        "number_status": "observed_targeted_local_OCR_missing_field_fill",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          539.1365008950233,
+          754.3582652509212
+        ],
+        "distance_px": 2.1
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_2",
+          "name": "VOUT",
+          "distance_px": 2.1
+        },
+        {
+          "key": "pin_3",
+          "name": "VIN",
+          "distance_px": 19.69
+        }
+      ]
+    },
+    {
+      "case": "6",
+      "component": "U1",
+      "key": "pin_1",
+      "name": "IN",
+      "gt_point": {
+        "x": 486,
+        "y": 428
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "GND",
+        "point": {
+          "x": 505.3948677480221,
+          "y": 430.0
+        }
+      },
+      "export_distance_px": 19.5,
+      "candidate": {
+        "id": "PIN_CAND_0005",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "2",
+        "pinname": "IN",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          485.26903384923935,
+          668.946139048785
+        ],
+        "distance_px": 2.13
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0005",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "2",
+        "pinname": "IN",
+        "number_status": "targeted_OCR_number_strip",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          485.26903384923935,
+          668.946139048785
+        ],
+        "distance_px": 2.13
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_2",
+          "name": "IN",
+          "distance_px": 2.13
+        },
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 19.5
+        }
+      ]
+    },
+    {
+      "case": "6",
+      "component": "U1",
+      "key": "pin_2",
+      "name": "GND",
+      "gt_point": {
+        "x": 505,
+        "y": 428
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "IN",
+        "point": {
+          "x": 485.26903384923935,
+          "y": 430.0
+        }
+      },
+      "export_distance_px": 19.83,
+      "candidate": {
+        "id": "PIN_CAND_0020",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "GND",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          505.3948677480221,
+          670.6688205301762
+        ],
+        "distance_px": 2.04
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0020",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "GND",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          505.3948677480221,
+          670.6688205301762
+        ],
+        "distance_px": 2.04
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_1",
+          "name": "GND",
+          "distance_px": 2.04
+        },
+        {
+          "key": "pin_2",
+          "name": "IN",
+          "distance_px": 19.83
+        }
+      ]
+    },
+    {
+      "case": "8",
+      "component": "U1",
+      "key": "pin_2",
+      "name": "NC",
+      "gt_point": {
+        "x": 974,
+        "y": 502
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0044",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "NC",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          985.7173801362514,
+          669.4067661464214
+        ],
+        "distance_px": 20.69
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_1",
+          "name": "NC",
+          "distance_px": 20.69
+        },
+        {
+          "key": "pin_13",
+          "name": "NCS",
+          "distance_px": 59.47
+        }
+      ]
+    },
+    {
+      "case": "8",
+      "component": "U1",
+      "key": "pin_6",
+      "name": "NC",
+      "gt_point": {
+        "x": 974,
+        "y": 482
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0010",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "13",
+        "pinname": "NCS",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          980.8970304951072,
+          749.4334752559662
+        ],
+        "distance_px": 39.48
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_13",
+          "name": "NCS",
+          "distance_px": 39.48
+        },
+        {
+          "key": "pin_1",
+          "name": "NC",
+          "distance_px": 40.64
+        }
+      ]
+    },
+    {
+      "case": "8",
+      "component": "U1",
+      "key": "pin_16",
+      "name": "NC",
+      "gt_point": {
+        "x": 974,
+        "y": 462
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0010",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "13",
+        "pinname": "NCS",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          980.8970304951072,
+          749.4334752559662
+        ],
+        "distance_px": 19.54
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_13",
+          "name": "NCS",
+          "distance_px": 19.54
+        },
+        {
+          "key": "pin_1",
+          "name": "NC",
+          "distance_px": 60.63
+        }
+      ]
+    },
+    {
+      "case": "10",
+      "component": "U1",
+      "key": "pin_4",
+      "name": "VIA",
+      "gt_point": {
+        "x": 476,
+        "y": 482
+      },
+      "category": "candidate_offset_or_crowded_assignment",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0006",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "3",
+        "pinname": "EN",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          481.0580960959196,
+          515.0482258275151
+        ],
+        "distance_px": 20.01
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "EN",
+          "distance_px": 20.01
+        },
+        {
+          "key": "pin_2",
+          "name": "GND",
+          "distance_px": 39.61
+        }
+      ]
+    },
+    {
+      "case": "10",
+      "component": "U2",
+      "key": "pin_1",
+      "name": "Vout",
+      "gt_point": {
+        "x": 1624,
+        "y": 609
+      },
+      "category": "exported_position_error",
+      "export_stage": "wrong_position",
+      "exported": {
+        "pinname": "Vout",
+        "point": {
+          "x": 1623.344976902008,
+          "y": 630.0
+        }
+      },
+      "export_distance_px": 21.01,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0069",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": "1",
+        "pinname": "Vout",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1623.344976902008,
+          385.94193878024817
+        ],
+        "distance_px": 21.01
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_1",
+          "name": "Vout",
+          "distance_px": 21.01
+        },
+        {
+          "key": "pin_2",
+          "name": "Vin",
+          "distance_px": 80.97
+        }
+      ]
+    },
+    {
+      "case": "10",
+      "component": "U2",
+      "key": "pin_2",
+      "name": "GND",
+      "gt_point": {
+        "x": 1664,
+        "y": 767
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "Vin",
+        "point": {
+          "x": 1702.1949576437473,
+          "y": 630.0
+        }
+      },
+      "export_distance_px": 142.22,
+      "candidate": {
+        "id": "PIN_CAND_0053",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "ambiguous_text",
+        "name_status": "text_used_by_other_pin",
+        "point_top_left": [
+          1664.2012190520763,
+          252.3279466032982
+        ],
+        "distance_px": 2.34
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0053",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "ambiguous_text",
+        "name_status": "text_used_by_other_pin",
+        "point_top_left": [
+          1664.2012190520763,
+          252.3279466032982
+        ],
+        "distance_px": 2.34
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_2",
+          "name": "Vin",
+          "distance_px": 142.22
+        },
+        {
+          "key": "pin_3",
+          "name": "GND",
+          "distance_px": 142.6
+        }
+      ]
+    },
+    {
+      "case": "10",
+      "component": "U2",
+      "key": "pin_3",
+      "name": "Vin",
+      "gt_point": {
+        "x": 1703,
+        "y": 609
+      },
+      "category": "exported_name_or_number_mismatch",
+      "export_stage": "wrong_name",
+      "exported": {
+        "pinname": "GND",
+        "point": {
+          "x": 1703.554849743843,
+          "y": 630.0
+        }
+      },
+      "export_distance_px": 21.01,
+      "candidate": null,
+      "nearest_candidate": {
+        "id": "PIN_CAND_0063",
+        "owner": "U2",
+        "owner_status": "assigned",
+        "number": "2",
+        "pinname": "Vin",
+        "number_status": "text_used_by_other_pin",
+        "name_status": "observed_OCR_v2_missing_name_fill",
+        "point_top_left": [
+          1702.1949576437473,
+          386.2687217593193
+        ],
+        "distance_px": 21.02
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "GND",
+          "distance_px": 21.01
+        },
+        {
+          "key": "pin_2",
+          "name": "Vin",
+          "distance_px": 21.02
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "U1",
+      "key": "pin_2",
+      "name": "BAT",
+      "gt_point": {
+        "x": 937,
+        "y": 371
+      },
+      "category": "candidate_owner_unresolved_or_wrong",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0004",
+        "owner": "L1",
+        "owner_status": "assigned",
+        "number": "3",
+        "pinname": null,
+        "number_status": "engineering_convention_unverified",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          937.9289967045188,
+          397.99015222862363
+        ],
+        "distance_px": 1.37
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0004",
+        "owner": "L1",
+        "owner_status": "assigned",
+        "number": "3",
+        "pinname": null,
+        "number_status": "engineering_convention_unverified",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          937.9289967045188,
+          397.99015222862363
+        ],
+        "distance_px": 1.37
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_3",
+          "name": "SW",
+          "distance_px": 19.13
+        },
+        {
+          "key": "pin_1",
+          "name": "OUT",
+          "distance_px": 28.08
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "U1",
+      "key": "pin_6",
+      "name": "VDD",
+      "gt_point": {
+        "x": 1095,
+        "y": 351
+      },
+      "category": "candidate_number_mismatch",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0005",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "9",
+        "pinname": "VDD",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1090.9597210772336,
+          418.7149917781353
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0005",
+        "owner": "U1",
+        "owner_status": "assigned",
+        "number": "9",
+        "pinname": "VDD",
+        "number_status": "observed_OCR_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          1090.9597210772336,
+          418.7149917781353
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_9",
+          "name": "VDD",
+          "distance_px": 2.02
+        },
+        {
+          "key": "pin_5",
+          "name": "SWT",
+          "distance_px": 19.48
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "U1",
+      "key": "pin_8",
+      "name": "LED1",
+      "gt_point": {
+        "x": 1095,
+        "y": 391
+      },
+      "category": "candidate_owner_unresolved_or_wrong",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0001",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          1091.8485848158598,
+          378.8161755949259
+        ],
+        "distance_px": 3.16
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0001",
+        "owner": null,
+        "owner_status": "ambiguous_owner",
+        "number": null,
+        "pinname": null,
+        "number_status": "owner_unresolved",
+        "name_status": "owner_unresolved",
+        "point_top_left": [
+          1091.8485848158598,
+          378.8161755949259
+        ],
+        "distance_px": 3.16
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_7",
+          "name": "LED2",
+          "distance_px": 19.61
+        },
+        {
+          "key": "pin_9",
+          "name": "VDD",
+          "distance_px": 39.77
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "USB1",
+      "key": "pin_7",
+      "name": "EH",
+      "gt_point": {
+        "x": 97,
+        "y": 421
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0010",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "A5",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          122.97403449937701,
+          349.65828081965446
+        ],
+        "distance_px": 2.11
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0010",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "A5",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          122.97403449937701,
+          349.65828081965446
+        ],
+        "distance_px": 2.11
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_B9",
+          "name": "VBUS",
+          "distance_px": 196.1
+        },
+        {
+          "key": "pin_A9",
+          "name": "VBUS",
+          "distance_px": 198.85
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "USB1",
+      "key": "pin_A5",
+      "name": "CC1",
+      "gt_point": {
+        "x": 294,
+        "y": 421
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0055",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "text_used_by_other_pin",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          275.2427833080292,
+          351.12446761876345
+        ],
+        "distance_px": 2.92
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0055",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "text_used_by_other_pin",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          275.2427833080292,
+          351.12446761876345
+        ],
+        "distance_px": 2.92
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_B9",
+          "name": "VBUS",
+          "distance_px": 20.79
+        },
+        {
+          "key": "pin_A9",
+          "name": "VBUS",
+          "distance_px": 38.98
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "USB1",
+      "key": "pin_B5",
+      "name": "CC2",
+      "gt_point": {
+        "x": 294,
+        "y": 440
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0051",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "text_used_by_other_pin",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          276.5522937178612,
+          328.9060939177871
+        ],
+        "distance_px": 2.28
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0051",
+        "owner": "USB1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "text_used_by_other_pin",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          276.5522937178612,
+          328.9060939177871
+        ],
+        "distance_px": 2.28
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_A9",
+          "name": "VBUS",
+          "distance_px": 20.03
+        },
+        {
+          "key": "pin_B9",
+          "name": "VBUS",
+          "distance_px": 39.75
+        }
+      ]
+    },
+    {
+      "case": "11",
+      "component": "USB2",
+      "key": "pin_5",
+      "name": "SHLD",
+      "gt_point": {
+        "x": 581,
+        "y": 381
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0056",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "text_used_by_other_pin",
+        "point_top_left": [
+          606.283121496439,
+          390.57749915122986
+        ],
+        "distance_px": 2.55
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0056",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "text_used_by_other_pin",
+        "point_top_left": [
+          606.283121496439,
+          390.57749915122986
+        ],
+        "distance_px": 2.55
+      },
+      "nearest_exported_same_owner": []
+    },
+    {
+      "case": "11",
+      "component": "USB2",
+      "key": "pin_4",
+      "name": "GND",
+      "gt_point": {
+        "x": 739,
+        "y": 341
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0034",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          716.8435782194138,
+          428.86721032857895
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0034",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          716.8435782194138,
+          428.86721032857895
+        ],
+        "distance_px": 2.0
+      },
+      "nearest_exported_same_owner": []
+    },
+    {
+      "case": "11",
+      "component": "USB2",
+      "key": "pin_3",
+      "name": "D+",
+      "gt_point": {
+        "x": 739,
+        "y": 361
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0042",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "D+",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          741.252730935812,
+          406.51640102267265
+        ],
+        "distance_px": 3.19
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0042",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "D+",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          741.252730935812,
+          406.51640102267265
+        ],
+        "distance_px": 3.19
+      },
+      "nearest_exported_same_owner": []
+    },
+    {
+      "case": "11",
+      "component": "USB2",
+      "key": "pin_2",
+      "name": "D-",
+      "gt_point": {
+        "x": 739,
+        "y": 381
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0049",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          737.1458382606506,
+          391.5625974535942
+        ],
+        "distance_px": 3.16
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0049",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "ambiguous_text",
+        "point_top_left": [
+          737.1458382606506,
+          391.5625974535942
+        ],
+        "distance_px": 3.16
+      },
+      "nearest_exported_same_owner": []
+    },
+    {
+      "case": "11",
+      "component": "USB2",
+      "key": "pin_1",
+      "name": "VCC",
+      "gt_point": {
+        "x": 739,
+        "y": 401
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0030",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "VCC",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          707.1893232911825,
+          369.27947452664375
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0030",
+        "owner": "USB2",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": "VCC",
+        "number_status": "no_reliable_text",
+        "name_status": "observed_OCR_text",
+        "point_top_left": [
+          707.1893232911825,
+          369.27947452664375
+        ],
+        "distance_px": 2.02
+      },
+      "nearest_exported_same_owner": []
+    },
+    {
+      "case": "13",
+      "component": "H1",
+      "key": "pin_3",
+      "name": "3",
+      "gt_point": {
+        "x": 1259,
+        "y": 415
+      },
+      "category": "candidate_fields_incomplete",
+      "export_stage": "missing_number_key",
+      "exported": null,
+      "export_distance_px": null,
+      "candidate": {
+        "id": "PIN_CAND_0046",
+        "owner": "H1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1252.8122390955687,
+          381.9078892543912
+        ],
+        "distance_px": 0.09
+      },
+      "nearest_candidate": {
+        "id": "PIN_CAND_0046",
+        "owner": "H1",
+        "owner_status": "assigned",
+        "number": null,
+        "pinname": null,
+        "number_status": "no_reliable_text",
+        "name_status": "no_reliable_text",
+        "point_top_left": [
+          1252.8122390955687,
+          381.9078892543912
+        ],
+        "distance_px": 0.09
+      },
+      "nearest_exported_same_owner": [
+        {
+          "key": "pin_2",
+          "name": "2",
+          "distance_px": 29.64
+        },
+        {
+          "key": "pin_1",
+          "name": "1",
+          "distance_px": 60.11
+        }
+      ]
+    }
+  ],
+  "frozen_ic_identical_cases": 13,
+  "new_model_inference_calls": 0,
+  "used_gt_only_for_diagnosis": true,
+  "raw_candidate_note": "Same-image retained cache; distance uses raw or existing tip projection; primary candidates assigned one-to-one at 20px. No candidate within 40px is a suspect detection miss, not a visual proof."
+}

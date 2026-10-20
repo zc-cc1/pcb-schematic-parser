@@ -1,0 +1,588 @@
+{
+  "enabled": true,
+  "modified_pin_count": 14,
+  "groups": [
+    {
+      "component": "U3",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1452.984208734706,
+            "y": 568.7150649428368
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 1454.3194161355495,
+            "y": 588.6457677483559
+          },
+          "length": 17
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 1455.225320994854,
+            "y": 608.2010808438063
+          },
+          "length": 26
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U3",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 1331.8921855166554,
+            "y": 578.7912441641092
+          },
+          "length": 24
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 1787.4509858489037,
+            "y": 232.4779650568962
+          },
+          "length": 59
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 1786.798696488142,
+            "y": 252.1554256081581
+          },
+          "length": 25
+        },
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1788.0529179684818,
+            "y": 213.5896627008915
+          },
+          "length": 19
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 1666.237735942006,
+            "y": 232.38985133171082
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_6",
+          "raw_point": {
+            "x": 1673.212306573987,
+            "y": 213.17344865202904
+          },
+          "length": 24
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U1",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 917.0402515754104,
+            "y": 924.7812021672726
+          },
+          "length": 17
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 915.0287905763835,
+            "y": 884.9313806071877
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 916.1275776177645,
+            "y": 904.4617774784565
+          },
+          "length": 17
+        },
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 913.9873787136748,
+            "y": 865.3311677277088
+          },
+          "length": 17
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 17.0,
+      "changes": [
+        {
+          "key": "pin_1",
+          "before": {
+            "x": 911.0,
+            "y": 924.7812021672726
+          },
+          "after": {
+            "x": 912.0,
+            "y": 924.7812021672726
+          }
+        },
+        {
+          "key": "pin_3",
+          "before": {
+            "x": 911.0,
+            "y": 884.9313806071877
+          },
+          "after": {
+            "x": 912.0,
+            "y": 884.9313806071877
+          }
+        },
+        {
+          "key": "pin_2",
+          "before": {
+            "x": 911.0,
+            "y": 904.4617774784565
+          },
+          "after": {
+            "x": 912.0,
+            "y": 904.4617774784565
+          }
+        },
+        {
+          "key": "pin_4",
+          "before": {
+            "x": 911.0,
+            "y": 865.3311677277088
+          },
+          "after": {
+            "x": 912.0,
+            "y": 865.3311677277088
+          }
+        }
+      ]
+    },
+    {
+      "component": "U1",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_7",
+          "raw_point": {
+            "x": 1096.0355252958834,
+            "y": 904.5258420407772
+          },
+          "length": 19
+        },
+        {
+          "key": "pin_6",
+          "raw_point": {
+            "x": 1101.0010187654989,
+            "y": 884.6775777637959
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_8",
+          "raw_point": {
+            "x": 1099.8103036880493,
+            "y": 924.4339548945427
+          },
+          "length": 19
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 19,
+      "changes": [
+        {
+          "key": "pin_7",
+          "before": {
+            "x": 1105.0,
+            "y": 904.5258420407772
+          },
+          "after": {
+            "x": 1106.0,
+            "y": 904.5258420407772
+          }
+        },
+        {
+          "key": "pin_6",
+          "before": {
+            "x": 1105.0,
+            "y": 884.6775777637959
+          },
+          "after": {
+            "x": 1106.0,
+            "y": 884.6775777637959
+          }
+        },
+        {
+          "key": "pin_8",
+          "before": {
+            "x": 1105.0,
+            "y": 924.4339548945427
+          },
+          "after": {
+            "x": 1106.0,
+            "y": 924.4339548945427
+          }
+        }
+      ]
+    },
+    {
+      "component": "U1",
+      "side": "top",
+      "measurements": [
+        {
+          "key": "pin_9",
+          "raw_point": {
+            "x": 1008.382496803999,
+            "y": 954.8126841932535
+          },
+          "length": 59
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "U1",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 1107.1980259120464,
+            "y": 864.9650273062289
+          },
+          "length": 0
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "USB1",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 266.6022065579891,
+            "y": 766.6061600744724
+          },
+          "length": 12
+        },
+        {
+          "key": "pin_11",
+          "raw_point": {
+            "x": 270.3671977818012,
+            "y": 924.7368270456791
+          },
+          "length": 8
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 265.1915944069624,
+            "y": 747.0046462821774
+          },
+          "length": 8
+        },
+        {
+          "key": "pin_10",
+          "raw_point": {
+            "x": 269.72818902134895,
+            "y": 904.9131259098649
+          },
+          "length": 30
+        },
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 271.02363731339574,
+            "y": 786.4102151989937
+          },
+          "length": 30
+        },
+        {
+          "key": "pin_8",
+          "raw_point": {
+            "x": 261.15008722245693,
+            "y": 866.2274172455072
+          },
+          "length": 12
+        },
+        {
+          "key": "pin_12",
+          "raw_point": {
+            "x": 264.94453297927976,
+            "y": 944.9136421829462
+          },
+          "length": 10
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 10,
+      "changes": [
+        {
+          "key": "pin_3",
+          "before": {
+            "x": 266.6022065579891,
+            "y": 766.6061600744724
+          },
+          "after": {
+            "x": 278.966,
+            "y": 766.6061600744724
+          }
+        },
+        {
+          "key": "pin_11",
+          "before": {
+            "x": 298.966,
+            "y": 924.7368270456791
+          },
+          "after": {
+            "x": 278.966,
+            "y": 924.7368270456791
+          }
+        },
+        {
+          "key": "pin_2",
+          "before": {
+            "x": 265.1915944069624,
+            "y": 747.0046462821774
+          },
+          "after": {
+            "x": 278.966,
+            "y": 747.0046462821774
+          }
+        },
+        {
+          "key": "pin_10",
+          "before": {
+            "x": 298.966,
+            "y": 904.9131259098649
+          },
+          "after": {
+            "x": 278.966,
+            "y": 904.9131259098649
+          }
+        },
+        {
+          "key": "pin_4",
+          "before": {
+            "x": 298.966,
+            "y": 786.4102151989937
+          },
+          "after": {
+            "x": 278.966,
+            "y": 786.4102151989937
+          }
+        },
+        {
+          "key": "pin_8",
+          "before": {
+            "x": 261.15008722245693,
+            "y": 866.2274172455072
+          },
+          "after": {
+            "x": 278.966,
+            "y": 866.2274172455072
+          }
+        },
+        {
+          "key": "pin_12",
+          "before": {
+            "x": 264.94453297927976,
+            "y": 944.9136421829462
+          },
+          "after": {
+            "x": 278.966,
+            "y": 944.9136421829462
+          }
+        }
+      ]
+    },
+    {
+      "component": "USB1",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_14",
+          "raw_point": {
+            "x": 121.92478127032518,
+            "y": 727.5508150160313
+          },
+          "length": 50
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "SW2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_14",
+          "raw_point": {
+            "x": 1185.999164375593,
+            "y": 193.31807792186737
+          },
+          "length": 53
+        },
+        {
+          "key": "pin_13",
+          "raw_point": {
+            "x": 1185.0112013295293,
+            "y": 272.6656876206398
+          },
+          "length": 17
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "SW2",
+      "side": "top",
+      "measurements": [
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 1235.9954760512337,
+            "y": 296.39357593655586
+          },
+          "length": 24
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "SW2",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_6",
+          "raw_point": {
+            "x": 1334.4676382243633,
+            "y": 169.00763156171888
+          },
+          "length": 19
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "H2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1489.1965176165104,
+            "y": 677.3721087276936
+          },
+          "length": 5
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    },
+    {
+      "component": "USB2",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 1581.0292377080768,
+            "y": 983.4905160367489
+          },
+          "length": 38
+        },
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1580.978427393362,
+            "y": 1043.2020713239908
+          },
+          "length": 39
+        },
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 1580.5106886327267,
+            "y": 1003.5464130938053
+          },
+          "length": 37
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 38,
+      "changes": []
+    },
+    {
+      "component": "H1",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 1337.4470807611942,
+            "y": 855.6736499667168
+          },
+          "length": 4
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    }
+  ],
+  "policy": "same_side_image_length_consensus_v1"
+}

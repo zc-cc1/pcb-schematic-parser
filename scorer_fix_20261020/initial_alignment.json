@@ -1,0 +1,74 @@
+[
+  {
+    "case": "5",
+    "expected": {
+      "tp": 15,
+      "fp": 53,
+      "fn": 42
+    },
+    "truth_rows": {
+      "counts": {
+        "tp": 15,
+        "fp": 53,
+        "fn": 42
+      },
+      "pairs_equal": true
+    },
+    "pred_rows": {
+      "counts": {
+        "tp": 15,
+        "fp": 53,
+        "fn": 42
+      },
+      "pairs_equal": true
+    }
+  },
+  {
+    "case": "6",
+    "expected": {
+      "tp": 18,
+      "fp": 57,
+      "fn": 68
+    },
+    "truth_rows": {
+      "counts": {
+        "tp": 18,
+        "fp": 57,
+        "fn": 68
+      },
+      "pairs_equal": true
+    },
+    "pred_rows": {
+      "counts": {
+        "tp": 18,
+        "fp": 57,
+        "fn": 68
+      },
+      "pairs_equal": true
+    }
+  },
+  {
+    "case": "13",
+    "expected": {
+      "tp": 22,
+      "fp": 73,
+      "fn": 27
+    },
+    "truth_rows": {
+      "counts": {
+        "tp": 22,
+        "fp": 73,
+        "fn": 27
+      },
+      "pairs_equal": true
+    },
+    "pred_rows": {
+      "counts": {
+        "tp": 22,
+        "fp": 73,
+        "fn": 27
+      },
+      "pairs_equal": true
+    }
+  }
+]

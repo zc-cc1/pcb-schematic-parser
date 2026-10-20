@@ -1,0 +1,349 @@
+{
+  "calibration": [
+    {
+      "case": "5",
+      "platform": 0.24,
+      "local": 0.24,
+      "within_report_rounding": true
+    },
+    {
+      "case": "6",
+      "platform": 0.223602,
+      "local": 0.1491,
+      "within_report_rounding": false
+    },
+    {
+      "case": "13",
+      "platform": 0.305556,
+      "local": 0.3056,
+      "within_report_rounding": true
+    }
+  ],
+  "calibration_passed": false,
+  "cases": [
+    "5",
+    "6",
+    "13"
+  ],
+  "macro": {
+    "baseline": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.3334333333333333,
+        "wire_f1": 0.19786666666666666
+      },
+      "score_100": 64.2975
+    },
+    "restore_existing_members": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.4056666666666667,
+        "wire_f1": 0.4503
+      },
+      "score_100": 69.35000000000001
+    },
+    "restore_observed_power_contacts": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.43596666666666667,
+        "wire_f1": 0.4503
+      },
+      "score_100": 70.4105
+    },
+    "restore_physical_existing": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.4796666666666667,
+        "wire_f1": 0.3397666666666666
+      },
+      "score_100": 70.83466666666666
+    },
+    "restore_physical_contacts": {
+      "metrics": {
+        "component_f1": 0.9480666666666666,
+        "pin_f1": 0.8882666666666666,
+        "connectivity_f1": 0.5882666666666666,
+        "wire_f1": 0.4503
+      },
+      "score_100": 75.741
+    }
+  },
+  "per_case": [
+    {
+      "case": "5",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.4194,
+            "wire_f1": 0.2093
+          },
+          "wire_counts": {
+            "tp": 9,
+            "fp": 20,
+            "fn": 48,
+            "precision": 0.3103,
+            "recall": 0.1579,
+            "f1": 0.2093
+          },
+          "score_100": 67.6045
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.4595,
+            "wire_f1": 0.422
+          },
+          "wire_counts": {
+            "tp": 23,
+            "fp": 29,
+            "fn": 34,
+            "precision": 0.4423,
+            "recall": 0.4035,
+            "f1": 0.422
+          },
+          "score_100": 71.135
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.5,
+            "wire_f1": 0.422
+          },
+          "wire_counts": {
+            "tp": 23,
+            "fp": 29,
+            "fn": 34,
+            "precision": 0.4423,
+            "recall": 0.4035,
+            "f1": 0.422
+          },
+          "score_100": 72.5525
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.5797,
+            "wire_f1": 0.2718
+          },
+          "wire_counts": {
+            "tp": 14,
+            "fp": 32,
+            "fn": 43,
+            "precision": 0.3043,
+            "recall": 0.2456,
+            "f1": 0.2718
+          },
+          "score_100": 73.83999999999999
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 1.0,
+            "pin_f1": 0.8333,
+            "connectivity_f1": 0.7805,
+            "wire_f1": 0.422
+          },
+          "wire_counts": {
+            "tp": 23,
+            "fp": 29,
+            "fn": 34,
+            "precision": 0.4423,
+            "recall": 0.4035,
+            "f1": 0.422
+          },
+          "score_100": 82.37
+        }
+      }
+    },
+    {
+      "case": "6",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.2105,
+            "wire_f1": 0.0748
+          },
+          "wire_counts": {
+            "tp": 4,
+            "fp": 17,
+            "fn": 82,
+            "precision": 0.1905,
+            "recall": 0.0465,
+            "f1": 0.0748
+          },
+          "score_100": 57.62350000000001
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.3871,
+            "wire_f1": 0.6194
+          },
+          "wire_counts": {
+            "tp": 48,
+            "fp": 21,
+            "fn": 38,
+            "precision": 0.6957,
+            "recall": 0.5581,
+            "f1": 0.6194
+          },
+          "score_100": 69.2505
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.4375,
+            "wire_f1": 0.6194
+          },
+          "wire_counts": {
+            "tp": 48,
+            "fp": 21,
+            "fn": 38,
+            "precision": 0.6957,
+            "recall": 0.5581,
+            "f1": 0.6194
+          },
+          "score_100": 71.0145
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.4889,
+            "wire_f1": 0.438
+          },
+          "wire_counts": {
+            "tp": 30,
+            "fp": 21,
+            "fn": 56,
+            "precision": 0.5882,
+            "recall": 0.3488,
+            "f1": 0.438
+          },
+          "score_100": 70.9995
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 0.9211,
+            "pin_f1": 0.875,
+            "connectivity_f1": 0.6139,
+            "wire_f1": 0.6194
+          },
+          "wire_counts": {
+            "tp": 48,
+            "fp": 21,
+            "fn": 38,
+            "precision": 0.6957,
+            "recall": 0.5581,
+            "f1": 0.6194
+          },
+          "score_100": 77.1885
+        }
+      }
+    },
+    {
+      "case": "13",
+      "variants": {
+        "baseline": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.3095
+          },
+          "wire_counts": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "score_100": 67.6645
+        },
+        "restore_existing_members": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.3095
+          },
+          "wire_counts": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "score_100": 67.6645
+        },
+        "restore_observed_power_contacts": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.3095
+          },
+          "wire_counts": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "score_100": 67.6645
+        },
+        "restore_physical_existing": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.3095
+          },
+          "wire_counts": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "score_100": 67.6645
+        },
+        "restore_physical_contacts": {
+          "metrics": {
+            "component_f1": 0.9231,
+            "pin_f1": 0.9565,
+            "connectivity_f1": 0.3704,
+            "wire_f1": 0.3095
+          },
+          "wire_counts": {
+            "tp": 13,
+            "fp": 22,
+            "fn": 36,
+            "precision": 0.3714,
+            "recall": 0.2653,
+            "f1": 0.3095
+          },
+          "score_100": 67.6645
+        }
+      }
+    }
+  ],
+  "network_order_invariance_passed": true,
+  "note": "Experimental diagnostic scorer. If calibration_passed is false, these values must not be represented as platform scores or used for deployment acceptance."
+}

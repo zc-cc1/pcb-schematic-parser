@@ -1,0 +1,383 @@
+{
+  "case": "11",
+  "pin": {
+    "tp": 11,
+    "fp": 1,
+    "fn": 9,
+    "precision": 0.9167,
+    "recall": 0.55,
+    "f1": 0.6875
+  },
+  "components": {
+    "tp": 8,
+    "fp": 4,
+    "fn": 7,
+    "precision": 0.6667,
+    "recall": 0.5333,
+    "f1": 0.5926
+  },
+  "wire": {
+    "tp": 18,
+    "fp": 11,
+    "fn": 6,
+    "precision": 0.6207,
+    "recall": 0.75,
+    "f1": 0.6792
+  },
+  "connectivity": 0.5595238095238095,
+  "score_100": 61.340833333333336,
+  "per_owner": {
+    "U1": {
+      "correct": 7,
+      "total": 8
+    },
+    "USB1": {
+      "correct": 4,
+      "total": 7
+    },
+    "USB2": {
+      "correct": 0,
+      "total": 5
+    }
+  },
+  "pins": [
+    {
+      "owner": "U1",
+      "ref": "U1.1",
+      "expected_name": "OUT",
+      "predicted": {
+        "pinname": "OUT",
+        "point": {
+          "x": 939.0,
+          "y": 399.0082884700969
+        }
+      },
+      "expected_point": {
+        "x": 937,
+        "y": 391
+      },
+      "error_px": 8.254252493126602,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.2",
+      "expected_name": "BAT",
+      "predicted": {
+        "pinname": "BAT",
+        "point": {
+          "x": 927.5,
+          "y": 371.5
+        }
+      },
+      "expected_point": {
+        "x": 937,
+        "y": 371
+      },
+      "error_px": 9.513148795220223,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.3",
+      "expected_name": "SW",
+      "predicted": {
+        "pinname": "SW",
+        "point": {
+          "x": 939.0,
+          "y": 351.9704633746296
+        }
+      },
+      "expected_point": {
+        "x": 937,
+        "y": 351
+      },
+      "error_px": 2.223015780757641,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.4",
+      "expected_name": "GND",
+      "predicted": {
+        "pinname": "GND",
+        "point": {
+          "x": 939.0,
+          "y": 331.86528888344765
+        }
+      },
+      "expected_point": {
+        "x": 937,
+        "y": 332
+      },
+      "error_px": 2.0045316372965485,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.5",
+      "expected_name": "SWT",
+      "predicted": {
+        "pinname": "SWT",
+        "point": {
+          "x": 1093.0,
+          "y": 331.61903154850006
+        }
+      },
+      "expected_point": {
+        "x": 1095,
+        "y": 332
+      },
+      "error_px": 2.035960942905895,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.6",
+      "expected_name": "VDD",
+      "predicted": null,
+      "expected_point": {
+        "x": 1095,
+        "y": 351
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.7",
+      "expected_name": "LED2",
+      "predicted": {
+        "pinname": "LED2",
+        "point": {
+          "x": 1093.0,
+          "y": 371.494650632143
+        }
+      },
+      "expected_point": {
+        "x": 1095,
+        "y": 371
+      },
+      "error_px": 2.060261936715691,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.8",
+      "expected_name": "LED1",
+      "predicted": {
+        "pinname": "LED1",
+        "point": {
+          "x": 1091.8485848158598,
+          "y": 391.1838244050741
+        }
+      },
+      "expected_point": {
+        "x": 1095,
+        "y": 391
+      },
+      "error_px": 3.156771938979802,
+      "correct_20px": true
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.7",
+      "expected_name": "EH",
+      "predicted": null,
+      "expected_point": {
+        "x": 97,
+        "y": 421
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.A12",
+      "expected_name": "GND",
+      "predicted": {
+        "pinname": "GND",
+        "point": {
+          "x": 292.0,
+          "y": 479.9804099854082
+        }
+      },
+      "expected_point": {
+        "x": 294,
+        "y": 480
+      },
+      "error_px": 2.0000959398668123,
+      "correct_20px": true
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.A9",
+      "expected_name": "VBUS",
+      "predicted": {
+        "pinname": "VBUS",
+        "point": {
+          "x": 292.0,
+          "y": 459.93065256625414
+        }
+      },
+      "expected_point": {
+        "x": 294,
+        "y": 460
+      },
+      "error_px": 2.001201905497578,
+      "correct_20px": true
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.A5",
+      "expected_name": "CC1",
+      "predicted": null,
+      "expected_point": {
+        "x": 294,
+        "y": 421
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.B5",
+      "expected_name": "CC2",
+      "predicted": null,
+      "expected_point": {
+        "x": 294,
+        "y": 440
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.B9",
+      "expected_name": "VBUS",
+      "predicted": {
+        "pinname": "VBUS",
+        "point": {
+          "x": 292.0,
+          "y": 400.303421407938
+        }
+      },
+      "expected_point": {
+        "x": 294,
+        "y": 401
+      },
+      "error_px": 2.1178342085534156,
+      "correct_20px": true
+    },
+    {
+      "owner": "USB1",
+      "ref": "USB1.B12",
+      "expected_name": "GND",
+      "predicted": {
+        "pinname": "GND",
+        "point": {
+          "x": 292.0,
+          "y": 381.5308330655098
+        }
+      },
+      "expected_point": {
+        "x": 294,
+        "y": 381
+      },
+      "error_px": 2.0692471441175235,
+      "correct_20px": true
+    },
+    {
+      "owner": "USB2",
+      "ref": "USB2.5",
+      "expected_name": "SHLD",
+      "predicted": null,
+      "expected_point": {
+        "x": 581,
+        "y": 381
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB2",
+      "ref": "USB2.4",
+      "expected_name": "GND",
+      "predicted": null,
+      "expected_point": {
+        "x": 739,
+        "y": 341
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB2",
+      "ref": "USB2.3",
+      "expected_name": "D+",
+      "predicted": null,
+      "expected_point": {
+        "x": 739,
+        "y": 361
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB2",
+      "ref": "USB2.2",
+      "expected_name": "D-",
+      "predicted": null,
+      "expected_point": {
+        "x": 739,
+        "y": 381
+      },
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "owner": "USB2",
+      "ref": "USB2.1",
+      "expected_name": "VCC",
+      "predicted": null,
+      "expected_point": {
+        "x": 739,
+        "y": 401
+      },
+      "error_px": null,
+      "correct_20px": false
+    }
+  ],
+  "extra_pin_keys": [
+    {
+      "owner": "U1",
+      "key": "pin_9",
+      "record": {
+        "pinname": "VDD",
+        "point": {
+          "x": 1093.0,
+          "y": 351.2850082218647
+        }
+      }
+    }
+  ],
+  "component_name_errors": [
+    {
+      "owner": "U1",
+      "actual_name": "U1",
+      "expected_name": "TP4333"
+    },
+    {
+      "owner": "USB1",
+      "actual_name": "USB1",
+      "expected_name": "TYPE-C 6P(073)"
+    },
+    {
+      "owner": "USB2",
+      "actual_name": "USB2",
+      "expected_name": "AF 90° WJDG"
+    }
+  ],
+  "new_inference_calls": 0,
+  "production_code_modified": false
+}

@@ -1,0 +1,125 @@
+{
+  "timestamp_utc": "2026-10-20T15:32:06.351848+00:00",
+  "cases_scored": 13,
+  "cases_skipped": 0,
+  "threshold_px": 20.0,
+  "weights": {
+    "component_f1": 0.3,
+    "pin_f1": 0.25,
+    "connectivity_f1": 0.35,
+    "wire_f1": 0.1
+  },
+  "macro_avg": {
+    "component_f1": 0.878183,
+    "pin_f1": 0.938643,
+    "connectivity_f1": 0.58417,
+    "wire_f1": 0.60735,
+    "final_score": 76.331022
+  },
+  "cases": [
+    {
+      "case": "1",
+      "component_f1": 0.778761,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.682606,
+      "wire_f1": 0.611111,
+      "final_score": 78.36515
+    },
+    {
+      "case": "10",
+      "component_f1": 0.931034,
+      "pin_f1": 0.75,
+      "connectivity_f1": 0.545858,
+      "wire_f1": 0.615385,
+      "final_score": 71.9399
+    },
+    {
+      "case": "11",
+      "component_f1": 0.592593,
+      "pin_f1": 0.6875,
+      "connectivity_f1": 0.559524,
+      "wire_f1": 0.679245,
+      "final_score": 61.34108
+    },
+    {
+      "case": "12",
+      "component_f1": 0.648649,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.566667,
+      "wire_f1": 0.5,
+      "final_score": 69.292815
+    },
+    {
+      "case": "13",
+      "component_f1": 0.923077,
+      "pin_f1": 0.956522,
+      "connectivity_f1": 0.310802,
+      "wire_f1": 0.309524,
+      "final_score": 65.57867
+    },
+    {
+      "case": "2",
+      "component_f1": 0.928571,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.933862,
+      "wire_f1": 0.809524,
+      "final_score": 93.63754
+    },
+    {
+      "case": "3",
+      "component_f1": 0.901961,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.76499,
+      "wire_f1": 0.608696,
+      "final_score": 84.92044
+    },
+    {
+      "case": "4",
+      "component_f1": 0.958333,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.3643,
+      "wire_f1": 0.691589,
+      "final_score": 73.41638
+    },
+    {
+      "case": "5",
+      "component_f1": 1.0,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.583616,
+      "wire_f1": 0.513761,
+      "final_score": 80.56417
+    },
+    {
+      "case": "6",
+      "component_f1": 0.921053,
+      "pin_f1": 0.875,
+      "connectivity_f1": 0.401005,
+      "wire_f1": 0.76129,
+      "final_score": 71.154665
+    },
+    {
+      "case": "7",
+      "component_f1": 1.0,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.591111,
+      "wire_f1": 0.58209,
+      "final_score": 81.509785
+    },
+    {
+      "case": "8",
+      "component_f1": 0.95,
+      "pin_f1": 0.933333,
+      "connectivity_f1": 0.817143,
+      "wire_f1": 0.78,
+      "final_score": 88.23333
+    },
+    {
+      "case": "9",
+      "component_f1": 0.882353,
+      "pin_f1": 1.0,
+      "connectivity_f1": 0.472727,
+      "wire_f1": 0.433333,
+      "final_score": 72.349365
+    }
+  ]
+}

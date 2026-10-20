@@ -1,0 +1,66 @@
+{
+  "case": "13",
+  "pin_owner_status": {
+    "assigned": 68,
+    "no_component_nearby": 29
+  },
+  "power_pins": [
+    {
+      "candidate": "PIN_CAND_0007",
+      "owner": "UNRESOLVED_DET_0010",
+      "type": "v",
+      "value": "VOUT",
+      "number": "1",
+      "duplicate_primary": null,
+      "attachment": "attached",
+      "network": "LOG_NET_CAND_00012",
+      "existing_net": false
+    },
+    {
+      "candidate": "PIN_CAND_0031",
+      "owner": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": "GND",
+      "number": "2",
+      "duplicate_primary": null,
+      "attachment": "attached",
+      "network": "LOG_NET_CAND_00049",
+      "existing_net": false
+    },
+    {
+      "candidate": "PIN_CAND_0052",
+      "owner": "UNRESOLVED_DET_0015",
+      "type": "v",
+      "value": "VIN",
+      "number": "1",
+      "duplicate_primary": null,
+      "attachment": "no_wire_within_radius",
+      "network": null,
+      "existing_net": false
+    },
+    {
+      "candidate": "PIN_CAND_0059",
+      "owner": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": "GND",
+      "number": "3",
+      "duplicate_primary": "PIN_CAND_0031",
+      "attachment": "attached",
+      "network": "LOG_NET_CAND_00009",
+      "existing_net": true
+    },
+    {
+      "candidate": "PIN_CAND_0071",
+      "owner": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": "GND",
+      "number": "1",
+      "duplicate_primary": null,
+      "attachment": "no_wire_within_radius",
+      "network": null,
+      "existing_net": false
+    }
+  ],
+  "numbered_candidates": 64,
+  "pin_candidates": 97
+}

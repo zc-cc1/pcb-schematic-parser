@@ -1,0 +1,263 @@
+{
+  "case": "1",
+  "prediction": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pin_numeric_connector_implementation_20261020\\deployed\\1_Pred.json",
+  "IC_pin_score": {
+    "tp": 40,
+    "fp": 6,
+    "fn": 0,
+    "precision": 0.8696,
+    "recall": 1.0,
+    "f1": 0.9302
+  },
+  "scored_fp_records": [
+    {
+      "owner": "SW2",
+      "key": "pin_14",
+      "name": "14",
+      "point": [
+        1177.5,
+        193.31777212023735
+      ],
+      "predicted_type": "box",
+      "reference_type": "switch",
+      "same_number_error_px": 0.5924349081545931,
+      "nearest_reference_key": "pin_14",
+      "nearest_reference_error_px": 0.5924349081545931,
+      "network_references": []
+    },
+    {
+      "owner": "SW2",
+      "key": "pin_2",
+      "name": "2",
+      "point": [
+        1235.9953307239339,
+        310.5
+      ],
+      "predicted_type": "box",
+      "reference_type": "switch",
+      "same_number_error_px": 156.50000006965539,
+      "nearest_reference_key": "pin_11",
+      "nearest_reference_error_px": 1.5000072673620557,
+      "network_references": [
+        "LOG_NET_CAND_00016"
+      ]
+    },
+    {
+      "owner": "SW2",
+      "key": "pin_13",
+      "name": "13",
+      "point": [
+        1177.5,
+        272.66662511229515
+      ],
+      "predicted_type": "box",
+      "reference_type": "switch",
+      "same_number_error_px": 0.8333000902091169,
+      "nearest_reference_key": "pin_13",
+      "nearest_reference_error_px": 0.8333000902091169,
+      "network_references": []
+    },
+    {
+      "owner": "SW2",
+      "key": "pin_6",
+      "name": "6",
+      "point": [
+        1334.470896333456,
+        155.5
+      ],
+      "predicted_type": "box",
+      "reference_type": "switch",
+      "same_number_error_px": 1.5905818715018296,
+      "nearest_reference_key": "pin_6",
+      "nearest_reference_error_px": 1.5905818715018296,
+      "network_references": [
+        "LOG_NET_CAND_00012"
+      ]
+    },
+    {
+      "owner": "H2",
+      "key": "pin_1",
+      "name": "1",
+      "point": [
+        1489.1969656944275,
+        677.372367978096
+      ],
+      "predicted_type": "box",
+      "reference_type": "pin",
+      "same_number_error_px": 12.202648485560516,
+      "nearest_reference_key": "pin_1",
+      "nearest_reference_error_px": 12.202648485560516,
+      "network_references": [
+        "LOG_NET_CAND_00007"
+      ]
+    },
+    {
+      "owner": "H1",
+      "key": "pin_1",
+      "name": "1",
+      "point": [
+        1337.446915358305,
+        855.672861546278
+      ],
+      "predicted_type": "box",
+      "reference_type": "pin",
+      "same_number_error_px": 12.465089032865668,
+      "nearest_reference_key": "pin_1",
+      "nearest_reference_error_px": 12.465089032865668,
+      "network_references": []
+    }
+  ],
+  "source_classifications": [
+    {
+      "component_id": "SW2",
+      "type": "ic",
+      "detection_confidence": 0.846698,
+      "bbox_top_left": [
+        1174.859,
+        838.939,
+        1368.526,
+        989.454
+      ]
+    },
+    {
+      "component_id": "H2",
+      "type": "ic",
+      "detection_confidence": 0.782839,
+      "bbox_top_left": [
+        1483.112,
+        455.993,
+        1542.686,
+        487.412
+      ]
+    },
+    {
+      "component_id": "H1",
+      "type": "ic",
+      "detection_confidence": 0.722065,
+      "bbox_top_left": [
+        1331.986,
+        277.33,
+        1390.602,
+        310.105
+      ]
+    }
+  ],
+  "switch_all_pin_diagnostic": [
+    {
+      "key": "pin_1",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_2",
+      "exported": true,
+      "error_px": 156.50000006965539,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_3",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_4",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_5",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_6",
+      "exported": true,
+      "error_px": 1.5905818715018296,
+      "correct_20px": true
+    },
+    {
+      "key": "pin_7",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_8",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_9",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_10",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_11",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_12",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_13",
+      "exported": true,
+      "error_px": 0.8333000902091169,
+      "correct_20px": true
+    },
+    {
+      "key": "pin_14",
+      "exported": true,
+      "error_px": 0.5924349081545931,
+      "correct_20px": true
+    },
+    {
+      "key": "pin_15",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    },
+    {
+      "key": "pin_16",
+      "exported": false,
+      "error_px": null,
+      "correct_20px": false
+    }
+  ],
+  "switch_summary": {
+    "reference_pin_count": 16,
+    "exported_pin_count": 4,
+    "correct_20px": 3,
+    "wrong_records": 1,
+    "absent_keys": 12,
+    "not_correctly_matched": 13
+  },
+  "classification_only_diagnostic_IC_pin_score": {
+    "tp": 40,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "classification_diagnostic_uses_reference_types_and_is_not_an_inference_rule": true,
+  "new_model_calls": 0,
+  "new_ocr_calls": 0,
+  "production_code_modified": false
+}

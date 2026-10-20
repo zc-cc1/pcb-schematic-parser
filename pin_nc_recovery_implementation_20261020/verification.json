@@ -1,0 +1,154 @@
+{
+  "release_hashes_verified": true,
+  "unit_tests_passed": 156,
+  "new_tests": 23,
+  "unchanged_pages": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "added_pins": [
+    {
+      "case": "8",
+      "owner": "U1",
+      "key": "pin_2",
+      "pin": {
+        "pinname": "NC",
+        "point": {
+          "x": 977.5,
+          "y": 502
+        }
+      }
+    },
+    {
+      "case": "8",
+      "owner": "U1",
+      "key": "pin_16",
+      "pin": {
+        "pinname": "NC",
+        "point": {
+          "x": 977.5,
+          "y": 462
+        }
+      }
+    }
+  ],
+  "all_existing_pin_records_preserved": true,
+  "all_components_networks_and_wires_preserved": true,
+  "fresh_local_ocr_matches_cache": true,
+  "fresh_local_ocr_calls": 12,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "aggregate_pins": {
+    "before": {
+      "tp": 176,
+      "fp": 10,
+      "fn": 15
+    },
+    "after": {
+      "tp": 178,
+      "fp": 10,
+      "fn": 13
+    }
+  },
+  "entrypoint": {
+    "mode": "cached_model_and_ocr_live_entrypoint",
+    "cases": [
+      {
+        "case": "1",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "2",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "4",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "5",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "6",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "8",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "nc_recovery_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 2,
+          "changed_networks": 0,
+          "ocr_calls": 12
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      }
+    ],
+    "kept_work": true,
+    "runtime": "deployed"
+  }
+}

@@ -1,0 +1,777 @@
+[
+  {
+    "case": "1",
+    "image": "D:\\pcb_open_gt_in\\1.png",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_i9t7t58s",
+    "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+    "components": [
+      {
+        "owner": "U3",
+        "index": 0,
+        "bbox": [
+          1332.059,
+          515.225,
+          1454.952,
+          606.113
+        ],
+        "type": "ic",
+        "candidate_count": 5,
+        "exported_pins": 4,
+        "missing_number": 1,
+        "missing_name": 0,
+        "candidate_ids": [
+          "PIN_CAND_0001",
+          "PIN_CAND_0032",
+          "PIN_CAND_0081",
+          "PIN_CAND_0084",
+          "PIN_CAND_0093"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0093",
+            "point": [
+              1331.8025059103966,
+              549.493056088686
+            ],
+            "number": null,
+            "name": "VM",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          }
+        ]
+      },
+      {
+        "owner": "USB1",
+        "index": 3,
+        "bbox": [
+          119.975,
+          177.616,
+          268.967,
+          447.798
+        ],
+        "type": "ic",
+        "candidate_count": 11,
+        "exported_pins": 8,
+        "missing_number": 3,
+        "missing_name": 0,
+        "candidate_ids": [
+          "PIN_CAND_0019",
+          "PIN_CAND_0030",
+          "PIN_CAND_0046",
+          "PIN_CAND_0059",
+          "PIN_CAND_0083",
+          "PIN_CAND_0098",
+          "PIN_CAND_0101",
+          "PIN_CAND_0123",
+          "PIN_CAND_0146",
+          "PIN_CAND_0158",
+          "PIN_CAND_0164"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0098",
+            "point": [
+              266.03494491800666,
+              263.2293096780777
+            ],
+            "number": null,
+            "name": "SBU1",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          },
+          {
+            "id": "PIN_CAND_0123",
+            "point": [
+              263.85470351576805,
+              420.5265229344368
+            ],
+            "number": null,
+            "name": "GND",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_v2_missing_name_fill"
+          },
+          {
+            "id": "PIN_CAND_0158",
+            "point": [
+              261.7840058654547,
+              302.43458876013756
+            ],
+            "number": null,
+            "name": "DN1",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          }
+        ]
+      },
+      {
+        "owner": "USB2",
+        "index": 6,
+        "bbox": [
+          1565.288,
+          73.885,
+          1722.424,
+          195.603
+        ],
+        "type": "ic",
+        "candidate_count": 8,
+        "exported_pins": 3,
+        "missing_number": 3,
+        "missing_name": 4,
+        "candidate_ids": [
+          "PIN_CAND_0037",
+          "PIN_CAND_0062",
+          "PIN_CAND_0069",
+          "PIN_CAND_0092",
+          "PIN_CAND_0107",
+          "PIN_CAND_0135",
+          "PIN_CAND_0155",
+          "PIN_CAND_0159"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0092",
+            "point": [
+              1650.2646243274212,
+              77.81866651773453
+            ],
+            "number": "6",
+            "name": null,
+            "number_status": "targeted_OCR_number_strip",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0107",
+            "point": [
+              1574.3496566712856,
+              125.37200438976288
+            ],
+            "number": null,
+            "name": "D-",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_v2_missing_name_fill"
+          },
+          {
+            "id": "PIN_CAND_0135",
+            "point": [
+              1650.9186462834477,
+              49.086204662919044
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "ambiguous_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0155",
+            "point": [
+              1645.612586915493,
+              224.3618398308754
+            ],
+            "number": "5",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0159",
+            "point": [
+              1661.7679846137762,
+              184.12975406646729
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          }
+        ]
+      },
+      {
+        "owner": "SW2",
+        "index": 24,
+        "bbox": [
+          1174.859,
+          838.939,
+          1368.526,
+          989.454
+        ],
+        "type": "ic",
+        "candidate_count": 18,
+        "exported_pins": 4,
+        "missing_number": 8,
+        "missing_name": 14,
+        "candidate_ids": [
+          "PIN_CAND_0025",
+          "PIN_CAND_0061",
+          "PIN_CAND_0065",
+          "PIN_CAND_0080",
+          "PIN_CAND_0086",
+          "PIN_CAND_0087",
+          "PIN_CAND_0094",
+          "PIN_CAND_0100",
+          "PIN_CAND_0105",
+          "PIN_CAND_0113",
+          "PIN_CAND_0116",
+          "PIN_CAND_0118",
+          "PIN_CAND_0127",
+          "PIN_CAND_0129",
+          "PIN_CAND_0130",
+          "PIN_CAND_0131",
+          "PIN_CAND_0132",
+          "PIN_CAND_0134"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0061",
+            "point": [
+              1334.65264326334,
+              843.84951646626
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0065",
+            "point": [
+              1295.190453916788,
+              978.83945068717
+            ],
+            "number": "4",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0080",
+            "point": [
+              1275.858611896634,
+              982.1265496462584
+            ],
+            "number": "3",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0086",
+            "point": [
+              1371.2480264008045,
+              876.8465929478407
+            ],
+            "number": "16",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0087",
+            "point": [
+              1295.5166746079922,
+              847.6669098436832
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0094",
+            "point": [
+              1275.6647548377514,
+              849.4505214691162
+            ],
+            "number": "0",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0105",
+            "point": [
+              1314.277374714613,
+              839.6955813765526
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0118",
+            "point": [
+              1215.6715322732925,
+              989.323330193758
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "text_used_by_other_pin",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0127",
+            "point": [
+              1368.6891276538372,
+              955.0636867433786
+            ],
+            "number": "15",
+            "name": null,
+            "number_status": "observed_targeted_local_OCR_missing_field_fill",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0129",
+            "point": [
+              1216.8871206194162,
+              854.8345169275999
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0130",
+            "point": [
+              1314.657488256693,
+              978.6075697541237
+            ],
+            "number": "5",
+            "name": null,
+            "number_status": "observed_OCR_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0131",
+            "point": [
+              1235.9041032865644,
+              980.4649983346462
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "ambiguous_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0132",
+            "point": [
+              1333.478580325842,
+              987.3633378148079
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "ambiguous_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0134",
+            "point": [
+              1353.43004488945,
+              909.075753480196
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          }
+        ]
+      },
+      {
+        "owner": "H2",
+        "index": 50,
+        "bbox": [
+          1483.112,
+          455.993,
+          1542.686,
+          487.412
+        ],
+        "type": "ic",
+        "candidate_count": 3,
+        "exported_pins": 1,
+        "missing_number": 2,
+        "missing_name": 2,
+        "candidate_ids": [
+          "PIN_CAND_0034",
+          "PIN_CAND_0142",
+          "PIN_CAND_0162"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0142",
+            "point": [
+              1527.3162975609303,
+              480.7804159671068
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0162",
+            "point": [
+              1518.0700513198972,
+              481.8383089900017
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "10",
+    "image": "D:\\pcb_open_gt_in\\10.png",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_701vy31t",
+    "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+    "components": [
+      {
+        "owner": "U2",
+        "index": 0,
+        "bbox": [
+          1596.511,
+          273.226,
+          1733.054,
+          384.55
+        ],
+        "type": "ic",
+        "candidate_count": 4,
+        "exported_pins": 3,
+        "missing_number": 2,
+        "missing_name": 2,
+        "candidate_ids": [
+          "PIN_CAND_0053",
+          "PIN_CAND_0063",
+          "PIN_CAND_0067",
+          "PIN_CAND_0069"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0053",
+            "point": [
+              1664.2012190520763,
+              252.3279466032982
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "ambiguous_text",
+            "name_status": "text_used_by_other_pin"
+          },
+          {
+            "id": "PIN_CAND_0067",
+            "point": [
+              1664.2166015654802,
+              276.4763951599598
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "text_used_by_other_pin",
+            "name_status": "ambiguous_text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "11",
+    "image": "D:\\pcb_open_gt_in\\11.png",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_y5bbxjt1",
+    "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+    "components": [
+      {
+        "owner": "USB1",
+        "index": 0,
+        "bbox": [
+          118.793,
+          262.305,
+          279.234,
+          416.311
+        ],
+        "type": "ic",
+        "candidate_count": 9,
+        "exported_pins": 4,
+        "missing_number": 4,
+        "missing_name": 4,
+        "candidate_ids": [
+          "PIN_CAND_0003",
+          "PIN_CAND_0006",
+          "PIN_CAND_0009",
+          "PIN_CAND_0010",
+          "PIN_CAND_0015",
+          "PIN_CAND_0036",
+          "PIN_CAND_0051",
+          "PIN_CAND_0055",
+          "PIN_CAND_0057"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0010",
+            "point": [
+              122.97403449937701,
+              349.65828081965446
+            ],
+            "number": null,
+            "name": "A5",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          },
+          {
+            "id": "PIN_CAND_0036",
+            "point": [
+              289.7614815682173,
+              357.92086543142796
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "ambiguous_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0051",
+            "point": [
+              276.5522937178612,
+              328.9060939177871
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "text_used_by_other_pin",
+            "name_status": "ambiguous_text"
+          },
+          {
+            "id": "PIN_CAND_0055",
+            "point": [
+              275.2427833080292,
+              351.12446761876345
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "text_used_by_other_pin",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0057",
+            "point": [
+              296.6142399907112,
+              327.5772295296192
+            ],
+            "number": "5",
+            "name": null,
+            "number_status": "targeted_OCR_number_strip",
+            "name_status": "text_used_by_other_pin"
+          }
+        ]
+      },
+      {
+        "owner": "USB2",
+        "index": 3,
+        "bbox": [
+          599.697,
+          343.505,
+          708.497,
+          456.486
+        ],
+        "type": "ic",
+        "candidate_count": 7,
+        "exported_pins": 0,
+        "missing_number": 7,
+        "missing_name": 5,
+        "candidate_ids": [
+          "PIN_CAND_0018",
+          "PIN_CAND_0024",
+          "PIN_CAND_0030",
+          "PIN_CAND_0034",
+          "PIN_CAND_0042",
+          "PIN_CAND_0049",
+          "PIN_CAND_0056"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0018",
+            "point": [
+              735.9548033103347,
+              428.7717866152525
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "text_used_by_other_pin"
+          },
+          {
+            "id": "PIN_CAND_0024",
+            "point": [
+              735.5836396217346,
+              370.28679445385933
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0030",
+            "point": [
+              707.1893232911825,
+              369.27947452664375
+            ],
+            "number": null,
+            "name": "VCC",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          },
+          {
+            "id": "PIN_CAND_0034",
+            "point": [
+              716.8435782194138,
+              428.86721032857895
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "ambiguous_text"
+          },
+          {
+            "id": "PIN_CAND_0042",
+            "point": [
+              741.252730935812,
+              406.51640102267265
+            ],
+            "number": null,
+            "name": "D+",
+            "number_status": "no_reliable_text",
+            "name_status": "observed_OCR_text"
+          },
+          {
+            "id": "PIN_CAND_0049",
+            "point": [
+              737.1458382606506,
+              391.5625974535942
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "ambiguous_text"
+          },
+          {
+            "id": "PIN_CAND_0056",
+            "point": [
+              606.283121496439,
+              390.57749915122986
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "text_used_by_other_pin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "case": "13",
+    "image": "D:\\pcb_open_gt_in\\13.png",
+    "work": "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\candidate_path\\work\\pcb_3uq099b5",
+    "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+    "components": [
+      {
+        "owner": "U1",
+        "index": 0,
+        "bbox": [
+          255.255,
+          341.853,
+          528.076,
+          535.109
+        ],
+        "type": "ic",
+        "candidate_count": 11,
+        "exported_pins": 9,
+        "missing_number": 2,
+        "missing_name": 2,
+        "candidate_ids": [
+          "PIN_CAND_0002",
+          "PIN_CAND_0014",
+          "PIN_CAND_0015",
+          "PIN_CAND_0016",
+          "PIN_CAND_0017",
+          "PIN_CAND_0018",
+          "PIN_CAND_0019",
+          "PIN_CAND_0058",
+          "PIN_CAND_0092",
+          "PIN_CAND_0093",
+          "PIN_CAND_0096"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0058",
+            "point": [
+              285.94123880565166,
+              343.85284774005413
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "text_used_by_other_pin"
+          },
+          {
+            "id": "PIN_CAND_0093",
+            "point": [
+              246.19379670917988,
+              410.1346571445465
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          }
+        ]
+      },
+      {
+        "owner": "H1",
+        "index": 2,
+        "bbox": [
+          1267.467,
+          284.252,
+          1358.908,
+          420.367
+        ],
+        "type": "ic",
+        "candidate_count": 4,
+        "exported_pins": 2,
+        "missing_number": 2,
+        "missing_name": 2,
+        "candidate_ids": [
+          "PIN_CAND_0005",
+          "PIN_CAND_0046",
+          "PIN_CAND_0081",
+          "PIN_CAND_0087"
+        ],
+        "missing": [
+          {
+            "id": "PIN_CAND_0046",
+            "point": [
+              1252.8122390955687,
+              381.9078892543912
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          },
+          {
+            "id": "PIN_CAND_0087",
+            "point": [
+              1295.7894714027643,
+              282.85813495516777
+            ],
+            "number": null,
+            "name": null,
+            "number_status": "no_reliable_text",
+            "name_status": "no_reliable_text"
+          }
+        ]
+      }
+    ]
+  }
+]

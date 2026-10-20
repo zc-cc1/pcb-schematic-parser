@@ -1,0 +1,180 @@
+[
+  {
+    "owner": "USB1",
+    "field": "number",
+    "value": "7",
+    "support": {
+      "7": 2
+    },
+    "readings": [
+      {
+        "text": "7",
+        "confidence": 0.99995,
+        "bbox": [
+          0,
+          0,
+          16,
+          18
+        ],
+        "view": "row_grouped_USB1_number_p4_s3.0"
+      },
+      {
+        "text": "7",
+        "confidence": 0.99996,
+        "bbox": [
+          0,
+          0,
+          16,
+          18
+        ],
+        "view": "row_grouped_USB1_number_p4_s5.0"
+      }
+    ],
+    "crop": [
+      111,
+      332,
+      134,
+      353
+    ],
+    "glyph_bbox": [
+      119,
+      339,
+      127,
+      349
+    ],
+    "pad": 4
+  },
+  {
+    "owner": "USB1",
+    "field": "number",
+    "value": null,
+    "support": {
+      "7": 1
+    },
+    "readings": [
+      {
+        "text": "7",
+        "confidence": 0.97942,
+        "bbox": [
+          0,
+          0,
+          24,
+          26
+        ],
+        "view": "row_grouped_USB1_number_p8_s3.0"
+      },
+      {
+        "text": "7",
+        "confidence": 0.9803,
+        "bbox": [
+          0,
+          0,
+          24,
+          26
+        ],
+        "view": "row_grouped_USB1_number_p8_s5.0"
+      }
+    ],
+    "crop": [
+      111,
+      332,
+      134,
+      353
+    ],
+    "glyph_bbox": [
+      119,
+      339,
+      127,
+      349
+    ],
+    "pad": 8
+  },
+  {
+    "owner": "USB2",
+    "field": "name",
+    "value": "VCC",
+    "support": {
+      "VCC": 2
+    },
+    "readings": [
+      {
+        "text": "VCC",
+        "confidence": 0.98198,
+        "bbox": [
+          0,
+          0,
+          38,
+          18
+        ],
+        "view": "row_grouped_USB2_name_p4_s3.0"
+      },
+      {
+        "text": "VCC",
+        "confidence": 0.98026,
+        "bbox": [
+          0,
+          0,
+          38,
+          18
+        ],
+        "view": "row_grouped_USB2_name_p4_s5.0"
+      }
+    ],
+    "crop": [
+      654,
+      358,
+      696,
+      382
+    ],
+    "glyph_bbox": [
+      660,
+      366,
+      690,
+      376
+    ],
+    "pad": 4
+  },
+  {
+    "owner": "USB2",
+    "field": "name",
+    "value": null,
+    "support": {},
+    "readings": [
+      {
+        "text": "VCC",
+        "confidence": 0.96323,
+        "bbox": [
+          0,
+          0,
+          46,
+          26
+        ],
+        "view": "row_grouped_USB2_name_p8_s3.0"
+      },
+      {
+        "text": "VCC",
+        "confidence": 0.95545,
+        "bbox": [
+          0,
+          0,
+          46,
+          26
+        ],
+        "view": "row_grouped_USB2_name_p8_s5.0"
+      }
+    ],
+    "crop": [
+      654,
+      358,
+      696,
+      382
+    ],
+    "glyph_bbox": [
+      660,
+      366,
+      690,
+      376
+    ],
+    "pad": 8
+  }
+]

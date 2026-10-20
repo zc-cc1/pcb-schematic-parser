@@ -18,7 +18,7 @@ import torch
 
 from pcb_parser.pin_ownership import normalized_components,associate_pins
 from pcb_parser.pin_ownership_visual import draw_ownership
-from pcb_parser.unet_model import WirePinUNet
+from pcb_parser.unet_checkpoint import load_wire_pin_checkpoint
 from pcb_parser.unet_inference import predict_configured,decode_pins
 
 
@@ -109,18 +109,18 @@ def main():
             weights=ROOT/'runs/training/unet_wire_pin_v1/best.pt'
         if sha(weights)!=unet_cfg['checkpoint_sha256']:
             raise ValueError('U-Net checkpoint does not match calibrated inference settings')
-        checkpoint=torch.load(weights,map_location='cpu',weights_only=True)
-        if checkpoint['kind'] in {'cpu_smoke_only','partial_training_debug'}:
-            raise ValueError('Debug checkpoint cannot be used for pin ownership inference')
-        model=WirePinUNet(checkpoint['base_channels'])
-        model.load_state_dict(checkpoint['state_dict'],strict=True)
-        model.to(args.device).eval()
+        model,checkpoint,unet_info=load_wire_pin_checkpoint(weights,args.device)
+        if unet_info['sha256']!=sha(weights):
+            raise ValueError('U-Net checkpoint hash changed while loading')
+        if unet_cfg.get('model_variant') and unet_cfg['model_variant']!=unet_info['model_variant']:
+            raise ValueError('U-Net inference config was calibrated for a different architecture')
         probability=predict_configured(model,rgb,args.device,checkpoint['config'],unet_cfg)
         wire=probability[0]
         candidates=decode_pins(probability[1],unet_cfg['pin_threshold'],unet_cfg['pin_peak_kernel'],
                                unet_cfg['pin_refinement'],unet_cfg['pin_nms_radius'],unet_cfg['pin_candidate_limit'])
         pin_payload={'image_sha256':image_hash,'size':size,'coordinate_origin':'top_left',
-                     'weights_sha256':sha(weights),'inference_config_sha256':sha(args.unet_inference_config),
+                     'weights_sha256':unet_info['sha256'],'inference_config_sha256':sha(args.unet_inference_config),
+                     'unet_model_variant':unet_info['model_variant'],
                      'pin_candidates':candidates,'source':'PNG_model_inference'}
         args.output.mkdir(parents=True,exist_ok=True)
         np.savez_compressed(args.output/'probabilities.npz',wire=wire,pin_tip=probability[1])
@@ -134,7 +134,8 @@ def main():
     components=normalized_components(detections,detector_cfg['class_mapping'],records)
     result=associate_pins(candidates,components,cfg,size,wire)
     result.update(image_sha256=image_hash,association_config_sha256=sha(args.config),
-                  detector_weights_sha256=detector_hash,unet_weights_sha256=unet_cfg['checkpoint_sha256'],
+                  detector_weights_sha256=detector_hash,unet_weights_sha256=unet_info['sha256'],
+                  unet_model_variant=unet_info['model_variant'],
                   used_detector_cache=bool(args.detections),used_pin_cache=bool(args.pin_predictions),
                   OCR_component_records_used=bool(args.component_records),wall_seconds=time.perf_counter()-start)
     save(args.output/'detector_predictions.json',detector_payload)

@@ -1,0 +1,710 @@
+{
+  "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+  "size": [
+    2222,
+    1199
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "engineering_config_sha256": "30ddc7e8128e145ebbc87c669c76baa1ea81d0e86ab2b334cedbebc6c9f7a3fb",
+  "input_sha256": {
+    "/tmp/pcb_umonkkm7/p/observed_model_stage/completed_pin_text_result.json": "47833fecd64adeca78115fbe84fa452e83127b3e6d2b4773c79511414621becf",
+    "/tmp/pcb_umonkkm7/p/observed_model_stage/graph_proposals.json": "e5f90602f68f381968f51487031a25c5acba2e109c0ac8741d56aa0dc82ab861",
+    "/tmp/pcb_umonkkm7/p/observed_model_stage/completed_component_records.json": "642cbfdb4ef4feab00c95d5c33ba33a9f43c044a28f43d2a34a0b30443409098",
+    "/tmp/pcb_umonkkm7/p/observed_model_stage/proposal_export/partial_submission.json": "7618d931c2f41eba3d65eb9776a46382a4791ab5e7b1e6dd68cdc1d570cbf133",
+    "/tmp/pcb_umonkkm7/p/observed_model_stage/proposal_export/conservative_export_coverage.json": "902e0d6dacbad8db5c55ec5f8f2f9d5fb4a20c360083bb920151c8ee82db98ea"
+  },
+  "profile": "engineering_only_provisional_numbering",
+  "official_numbering_verified": false,
+  "networks": [
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "all_original_member_ids": [
+        "PIN_CAND_0001",
+        "PIN_CAND_0009",
+        "PIN_CAND_0015",
+        "PIN_CAND_0034"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0001": "PIN_CAND_0001",
+        "PIN_CAND_0009": "PIN_CAND_0009",
+        "PIN_CAND_0015": "PIN_CAND_0015",
+        "PIN_CAND_0034": "PIN_CAND_0034"
+      },
+      "all_pin_references": [
+        "L1.2",
+        "C1.1",
+        "U2.6"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00013",
+        "W00016",
+        "W00017",
+        "W00025_1",
+        "W00025_2",
+        "W00026"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0001",
+          "contact_candidate_id": "PIN_CAND_0001",
+          "pin_reference": "L1.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0009",
+          "contact_candidate_id": "PIN_CAND_0009",
+          "pin_reference": "C1.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0015",
+          "contact_candidate_id": "PIN_CAND_0015",
+          "pin_reference": "U2.9",
+          "number_source": "targeted_OCR_number_strip",
+          "name_source": "text_used_by_other_pin",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0034",
+          "contact_candidate_id": "PIN_CAND_0034",
+          "pin_reference": "U2.6",
+          "number_source": "targeted_OCR_number_strip",
+          "name_source": "ambiguous_text",
+          "engineering_fields": []
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00005",
+      "all_original_member_ids": [
+        "PIN_CAND_0021",
+        "PIN_CAND_0022",
+        "PIN_CAND_0027",
+        "PIN_CAND_0032",
+        "PIN_CAND_0033"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0021": "PIN_CAND_0021",
+        "PIN_CAND_0022": "PIN_CAND_0022",
+        "PIN_CAND_0027": "PIN_CAND_0027",
+        "PIN_CAND_0032": "PIN_CAND_0032",
+        "PIN_CAND_0033": "PIN_CAND_0033"
+      },
+      "all_pin_references": [
+        "R1.1",
+        "R2.2",
+        "U2.3",
+        "R2.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 4,
+      "model_edge_ids": [
+        "W00020",
+        "W00030_1",
+        "W00030_2",
+        "W00031",
+        "W00032_1",
+        "W00032_2"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0021",
+          "contact_candidate_id": "PIN_CAND_0021",
+          "pin_reference": "R1.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0022",
+          "contact_candidate_id": "PIN_CAND_0022",
+          "pin_reference": "R2.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0027",
+          "contact_candidate_id": "PIN_CAND_0027",
+          "pin_reference": "U2.None",
+          "number_source": "ambiguous_text",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0032",
+          "contact_candidate_id": "PIN_CAND_0032",
+          "pin_reference": "U2.3",
+          "number_source": "text_used_by_other_pin",
+          "name_source": "observed_OCR_v2_missing_name_fill",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0033",
+          "contact_candidate_id": "PIN_CAND_0033",
+          "pin_reference": "R2.3",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "all_original_member_ids": [
+        "PIN_CAND_0016",
+        "PIN_CAND_0018",
+        "PIN_CAND_0020",
+        "PIN_CAND_0029"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0016": "PIN_CAND_0016",
+        "PIN_CAND_0018": "PIN_CAND_0018",
+        "PIN_CAND_0020": "PIN_CAND_0020",
+        "PIN_CAND_0029": "PIN_CAND_0029"
+      },
+      "all_pin_references": [
+        "U2.2",
+        "R2.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00027_1",
+        "W00027_2",
+        "W00033",
+        "W00038",
+        "W00041",
+        "W00042",
+        "W00043"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0016",
+          "contact_candidate_id": "PIN_CAND_0016",
+          "pin_reference": "U2.None",
+          "number_source": "ambiguous_text",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0018",
+          "contact_candidate_id": "PIN_CAND_0018",
+          "pin_reference": "UNRESOLVED_DET_0002.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0020",
+          "contact_candidate_id": "PIN_CAND_0020",
+          "pin_reference": "U2.2",
+          "number_source": "localized_RGB_pin_field_recovery",
+          "name_source": "observed_OCR_v2_missing_name_fill",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0029",
+          "contact_candidate_id": "PIN_CAND_0029",
+          "pin_reference": "R2.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "all_original_member_ids": [
+        "PIN_CAND_0037"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0037": "PIN_CAND_0037"
+      },
+      "all_pin_references": [
+        "C2.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00004"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0037",
+          "contact_candidate_id": "PIN_CAND_0037",
+          "pin_reference": "C2.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "all_original_member_ids": [
+        "PIN_CAND_0014"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0014": "PIN_CAND_0014"
+      },
+      "all_pin_references": [
+        "C3.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00005"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0014",
+          "contact_candidate_id": "PIN_CAND_0014",
+          "pin_reference": "C3.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00010",
+      "all_original_member_ids": [
+        "PIN_CAND_0019"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0019": "PIN_CAND_0019"
+      },
+      "all_pin_references": [
+        "C3.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00006"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0019",
+          "contact_candidate_id": "PIN_CAND_0019",
+          "pin_reference": "C3.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "all_original_member_ids": [
+        "PIN_CAND_0031"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0031": "PIN_CAND_0031"
+      },
+      "all_pin_references": [
+        "C2.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00007"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0031",
+          "contact_candidate_id": "PIN_CAND_0031",
+          "pin_reference": "C2.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00012",
+      "all_original_member_ids": [
+        "PIN_CAND_0005",
+        "PIN_CAND_0030",
+        "PIN_CAND_0040"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0005": "PIN_CAND_0005",
+        "PIN_CAND_0030": "PIN_CAND_0030",
+        "PIN_CAND_0040": "PIN_CAND_0040"
+      },
+      "all_pin_references": [
+        "R1.2",
+        "R1.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00010_1",
+        "W00010_2"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0005",
+          "contact_candidate_id": "PIN_CAND_0005",
+          "pin_reference": "UNRESOLVED_DET_0018.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0030",
+          "contact_candidate_id": "PIN_CAND_0030",
+          "pin_reference": "R1.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0040",
+          "contact_candidate_id": "PIN_CAND_0040",
+          "pin_reference": "R1.3",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "all_original_member_ids": [
+        "PIN_CAND_0004",
+        "PIN_CAND_0036",
+        "PIN_CAND_0038",
+        "PIN_CAND_0039"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0004": "PIN_CAND_0004",
+        "PIN_CAND_0036": "PIN_CAND_0036",
+        "PIN_CAND_0038": "PIN_CAND_0038",
+        "PIN_CAND_0039": "PIN_CAND_0039"
+      },
+      "all_pin_references": [
+        "U2.1",
+        "C1.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 2,
+      "model_edge_ids": [
+        "W00011_1",
+        "W00011_2",
+        "W00011_3"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0004",
+          "contact_candidate_id": "PIN_CAND_0004",
+          "pin_reference": "U2.1",
+          "number_source": "targeted_OCR_number_strip",
+          "name_source": "ambiguous_text",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0036",
+          "contact_candidate_id": "PIN_CAND_0036",
+          "pin_reference": "None.None",
+          "number_source": "owner_unresolved",
+          "name_source": "owner_unresolved",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0038",
+          "contact_candidate_id": "PIN_CAND_0038",
+          "pin_reference": "U2.None",
+          "number_source": "no_reliable_text",
+          "name_source": "text_used_by_other_pin",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0039",
+          "contact_candidate_id": "PIN_CAND_0039",
+          "pin_reference": "C1.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00014",
+      "all_original_member_ids": [
+        "PIN_CAND_0028"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0028": "PIN_CAND_0028"
+      },
+      "all_pin_references": [
+        "C1.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00012"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0028",
+          "contact_candidate_id": "PIN_CAND_0028",
+          "pin_reference": "C1.3",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00017",
+      "all_original_member_ids": [
+        "PIN_CAND_0013"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0013": "PIN_CAND_0013"
+      },
+      "all_pin_references": [
+        "U2.5"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00028"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0013",
+          "contact_candidate_id": "PIN_CAND_0013",
+          "pin_reference": "U2.5",
+          "number_source": "observed_OCR_text",
+          "name_source": "observed_OCR_v2_missing_name_fill",
+          "engineering_fields": []
+        }
+      ],
+      "contains_engineering_conventions": false
+    },
+    {
+      "network_id": "LOG_NET_CAND_00018",
+      "all_original_member_ids": [
+        "PIN_CAND_0007",
+        "PIN_CAND_0010",
+        "PIN_CAND_0041"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0007": "PIN_CAND_0007",
+        "PIN_CAND_0010": "PIN_CAND_0010",
+        "PIN_CAND_0041": "PIN_CAND_0041"
+      },
+      "all_pin_references": [
+        "U2.4",
+        "R3.2",
+        "R3.3"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 3,
+      "model_edge_ids": [
+        "W00034_1",
+        "W00034_2"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0007",
+          "contact_candidate_id": "PIN_CAND_0007",
+          "pin_reference": "U2.4",
+          "number_source": "ambiguous_text",
+          "name_source": "observed_OCR_v2_missing_name_fill",
+          "engineering_fields": []
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0010",
+          "contact_candidate_id": "PIN_CAND_0010",
+          "pin_reference": "R3.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0041",
+          "contact_candidate_id": "PIN_CAND_0041",
+          "pin_reference": "R3.3",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "duplicate_tip_hypothesis",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00019",
+      "all_original_member_ids": [
+        "PIN_CAND_0025"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0025": "PIN_CAND_0025"
+      },
+      "all_pin_references": [
+        "C5.2"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00035"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0025",
+          "contact_candidate_id": "PIN_CAND_0025",
+          "pin_reference": "C5.2",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00020",
+      "all_original_member_ids": [
+        "PIN_CAND_0035"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0035": "PIN_CAND_0035"
+      },
+      "all_pin_references": [
+        "C5.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00036"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0035",
+          "contact_candidate_id": "PIN_CAND_0035",
+          "pin_reference": "C5.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    },
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "all_original_member_ids": [
+        "PIN_CAND_0017",
+        "PIN_CAND_0026"
+      ],
+      "member_to_contact": {
+        "PIN_CAND_0017": "PIN_CAND_0017",
+        "PIN_CAND_0026": "PIN_CAND_0026"
+      },
+      "all_pin_references": [
+        "R3.1"
+      ],
+      "every_member_resolves": true,
+      "distinct_contact_count": 1,
+      "model_edge_ids": [
+        "W00040"
+      ],
+      "graph_geometry_preserved": true,
+      "members": [
+        {
+          "original_candidate_id": "PIN_CAND_0017",
+          "contact_candidate_id": "PIN_CAND_0017",
+          "pin_reference": "UNRESOLVED_DET_0020.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        },
+        {
+          "original_candidate_id": "PIN_CAND_0026",
+          "contact_candidate_id": "PIN_CAND_0026",
+          "pin_reference": "R3.1",
+          "number_source": "engineering_convention_unverified",
+          "name_source": "no_reliable_text",
+          "engineering_fields": [
+            "number"
+          ]
+        }
+      ],
+      "contains_engineering_conventions": true
+    }
+  ]
+}

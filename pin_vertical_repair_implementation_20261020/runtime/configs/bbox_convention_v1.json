@@ -1,0 +1,932 @@
+{
+  "version": "bbox-convention-v1",
+  "status": "fitted_from_published_gt_offline",
+  "note": "two tables. 'canonical': replace the detected extent with the symbol's natural size read off the published GT and shift the centre by the fitted offset. 'transform': affine rescale about the centre, the fallback for classes whose size is not fixed. Both are a convention difference, not detector error.",
+  "min_samples": 8,
+  "clamp": {
+    "rw": [
+      0.35,
+      1.2
+    ],
+    "rh": [
+      0.3,
+      1.2
+    ],
+    "dxf": [
+      -0.5,
+      0.5
+    ],
+    "dyf": [
+      -0.6,
+      0.6
+    ]
+  },
+  "offset_source": "label",
+  "canonical_max_cv": 0.3,
+  "transform": {
+    "capacitor": {
+      "rw": 0.7619,
+      "rh": 0.7407,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "crystal": {
+      "rw": 0.4881,
+      "rh": 0.5,
+      "dxf": -0.0212,
+      "dyf": -0.0119
+    },
+    "resistor": {
+      "rw": 0.5,
+      "rh": 0.5,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "mosfet": {
+      "rw": 0.6452,
+      "rh": 0.6061,
+      "dxf": 0.0161,
+      "dyf": -0.0143
+    },
+    "inductor": {
+      "rw": 0.7083,
+      "rh": 0.4,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "fuse": {
+      "rw": 0.6029,
+      "rh": 0.6905,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "buzzer": {
+      "rw": 0.8462,
+      "rh": 0.875,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "motor": {
+      "rw": 0.901,
+      "rh": 0.9167,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "battery": {
+      "rw": 0.8333,
+      "rh": 0.7692,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "other": {
+      "rw": 0.8868,
+      "rh": 0.8571,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "switch": {
+      "rw": 0.8462,
+      "rh": 0.8,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "diode": {
+      "rw": 0.5385,
+      "rh": 0.5556,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "jumper": {
+      "rw": 0.7945,
+      "rh": 0.866,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "testpoint": {
+      "rw": 0.4167,
+      "rh": 0.4651,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "raw_block": {
+      "rw": 0.7143,
+      "rh": 0.6842,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "led": {
+      "rw": 0.5385,
+      "rh": 0.5185,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "opamp": {
+      "rw": 0.5926,
+      "rh": 0.6742,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "net_short": {
+      "rw": 0.9,
+      "rh": 0.7778,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "raw_m": {
+      "rw": 0.8,
+      "rh": 0.8214,
+      "dxf": 0.38,
+      "dyf": 0.4107
+    }
+  },
+  "canonical": {
+    "capacitor": {
+      "w": 16.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 1228,
+      "w_v": 20.0,
+      "h_v": 16.0,
+      "n_v": 342,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "voltage_source": {
+      "w": 10.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 1093,
+      "dxf": 0.0,
+      "dyf": -0.3462
+    },
+    "net_short": {
+      "w": 18.0,
+      "h": 7.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 161,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "net_bidirectional": {
+      "w": 30.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 12,
+      "dxf": 0.0,
+      "dyf": -0.0122
+    },
+    "net_output": {
+      "w": 30.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 64,
+      "w_v": 10.0,
+      "h_v": 30.0,
+      "n_v": 8,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "transistor": {
+      "w": 29.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 45,
+      "dxf": 0.1143,
+      "dyf": 0.0
+    },
+    "raw_m": {
+      "w": 20.0,
+      "h": 23.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 54,
+      "dxf": 0.38,
+      "dyf": 0.4107
+    },
+    "jumper": {
+      "w": 58.0,
+      "h": 87.0,
+      "cv_w": 0.0,
+      "cv_h": 0.017,
+      "n": 7,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "net_input": {
+      "w": 30.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 268,
+      "w_v": 10.0,
+      "h_v": 30.0,
+      "n_v": 55,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "motor": {
+      "w": 69.0,
+      "h": 67.5,
+      "cv_w": 0.215,
+      "cv_h": 0.231,
+      "n": 8,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "resistor": {
+      "w": 8.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 835,
+      "w_v": 20.0,
+      "h_v": 8.0,
+      "n_v": 712,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "inductor": {
+      "w": 34.0,
+      "h": 6.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 80,
+      "w_v": 6.0,
+      "h_v": 34.0,
+      "n_v": 23,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "crystal": {
+      "w": 15.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 34,
+      "w_v": 10.0,
+      "h_v": 15.0,
+      "n_v": 22,
+      "dxf": -0.0212,
+      "dyf": -0.0119
+    },
+    "ground": {
+      "w": 20.0,
+      "h": 19.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 1692,
+      "w_v": 19.0,
+      "h_v": 20.0,
+      "n_v": 444,
+      "dxf": 0.0,
+      "dyf": 0.4318
+    },
+    "testpoint": {
+      "w": 20.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 43,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "fuse": {
+      "w": 22.0,
+      "h": 10.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 19,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "mosfet": {
+      "w": 29.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 40,
+      "w_v": 20.0,
+      "h_v": 29.0,
+      "n_v": 27,
+      "dxf": 0.0161,
+      "dyf": -0.0143
+    },
+    "pin_port": {
+      "w": 20.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 170,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "led": {
+      "w": 14.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 97,
+      "w_v": 20.0,
+      "h_v": 14.0,
+      "n_v": 83,
+      "dxf": 0.0,
+      "dyf": 0.0
+    },
+    "diode": {
+      "w": 14.0,
+      "h": 20.0,
+      "cv_w": 0.0,
+      "cv_h": 0.0,
+      "n": 116,
+      "w_v": 20.0,
+      "h_v": 14.0,
+      "n_v": 77,
+      "dxf": 0.0,
+      "dyf": 0.0
+    }
+  },
+  "canonical_excluded": {
+    "buzzer": {
+      "cv_w": 0.376,
+      "cv_h": 0.314,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "switch": {
+      "cv_w": 0.436,
+      "cv_h": 0.424,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "battery": {
+      "cv_w": 0.388,
+      "cv_h": 0.523,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "raw_block": {
+      "cv_w": 1.359,
+      "cv_h": 0.798,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "ic": {
+      "cv_w": 0.824,
+      "cv_h": 0.851,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "opamp": {
+      "cv_w": 0.371,
+      "cv_h": 0.371,
+      "reason": "size_not_fixed_use_detected_extent"
+    },
+    "other": {
+      "cv_w": 0.477,
+      "cv_h": 0.371,
+      "reason": "size_not_fixed_use_detected_extent"
+    }
+  },
+  "excluded_classes": {
+    "ic": "constant_margin_not_scale_use_realbbox_path",
+    "voltage_source": "power_geometry_needs_glyph_anchor_not_affine",
+    "pin_port": "excluded_clamp_hit:rh",
+    "ground": "power_geometry_needs_glyph_anchor_not_affine",
+    "transistor": "excluded_clamp_hit:rw",
+    "net_bidirectional": "excluded_clamp_hit:rw,rh"
+  },
+  "label_space": {
+    "ic": {
+      "n": 952,
+      "rw": 0.8,
+      "rh": 0.8772,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 69.0,
+      "median_src_h": 67.0,
+      "median_gt_w": 51.0,
+      "median_gt_h": 58.0,
+      "source": "fit"
+    },
+    "capacitor": {
+      "n": 1570,
+      "rw": 0.7619,
+      "rh": 0.7407,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 22.0,
+      "median_src_h": 26.0,
+      "median_gt_w": 16.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "crystal": {
+      "n": 56,
+      "rw": 0.4881,
+      "rh": 0.5,
+      "dxf": -0.0212,
+      "dyf": -0.0119,
+      "median_src_w": 30.5,
+      "median_src_h": 25.5,
+      "median_gt_w": 15.0,
+      "median_gt_h": 15.0,
+      "source": "fit"
+    },
+    "resistor": {
+      "n": 1547,
+      "rw": 0.5,
+      "rh": 0.5,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 27.0,
+      "median_src_h": 28.0,
+      "median_gt_w": 8.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "mosfet": {
+      "n": 67,
+      "rw": 0.6452,
+      "rh": 0.6061,
+      "dxf": 0.0161,
+      "dyf": -0.0143,
+      "median_src_w": 37.0,
+      "median_src_h": 35.0,
+      "median_gt_w": 29.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "voltage_source": {
+      "n": 1090,
+      "rw": 0.7692,
+      "rh": 0.7692,
+      "dxf": 0.0,
+      "dyf": -0.3462,
+      "median_src_w": 13.0,
+      "median_src_h": 13.0,
+      "median_gt_w": 10.0,
+      "median_gt_h": 10.0,
+      "source": "fit"
+    },
+    "pin_port": {
+      "n": 168,
+      "rw": 0.6559,
+      "rh": 1.2,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 30.5,
+      "median_src_h": 15.0,
+      "median_gt_w": 20.0,
+      "median_gt_h": 20.0,
+      "source": "excluded_clamp_hit:rh"
+    },
+    "inductor": {
+      "n": 103,
+      "rw": 0.7083,
+      "rh": 0.4,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 45.0,
+      "median_src_h": 18.0,
+      "median_gt_w": 34.0,
+      "median_gt_h": 6.0,
+      "source": "fit"
+    },
+    "ground": {
+      "n": 2135,
+      "rw": 0.95,
+      "rh": 0.9524,
+      "dxf": 0.0,
+      "dyf": 0.4318,
+      "median_src_w": 21.0,
+      "median_src_h": 20.0,
+      "median_gt_w": 20.0,
+      "median_gt_h": 19.0,
+      "source": "fit"
+    },
+    "fuse": {
+      "n": 20,
+      "rw": 0.6029,
+      "rh": 0.6905,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 36.5,
+      "median_src_h": 14.5,
+      "median_gt_w": 22.0,
+      "median_gt_h": 10.0,
+      "source": "fit"
+    },
+    "transistor": {
+      "n": 52,
+      "rw": 1.2,
+      "rh": 0.5971,
+      "dxf": 0.1143,
+      "dyf": 0.0,
+      "median_src_w": 23.0,
+      "median_src_h": 34.0,
+      "median_gt_w": 29.0,
+      "median_gt_h": 20.0,
+      "source": "excluded_clamp_hit:rw"
+    },
+    "buzzer": {
+      "n": 21,
+      "rw": 0.8462,
+      "rh": 0.875,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 39.0,
+      "median_src_h": 48.0,
+      "median_gt_w": 33.0,
+      "median_gt_h": 42.0,
+      "source": "fit"
+    },
+    "motor": {
+      "n": 8,
+      "rw": 0.901,
+      "rh": 0.9167,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 76.5,
+      "median_src_h": 73.5,
+      "median_gt_w": 69.0,
+      "median_gt_h": 67.5,
+      "source": "fit"
+    },
+    "battery": {
+      "n": 21,
+      "rw": 0.8333,
+      "rh": 0.7692,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 36.0,
+      "median_src_h": 26.0,
+      "median_gt_w": 30.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "other": {
+      "n": 67,
+      "rw": 0.8868,
+      "rh": 0.8571,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 53.0,
+      "median_src_h": 42.0,
+      "median_gt_w": 47.0,
+      "median_gt_h": 36.0,
+      "source": "fit"
+    },
+    "switch": {
+      "n": 157,
+      "rw": 0.8462,
+      "rh": 0.8,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 39.0,
+      "median_src_h": 30.0,
+      "median_gt_w": 33.0,
+      "median_gt_h": 24.0,
+      "source": "fit"
+    },
+    "diode": {
+      "n": 193,
+      "rw": 0.5385,
+      "rh": 0.5556,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 30.0,
+      "median_src_h": 33.0,
+      "median_gt_w": 14.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "jumper": {
+      "n": 9,
+      "rw": 0.7945,
+      "rh": 0.866,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 70.0,
+      "median_src_h": 100.0,
+      "median_gt_w": 58.0,
+      "median_gt_h": 87.0,
+      "source": "fit"
+    },
+    "testpoint": {
+      "n": 43,
+      "rw": 0.4167,
+      "rh": 0.4651,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 48.0,
+      "median_src_h": 43.0,
+      "median_gt_w": 20.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "raw_block": {
+      "n": 13,
+      "rw": 0.7143,
+      "rh": 0.6842,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 21.0,
+      "median_src_h": 19.0,
+      "median_gt_w": 15.0,
+      "median_gt_h": 13.0,
+      "source": "fit"
+    },
+    "net_bidirectional": {
+      "n": 13,
+      "rw": 0.35,
+      "rh": 0.3,
+      "dxf": 0.0,
+      "dyf": -0.0122,
+      "median_src_w": 134.0,
+      "median_src_h": 38.0,
+      "median_gt_w": 30.0,
+      "median_gt_h": 10.0,
+      "source": "excluded_clamp_hit:rw,rh"
+    },
+    "led": {
+      "n": 180,
+      "rw": 0.5385,
+      "rh": 0.5185,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 29.0,
+      "median_src_h": 29.0,
+      "median_gt_w": 14.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "opamp": {
+      "n": 30,
+      "rw": 0.5926,
+      "rh": 0.6742,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 66.5,
+      "median_src_h": 55.0,
+      "median_gt_w": 40.0,
+      "median_gt_h": 40.0,
+      "source": "fit"
+    },
+    "net_short": {
+      "n": 163,
+      "rw": 0.9,
+      "rh": 0.7778,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 20.0,
+      "median_src_h": 9.0,
+      "median_gt_w": 18.0,
+      "median_gt_h": 7.0,
+      "source": "fit"
+    },
+    "raw_m": {
+      "n": 22,
+      "rw": 0.8,
+      "rh": 0.8214,
+      "dxf": 0.38,
+      "dyf": 0.4107,
+      "median_src_w": 25.0,
+      "median_src_h": 28.0,
+      "median_gt_w": 20.0,
+      "median_gt_h": 23.0,
+      "source": "fit"
+    }
+  },
+  "detector_space": {
+    "ic": {
+      "n": 196,
+      "rw": 0.8044,
+      "rh": 0.8671,
+      "dxf": 0.0036,
+      "dyf": 0.0072,
+      "median_src_w": 70.3,
+      "median_src_h": 58.6,
+      "median_gt_w": 50.5,
+      "median_gt_h": 50.0,
+      "source": "fit"
+    },
+    "capacitor": {
+      "n": 254,
+      "rw": 0.766,
+      "rh": 0.7482,
+      "dxf": -0.007,
+      "dyf": 0.0001,
+      "median_src_w": 20.9,
+      "median_src_h": 26.1,
+      "median_gt_w": 16.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "pin_port": {
+      "n": 4,
+      "rw": 0.6559,
+      "rh": 1.2,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 30.5,
+      "median_src_h": 15.0,
+      "median_gt_w": 20.0,
+      "median_gt_h": 20.0,
+      "source": "fallback"
+    },
+    "inductor": {
+      "n": 5,
+      "rw": 0.7083,
+      "rh": 0.4,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 45.0,
+      "median_src_h": 18.0,
+      "median_gt_w": 34.0,
+      "median_gt_h": 6.0,
+      "source": "fallback"
+    },
+    "resistor": {
+      "n": 87,
+      "rw": 0.6044,
+      "rh": 0.664,
+      "dxf": -0.0092,
+      "dyf": -0.0079,
+      "median_src_w": 16.8,
+      "median_src_h": 24.5,
+      "median_gt_w": 8.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "voltage_source": {
+      "n": 135,
+      "rw": 0.8096,
+      "rh": 0.7504,
+      "dxf": -0.0073,
+      "dyf": -0.2707,
+      "median_src_w": 12.4,
+      "median_src_h": 13.3,
+      "median_gt_w": 10.0,
+      "median_gt_h": 10.0,
+      "source": "fit"
+    },
+    "ground": {
+      "n": 201,
+      "rw": 0.9398,
+      "rh": 0.9801,
+      "dxf": -0.0072,
+      "dyf": 0.4243,
+      "median_src_w": 21.1,
+      "median_src_h": 19.7,
+      "median_gt_w": 20.0,
+      "median_gt_h": 19.0,
+      "source": "fit"
+    },
+    "crystal": {
+      "n": 5,
+      "rw": 0.4881,
+      "rh": 0.5,
+      "dxf": -0.0212,
+      "dyf": -0.0119,
+      "median_src_w": 30.5,
+      "median_src_h": 25.5,
+      "median_gt_w": 15.0,
+      "median_gt_h": 15.0,
+      "source": "fallback"
+    },
+    "motor": {
+      "n": 4,
+      "rw": 0.901,
+      "rh": 0.9167,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 76.5,
+      "median_src_h": 73.5,
+      "median_gt_w": 69.0,
+      "median_gt_h": 67.5,
+      "source": "fallback"
+    },
+    "switch": {
+      "n": 37,
+      "rw": 0.8429,
+      "rh": 0.7753,
+      "dxf": 0.0037,
+      "dyf": -0.0005,
+      "median_src_w": 61.7,
+      "median_src_h": 32.8,
+      "median_gt_w": 49.0,
+      "median_gt_h": 25.0,
+      "source": "fit"
+    },
+    "battery": {
+      "n": 1,
+      "rw": 0.8333,
+      "rh": 0.7692,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 36.0,
+      "median_src_h": 26.0,
+      "median_gt_w": 30.0,
+      "median_gt_h": 20.0,
+      "source": "fallback"
+    },
+    "other": {
+      "n": 10,
+      "rw": 0.87,
+      "rh": 0.8088,
+      "dxf": 0.0075,
+      "dyf": -0.0151,
+      "median_src_w": 87.3,
+      "median_src_h": 39.6,
+      "median_gt_w": 75.5,
+      "median_gt_h": 32.0,
+      "source": "fit"
+    },
+    "led": {
+      "n": 40,
+      "rw": 0.5544,
+      "rh": 0.6348,
+      "dxf": -0.0045,
+      "dyf": 0.0113,
+      "median_src_w": 28.3,
+      "median_src_h": 28.7,
+      "median_gt_w": 14.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "buzzer": {
+      "n": 3,
+      "rw": 0.8462,
+      "rh": 0.875,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 39.0,
+      "median_src_h": 48.0,
+      "median_gt_w": 33.0,
+      "median_gt_h": 42.0,
+      "source": "fallback"
+    },
+    "diode": {
+      "n": 15,
+      "rw": 0.6954,
+      "rh": 0.6377,
+      "dxf": 0.0248,
+      "dyf": 0.0065,
+      "median_src_w": 21.3,
+      "median_src_h": 29.8,
+      "median_gt_w": 14.0,
+      "median_gt_h": 20.0,
+      "source": "fit"
+    },
+    "opamp": {
+      "n": 3,
+      "rw": 0.5926,
+      "rh": 0.6742,
+      "dxf": 0.0,
+      "dyf": 0.0,
+      "median_src_w": 66.5,
+      "median_src_h": 55.0,
+      "median_gt_w": 40.0,
+      "median_gt_h": 40.0,
+      "source": "fallback"
+    },
+    "mosfet": {
+      "n": 7,
+      "rw": 0.6452,
+      "rh": 0.6061,
+      "dxf": 0.0161,
+      "dyf": -0.0143,
+      "median_src_w": 37.0,
+      "median_src_h": 35.0,
+      "median_gt_w": 29.0,
+      "median_gt_h": 20.0,
+      "source": "fallback"
+    },
+    "net_short": {
+      "n": 48,
+      "rw": 0.8904,
+      "rh": 0.706,
+      "dxf": 0.0003,
+      "dyf": 0.0263,
+      "median_src_w": 19.8,
+      "median_src_h": 9.9,
+      "median_gt_w": 18.0,
+      "median_gt_h": 7.0,
+      "source": "fit"
+    },
+    "transistor": {
+      "n": 3,
+      "rw": 1.2,
+      "rh": 0.5971,
+      "dxf": 0.1143,
+      "dyf": 0.0,
+      "median_src_w": 23.0,
+      "median_src_h": 34.0,
+      "median_gt_w": 29.0,
+      "median_gt_h": 20.0,
+      "source": "fallback"
+    }
+  },
+  "detector_space_fit_cases": "all"
+}

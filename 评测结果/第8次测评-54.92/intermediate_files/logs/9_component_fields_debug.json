@@ -1,0 +1,115 @@
+{
+  "source_image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+  "entries": [
+    {
+      "component_id": "L1",
+      "type": "inductor",
+      "missing_fields": [
+        "value"
+      ],
+      "bbox_top_left": [
+        1102.474,
+        464.121,
+        1190.199,
+        492.226
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0010",
+          "text_id": "text_0009",
+          "text": "L1",
+          "bbox": [
+            1111.5,
+            455.5,
+            1129.5,
+            470.5
+          ],
+          "confidence": 0.99975,
+          "role": "designator",
+          "source_view": "tile_614_431_r0",
+          "prefix": "L",
+          "source_text": "L1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 17.53407531633605,
+        "designator_assignment_margin": 72.46592468366362
+      },
+      "nearby_OCR": [
+        {
+          "text": "10uH",
+          "bbox": [
+            1112.0849609375,
+            480.6705017089844,
+            1148.9736328125,
+            495.65802001953125
+          ],
+          "confidence": 0.99754,
+          "view": "global",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "10uH",
+              "confidence": 0.99754,
+              "view": "global"
+            },
+            {
+              "text": "10uH",
+              "confidence": 0.99388,
+              "view": "tile_614_431_r0"
+            },
+            {
+              "text": "10uH",
+              "confidence": 0.99302,
+              "view": "tile_614_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            1111.5,
+            455.5,
+            1129.5,
+            470.5
+          ],
+          "confidence": 0.99975,
+          "view": "tile_614_431_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "L1",
+              "confidence": 0.99975,
+              "view": "tile_614_431_r0"
+            },
+            {
+              "text": "L1",
+              "confidence": 0.9997,
+              "view": "tile_614_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "●",
+          "bbox": [
+            1014.4384765625,
+            474.2472839355469,
+            1025.2880859375,
+            486.023193359375
+          ],
+          "confidence": 0.81721,
+          "view": "global",
+          "distance_px": 77.186,
+          "alternatives": [
+            {
+              "text": "●",
+              "confidence": 0.81721,
+              "view": "global"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_fields_are_not_automatically_errors": true,
+  "values_or_names_changed": 0
+}

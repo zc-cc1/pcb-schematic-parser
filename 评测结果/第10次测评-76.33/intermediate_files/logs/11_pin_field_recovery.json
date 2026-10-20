@@ -1,0 +1,111 @@
+{
+  "enabled": true,
+  "policy": "image_numeric_pin_recovery_v1",
+  "selected_groups": 3,
+  "changes": [],
+  "network_changes": [],
+  "ocr_calls": 8,
+  "budget_exhausted": false,
+  "groups": [
+    {
+      "id": "PIN_CAND_0010",
+      "owner": "USB1",
+      "point": [
+        122.97342062741518,
+        349.6574423313141
+      ],
+      "side": "left",
+      "box": [
+        136.0,
+        271.0,
+        255.0,
+        409.0
+      ],
+      "members": [
+        "PIN_CAND_0010"
+      ],
+      "number": null,
+      "name": "A5",
+      "original_number": null,
+      "original_name": "A5",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0029",
+      "owner": "USB2",
+      "point": [
+        707.1861184388399,
+        369.2756559550762
+      ],
+      "side": "right",
+      "box": [
+        620.0,
+        349.0,
+        700.0,
+        449.0
+      ],
+      "members": [
+        "PIN_CAND_0029"
+      ],
+      "number": null,
+      "name": "VCC",
+      "original_number": null,
+      "original_name": "VCC",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    },
+    {
+      "id": "PIN_CAND_0042",
+      "owner": "USB2",
+      "point": [
+        741.2521991431713,
+        406.5166111290455
+      ],
+      "side": "right",
+      "box": [
+        620.0,
+        349.0,
+        700.0,
+        449.0
+      ],
+      "members": [
+        "PIN_CAND_0042"
+      ],
+      "number": null,
+      "name": "D+",
+      "original_number": null,
+      "original_name": "D+",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "insufficient_views",
+        "support": {}
+      }
+    }
+  ],
+  "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "config_sha256": "6738edad4ba39239b504ff82fdf5d547c1587d64ce1acc4786e849ed5238e89d",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

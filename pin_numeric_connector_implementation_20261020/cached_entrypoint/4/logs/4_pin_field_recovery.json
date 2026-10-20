@@ -1,0 +1,137 @@
+{
+  "enabled": true,
+  "policy": "image_numeric_pin_recovery_v1",
+  "selected_groups": 1,
+  "changes": [],
+  "network_changes": [],
+  "ocr_calls": 6,
+  "budget_exhausted": false,
+  "groups": [
+    {
+      "id": "PIN_CAND_0020",
+      "owner": "U2",
+      "point": [
+        1379.77011243999,
+        259.63248857855797
+      ],
+      "side": "left",
+      "box": [
+        1391.0,
+        201.0,
+        1529.0,
+        279.0
+      ],
+      "members": [
+        "PIN_CAND_0020"
+      ],
+      "number": "3",
+      "name": "VIN",
+      "original_number": null,
+      "original_name": "VIN",
+      "library_number": false,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "3": 4
+        },
+        "readings": [
+          {
+            "text": "3",
+            "confidence": 0.99936,
+            "bbox": [
+              1375.0,
+              238.0,
+              1392.0,
+              260.0
+            ],
+            "polygon": [
+              [
+                1375.0,
+                238.0
+              ],
+              [
+                1392.0,
+                238.0
+              ],
+              [
+                1392.0,
+                260.0
+              ],
+              [
+                1375.0,
+                260.0
+              ]
+            ],
+            "view": "component_U2_s1.0_r0",
+            "owner": "U2",
+            "rotation": 0
+          },
+          {
+            "text": "3",
+            "confidence": 0.99977,
+            "bbox": [
+              1377.3333333333333,
+              236.66666666666669,
+              1391.6666666666667,
+              257.0
+            ],
+            "polygon": [
+              [
+                1377.3333333333333,
+                236.66666666666669
+              ],
+              [
+                1391.6666666666667,
+                236.66666666666669
+              ],
+              [
+                1391.6666666666667,
+                257.0
+              ],
+              [
+                1377.3333333333333,
+                257.0
+              ]
+            ],
+            "view": "component_U2_s3.0_r0",
+            "owner": "U2",
+            "rotation": 0
+          },
+          {
+            "text": "3",
+            "confidence": 0.99994,
+            "bbox": [
+              1381,
+              242,
+              1389,
+              254
+            ],
+            "view": "glyph_PIN_CAND_0020_2_s3.0_r0",
+            "owner": "U2",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0020"
+          },
+          {
+            "text": "3",
+            "confidence": 0.99995,
+            "bbox": [
+              1381,
+              242,
+              1389,
+              254
+            ],
+            "view": "glyph_PIN_CAND_0020_2_s5.0_r0",
+            "owner": "U2",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0020"
+          }
+        ]
+      },
+      "withheld": "number_conflict"
+    }
+  ],
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "config_sha256": "6738edad4ba39239b504ff82fdf5d547c1587d64ce1acc4786e849ed5238e89d",
+  "ocr_models": null
+}

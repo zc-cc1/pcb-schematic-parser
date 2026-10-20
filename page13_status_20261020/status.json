@@ -1,0 +1,221 @@
+{
+  "case": "13",
+  "source_prediction": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pin_row_library_implementation_20261020\\deployed\\13_Pred.json",
+  "pin": {
+    "tp": 11,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9167,
+    "f1": 0.9565
+  },
+  "components": {
+    "tp": 18,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.9474,
+    "recall": 0.9,
+    "f1": 0.9231
+  },
+  "connectivity": 0.31080246913580245,
+  "wire": {
+    "tp": 13,
+    "fp": 22,
+    "fn": 36,
+    "precision": 0.3714,
+    "recall": 0.2653,
+    "f1": 0.3095
+  },
+  "score_100": 65.5785864197531,
+  "pins": [
+    {
+      "ref": "U1.1",
+      "expected_name": "SW",
+      "predicted_name": "SW",
+      "distance_px": 2.032012470567528,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.2",
+      "expected_name": "BOOT",
+      "predicted_name": "BOOT",
+      "distance_px": 3.3153922508363345,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.3",
+      "expected_name": "EN",
+      "predicted_name": "EN",
+      "distance_px": 2.24746002551477,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.4",
+      "expected_name": "GND",
+      "predicted_name": "GND",
+      "distance_px": 2.5777040375185725,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.5",
+      "expected_name": "FB",
+      "predicted_name": "FB",
+      "distance_px": 3.2056155866697673,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.6",
+      "expected_name": "COMP",
+      "predicted_name": "COMP",
+      "distance_px": 3.0562119563508143,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.7",
+      "expected_name": "RLIM",
+      "predicted_name": "RLIM",
+      "distance_px": 3.086927886116126,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.8",
+      "expected_name": "VIN",
+      "predicted_name": "VIN",
+      "distance_px": 3.1675227534392794,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.9",
+      "expected_name": "EPAD",
+      "predicted_name": "EPAD",
+      "distance_px": 3.0045290149299886,
+      "correct_20px": true
+    },
+    {
+      "ref": "H1.1",
+      "expected_name": "1",
+      "predicted_name": "1",
+      "distance_px": 2.574265310877986,
+      "correct_20px": true
+    },
+    {
+      "ref": "H1.2",
+      "expected_name": "2",
+      "predicted_name": "2",
+      "distance_px": 1.6161012400790047,
+      "correct_20px": true
+    },
+    {
+      "ref": "H1.3",
+      "expected_name": "3",
+      "predicted_name": null,
+      "distance_px": null,
+      "correct_20px": false
+    }
+  ],
+  "missing_pins": [
+    {
+      "ref": "H1.3",
+      "expected_name": "3",
+      "predicted_name": null,
+      "distance_px": null,
+      "correct_20px": false
+    }
+  ],
+  "max_detected_pin_error_px": 3.3153922508363345,
+  "missing_candidate": {
+    "candidate_id": "PIN_CAND_0046",
+    "point": [
+      1252.8122390955687,
+      381.9078892543912
+    ],
+    "confidence": 0.8498606085777283,
+    "owner": "H1",
+    "owner_detection_index": 2,
+    "owner_status": "assigned",
+    "owner_candidates": [
+      {
+        "component_id": "H1",
+        "detection_index": 2,
+        "component_type": "ic",
+        "cost_px": 14.819554904431442,
+        "outside_gap_px": 14.654760904431441,
+        "inside_boundary_distance_px": 0.0,
+        "eligible_margin_px": 36.57639999999992,
+        "warning": null
+      }
+    ],
+    "number": null,
+    "pinname": null,
+    "number_status": "no_reliable_text",
+    "nearby_wire_probability_max": 0.010299072600901127,
+    "wire_context_status": "no_confident_wire_observed",
+    "pinname_status": "no_reliable_text",
+    "text_evidence": {},
+    "text_candidates": {
+      "number": [],
+      "pinname": []
+    },
+    "text_side": "left"
+  },
+  "existing_ocr_text_for_missing_pin": {
+    "polygon": [
+      [
+        1295.5,
+        374.0
+      ],
+      [
+        1313.0,
+        374.0
+      ],
+      [
+        1313.0,
+        397.5
+      ],
+      [
+        1295.5,
+        397.5
+      ]
+    ],
+    "text": "3",
+    "confidence": 0.99999,
+    "view": "tile_602_29_r0",
+    "bbox": [
+      1295.5,
+      374.0,
+      1313.0,
+      397.5
+    ],
+    "observations": [
+      {
+        "text": "3",
+        "confidence": 0.99999,
+        "view": "tile_602_29_r0",
+        "bbox": [
+          1295.5,
+          374.0,
+          1313.0,
+          397.5
+        ]
+      },
+      {
+        "text": "3",
+        "confidence": 0.99949,
+        "view": "tile_602_0_r0",
+        "bbox": [
+          1296.0,
+          367.0,
+          1313.0,
+          398.0
+        ]
+      }
+    ],
+    "text_id": "text_0026"
+  },
+  "missing_supply_symbol": {
+    "value": "VIN",
+    "location": "H1 pin 3 junction"
+  },
+  "new_inference_calls": 0,
+  "production_code_modified": false
+}

@@ -1,0 +1,81 @@
+{
+  "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+  "size": [
+    2222,
+    1199
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "bf63cafd4186dbbcb040dc525e94a0b516c3911d2d99794ec0076854d8b8e18a",
+  "original_S23_input_sha256": {
+    "/tmp/pcb_ecfehvly/p_stage23/export/engineering_pin_text_result.json": "e42fa8724907f765e1bf24e3d45400e532412e2b06ddf1e39d40b7db4196081e",
+    "/tmp/pcb_ecfehvly/p_stage23/export/engineering_graph_proposals.json": "53437f571961d16a3b3ba36b57f7e151678444dc12da63214cc029b68343be9b",
+    "/tmp/pcb_ecfehvly/p_stage23/export/completed_component_records.json": "da179cbd9eaa5706f3656b0b2b09a9cf1736b6b2ba0be14bf1199e4ebbc3ced5",
+    "/tmp/pcb_ecfehvly/p_stage23/export/engineering_submission.json": "82e15da0fe180ef487783d0cfd6b33ae60108361333687a4471bad8cc53b796b",
+    "/tmp/pcb_ecfehvly/p_stage23/export/baseline_export/partial_submission.json": "72cf10fb5522861448af7cbe10af7f953e569a9255df9c36d098122c44008757",
+    "/tmp/pcb_ecfehvly/p_stage23/export/baseline_export/conservative_export_coverage.json": "ab14c7d36be24c8809946b9e4345898bf5ab22873f0ac1d99a4374320f1bd5f8",
+    "/tmp/pcb_ecfehvly/p_stage23_stage21_stage20_stage18/stage17/stage16/upstream/pin_text/texts.json": "607cdcabdc4135c100bc1082f64a3761d6d6cf5828bbf3f9e31ae2487a031a20"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false,
+  "observed_fields": {
+    "observed_pin_names_added": 0,
+    "observed_component_ids_added": 0,
+    "observed_footer_names_added": 0,
+    "new_pin_numbers": 0,
+    "points_or_edges_changed": 0,
+    "raw_members_removed": 0,
+    "new_OCR_model_runs": 0
+  },
+  "engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 6,
+    "exported_nets": 0
+  },
+  "baseline_export": {
+    "exported_components": 10,
+    "exported_pins": 4,
+    "exported_nets": 0
+  },
+  "previous_engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 6,
+    "exported_nets": 0
+  },
+  "new_complete_network_ids": [],
+  "completion": {
+    "multi_pin_networks": 8,
+    "field_only_incomplete_networks": 3,
+    "non_field_export_blocker_counts": {
+      "junction_semantics_unresolved": 2,
+      "wire_endpoint_near_component_without_member": 3,
+      "detected_power_symbol_near_wire_without_attached_member": 1,
+      "power_logical_membership_provisional": 1
+    }
+  },
+  "all_existing_fields_and_conservative_output_preserved": true,
+  "original_points_edges_and_members_preserved": true,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and frozen image-model/OCR predictions only; no annotation/CAD/Golden reads",
+  "wall_seconds": 0.05618511978536844,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 37.310040801763535
+}

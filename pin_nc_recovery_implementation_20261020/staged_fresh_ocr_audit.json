@@ -1,0 +1,585 @@
+{
+  "enabled": true,
+  "policy": "crossed_nc_full_number_v1",
+  "groups": [
+    {
+      "owner": "U1",
+      "row": 690,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        690
+      ],
+      "anchors": [
+        {
+          "candidate_id": "PIN_CAND_0001",
+          "number": "14",
+          "support": {
+            "14": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "number": "12",
+          "support": {
+            "12": 3
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0004",
+          "number": "10",
+          "support": {
+            "10": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "number": "11",
+          "support": {
+            "11": 2
+          }
+        }
+      ],
+      "number_crop": [
+        961,
+        675,
+        996,
+        692
+      ],
+      "glyph_bbox": [
+        985,
+        679,
+        993,
+        690
+      ],
+      "glyph_parts": 1,
+      "name_crop": [
+        997,
+        689,
+        1054,
+        709
+      ],
+      "row_crop": [
+        953,
+        673,
+        1059,
+        709
+      ],
+      "number": "2",
+      "name": "NC",
+      "number_support": {
+        "2": 3
+      },
+      "name_support": {
+        "NC": 2
+      },
+      "number_readings": [
+        {
+          "text": "2",
+          "confidence": 0.99994,
+          "bbox": [
+            981.6,
+            676.4,
+            994.8,
+            691.8
+          ],
+          "view": "nc_row_U1_690_s5.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.98598,
+          "bbox": [
+            0,
+            0,
+            24,
+            27
+          ],
+          "view": "nc_group_U1_690_s3.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.98861,
+          "bbox": [
+            0,
+            0,
+            24,
+            27
+          ],
+          "view": "nc_group_U1_690_s5.0"
+        }
+      ],
+      "name_readings": [
+        {
+          "text": "NC",
+          "confidence": 0.99956,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_690_s3.0"
+        },
+        {
+          "text": "NC",
+          "confidence": 0.99938,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_690_s5.0"
+        }
+      ],
+      "status": "observed_crossed_nc"
+    },
+    {
+      "owner": "U1",
+      "row": 730,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        730
+      ],
+      "anchors": [
+        {
+          "candidate_id": "PIN_CAND_0001",
+          "number": "14",
+          "support": {
+            "14": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "number": "12",
+          "support": {
+            "12": 3
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0004",
+          "number": "10",
+          "support": {
+            "10": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "number": "11",
+          "support": {
+            "11": 2
+          }
+        }
+      ],
+      "number_crop": [
+        961,
+        715,
+        996,
+        732
+      ],
+      "glyph_bbox": [
+        979,
+        719,
+        993,
+        729
+      ],
+      "glyph_parts": 2,
+      "name_crop": [
+        997,
+        729,
+        1054,
+        749
+      ],
+      "row_crop": [
+        953,
+        713,
+        1059,
+        749
+      ],
+      "number": "16",
+      "name": "NC",
+      "number_support": {
+        "16": 2
+      },
+      "name_support": {
+        "NC": 2
+      },
+      "number_readings": [
+        {
+          "text": "16",
+          "confidence": 0.99904,
+          "bbox": [
+            977.6666666666666,
+            715.6666666666666,
+            994.0,
+            731.6666666666666
+          ],
+          "view": "nc_row_U1_730_s3.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.99486,
+          "bbox": [
+            975.6,
+            714.6,
+            996.4,
+            732.2
+          ],
+          "view": "nc_row_U1_730_s5.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.97779,
+          "bbox": [
+            0,
+            0,
+            30,
+            26
+          ],
+          "view": "nc_group_U1_730_s3.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.97664,
+          "bbox": [
+            0,
+            0,
+            30,
+            26
+          ],
+          "view": "nc_group_U1_730_s5.0"
+        }
+      ],
+      "name_readings": [
+        {
+          "text": "NC",
+          "confidence": 0.9995,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_730_s3.0"
+        },
+        {
+          "text": "NC",
+          "confidence": 0.99941,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_730_s5.0"
+        }
+      ],
+      "status": "observed_crossed_nc"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "row": 690,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        690
+      ],
+      "anchors": [
+        {
+          "candidate_id": "PIN_CAND_0001",
+          "number": "14",
+          "support": {
+            "14": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "number": "12",
+          "support": {
+            "12": 3
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0004",
+          "number": "10",
+          "support": {
+            "10": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "number": "11",
+          "support": {
+            "11": 2
+          }
+        }
+      ],
+      "number_crop": [
+        961,
+        675,
+        996,
+        692
+      ],
+      "glyph_bbox": [
+        985,
+        679,
+        993,
+        690
+      ],
+      "glyph_parts": 1,
+      "name_crop": [
+        997,
+        689,
+        1054,
+        709
+      ],
+      "row_crop": [
+        953,
+        673,
+        1059,
+        709
+      ],
+      "number": "2",
+      "name": "NC",
+      "number_support": {
+        "2": 3
+      },
+      "name_support": {
+        "NC": 2
+      },
+      "number_readings": [
+        {
+          "text": "2",
+          "confidence": 0.99994,
+          "bbox": [
+            981.6,
+            676.4,
+            994.8,
+            691.8
+          ],
+          "view": "nc_row_U1_690_s5.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.98598,
+          "bbox": [
+            0,
+            0,
+            24,
+            27
+          ],
+          "view": "nc_group_U1_690_s3.0"
+        },
+        {
+          "text": "2",
+          "confidence": 0.98861,
+          "bbox": [
+            0,
+            0,
+            24,
+            27
+          ],
+          "view": "nc_group_U1_690_s5.0"
+        }
+      ],
+      "name_readings": [
+        {
+          "text": "NC",
+          "confidence": 0.99956,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_690_s3.0"
+        },
+        {
+          "text": "NC",
+          "confidence": 0.99938,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_690_s5.0"
+        }
+      ],
+      "status": "observed_crossed_nc"
+    },
+    {
+      "owner": "U1",
+      "row": 730,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        730
+      ],
+      "anchors": [
+        {
+          "candidate_id": "PIN_CAND_0001",
+          "number": "14",
+          "support": {
+            "14": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0003",
+          "number": "12",
+          "support": {
+            "12": 3
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0004",
+          "number": "10",
+          "support": {
+            "10": 2
+          }
+        },
+        {
+          "candidate_id": "PIN_CAND_0005",
+          "number": "11",
+          "support": {
+            "11": 2
+          }
+        }
+      ],
+      "number_crop": [
+        961,
+        715,
+        996,
+        732
+      ],
+      "glyph_bbox": [
+        979,
+        719,
+        993,
+        729
+      ],
+      "glyph_parts": 2,
+      "name_crop": [
+        997,
+        729,
+        1054,
+        749
+      ],
+      "row_crop": [
+        953,
+        713,
+        1059,
+        749
+      ],
+      "number": "16",
+      "name": "NC",
+      "number_support": {
+        "16": 2
+      },
+      "name_support": {
+        "NC": 2
+      },
+      "number_readings": [
+        {
+          "text": "16",
+          "confidence": 0.99904,
+          "bbox": [
+            977.6666666666666,
+            715.6666666666666,
+            994.0,
+            731.6666666666666
+          ],
+          "view": "nc_row_U1_730_s3.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.99486,
+          "bbox": [
+            975.6,
+            714.6,
+            996.4,
+            732.2
+          ],
+          "view": "nc_row_U1_730_s5.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.97779,
+          "bbox": [
+            0,
+            0,
+            30,
+            26
+          ],
+          "view": "nc_group_U1_730_s3.0"
+        },
+        {
+          "text": "16",
+          "confidence": 0.97664,
+          "bbox": [
+            0,
+            0,
+            30,
+            26
+          ],
+          "view": "nc_group_U1_730_s5.0"
+        }
+      ],
+      "name_readings": [
+        {
+          "text": "NC",
+          "confidence": 0.9995,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_730_s3.0"
+        },
+        {
+          "text": "NC",
+          "confidence": 0.99941,
+          "bbox": [
+            0,
+            0,
+            77,
+            40
+          ],
+          "view": "nc_name_U1_730_s5.0"
+        }
+      ],
+      "status": "observed_crossed_nc"
+    }
+  ],
+  "network_changes": [],
+  "ocr_calls": 12,
+  "budget_exhausted": false,
+  "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+  "config_sha256": "af0bf56d299c1d397af46c947c900d224698eb54ba5dd933373cfae9a6ec6f9c",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

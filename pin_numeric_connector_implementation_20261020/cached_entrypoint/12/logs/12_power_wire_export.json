@@ -1,0 +1,23 @@
+{
+  "version": "observed-physical-power-wires-v2",
+  "restored_networks": [
+    {
+      "network_id": "RESTORED_NET_CAND_00012",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00001"
+      ]
+    }
+  ],
+  "primary_contacts": [],
+  "restored_net_count": 1,
+  "primary_contact_count": 0,
+  "existing_power_contacts": [],
+  "existing_power_contact_count": 0,
+  "inference_calls": 0,
+  "enabled": true,
+  "image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb"
+}

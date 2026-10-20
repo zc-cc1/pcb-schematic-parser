@@ -1,0 +1,11 @@
+{
+  "version": "0.1",
+  "weights": "weights/circuit_yolov8n_v3.pt",
+  "detector": {"imgsz": 1024, "confidence": 0.25, "iou": 0.5, "max_det": 1000, "half": false},
+  "sahi": {"slice_height": 1024, "slice_width": 1024, "overlap": 0.125, "merge_metric": "IOS", "merge_threshold": 0.5},
+  "ocr": {"backend": "onnxruntime_cpu", "det_limit_side_len": 2048},
+  "binding": {"max_gap_px": 100, "ambiguity_margin_px": 12},
+  "class_mapping": {"resistor": "resistor", "capacitor": "capacitor", "inductor": "inductor", "diode": "diode", "transistor": "bjt", "opamp": "opamp", "ic": "ic", "ground": "gnd", "voltage_source": "vcc", "current_source": "current_source"},
+  "export_y_formula": "H-y",
+  "status": "image_only_partial_component_baseline_not_complete_submission"
+}

@@ -1,0 +1,94 @@
+--- original/wire_graph.py
++++ candidate/wire_graph.py
+@@ -346,50 +346,50 @@
+     # though the ink is identical.  Measured on the 13 released pages: 80.6% of the
+     # wire segments that miss lie on a reference line but are cut elsewhere, and 15.5%
+     # of them fall exactly on a pin.  `pin_split_max_distance_px` 0 disables it.
+-    pin_splits=0
+-    pin_split_limit=float(cfg.get('pin_split_max_distance_px') or 0)
+-    if pin_split_limit>0:
+-        pin_points=[tuple(map(float,pin['point'])) for pin in pin_result['pin_candidates']]
+-        next_node=0
+-        for u,v,key,data in list(graph.edges(keys=True,data=True)):
+-            path=[tuple(map(float,point)) for point in data['path']]
+-            if len(path)<2:
+-                continue
+-            a,b=np.asarray(path[0]),np.asarray(path[-1])
+-            span=float(np.linalg.norm(b-a))
+-            if span<2*pin_split_limit:
+-                continue
+-            direction=(b-a)/span
+-            cuts=[]
++    # Validation variant: cut on the actual raster path, preserving all bends.
++    pin_splits = 0
++    pin_split_limit = float(cfg.get('pin_split_max_distance_px') or 0)
++    if pin_split_limit > 0:
++        pin_points = np.asarray([p['point'] for p in pin_result['pin_candidates']], dtype=float).reshape(-1, 2)
++        next_node = 0
++        for u, v, key, data in list(graph.edges(keys=True, data=True)):
++            path = np.asarray(data['path'], dtype=float)
++            if len(path) < 3 or not len(pin_points):
++                continue
++            arc = np.r_[0.0, np.cumsum(np.linalg.norm(np.diff(path, axis=0), axis=1))]
++            if arc[-1] < 2 * pin_split_limit:
++                continue
++            cuts = set()
+             for point in pin_points:
+-                relative=np.asarray(point)-a
+-                along=float(relative@direction)
+-                if not (pin_split_limit<along<span-pin_split_limit):
+-                    continue
+-                perpendicular=float(np.linalg.norm(relative-along*direction))
+-                if perpendicular>pin_split_limit:
+-                    continue
+-                cuts.append((along,point))
++                distances = np.linalg.norm(path - point, axis=1)
++                index = int(distances.argmin())
++                if (distances[index] <= pin_split_limit
++                        and pin_split_limit < arc[index] < arc[-1] - pin_split_limit):
++                    cuts.add(index)
+             if not cuts:
+                 continue
+-            cuts.sort()
+-            chain=[path[0]]+[point for _,point in cuts]+[path[-1]]
+-            graph.remove_edge(u,v,key)
+-            previous=u
+-            last=len(chain)-2
+-            for index,(start,end) in enumerate(zip(chain,chain[1:])):
+-                target=v if index==last else None
+-                if target is None:
+-                    target=f'pin_split_{next_node:05d}';next_node+=1
+-                    graph.add_node(target,kind='pin_split',point=list(end),degree=2)
+-                graph.add_edge(previous,target,key=f"{data['edge_id']}_{index+1}",
+-                               edge_id=f"{data['edge_id']}_{index+1}",
+-                               kind=data.get('kind','wire'),path=[list(start),list(end)],
+-                               polyline=polyline([tuple(start),tuple(end)],cfg['polyline_tolerance_px']),
+-                               length_px=float(np.linalg.norm(np.asarray(end)-np.asarray(start))),
+-                               mean_probability=data.get('mean_probability',0.0))
+-                previous=target
+-            pin_splits+=len(cuts)
++            # NetworkX's edge ordering may differ from stored path ordering.
++            if math.dist(graph.nodes[u]['point'], path[0]) > math.dist(graph.nodes[v]['point'], path[0]):
++                u, v = v, u
++            graph.remove_edge(u, v, key)
++            boundaries = [0] + sorted(cuts) + [len(path) - 1]
++            previous = u
++            for part, (begin, end) in enumerate(zip(boundaries, boundaries[1:])):
++                fragment = path[begin:end+1].tolist()
++                if part == len(boundaries) - 2:
++                    target = v
++                else:
++                    target = f'pin_split_{next_node:05d}'
++                    next_node += 1
++                    graph.add_node(target, kind='pin_split', point=fragment[-1], degree=2)
++                edge_id = f"{data['edge_id']}_{part+1}"
++                graph.add_edge(previous, target, key=edge_id, edge_id=edge_id,
++                               kind=data.get('kind', 'wire'), path=fragment,
++                               polyline=polyline(fragment, cfg['polyline_tolerance_px']),
++                               length_px=float(arc[end] - arc[begin]),
++                               mean_probability=data.get('mean_probability', 0.0))
++                previous = target
++            pin_splits += len(cuts)
+     nets,attachments=network_membership(graph,pin_result,cfg,junctions)
+     # Mark nets touching a suspected gap, without joining them.
+     node_network={node:n['network_id'] for n in nets for node in n['node_ids']}

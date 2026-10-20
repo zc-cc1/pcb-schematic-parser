@@ -12,17 +12,25 @@ import cv2
 import numpy as np
 from scipy.optimize import linear_sum_assignment
 
+from . import export_geometry
+
 
 REF = re.compile(r"^(IC|SW|TP|FB|FET|LED|JP|[RCLDQUXYJPFS])\d+$", re.I)
 REF_SCAN = re.compile(r"(?:IC|SW|TP|FB|FET|LED|JP|[RCLDQUXYJPFS])\d+",re.I)
-PREFIXES = {
-    "resistor": {"R"}, "capacitor": {"C"}, "inductor": {"L", "FB"},
+PREFIXES = {"resistor": {"R"}, "capacitor": {"C"}, "inductor": {"L", "FB"},
     "diode": {"D"}, "led": {"D", "LED"}, "bjt": {"Q"}, "mosfet": {"Q", "FET"},
     "ic": {"U", "IC"}, "opamp": {"U", "IC"}, "crystal": {"X", "Y"},
     "switch": {"SW", "S"}, "fuse": {"F"}, "connector": {"J", "P"},
     "vbus_in": {"TP", "J", "P"}, "vbus_out": {"TP", "J", "P"},
     "vbus_bidirectional": {"TP", "J", "P"}, "jumper": {"J", "JP"},
 }
+# Types whose exported Name must come from image evidence rather than from the
+# key: a drawn box carries the part number printed on the chip, and power symbols
+# carry their own symbol/rail name. Every other type follows the annotation
+# convention Name == key (measured per type over the 200 training pages: .976-
+# 1.000 except `box` at .242).
+NAME_FROM_EVIDENCE_TYPES = {"box", "ic", "gnd", "ground", "v", "vcc", "vdd",
+                            "voltage_source"}
 
 
 def bbox(points):
@@ -142,6 +150,13 @@ def value_kind(text):
         return "resistance"
     if re.fullmatch(r"[+-]?\d+(?:\.\d+)?V|\d+(?:\.\d+)?A|\d+(?:\.\d+)?%", text, re.I):
         return "rating"
+    if re.fullmatch(r"\d{3,4}", text):
+        # EIA-style code without a unit letter: 104 = 100 kΩ, 472 = 4.7 kΩ.  The 200
+        # public pages never spell a passive this way (0 of 3220), but the released
+        # reference does - open_GT case 12 has R3/R4 = "104" - so a bare three/four
+        # digit integer is a value, not a stray pin number.  One or two digits stay
+        # `numeric` and are still dropped (a "5" next to a symbol is a pin number).
+        return "resistance"
     if re.fullmatch(r"\d+(?:\.\d+)?", text):
         return "numeric"
     return None
@@ -351,9 +366,67 @@ def bind_components(detections, texts, width, height, cfg):
     bindings = {i: {"designator": selected[i, j], "designator_score": score, "designator_assignment_margin": stability}
                 for i, (j, score, stability) in assignments.items()}
 
+    # A label visibly attached to a part that stayed unknown must not be thrown
+    # away only because the class prefix disagrees with the detector class (a
+    # header drawn as a box is still labelled P3). Only unused label groups and
+    # detections that are still unknown are considered, so a correct pairing can
+    # never be taken away; a wrong pairing costs exactly the false positive that
+    # an UNRESOLVED key already cost.
+    #
+    # Off by default: the deployed chain runs `component_identity_recovery` after
+    # this function, which resolves the same components from the same OCR evidence
+    # (0018 16 -> 20, 0080 60 -> 64 on the six cached pages). On those pages this
+    # pass resolves 143 -> 153 components and adds zero true positives, so enabling
+    # it by default would only risk pre-empting the stage that is already validated.
+    if options.get("leftover_reference_pass", False) and len(assignments) < len(groups):
+        used_groups = {j for j, _, _ in assignments.values()}
+        taken = set(used_groups)
+        pairs = []
+        for i, (d, kind) in enumerate(zip(detections, types)):
+            if i in bindings:
+                continue
+            db = d["bbox"]
+            for j, group in enumerate(groups):
+                if j in taken:
+                    continue
+                for token in group:
+                    tb, distance = token["bbox"], gap(token["bbox"], db)
+                    if distance > options.get("leftover_max_gap_px", 45) or inside(center(tb), db, inset=3):
+                        continue
+                    penalty = 0. if token["prefix"] in PREFIXES.get(kind, set()) else options.get("leftover_prefix_penalty", 6.)
+                    score = (distance + .18*math.dist(center(tb), center(db))
+                             + 8*(1-token["confidence"]) + penalty
+                             + options.get("alignment_weight", .8)*min(abs(center(tb)[0]-center(db)[0]),
+                                                                      abs(center(tb)[1]-center(db)[1])))
+                    if score < options.get("leftover_max_cost", 60):
+                        pairs.append((score, i, j, token))
+        pairs.sort(key=lambda row: row[0])
+        for score, i, j, token in pairs:
+            if i in bindings or j in taken:
+                continue
+            bindings[i] = {"designator": token, "designator_score": float(score),
+                           "designator_assignment_margin": None,
+                           "designator_source": "leftover_observed_label"}
+            taken.add(j)
+
     for field in ("value", "Name"):
-        candidates = [t for t in tokens if t["role"] in ({"capacitance", "inductance", "resistance", "frequency", "numeric"}
-                                                        if field == "value" else {"model_candidate"})]
+        if field == "value":
+            # The public annotations never spell a passive rating as a bare number
+            # (0 of 3220 r/c/l values over the 200 training pages: 2152 carry a
+            # unit letter, 87 a shorthand such as 27p, 981 are null). A bare number
+            # read next to a symbol is therefore far more likely to be a pin number
+            # or a neighbour's geometry than that part's value.
+            value_roles = {"capacitance", "inductance", "resistance", "frequency"}
+            if options.get("passive_value_allow_numeric", False):
+                value_roles.add("numeric")
+            candidates = [t for t in tokens if t["role"] in value_roles
+                          # A unit letter followed by a digit is not a spelling the
+                          # annotations use ("1u0"). Fused labels such as "4R122"
+                          # are NOT filtered on purpose: the same shape is the
+                          # R-notation value "1R0 / 4R7".
+                          and not re.search(r"[munpµμ][FfHh]?\d", t["text"])]
+        else:
+            candidates = [t for t in tokens if t["role"] == "model_candidate"]
         field_groups = []
         for token in candidates:
             for group in field_groups:
@@ -445,19 +518,39 @@ def bind_components(detections, texts, width, height, cfg):
 
     output = {"components": {}, "pins": {}, "nets": {}}
     records = []
+    # Export-time geometry: the official GT boxes the drawn symbol at its natural
+    # size, which is not the same rectangle as our detected cell. Disabled unless
+    # the run config opts in (configs/*.json -> bbox_convention).
+    geom_mode, geom_table = export_geometry.load_table(cfg)
+    type_table = export_geometry.load_type_map(cfg)
+    geom_applied = []
     for i, (d, kind) in enumerate(zip(detections, types)):
         binding = bindings.get(i, {})
         designator = binding.get("designator", {}).get("text")
         cid = designator or f"UNRESOLVED_DET_{i+1:04d}"
         x1, y1, x2, y2 = d["bbox"]
-        export = {"type": kind, "Name": binding.get("Name", {}).get("text"),
+        if geom_mode:
+            (gx1, gy1, gx2, gy2), proof = export_geometry.apply_to_box(
+                [x1, y1, x2, y2], kind, geom_mode, geom_table)
+            if proof:
+                x1, y1, x2, y2 = gx1, gy1, gx2, gy2
+                geom_applied.append({"class": kind, "detection_index": i, **proof})
+        export = {"type": export_geometry.export_type(d.get("class_name"), kind, type_table),
+                  "Name": binding.get("Name", {}).get("text"),
                   "value": binding.get("value", {}).get("text"),
                   "bbox": [max(0., x1), max(0., height-y2), min(float(width), x2), min(float(height), height-y1)]}
         if kind == "gnd":
             export["Name"] = "GND"  # symbol class, not a guessed OCR label
+        elif export["Name"] is None and designator and export["type"] not in NAME_FROM_EVIDENCE_TYPES:
+            # Annotators spell Name as the component key for everything except a
+            # drawn box (measured: .976-1.000 per type over the 200 pages, box
+            # only .242). Reusing the designator we already bound is the same
+            # evidence, not a new guess; power types keep their symbol name.
+            export["Name"] = cid
         output["components"][cid] = export
         records.append({"component_id": cid, "detection_index": i, "type": kind, "designator": designator,
                         "Name": export["Name"], "value": export["value"], "bbox_top_left": d["bbox"],
+                        "bbox_top_left_exported": [x1, y1, x2, y2],
                         "detection_confidence": d["confidence"], "fields": binding,
                         "duplicate_of_detection_index": duplicates.get(i),
                         "status": "provisional_image_prediction_not_manually_verified"})
@@ -473,5 +566,6 @@ def bind_components(detections, texts, width, height, cfg):
                                                  for t in tokens if re.search(r"0hm$",t["text"])],
                              "unassigned_tokens": [t["token_id"] for t in tokens if t["token_id"] not in used],
                              "role_counts": dict(Counter(t["role"] for t in tokens)),
+                             "bbox_convention": export_geometry.summarise(geom_mode, geom_applied),
                              "input_contract": "image OCR + frozen detector predictions/config only",
                              "status": "components_stage_only_pins_and_nets_pending"}

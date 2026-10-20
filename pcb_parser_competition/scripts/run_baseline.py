@@ -24,6 +24,7 @@ import torch
 from PIL import Image, ImageDraw, ImageFont
 from ultralytics import YOLO, settings
 from pcb_parser.dataset_converter import validate_output
+from pcb_parser import export_geometry
 from pcb_parser.fusion import apply_class_confidence, wbf_merge
 
 settings.update({"sync": False})
@@ -144,16 +145,31 @@ def bind_designators(detections, texts, width, height, cfg):
         names_used.add(name)
     output = {"components": {}, "pins": {}, "nets": {}}
     provenance = []
+    # Export-time geometry: the official GT boxes the drawn symbol at its natural
+    # size, which is not the rectangle our detector learned from CAD cells.
+    # Off unless the run config opts in (bbox_convention in configs/*.json).
+    geom_mode, geom_table = export_geometry.load_table(cfg)
+    type_table = export_geometry.load_type_map(cfg)
+    geom_applied = []
     for idx, detection in enumerate(detections):
         cid = assignments[idx]["designator"] if idx in assignments else f"UNRESOLVED_DET_{idx+1:04d}"
         kind = cfg["class_mapping"].get(detection["class_name"], detection["class_name"])
         x1, y1, x2, y2 = detection["bbox"]
+        if geom_mode:
+            (gx1, gy1, gx2, gy2), proof = export_geometry.apply_to_box(
+                [x1, y1, x2, y2], kind, geom_mode, geom_table)
+            if proof:
+                x1, y1, x2, y2 = gx1, gy1, gx2, gy2
+                geom_applied.append({"class": kind, "detection_index": idx, **proof})
         x1, x2 = max(0., float(x1)), min(float(width), float(x2))
         y1, y2 = max(0., float(y1)), min(float(height), float(y2))
-        output["components"][cid] = {"type": kind, "Name": None, "value": None,
+        output["components"][cid] = {
+            "type": export_geometry.export_type(detection.get("class_name"), kind, type_table),
+            "Name": None, "value": None,
                                      "bbox": [x1, height - y2, x2, height - y1]}
         provenance.append({"component_id": cid, "detection": detection, "binding": assignments.get(idx)})
     return output, {"provisional_bindings": provenance, "rejected_candidates": rejected,
+                    "bbox_convention": export_geometry.summarise(geom_mode, geom_applied),
                     "resolved_designator_count": len(assignments), "unresolved_designator_count": len(detections)-len(assignments),
                     "status": "partial_components_only_Name_value_pins_nets_not_implemented"}
 

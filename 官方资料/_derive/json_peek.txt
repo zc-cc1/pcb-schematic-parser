@@ -1,0 +1,42 @@
+======================================================================
+FILE: BoxICLibrary.json  size=3,139,669
+top-level type: dict, len=1000
+first keys: ['GT-USB-9010ANS', 'BHI260AP', 'XT60PW-M', 'INA199A1DCKR', 'CH334P', 'SHT30', 'MP2459GJ-Z', 'LM2576SX-5.0/NOPB']
+  [GT-USB-9010ANS] subkeys=['pins']
+      pins: [{"pin_id": "e16", "name": "SHELL", "number": "1", "pin_type": "IN"}, {"pin_id": "e15", "name": "SHELL", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e12", "name": "SHELL", "number": "2", "pin_type": "IN"}, {"pin_id": "e11", "name": "SHELL", "number": "2", "pin_type": "Undefined"}, {"pin_id"
+  [BHI260AP] subkeys=['pins']
+      pins: [{"pin_id": "e4", "name": "M3SDA", "number": "1_1", "pin_type": "IN"}, {"pin_id": "e8", "name": "HSDX", "number": "1_2", "pin_type": "IN"}, {"pin_id": "e12", "name": "M3SCL", "number": "2", "pin_type": "IN"}, {"pin_id": "e16", "name": "HOSTBOOT", "number": "3", "pin_type": "IN"}, {"pin_id": "e20", "
+  [XT60PW-M] subkeys=['pins']
+      pins: [{"pin_id": "e4", "name": "-", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "-", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "-", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e8", "name": "+", "number": "2", "pin_type": "IN"}, {"pin_id": "e9", "name": "+", "numbe
+======================================================================
+FILE: BoxICLibrary_200cases.json  size=1,826,150
+top-level type: dict, len=360
+first keys: ['1.25-2PWB', '2.4GHz', '2.54-1x6P直针', '2.54-2*6P弯针', '25MHz', '5557R-2*4P', '662K', '7805']
+  [1.25-2PWB] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "1.25-2PWB.esym"
+      pins: [{"pin_id": "e4", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "1", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e8", "name": "2", "number": "2", "pin_type": "IN"}, {"pin_id": "e9", "name": "2", "numbe
+      same_hash_components: [{"project": "33", "title": "1.25-2PWB", "symbol": "17f6704f1c59423a890ef3ffb9780ffd"}, {"project": "348", "title": "1.25-2PWB", "symbol": "e98e9ec595f44ab383a81cad234ece7d"}, {"project": "233", "title": "1.25-2PWB", "symbol": "5191053379314c948633d6e9d7041e35"}, {"project": "88", "title": "1.25-2PW
+  [2.4GHz] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "2.4GHz.esym"
+      pins: [{"pin_id": "ie4", "name": "RST", "number": "1", "pin_type": "Passive"}, {"pin_id": "e5", "name": "GND", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e5", "name": "IO0", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "RST", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e4"
+      same_hash_components: [{"project": "203", "title": "2.4GHz", "symbol": "f225715acce84c659fe9901d9f14a068"}, {"project": "65", "title": "2.4GHz", "symbol": "cfbfb2a70c0e4cf6a3e610398c91d30b"}, {"project": "10", "title": "2.4GHz", "symbol": "6d6d4dd29df14d63afd2a57133b5efdb"}]
+  [2.54-1x6P直针] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "2.54-1x6P直针.esym"
+      pins: [{"pin_id": "e4", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "e4", "name": "1", "number": "1", "pin_type": ""}, {"pin_id": "ie4", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "ie4", "name": "1", "number": "1", "pin_type": "Passive"}, {"pin_id": "e8", "name": "2", "number"
+      same_hash_components: [{"project": "831", "title": "2.54-1x6P直针", "symbol": "75dd046dd7cc44fc89ac4c76e1bcb91d"}, {"project": "873", "title": "HDR-M_2.54_1x6P", "symbol": "69433e30c487481da9fb43fa0af7eebd"}, {"project": "161", "title": "2.54-1x6P直针", "symbol": "a0ab008253bd4fc5b78b40f9260af5ad"}, {"project": "170", "title
+======================================================================
+FILE: cpntLibrary  size=1,755,587
+top-level type: dict, len=337
+first keys: ['1.25-2PWB', '1.8 TFT 128*RGB*160', '2.4GHz', '2.54-1x6P直针', '2.54-2*6P弯针', '3.3V', '5557R-2*4P', '662K']
+  [1.25-2PWB] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "1.25-2PWB.esym"
+      pins: [{"pin_id": "e4", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "1", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "1", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e8", "name": "2", "number": "2", "pin_type": "IN"}, {"pin_id": "e9", "name": "2", "numbe
+      same_hash_components: [{"project": "33", "title": "1.25-2PWB", "symbol": "17f6704f1c59423a890ef3ffb9780ffd"}, {"project": "348", "title": "1.25-2PWB", "symbol": "e98e9ec595f44ab383a81cad234ece7d"}, {"project": "233", "title": "1.25-2PWB", "symbol": "5191053379314c948633d6e9d7041e35"}, {"project": "88", "title": "1.25-2PW
+  [1.8 TFT 128*RGB*160] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "1.8 TFT 128_RGB_160.esym"
+      pins: [{"pin_id": "e3", "name": "GND", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e66", "name": "GND", "number": "1", "pin_type": "IN"}, {"pin_id": "e102", "name": "GND", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e3", "name": "LED", "number": "1", "pin_type": "Undefined"}, {"pin_id": 
+      same_hash_components: [{"project": "39", "title": "1.8 TFT 128*RGB*160", "symbol": "11cb3a3a4d1d460e8b5463394c1a66ef"}, {"project": "67", "title": "1.8 TFT 128*RGB*160", "symbol": "89191b69bda440b9809d1244580b1387"}, {"project": "66", "title": "1.8 TFT 128*RGB*160", "symbol": "5e9f292a349f43f0b34e7247d1d10d80"}, {"projec
+  [2.4GHz] subkeys=['esym_path', 'pins', 'same_hash_components']
+      esym_path: "2.4GHz.esym"
+      pins: [{"pin_id": "ie4", "name": "RST", "number": "1", "pin_type": "Passive"}, {"pin_id": "e5", "name": "GND", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e5", "name": "IO0", "number": "1", "pin_type": "IN"}, {"pin_id": "e5", "name": "RST", "number": "1", "pin_type": "Undefined"}, {"pin_id": "e4"
+      same_hash_components: [{"project": "203", "title": "2.4GHz", "symbol": "f225715acce84c659fe9901d9f14a068"}, {"project": "65", "title": "2.4GHz", "symbol": "cfbfb2a70c0e4cf6a3e610398c91d30b"}, {"project": "10", "title": "2.4GHz", "symbol": "6d6d4dd29df14d63afd2a57133b5efdb"}]

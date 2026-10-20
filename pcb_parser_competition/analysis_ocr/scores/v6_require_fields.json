@@ -1,0 +1,184 @@
+{
+  "status": "official_rubric_offline_evaluation",
+  "gt_root": "C:\\Users\\Pc\\Desktop\\新建文件夹\\赛题六公开数据集\\赛题六公开数据集\\200_train_cases",
+  "pred": "D:\\pcb_v6_check\\out_v6_full\\final_results",
+  "match_mode": "key",
+  "tolerance_px": 20.0,
+  "shrink": null,
+  "cases_used": 6,
+  "cases_skipped": [],
+  "note": "class-mode is an upper bound on the official component F1: it credits components whose designator OCR would have failed",
+  "overall": {
+    "tp": 245,
+    "fp": 61,
+    "fn": 117,
+    "precision": 0.8007,
+    "recall": 0.6768,
+    "f1": 0.7335
+  },
+  "by_class": {
+    "ground": {
+      "tp": 99,
+      "fp": 10,
+      "fn": 4,
+      "precision": 0.9083,
+      "recall": 0.9612,
+      "f1": 0.934,
+      "gt": 103
+    },
+    "capacitor": {
+      "tp": 56,
+      "fp": 9,
+      "fn": 29,
+      "precision": 0.8615,
+      "recall": 0.6588,
+      "f1": 0.7467,
+      "gt": 85
+    },
+    "resistor": {
+      "tp": 36,
+      "fp": 13,
+      "fn": 25,
+      "precision": 0.7347,
+      "recall": 0.5902,
+      "f1": 0.6545,
+      "gt": 61
+    },
+    "voltage_source": {
+      "tp": 44,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.9565,
+      "recall": 0.9565,
+      "f1": 0.9565,
+      "gt": 46
+    },
+    "ic": {
+      "tp": 9,
+      "fp": 7,
+      "fn": 18,
+      "precision": 0.5625,
+      "recall": 0.3333,
+      "f1": 0.4186,
+      "gt": 27
+    },
+    "pin_port": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 8
+    },
+    "testpoint": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 8
+    },
+    "crystal": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 4
+    },
+    "diode": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 4
+    },
+    "other": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 4
+    },
+    "net_input": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 4
+    },
+    "inductor": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "gt": 3
+    },
+    "led": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 2
+    },
+    "mosfet": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 1
+    },
+    "buzzer": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 1
+    },
+    "raw_m": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 1
+    },
+    "vbus_in": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 0
+    },
+    "switch": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "gt": 0
+    }
+  },
+  "power_gt_count": 149
+}

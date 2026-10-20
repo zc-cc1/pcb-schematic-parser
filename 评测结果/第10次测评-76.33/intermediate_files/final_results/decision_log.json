@@ -1,0 +1,798 @@
+{
+  "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+  "timestamp": "2026-10-20T15:28:22.796908+00:00",
+  "processed_cases": 13,
+  "successful_cases": 13,
+  "failed_cases": 0,
+  "output_format": "target",
+  "coordinate_origin": "bottom_left_H_minus_y",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "cases": [
+    {
+      "case_id": "11",
+      "input": "/input/11.png",
+      "success": true,
+      "ic_geometry_seconds": 0.039,
+      "led_geometry_seconds": 1.256,
+      "bbox_convention_applied": 8,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 10,
+      "wire_cleanup": {
+        "merged": 8,
+        "dropped": 7
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 0,
+        "primary_contact_count": 1
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 8
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 2,
+        "changed_networks": 0,
+        "ocr_calls": 18
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 12,
+      "pins": 26,
+      "nets": 10,
+      "seconds": 52.621
+    },
+    {
+      "case_id": "10",
+      "input": "/input/10.png",
+      "success": true,
+      "ic_geometry_seconds": 0.059,
+      "led_geometry_seconds": 0.102,
+      "bbox_convention_applied": 26,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 8
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 32,
+        "dropped": 6
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 0,
+        "primary_contact_count": 6
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 6
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 1,
+        "changed_networks": 0,
+        "ocr_calls": 6
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 29,
+      "pins": 61,
+      "nets": 22,
+      "seconds": 56.018
+    },
+    {
+      "case_id": "12",
+      "input": "/input/12.png",
+      "success": true,
+      "ic_geometry_seconds": 0.017,
+      "bbox_convention_applied": 14,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 4
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 9,
+      "wire_cleanup": {
+        "merged": 20,
+        "dropped": 3
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 1,
+        "primary_contact_count": 0
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 16,
+      "pins": 21,
+      "nets": 14,
+      "seconds": 30.099
+    },
+    {
+      "case_id": "1",
+      "input": "/input/1.png",
+      "success": true,
+      "ic_geometry_seconds": 0.068,
+      "led_geometry_seconds": 0.09,
+      "bbox_convention_applied": 42,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 14
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 6,
+      "pin_lead_snap": 28,
+      "wire_cleanup": {
+        "merged": 40,
+        "dropped": 24
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 4,
+        "primary_contact_count": 6
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 8,
+        "changed_networks": 3,
+        "ocr_calls": 52
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 5,
+        "changed_networks": 0,
+        "ocr_calls": 14
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 55,
+      "pins": 113,
+      "nets": 39,
+      "seconds": 89.169
+    },
+    {
+      "case_id": "13",
+      "input": "/input/13.png",
+      "success": true,
+      "ic_geometry_seconds": 0.017,
+      "bbox_convention_applied": 17,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 4
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 30,
+        "dropped": 9
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 0,
+        "primary_contact_count": 0
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 4
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 19,
+      "pins": 59,
+      "nets": 26,
+      "seconds": 35.416
+    },
+    {
+      "case_id": "3",
+      "input": "/input/3.png",
+      "success": true,
+      "ic_geometry_seconds": 0.056,
+      "bbox_convention_applied": 24,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 3
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 6,
+      "wire_cleanup": {
+        "merged": 7,
+        "dropped": 0
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 7,
+        "primary_contact_count": 1
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 25,
+      "pins": 46,
+      "nets": 16,
+      "seconds": 38.049
+    },
+    {
+      "case_id": "2",
+      "input": "/input/2.png",
+      "success": true,
+      "ic_geometry_seconds": 0.044,
+      "bbox_convention_applied": 24,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 4,
+      "pin_lead_snap": 15,
+      "wire_cleanup": {
+        "merged": 9,
+        "dropped": 0
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 7,
+        "primary_contact_count": 6
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 4
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 1,
+        "changed_networks": 0,
+        "ocr_calls": 6
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 28,
+      "pins": 50,
+      "nets": 22,
+      "seconds": 44.645
+    },
+    {
+      "case_id": "4",
+      "input": "/input/4.png",
+      "success": true,
+      "ic_geometry_seconds": 0.04,
+      "led_geometry_seconds": 0.055,
+      "bbox_convention_applied": 20,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 3,
+      "pin_lead_snap": 11,
+      "wire_cleanup": {
+        "merged": 11,
+        "dropped": 13
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 2,
+        "primary_contact_count": 5
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 6
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 4
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 2,
+        "changed_networks": 1,
+        "restored_networks": 1,
+        "ocr_calls": 8
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 24,
+      "pins": 42,
+      "nets": 25,
+      "seconds": 37.661
+    },
+    {
+      "case_id": "7",
+      "input": "/input/7.png",
+      "success": true,
+      "ic_geometry_seconds": 0.046,
+      "led_geometry_seconds": 0.057,
+      "bbox_convention_applied": 22,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 8,
+      "wire_cleanup": {
+        "merged": 25,
+        "dropped": 11
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 0,
+        "primary_contact_count": 6
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 24,
+      "pins": 59,
+      "nets": 23,
+      "seconds": 39.491
+    },
+    {
+      "case_id": "6",
+      "input": "/input/6.png",
+      "success": true,
+      "ic_geometry_seconds": 0.052,
+      "led_geometry_seconds": 0.057,
+      "bbox_convention_applied": 32,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 2,
+      "pin_lead_snap": 16,
+      "wire_cleanup": {
+        "merged": 6,
+        "dropped": 21
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 8,
+        "primary_contact_count": 7
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 38,
+      "pins": 71,
+      "nets": 41,
+      "seconds": 47.57
+    },
+    {
+      "case_id": "5",
+      "input": "/input/5.png",
+      "success": true,
+      "ic_geometry_seconds": 0.056,
+      "bbox_convention_applied": 23,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 3,
+      "pin_lead_snap": 18,
+      "wire_cleanup": {
+        "merged": 15,
+        "dropped": 4
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 8,
+        "primary_contact_count": 5
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 4
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 4
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 3,
+        "changed_networks": 0,
+        "ocr_calls": 8
+      },
+      "components": 26,
+      "pins": 49,
+      "nets": 22,
+      "seconds": 54.814
+    },
+    {
+      "case_id": "8",
+      "input": "/input/8.png",
+      "success": true,
+      "ic_geometry_seconds": 0.049,
+      "bbox_convention_applied": 19,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 13,
+      "wire_cleanup": {
+        "merged": 9,
+        "dropped": 6
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 5,
+        "primary_contact_count": 2
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 1,
+        "changed_networks": 0,
+        "ocr_calls": 10
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 20,
+      "pins": 42,
+      "nets": 21,
+      "seconds": 40.52
+    },
+    {
+      "case_id": "9",
+      "input": "/input/9.png",
+      "success": true,
+      "ic_geometry_seconds": 0.046,
+      "bbox_convention_applied": 16,
+      "pin_side_consensus": {
+        "enabled": true,
+        "modified_pin_count": 0
+      },
+      "pin_tip_mode": "color",
+      "pin_tip_measured": 0,
+      "pin_tip_unified": 1,
+      "pin_lead_snap": 6,
+      "wire_cleanup": {
+        "merged": 11,
+        "dropped": 10
+      },
+      "power_wire_export": {
+        "enabled": true,
+        "restored_net_count": 0,
+        "primary_contact_count": 2
+      },
+      "pin_field_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_geometry_recovery": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_relocation": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_pairing": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "restored_networks": 0,
+        "ocr_calls": 0
+      },
+      "pin_evidence_repair": {
+        "enabled": true,
+        "changed_pins": 0,
+        "changed_networks": 0,
+        "ocr_calls": 0
+      },
+      "components": 17,
+      "pins": 30,
+      "nets": 15,
+      "seconds": 43.014
+    }
+  ],
+  "device": "cuda:0",
+  "input_cases": 13,
+  "workers": 3,
+  "gpu_memory_bytes": 85293072384,
+  "protocol": "2026-10-08-global-power-rails",
+  "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+  "component_output_policy": "public_20261016_passive_names_template_boxes_power_v2_led_geometry_v1_ic_name_priority_v1_ic_geometry_v1",
+  "wall_seconds": 219.581
+}

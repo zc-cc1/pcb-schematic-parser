@@ -1,0 +1,176 @@
+{
+  "case": "2",
+  "owner": "U1",
+  "index": 1,
+  "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+  "crop": [
+    582,
+    258,
+    725,
+    433
+  ],
+  "scale": 1.0,
+  "rotation": 0,
+  "texts": [
+    {
+      "text": "U1",
+      "confidence": 0.99964,
+      "bbox": [
+        624.0,
+        279.0,
+        651.0,
+        298.0
+      ],
+      "polygon": [
+        [
+          624.0,
+          279.0
+        ],
+        [
+          651.0,
+          279.0
+        ],
+        [
+          651.0,
+          298.0
+        ],
+        [
+          624.0,
+          298.0
+        ]
+      ],
+      "view": "component_crop_1_s1.0_r0"
+    },
+    {
+      "text": "GND",
+      "confidence": 0.99994,
+      "bbox": [
+        631.0,
+        309.0,
+        670.0,
+        330.0
+      ],
+      "polygon": [
+        [
+          631.0,
+          309.0
+        ],
+        [
+          670.0,
+          309.0
+        ],
+        [
+          670.0,
+          330.0
+        ],
+        [
+          631.0,
+          330.0
+        ]
+      ],
+      "view": "component_crop_1_s1.0_r0"
+    },
+    {
+      "text": "VCC",
+      "confidence": 0.87105,
+      "bbox": [
+        632.0,
+        329.0,
+        669.0,
+        350.0
+      ],
+      "polygon": [
+        [
+          632.0,
+          329.0
+        ],
+        [
+          669.0,
+          329.0
+        ],
+        [
+          669.0,
+          350.0
+        ],
+        [
+          632.0,
+          350.0
+        ]
+      ],
+      "view": "component_crop_1_s1.0_r0"
+    },
+    {
+      "text": "SCL",
+      "confidence": 0.99982,
+      "bbox": [
+        631.0,
+        349.0,
+        668.0,
+        372.0
+      ],
+      "polygon": [
+        [
+          631.0,
+          349.0
+        ],
+        [
+          668.0,
+          349.0
+        ],
+        [
+          668.0,
+          372.0
+        ],
+        [
+          631.0,
+          372.0
+        ]
+      ],
+      "view": "component_crop_1_s1.0_r0"
+    },
+    {
+      "text": "SDA",
+      "confidence": 0.99996,
+      "bbox": [
+        631.0,
+        370.0,
+        669.0,
+        390.0
+      ],
+      "polygon": [
+        [
+          631.0,
+          370.0
+        ],
+        [
+          669.0,
+          370.0
+        ],
+        [
+          669.0,
+          390.0
+        ],
+        [
+          631.0,
+          390.0
+        ]
+      ],
+      "view": "component_crop_1_s1.0_r0"
+    }
+  ],
+  "wall_seconds": 0.10062230000039563,
+  "models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

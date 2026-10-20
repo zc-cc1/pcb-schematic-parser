@@ -1,0 +1,102 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0007",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            974.5,
+            280.0,
+            1018.0,
+            300.0
+          ],
+          "views": [
+            "tile_614_0_r0",
+            "tile_614_2_r0",
+            "tile_701_0_r0",
+            "tile_701_2_r0"
+          ]
+        }
+      ],
+      "detection_index": 6
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0008",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            757.5,
+            359.0,
+            801.0,
+            379.0
+          ],
+          "views": [
+            "global",
+            "tile_614_0_r0",
+            "tile_614_0_r90",
+            "tile_614_2_r0",
+            "tile_614_2_r90",
+            "tile_701_0_r0",
+            "tile_701_0_r90",
+            "tile_701_2_r0",
+            "tile_701_2_r90"
+          ]
+        }
+      ],
+      "detection_index": 7
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0011",
+      "type": "gnd",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 10
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1073.0,
+            675.0,
+            1117.0,
+            695.0
+          ],
+          "views": [
+            "tile_614_0_r0",
+            "tile_614_2_r0",
+            "tile_701_0_r0",
+            "tile_701_2_r0"
+          ]
+        }
+      ],
+      "detection_index": 11
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "added_count": 4,
+  "type_counts": {
+    "gnd": 4
+  },
+  "value_counts": {
+    "observed": 3,
+    "null": 1
+  }
+}

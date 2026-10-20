@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# Placeholder entrypoint for edarace-agent-base.
+# Participants must replace /submission/agent_system with their own agent.
+#
+# Evaluator mounts a directory of schematic images for a batch of cases:
+#   /submission/agent_system -input /input -output /output
+set -euo pipefail
+
+INPUT_DIR=""
+OUTPUT_DIR=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -input|--input)
+      INPUT_DIR="${2:-}"
+      shift 2
+      ;;
+    -output|--output)
+      OUTPUT_DIR="${2:-}"
+      shift 2
+      ;;
+    *)
+      echo "Unknown argument: $1" >&2
+      exit 2
+      ;;
+  esac
+done
+
+if [[ -z "$INPUT_DIR" || -z "$OUTPUT_DIR" ]]; then
+  echo "Usage: /submission/agent_system -input /input -output /output" >&2
+  exit 2
+fi
+
+if [[ ! -d "$INPUT_DIR" ]]; then
+  echo "Input directory does not exist: $INPUT_DIR" >&2
+  exit 3
+fi
+
+if [[ ! -d "$OUTPUT_DIR" ]]; then
+  echo "Output directory does not exist: $OUTPUT_DIR" >&2
+  exit 3
+fi
+
+if [[ -z "${LLM_API_KEY:-}" ]]; then
+  echo "Warning: LLM_API_KEY is not set (ok for placeholder; set it for LLM-based agents)." >&2
+fi
+
+cat >&2 <<'MSG'
+This is the placeholder entrypoint from edarace-agent-base.
+Participants must replace /submission/agent_system with their own autonomous agent.
+
+Official input contract (evaluator side):
+  /input/                 ONE directory with MULTIPLE schematic images,
+                          e.g. 0025-Altium Designer.png, 0030-Datasheet.png, ...
+                          case_name = image filename without extension
+                          NO ground-truth JSON is mounted here.
+
+Expected output contract:
+  /output/decision_log.json
+  /output/final_results/<case_name>_Pred.json   (one per input image)
+  /output/final_results/run.log                 (optional)
+  /output/runs/                                 (optional intermediate)
+MSG
+
+exit 10

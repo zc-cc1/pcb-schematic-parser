@@ -1,0 +1,54 @@
+--- before/agent.py
++++ after/agent.py
+@@ -302,7 +302,7 @@
+     return merged_total, dropped_total
+ 
+ 
+-def pin_lead_snap(target, lead_px, image_rgb=None, mode="color"):
++def pin_lead_snap(target, lead_px, image_rgb=None, mode="color", side_audit=None):
+     """Push each IC pin point out to its real tip.
+ 
+     Two decisions, both measured on the 13 released pages:
+@@ -327,6 +327,17 @@
+         max_px = 60.0
+     unify = os.environ.get('PCB_PIN_TIP_UNIFY', '1').strip().lower() not in {'0', 'off', 'false'}
+ 
++    # Keep a pre-snap snapshot so corrected coordinates cannot vote for themselves.
++    side_enabled = (image_rgb is not None and mode == "color" and
++                    os.environ.get('PCB_PIN_SIDE_CONSENSUS', '1').strip().lower()
++                    not in {'0', 'off', 'false'})
++    original_pins = None
++    if side_enabled:
++        from copy import deepcopy
++        original_pins = deepcopy(target.get('pins') or {})
++    if side_audit is not None:
++        side_audit.clear()
++        side_audit.update(enabled=False, modified_pin_count=0, groups=[])
+     moved = measured = unified = 0
+     components = target.get('components') or {}
+     width = height = None
+@@ -399,6 +410,11 @@
+             else:
+                 point['y'] = y2 + lead
+             moved += 1
++    if side_enabled:
++        from pcb_parser.pin_position_consensus import correct_pin_positions_by_side
++        correction = correct_pin_positions_by_side(target, original_pins, image_rgb, measure_lead)
++        if side_audit is not None:
++            side_audit.update(correction)
+     pin_lead_snap.measured = measured
+     pin_lead_snap.unified = unified
+     return moved
+@@ -567,7 +583,11 @@
+                     import numpy as _tip_np
+                     with _TipImage.open(image) as _tip_handle:
+                         _rgb = _tip_np.asarray(_tip_handle.convert('RGB'))
+-                _moved = pin_lead_snap(target, float(_lead), _rgb, _tip_mode)
++                _side_audit = {}
++                _moved = pin_lead_snap(target, float(_lead), _rgb, _tip_mode, side_audit=_side_audit)
++                row['pin_side_consensus'] = {key: _side_audit[key] for key in
++                                              ['enabled', 'modified_pin_count']}
++                write(output/'logs'/f'{case_id}_pin_side_consensus.json', _side_audit)
+                 row['pin_tip_mode'] = _tip_mode
+                 row['pin_tip_measured'] = getattr(pin_lead_snap, 'measured', 0)
+                 row['pin_tip_unified'] = getattr(pin_lead_snap, 'unified', 0)

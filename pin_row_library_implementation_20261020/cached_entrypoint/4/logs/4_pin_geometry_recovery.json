@@ -1,0 +1,76 @@
+{
+  "enabled": true,
+  "policy": "image_lead_geometry_v1",
+  "frames": {
+    "U1": {
+      "box": [
+        409.5,
+        190.5,
+        528.5,
+        249.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "U2": {
+      "box": [
+        1390.5,
+        200.5,
+        1528.5,
+        279.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "U3": {
+      "box": [
+        787.5,
+        652.5,
+        945.5,
+        731.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U2",
+      "row": 259.5,
+      "length": 19.0,
+      "side": "left",
+      "edge": 1390.5,
+      "point": [
+        1371.5,
+        259.5
+      ],
+      "name": "VIN",
+      "number": null,
+      "name_support": {
+        "VIN": 4
+      },
+      "number_support": {},
+      "number_offset": 7.982959869007274,
+      "status": "insufficient_fields"
+    }
+  ],
+  "changes": [],
+  "network_changes": [],
+  "ocr_calls": 4,
+  "budget_exhausted": false,
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "config_sha256": "614ab33ffebde2b48b941a19104a9011d532c1371d04e1162db1afc8aad45714",
+  "ocr_models": null
+}

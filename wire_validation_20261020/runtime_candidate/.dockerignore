@@ -1,0 +1,19 @@
+# build/packaging junk that must never enter the image
+*.tar
+*.zip
+*.sha256
+Dockerfile*
+.dockerignore
+runtime/
+__pycache__/
+**/__pycache__/
+*.pyc
+runs/
+work/
+logs/
+final_results/
+project_results/
+component_results/
+intermediate_files/
+.pytest_cache/
+.venv/

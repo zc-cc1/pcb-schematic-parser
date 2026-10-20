@@ -1,0 +1,16 @@
+{
+  "method": "yolo11-v3nano+ocr+binding (local CUDA image)",
+  "timestamp": "2026-10-17T08:39:22Z",
+  "processed_cases": 13,
+  "succeeded_cases": 13,
+  "failed_cases": [],
+  "elapsed_seconds": 76.3,
+  "device": "cuda:0",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "notes": "Pure CV: local detector + local OCR. No LLM API is called, so all token counters are zero. Components stage only until wire/net stages are enabled."
+}

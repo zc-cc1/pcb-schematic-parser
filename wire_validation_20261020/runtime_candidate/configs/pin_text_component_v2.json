@@ -1,0 +1,76 @@
+{
+ "class_mapping": {
+  "resistor": "resistor",
+  "capacitor": "capacitor",
+  "inductor": "inductor",
+  "diode": "diode",
+  "transistor": "bjt",
+  "opamp": "opamp",
+  "ic": "ic",
+  "ground": "gnd",
+  "voltage_source": "vcc",
+  "crystal": "crystal",
+  "mosfet": "mosfet",
+  "switch": "switch",
+  "led": "led",
+  "net_input": "vbus_in",
+  "pin_port": "vbus_in",
+  "testpoint": "vbus_in",
+  "net_output": "vbus_out",
+  "net_bidirectional": "vbus_bidirectional",
+  "fuse": "fuse",
+  "buzzer": "buzzer",
+  "motor": "motor",
+  "battery": "battery",
+  "other": "other",
+  "transformer": "transformer",
+  "jumper": "jumper",
+  "raw_block": "block",
+  "circle_header": "circle_header",
+  "antenna": "antenna",
+  "esd": "esd",
+  "raw_m": "m",
+  "net_short": "net_short",
+  "optocoupler": "optocoupler",
+  "raw_dc": "dc",
+  "current_source": "current_source",
+  "connector": "connector"
+ },
+ "component_text": {
+  "version": "semantic_v2",
+  "ocr": {
+   "tile_size": 768,
+   "overlap": 0.2,
+   "local_scale": 2.0,
+   "rotations": [
+    0,
+    90
+   ],
+   "min_confidence": 0.55,
+   "observation_schema_version": 2
+  },
+  "binding": {
+   "max_gap_px": 100,
+   "ambiguity_margin": 3,
+   "field_anchor_radius_px": 90,
+   "alignment_weight": 0.8,
+   "case_style_penalty": 2.0,
+   "unassigned_reference_cost": 90,
+   "field_alignment_weight": 0.6,
+   "allow_unreferenced_fields": true,
+   "unreferenced_field_gap_px": 45,
+   "inside_value_types": [
+    "resistor",
+    "capacitor",
+    "inductor"
+   ],
+   "inside_value_max_gap_px": 6,
+   "value_ambiguity_margin": 0.3,
+   "designator_case_from_page": true
+  },
+  "recovery": {
+   "enabled": false
+  }
+ },
+ "version": "pin-text-component-identities-v2-frozen"
+}

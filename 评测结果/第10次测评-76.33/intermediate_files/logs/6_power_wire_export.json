@@ -1,0 +1,207 @@
+{
+  "version": "observed-physical-power-wires-v2",
+  "restored_networks": [
+    {
+      "network_id": "RESTORED_NET_CAND_00001",
+      "observed_rail": "+5V",
+      "members": 6,
+      "added_power_contacts": 1,
+      "edges": 9,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00009"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00002",
+      "observed_rail": "3.3V",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 3,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00007"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00003",
+      "observed_rail": "3.3V",
+      "members": 6,
+      "added_power_contacts": 1,
+      "edges": 9,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00008"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00004",
+      "observed_rail": "+5V",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 3,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00010"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00006",
+      "observed_rail": "+12V",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 6,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00006"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00007",
+      "observed_rail": "3.3V",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 6,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00003"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00008",
+      "observed_rail": "+12V",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 6,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00005"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00009",
+      "observed_rail": "3.3V",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 6,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00004"
+      ]
+    }
+  ],
+  "primary_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "candidate_id": "PIN_CAND_0031",
+      "member": "UNRESOLVED_DET_0007.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "candidate_id": "PIN_CAND_0034",
+      "member": "UNRESOLVED_DET_0008.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "candidate_id": "PIN_CAND_0072",
+      "member": "UNRESOLVED_DET_0006.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "candidate_id": "PIN_CAND_0053",
+      "member": "UNRESOLVED_DET_0011.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00024",
+      "candidate_id": "PIN_CAND_0061",
+      "member": "UNRESOLVED_DET_0016.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00022",
+      "candidate_id": "PIN_CAND_0068",
+      "member": "UNRESOLVED_DET_0010.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "candidate_id": "PIN_CAND_0070",
+      "member": "UNRESOLVED_DET_0012.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "restored_net_count": 8,
+  "primary_contact_count": 7,
+  "existing_power_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00013",
+      "candidate_id": "PIN_CAND_0031",
+      "member": "UNRESOLVED_DET_0007.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "candidate_id": "PIN_CAND_0034",
+      "member": "UNRESOLVED_DET_0008.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00015",
+      "candidate_id": "PIN_CAND_0072",
+      "member": "UNRESOLVED_DET_0006.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00011",
+      "candidate_id": "PIN_CAND_0053",
+      "member": "UNRESOLVED_DET_0011.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00024",
+      "candidate_id": "PIN_CAND_0061",
+      "member": "UNRESOLVED_DET_0016.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00022",
+      "candidate_id": "PIN_CAND_0068",
+      "member": "UNRESOLVED_DET_0010.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "candidate_id": "PIN_CAND_0070",
+      "member": "UNRESOLVED_DET_0012.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "existing_power_contact_count": 7,
+  "inference_calls": 0,
+  "enabled": true,
+  "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984"
+}

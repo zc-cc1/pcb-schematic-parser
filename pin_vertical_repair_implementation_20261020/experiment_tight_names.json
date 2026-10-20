@@ -1,0 +1,250 @@
+[
+  {
+    "point": [
+      1663.5,
+      251.5
+    ],
+    "source_name": "GND",
+    "name": "GND",
+    "support": {
+      "GND": 2
+    },
+    "mode": "raw",
+    "readings": [
+      {
+        "text": "GND",
+        "confidence": 0.99953,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_top_1663.5_raw_s3.0"
+      },
+      {
+        "text": "GND",
+        "confidence": 0.99951,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_top_1663.5_raw_s5.0"
+      }
+    ],
+    "crop": [
+      1654,
+      290,
+      1677,
+      331
+    ]
+  },
+  {
+    "point": [
+      1663.5,
+      251.5
+    ],
+    "source_name": "GND",
+    "name": "GND",
+    "support": {
+      "GND": 2
+    },
+    "mode": "neutral",
+    "readings": [
+      {
+        "text": "GND",
+        "confidence": 0.99992,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_top_1663.5_neutral_s3.0"
+      },
+      {
+        "text": "GND",
+        "confidence": 0.99992,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_top_1663.5_neutral_s5.0"
+      }
+    ],
+    "crop": [
+      1654,
+      290,
+      1677,
+      331
+    ]
+  },
+  {
+    "point": [
+      1624.5,
+      408.5
+    ],
+    "source_name": "Vout",
+    "name": null,
+    "support": {},
+    "mode": "raw",
+    "readings": [
+      {
+        "text": "vout",
+        "confidence": 0.9111,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_bottom_1624.5_raw_s3.0"
+      },
+      {
+        "text": "vout",
+        "confidence": 0.91528,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_bottom_1624.5_raw_s5.0"
+      }
+    ],
+    "crop": [
+      1615,
+      330,
+      1638,
+      371
+    ]
+  },
+  {
+    "point": [
+      1624.5,
+      408.5
+    ],
+    "source_name": "Vout",
+    "name": "Vout",
+    "support": {
+      "Vout": 2
+    },
+    "mode": "neutral",
+    "readings": [
+      {
+        "text": "Vout",
+        "confidence": 0.99936,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_bottom_1624.5_neutral_s3.0"
+      },
+      {
+        "text": "Vout",
+        "confidence": 0.99938,
+        "bbox": [
+          0,
+          0,
+          57,
+          39
+        ],
+        "view": "vertical_tight_U2_bottom_1624.5_neutral_s5.0"
+      }
+    ],
+    "crop": [
+      1615,
+      330,
+      1638,
+      371
+    ]
+  },
+  {
+    "point": [
+      1703.5,
+      408.5
+    ],
+    "source_name": "Vin",
+    "name": "vin",
+    "support": {
+      "vin": 2
+    },
+    "mode": "raw",
+    "readings": [
+      {
+        "text": "vin",
+        "confidence": 0.98306,
+        "bbox": [
+          0,
+          0,
+          49,
+          40
+        ],
+        "view": "vertical_tight_U2_bottom_1703.5_raw_s3.0"
+      },
+      {
+        "text": "vin",
+        "confidence": 0.98297,
+        "bbox": [
+          0,
+          0,
+          49,
+          40
+        ],
+        "view": "vertical_tight_U2_bottom_1703.5_raw_s5.0"
+      }
+    ],
+    "crop": [
+      1694,
+      338,
+      1718,
+      371
+    ]
+  },
+  {
+    "point": [
+      1703.5,
+      408.5
+    ],
+    "source_name": "Vin",
+    "name": null,
+    "support": {},
+    "mode": "neutral",
+    "readings": [
+      {
+        "text": "Vin",
+        "confidence": 0.87392,
+        "bbox": [
+          0,
+          0,
+          49,
+          40
+        ],
+        "view": "vertical_tight_U2_bottom_1703.5_neutral_s3.0"
+      },
+      {
+        "text": "Vin",
+        "confidence": 0.90394,
+        "bbox": [
+          0,
+          0,
+          49,
+          40
+        ],
+        "view": "vertical_tight_U2_bottom_1703.5_neutral_s5.0"
+      }
+    ],
+    "crop": [
+      1694,
+      338,
+      1718,
+      371
+    ]
+  }
+]

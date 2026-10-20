@@ -1,0 +1,42 @@
+{
+  "version": "box-ic-library-v1",
+  "status": "development; every number produced with this config is a local reference figure, not the official score",
+  "note": "Two official slices of the same EasyEDA symbol pool: the released BoxICLibrary (1000 parts) and the library shipped with the public dataset (337 parts). 148 keys are shared, so both are loaded and merged by part number.",
+  "libraries": [
+    "data/incoming/BoxICLibrary.json",
+    "../赛题六公开数据集/赛题六公开数据集/cpntLibrary"
+  ],
+  "types": [
+    "ic",
+    "box",
+    "connector",
+    "raw_block",
+    "block"
+  ],
+  "model_search_margin_px": 40,
+  "min_pins": 3,
+  "min_name_matches": 1,
+  "min_model_chars": 4,
+  "require_digit_in_model": true,
+  "evidence_statuses": [
+    "observed_OCR_text"
+  ],
+  "fill_names_from_number": true,
+  "fill_missing_numbers_from_names": true,
+  "min_consistency": 0.6,
+  "min_consistency_pairs": 3,
+  "fill_remaining_numbers": false,
+  "rules": {
+    "observed_number_is_never_overwritten": "the library's own numbering drifts from the reference (EasyEDA splits one package pin into 6_1/6_2, and 0099's IR4428 entry puts a pin at 9 where the reference says 6), so an override risks a false-positive pin plus a wrong net member",
+    "consistency_gate": "when a component has at least min_consistency_pairs pins carrying both an observed number and an observed name, the entry must reproduce at least min_consistency of them, otherwise the whole entry is declined",
+    "fill_remaining_numbers": "off: a guessed number costs a false-positive pin and a wrong net member, and the entry's numbering order is not the schematic's pin order"
+  },
+  "evidence_prefixes": [
+    "observed_OCR",
+    "targeted_OCR"
+  ],
+  "model_fuzzy_match": true,
+  "name_set_pattern_match": true,
+  "fuzzy_note": "OCR truncation: HS96L03W2C0 vs the real HS96L03W2C03; only accepted when exactly one library key is within 2 characters and a read pin name is in that entry.",
+  "pattern_note": "No model name: an entry is accepted only when its pin names cover every name we read AND reproduce every pin number we also read (>=2 of them)."
+}

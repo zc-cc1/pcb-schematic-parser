@@ -1,0 +1,82 @@
+{
+  "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+  "size": [
+    2222,
+    1199
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "6ed13c557c8277ca8e3daca8f7045a2cf478b987367d975d0ed899c972bdfc0d",
+  "original_S23_input_sha256": {
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\engineering_pin_text_result.json": "c2b2d5d36b4b6915c39d89fe8c6d8b0df89d7f778fd821afc200fd9011c88d4d",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\engineering_graph_proposals.json": "ddb8e205d8836aed4a23bd3278ea613ebaa783d3c3413d53ccd8f4a477388e85",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\completed_component_records.json": "468fdd69055d4febb3f2b0d6bed54212580839c6982e1d00624b9510fe031e7d",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\engineering_submission.json": "ed009a0fb79f3645effa55f3ecfa3212952e45342d932520c64272cfeaf50871",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\baseline_export\\partial_submission.json": "602b5aa8badac0d280c62791bde19f41bdb0cce019683a9bdb8569f21b05deca",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23\\export\\baseline_export\\conservative_export_coverage.json": "46b4b687f5ef34464a01d88c7dd00a5d89474c678500e1c8e5712780efe0d055",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_sbnc_3u1\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\pin_text\\texts.json": "a8f125c49144edb20c76520cc00427d895f6f815fceea1a7731448c86f9a9e21"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false,
+  "observed_fields": {
+    "observed_pin_names_added": 0,
+    "observed_component_ids_added": 0,
+    "observed_footer_names_added": 0,
+    "new_pin_numbers": 0,
+    "points_or_edges_changed": 0,
+    "raw_members_removed": 0,
+    "new_OCR_model_runs": 0
+  },
+  "engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 26,
+    "exported_nets": 13
+  },
+  "baseline_export": {
+    "exported_components": 10,
+    "exported_pins": 2,
+    "exported_nets": 2
+  },
+  "previous_engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 24,
+    "exported_nets": 13
+  },
+  "new_complete_network_ids": [],
+  "net_preserve_violations": [],
+  "completion": {
+    "multi_pin_networks": 9,
+    "field_only_incomplete_networks": 3,
+    "non_field_export_blocker_counts": {
+      "suspected_disconnection": 1,
+      "no_resolvable_member": 1,
+      "junction_semantics_unresolved": 2,
+      "detected_power_symbol_near_wire_without_attached_member": 1
+    }
+  },
+  "all_existing_fields_and_conservative_output_preserved": true,
+  "original_points_edges_and_members_preserved": true,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and frozen image-model/OCR predictions only; no annotation/CAD/Golden reads",
+  "wall_seconds": 2.327370200000587,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 89.62591799999791
+}

@@ -74,3 +74,9 @@ submission/        # 正式 JSON
 已合并双输出U-Net导线分割/引脚tip热图训练模块，与现有YOLO源码、配置和权重并存。运行入口为 `scripts/run_unet_training.ps1`，接手agent先阅读 [U-Net训练交接说明](docs/unet_training_handoff.md)。
 
 在本工程根目录执行 `./scripts/run_unet_training.ps1 -Mode Check` 检查路径与环境；显卡空闲后，可使用 `-Mode Train -AllowDraft -Device cuda:0` 启动草稿标签实验。未人工复核的标签不称为正式Golden；检查和CPU短跑不代表训练质量。详细配置与数据状态见交接说明。
+
+## OCR 阶段（2026-10-18）
+
+OCR 现状、六页误差预算、三条从 GT 反推出的标注约定（`Name == key`、无源器件 value 不写纯数字、位号字符串的可见天花板）、本轮三处改动及离线/端到端 A/B 见 [OCR 阶段现状与首轮修正](docs/ocr_stage_v1.md)；只读诊断脚本在 [`analysis_ocr/`](analysis_ocr/README.md)。
+
+**必须知道**：线上跑的代码是 `D:\pcb5_submission`（从第 5 次评测镜像 cp 出来的 `/submission`），本仓库 `src/` 是较早的快照，缺少镜像独有的 15 个模块（`adapter.py`、`component_export.py`、`ic_geometry.py`、`ic_name_selection.py`、`led_geometry.py`、`text_recovery.py`、`targeted_pin_ocr.py`、`nearby_tip_fields.py`、`power_caption_ocr.py`、`whole_network_export.py`、`wire_segments.py` 等），并且 `component_text.py` 两边不同源。**用本仓库重建镜像会丢掉这些逻辑（第 6 次评测 0 分即同类失误）**；改动应先落在部署副本上，再同步回本仓库。

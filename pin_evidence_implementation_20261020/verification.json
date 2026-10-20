@@ -1,0 +1,158 @@
+{
+  "release_hashes_verified": true,
+  "unit_tests_passed": 112,
+  "new_tests": 18,
+  "fully_unchanged_pages": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "changed_pin_records": [
+    {
+      "case": "5",
+      "owner": "U3",
+      "key": "pin_1",
+      "before": {
+        "pinname": "GND",
+        "point": {
+          "x": 533.0,
+          "y": 361.29531893134117
+        }
+      },
+      "after": {
+        "pinname": "ADJ(GND)",
+        "point": {
+          "x": 533.0,
+          "y": 361.29531893134117
+        }
+      }
+    },
+    {
+      "case": "5",
+      "owner": "U3",
+      "key": "pin_2",
+      "before": {
+        "pinname": "VOUT",
+        "point": {
+          "x": 533.0,
+          "y": 341.64173474907875
+        }
+      },
+      "after": {
+        "pinname": "VOUT(TAB)",
+        "point": {
+          "x": 533.0,
+          "y": 341.64173474907875
+        }
+      }
+    },
+    {
+      "case": "5",
+      "owner": "U1",
+      "key": "pin_1",
+      "before": {
+        "pinname": "GND",
+        "point": {
+          "x": 486.0,
+          "y": 786.6819199323654
+        }
+      },
+      "after": {
+        "pinname": "GND",
+        "point": {
+          "x": 680.5,
+          "y": 766.0
+        }
+      }
+    }
+  ],
+  "all_components_networks_and_wires_unchanged": true,
+  "pin_key_sets_unchanged": true,
+  "old_GND_error_px": 197.0881574628186,
+  "new_GND_error_px": 1.5,
+  "fresh_local_ocr_matches_cache": true,
+  "fresh_local_ocr_calls": 8,
+  "total_pin_metrics": {
+    "before": {
+      "tp": 171,
+      "fp": 15,
+      "fn": 20
+    },
+    "after": {
+      "tp": 174,
+      "fp": 12,
+      "fn": 17
+    }
+  },
+  "entrypoint": {
+    "mode": "cached_model_and_ocr_live_entrypoint",
+    "cases": [
+      {
+        "case": "1",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "evidence_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "2",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "evidence_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "4",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "evidence_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "5",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "evidence_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 3,
+          "changed_networks": 0,
+          "ocr_calls": 8
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      }
+    ],
+    "kept_work": true
+  }
+}

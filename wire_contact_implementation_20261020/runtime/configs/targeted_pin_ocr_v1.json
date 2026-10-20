@@ -1,0 +1,16 @@
+{
+  "version": "missing-pin-fields-local-OCR-pilot-v1",
+  "component_types": ["ic", "connector", "block", "opamp", "resistor", "capacitor", "inductor", "crystal"],
+  "scales": [2.0, 3.0, 4.0],
+  "rotations": [0, 90],
+  "max_rois": 12,
+  "tangent_padding_px": 24,
+  "crop_boundary_guard_px": 2,
+  "min_observation_confidence": 0.85,
+  "adoption_min_confidence": 0.98,
+  "adoption_min_views": 2,
+  "adoption_min_assignment_margin": 5,
+  "conflicting_spelling_min_views": 2,
+  "onnx_threads": 4,
+  "default_pipeline_adopted": false
+}

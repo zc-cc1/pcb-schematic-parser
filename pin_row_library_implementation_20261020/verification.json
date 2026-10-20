@@ -1,0 +1,373 @@
+{
+  "release_hashes_verified": true,
+  "library_hash_verified": true,
+  "unit_tests_passed": 218,
+  "new_tests": 33,
+  "fully_unchanged_pages": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "12",
+    "13"
+  ],
+  "fresh_local_ocr_matches_cache": true,
+  "page11_local_ocr_calls": 22,
+  "all_pages_cached_ocr_views": 42,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "existing_pin_records_preserved_except_U1_number_rekey": true,
+  "new_pin_records": [
+    {
+      "owner": "USB1",
+      "key": "pin_7",
+      "pin": {
+        "pinname": "EH",
+        "point": {
+          "x": 91.5,
+          "y": 420.5
+        }
+      }
+    },
+    {
+      "owner": "USB1",
+      "key": "pin_B5",
+      "pin": {
+        "pinname": "CC2",
+        "point": {
+          "x": 292.5,
+          "y": 440.5
+        }
+      }
+    },
+    {
+      "owner": "USB1",
+      "key": "pin_A5",
+      "pin": {
+        "pinname": "CC1",
+        "point": {
+          "x": 292.5,
+          "y": 420.5
+        }
+      }
+    },
+    {
+      "owner": "USB2",
+      "key": "pin_5",
+      "pin": {
+        "pinname": "SHLD",
+        "point": {
+          "x": 579.5,
+          "y": 381.0
+        }
+      }
+    },
+    {
+      "owner": "USB2",
+      "key": "pin_1",
+      "pin": {
+        "pinname": "VCC",
+        "point": {
+          "x": 738.5,
+          "y": 400.5
+        }
+      }
+    },
+    {
+      "owner": "USB2",
+      "key": "pin_2",
+      "pin": {
+        "pinname": "D-",
+        "point": {
+          "x": 738.5,
+          "y": 381.0
+        }
+      }
+    },
+    {
+      "owner": "USB2",
+      "key": "pin_3",
+      "pin": {
+        "pinname": "D+",
+        "point": {
+          "x": 738.5,
+          "y": 361.5
+        }
+      }
+    },
+    {
+      "owner": "USB2",
+      "key": "pin_4",
+      "pin": {
+        "pinname": "GND",
+        "point": {
+          "x": 738.5,
+          "y": 341.5
+        }
+      }
+    }
+  ],
+  "component_changes": [
+    {
+      "owner": "U1",
+      "field": "Name",
+      "before": "U1",
+      "after": "TP4333"
+    },
+    {
+      "owner": "USB1",
+      "field": "Name",
+      "before": "USB1",
+      "after": "TYPE-C 6P(073)"
+    },
+    {
+      "owner": "USB2",
+      "field": "Name",
+      "before": "USB2",
+      "after": "AF 90° WJDG"
+    }
+  ],
+  "existing_wire_segments_preserved": true,
+  "network_changes": [
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "before": [
+        "U1.4",
+        "USB1.A12"
+      ],
+      "after": [
+        "U1.4",
+        "USB1.7",
+        "USB1.A12",
+        "USB2.4"
+      ],
+      "reason": "observed_existing_attachment",
+      "steps": [
+        {
+          "network_id": "LOG_NET_CAND_00002",
+          "before": [
+            "U1.4",
+            "USB1.A12"
+          ],
+          "after": [
+            "U1.4",
+            "USB1.7",
+            "USB1.A12"
+          ],
+          "reason": "observed_existing_attachment"
+        },
+        {
+          "network_id": "LOG_NET_CAND_00002",
+          "before": [
+            "U1.4",
+            "USB1.7",
+            "USB1.A12"
+          ],
+          "after": [
+            "U1.4",
+            "USB1.7",
+            "USB1.A12",
+            "USB2.4"
+          ],
+          "reason": "observed_existing_attachment"
+        }
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00003",
+      "before": [
+        "U1.1"
+      ],
+      "after": [
+        "U1.1",
+        "USB2.1"
+      ],
+      "reason": "observed_existing_attachment",
+      "steps": [
+        {
+          "network_id": "LOG_NET_CAND_00003",
+          "before": [
+            "U1.1"
+          ],
+          "after": [
+            "U1.1",
+            "USB2.1"
+          ],
+          "reason": "observed_existing_attachment"
+        }
+      ]
+    }
+  ],
+  "network_withheld": [
+    {
+      "member": "U1.6",
+      "reason": "source_model_route_not_exported"
+    },
+    {
+      "member": "USB1.B5",
+      "reason": "no_unique_existing_observed_route"
+    },
+    {
+      "member": "USB1.A5",
+      "reason": "no_unique_existing_observed_route"
+    },
+    {
+      "member": "USB2.5",
+      "reason": "no_visible_green_contact"
+    },
+    {
+      "member": "USB2.2",
+      "reason": "visible_no_connect_cross"
+    },
+    {
+      "member": "USB2.3",
+      "reason": "visible_no_connect_cross"
+    }
+  ],
+  "aggregate_pin_metrics": {
+    "before": {
+      "tp": 181,
+      "fp": 7,
+      "fn": 10
+    },
+    "after": {
+      "tp": 190,
+      "fp": 6,
+      "fn": 1
+    }
+  },
+  "predictions_frozen_before_reference_reads": true,
+  "entrypoint": {
+    "mode": "cached_model_and_ocr_live_entrypoint",
+    "cases": [
+      {
+        "case": "1",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 12
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "2",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "4",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 4
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "5",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "6",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "8",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "10",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "changed_components": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "11",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "row_library_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 9,
+          "changed_components": 3,
+          "changed_networks": 2,
+          "ocr_calls": 22
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      }
+    ],
+    "kept_work": true,
+    "runtime": "deployed"
+  }
+}

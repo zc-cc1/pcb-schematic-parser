@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "profile": "engineering_only_provisional_numbering",
+  "passive_types": ["resistor", "capacitor", "inductor"],
+  "number_policy": "left_or_top_1_right_or_bottom_2",
+  "name_policy": "number_as_name",
+  "minimum_detection_confidence": 0.8,
+  "minimum_tip_confidence": 0.85,
+  "minimum_wire_probability": 0.9,
+  "maximum_wire_gap_px": 3.0,
+  "projection_segment_tolerance_px": 1.0,
+  "minimum_axis_segment_length_px": 2.0,
+  "maximum_axis_slope_ratio": 0.15,
+  "alignment_min_px": 3.0,
+  "alignment_body_fraction": 0.35,
+  "minimum_pair_span_body_fraction": 0.45,
+  "minimum_end_offset_body_fraction": 0.2,
+  "ownership_withdrawal_types": ["resistor", "inductor"],
+  "ownership_min_body_aspect_ratio": 1.6,
+  "number_candidate_veto_max_cost": 10.0,
+  "default_pipeline_adopted": false,
+  "official_numbering_verified": false
+}

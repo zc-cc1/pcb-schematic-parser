@@ -1,0 +1,605 @@
+{
+  "policy": "ic_observed_model_reference_description_v1",
+  "priority": [
+    "model",
+    "reference",
+    "description"
+  ],
+  "image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+  "size": [
+    2202,
+    1003
+  ],
+  "components": [
+    {
+      "component_id": "U1",
+      "before_Name": "MP2236CGJ-Z",
+      "after_Name": "MP2236CGJ-Z",
+      "selected_category": "model",
+      "selected_evidence": {
+        "source": "existing_observed_model",
+        "token_id": "token_0013",
+        "text_id": "text_0012",
+        "text": "MP2236CGJ-Z",
+        "bbox": [
+          844.0,
+          308.0,
+          950.5,
+          326.5
+        ],
+        "confidence": 0.99997,
+        "role": "model_candidate",
+        "source_view": "tile_614_0_r90",
+        "prefix": null,
+        "source_text": "MP2236CGJ-Z",
+        "approximate_split_geometry": false
+      },
+      "candidates": [
+        {
+          "token_id": "token_0031",
+          "text_id": "text_0028",
+          "text": "BST",
+          "bbox": [
+            923.0,
+            339.5,
+            955.0,
+            356.0
+          ],
+          "confidence": 0.99999,
+          "role": "other",
+          "source_view": "tile_614_235_r0",
+          "prefix": null,
+          "source_text": "BST",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 13.418119999999984,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0051",
+          "text_id": "text_0048",
+          "text": "4",
+          "bbox": [
+            893.4873046875,
+            445.29742431640625,
+            908.5400390625,
+            459.34808349609375
+          ],
+          "confidence": 0.99999,
+          "role": "numeric",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "4",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0045",
+          "text_id": "text_0042",
+          "text": "AGND",
+          "bbox": [
+            868.7578125,
+            395.57977294921875,
+            892.412109375,
+            443.13580322265625
+          ],
+          "confidence": 0.99998,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "AGND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0047",
+          "text_id": "text_0044",
+          "text": "8",
+          "bbox": [
+            960.0,
+            410.5,
+            970.0,
+            422.5
+          ],
+          "confidence": 0.99998,
+          "role": "numeric",
+          "source_view": "tile_614_235_r0",
+          "prefix": null,
+          "source_text": "8",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0013",
+          "text_id": "text_0012",
+          "text": "MP2236CGJ-Z",
+          "bbox": [
+            844.0,
+            308.0,
+            950.5,
+            326.5
+          ],
+          "confidence": 0.99997,
+          "role": "model_candidate",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "MP2236CGJ-Z",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": true,
+          "selection_score": 1.2556599999999882,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0026",
+          "text_id": "text_0023",
+          "text": "R1",
+          "bbox": [
+            1073.0,
+            320.0,
+            1094.5,
+            336.0
+          ],
+          "confidence": 0.99997,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "R",
+          "source_text": "R1",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0037",
+          "text_id": "text_0034",
+          "text": "6",
+          "bbox": [
+            811.5,
+            371.5,
+            821.5,
+            383.5
+          ],
+          "confidence": 0.99997,
+          "role": "numeric",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "6",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0040",
+          "text_id": "text_0037",
+          "text": "EN",
+          "bbox": [
+            826.5,
+            379.5,
+            851.5,
+            396.5
+          ],
+          "confidence": 0.99996,
+          "role": "other",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "EN",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0046",
+          "text_id": "text_0043",
+          "text": "GND",
+          "bbox": [
+            901.5,
+            406.0,
+            919.5,
+            442.0
+          ],
+          "confidence": 0.99996,
+          "role": "net_or_pin_label",
+          "source_view": "tile_614_235_r90",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0052",
+          "text_id": "text_0049",
+          "text": "1",
+          "bbox": [
+            865.0,
+            446.0,
+            878.5,
+            455.5
+          ],
+          "confidence": 0.99995,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "1",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0049",
+          "text_id": "text_0046",
+          "text": "FB",
+          "bbox": [
+            932.0,
+            418.0,
+            956.0,
+            435.5
+          ],
+          "confidence": 0.99994,
+          "role": "other",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "FB",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0038",
+          "text_id": "text_0035",
+          "text": "3",
+          "bbox": [
+            961.0,
+            372.5,
+            969.5,
+            383.0
+          ],
+          "confidence": 0.99992,
+          "role": "numeric",
+          "source_view": "tile_614_235_r0",
+          "prefix": null,
+          "source_text": "3",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0030",
+          "text_id": "text_0027",
+          "text": "IN",
+          "bbox": [
+            825.75,
+            338.2963562011719,
+            847.25390625,
+            356.6702880859375
+          ],
+          "confidence": 0.9998,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "IN",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0032",
+          "text_id": "text_0029",
+          "text": "10K",
+          "bbox": [
+            1074.5,
+            350.0,
+            1102.5,
+            367.0
+          ],
+          "confidence": 0.99976,
+          "role": "resistance",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "10K",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0016",
+          "text_id": "text_0013",
+          "text": "U1",
+          "bbox": [
+            821.0,
+            308.5,
+            848.0,
+            323.0
+          ],
+          "confidence": 0.99961,
+          "role": "designator",
+          "source_view": "tile_614_0_r90",
+          "prefix": "U",
+          "source_text": "U1",
+          "approximate_split_geometry": false,
+          "category": "reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0041",
+          "text_id": "text_0038",
+          "text": "SW",
+          "bbox": [
+            927.0,
+            379.5,
+            956.0,
+            396.5
+          ],
+          "confidence": 0.99712,
+          "role": "other",
+          "source_view": "tile_614_0_r0",
+          "prefix": null,
+          "source_text": "SW",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0029",
+          "text_id": "text_0026",
+          "text": "N",
+          "bbox": [
+            825.5,
+            337.0,
+            846.5,
+            356.0
+          ],
+          "confidence": 0.9899,
+          "role": "other",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "N",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "side_pin_region_or_distant_caption"
+        },
+        {
+          "token_id": "token_0048",
+          "text_id": "text_0045",
+          "text": "VCC",
+          "bbox": [
+            824.6748046875,
+            416.1153259277344,
+            863.3818359375,
+            436.65087890625
+          ],
+          "confidence": 0.97989,
+          "role": "net_or_pin_label",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VCC",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0028",
+          "text_id": "text_0025",
+          "text": "5",
+          "bbox": [
+            960.0,
+            330.0,
+            969.5,
+            343.5
+          ],
+          "confidence": 0.97426,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "5",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0027",
+          "text_id": "text_0024",
+          "text": "0",
+          "bbox": [
+            824.5,
+            327.0,
+            839.0,
+            341.0
+          ],
+          "confidence": 0.76988,
+          "role": "numeric",
+          "source_view": "tile_614_0_r90",
+          "prefix": null,
+          "source_text": "0",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0039",
+          "text_id": "text_0036",
+          "text": "N",
+          "bbox": [
+            827.5,
+            379.0,
+            851.0,
+            395.0
+          ],
+          "confidence": 0.70518,
+          "role": "other",
+          "source_view": "tile_614_235_r90",
+          "prefix": null,
+          "source_text": "N",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "low_confidence"
+        },
+        {
+          "token_id": "token_0024",
+          "text_id": "text_0021",
+          "text": "R",
+          "bbox": [
+            1073.0,
+            319.0,
+            1093.5,
+            335.0
+          ],
+          "confidence": 0.70056,
+          "role": "other",
+          "source_view": "tile_614_235_r90",
+          "prefix": null,
+          "source_text": "R",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "ic_full_00077",
+          "text_id": "text_0012",
+          "text": "U1 MP2236CGJ-Z",
+          "bbox": [
+            819.0,
+            307.5,
+            950.5,
+            325.5
+          ],
+          "confidence": 0.99901,
+          "source_view": "tile_614_0_r0",
+          "role": "full_caption",
+          "source_text": "U1 MP2236CGJ-Z",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 1.2565800000000122,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00078",
+          "text_id": "text_0012",
+          "text": "U1 MP2236CGJ-Z",
+          "bbox": [
+            819.0,
+            307.5,
+            951.0,
+            325.0
+          ],
+          "confidence": 0.99862,
+          "source_view": "tile_614_235_r0",
+          "role": "full_caption",
+          "source_text": "U1 MP2236CGJ-Z",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 1.2112600000000122,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "ic_full_00079",
+          "text_id": "text_0012",
+          "text": "U1 MP2236CGJ-Z",
+          "bbox": [
+            818.2236328125,
+            306.9526062011719,
+            951.5478515625,
+            325.3265075683594
+          ],
+          "confidence": 0.96896,
+          "source_view": "global",
+          "role": "full_caption",
+          "source_text": "U1 MP2236CGJ-Z",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 1.5900315625000112,
+          "reason": "top_or_bottom_caption"
+        }
+      ],
+      "previous_Name_category": "model",
+      "previous_Name_evidence": {
+        "token_id": "token_0013",
+        "text_id": "text_0012",
+        "text": "MP2236CGJ-Z",
+        "bbox": [
+          844.0,
+          308.0,
+          950.5,
+          326.5
+        ],
+        "confidence": 0.99997,
+        "role": "model_candidate",
+        "source_view": "tile_614_0_r90",
+        "prefix": null,
+        "source_text": "MP2236CGJ-Z",
+        "approximate_split_geometry": false
+      },
+      "observed_reference": {
+        "token_id": "token_0016",
+        "text_id": "text_0013",
+        "text": "U1",
+        "bbox": [
+          821.0,
+          308.5,
+          848.0,
+          323.0
+        ],
+        "confidence": 0.99961,
+        "role": "designator",
+        "source_view": "tile_614_0_r90",
+        "prefix": "U",
+        "source_text": "U1",
+        "approximate_split_geometry": false
+      },
+      "changed": false
+    }
+  ],
+  "assignment_rejections": [],
+  "changed_Name_count": 0,
+  "full_OCR_log_required": true,
+  "OCR_row_count": 76,
+  "only_IC_Name_changed": true,
+  "reference_labels_or_model_dictionary_used": false
+}

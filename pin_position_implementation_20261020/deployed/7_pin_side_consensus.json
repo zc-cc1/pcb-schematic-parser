@@ -1,0 +1,98 @@
+{
+  "enabled": true,
+  "modified_pin_count": 0,
+  "groups": [
+    {
+      "component": "U1",
+      "side": "left",
+      "measurements": [
+        {
+          "key": "pin_7",
+          "raw_point": {
+            "x": 808.519753575325,
+            "y": 580.547847867012
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_6",
+          "raw_point": {
+            "x": 808.6105737388134,
+            "y": 620.4587481915951
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_2",
+          "raw_point": {
+            "x": 809.3008162081242,
+            "y": 660.5474649071693
+          },
+          "length": 17
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 18,
+      "changes": []
+    },
+    {
+      "component": "U1",
+      "side": "right",
+      "measurements": [
+        {
+          "key": "pin_3",
+          "raw_point": {
+            "x": 972.6285167634487,
+            "y": 620.4928270876408
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_8",
+          "raw_point": {
+            "x": 977.1676598340273,
+            "y": 580.6438145637512
+          },
+          "length": 18
+        },
+        {
+          "key": "pin_5",
+          "raw_point": {
+            "x": 976.9359649196267,
+            "y": 659.3205672502518
+          },
+          "length": 18
+        }
+      ],
+      "accepted": true,
+      "consensus_length": 18,
+      "changes": []
+    },
+    {
+      "component": "U1",
+      "side": "bottom",
+      "measurements": [
+        {
+          "key": "pin_1",
+          "raw_point": {
+            "x": 880.8934237584472,
+            "y": 549.8131235390902
+          },
+          "length": 19
+        },
+        {
+          "key": "pin_4",
+          "raw_point": {
+            "x": 910.1321896016598,
+            "y": 553.1791007369757
+          },
+          "length": 19
+        }
+      ],
+      "accepted": false,
+      "consensus_length": null,
+      "changes": []
+    }
+  ],
+  "policy": "same_side_image_length_consensus_v1"
+}

@@ -1,0 +1,205 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    2063,
+    1116
+  ],
+  "entries": [
+    {
+      "component_id": "U3",
+      "before_bbox_bottom_left": [
+        804.964,
+        340.899,
+        882.921,
+        451.67100000000005
+      ],
+      "after_bbox_bottom_left": [
+        817.0,
+        348.0,
+        877.0,
+        446.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          785,
+          636,
+          903,
+          803
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            817.0,
+            670.0,
+            877.0,
+            768.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9889740032980792
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        614.794,
+        715.523,
+        692.718,
+        825.812
+      ],
+      "after_bbox_bottom_left": [
+        628.0,
+        721.0,
+        687.0,
+        820.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          595,
+          262,
+          713,
+          429
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            628.0,
+            296.0,
+            687.0,
+            395.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.98848549229499
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U2",
+      "before_bbox_bottom_left": [
+        1016.187,
+        720.5319999999999,
+        1094.83,
+        832.2950000000001
+      ],
+      "after_bbox_bottom_left": [
+        1029.0,
+        727.0,
+        1088.0,
+        826.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          996,
+          255,
+          1115,
+          424
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            1029.0,
+            290.0,
+            1088.0,
+            389.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9886179058836669
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U4",
+      "before_bbox_bottom_left": [
+        1274.831,
+        346.818,
+        1353.964,
+        457.68399999999997
+      ],
+      "after_bbox_bottom_left": [
+        1288.0,
+        354.0,
+        1347.0,
+        452.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          1255,
+          630,
+          1374,
+          797
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            1288.0,
+            664.0,
+            1347.0,
+            762.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.988351217363151
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "changed_IC_boxes": 4,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+  "wall_seconds": 0.026
+}

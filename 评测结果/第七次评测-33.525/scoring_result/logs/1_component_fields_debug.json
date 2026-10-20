@@ -1,0 +1,488 @@
+{
+  "source_image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "entries": [
+    {
+      "component_id": "LED2",
+      "type": "led",
+      "missing_fields": [
+        "Name"
+      ],
+      "bbox_top_left": [
+        659.834,
+        416.092,
+        729.501,
+        467.462
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0099",
+          "text_id": "text_0085",
+          "text": "LED2",
+          "bbox": [
+            721.0,
+            453.0,
+            767.5,
+            470.5
+          ],
+          "confidence": 0.99998,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "LED",
+          "source_text": "LED2",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 25.600305119368947,
+        "designator_assignment_margin": 64.3996948806307
+      },
+      "nearby_OCR": [
+        {
+          "text": "ED1",
+          "bbox": [
+            679.0,
+            455.0,
+            711.5,
+            467.5
+          ],
+          "confidence": 0.99945,
+          "view": "tile_614_381_r90",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "ED1",
+              "confidence": 0.99945,
+              "view": "tile_614_381_r90"
+            }
+          ]
+        },
+        {
+          "text": "LED1",
+          "bbox": [
+            669.375,
+            452.6363525390625,
+            719.6875,
+            471.1335144042969
+          ],
+          "confidence": 0.99992,
+          "view": "global",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED1",
+              "confidence": 0.99992,
+              "view": "global"
+            },
+            {
+              "text": "LED1",
+              "confidence": 0.99992,
+              "view": "tile_0_0_r90"
+            },
+            {
+              "text": "LED1",
+              "confidence": 0.99992,
+              "view": "tile_614_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "LED1LED2",
+          "bbox": [
+            670.5,
+            448.0,
+            767.5,
+            474.0
+          ],
+          "confidence": 0.99956,
+          "view": "tile_0_381_r90",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED1LED2",
+              "confidence": 0.99956,
+              "view": "tile_0_381_r90"
+            },
+            {
+              "text": "LED1 LED2",
+              "confidence": 0.9551,
+              "view": "tile_0_381_r0"
+            },
+            {
+              "text": "LED1 LED2",
+              "confidence": 0.94801,
+              "view": "tile_614_381_r0"
+            }
+          ]
+        },
+        {
+          "text": "LED2",
+          "bbox": [
+            721.0,
+            453.0,
+            767.5,
+            470.5
+          ],
+          "confidence": 0.99998,
+          "view": "tile_0_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_0_0_r90"
+            },
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_614_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "220uF",
+          "bbox": [
+            581.0,
+            375.0,
+            627.0,
+            393.0
+          ],
+          "confidence": 0.99901,
+          "view": "tile_0_0_r90",
+          "distance_px": 40.141,
+          "alternatives": [
+            {
+              "text": "220uF",
+              "confidence": 0.99901,
+              "view": "tile_0_0_r90"
+            },
+            {
+              "text": "220uF",
+              "confidence": 0.99858,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "220uF",
+              "confidence": 0.99746,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            614.0,
+            376.0,
+            626.5,
+            393.0
+          ],
+          "confidence": 0.99972,
+          "view": "tile_614_0_r0",
+          "distance_px": 40.551,
+          "alternatives": [
+            {
+              "text": "F",
+              "confidence": 0.99972,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "F",
+              "confidence": 0.99956,
+              "view": "tile_614_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "C10",
+          "bbox": [
+            580.5,
+            353.5,
+            614.0,
+            374.0
+          ],
+          "confidence": 0.99956,
+          "view": "tile_0_0_r90",
+          "distance_px": 62.229,
+          "alternatives": [
+            {
+              "text": "C10",
+              "confidence": 0.99956,
+              "view": "tile_0_0_r90"
+            },
+            {
+              "text": "C10",
+              "confidence": 0.99931,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "C10",
+              "confidence": 0.99737,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "LED3",
+          "bbox": [
+            796.0,
+            456.5,
+            836.0,
+            474.0
+          ],
+          "confidence": 0.99989,
+          "view": "tile_614_0_r90",
+          "distance_px": 66.499,
+          "alternatives": [
+            {
+              "text": "LED3",
+              "confidence": 0.99989,
+              "view": "tile_614_0_r90"
+            },
+            {
+              "text": "LED3",
+              "confidence": 0.99987,
+              "view": "global"
+            },
+            {
+              "text": "ED3",
+              "confidence": 0.99987,
+              "view": "tile_614_381_r90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "R13",
+      "type": "resistor",
+      "missing_fields": [
+        "value"
+      ],
+      "bbox_top_left": [
+        288.434,
+        231.513,
+        345.655,
+        256.14
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0037",
+          "text_id": "text_0031",
+          "text": "R13",
+          "bbox": [
+            295.0,
+            219.0,
+            326.5,
+            235.0
+          ],
+          "confidence": 0.99971,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R13",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 8.271673140392732,
+        "designator_assignment_margin": 81.72832685960702
+      },
+      "nearby_OCR": [
+        {
+          "text": "R13",
+          "bbox": [
+            295.0,
+            219.0,
+            326.5,
+            235.0
+          ],
+          "confidence": 0.99971,
+          "view": "tile_0_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "R13",
+              "confidence": 0.99971,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "R13",
+              "confidence": 0.99945,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "5k1",
+          "bbox": [
+            292.03125,
+            255.69601440429688,
+            323.75,
+            277.4573669433594
+          ],
+          "confidence": 0.99937,
+          "view": "global",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "5k1",
+              "confidence": 0.99937,
+              "view": "global"
+            },
+            {
+              "text": "5k1",
+              "confidence": 0.99929,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "5k1",
+              "confidence": 0.99927,
+              "view": "tile_0_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            258.0,
+            231.5,
+            276.5,
+            245.0
+          ],
+          "confidence": 0.99988,
+          "view": "tile_0_0_r0",
+          "distance_px": 11.934,
+          "alternatives": [
+            {
+              "text": "10",
+              "confidence": 0.99988,
+              "view": "tile_0_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            258.125,
+            211.08522033691406,
+            274.53125,
+            224.14202880859375
+          ],
+          "confidence": 0.99987,
+          "view": "global",
+          "distance_px": 15.736,
+          "alternatives": [
+            {
+              "text": "11",
+              "confidence": 0.99987,
+              "view": "global"
+            },
+            {
+              "text": "11",
+              "confidence": 0.99964,
+              "view": "tile_0_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            258.5,
+            270.5,
+            268.0,
+            283.5
+          ],
+          "confidence": 0.99911,
+          "view": "tile_0_0_r90",
+          "distance_px": 24.975,
+          "alternatives": [
+            {
+              "text": "8",
+              "confidence": 0.99911,
+              "view": "tile_0_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            256.5,
+            189.0,
+            278.0,
+            207.5
+          ],
+          "confidence": 0.99982,
+          "view": "tile_0_0_r0",
+          "distance_px": 26.182,
+          "alternatives": [
+            {
+              "text": "12",
+              "confidence": 0.99982,
+              "view": "tile_0_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "VBUS",
+          "bbox": [
+            206.71875,
+            216.5255584716797,
+            255.9375,
+            240.4630584716797
+          ],
+          "confidence": 0.99996,
+          "view": "global",
+          "distance_px": 32.497,
+          "alternatives": [
+            {
+              "text": "VBUS",
+              "confidence": 0.99996,
+              "view": "global"
+            },
+            {
+              "text": "VBUS",
+              "confidence": 0.99988,
+              "view": "tile_0_0_r90"
+            },
+            {
+              "text": "VBUS",
+              "confidence": 0.99981,
+              "view": "tile_0_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "CC2",
+          "bbox": [
+            216.5625,
+            238.28692626953125,
+            253.75,
+            258.960205078125
+          ],
+          "confidence": 0.99756,
+          "view": "global",
+          "distance_px": 34.684,
+          "alternatives": [
+            {
+              "text": "CC2",
+              "confidence": 0.99756,
+              "view": "global"
+            },
+            {
+              "text": "CC2",
+              "confidence": 0.99501,
+              "view": "tile_0_0_r0"
+            },
+            {
+              "text": "CC2",
+              "confidence": 0.99318,
+              "view": "tile_0_0_r90"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_fields_are_not_automatically_errors": true,
+  "values_or_names_changed": 0
+}

@@ -26,8 +26,13 @@ class WirePinUNet(nn.Module):
         return self.out(x)
 
 
-def segmentation_loss(logits, targets, valid, wire_positive_weight=8., pin_positive_weight=20.):
-    """Mask padding/unknown pixels; wire BCE+Dice, pin Gaussian weighted BCE."""
+def segmentation_loss(logits, targets, valid, wire_positive_weight=8., pin_positive_weight=20., pin_loss_weight=.5):
+    """Mask padding/unknown pixels; wire BCE+Dice, pin Gaussian weighted BCE.
+
+    `pin_loss_weight` exists because the two tasks no longer share one schedule:
+    v1/v2 hard-coded 0.5x pin BCE, which leaves the pin head under-trained once
+    the wire task starts converging.  The default keeps old behaviour bit-exact.
+    """
     if not bool(valid.any()):
         raise ValueError("No supervised pixels in batch")
     bce = nn.functional.binary_cross_entropy_with_logits
@@ -39,5 +44,5 @@ def segmentation_loss(logits, targets, valid, wire_positive_weight=8., pin_posit
     probability = logits[:,0].sigmoid()*valid
     truth = targets[:,0]*valid
     dice = 1-(2*(probability*truth).sum()+1)/(probability.sum()+truth.sum()+1)
-    return losses[0]+dice+.5*losses[1], {"wire_bce": losses[0].detach(),
+    return losses[0]+dice+pin_loss_weight*losses[1], {"wire_bce": losses[0].detach(),
                                       "wire_dice_loss": dice.detach(), "pin_bce": losses[1].detach()}

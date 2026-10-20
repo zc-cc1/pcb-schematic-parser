@@ -1,0 +1,80 @@
+{
+  "image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb",
+  "size": [
+    1658,
+    752
+  ],
+  "coordinate_origin": "top_left",
+  "prediction_only": true,
+  "observed_net_fields_config_sha256": "22a50767120c6daed1a085c7eb377555ec07df6724748a7635fbea511ca0bdf4",
+  "observed_binding_config_sha256": "6ed13c557c8277ca8e3daca8f7045a2cf478b987367d975d0ed899c972bdfc0d",
+  "original_S23_input_sha256": {
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\engineering_pin_text_result.json": "92039554f87c31c124577c67aa0826161aac2d11473d40199ac9392dd6bd71be",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\engineering_graph_proposals.json": "6bc673a8236a8732d80b074aab8f5856862b82697f5beb840825d472a783ad03",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\completed_component_records.json": "1c09a53dabfadd3de61ebc2aef6f663c39bb9d956176d4d6446063f338873c3b",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\engineering_submission.json": "024e681dbc5729b1b28f7b986ac63a03d42eb0bfd7c11f2fa8c4afbc243a6d99",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\baseline_export\\partial_submission.json": "eee061e8b87639c4ee48cc0d19bbeafc4169760ccadddd015c8d562e0479c928",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23\\export\\baseline_export\\conservative_export_coverage.json": "0cbcd6ca45bdcef973fd8398e92e433b991a6c28748306ab189a932e2ca10e9f",
+    "C:\\Users\\Pc\\Desktop\\新建文件夹\\wire_validation_20261020\\baseline\\work\\pcb_ob8it4e9\\p_stage23_stage21_stage20_stage18\\stage17\\stage16\\upstream\\pin_text\\texts.json": "fd02663ead42ce7b3ce39dd1214564dbe012ffafb71b0dd0c61ccac952bc3b59"
+  },
+  "observed_OCR_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "observed_fields_profile": "engineering_observed_fields_only",
+  "official_identity_verified": false,
+  "observed_fields": {
+    "observed_pin_names_added": 0,
+    "observed_component_ids_added": 0,
+    "observed_footer_names_added": 0,
+    "new_pin_numbers": 0,
+    "points_or_edges_changed": 0,
+    "raw_members_removed": 0,
+    "new_OCR_model_runs": 0
+  },
+  "engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 20,
+    "exported_nets": 13
+  },
+  "baseline_export": {
+    "exported_components": 10,
+    "exported_pins": 0,
+    "exported_nets": 0
+  },
+  "previous_engineering_export": {
+    "exported_components": 10,
+    "exported_pins": 20,
+    "exported_nets": 13
+  },
+  "new_complete_network_ids": [],
+  "net_preserve_violations": [],
+  "completion": {
+    "multi_pin_networks": 7,
+    "field_only_incomplete_networks": 3,
+    "non_field_export_blocker_counts": {
+      "junction_semantics_unresolved": 1,
+      "power_logical_membership_provisional": 1
+    }
+  },
+  "all_existing_fields_and_conservative_output_preserved": true,
+  "original_points_edges_and_members_preserved": true,
+  "new_training": false,
+  "default_pipeline_adopted": false,
+  "official_PinF1": null,
+  "official_NetF1": null,
+  "input_contract": "PNG and frozen image-model/OCR predictions only; no annotation/CAD/Golden reads",
+  "wall_seconds": 1.756184800004121,
+  "used_external_model_caches": false,
+  "entrypoint_wall_seconds": 73.74633460000041
+}

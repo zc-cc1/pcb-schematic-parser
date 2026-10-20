@@ -1,0 +1,159 @@
+{
+  "version": "observed-physical-power-wires-v2",
+  "restored_networks": [
+    {
+      "network_id": "RESTORED_NET_CAND_00001",
+      "observed_rail": "+5V",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 7,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00001"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00005",
+      "observed_rail": "+5V",
+      "members": 5,
+      "added_power_contacts": 1,
+      "edges": 7,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00007"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00009",
+      "observed_rail": "+5V",
+      "members": 3,
+      "added_power_contacts": 1,
+      "edges": 3,
+      "source_power_sites": [
+        "POWER_ROI_SITE_00006"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00024",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00023"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00025",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00024"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00026",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 2,
+      "source_power_sites": [
+        "LABEL_SITE_00021"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00028",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00030"
+      ]
+    },
+    {
+      "network_id": "RESTORED_NET_CAND_00029",
+      "observed_rail": "GND",
+      "members": 2,
+      "added_power_contacts": 1,
+      "edges": 1,
+      "source_power_sites": [
+        "LABEL_SITE_00031"
+      ]
+    }
+  ],
+  "primary_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00023",
+      "candidate_id": "PIN_CAND_0045",
+      "member": "UNRESOLVED_DET_0008.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00019",
+      "candidate_id": "PIN_CAND_0055",
+      "member": "UNRESOLVED_DET_0007.2",
+      "observed_rail": "GND",
+      "duplicate_count": 1,
+      "reason": "explicit_primary_of_duplicate_power_tips"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "candidate_id": "PIN_CAND_0008",
+      "member": "UNRESOLVED_DET_0020.1",
+      "observed_rail": "+3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "candidate_id": "PIN_CAND_0011",
+      "member": "UNRESOLVED_DET_0015.1",
+      "observed_rail": "3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "candidate_id": "PIN_CAND_0013",
+      "member": "UNRESOLVED_DET_0017.1",
+      "observed_rail": "3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "restored_net_count": 8,
+  "primary_contact_count": 5,
+  "existing_power_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00008",
+      "candidate_id": "PIN_CAND_0008",
+      "member": "UNRESOLVED_DET_0020.1",
+      "observed_rail": "+3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "candidate_id": "PIN_CAND_0011",
+      "member": "UNRESOLVED_DET_0015.1",
+      "observed_rail": "3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00002",
+      "candidate_id": "PIN_CAND_0013",
+      "member": "UNRESOLVED_DET_0017.1",
+      "observed_rail": "3.3V",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "existing_power_contact_count": 3,
+  "inference_calls": 0,
+  "enabled": true,
+  "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb"
+}

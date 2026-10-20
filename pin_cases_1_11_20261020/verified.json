@@ -1,0 +1,209 @@
+[
+  {
+    "case": "1",
+    "snap_replay_identical_scored_pins": true,
+    "baseline_score": {
+      "tp": 25,
+      "fp": 10,
+      "fn": 15,
+      "precision": 0.7143,
+      "recall": 0.625,
+      "f1": 0.6667
+    },
+    "without_snap_diagnostic_score": {
+      "tp": 24,
+      "fp": 11,
+      "fn": 16,
+      "precision": 0.6857,
+      "recall": 0.6,
+      "f1": 0.64
+    },
+    "position_failures": [
+      {
+        "component": "U1",
+        "pin": "pin_9",
+        "name": "EP",
+        "box": [
+          929.0,
+          845.0,
+          1087.0,
+          944.0
+        ],
+        "before_point": {
+          "x": 1008.3843226730824,
+          "y": 954.8131490945816
+        },
+        "before_distance": 29.193,
+        "final_point": {
+          "x": 1008.3843226730824,
+          "y": 962.0
+        },
+        "final_distance": 22.01,
+        "component_measurements": {
+          "pin_1": {
+            "side": "left",
+            "length": 17
+          },
+          "pin_3": {
+            "side": "left",
+            "length": 18
+          },
+          "pin_2": {
+            "side": "left",
+            "length": 17
+          },
+          "pin_7": {
+            "side": "right",
+            "length": 19
+          },
+          "pin_6": {
+            "side": "right",
+            "length": 18
+          },
+          "pin_8": {
+            "side": "right",
+            "length": 19
+          },
+          "pin_4": {
+            "side": "left",
+            "length": 17
+          },
+          "pin_9": {
+            "side": "top",
+            "length": 59
+          },
+          "pin_5": {
+            "side": "right",
+            "length": 18
+          }
+        }
+      },
+      {
+        "component": "USB1",
+        "pin": "pin_4",
+        "name": "CC1",
+        "box": [
+          119.975,
+          701.202,
+          268.967,
+          971.384
+        ],
+        "before_point": {
+          "x": 271.0561273880303,
+          "y": 786.410706281662
+        },
+        "before_distance": 5.958,
+        "final_point": {
+          "x": 298.967,
+          "y": 786.410706281662
+        },
+        "final_distance": 21.97,
+        "component_measurements": {
+          "pin_11": {
+            "side": "right",
+            "length": 8
+          },
+          "pin_10": {
+            "side": "right",
+            "length": 30
+          },
+          "pin_4": {
+            "side": "right",
+            "length": 30
+          }
+        }
+      },
+      {
+        "component": "USB1",
+        "pin": "pin_10",
+        "name": "CC2",
+        "box": [
+          119.975,
+          701.202,
+          268.967,
+          971.384
+        ],
+        "before_point": {
+          "x": 269.72854804992676,
+          "y": 904.9131350591779
+        },
+        "before_distance": 7.272,
+        "final_point": {
+          "x": 298.967,
+          "y": 904.9131350591779
+        },
+        "final_distance": 21.97,
+        "component_measurements": {
+          "pin_11": {
+            "side": "right",
+            "length": 8
+          },
+          "pin_10": {
+            "side": "right",
+            "length": 30
+          },
+          "pin_4": {
+            "side": "right",
+            "length": 30
+          }
+        }
+      },
+      {
+        "component": "USB1",
+        "pin": "pin_11",
+        "name": "VBUS",
+        "box": [
+          119.975,
+          701.202,
+          268.967,
+          971.384
+        ],
+        "before_point": {
+          "x": 270.36869272589684,
+          "y": 924.7370368540287
+        },
+        "before_distance": 6.672,
+        "final_point": {
+          "x": 298.967,
+          "y": 924.7370368540287
+        },
+        "final_distance": 21.98,
+        "component_measurements": {
+          "pin_11": {
+            "side": "right",
+            "length": 8
+          },
+          "pin_10": {
+            "side": "right",
+            "length": 30
+          },
+          "pin_4": {
+            "side": "right",
+            "length": 30
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "11",
+    "snap_replay_identical_scored_pins": true,
+    "baseline_score": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9,
+      "recall": 0.45,
+      "f1": 0.6
+    },
+    "without_snap_diagnostic_score": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9,
+      "recall": 0.45,
+      "f1": 0.6
+    },
+    "position_failures": []
+  }
+]

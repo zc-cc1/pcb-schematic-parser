@@ -1,0 +1,121 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0002",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            631.447265625,
+            863.9223022460938,
+            669.4208984375,
+            885.3330078125
+          ],
+          "views": [
+            "global",
+            "tile_0_431_r0",
+            "tile_614_431_r0",
+            "tile_614_431_r90"
+          ]
+        }
+      ],
+      "detection_index": 1
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0006",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1118.5,
+            221.0,
+            1135.0,
+            256.0
+          ],
+          "views": [
+            "tile_614_0_r0",
+            "tile_614_0_r90"
+          ]
+        }
+      ],
+      "detection_index": 5
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0008",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1642.5,
+            544.5,
+            1661.0,
+            581.0
+          ],
+          "views": [
+            "tile_1228_0_r90",
+            "tile_1228_431_r90",
+            "tile_1454_0_r90",
+            "tile_1454_431_r0",
+            "tile_1454_431_r90"
+          ]
+        }
+      ],
+      "detection_index": 7
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0015",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 14
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0016",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 15
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0018",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 17
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0020",
+      "type": "vcc",
+      "value": null,
+      "value_source": "caption_not_uniquely_observed",
+      "caption_evidence": [],
+      "detection_index": 19
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886",
+  "added_count": 7,
+  "type_counts": {
+    "gnd": 3,
+    "vcc": 4
+  },
+  "value_counts": {
+    "observed": 3,
+    "null": 4
+  }
+}

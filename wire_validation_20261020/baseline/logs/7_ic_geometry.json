@@ -1,0 +1,61 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    2202,
+    1003
+  ],
+  "entries": [
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        806.399,
+        549.8140000000001,
+        975.543,
+        684.432
+      ],
+      "after_bbox_bottom_left": [
+        822.0,
+        561.0,
+        960.0,
+        679.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          764,
+          284,
+          1018,
+          487
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 1,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            822.0,
+            324.0,
+            960.0,
+            442.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9910283452525944
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "changed_IC_boxes": 1,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+  "wall_seconds": 0.035
+}

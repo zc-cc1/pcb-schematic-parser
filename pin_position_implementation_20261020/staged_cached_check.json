@@ -1,0 +1,355 @@
+{
+  "mode": "staged",
+  "pages": [
+    {
+      "case": "1",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 14,
+      "baseline": {
+        "tp": 25,
+        "fp": 10,
+        "fn": 15,
+        "precision": 0.7143,
+        "recall": 0.625,
+        "f1": 0.6667
+      },
+      "current": {
+        "tp": 28,
+        "fp": 7,
+        "fn": 12,
+        "precision": 0.8,
+        "recall": 0.7,
+        "f1": 0.7467
+      },
+      "baseline_total": 0.7259,
+      "current_total": 0.7459,
+      "gained": [
+        "USB1.pin_4",
+        "USB1.pin_10",
+        "USB1.pin_11"
+      ],
+      "lost": []
+    },
+    {
+      "case": "2",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9375,
+        "recall": 0.9375,
+        "f1": 0.9375
+      },
+      "current": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9375,
+        "recall": 0.9375,
+        "f1": 0.9375
+      },
+      "baseline_total": 0.9206,
+      "current_total": 0.9206,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "3",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 3,
+      "baseline": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "baseline_total": 0.8973,
+      "current_total": 0.8973,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "4",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9091,
+        "recall": 0.8333,
+        "f1": 0.8696
+      },
+      "current": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 2,
+        "precision": 0.9091,
+        "recall": 0.8333,
+        "f1": 0.8696
+      },
+      "baseline_total": 0.8131,
+      "current_total": 0.8131,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "5",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333
+      },
+      "current": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333
+      },
+      "baseline_total": 0.8586,
+      "current_total": 0.8586,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "6",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      "current": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      "baseline_total": 0.839,
+      "current_total": 0.839,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "7",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "baseline_total": 0.885,
+      "current_total": 0.885,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "8",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8125,
+        "f1": 0.8966
+      },
+      "current": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.8125,
+        "f1": 0.8966
+      },
+      "baseline_total": 0.8934,
+      "current_total": 0.8934,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "9",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "baseline_total": 0.7863,
+      "current_total": 0.7863,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "10",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 8,
+      "baseline": {
+        "tp": 8,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.7273,
+        "recall": 0.6667,
+        "f1": 0.6957
+      },
+      "current": {
+        "tp": 8,
+        "fp": 3,
+        "fn": 4,
+        "precision": 0.7273,
+        "recall": 0.6667,
+        "f1": 0.6957
+      },
+      "baseline_total": 0.8002,
+      "current_total": 0.8002,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "11",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 0,
+      "baseline": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 11,
+        "precision": 0.9,
+        "recall": 0.45,
+        "f1": 0.6
+      },
+      "current": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 11,
+        "precision": 0.9,
+        "recall": 0.45,
+        "f1": 0.6
+      },
+      "baseline_total": 0.5548,
+      "current_total": 0.5548,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "12",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 4,
+      "baseline": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "baseline_total": 0.6663,
+      "current_total": 0.6663,
+      "gained": [],
+      "lost": []
+    },
+    {
+      "case": "13",
+      "legacy_replay_identical": true,
+      "only_points_changed": true,
+      "modified_pin_count": 4,
+      "baseline": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1": 0.9565
+      },
+      "current": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9167,
+        "f1": 0.9565
+      },
+      "baseline_total": 0.6766,
+      "current_total": 0.6766,
+      "gained": [],
+      "lost": []
+    }
+  ],
+  "pin_tolerance_px": 20,
+  "new_model_calls": 0,
+  "no_production_reference_reads": true,
+  "regressed_pages": [],
+  "baseline_macro_total": 0.7936230769230769,
+  "current_macro_total": 0.7951615384615385,
+  "gained_pin_count": 3,
+  "lost_pin_count": 0
+}

@@ -1,0 +1,146 @@
+{
+  "enabled": true,
+  "policy": "observed_pin_evidence_v1",
+  "changes": [
+    {
+      "owner": "U1",
+      "number": "1",
+      "name": "GND",
+      "source_candidate_id": "PIN_CAND_0067",
+      "collision_with": "pin_4",
+      "old_singleton_network": "LOG_NET_CAND_00013",
+      "proof": [
+        {
+          "owner": "U1",
+          "row": 330,
+          "length": 38,
+          "side": "right",
+          "edge": 642.5,
+          "point": [
+            680.5,
+            330
+          ],
+          "name": "GND",
+          "number": "1",
+          "name_support": {
+            "GND": 4
+          },
+          "number_support": {
+            "1": 2
+          },
+          "number_offset": -6.458180533101142,
+          "status": "existing_number"
+        }
+      ],
+      "before": {
+        "x": 486.0,
+        "y": 786.6819199323654
+      },
+      "after": {
+        "x": 680.5,
+        "y": 766.0
+      },
+      "status": "replaced_collision_by_observed_opposite_lead"
+    },
+    {
+      "owner": "U3",
+      "number": "1",
+      "source_candidate_id": "PIN_CAND_0001",
+      "before_name": "GND",
+      "expected_observed_name": "ADJ(GND)",
+      "name_support": {
+        "ADJ(GND)": 4
+      },
+      "after_name": "ADJ(GND)",
+      "status": "restored_observed_full_label"
+    },
+    {
+      "owner": "U3",
+      "number": "2",
+      "source_candidate_id": "PIN_CAND_0002",
+      "before_name": "VOUT",
+      "expected_observed_name": "VOUT(TAB)",
+      "name_support": {
+        "VOUT(TAB)": 4
+      },
+      "after_name": "VOUT(TAB)",
+      "status": "restored_observed_full_label"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U1.1",
+      "status": "withheld",
+      "reason": "isolated_membership_kept_until_counterpart_network_is_proven",
+      "network_id": "LOG_NET_CAND_00013"
+    }
+  ],
+  "proposals": [
+    {
+      "owner": "U1",
+      "number": "1",
+      "name": "GND",
+      "source_candidate_id": "PIN_CAND_0067",
+      "collision_with": "pin_4",
+      "old_singleton_network": "LOG_NET_CAND_00013",
+      "proof": [
+        {
+          "owner": "U1",
+          "row": 330,
+          "length": 38,
+          "side": "right",
+          "edge": 642.5,
+          "point": [
+            680.5,
+            330
+          ],
+          "name": "GND",
+          "number": "1",
+          "name_support": {
+            "GND": 4
+          },
+          "number_support": {
+            "1": 2
+          },
+          "number_offset": -6.458180533101142,
+          "status": "existing_number"
+        }
+      ],
+      "before": {
+        "x": 486.0,
+        "y": 786.6819199323654
+      },
+      "after": {
+        "x": 680.5,
+        "y": 766.0
+      },
+      "status": "replaced_collision_by_observed_opposite_lead"
+    },
+    {
+      "owner": "U3",
+      "number": "1",
+      "source_candidate_id": "PIN_CAND_0001",
+      "before_name": "GND",
+      "expected_observed_name": "ADJ(GND)",
+      "name_support": {
+        "ADJ(GND)": 4
+      },
+      "after_name": "ADJ(GND)",
+      "status": "restored_observed_full_label"
+    },
+    {
+      "owner": "U3",
+      "number": "2",
+      "source_candidate_id": "PIN_CAND_0002",
+      "before_name": "VOUT",
+      "expected_observed_name": "VOUT(TAB)",
+      "name_support": {
+        "VOUT(TAB)": 4
+      },
+      "after_name": "VOUT(TAB)",
+      "status": "restored_observed_full_label"
+    }
+  ],
+  "ocr_calls": 8,
+  "budget_exhausted": false
+}

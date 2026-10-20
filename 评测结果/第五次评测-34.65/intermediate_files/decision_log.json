@@ -1,0 +1,161 @@
+{
+  "method": "yolov8_v3_rapidocr_unet_v1_S24_engineering",
+  "timestamp": "2026-10-16T16:29:28.406927+00:00",
+  "processed_cases": 13,
+  "successful_cases": 13,
+  "failed_cases": 0,
+  "output_format": "target",
+  "coordinate_origin": "bottom_left_H_minus_y",
+  "token_usage": {
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "api_calls": 0
+  },
+  "cases": [
+    {
+      "case_id": "11",
+      "input": "/input/11.png",
+      "success": true,
+      "ic_geometry_seconds": 0.027,
+      "led_geometry_seconds": 1.01,
+      "components": 10,
+      "pins": 3,
+      "nets": 0,
+      "seconds": 29.092
+    },
+    {
+      "case_id": "10",
+      "input": "/input/10.png",
+      "success": true,
+      "ic_geometry_seconds": 0.056,
+      "led_geometry_seconds": 0.08,
+      "components": 29,
+      "pins": 10,
+      "nets": 0,
+      "seconds": 37.127
+    },
+    {
+      "case_id": "1",
+      "input": "/input/1.png",
+      "success": true,
+      "ic_geometry_seconds": 0.073,
+      "led_geometry_seconds": 0.11,
+      "components": 51,
+      "pins": 24,
+      "nets": 0,
+      "seconds": 50.298
+    },
+    {
+      "case_id": "12",
+      "input": "/input/12.png",
+      "success": true,
+      "ic_geometry_seconds": 0.023,
+      "components": 15,
+      "pins": 2,
+      "nets": 0,
+      "seconds": 23.741
+    },
+    {
+      "case_id": "13",
+      "input": "/input/13.png",
+      "success": true,
+      "ic_geometry_seconds": 0.024,
+      "components": 18,
+      "pins": 3,
+      "nets": 0,
+      "seconds": 26.711
+    },
+    {
+      "case_id": "3",
+      "input": "/input/3.png",
+      "success": true,
+      "ic_geometry_seconds": 0.05,
+      "components": 25,
+      "pins": 7,
+      "nets": 0,
+      "seconds": 39.35
+    },
+    {
+      "case_id": "2",
+      "input": "/input/2.png",
+      "success": true,
+      "ic_geometry_seconds": 0.046,
+      "components": 28,
+      "pins": 19,
+      "nets": 0,
+      "seconds": 42.073
+    },
+    {
+      "case_id": "4",
+      "input": "/input/4.png",
+      "success": true,
+      "ic_geometry_seconds": 0.043,
+      "led_geometry_seconds": 0.086,
+      "components": 24,
+      "pins": 10,
+      "nets": 1,
+      "seconds": 37.297
+    },
+    {
+      "case_id": "5",
+      "input": "/input/5.png",
+      "success": true,
+      "ic_geometry_seconds": 0.038,
+      "components": 26,
+      "pins": 14,
+      "nets": 0,
+      "seconds": 40.458
+    },
+    {
+      "case_id": "6",
+      "input": "/input/6.png",
+      "success": true,
+      "ic_geometry_seconds": 0.053,
+      "led_geometry_seconds": 0.145,
+      "components": 38,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 45.221
+    },
+    {
+      "case_id": "7",
+      "input": "/input/7.png",
+      "success": true,
+      "ic_geometry_seconds": 0.048,
+      "led_geometry_seconds": 0.052,
+      "components": 24,
+      "pins": 12,
+      "nets": 0,
+      "seconds": 36.81
+    },
+    {
+      "case_id": "8",
+      "input": "/input/8.png",
+      "success": true,
+      "ic_geometry_seconds": 0.04,
+      "components": 20,
+      "pins": 17,
+      "nets": 1,
+      "seconds": 37.017
+    },
+    {
+      "case_id": "9",
+      "input": "/input/9.png",
+      "success": true,
+      "ic_geometry_seconds": 0.034,
+      "components": 17,
+      "pins": 6,
+      "nets": 0,
+      "seconds": 38.018
+    }
+  ],
+  "device": "cuda:0",
+  "input_cases": 13,
+  "workers": 3,
+  "gpu_memory_bytes": 85293072384,
+  "protocol": "2026-10-08-global-power-rails",
+  "type_mapping_status": "six aliases verified in submission 8180 and public labels",
+  "component_output_policy": "public_20261016_passive_names_template_boxes_power_v2_led_geometry_v1_ic_name_priority_v1_ic_geometry_v1",
+  "wall_seconds": 176.906
+}

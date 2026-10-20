@@ -1,0 +1,85 @@
+{
+  "before": {
+    "pin": {
+      "tp": 28,
+      "fp": 7,
+      "fn": 12,
+      "precision": 0.8,
+      "recall": 0.7,
+      "f1": 0.7467
+    },
+    "connectivity": 0.6394087152257086,
+    "wire": {
+      "tp": 77,
+      "fp": 59,
+      "fn": 39,
+      "precision": 0.5662,
+      "recall": 0.6638,
+      "f1": 0.6111
+    }
+  },
+  "after": {
+    "pin": {
+      "tp": 34,
+      "fp": 7,
+      "fn": 6,
+      "precision": 0.8293,
+      "recall": 0.85,
+      "f1": 0.8395
+    },
+    "connectivity": 0.6544171877505212,
+    "wire": {
+      "tp": 77,
+      "fp": 59,
+      "fn": 39,
+      "precision": 0.5662,
+      "recall": 0.6638,
+      "f1": 0.6111
+    }
+  },
+  "audit": [
+    {
+      "network_id": "LOG_NET_CAND_00001",
+      "before": [
+        "C11.1",
+        "UNRESOLVED_DET_0024.1"
+      ],
+      "after": [
+        "C11.1",
+        "UNRESOLVED_DET_0024.1",
+        "USB2.5"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00009",
+      "before": [
+        "C10.1",
+        "R12.2",
+        "U3.4",
+        "UNRESOLVED_DET_0029.1"
+      ],
+      "after": [
+        "C10.1",
+        "R12.2",
+        "U3.4",
+        "U3.5",
+        "UNRESOLVED_DET_0029.1"
+      ]
+    },
+    {
+      "network_id": "LOG_NET_CAND_00026",
+      "status": "withheld_new_net",
+      "reason": "no_existing_exported_network"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00027",
+      "before": [
+        "USB2.3"
+      ],
+      "after": [
+        "USB2.2",
+        "USB2.3"
+      ]
+    }
+  ]
+}

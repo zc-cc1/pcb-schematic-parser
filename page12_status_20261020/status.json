@@ -1,0 +1,113 @@
+{
+  "case": "12",
+  "source_prediction": "C:\\Users\\Pc\\Desktop\\新建文件夹\\pin_row_library_implementation_20261020\\deployed\\12_Pred.json",
+  "pin": {
+    "tp": 9,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "components": {
+    "tp": 13,
+    "fp": 3,
+    "fn": 8,
+    "precision": 0.8125,
+    "recall": 0.619,
+    "f1": 0.7027
+  },
+  "connectivity": 0.5666666666666667,
+  "wire": {
+    "tp": 13,
+    "fp": 11,
+    "fn": 15,
+    "precision": 0.5417,
+    "recall": 0.4643,
+    "f1": 0.5
+  },
+  "pins": [
+    {
+      "ref": "U1.1",
+      "expected_name": "TIM",
+      "predicted_name": "TIM",
+      "distance_px": 2.0084541303412045,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.2",
+      "expected_name": "RS",
+      "predicted_name": "RS",
+      "distance_px": 2.0079370481622236,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.3",
+      "expected_name": "BAT",
+      "predicted_name": "BAT",
+      "distance_px": 2.070068787254362,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.4",
+      "expected_name": "NTC",
+      "predicted_name": "NTC",
+      "distance_px": 2.0947082425222345,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.5",
+      "expected_name": "CEL",
+      "predicted_name": "CEL",
+      "distance_px": 3.12509752094614,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.6",
+      "expected_name": "STAT",
+      "predicted_name": "STAT",
+      "distance_px": 3.0288093188375464,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.7",
+      "expected_name": "LX",
+      "predicted_name": "LX",
+      "distance_px": 3.0015219547153347,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.8",
+      "expected_name": "IN",
+      "predicted_name": "IN",
+      "distance_px": 3.005010316791665,
+      "correct_20px": true
+    },
+    {
+      "ref": "U1.9",
+      "expected_name": "GND",
+      "predicted_name": "GND",
+      "distance_px": 3.0956669451200463,
+      "correct_20px": true
+    }
+  ],
+  "max_pin_error_px": 3.12509752094614,
+  "missing_ordinary_components": [
+    "VIN",
+    "LED1",
+    "VIN_2",
+    "VIN_3",
+    "VIN_4"
+  ],
+  "missing_component_fields": [
+    {
+      "owner": "L1",
+      "field": "value",
+      "expected": "2.2uH",
+      "actual": null
+    }
+  ],
+  "score_100": 70.91433333333333,
+  "new_inference_calls": 0,
+  "production_code_modified": false
+}

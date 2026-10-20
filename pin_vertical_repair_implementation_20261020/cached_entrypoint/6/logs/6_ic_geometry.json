@@ -1,0 +1,205 @@
+{
+  "policy": "ic_observed_four_sided_rectangle_v1",
+  "size": [
+    2186,
+    1110
+  ],
+  "entries": [
+    {
+      "component_id": "U4",
+      "before_bbox_bottom_left": [
+        1618.426,
+        838.153,
+        1763.317,
+        929.321
+      ],
+      "after_bbox_bottom_left": [
+        1632.0,
+        843.0,
+        1750.0,
+        923.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          1582,
+          157,
+          1800,
+          295
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 2,
+          "bottom": 2
+        },
+        "best": {
+          "bbox_top_left": [
+            1632.0,
+            187.0,
+            1750.0,
+            267.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9918097059445196
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U2",
+      "before_bbox_bottom_left": [
+        647.379,
+        825.028,
+        793.974,
+        917.441
+      ],
+      "after_bbox_bottom_left": [
+        662.0,
+        831.0,
+        780.0,
+        911.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          610,
+          169,
+          831,
+          309
+        ],
+        "side_candidate_counts": {
+          "left": 1,
+          "right": 1,
+          "top": 3,
+          "bottom": 3
+        },
+        "best": {
+          "bbox_top_left": [
+            662.0,
+            199.0,
+            780.0,
+            279.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9915636747824929
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U3",
+      "before_bbox_bottom_left": [
+        1371.216,
+        443.35299999999995,
+        1468.066,
+        587.845
+      ],
+      "after_bbox_bottom_left": [
+        1381.0,
+        460.0,
+        1460.0,
+        578.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          1347,
+          486,
+          1493,
+          703
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 2,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            1381.0,
+            532.0,
+            1460.0,
+            650.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9892995192012463
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    },
+    {
+      "component_id": "U1",
+      "before_bbox_bottom_left": [
+        457.031,
+        430.241,
+        553.21,
+        575.696
+      ],
+      "after_bbox_bottom_left": [
+        466.0,
+        448.0,
+        545.0,
+        567.0
+      ],
+      "changed": true,
+      "evidence": {
+        "roi_top_left": [
+          432,
+          497,
+          578,
+          717
+        ],
+        "side_candidate_counts": {
+          "left": 2,
+          "right": 2,
+          "top": 1,
+          "bottom": 1
+        },
+        "best": {
+          "bbox_top_left": [
+            466.0,
+            543.0,
+            545.0,
+            662.0
+          ],
+          "support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 0.9891035185698651
+        },
+        "alternative": null,
+        "candidate_count": 1,
+        "reason": "four_sided_frame_observed"
+      }
+    }
+  ],
+  "changed_IC_boxes": 4,
+  "input_contract": "Current PNG and detector boxes only; no reference coordinates or part lookup.",
+  "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984",
+  "wall_seconds": 0.035
+}

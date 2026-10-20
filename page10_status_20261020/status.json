@@ -1,0 +1,263 @@
+{
+  "case": "10",
+  "pin": {
+    "tp": 9,
+    "fp": 3,
+    "fn": 3,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+  },
+  "components": {
+    "tp": 27,
+    "fp": 2,
+    "fn": 2,
+    "precision": 0.931,
+    "recall": 0.931,
+    "f1": 0.931
+  },
+  "wire": {
+    "tp": 48,
+    "fp": 26,
+    "fn": 34,
+    "precision": 0.6486,
+    "recall": 0.5854,
+    "f1": 0.6154
+  },
+  "connectivity": 0.5458579881656804,
+  "score_100": 71.93902958579882,
+  "per_owner": {
+    "U1": {
+      "correct": 9,
+      "total": 9
+    },
+    "U2": {
+      "correct": 0,
+      "total": 3
+    }
+  },
+  "pins": [
+    {
+      "owner": "U1",
+      "ref": "U1.1",
+      "expected_name": "VIN",
+      "predicted": {
+        "pinname": "VIN",
+        "point": {
+          "x": 478.0,
+          "y": 541.5477374792099
+        }
+      },
+      "expected_point": {
+        "x": 476,
+        "y": 541
+      },
+      "error_px": 2.0736480767312506,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.2",
+      "expected_name": "GND",
+      "predicted": {
+        "pinname": "GND",
+        "point": {
+          "x": 478.0,
+          "y": 521.5776642858982
+        }
+      },
+      "expected_point": {
+        "x": 476,
+        "y": 522
+      },
+      "error_px": 2.0441055392043412,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.3",
+      "expected_name": "EN",
+      "predicted": {
+        "pinname": "EN",
+        "point": {
+          "x": 478.0,
+          "y": 501.9517741724849
+        }
+      },
+      "expected_point": {
+        "x": 476,
+        "y": 502
+      },
+      "error_px": 2.000581348118471,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.4",
+      "expected_name": "VIA",
+      "predicted": {
+        "pinname": "VIA",
+        "point": {
+          "x": 479.5,
+          "y": 482.0
+        }
+      },
+      "expected_point": {
+        "x": 476,
+        "y": 482
+      },
+      "error_px": 3.5,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.5",
+      "expected_name": "FB",
+      "predicted": {
+        "pinname": "FB",
+        "point": {
+          "x": 613.0,
+          "y": 482.0142756206915
+        }
+      },
+      "expected_point": {
+        "x": 614,
+        "y": 482
+      },
+      "error_px": 1.0001018914821265,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.6",
+      "expected_name": "VB",
+      "predicted": {
+        "pinname": "VB",
+        "point": {
+          "x": 613.0,
+          "y": 501.3857371211052
+        }
+      },
+      "expected_point": {
+        "x": 614,
+        "y": 502
+      },
+      "error_px": 1.1735922990494334,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.7",
+      "expected_name": "VS",
+      "predicted": {
+        "pinname": "VS",
+        "point": {
+          "x": 613.0,
+          "y": 521.371632039547
+        }
+      },
+      "expected_point": {
+        "x": 614,
+        "y": 522
+      },
+      "error_px": 1.1810361102540028,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.8",
+      "expected_name": "IS",
+      "predicted": {
+        "pinname": "IS",
+        "point": {
+          "x": 613.0,
+          "y": 541.3904936611652
+        }
+      },
+      "expected_point": {
+        "x": 614,
+        "y": 541
+      },
+      "error_px": 1.0735386809101157,
+      "correct_20px": true
+    },
+    {
+      "owner": "U1",
+      "ref": "U1.9",
+      "expected_name": "VIN",
+      "predicted": {
+        "pinname": "VIN",
+        "point": {
+          "x": 613.0,
+          "y": 560.9861480304971
+        }
+      },
+      "expected_point": {
+        "x": 614,
+        "y": 561
+      },
+      "error_px": 1.000095933927895,
+      "correct_20px": true
+    },
+    {
+      "owner": "U2",
+      "ref": "U2.1",
+      "expected_name": "Vout",
+      "predicted": {
+        "pinname": "Vout",
+        "point": {
+          "x": 1623.344976902008,
+          "y": 630.0
+        }
+      },
+      "expected_point": {
+        "x": 1624,
+        "y": 609
+      },
+      "error_px": 21.010213117883954,
+      "correct_20px": false
+    },
+    {
+      "owner": "U2",
+      "ref": "U2.2",
+      "expected_name": "GND",
+      "predicted": {
+        "pinname": "Vin",
+        "point": {
+          "x": 1702.1949576437473,
+          "y": 630.0
+        }
+      },
+      "expected_point": {
+        "x": 1664,
+        "y": 767
+      },
+      "error_px": 142.22466308417697,
+      "correct_20px": false
+    },
+    {
+      "owner": "U2",
+      "ref": "U2.3",
+      "expected_name": "Vin",
+      "predicted": {
+        "pinname": "GND",
+        "point": {
+          "x": 1703.554849743843,
+          "y": 630.0
+        }
+      },
+      "expected_point": {
+        "x": 1703,
+        "y": 609
+      },
+      "error_px": 21.007328679254837,
+      "correct_20px": false
+    }
+  ],
+  "new_inference_calls": 0,
+  "production_code_modified": false,
+  "U2_network_membership": {
+    "LOG_NET_CAND_00006": "(C4.2,C5.2,C6.2,C6.3,L1.2,R5.2,U2.1)",
+    "LOG_NET_CAND_00008": "(R6.2,U2.2,U2.3)"
+  }
+}

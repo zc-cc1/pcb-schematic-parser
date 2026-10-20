@@ -1,0 +1,609 @@
+{
+  "version": "logical-rails-hungarian-v1",
+  "cases": 26,
+  "count_matches": 26,
+  "pair_matches": 26,
+  "invariant_cases": 26,
+  "permutations_per_case": 5,
+  "per_case": [
+    {
+      "edition": "第9次测评-66.59",
+      "case": "1",
+      "actual": {
+        "tp": 80,
+        "fp": 84,
+        "fn": 36,
+        "precision": 0.4878,
+        "recall": 0.6897,
+        "f1": 0.5714
+      },
+      "expected": {
+        "tp": 80,
+        "fp": 84,
+        "fn": 36,
+        "precision": 0.487805,
+        "recall": 0.689655,
+        "f1": 0.571429
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "10",
+      "actual": {
+        "tp": 36,
+        "fp": 68,
+        "fn": 46,
+        "precision": 0.3462,
+        "recall": 0.439,
+        "f1": 0.3871
+      },
+      "expected": {
+        "tp": 36,
+        "fp": 68,
+        "fn": 46,
+        "precision": 0.346154,
+        "recall": 0.439024,
+        "f1": 0.387097
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "11",
+      "actual": {
+        "tp": 2,
+        "fp": 11,
+        "fn": 22,
+        "precision": 0.1538,
+        "recall": 0.0833,
+        "f1": 0.1081
+      },
+      "expected": {
+        "tp": 2,
+        "fp": 11,
+        "fn": 22,
+        "precision": 0.153846,
+        "recall": 0.083333,
+        "f1": 0.108108
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "12",
+      "actual": {
+        "tp": 9,
+        "fp": 28,
+        "fn": 19,
+        "precision": 0.2432,
+        "recall": 0.3214,
+        "f1": 0.2769
+      },
+      "expected": {
+        "tp": 9,
+        "fp": 28,
+        "fn": 19,
+        "precision": 0.243243,
+        "recall": 0.321429,
+        "f1": 0.276923
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "13",
+      "actual": {
+        "tp": 22,
+        "fp": 73,
+        "fn": 27,
+        "precision": 0.2316,
+        "recall": 0.449,
+        "f1": 0.3056
+      },
+      "expected": {
+        "tp": 22,
+        "fp": 73,
+        "fn": 27,
+        "precision": 0.231579,
+        "recall": 0.44898,
+        "f1": 0.305556
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "2",
+      "actual": {
+        "tp": 15,
+        "fp": 23,
+        "fn": 25,
+        "precision": 0.3947,
+        "recall": 0.375,
+        "f1": 0.3846
+      },
+      "expected": {
+        "tp": 15,
+        "fp": 23,
+        "fn": 25,
+        "precision": 0.394737,
+        "recall": 0.375,
+        "f1": 0.384615
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "3",
+      "actual": {
+        "tp": 25,
+        "fp": 20,
+        "fn": 21,
+        "precision": 0.5556,
+        "recall": 0.5435,
+        "f1": 0.5495
+      },
+      "expected": {
+        "tp": 25,
+        "fp": 20,
+        "fn": 21,
+        "precision": 0.555556,
+        "recall": 0.543478,
+        "f1": 0.549451
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "4",
+      "actual": {
+        "tp": 13,
+        "fp": 51,
+        "fn": 46,
+        "precision": 0.2031,
+        "recall": 0.2203,
+        "f1": 0.2114
+      },
+      "expected": {
+        "tp": 13,
+        "fp": 51,
+        "fn": 46,
+        "precision": 0.203125,
+        "recall": 0.220339,
+        "f1": 0.211382
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "5",
+      "actual": {
+        "tp": 15,
+        "fp": 53,
+        "fn": 42,
+        "precision": 0.2206,
+        "recall": 0.2632,
+        "f1": 0.24
+      },
+      "expected": {
+        "tp": 15,
+        "fp": 53,
+        "fn": 42,
+        "precision": 0.220588,
+        "recall": 0.263158,
+        "f1": 0.24
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "6",
+      "actual": {
+        "tp": 18,
+        "fp": 57,
+        "fn": 68,
+        "precision": 0.24,
+        "recall": 0.2093,
+        "f1": 0.2236
+      },
+      "expected": {
+        "tp": 18,
+        "fp": 57,
+        "fn": 68,
+        "precision": 0.24,
+        "recall": 0.209302,
+        "f1": 0.223602
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "7",
+      "actual": {
+        "tp": 40,
+        "fp": 42,
+        "fn": 28,
+        "precision": 0.4878,
+        "recall": 0.5882,
+        "f1": 0.5333
+      },
+      "expected": {
+        "tp": 40,
+        "fp": 42,
+        "fn": 28,
+        "precision": 0.487805,
+        "recall": 0.588235,
+        "f1": 0.533333
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "8",
+      "actual": {
+        "tp": 30,
+        "fp": 18,
+        "fn": 20,
+        "precision": 0.625,
+        "recall": 0.6,
+        "f1": 0.6122
+      },
+      "expected": {
+        "tp": 30,
+        "fp": 18,
+        "fn": 20,
+        "precision": 0.625,
+        "recall": 0.6,
+        "f1": 0.612245
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第9次测评-66.59",
+      "case": "9",
+      "actual": {
+        "tp": 14,
+        "fp": 18,
+        "fn": 25,
+        "precision": 0.4375,
+        "recall": 0.359,
+        "f1": 0.3944
+      },
+      "expected": {
+        "tp": 14,
+        "fp": 18,
+        "fn": 25,
+        "precision": 0.4375,
+        "recall": 0.358974,
+        "f1": 0.394366
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "1",
+      "actual": {
+        "tp": 59,
+        "fp": 46,
+        "fn": 57,
+        "precision": 0.5619,
+        "recall": 0.5086,
+        "f1": 0.5339
+      },
+      "expected": {
+        "tp": 59,
+        "fp": 46,
+        "fn": 57,
+        "precision": 0.561905,
+        "recall": 0.508621,
+        "f1": 0.533937
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "10",
+      "actual": {
+        "tp": 36,
+        "fp": 37,
+        "fn": 46,
+        "precision": 0.4932,
+        "recall": 0.439,
+        "f1": 0.4645
+      },
+      "expected": {
+        "tp": 36,
+        "fp": 37,
+        "fn": 46,
+        "precision": 0.493151,
+        "recall": 0.439024,
+        "f1": 0.464516
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "11",
+      "actual": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "expected": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 24,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "12",
+      "actual": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "expected": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "13",
+      "actual": {
+        "tp": 6,
+        "fp": 3,
+        "fn": 43,
+        "precision": 0.6667,
+        "recall": 0.1224,
+        "f1": 0.2069
+      },
+      "expected": {
+        "tp": 6,
+        "fp": 3,
+        "fn": 43,
+        "precision": 0.666667,
+        "recall": 0.122449,
+        "f1": 0.206897
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "2",
+      "actual": {
+        "tp": 12,
+        "fp": 16,
+        "fn": 28,
+        "precision": 0.4286,
+        "recall": 0.3,
+        "f1": 0.3529
+      },
+      "expected": {
+        "tp": 12,
+        "fp": 16,
+        "fn": 28,
+        "precision": 0.428571,
+        "recall": 0.3,
+        "f1": 0.352941
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "3",
+      "actual": {
+        "tp": 24,
+        "fp": 17,
+        "fn": 22,
+        "precision": 0.5854,
+        "recall": 0.5217,
+        "f1": 0.5517
+      },
+      "expected": {
+        "tp": 24,
+        "fp": 17,
+        "fn": 22,
+        "precision": 0.585366,
+        "recall": 0.521739,
+        "f1": 0.551724
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "4",
+      "actual": {
+        "tp": 8,
+        "fp": 17,
+        "fn": 51,
+        "precision": 0.32,
+        "recall": 0.1356,
+        "f1": 0.1905
+      },
+      "expected": {
+        "tp": 8,
+        "fp": 17,
+        "fn": 51,
+        "precision": 0.32,
+        "recall": 0.135593,
+        "f1": 0.190476
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "5",
+      "actual": {
+        "tp": 10,
+        "fp": 9,
+        "fn": 47,
+        "precision": 0.5263,
+        "recall": 0.1754,
+        "f1": 0.2632
+      },
+      "expected": {
+        "tp": 10,
+        "fp": 9,
+        "fn": 47,
+        "precision": 0.526316,
+        "recall": 0.175439,
+        "f1": 0.263158
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "6",
+      "actual": {
+        "tp": 9,
+        "fp": 31,
+        "fn": 77,
+        "precision": 0.225,
+        "recall": 0.1047,
+        "f1": 0.1429
+      },
+      "expected": {
+        "tp": 9,
+        "fp": 31,
+        "fn": 77,
+        "precision": 0.225,
+        "recall": 0.104651,
+        "f1": 0.142857
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "7",
+      "actual": {
+        "tp": 40,
+        "fp": 28,
+        "fn": 28,
+        "precision": 0.5882,
+        "recall": 0.5882,
+        "f1": 0.5882
+      },
+      "expected": {
+        "tp": 40,
+        "fp": 28,
+        "fn": 28,
+        "precision": 0.588235,
+        "recall": 0.588235,
+        "f1": 0.588235
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "8",
+      "actual": {
+        "tp": 14,
+        "fp": 7,
+        "fn": 36,
+        "precision": 0.6667,
+        "recall": 0.28,
+        "f1": 0.3944
+      },
+      "expected": {
+        "tp": 14,
+        "fp": 7,
+        "fn": 36,
+        "precision": 0.666667,
+        "recall": 0.28,
+        "f1": 0.394366
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    },
+    {
+      "edition": "第8次测评-54.92",
+      "case": "9",
+      "actual": {
+        "tp": 12,
+        "fp": 8,
+        "fn": 27,
+        "precision": 0.6,
+        "recall": 0.3077,
+        "f1": 0.4068
+      },
+      "expected": {
+        "tp": 12,
+        "fp": 8,
+        "fn": 27,
+        "precision": 0.6,
+        "recall": 0.307692,
+        "f1": 0.40678
+      },
+      "counts_match": true,
+      "network_pairs_match": true,
+      "permutation_invariant": true
+    }
+  ],
+  "neural_inference_calls": 0
+}

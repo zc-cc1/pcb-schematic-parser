@@ -1,0 +1,160 @@
+{
+  "policy": "observed_power_symbols_v1",
+  "added": [
+    {
+      "component_id": "UNRESOLVED_DET_0003",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1466.5,
+            666.5,
+            1503.0,
+            684.0
+          ],
+          "views": [
+            "global",
+            "tile_1228_0_r0",
+            "tile_1228_0_r90",
+            "tile_1228_235_r0",
+            "tile_1228_235_r90",
+            "tile_1434_0_r0",
+            "tile_1434_235_r0",
+            "tile_1434_235_r90"
+          ]
+        }
+      ],
+      "detection_index": 2
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0008",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            223.0,
+            527.5,
+            259.5,
+            544.0
+          ],
+          "views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_235_r0"
+          ]
+        }
+      ],
+      "detection_index": 7
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0010",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            892.5,
+            618.5,
+            929.0,
+            635.0
+          ],
+          "views": [
+            "global",
+            "tile_614_0_r0",
+            "tile_614_0_r90",
+            "tile_614_235_r0"
+          ]
+        }
+      ],
+      "detection_index": 9
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0012",
+      "type": "vcc",
+      "value": "+12V",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "+12V",
+          "bbox": [
+            97.5,
+            118.0,
+            137.0,
+            136.0
+          ],
+          "views": [
+            "global",
+            "tile_0_0_r0",
+            "tile_0_0_r90"
+          ]
+        }
+      ],
+      "detection_index": 11
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0014",
+      "type": "vcc",
+      "value": "+5V",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "+5V",
+          "bbox": [
+            1693.5,
+            259.0,
+            1723.0,
+            275.5
+          ],
+          "views": [
+            "global",
+            "tile_1228_0_r0",
+            "tile_1434_0_r0"
+          ]
+        }
+      ],
+      "detection_index": 13
+    },
+    {
+      "component_id": "UNRESOLVED_DET_0019",
+      "type": "gnd",
+      "value": "GND",
+      "value_source": "nearby_caption_supported_by_distinct_OCR_views",
+      "caption_evidence": [
+        {
+          "text": "GND",
+          "bbox": [
+            1690.5,
+            869.0,
+            1726.0,
+            885.5
+          ],
+          "views": [
+            "tile_1228_235_r0",
+            "tile_1434_235_r0"
+          ]
+        }
+      ],
+      "detection_index": 18
+    }
+  ],
+  "skipped": [],
+  "pin_coordinates_changed": 0,
+  "network_membership_changed": 0,
+  "source_image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb",
+  "added_count": 6,
+  "type_counts": {
+    "gnd": 4,
+    "vcc": 2
+  },
+  "value_counts": {
+    "observed": 6
+  }
+}

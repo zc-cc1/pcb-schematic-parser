@@ -1,0 +1,46 @@
+{
+  "version": "observed-physical-power-wires-v2",
+  "restored_networks": [],
+  "primary_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "candidate_id": "PIN_CAND_0017",
+      "member": "UNRESOLVED_DET_0020.1",
+      "observed_rail": "VCC",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "candidate_id": "PIN_CAND_0018",
+      "member": "UNRESOLVED_DET_0002.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "restored_net_count": 0,
+  "primary_contact_count": 2,
+  "existing_power_contacts": [
+    {
+      "network_id": "LOG_NET_CAND_00021",
+      "candidate_id": "PIN_CAND_0017",
+      "member": "UNRESOLVED_DET_0020.1",
+      "observed_rail": "VCC",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    },
+    {
+      "network_id": "LOG_NET_CAND_00006",
+      "candidate_id": "PIN_CAND_0018",
+      "member": "UNRESOLVED_DET_0002.1",
+      "observed_rail": "GND",
+      "duplicate_count": 0,
+      "reason": "unique_observed_power_tip"
+    }
+  ],
+  "existing_power_contact_count": 2,
+  "inference_calls": 0,
+  "enabled": true,
+  "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886"
+}

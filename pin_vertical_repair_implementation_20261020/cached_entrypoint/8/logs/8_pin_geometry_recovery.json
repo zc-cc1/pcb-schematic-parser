@@ -1,0 +1,118 @@
+{
+  "enabled": true,
+  "policy": "image_lead_geometry_v1",
+  "frames": {
+    "U1": {
+      "box": [
+        993.5,
+        453.5,
+        1171.5,
+        769.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U1",
+      "row": 690,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        690
+      ],
+      "name": "NC",
+      "number": null,
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {},
+      "number_offset": -6.247904255986214,
+      "status": "insufficient_fields"
+    },
+    {
+      "owner": "U1",
+      "row": 710.5,
+      "length": 16.0,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        710.5
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.247904255986214,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "U1",
+      "row": 730,
+      "length": 16,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        730
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.247904255986214,
+      "status": "existing_number"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "row": 710.5,
+      "length": 16.0,
+      "side": "left",
+      "edge": 993.5,
+      "point": [
+        977.5,
+        710.5
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 2
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -6.247904255986214,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U1.6",
+      "status": "withheld",
+      "reason": "no_connect_field_without_model_attachment"
+    }
+  ],
+  "ocr_calls": 10,
+  "budget_exhausted": false,
+  "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13",
+  "config_sha256": "614ab33ffebde2b48b941a19104a9011d532c1371d04e1162db1afc8aad45714",
+  "ocr_models": null
+}

@@ -1,0 +1,398 @@
+{
+  "frames": {
+    "U1": {
+      "box": [
+        929.5,
+        204.5,
+        1087.5,
+        303.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "U2": {
+      "box": [
+        1680.5,
+        876.5,
+        1779.5,
+        955.5
+      ],
+      "scores": {
+        "left": 1.0,
+        "right": 1.0,
+        "top": 1.0,
+        "bottom": 1.0
+      }
+    },
+    "USB1": {
+      "box": [
+        129.5,
+        185.5,
+        257.5,
+        441.5
+      ],
+      "scores": {
+        "left": 0.99609375,
+        "right": 0.99609375,
+        "top": 0.9777777777777777,
+        "bottom": 0.9777777777777777
+      }
+    }
+  },
+  "proposals": [
+    {
+      "owner": "U2",
+      "row": 896.5,
+      "length": 19.0,
+      "side": "left",
+      "edge": 1680.5,
+      "point": [
+        1661.5,
+        896.5
+      ],
+      "name": "EN",
+      "number": "4",
+      "name_support": {
+        "EN": 2
+      },
+      "number_support": {
+        "4": 2
+      },
+      "number_offset": 6.975829978783963,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "U2",
+      "row": 936.5,
+      "length": 17.0,
+      "side": "left",
+      "edge": 1680.5,
+      "point": [
+        1663.5,
+        936.5
+      ],
+      "name": "NC",
+      "number": "6",
+      "name_support": {
+        "NC": 3
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": 6.975829978783963,
+      "status": "existing_number"
+    },
+    {
+      "owner": "U2",
+      "row": 896.5,
+      "length": 25.0,
+      "side": "right",
+      "edge": 1779.5,
+      "point": [
+        1804.5,
+        896.5
+      ],
+      "name": null,
+      "number": "3",
+      "name_support": {
+        "FB": 1
+      },
+      "number_support": {
+        "3": 4
+      },
+      "number_offset": 7.3114902277787905,
+      "status": "insufficient_fields"
+    },
+    {
+      "owner": "U2",
+      "row": 936.5,
+      "length": 19.0,
+      "side": "right",
+      "edge": 1779.5,
+      "point": [
+        1798.5,
+        936.5
+      ],
+      "name": "SW",
+      "number": "1",
+      "name_support": {
+        "SW": 3
+      },
+      "number_support": {
+        "1": 2
+      },
+      "number_offset": 7.3114902277787905,
+      "status": "existing_number"
+    },
+    {
+      "owner": "USB1",
+      "row": 205,
+      "length": 60,
+      "side": "left",
+      "edge": 129.5,
+      "point": [
+        112.8520115017891,
+        204.2439866811037
+      ],
+      "name": "SHELL",
+      "number": "13",
+      "name_support": {
+        "SHELL": 4
+      },
+      "number_support": {
+        "13": 4
+      },
+      "number_offset": -3.949232906103134,
+      "source_candidate_id": "PIN_CAND_0068",
+      "status": "owner_resolved_by_lead_and_text"
+    },
+    {
+      "owner": "USB1",
+      "row": 205,
+      "length": 21,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        278.5,
+        205
+      ],
+      "name": "GND",
+      "number": "12",
+      "name_support": {
+        "GND": 4
+      },
+      "number_support": {
+        "12": 3
+      },
+      "number_offset": -5.929629812637984,
+      "status": "existing_number"
+    },
+    {
+      "owner": "USB1",
+      "row": 323.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        323.5
+      ],
+      "name": "DP1",
+      "number": "6",
+      "name_support": {
+        "DP1": 4
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 343.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        343.5
+      ],
+      "name": "DN2",
+      "number": "5",
+      "name_support": {
+        "DN2": 4
+      },
+      "number_support": {
+        "5": 3
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 422.5,
+      "length": 21.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        278.5,
+        422.5
+      ],
+      "name": null,
+      "number": null,
+      "name_support": {},
+      "number_support": {},
+      "number_offset": -5.929629812637984,
+      "status": "insufficient_fields"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U1",
+      "number": "9",
+      "name": "EP",
+      "status": "unique_collinear_ground_contact",
+      "ground": "UNRESOLVED_DET_0046",
+      "before": {
+        "x": 1008.3843226730824,
+        "y": 962.0
+      },
+      "after": {
+        "x": 1008.4886248111725,
+        "y": 989.9301234558225
+      }
+    },
+    {
+      "owner": "U2",
+      "row": 896.5,
+      "length": 19.0,
+      "side": "left",
+      "edge": 1680.5,
+      "point": [
+        1661.5,
+        896.5
+      ],
+      "name": "EN",
+      "number": "4",
+      "name_support": {
+        "EN": 2
+      },
+      "number_support": {
+        "4": 2
+      },
+      "number_offset": 6.975829978783963,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 205,
+      "length": 60,
+      "side": "left",
+      "edge": 129.5,
+      "point": [
+        112.8520115017891,
+        204.2439866811037
+      ],
+      "name": "SHELL",
+      "number": "13",
+      "name_support": {
+        "SHELL": 4
+      },
+      "number_support": {
+        "13": 4
+      },
+      "number_offset": -3.949232906103134,
+      "source_candidate_id": "PIN_CAND_0068",
+      "status": "owner_resolved_by_lead_and_text"
+    },
+    {
+      "owner": "USB1",
+      "row": 323.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        323.5
+      ],
+      "name": "DP1",
+      "number": "6",
+      "name_support": {
+        "DP1": 4
+      },
+      "number_support": {
+        "6": 2
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    },
+    {
+      "owner": "USB1",
+      "row": 343.5,
+      "length": 17.0,
+      "side": "right",
+      "edge": 257.5,
+      "point": [
+        274.5,
+        343.5
+      ],
+      "name": "DN2",
+      "number": "5",
+      "name_support": {
+        "DN2": 4
+      },
+      "number_support": {
+        "5": 3
+      },
+      "number_offset": -5.929629812637984,
+      "status": "image_lead_endpoint"
+    }
+  ],
+  "digit_reads": [
+    {
+      "owner": "U2",
+      "column": 1675.6666666666665,
+      "row": 903.475829978784,
+      "readings": [
+        {
+          "text": "4",
+          "confidence": 0.99994,
+          "bbox": [
+            0,
+            0,
+            24,
+            26
+          ],
+          "view": "isolated_U2_903.475829978784_1_s3.0"
+        },
+        {
+          "text": "4",
+          "confidence": 0.99994,
+          "bbox": [
+            0,
+            0,
+            24,
+            26
+          ],
+          "view": "isolated_U2_903.475829978784_1_s5.0"
+        }
+      ]
+    },
+    {
+      "owner": "U2",
+      "column": 1785.1666666666665,
+      "row": 943.8114902277788,
+      "readings": [
+        {
+          "text": "1",
+          "confidence": 0.99964,
+          "bbox": [
+            0,
+            0,
+            21,
+            26
+          ],
+          "view": "isolated_U2_943.8114902277788_5_s3.0"
+        },
+        {
+          "text": "1",
+          "confidence": 0.99965,
+          "bbox": [
+            0,
+            0,
+            21,
+            26
+          ],
+          "view": "isolated_U2_943.8114902277788_5_s5.0"
+        }
+      ]
+    }
+  ],
+  "new_local_glyph_calls": 4,
+  "gt_used": false
+}

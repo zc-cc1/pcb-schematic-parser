@@ -1,0 +1,78 @@
+{
+  "mode": "deployed",
+  "fresh": true,
+  "cases": [
+    {
+      "case": "13",
+      "changed_pins": 1,
+      "changed_components": 1,
+      "network_changes": 1,
+      "ocr_calls": 4,
+      "unchanged": false,
+      "before": {
+        "pin": {
+          "tp": 11,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9167,
+          "f1": 0.9565
+        },
+        "components": {
+          "tp": 18,
+          "fp": 1,
+          "fn": 2,
+          "precision": 0.9474,
+          "recall": 0.9,
+          "f1": 0.9231
+        },
+        "connectivity": 0.31080246913580245,
+        "wire": {
+          "tp": 13,
+          "fp": 22,
+          "fn": 36,
+          "precision": 0.3714,
+          "recall": 0.2653,
+          "f1": 0.3095
+        },
+        "score_100": 65.5785864197531
+      },
+      "after": {
+        "pin": {
+          "tp": 12,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "components": {
+          "tp": 19,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1": 0.95
+        },
+        "connectivity": 0.3129129129129129,
+        "wire": {
+          "tp": 13,
+          "fp": 22,
+          "fn": 36,
+          "precision": 0.3714,
+          "recall": 0.2653,
+          "f1": 0.3095
+        },
+        "score_100": 67.54695195195195
+      }
+    }
+  ],
+  "new_local_ocr_calls": 4,
+  "reused_views": 0,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "predictions_frozen_before_reference_reads": true,
+  "regressed_pages": [],
+  "macro_before": 65.5785864197531,
+  "macro_after": 67.54695195195195
+}

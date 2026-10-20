@@ -1,0 +1,247 @@
+{
+  "components": {
+    "U2": {
+      "type": "ic",
+      "Name": "MT2492",
+      "value": null,
+      "bbox": [
+        821.762,
+        554.874,
+        982.359,
+        646.121
+      ]
+    },
+    "L1": {
+      "type": "inductor",
+      "Name": null,
+      "value": null,
+      "bbox": [
+        1102.474,
+        706.774,
+        1190.199,
+        734.879
+      ]
+    },
+    "R1": {
+      "type": "resistor",
+      "Name": null,
+      "value": "33K",
+      "bbox": [
+        634.866,
+        644.444,
+        664.14,
+        705.12
+      ]
+    },
+    "R2": {
+      "type": "resistor",
+      "Name": null,
+      "value": "10K",
+      "bbox": [
+        634.311,
+        491.09299999999996,
+        664.127,
+        553.32
+      ]
+    },
+    "R3": {
+      "type": "resistor",
+      "Name": null,
+      "value": "100K",
+      "bbox": [
+        984.678,
+        451.59799999999996,
+        1013.634,
+        513.825
+      ]
+    },
+    "C2": {
+      "type": "capacitor",
+      "Name": null,
+      "value": "22nF",
+      "bbox": [
+        1271.848,
+        829.308,
+        1311.738,
+        871.163
+      ]
+    },
+    "C3": {
+      "type": "capacitor",
+      "Name": null,
+      "value": "100nF",
+      "bbox": [
+        1412.081,
+        829.299,
+        1452.223,
+        871.0509999999999
+      ]
+    },
+    "C5": {
+      "type": "capacitor",
+      "Name": null,
+      "value": "100nF",
+      "bbox": [
+        1380.474,
+        488.14700000000005,
+        1420.648,
+        530.354
+      ]
+    },
+    "C4": {
+      "type": "capacitor",
+      "Name": null,
+      "value": "22uF",
+      "bbox": [
+        1234.712,
+        485.49300000000005,
+        1274.282,
+        526.393
+      ]
+    },
+    "C1": {
+      "type": "capacitor",
+      "Name": null,
+      "value": "100nF",
+      "bbox": [
+        874.463,
+        700.874,
+        916.389,
+        739.134
+      ]
+    },
+    "UNRESOLVED_DET_0002": {
+      "type": "gnd",
+      "Name": "GND",
+      "value": "GND",
+      "bbox": [
+        623.778,
+        330.996,
+        675.359,
+        369.16999999999996
+      ]
+    },
+    "UNRESOLVED_DET_0006": {
+      "type": "gnd",
+      "Name": "GND",
+      "value": "GND",
+      "bbox": [
+        1134.033,
+        938.35,
+        1175.502,
+        982.89
+      ]
+    },
+    "UNRESOLVED_DET_0008": {
+      "type": "gnd",
+      "Name": "GND",
+      "value": "GND",
+      "bbox": [
+        1598.875,
+        613.056,
+        1644.905,
+        660.278
+      ]
+    },
+    "UNRESOLVED_DET_0015": {
+      "type": "vcc",
+      "Name": null,
+      "value": null,
+      "bbox": [
+        1581.369,
+        379.039,
+        1617.484,
+        411.68499999999995
+      ]
+    },
+    "UNRESOLVED_DET_0016": {
+      "type": "vcc",
+      "Name": null,
+      "value": null,
+      "bbox": [
+        1515.485,
+        703.774,
+        1551.017,
+        735.619
+      ]
+    },
+    "UNRESOLVED_DET_0018": {
+      "type": "vcc",
+      "Name": null,
+      "value": null,
+      "bbox": [
+        633.529,
+        786.197,
+        667.535,
+        808.356
+      ]
+    },
+    "UNRESOLVED_DET_0020": {
+      "type": "vcc",
+      "Name": null,
+      "value": null,
+      "bbox": [
+        984.67,
+        381.831,
+        1013.341,
+        405.43499999999995
+      ]
+    }
+  },
+  "pins": {
+    "R2": {
+      "pin_2": {
+        "pinname": "2",
+        "point": {
+          "x": 649.3045187592506,
+          "y": 491.220415815711
+        }
+      },
+      "pin_1": {
+        "pinname": "1",
+        "point": {
+          "x": 649.2551843225956,
+          "y": 550.3553121387959
+        }
+      }
+    },
+    "U2": {
+      "pin_5": {
+        "pinname": "IN",
+        "point": {
+          "x": 968.7407397031784,
+          "y": 600.5379706919193
+        }
+      },
+      "pin_3": {
+        "pinname": "FB",
+        "point": {
+          "x": 828.3027668595314,
+          "y": 580.7696912586689
+        }
+      },
+      "pin_4": {
+        "pinname": "EN",
+        "point": {
+          "x": 968.0040852408856,
+          "y": 580.6084081530571
+        }
+      },
+      "pin_2": {
+        "pinname": "GND",
+        "point": {
+          "x": 820.6393084228039,
+          "y": 600.370471060276
+        }
+      }
+    },
+    "UNRESOLVED_DET_0002": {},
+    "UNRESOLVED_DET_0006": {},
+    "UNRESOLVED_DET_0008": {},
+    "UNRESOLVED_DET_0015": {},
+    "UNRESOLVED_DET_0016": {},
+    "UNRESOLVED_DET_0018": {},
+    "UNRESOLVED_DET_0020": {}
+  },
+  "nets": {}
+}

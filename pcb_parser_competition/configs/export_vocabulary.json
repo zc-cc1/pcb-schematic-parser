@@ -1,0 +1,71 @@
+{
+  "version": "export-vocabulary-v1",
+  "status": "fitted_from_published_gt_type_histogram",
+  "note": "Official GT compares the component 'type' string exactly, with the only documented leniency being box/ic and gnd/ground, v/vcc/vdd. Exporting 'resistor' where the GT says 'r' is therefore a type failure worth ~40 component F1 points on the public subset (measured), not a cosmetic difference. The spells below copy the published GT verbatim, including its typos (battary, transfomer, net_bidirection), because the comparison is exact.",
+  "applies_at": "component export only; internal stage names (vbus_in, ...) are unchanged so network/label stages keep working",
+  "keyed_by": "detector class name",
+  "types": {
+    "resistor": "r",
+    "capacitor": "c",
+    "inductor": "l",
+    "diode": "d",
+    "transistor": "bjt",
+    "opamp": "amp",
+    "ic": "box",
+    "ground": "gnd",
+    "voltage_source": "v",
+    "crystal": "crystal",
+    "mosfet": "mosfet",
+    "switch": "switch",
+    "led": "led",
+    "net_input": "net_input",
+    "pin_port": "pin",
+    "testpoint": "testpoint",
+    "net_output": "net_output",
+    "net_bidirectional": "net_bidirection",
+    "net_short": "net_short",
+    "fuse": "fuse",
+    "buzzer": "buzzer",
+    "motor": "motor",
+    "battery": "battary",
+    "other": "other",
+    "transformer": "transfomer",
+    "jumper": "jumper",
+    "raw_block": "block",
+    "circle_header": "circle_header",
+    "antenna": "ant",
+    "esd": "esd",
+    "raw_m": "m",
+    "optocoupler": "opt",
+    "raw_dc": "dc",
+    "current_source": "current_source",
+    "connector": "connector"
+  },
+  "collapsed_before": {
+    "vbus_in": ["pin_port", "testpoint", "net_input"],
+    "vbus_out": ["net_output"],
+    "vbus_bidirectional": ["net_bidirectional"],
+    "reason": "configs/baseline_v3.json used to send all three to vbus_in, which the official GT spells as three different types; those components could never match regardless of box quality"
+  },
+  "derived_splits": {
+    "note": "The deployed image only keeps the internal kind, so the split cannot be keyed by detector class there. adapter.refined_type applies these evidence-only rules at export time; measured +0.9 component F1 points on the six cached pages (TP 243 -> 246).",
+    "crystal": {
+      "rule": "pin count already attached to the component",
+      "2": "crystal_2pin",
+      "3": "crystal_3pin",
+      "4": "crystal_4pin",
+      "measured_gt_boxes": "crystal_4pin 40x40, crystal_3pin 10x15 (tall), crystal_2pin 15x10"
+    },
+    "vbus_in": {
+      "rule": "label strip shape",
+      "wide (w/h >= 2, GT is 30x10)": "net_input",
+      "otherwise (GT is a 20x20 pad)": "pin",
+      "rationale": "net_input 323, pin 170, testpoint 43 in the public GT, so the majority spelling of each shape is the best available guess; testpoint cannot be separated from pin by geometry alone"
+    },
+    "renames": {
+      "battery": "battary",
+      "vbus_out": "net_output",
+      "vbus_bidirectional": "net_bidirection"
+    }
+  }
+}

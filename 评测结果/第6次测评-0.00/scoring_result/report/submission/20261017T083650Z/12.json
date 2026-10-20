@@ -1,0 +1,530 @@
+{
+  "protocol": {
+    "version": "2026-10-08-global-power-rails",
+    "schema": "Target JSON with components/pins/nets",
+    "spatial_match_threshold_px": 20.0,
+    "connectivity_pin_set_f1_threshold": 0.0,
+    "component_match": "ordinary: key/type/Name/value exact; power: type/value and one-to-one geometry, ignore key/Name; ordered bbox, every coordinate within threshold",
+    "pin_match": "component key and pin_<number> exact; owner exists in both components; pinname exact; point Euclidean threshold",
+    "pin_scope": "IC only: GT type for known component keys; predicted-only IC pins count as FP",
+    "ic_type_aliases": [
+      "box",
+      "ic"
+    ],
+    "ic_type_comparison": "strip whitespace and ignore case for pin scope and connectivity identity only",
+    "empty_pin_scope": "pin_f1=0 when both scored pin sets are empty; weights unchanged",
+    "wire_match": "one-to-one direction-invariant two-point edge matching within Hungarian-matched logical nets; pool source branches sharing a global power rail",
+    "connectivity_match": "merge nets sharing global power rails, then Hungarian one-to-one mixed-vertex-set soft F1",
+    "connectivity_vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+    "power_type_aliases": {
+      "ground": [
+        "gnd"
+      ],
+      "supply": [
+        "v",
+        "vcc",
+        "vdd"
+      ]
+    },
+    "power_rail_identity": "all grounds share GND; supplies share exact value (null/empty -> VCC); ground and supply remain separate; no inference from component key/Name",
+    "power_component_match": "ignore key/Name/designator; raw type/value still exact; geometry and symbol counts still scored",
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "prediction_validation": "missing sections score as empty; invalid component/pin/edge records cannot be TP; hypergraph references retained as sets and reference issues reported"
+  },
+  "scores": {
+    "component_stage": 0.0,
+    "wire_stage": 0.0,
+    "connectivity_stage": 0.0,
+    "component_f1": 0.0,
+    "pin_f1": 0.0,
+    "wire_f1": 0.0,
+    "connectivity_f1": 0.0,
+    "final_score": 0.0
+  },
+  "component": {
+    "f1": {
+      "tp": 0,
+      "fp": 22,
+      "fn": 21,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "key_f1": {
+      "tp": 9,
+      "fp": 7,
+      "fn": 6,
+      "precision": 0.5625,
+      "recall": 0.6,
+      "f1": 0.580645
+    },
+    "key_f1_scope": "non_power_components_only",
+    "diagnostics": {
+      "matched_id_count": 9,
+      "matched_component_count": 9,
+      "gt_power_symbol_count": 6,
+      "pred_power_symbol_count": 6,
+      "matched_power_symbol_count": 0,
+      "power_assignment_examples": [],
+      "type_accuracy_on_matched": 1.0,
+      "name_accuracy_on_matched": 0.0,
+      "name_accuracy_scope": "non_power_components_only",
+      "value_accuracy_on_matched": 0.111111,
+      "bbox_accuracy_on_matched": 0.222222,
+      "bbox_corner_mae_px": {
+        "count": 9,
+        "mean": 14.118528,
+        "median": 0.0,
+        "p95": 16.15,
+        "max": 16.25
+      },
+      "error_examples": [
+        {
+          "component_id": "C1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.72
+        },
+        {
+          "component_id": "C2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 21.495
+        },
+        {
+          "component_id": "C3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 20.03
+        },
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 29.8805
+        },
+        {
+          "component_id": "R1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.1325
+        },
+        {
+          "component_id": "R2",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.1695
+        },
+        {
+          "component_id": "R3",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 24.321
+        },
+        {
+          "component_id": "R4",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name",
+            "value",
+            "bbox"
+          ],
+          "bbox_max_coordinate_error_px": 23.43
+        },
+        {
+          "component_id": "U1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 19.733
+        },
+        {
+          "component_id": "LED1",
+          "error": "missing"
+        },
+        {
+          "component_id": "VIN",
+          "error": "missing"
+        },
+        {
+          "component_id": "VIN_2",
+          "error": "missing"
+        },
+        {
+          "component_id": "VIN_3",
+          "error": "missing"
+        },
+        {
+          "component_id": "VIN_4",
+          "error": "missing"
+        },
+        {
+          "component_id": "VOUT",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅123",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅371",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅452",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅615",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅883",
+          "error": "missing"
+        },
+        {
+          "component_id": "∅943",
+          "error": "missing"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0001",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0003",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0005",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0007",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0009",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0011",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0014",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0015",
+          "error": "extra"
+        },
+        {
+          "component_id": "UNRESOLVED_DET_0016",
+          "error": "extra"
+        }
+      ]
+    }
+  },
+  "pin": {
+    "scope": "ic_only",
+    "applicable": true,
+    "f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "id_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "diagnostics": {
+      "gt_total_pin_count": 38,
+      "pred_total_pin_count": 0,
+      "gt_scored_pin_count": 9,
+      "pred_scored_pin_count": 0,
+      "gt_ignored_pin_count": 29,
+      "pred_ignored_pin_count": 0,
+      "matched_id_count": 0,
+      "pin_number_accuracy_on_matched": 0.0,
+      "pin_name_accuracy_on_matched": 0.0,
+      "tip_distance_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      },
+      "error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_1\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_3\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_4\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_5\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_6\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_7\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_8\"]",
+          "error": "missing"
+        },
+        {
+          "pin_id": "[\"U1\",\"pin_9\"]",
+          "error": "missing"
+        }
+      ]
+    }
+  },
+  "wire": {
+    "f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "diagnostics": {
+      "gt_segment_count": 28,
+      "pred_segment_count": 0,
+      "matched_segment_count": 0,
+      "invalid_pred_segment_count": 0,
+      "matched_max_endpoint_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      },
+      "matched_mean_endpoint_error_px": {
+        "count": 0,
+        "mean": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      },
+      "assignment_examples": []
+    }
+  },
+  "connectivity": {
+    "f1": {
+      "soft_tp": 0,
+      "gt_net_count": 12,
+      "pred_net_count": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "exact_net_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 12,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "vertex_pair_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 36,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "pin_pair_f1": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 36,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "diagnostics": {
+      "vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+      "gt_raw_net_count": 16,
+      "pred_raw_net_count": 0,
+      "gt_logical_net_count": 12,
+      "pred_logical_net_count": 0,
+      "gt_power_net_groups": [
+        [
+          "net_11",
+          "net_14",
+          "net_16",
+          "net_2",
+          "net_7"
+        ]
+      ],
+      "pred_power_net_groups": [],
+      "gt_vertex_count": 32,
+      "pred_vertex_count": 0,
+      "unmapped_pred_vertex_references": 0,
+      "unmapped_pred_pin_references": 0,
+      "matched_net_pairs": [],
+      "assignment_examples": []
+    }
+  },
+  "validation": {
+    "gt": {
+      "valid": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    "pred": {
+      "valid": false,
+      "issue_count": 22,
+      "issues": [
+        {
+          "path": "pins.C1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C2",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.C3",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.L1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R2",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R3",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.R4",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.U1",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0001",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0003",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0005",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0007",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0009",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0011",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0014",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0015",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0016",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0018",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0020",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0021",
+          "message": "missing component pin group"
+        },
+        {
+          "path": "pins.UNRESOLVED_DET_0022",
+          "message": "missing component pin group"
+        }
+      ]
+    }
+  },
+  "files": {
+    "gt": "/gt/12/12_target.json",
+    "pred": "/pred/12/final_results/12_Pred.json"
+  }
+}

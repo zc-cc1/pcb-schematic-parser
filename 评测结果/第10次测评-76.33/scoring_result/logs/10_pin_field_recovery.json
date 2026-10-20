@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "policy": "image_numeric_pin_recovery_v1",
+  "selected_groups": 1,
+  "changes": [],
+  "network_changes": [],
+  "ocr_calls": 6,
+  "budget_exhausted": false,
+  "groups": [
+    {
+      "id": "PIN_CAND_0002",
+      "owner": "U1",
+      "point": [
+        482.91283122450113,
+        475.45228549838066
+      ],
+      "side": "left",
+      "box": [
+        495.0,
+        436.0,
+        595.0,
+        554.0
+      ],
+      "members": [
+        "PIN_CAND_0002"
+      ],
+      "number": "1",
+      "name": "VIN",
+      "original_number": "1",
+      "original_name": "VIN",
+      "library_number": true,
+      "ambiguous": false,
+      "number_audit": {
+        "reason": "accepted",
+        "support": {
+          "1": 2
+        },
+        "readings": [
+          {
+            "text": "1",
+            "confidence": 0.99969,
+            "bbox": [
+              489,
+              465,
+              493,
+              475
+            ],
+            "view": "glyph_PIN_CAND_0002_2_s3.0_r0",
+            "owner": "U1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0002"
+          },
+          {
+            "text": "1",
+            "confidence": 0.99967,
+            "bbox": [
+              489,
+              465,
+              493,
+              475
+            ],
+            "view": "glyph_PIN_CAND_0002_2_s5.0_r0",
+            "owner": "U1",
+            "rotation": 0,
+            "target_candidate_id": "PIN_CAND_0002"
+          }
+        ]
+      }
+    }
+  ],
+  "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223",
+  "config_sha256": "6738edad4ba39239b504ff82fdf5d547c1587d64ce1acc4786e849ed5238e89d",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

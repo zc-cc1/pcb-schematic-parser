@@ -1,0 +1,178 @@
+{
+  "source_image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb",
+  "entries": [
+    {
+      "component_id": "L1",
+      "type": "inductor",
+      "missing_fields": [
+        "value"
+      ],
+      "bbox_top_left": [
+        1109.496,
+        328.449,
+        1226.257,
+        368.144
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0022",
+          "text_id": "text_0022",
+          "text": "L1",
+          "bbox": [
+            1125.0,
+            320.0,
+            1150.5,
+            340.0
+          ],
+          "confidence": 0.99986,
+          "role": "designator",
+          "source_view": "tile_614_0_r0",
+          "prefix": "L",
+          "source_text": "L1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 20.98282316650568,
+        "designator_assignment_margin": 69.0171768334942
+      },
+      "nearby_OCR": [
+        {
+          "text": "L1",
+          "bbox": [
+            1125.0,
+            320.0,
+            1150.5,
+            340.0
+          ],
+          "confidence": 0.99986,
+          "view": "tile_614_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "L1",
+              "confidence": 0.99986,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "L1",
+              "confidence": 0.99972,
+              "view": "tile_890_0_r0"
+            },
+            {
+              "text": "L1",
+              "confidence": 0.99958,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "LED12.2uH",
+          "bbox": [
+            1058.0,
+            349.5,
+            1183.0,
+            381.0
+          ],
+          "confidence": 0.99834,
+          "view": "tile_890_0_r90",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED12.2uH",
+              "confidence": 0.99834,
+              "view": "tile_890_0_r90"
+            },
+            {
+              "text": "LED12.2uH",
+              "confidence": 0.99832,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "LED12.2uH",
+              "confidence": 0.99811,
+              "view": "tile_890_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "25mΩ",
+          "bbox": [
+            1321.0,
+            369.0,
+            1379.0,
+            394.0
+          ],
+          "confidence": 0.99996,
+          "view": "tile_614_0_r90",
+          "distance_px": 94.747,
+          "alternatives": [
+            {
+              "text": "25mΩ",
+              "confidence": 0.99996,
+              "view": "tile_614_0_r90"
+            },
+            {
+              "text": "25mΩ",
+              "confidence": 0.99995,
+              "view": "global"
+            },
+            {
+              "text": "25mΩ",
+              "confidence": 0.99993,
+              "view": "tile_614_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            1322.5,
+            319.5,
+            1351.0,
+            339.5
+          ],
+          "confidence": 0.99996,
+          "view": "tile_614_0_r0",
+          "distance_px": 96.243,
+          "alternatives": [
+            {
+              "text": "R1",
+              "confidence": 0.99996,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "R1",
+              "confidence": 0.99996,
+              "view": "tile_890_0_r0"
+            },
+            {
+              "text": "R1",
+              "confidence": 0.99979,
+              "view": "global"
+            }
+          ]
+        },
+        {
+          "text": "R",
+          "bbox": [
+            1326.0,
+            322.0,
+            1342.0,
+            336.5
+          ],
+          "confidence": 0.99972,
+          "view": "tile_614_0_r90",
+          "distance_px": 99.743,
+          "alternatives": [
+            {
+              "text": "R",
+              "confidence": 0.99972,
+              "view": "tile_614_0_r90"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_fields_are_not_automatically_errors": true,
+  "values_or_names_changed": 0
+}

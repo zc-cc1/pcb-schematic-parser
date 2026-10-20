@@ -1,0 +1,198 @@
+{
+  "enabled": true,
+  "policy": "observed_numeric_connector_v1",
+  "groups": [
+    {
+      "owner": "H1",
+      "anchors": [
+        {
+          "key": "pin_2",
+          "index": 1,
+          "length": 27.5,
+          "column": 1304.25,
+          "offset": 7.625
+        },
+        {
+          "key": "pin_1",
+          "index": 0,
+          "length": 27.5,
+          "column": 1304.0,
+          "offset": 6.75
+        }
+      ],
+      "frame": [
+        1288,
+        295,
+        1345.5,
+        410.5
+      ],
+      "rows": [
+        {
+          "number": "3",
+          "point": [
+            1260.5,
+            382
+          ],
+          "tokens": [
+            {
+              "text": "3",
+              "confidence": 0.99999,
+              "bbox": [
+                1295.5,
+                374.0,
+                1313.0,
+                397.5
+              ],
+              "view": "tile_602_29_r0"
+            },
+            {
+              "text": "3",
+              "confidence": 0.99949,
+              "bbox": [
+                1296.0,
+                367.0,
+                1313.0,
+                398.0
+              ],
+              "view": "tile_602_0_r0"
+            }
+          ],
+          "candidate_id": "PIN_CAND_0046",
+          "fresh_readings": [
+            {
+              "text": "3",
+              "confidence": 0.99998,
+              "bbox": [
+                1299,
+                379,
+                1310,
+                395
+              ],
+              "view": "connector_H1_3_s3.0"
+            },
+            {
+              "text": "3",
+              "confidence": 0.99999,
+              "bbox": [
+                1299,
+                379,
+                1310,
+                395
+              ],
+              "view": "connector_H1_3_s5.0"
+            }
+          ],
+          "glyph_box": [
+            1299,
+            379,
+            1310,
+            395
+          ],
+          "supply": {
+            "site": {
+              "point": [
+                1259,
+                382
+              ],
+              "cap_y": 411,
+              "direction": 1,
+              "bbox": [
+                1243,
+                382,
+                1275,
+                411
+              ]
+            },
+            "readings": [
+              {
+                "text": "VIN",
+                "confidence": 0.99987,
+                "bbox": [
+                  1242,
+                  415,
+                  1275,
+                  430
+                ],
+                "view": "connector_supply_H1_3_s3.0"
+              },
+              {
+                "text": "VIN",
+                "confidence": 0.99987,
+                "bbox": [
+                  1242,
+                  415,
+                  1275,
+                  430
+                ],
+                "view": "connector_supply_H1_3_s5.0"
+              }
+            ],
+            "label_box": [
+              1242,
+              415,
+              1275,
+              430
+            ],
+            "text": "VIN"
+          }
+        }
+      ],
+      "status": "accepted"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "H1",
+      "number": "3",
+      "source_candidate_id": "PIN_CAND_0046",
+      "method": "observed_numeric_name_and_consensus_position",
+      "after": {
+        "pinname": "3",
+        "point": {
+          "x": 1260.5,
+          "y": 415
+        }
+      }
+    }
+  ],
+  "component_changes": [
+    {
+      "owner": "RECOVERED_SUPPLY_PIN_CAND_0046",
+      "method": "observed_t_symbol_and_fresh_power_text",
+      "after": {
+        "type": "v",
+        "Name": null,
+        "value": "VIN",
+        "bbox": [
+          1243,
+          386,
+          1275,
+          415
+        ]
+      }
+    }
+  ],
+  "network_changes": [
+    {
+      "network_id": "OBSERVED_CONTACT_PIN_CAND_0046",
+      "before": null,
+      "after": [
+        "H1.3",
+        "RECOVERED_SUPPLY_PIN_CAND_0046.1"
+      ],
+      "reason": "same_observed_t_contact_only"
+    }
+  ],
+  "network_withheld": [
+    {
+      "member": "H1.3",
+      "reason": "upstream_route_not_reconstructed",
+      "source_attachment_status": "no_wire_within_radius"
+    }
+  ],
+  "ocr_calls": 4,
+  "budget_exhausted": false,
+  "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+  "config_sha256": "b94e380537e8cefc4d94d17f10e0eb1c442b2b9039302d5ffec1de2b14b2b88c",
+  "ocr_models": null
+}

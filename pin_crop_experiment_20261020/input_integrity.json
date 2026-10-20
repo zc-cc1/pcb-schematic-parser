@@ -1,0 +1,24 @@
+{
+  "experiment_functions_unchanged_from_frozen_baseline": {
+    "agent.py": true,
+    "adapter.py": true,
+    "src/pcb_parser/pin_text_ocr.py": true,
+    "src/pcb_parser/targeted_pin_ocr.py": true,
+    "src/pcb_parser/pin_text.py": true,
+    "src/pcb_parser/pin_text_v2.py": true,
+    "src/pcb_parser/component_text.py": true,
+    "src/pcb_parser/submission_fields.py": true,
+    "src/pcb_parser/pin_output_rules.py": true,
+    "configs/targeted_pin_ocr_v1.json": true,
+    "configs/pin_text_v2.json": true,
+    "configs/pin_output_rules_v1.json": true
+  },
+  "local_ocr_model_hashes_valid": true,
+  "frozen_prediction_baseline": true,
+  "other_production_changes_outside_experiment": [
+    "configs/wire_graph_v1.json",
+    "scripts/run_wire_graph.py",
+    "src/pcb_parser/wire_graph.py"
+  ],
+  "production_writes_by_this_experiment": []
+}

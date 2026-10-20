@@ -1,0 +1,866 @@
+{
+  "summary": {
+    "cases": 13,
+    "baseline_wire_f1": 0.4528,
+    "fixed_wire_f1": 0.5568153846153846,
+    "improved_equal_worse": [
+      8,
+      5,
+      0
+    ],
+    "neural_inference_calls": 0
+  },
+  "per_case": [
+    {
+      "case": "1",
+      "baseline_wire": {
+        "tp": 70,
+        "fp": 62,
+        "fn": 46,
+        "precision": 0.5303,
+        "recall": 0.6034,
+        "f1": 0.5645
+      },
+      "fixed_wire": {
+        "tp": 77,
+        "fp": 59,
+        "fn": 39,
+        "precision": 0.5662,
+        "recall": 0.6638,
+        "f1": 0.6111
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00028",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00001"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00052",
+            "observed_rail": "GND",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00043"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00065",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00061"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00066",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00059"
+            ]
+          }
+        ],
+        "primary_contacts": [
+          {
+            "network_id": "LOG_NET_CAND_00009",
+            "candidate_id": "PIN_CAND_0102",
+            "member": "UNRESOLVED_DET_0029.1",
+            "observed_rail": "GND",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          },
+          {
+            "network_id": "LOG_NET_CAND_00001",
+            "candidate_id": "PIN_CAND_0111",
+            "member": "UNRESOLVED_DET_0024.1",
+            "observed_rail": "GND",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          }
+        ],
+        "restored_net_count": 4,
+        "primary_contact_count": 2,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650"
+      }
+    },
+    {
+      "case": "2",
+      "baseline_wire": {
+        "tp": 23,
+        "fp": 14,
+        "fn": 17,
+        "precision": 0.6216,
+        "recall": 0.575,
+        "f1": 0.5974
+      },
+      "fixed_wire": {
+        "tp": 30,
+        "fp": 14,
+        "fn": 10,
+        "precision": 0.6818,
+        "recall": 0.75,
+        "f1": 0.7143
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00014",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00007"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00015",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00006"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00016",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00002"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00017",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00009"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00023",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00005"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00024",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00004"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00025",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00001"
+            ]
+          }
+        ],
+        "primary_contacts": [
+          {
+            "network_id": "LOG_NET_CAND_00027",
+            "candidate_id": "PIN_CAND_0047",
+            "member": "UNRESOLVED_DET_0021.2",
+            "observed_rail": "+5V",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          }
+        ],
+        "restored_net_count": 7,
+        "primary_contact_count": 1,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229"
+      }
+    },
+    {
+      "case": "3",
+      "baseline_wire": {
+        "tp": 25,
+        "fp": 14,
+        "fn": 21,
+        "precision": 0.641,
+        "recall": 0.5435,
+        "f1": 0.5882
+      },
+      "fixed_wire": {
+        "tp": 28,
+        "fp": 18,
+        "fn": 18,
+        "precision": 0.6087,
+        "recall": 0.6087,
+        "f1": 0.6087
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00010",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00013"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00013",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00014"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00014",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00017"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00015",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00015"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00016",
+            "observed_rail": "GND",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00016"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00017",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00018"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00018",
+            "observed_rail": "GND",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00019"
+            ]
+          }
+        ],
+        "primary_contacts": [
+          {
+            "network_id": "LOG_NET_CAND_00011",
+            "candidate_id": "PIN_CAND_0047",
+            "member": "UNRESOLVED_DET_0018.2",
+            "observed_rail": "GND",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          }
+        ],
+        "restored_net_count": 7,
+        "primary_contact_count": 1,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "30c65062c9032ee83e20b9a16cbe33e0ea40beb2ac532e632fd51d5294bdecb8"
+      }
+    },
+    {
+      "case": "4",
+      "baseline_wire": {
+        "tp": 14,
+        "fp": 21,
+        "fn": 45,
+        "precision": 0.4,
+        "recall": 0.2373,
+        "f1": 0.2979
+      },
+      "fixed_wire": {
+        "tp": 26,
+        "fp": 21,
+        "fn": 33,
+        "precision": 0.5532,
+        "recall": 0.4407,
+        "f1": 0.4906
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00001",
+            "observed_rail": "+5V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00004"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00002",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00001"
+            ]
+          }
+        ],
+        "primary_contacts": [],
+        "restored_net_count": 2,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0"
+      }
+    },
+    {
+      "case": "5",
+      "baseline_wire": {
+        "tp": 9,
+        "fp": 20,
+        "fn": 48,
+        "precision": 0.3103,
+        "recall": 0.1579,
+        "f1": 0.2093
+      },
+      "fixed_wire": {
+        "tp": 26,
+        "fp": 26,
+        "fn": 31,
+        "precision": 0.5,
+        "recall": 0.4561,
+        "f1": 0.4771
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00001",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 7,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00001"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00005",
+            "observed_rail": "+5V",
+            "members": 5,
+            "added_power_contacts": 1,
+            "edges": 7,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00007"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00009",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 3,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00006"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00024",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00023"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00025",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00024"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00026",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 2,
+            "source_power_sites": [
+              "LABEL_SITE_00021"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00028",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00030"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00029",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00031"
+            ]
+          }
+        ],
+        "primary_contacts": [
+          {
+            "network_id": "LOG_NET_CAND_00023",
+            "candidate_id": "PIN_CAND_0045",
+            "member": "UNRESOLVED_DET_0008.2",
+            "observed_rail": "GND",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          },
+          {
+            "network_id": "LOG_NET_CAND_00019",
+            "candidate_id": "PIN_CAND_0055",
+            "member": "UNRESOLVED_DET_0007.2",
+            "observed_rail": "GND",
+            "reason": "explicit_primary_of_duplicate_power_tips"
+          }
+        ],
+        "restored_net_count": 8,
+        "primary_contact_count": 2,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "f39ffdc2677a9b535d25067f55199cd324195614319084717bb54df02f4c83fb"
+      }
+    },
+    {
+      "case": "6",
+      "baseline_wire": {
+        "tp": 12,
+        "fp": 9,
+        "fn": 74,
+        "precision": 0.5714,
+        "recall": 0.1395,
+        "f1": 0.2243
+      },
+      "fixed_wire": {
+        "tp": 56,
+        "fp": 13,
+        "fn": 30,
+        "precision": 0.8116,
+        "recall": 0.6512,
+        "f1": 0.7226
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00001",
+            "observed_rail": "+5V",
+            "members": 6,
+            "added_power_contacts": 1,
+            "edges": 9,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00009"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00002",
+            "observed_rail": "3.3V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 3,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00007"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00003",
+            "observed_rail": "3.3V",
+            "members": 6,
+            "added_power_contacts": 1,
+            "edges": 9,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00008"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00004",
+            "observed_rail": "+5V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 3,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00010"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00006",
+            "observed_rail": "+12V",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00006"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00007",
+            "observed_rail": "3.3V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00003"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00008",
+            "observed_rail": "+12V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00005"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00009",
+            "observed_rail": "3.3V",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 6,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00004"
+            ]
+          }
+        ],
+        "primary_contacts": [],
+        "restored_net_count": 8,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "1437dcc7a48b969730f4329bfddcdbb2aa0669146afa28e1f30401e3c3e86984"
+      }
+    },
+    {
+      "case": "7",
+      "baseline_wire": {
+        "tp": 35,
+        "fp": 31,
+        "fn": 33,
+        "precision": 0.5303,
+        "recall": 0.5147,
+        "f1": 0.5224
+      },
+      "fixed_wire": {
+        "tp": 35,
+        "fp": 31,
+        "fn": 33,
+        "precision": 0.5303,
+        "recall": 0.5147,
+        "f1": 0.5224
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [],
+        "primary_contacts": [],
+        "restored_net_count": 0,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "7a403f9bf4af26fdef6bae4499ec30aee9e0ed85ec31935afe02e17bbcec7deb"
+      }
+    },
+    {
+      "case": "8",
+      "baseline_wire": {
+        "tp": 24,
+        "fp": 6,
+        "fn": 26,
+        "precision": 0.8,
+        "recall": 0.48,
+        "f1": 0.6
+      },
+      "fixed_wire": {
+        "tp": 39,
+        "fp": 11,
+        "fn": 11,
+        "precision": 0.78,
+        "recall": 0.78,
+        "f1": 0.78
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00003",
+            "observed_rail": "GND",
+            "members": 4,
+            "added_power_contacts": 1,
+            "edges": 7,
+            "source_power_sites": [
+              "LABEL_SITE_00003"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00007",
+            "observed_rail": "GND",
+            "members": 3,
+            "added_power_contacts": 1,
+            "edges": 5,
+            "source_power_sites": [
+              "LABEL_SITE_00014"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00008",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 5,
+            "source_power_sites": [
+              "LABEL_SITE_00015"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00023",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "LABEL_SITE_00020"
+            ]
+          },
+          {
+            "network_id": "RESTORED_NET_CAND_00025",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 2,
+            "source_power_sites": [
+              "LABEL_SITE_00021"
+            ]
+          }
+        ],
+        "primary_contacts": [],
+        "restored_net_count": 5,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "4b450fd6e00caaba1ca1cf34cdd1eeae64d3af7de9c7eda8bd4d2e9cd5d70c13"
+      }
+    },
+    {
+      "case": "9",
+      "baseline_wire": {
+        "tp": 12,
+        "fp": 9,
+        "fn": 27,
+        "precision": 0.5714,
+        "recall": 0.3077,
+        "f1": 0.4
+      },
+      "fixed_wire": {
+        "tp": 12,
+        "fp": 9,
+        "fn": 27,
+        "precision": 0.5714,
+        "recall": 0.3077,
+        "f1": 0.4
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [],
+        "primary_contacts": [],
+        "restored_net_count": 0,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "7848e01f5594d01ccc0b65fab1c8d7b3679eb7b94d9c4124424c6afd6abd3886"
+      }
+    },
+    {
+      "case": "10",
+      "baseline_wire": {
+        "tp": 33,
+        "fp": 41,
+        "fn": 49,
+        "precision": 0.4459,
+        "recall": 0.4024,
+        "f1": 0.4231
+      },
+      "fixed_wire": {
+        "tp": 33,
+        "fp": 41,
+        "fn": 49,
+        "precision": 0.4459,
+        "recall": 0.4024,
+        "f1": 0.4231
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [],
+        "primary_contacts": [],
+        "restored_net_count": 0,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "53a92db828b48cb71a8554214a238c8043b393cb8db206ff4f0d0944980ef223"
+      }
+    },
+    {
+      "case": "11",
+      "baseline_wire": {
+        "tp": 18,
+        "fp": 11,
+        "fn": 6,
+        "precision": 0.6207,
+        "recall": 0.75,
+        "f1": 0.6792
+      },
+      "fixed_wire": {
+        "tp": 18,
+        "fp": 11,
+        "fn": 6,
+        "precision": 0.6207,
+        "recall": 0.75,
+        "f1": 0.6792
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [],
+        "primary_contacts": [],
+        "restored_net_count": 0,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab"
+      }
+    },
+    {
+      "case": "12",
+      "baseline_wire": {
+        "tp": 12,
+        "fp": 11,
+        "fn": 16,
+        "precision": 0.5217,
+        "recall": 0.4286,
+        "f1": 0.4706
+      },
+      "fixed_wire": {
+        "tp": 13,
+        "fp": 11,
+        "fn": 15,
+        "precision": 0.5417,
+        "recall": 0.4643,
+        "f1": 0.5
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [
+          {
+            "network_id": "RESTORED_NET_CAND_00012",
+            "observed_rail": "GND",
+            "members": 2,
+            "added_power_contacts": 1,
+            "edges": 1,
+            "source_power_sites": [
+              "POWER_ROI_SITE_00001"
+            ]
+          }
+        ],
+        "primary_contacts": [],
+        "restored_net_count": 1,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "058cc17df30fd12f5178e7eeca1c239d6328e3186103121f9fb1e2c0db7a8fcb"
+      }
+    },
+    {
+      "case": "13",
+      "baseline_wire": {
+        "tp": 13,
+        "fp": 22,
+        "fn": 36,
+        "precision": 0.3714,
+        "recall": 0.2653,
+        "f1": 0.3095
+      },
+      "fixed_wire": {
+        "tp": 13,
+        "fp": 22,
+        "fn": 36,
+        "precision": 0.3714,
+        "recall": 0.2653,
+        "f1": 0.3095
+      },
+      "audit": {
+        "version": "observed-physical-power-wires-v1",
+        "restored_networks": [],
+        "primary_contacts": [],
+        "restored_net_count": 0,
+        "primary_contact_count": 0,
+        "inference_calls": 0,
+        "enabled": true,
+        "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7"
+      }
+    }
+  ]
+}

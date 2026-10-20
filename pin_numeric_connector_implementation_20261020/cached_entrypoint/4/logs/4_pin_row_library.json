@@ -1,0 +1,228 @@
+{
+  "enabled": true,
+  "policy": "observed_rows_exact_library_v1",
+  "groups": [
+    {
+      "owner": "U2",
+      "model": "AMS1117-3.3",
+      "model_support": {
+        "AMS1117-3.3": 4
+      },
+      "model_readings": [
+        {
+          "text": "AMS1117-3.3",
+          "confidence": 0.99957,
+          "bbox": [
+            1388.0,
+            278.0,
+            1466.0,
+            295.0
+          ],
+          "polygon": [
+            [
+              1388.0,
+              278.0
+            ],
+            [
+              1466.0,
+              278.0
+            ],
+            [
+              1466.0,
+              295.0
+            ],
+            [
+              1388.0,
+              295.0
+            ]
+          ],
+          "view": "row_component_U2_s1.0_r0"
+        },
+        {
+          "text": "AMS1117-3.3",
+          "confidence": 0.99997,
+          "bbox": [
+            1387.0,
+            278.0,
+            1466.0,
+            295.0
+          ],
+          "polygon": [
+            [
+              1387.0,
+              295.0
+            ],
+            [
+              1387.0,
+              278.0
+            ],
+            [
+              1466.0,
+              278.0
+            ],
+            [
+              1466.0,
+              295.0
+            ]
+          ],
+          "view": "row_component_U2_s1.0_r90"
+        },
+        {
+          "text": "AMS1117-3.3",
+          "confidence": 0.99997,
+          "bbox": [
+            1388.6666666666667,
+            279.6666666666667,
+            1463.3333333333333,
+            293.0
+          ],
+          "polygon": [
+            [
+              1388.6666666666667,
+              279.6666666666667
+            ],
+            [
+              1463.3333333333333,
+              279.6666666666667
+            ],
+            [
+              1463.3333333333333,
+              293.0
+            ],
+            [
+              1388.6666666666667,
+              293.0
+            ]
+          ],
+          "view": "row_component_U2_s3.0_r0"
+        },
+        {
+          "text": "AMS1117-3.3",
+          "confidence": 0.99995,
+          "bbox": [
+            1387.6666666666667,
+            277.0,
+            1464.0,
+            294.0
+          ],
+          "polygon": [
+            [
+              1387.6666666666667,
+              294.0
+            ],
+            [
+              1387.6666666666667,
+              277.0
+            ],
+            [
+              1464.0,
+              277.0
+            ],
+            [
+              1464.0,
+              294.0
+            ]
+          ],
+          "view": "row_component_U2_s3.0_r90"
+        }
+      ],
+      "rows": [
+        {
+          "row": 220.5,
+          "length": 19.0,
+          "side": "left",
+          "edge": 1390.5,
+          "point": [
+            1371.5,
+            220.5
+          ],
+          "old_key": "pin_1",
+          "old_record": {
+            "pinname": "GND",
+            "point": {
+              "x": 1372.0,
+              "y": 812.0632424280047
+            }
+          },
+          "number": "1",
+          "name": "GND",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 240,
+          "length": 19,
+          "side": "left",
+          "edge": 1390.5,
+          "point": [
+            1371.5,
+            240
+          ],
+          "old_key": "pin_2",
+          "old_record": {
+            "pinname": "VOUT",
+            "point": {
+              "x": 1372.0,
+              "y": 792.0662932023406
+            }
+          },
+          "number": "2",
+          "name": "VOUT",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 259.5,
+          "length": 19.0,
+          "side": "left",
+          "edge": 1390.5,
+          "point": [
+            1371.5,
+            259.5
+          ],
+          "old_key": "pin_3",
+          "old_record": {
+            "pinname": "VIN",
+            "point": {
+              "x": 1371.5,
+              "y": 772.5
+            }
+          },
+          "number": "3",
+          "name": "VIN",
+          "method": "preserved_existing_record"
+        },
+        {
+          "row": 240,
+          "length": 18,
+          "side": "right",
+          "edge": 1528.5,
+          "point": [
+            1546.5,
+            240
+          ],
+          "old_key": "pin_4",
+          "old_record": {
+            "pinname": "VOUT",
+            "point": {
+              "x": 1548.0,
+              "y": 792.4443568885326
+            }
+          },
+          "number": "4",
+          "name": "VOUT",
+          "method": "preserved_existing_record"
+        }
+      ],
+      "status": "verified_without_changes"
+    }
+  ],
+  "changes": [],
+  "component_changes": [],
+  "network_changes": [],
+  "network_withheld": [],
+  "ocr_calls": 4,
+  "budget_exhausted": false,
+  "image_sha256": "d3b167ae7f08159272e5a5950c572e2aa5870c822cde57d007eabd61ce9d71c0",
+  "config_sha256": "cbb6197e7cbb22cd3988f22c7881cbd437d8a7a2813a37b9ea1f0402296065d0",
+  "ocr_models": null,
+  "library_sha256": "b6f7fd06561524ffe2e8b03b06e67e2fa066d75de7acfcc5f1cb7b4f000ca9ac"
+}

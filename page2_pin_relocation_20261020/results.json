@@ -1,0 +1,24 @@
+{
+  "before": {
+    "tp": 15,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.9375,
+    "recall": 0.9375,
+    "f1": 0.9375
+  },
+  "after": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "changes": 1,
+  "new_local_ocr_calls": 4,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "production_modified": false,
+  "components_and_networks_unchanged": true
+}

@@ -1,0 +1,147 @@
+{
+  "case": "11",
+  "owner": "USB2",
+  "index": 3,
+  "image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "crop": [
+    567,
+    311,
+    741,
+    489
+  ],
+  "scale": 1.0,
+  "rotation": 90,
+  "texts": [
+    {
+      "text": "AF 90° WJDG",
+      "confidence": 0.98401,
+      "bbox": [
+        616.0,
+        449.0,
+        715.0,
+        471.0
+      ],
+      "polygon": [
+        [
+          616.0,
+          471.0
+        ],
+        [
+          616.0,
+          449.0
+        ],
+        [
+          715.0,
+          449.0
+        ],
+        [
+          715.0,
+          471.0
+        ]
+      ],
+      "view": "component_crop_3_s1.0_r90"
+    },
+    {
+      "text": "USB2",
+      "confidence": 0.99996,
+      "bbox": [
+        618.0,
+        332.0,
+        663.0,
+        353.0
+      ],
+      "polygon": [
+        [
+          618.0,
+          353.0
+        ],
+        [
+          618.0,
+          332.0
+        ],
+        [
+          663.0,
+          332.0
+        ],
+        [
+          663.0,
+          353.0
+        ]
+      ],
+      "view": "component_crop_3_s1.0_r90"
+    },
+    {
+      "text": "GND",
+      "confidence": 0.9999,
+      "bbox": [
+        654.0,
+        420.0,
+        694.0,
+        441.0
+      ],
+      "polygon": [
+        [
+          654.0,
+          441.0
+        ],
+        [
+          654.0,
+          420.0
+        ],
+        [
+          694.0,
+          420.0
+        ],
+        [
+          694.0,
+          441.0
+        ]
+      ],
+      "view": "component_crop_3_s1.0_r90"
+    },
+    {
+      "text": "VCC",
+      "confidence": 0.96755,
+      "bbox": [
+        656.0,
+        360.0,
+        695.0,
+        381.0
+      ],
+      "polygon": [
+        [
+          656.0,
+          381.0
+        ],
+        [
+          656.0,
+          360.0
+        ],
+        [
+          695.0,
+          360.0
+        ],
+        [
+          695.0,
+          381.0
+        ]
+      ],
+      "view": "component_crop_3_s1.0_r90"
+    }
+  ],
+  "wall_seconds": 0.08003099999768892,
+  "models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

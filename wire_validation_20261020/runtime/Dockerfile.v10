@@ -1,0 +1,10 @@
+FROM pcb-parser:v9
+
+# Every file of the verified local tree replaces the v9 copy.  The v9 layer already holds the
+# 10.7 GB runtime (CUDA, torch, ultralytics, rapidocr, OCR/UNet/YOLO weights under
+# /submission/weights and /submission/assets), so only the 145 MB submission tree moves.
+COPY . /submission/
+
+RUN python3 /submission/overlay_check.py
+
+ENTRYPOINT ["/submission/run.sh"]

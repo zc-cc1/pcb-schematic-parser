@@ -1,0 +1,46 @@
+{
+  "before": {
+    "pin": {
+      "tp": 14,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    "connectivity": 0.4010051736881005,
+    "wire": {
+      "tp": 59,
+      "fp": 10,
+      "fn": 27,
+      "precision": 0.8551,
+      "recall": 0.686,
+      "f1": 0.7613
+    },
+    "score_100": 71.15618107908352
+  },
+  "after": {
+    "pin": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "connectivity": 0.40978566149297857,
+    "wire": {
+      "tp": 59,
+      "fp": 10,
+      "fn": 27,
+      "precision": 0.8551,
+      "recall": 0.686,
+      "f1": 0.7613
+    },
+    "score_100": 74.58849815225425
+  },
+  "ocr_replay_calls": 24,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "production_modified": false
+}

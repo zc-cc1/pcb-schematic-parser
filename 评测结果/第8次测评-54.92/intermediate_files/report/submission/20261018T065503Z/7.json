@@ -1,0 +1,1002 @@
+{
+  "protocol": {
+    "version": "2026-10-08-global-power-rails",
+    "schema": "Target JSON with components/pins/nets",
+    "spatial_match_threshold_px": 20.0,
+    "connectivity_pin_set_f1_threshold": 0.0,
+    "component_match": "ordinary: key/type/Name/value exact; power: type/value and one-to-one geometry, ignore key/Name; ordered bbox, every coordinate within threshold",
+    "pin_match": "component key and pin_<number> exact; owner exists in both components; pinname exact; point Euclidean threshold",
+    "pin_scope": "IC only: GT type for known component keys; predicted-only IC pins count as FP",
+    "ic_type_aliases": [
+      "box",
+      "ic"
+    ],
+    "ic_type_comparison": "strip whitespace and ignore case for pin scope and connectivity identity only",
+    "empty_pin_scope": "pin_f1=0 when both scored pin sets are empty; weights unchanged",
+    "wire_match": "one-to-one direction-invariant two-point edge matching within Hungarian-matched logical nets; pool source branches sharing a global power rail",
+    "connectivity_match": "merge nets sharing global power rails, then Hungarian one-to-one mixed-vertex-set soft F1",
+    "connectivity_vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+    "power_type_aliases": {
+      "ground": [
+        "gnd"
+      ],
+      "supply": [
+        "v",
+        "vcc",
+        "vdd"
+      ]
+    },
+    "power_rail_identity": "all grounds share GND; supplies share exact value (null/empty -> VCC); ground and supply remain separate; no inference from component key/Name",
+    "power_component_match": "ignore key/Name/designator; raw type/value still exact; geometry and symbol counts still scored",
+    "weights": {
+      "component_f1": 0.3,
+      "pin_f1": 0.25,
+      "connectivity_f1": 0.35,
+      "wire_f1": 0.1
+    },
+    "prediction_validation": "missing sections score as empty; invalid component/pin/edge records cannot be TP; hypergraph references retained as sets and reference issues reported"
+  },
+  "scores": {
+    "component_stage": 0.901515,
+    "wire_stage": 0.588235,
+    "connectivity_stage": 0.693939,
+    "component_f1": 0.875,
+    "pin_f1": 0.933333,
+    "wire_f1": 0.588235,
+    "connectivity_f1": 0.693939,
+    "final_score": 79.75354
+  },
+  "component": {
+    "f1": {
+      "tp": 21,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    "key_f1": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "key_f1_scope": "non_power_components_only",
+    "diagnostics": {
+      "matched_id_count": 18,
+      "matched_component_count": 24,
+      "gt_power_symbol_count": 6,
+      "pred_power_symbol_count": 6,
+      "matched_power_symbol_count": 6,
+      "power_assignment_examples": [
+        {
+          "gt_component_id": "∅164",
+          "pred_component_id": "UNRESOLVED_DET_0010"
+        },
+        {
+          "gt_component_id": "∅299",
+          "pred_component_id": "UNRESOLVED_DET_0014"
+        },
+        {
+          "gt_component_id": "∅308",
+          "pred_component_id": "UNRESOLVED_DET_0003"
+        },
+        {
+          "gt_component_id": "∅678",
+          "pred_component_id": "UNRESOLVED_DET_0019"
+        },
+        {
+          "gt_component_id": "∅805",
+          "pred_component_id": "UNRESOLVED_DET_0012"
+        },
+        {
+          "gt_component_id": "∅854",
+          "pred_component_id": "UNRESOLVED_DET_0008"
+        }
+      ],
+      "type_accuracy_on_matched": 1.0,
+      "name_accuracy_on_matched": 0.888889,
+      "name_accuracy_scope": "non_power_components_only",
+      "value_accuracy_on_matched": 0.958333,
+      "bbox_accuracy_on_matched": 1.0,
+      "bbox_corner_mae_px": {
+        "count": 24,
+        "mean": 8.846958,
+        "median": 9.625,
+        "p95": 10.0986,
+        "max": 14.75
+      },
+      "error_examples": [
+        {
+          "component_id": "D1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 14.0635
+        },
+        {
+          "component_id": "L1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "value"
+          ],
+          "bbox_max_coordinate_error_px": 17.382
+        },
+        {
+          "component_id": "LED1",
+          "error": "attribute_or_position_mismatch",
+          "failed_checks": [
+            "Name"
+          ],
+          "bbox_max_coordinate_error_px": 19.097
+        }
+      ]
+    }
+  },
+  "pin": {
+    "scope": "ic_only",
+    "applicable": true,
+    "f1": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.933333
+    },
+    "id_f1": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.933333
+    },
+    "diagnostics": {
+      "gt_total_pin_count": 48,
+      "pred_total_pin_count": 43,
+      "gt_scored_pin_count": 8,
+      "pred_scored_pin_count": 7,
+      "gt_ignored_pin_count": 40,
+      "pred_ignored_pin_count": 36,
+      "matched_id_count": 7,
+      "pin_number_accuracy_on_matched": 1.0,
+      "pin_name_accuracy_on_matched": 1.0,
+      "tip_distance_px": {
+        "count": 7,
+        "mean": 1.687602,
+        "median": 0.0,
+        "p95": 2.072289,
+        "max": 2.079334
+      },
+      "error_examples": [
+        {
+          "pin_id": "[\"U1\",\"pin_2\"]",
+          "error": "missing"
+        }
+      ]
+    }
+  },
+  "wire": {
+    "f1": {
+      "tp": 40,
+      "fp": 28,
+      "fn": 28,
+      "precision": 0.588235,
+      "recall": 0.588235,
+      "f1": 0.588235
+    },
+    "diagnostics": {
+      "gt_segment_count": 68,
+      "pred_segment_count": 68,
+      "matched_segment_count": 40,
+      "invalid_pred_segment_count": 0,
+      "matched_max_endpoint_error_px": {
+        "count": 40,
+        "mean": 5.598073,
+        "median": 2.236068,
+        "p95": 17.077917,
+        "max": 19.026298
+      },
+      "matched_mean_endpoint_error_px": {
+        "count": 40,
+        "mean": 3.589237,
+        "median": 2.236068,
+        "p95": 9.722409,
+        "max": 11.547777
+      },
+      "assignment_examples": [
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_1",
+          "pred_edge_id": "edge_11",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_3",
+          "pred_edge_id": "edge_3",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 11.045361
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_4",
+          "pred_edge_id": "edge_2",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_5",
+          "pred_edge_id": "edge_5",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_6",
+          "pred_edge_id": "edge_7",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 8.0
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_7",
+          "pred_edge_id": "edge_6",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_8",
+          "pred_edge_id": "edge_9",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_9",
+          "pred_edge_id": "edge_10",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 2.236068
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_10",
+          "pred_edge_id": "edge_12",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 9.055385
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_11",
+          "pred_edge_id": "edge_8",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 9.055385
+        },
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "gt_edge_id": "edge_12",
+          "pred_edge_id": "edge_1",
+          "gt_source_net_id": "net_1",
+          "pred_source_net_id": "LOG_NET_CAND_00001",
+          "max_endpoint_error_px": 6.082763
+        },
+        {
+          "gt_net_id": "net_2",
+          "pred_net_id": "LOG_NET_CAND_00019",
+          "gt_net_ids": [
+            "net_2"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00019"
+          ],
+          "gt_edge_id": "edge_1",
+          "pred_edge_id": "edge_1",
+          "gt_source_net_id": "net_2",
+          "pred_source_net_id": "LOG_NET_CAND_00019",
+          "max_endpoint_error_px": 8.0
+        },
+        {
+          "gt_net_id": "net_3",
+          "pred_net_id": "LOG_NET_CAND_00017",
+          "gt_net_ids": [
+            "net_3"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00017"
+          ],
+          "gt_edge_id": "edge_1",
+          "pred_edge_id": "edge_2",
+          "gt_source_net_id": "net_3",
+          "pred_source_net_id": "LOG_NET_CAND_00017",
+          "max_endpoint_error_px": 3.162278
+        },
+        {
+          "gt_net_id": "net_3",
+          "pred_net_id": "LOG_NET_CAND_00017",
+          "gt_net_ids": [
+            "net_3"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00017"
+          ],
+          "gt_edge_id": "edge_2",
+          "pred_edge_id": "edge_1",
+          "gt_source_net_id": "net_3",
+          "pred_source_net_id": "LOG_NET_CAND_00017",
+          "max_endpoint_error_px": 7.071068
+        },
+        {
+          "gt_net_id": "net_5",
+          "pred_net_id": "LOG_NET_CAND_00002",
+          "gt_net_ids": [
+            "net_5"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00002"
+          ],
+          "gt_edge_id": "edge_1",
+          "pred_edge_id": "edge_4",
+          "gt_source_net_id": "net_5",
+          "pred_source_net_id": "LOG_NET_CAND_00002",
+          "max_endpoint_error_px": 8.062258
+        },
+        {
+          "gt_net_id": "net_5",
+          "pred_net_id": "LOG_NET_CAND_00002",
+          "gt_net_ids": [
+            "net_5"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00002"
+          ],
+          "gt_edge_id": "edge_2",
+          "pred_edge_id": "edge_6",
+          "gt_source_net_id": "net_5",
+          "pred_source_net_id": "LOG_NET_CAND_00002",
+          "max_endpoint_error_px": 1.0
+        },
+        {
+          "gt_net_id": "net_5",
+          "pred_net_id": "LOG_NET_CAND_00002",
+          "gt_net_ids": [
+            "net_5"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00002"
+          ],
+          "gt_edge_id": "edge_3",
+          "pred_edge_id": "edge_2",
+          "gt_source_net_id": "net_5",
+          "pred_source_net_id": "LOG_NET_CAND_00002",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_2",
+          "pred_edge_id": "edge_4",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 7.0
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_3",
+          "pred_edge_id": "edge_3",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 13.038405
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_4",
+          "pred_edge_id": "edge_7",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 7.071068
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_5",
+          "pred_edge_id": "edge_6",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_6",
+          "pred_edge_id": "edge_5",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 1.0
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_7",
+          "pred_edge_id": "edge_2",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 1.0
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "gt_edge_id": "edge_8",
+          "pred_edge_id": "edge_1",
+          "gt_source_net_id": "net_12",
+          "pred_source_net_id": "LOG_NET_CAND_00007",
+          "max_endpoint_error_px": 13.038405
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_1",
+          "pred_edge_id": "edge_1",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 4.123106
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_3",
+          "pred_edge_id": "edge_5",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_4",
+          "pred_edge_id": "edge_4",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_5",
+          "pred_edge_id": "edge_3",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_6",
+          "pred_edge_id": "edge_2",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 1.414214
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "gt_edge_id": "edge_8",
+          "pred_edge_id": "edge_7",
+          "gt_source_net_id": "net_7",
+          "pred_source_net_id": "LOG_NET_CAND_00009",
+          "max_endpoint_error_px": 1.414214
+        }
+      ]
+    }
+  },
+  "connectivity": {
+    "f1": {
+      "soft_tp": 8.327273,
+      "gt_net_count": 10,
+      "pred_net_count": 14,
+      "precision": 0.594805,
+      "recall": 0.832727,
+      "f1": 0.693939
+    },
+    "exact_net_f1": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 4,
+      "precision": 0.428571,
+      "recall": 0.6,
+      "f1": 0.5
+    },
+    "vertex_pair_f1": {
+      "tp": 24,
+      "fp": 0,
+      "fn": 107,
+      "precision": 1.0,
+      "recall": 0.183206,
+      "f1": 0.309677
+    },
+    "pin_pair_f1": {
+      "tp": 24,
+      "fp": 0,
+      "fn": 107,
+      "precision": 1.0,
+      "recall": 0.183206,
+      "f1": 0.309677
+    },
+    "diagnostics": {
+      "vertex_identity": "IC: component key + port; ordinary: component key; ground/supply: global rail",
+      "gt_raw_net_count": 13,
+      "pred_raw_net_count": 14,
+      "gt_logical_net_count": 10,
+      "pred_logical_net_count": 14,
+      "gt_power_net_groups": [
+        [
+          "net_1"
+        ],
+        [
+          "net_10",
+          "net_12",
+          "net_13",
+          "net_6"
+        ],
+        [
+          "net_8"
+        ]
+      ],
+      "pred_power_net_groups": [],
+      "gt_vertex_count": 45,
+      "pred_vertex_count": 33,
+      "unmapped_pred_vertex_references": 0,
+      "unmapped_pred_pin_references": 0,
+      "matched_net_pairs": [
+        {
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001",
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ]
+        },
+        {
+          "gt_net_id": "net_2",
+          "pred_net_id": "LOG_NET_CAND_00019",
+          "gt_net_ids": [
+            "net_2"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00019"
+          ]
+        },
+        {
+          "gt_net_id": "net_3",
+          "pred_net_id": "LOG_NET_CAND_00017",
+          "gt_net_ids": [
+            "net_3"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00017"
+          ]
+        },
+        {
+          "gt_net_id": "net_4",
+          "pred_net_id": "LOG_NET_CAND_00021",
+          "gt_net_ids": [
+            "net_4"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00021"
+          ]
+        },
+        {
+          "gt_net_id": "net_5",
+          "pred_net_id": "LOG_NET_CAND_00002",
+          "gt_net_ids": [
+            "net_5"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00002"
+          ]
+        },
+        {
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007",
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ]
+        },
+        {
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009",
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ]
+        },
+        {
+          "gt_net_id": "net_8",
+          "pred_net_id": "LOG_NET_CAND_00004",
+          "gt_net_ids": [
+            "net_8"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00004"
+          ]
+        },
+        {
+          "gt_net_id": "net_9",
+          "pred_net_id": "LOG_NET_CAND_00020",
+          "gt_net_ids": [
+            "net_9"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00020"
+          ]
+        },
+        {
+          "gt_net_id": "net_11",
+          "pred_net_id": "LOG_NET_CAND_00022",
+          "gt_net_ids": [
+            "net_11"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00022"
+          ]
+        }
+      ],
+      "assignment_examples": [
+        {
+          "gt_net_ids": [
+            "net_1"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00001"
+          ],
+          "pin_set_f1": 0.727273,
+          "gt_vertex_count": 7,
+          "pred_vertex_count": 4,
+          "gt_net_id": "net_1",
+          "pred_net_id": "LOG_NET_CAND_00001"
+        },
+        {
+          "gt_net_ids": [
+            "net_2"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00019"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 2,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_2",
+          "pred_net_id": "LOG_NET_CAND_00019"
+        },
+        {
+          "gt_net_ids": [
+            "net_3"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00017"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 2,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_3",
+          "pred_net_id": "LOG_NET_CAND_00017"
+        },
+        {
+          "gt_net_ids": [
+            "net_4"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00021"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 2,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_4",
+          "pred_net_id": "LOG_NET_CAND_00021"
+        },
+        {
+          "gt_net_ids": [
+            "net_5"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00002"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 3,
+          "pred_vertex_count": 3,
+          "gt_net_id": "net_5",
+          "pred_net_id": "LOG_NET_CAND_00002"
+        },
+        {
+          "gt_net_ids": [
+            "net_10",
+            "net_12",
+            "net_13",
+            "net_6"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00007"
+          ],
+          "pin_set_f1": 0.266667,
+          "gt_vertex_count": 13,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_10",
+          "pred_net_id": "LOG_NET_CAND_00007"
+        },
+        {
+          "gt_net_ids": [
+            "net_7"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00009"
+          ],
+          "pin_set_f1": 0.666667,
+          "gt_vertex_count": 4,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_7",
+          "pred_net_id": "LOG_NET_CAND_00009"
+        },
+        {
+          "gt_net_ids": [
+            "net_8"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00004"
+          ],
+          "pin_set_f1": 0.666667,
+          "gt_vertex_count": 8,
+          "pred_vertex_count": 4,
+          "gt_net_id": "net_8",
+          "pred_net_id": "LOG_NET_CAND_00004"
+        },
+        {
+          "gt_net_ids": [
+            "net_9"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00020"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 2,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_9",
+          "pred_net_id": "LOG_NET_CAND_00020"
+        },
+        {
+          "gt_net_ids": [
+            "net_11"
+          ],
+          "pred_net_ids": [
+            "LOG_NET_CAND_00022"
+          ],
+          "pin_set_f1": 1.0,
+          "gt_vertex_count": 2,
+          "pred_vertex_count": 2,
+          "gt_net_id": "net_11",
+          "pred_net_id": "LOG_NET_CAND_00022"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "gt": {
+      "valid": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    "pred": {
+      "valid": true,
+      "issue_count": 0,
+      "issues": []
+    }
+  },
+  "files": {
+    "gt": "/gt/7/7_target.json",
+    "pred": "/pred/7/final_results/7_Pred.json"
+  }
+}

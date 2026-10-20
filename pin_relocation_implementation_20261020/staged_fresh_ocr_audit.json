@@ -1,0 +1,122 @@
+{
+  "enabled": true,
+  "policy": "unsupported_pin_relocation_v1",
+  "proposals": [
+    {
+      "owner": "U2",
+      "number": "2",
+      "name": "VCC",
+      "source_candidate_id": "PIN_CAND_0061",
+      "before": {
+        "x": 1085.840150207281,
+        "y": 728.2798150777817
+      },
+      "old_point": [
+        1085.840150207281,
+        387.7201849222183
+      ],
+      "point": [
+        1009.5,
+        329.5
+      ],
+      "observed_number": "2",
+      "number_support": {
+        "2": 2
+      },
+      "number_crop": [
+        1013,
+        311,
+        1036,
+        336
+      ],
+      "observed_name": "VCC",
+      "name_support": {
+        "VCC": 2
+      },
+      "component_crop": [
+        984,
+        251,
+        1127,
+        428
+      ],
+      "after": {
+        "x": 1009.5,
+        "y": 786.5
+      },
+      "status": "relocated_by_observed_text_and_lead"
+    }
+  ],
+  "changes": [
+    {
+      "owner": "U2",
+      "number": "2",
+      "name": "VCC",
+      "source_candidate_id": "PIN_CAND_0061",
+      "before": {
+        "x": 1085.840150207281,
+        "y": 728.2798150777817
+      },
+      "old_point": [
+        1085.840150207281,
+        387.7201849222183
+      ],
+      "point": [
+        1009.5,
+        329.5
+      ],
+      "observed_number": "2",
+      "number_support": {
+        "2": 2
+      },
+      "number_crop": [
+        1013,
+        311,
+        1036,
+        336
+      ],
+      "observed_name": "VCC",
+      "name_support": {
+        "VCC": 2
+      },
+      "component_crop": [
+        984,
+        251,
+        1127,
+        428
+      ],
+      "after": {
+        "x": 1009.5,
+        "y": 786.5
+      },
+      "status": "relocated_by_observed_text_and_lead"
+    }
+  ],
+  "network_changes": [
+    {
+      "member": "U2.2",
+      "status": "withheld",
+      "reason": "no_unique_existing_exported_net",
+      "candidate_networks": [
+        "LOG_NET_CAND_00012"
+      ]
+    }
+  ],
+  "ocr_calls": 6,
+  "budget_exhausted": false,
+  "image_sha256": "c6ebc4573158340b64c3f5247e6cb0e2fb9f7325974ad27641dbfb31a770f229",
+  "config_sha256": "47b9bacde59237e9bbd17307de4718b9a3ffe2afe53a8f07e3e21712de2d5218",
+  "ocr_models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  }
+}

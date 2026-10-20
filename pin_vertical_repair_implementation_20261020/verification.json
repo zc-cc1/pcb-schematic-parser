@@ -1,0 +1,251 @@
+{
+  "release_hashes_verified": true,
+  "unit_tests_passed": 185,
+  "new_tests": 29,
+  "fully_unchanged_pages": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "12",
+    "13"
+  ],
+  "changed_pin_records": [
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_3",
+      "before": {
+        "pinname": "GND",
+        "point": {
+          "x": 1703.554849743843,
+          "y": 630.0
+        }
+      },
+      "after": {
+        "pinname": "Vin",
+        "point": {
+          "x": 1703.5,
+          "y": 608.5
+        }
+      }
+    },
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_2",
+      "before": {
+        "pinname": "Vin",
+        "point": {
+          "x": 1702.1949576437473,
+          "y": 630.0
+        }
+      },
+      "after": {
+        "pinname": "GND",
+        "point": {
+          "x": 1663.5,
+          "y": 765.5
+        }
+      }
+    },
+    {
+      "case": "10",
+      "owner": "U2",
+      "key": "pin_1",
+      "before": {
+        "pinname": "Vout",
+        "point": {
+          "x": 1623.344976902008,
+          "y": 630.0
+        }
+      },
+      "after": {
+        "pinname": "Vout",
+        "point": {
+          "x": 1624.5,
+          "y": 608.5
+        }
+      }
+    }
+  ],
+  "added_model_ground_contact": [
+    {
+      "case": "10",
+      "owner": "UNRESOLVED_DET_0021",
+      "key": "pin_1",
+      "pin": {
+        "pinname": "",
+        "point": {
+          "x": 1664.4294532835484,
+          "y": 826.8867406323552
+        }
+      }
+    }
+  ],
+  "U2_errors": [
+    {
+      "number": "1",
+      "name": "Vout",
+      "before_px": 21.010213117883954,
+      "after_px": 0.7071067811865476
+    },
+    {
+      "number": "2",
+      "name": "GND",
+      "before_px": 142.22466308417697,
+      "after_px": 1.5811388300841898
+    },
+    {
+      "number": "3",
+      "name": "Vin",
+      "before_px": 21.007328679254837,
+      "after_px": 0.7071067811865476
+    }
+  ],
+  "existing_wire_segments_preserved": true,
+  "new_wire_segment_copied_exactly_from_model": true,
+  "restored_ground_branch": "RESTORED_NET_CAND_00013",
+  "existing_junction_ambiguity_preserved": {
+    "LOG_NET_CAND_00006": [
+      "J00012"
+    ],
+    "LOG_NET_CAND_00008": [
+      "J00016"
+    ]
+  },
+  "fresh_local_ocr_matches_cache": true,
+  "fresh_local_ocr_calls": 24,
+  "external_api_calls": 0,
+  "full_model_runs": 0,
+  "aggregate_pin_metrics": {
+    "before": {
+      "tp": 178,
+      "fp": 10,
+      "fn": 13
+    },
+    "after": {
+      "tp": 181,
+      "fp": 7,
+      "fn": 10
+    }
+  },
+  "entrypoint": {
+    "mode": "cached_model_and_ocr_live_entrypoint",
+    "cases": [
+      {
+        "case": "1",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "2",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "4",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "5",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "6",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "8",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 0,
+          "restored_networks": 0,
+          "changed_networks": 0,
+          "ocr_calls": 0
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      },
+      {
+        "case": "10",
+        "success": true,
+        "ic_pins_match_verified_output": true,
+        "vertical_repair_log_written": true,
+        "summary": {
+          "enabled": true,
+          "changed_pins": 3,
+          "restored_networks": 1,
+          "changed_networks": 1,
+          "ocr_calls": 24
+        },
+        "new_model_calls": 0,
+        "new_ocr_calls": 0
+      }
+    ],
+    "kept_work": true,
+    "runtime": "deployed"
+  }
+}

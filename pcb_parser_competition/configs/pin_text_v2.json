@@ -16,8 +16,17 @@
   "unmatched_cost": 38,
   "ambiguity_margin": 3,
   "spelling_margin": 2,
-  "name_component_types": ["ic", "connector", "block", "opamp"],
-  "ball_number_component_types": ["ic", "connector", "block"],
+  "name_component_types": [
+    "ic",
+    "connector",
+    "block",
+    "opamp"
+  ],
+  "ball_number_component_types": [
+    "ic",
+    "connector",
+    "block"
+  ],
   "tip_hypothesis_cluster_px": 3.5,
   "tip_hypothesis_normal_px": 18,
   "min_vote_confidence": 0.95,
@@ -25,7 +34,12 @@
   "vote_min_views": 3,
   "vote_min_lead": 2,
   "identity_recovery": {
-    "component_types": ["ic", "connector", "block", "opamp"],
+    "component_types": [
+      "ic",
+      "connector",
+      "block",
+      "opamp"
+    ],
     "min_ocr_confidence": 0.95,
     "view_support_min_confidence": 0.9,
     "min_distinct_views": 2,
@@ -33,7 +47,15 @@
     "max_header_inset_px": 75,
     "max_header_inset_fraction": 0.15,
     "pin_header_guard_px": 3,
-    "reference_prefixes": ["U", "IC", "H", "CN", "LD", "J", "P"],
+    "reference_prefixes": [
+      "U",
+      "IC",
+      "H",
+      "CN",
+      "LD",
+      "J",
+      "P"
+    ],
     "minimum_pins_special_prefix": 4,
     "assignment_margin": 5,
     "unmatched_cost": 65
@@ -45,5 +67,6 @@
     "new_name_min_views": 2
   },
   "onnx_threads": 4,
-  "status": "observed_OCR_and_learned_geometry_no_automatic_numbering_no_pinname_guess"
+  "status": "observed_OCR_and_learned_geometry_no_automatic_numbering_no_pinname_guess",
+  "ambiguity_margin_note": "Relaxing 3 -> 0 raised OCR number correctness 50.2% -> 56.7% on 735 labelled pins, but geometric auto-numbering is more accurate than OCR numbers for two-pin parts (74.5%), so the relaxation replaced better numbers with worse ones and did not improve the score. Kept at 3."
 }

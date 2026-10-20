@@ -1,0 +1,275 @@
+{
+  "source_image_sha256": "786858341cb81fd7fc0a9b81d47b330357bf3f0e8f5da5032cbf969d1d6e3cab",
+  "entries": [
+    {
+      "component_id": "U1",
+      "type": "ic",
+      "missing_fields": [
+        "Name"
+      ],
+      "bbox_top_left": [
+        945.078,
+        352.387,
+        1086.321,
+        464.195
+      ],
+      "current_binding_evidence": {
+        "designator": {
+          "token_id": "token_0022",
+          "text_id": "text_0021",
+          "text": "U1",
+          "bbox": [
+            954.5,
+            343.5,
+            976.5,
+            359.5
+          ],
+          "confidence": 0.99942,
+          "role": "designator",
+          "source_view": "tile_701_0_r0",
+          "prefix": "U",
+          "source_text": "U1",
+          "approximate_split_geometry": false
+        },
+        "designator_score": 53.80772644564499,
+        "designator_assignment_margin": 36.19227355435498
+      },
+      "nearby_OCR": [
+        {
+          "text": "LED2",
+          "bbox": [
+            1030.0,
+            393.5,
+            1071.0,
+            411.0
+          ],
+          "confidence": 0.99998,
+          "view": "tile_614_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_701_0_r0"
+            },
+            {
+              "text": "LED2",
+              "confidence": 0.99998,
+              "view": "tile_614_2_r0"
+            }
+          ]
+        },
+        {
+          "text": "VDD",
+          "bbox": [
+            1032.0,
+            411.0,
+            1072.0,
+            433.0
+          ],
+          "confidence": 0.99993,
+          "view": "global",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "VDD",
+              "confidence": 0.99993,
+              "view": "global"
+            },
+            {
+              "text": "VDD",
+              "confidence": 0.99991,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "VDD",
+              "confidence": 0.99991,
+              "view": "tile_701_0_r90"
+            }
+          ]
+        },
+        {
+          "text": "BAT",
+          "bbox": [
+            961.0,
+            394.5,
+            992.5,
+            411.0
+          ],
+          "confidence": 0.99999,
+          "view": "tile_614_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "BAT",
+              "confidence": 0.99999,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "BAT",
+              "confidence": 0.99999,
+              "view": "tile_701_0_r90"
+            },
+            {
+              "text": "BAT",
+              "confidence": 0.99999,
+              "view": "tile_614_2_r0"
+            }
+          ]
+        },
+        {
+          "text": "SW",
+          "bbox": [
+            961.5,
+            414.0,
+            990.5,
+            431.0
+          ],
+          "confidence": 0.98337,
+          "view": "tile_701_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "SW",
+              "confidence": 0.98337,
+              "view": "tile_701_0_r0"
+            },
+            {
+              "text": "SW",
+              "confidence": 0.98337,
+              "view": "tile_614_2_r0"
+            },
+            {
+              "text": "SW",
+              "confidence": 0.98337,
+              "view": "tile_701_2_r0"
+            }
+          ]
+        },
+        {
+          "text": "LED1",
+          "bbox": [
+            1030.0,
+            374.0,
+            1070.5,
+            391.5
+          ],
+          "confidence": 0.99997,
+          "view": "tile_701_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "LED1",
+              "confidence": 0.99997,
+              "view": "tile_701_0_r0"
+            },
+            {
+              "text": "LED1",
+              "confidence": 0.99996,
+              "view": "global"
+            },
+            {
+              "text": "LED1",
+              "confidence": 0.99996,
+              "view": "tile_614_2_r90"
+            }
+          ]
+        },
+        {
+          "text": "OUT",
+          "bbox": [
+            962.0,
+            374.5,
+            996.0,
+            391.0
+          ],
+          "confidence": 0.99986,
+          "view": "tile_614_2_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "OUT",
+              "confidence": 0.99986,
+              "view": "tile_614_2_r0"
+            },
+            {
+              "text": "OUT",
+              "confidence": 0.99981,
+              "view": "tile_701_2_r0"
+            },
+            {
+              "text": "OUT",
+              "confidence": 0.99972,
+              "view": "tile_614_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "GND",
+          "bbox": [
+            961.5,
+            434.5,
+            997.5,
+            450.5
+          ],
+          "confidence": 0.99996,
+          "view": "tile_614_2_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "GND",
+              "confidence": 0.99996,
+              "view": "tile_614_2_r0"
+            },
+            {
+              "text": "GND",
+              "confidence": 0.99996,
+              "view": "tile_701_2_r0"
+            },
+            {
+              "text": "GND",
+              "confidence": 0.99995,
+              "view": "tile_614_0_r0"
+            }
+          ]
+        },
+        {
+          "text": "SWT",
+          "bbox": [
+            1034.0,
+            433.5,
+            1070.5,
+            451.5
+          ],
+          "confidence": 0.99993,
+          "view": "tile_614_0_r0",
+          "distance_px": 0.0,
+          "alternatives": [
+            {
+              "text": "SWT",
+              "confidence": 0.99993,
+              "view": "tile_614_0_r0"
+            },
+            {
+              "text": "SWT",
+              "confidence": 0.99993,
+              "view": "tile_614_2_r0"
+            },
+            {
+              "text": "SWT",
+              "confidence": 0.99992,
+              "view": "tile_701_0_r90"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_fields_are_not_automatically_errors": true,
+  "values_or_names_changed": 0
+}

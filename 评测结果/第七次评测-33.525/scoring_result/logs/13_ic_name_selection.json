@@ -1,0 +1,727 @@
+{
+  "policy": "ic_observed_model_reference_description_v1",
+  "priority": [
+    "model",
+    "reference",
+    "description"
+  ],
+  "image_sha256": "c021a624e82bd1598b9edf95260b7ccdc79738c468e1938e2778dc9698f992d7",
+  "size": [
+    1370,
+    797
+  ],
+  "components": [
+    {
+      "component_id": "U1",
+      "before_Name": "RT7272BGSP",
+      "after_Name": "RT7272BGSP",
+      "selected_category": "model",
+      "selected_evidence": {
+        "source": "observed_IC_header_model",
+        "text": "RT7272BGSP",
+        "bbox": [
+          274.0,
+          533.0,
+          406.5,
+          551.5
+        ],
+        "confidence": 0.99997,
+        "view": "tile_0_29_r90",
+        "source_text": "RT7272BGSP",
+        "approximate_split_geometry": false,
+        "observations": [
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              271.0,
+              530.0,
+              410.0,
+              556.0
+            ],
+            "confidence": 0.99998,
+            "view": "global",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              272.5,
+              532.0,
+              408.0,
+              554.0
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_0_r0",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              273.0,
+              531.5,
+              408.0,
+              553.5
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_0_r90",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              272.5,
+              533.0,
+              407.5,
+              553.0
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_29_r0",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              274.0,
+              533.0,
+              406.5,
+              551.5
+            ],
+            "confidence": 0.99997,
+            "view": "tile_0_29_r90",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          }
+        ],
+        "cost": 4.15129497867834
+      },
+      "candidates": [
+        {
+          "token_id": "token_0028",
+          "text_id": "text_0024",
+          "text": "8",
+          "bbox": [
+            506.0,
+            363.0,
+            522.0,
+            383.0
+          ],
+          "confidence": 0.99998,
+          "role": "numeric",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "8",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0035",
+          "text_id": "text_0031",
+          "text": "3",
+          "bbox": [
+            260.5,
+            420.5,
+            274.5,
+            439.0
+          ],
+          "confidence": 0.99998,
+          "role": "numeric",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "3",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0039",
+          "text_id": "text_0035",
+          "text": "5",
+          "bbox": [
+            507.5,
+            451.0,
+            521.5,
+            468.0
+          ],
+          "confidence": 0.99998,
+          "role": "numeric",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "5",
+          "approximate_split_geometry": false,
+          "category": "excluded_numeric_or_empty",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_numeric_or_empty"
+        },
+        {
+          "token_id": "token_0043",
+          "text_id": "text_0038",
+          "text": "R5",
+          "bbox": [
+            155.5,
+            474.0,
+            189.0,
+            498.0
+          ],
+          "confidence": 0.99998,
+          "role": "designator",
+          "source_view": "tile_0_0_r0",
+          "prefix": "R",
+          "source_text": "R5",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0049",
+          "text_id": "text_0043",
+          "text": "RT7272BGSP",
+          "bbox": [
+            271.0,
+            530.0,
+            410.0,
+            556.0
+          ],
+          "confidence": 0.99998,
+          "role": "model_candidate",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "RT7272BGSP",
+          "approximate_split_geometry": false,
+          "category": "model",
+          "eligible": true,
+          "selection_score": 10.23404000000001,
+          "reason": "top_or_bottom_caption"
+        },
+        {
+          "token_id": "token_0046",
+          "text_id": "text_0040",
+          "text": "EPAD",
+          "bbox": [
+            436.0,
+            488.0,
+            501.0,
+            516.0
+          ],
+          "confidence": 0.99997,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "EPAD",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 21.719059999999992,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0042",
+          "text_id": "text_0037",
+          "text": "GND",
+          "bbox": [
+            283.0,
+            463.0,
+            334.5,
+            486.0
+          ],
+          "confidence": 0.99996,
+          "role": "net_or_pin_label",
+          "source_view": "tile_0_29_r0",
+          "prefix": null,
+          "source_text": "GND",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0040",
+          "text_id": "text_0036",
+          "text": "FB",
+          "bbox": [
+            464.0,
+            460.0,
+            501.0,
+            488.0
+          ],
+          "confidence": 0.99994,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "FB",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0038",
+          "text_id": "text_0034",
+          "text": "COMP",
+          "bbox": [
+            431.0,
+            434.0,
+            499.0,
+            456.5
+          ],
+          "confidence": 0.99992,
+          "role": "other",
+          "source_view": "tile_0_29_r0",
+          "prefix": null,
+          "source_text": "COMP",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 15.34465999999999,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0032",
+          "text_id": "text_0028",
+          "text": "BOOT",
+          "bbox": [
+            282.5,
+            402.5,
+            348.0,
+            429.0
+          ],
+          "confidence": 0.9999,
+          "role": "other",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "BOOT",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0037",
+          "text_id": "text_0033",
+          "text": "EN",
+          "bbox": [
+            283.0,
+            433.5,
+            318.0,
+            457.0
+          ],
+          "confidence": 0.9999,
+          "role": "other",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "EN",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0047",
+          "text_id": "text_0041",
+          "text": "100K",
+          "bbox": [
+            155.0,
+            501.0,
+            214.0,
+            530.0
+          ],
+          "confidence": 0.9999,
+          "role": "resistance",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "100K",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0033",
+          "text_id": "text_0029",
+          "text": "RLIM",
+          "bbox": [
+            443.5,
+            404.5,
+            499.0,
+            427.5
+          ],
+          "confidence": 0.99986,
+          "role": "other",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "RLIM",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": true,
+          "selection_score": 18.165379999999995,
+          "reason": "central_body_caption"
+        },
+        {
+          "token_id": "token_0027",
+          "text_id": "text_0023",
+          "text": "100nF",
+          "bbox": [
+            157.5,
+            359.5,
+            221.0,
+            382.0
+          ],
+          "confidence": 0.99981,
+          "role": "capacitance",
+          "source_view": "tile_0_0_r0",
+          "prefix": null,
+          "source_text": "100nF",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0029",
+          "text_id": "text_0025",
+          "text": "VIN",
+          "bbox": [
+            455.0,
+            374.0,
+            501.0,
+            400.0
+          ],
+          "confidence": 0.99978,
+          "role": "other",
+          "source_view": "global",
+          "prefix": null,
+          "source_text": "VIN",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0024",
+          "text_id": "text_0020",
+          "text": "C4",
+          "bbox": [
+            171.0,
+            329.5,
+            203.5,
+            353.5
+          ],
+          "confidence": 0.99954,
+          "role": "designator",
+          "source_view": "tile_0_29_r0",
+          "prefix": "C",
+          "source_text": "C4",
+          "approximate_split_geometry": false,
+          "category": "excluded_other_reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0025",
+          "text_id": "text_0021",
+          "text": "U1",
+          "bbox": [
+            272.0,
+            330.5,
+            303.0,
+            352.5
+          ],
+          "confidence": 0.99946,
+          "role": "designator",
+          "source_view": "tile_0_29_r0",
+          "prefix": "U",
+          "source_text": "U1",
+          "approximate_split_geometry": false,
+          "category": "reference",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "glyph_already_claimed_by_field"
+        },
+        {
+          "token_id": "token_0031",
+          "text_id": "text_0027",
+          "text": "SW",
+          "bbox": [
+            282.5,
+            374.5,
+            324.0,
+            398.5
+          ],
+          "confidence": 0.99522,
+          "role": "other",
+          "source_view": "tile_0_29_r0",
+          "prefix": null,
+          "source_text": "SW",
+          "approximate_split_geometry": false,
+          "category": "excluded_pin_or_rail",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "excluded_pin_or_rail"
+        },
+        {
+          "token_id": "token_0036",
+          "text_id": "text_0032",
+          "text": "N",
+          "bbox": [
+            283.0,
+            431.5,
+            319.0,
+            457.5
+          ],
+          "confidence": 0.78086,
+          "role": "other",
+          "source_view": "tile_0_0_r90",
+          "prefix": null,
+          "source_text": "N",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "low_confidence"
+        },
+        {
+          "token_id": "token_0041",
+          "text_id": "text_0036",
+          "text": "EB",
+          "bbox": [
+            466.0,
+            461.0,
+            498.0,
+            485.5
+          ],
+          "confidence": 0.67889,
+          "role": "other",
+          "source_view": "tile_0_29_r90",
+          "prefix": null,
+          "source_text": "EB",
+          "approximate_split_geometry": false,
+          "category": "description",
+          "eligible": false,
+          "selection_score": null,
+          "reason": "low_confidence"
+        }
+      ],
+      "previous_Name_category": "model",
+      "previous_Name_evidence": {
+        "text": "RT7272BGSP",
+        "bbox": [
+          274.0,
+          533.0,
+          406.5,
+          551.5
+        ],
+        "confidence": 0.99997,
+        "view": "tile_0_29_r90",
+        "source_text": "RT7272BGSP",
+        "approximate_split_geometry": false,
+        "source": "observed_IC_header_model",
+        "observations": [
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              271.0,
+              530.0,
+              410.0,
+              556.0
+            ],
+            "confidence": 0.99998,
+            "view": "global",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              272.5,
+              532.0,
+              408.0,
+              554.0
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_0_r0",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              273.0,
+              531.5,
+              408.0,
+              553.5
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_0_r90",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              272.5,
+              533.0,
+              407.5,
+              553.0
+            ],
+            "confidence": 0.99998,
+            "view": "tile_0_29_r0",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          },
+          {
+            "text": "RT7272BGSP",
+            "bbox": [
+              274.0,
+              533.0,
+              406.5,
+              551.5
+            ],
+            "confidence": 0.99997,
+            "view": "tile_0_29_r90",
+            "source_text": "RT7272BGSP",
+            "approximate_split_geometry": false
+          }
+        ],
+        "cost": 4.15129497867834
+      },
+      "observed_reference": {
+        "text": "U1",
+        "bbox": [
+          272.0,
+          330.5,
+          303.0,
+          352.5
+        ],
+        "confidence": 0.99946,
+        "view": "tile_0_29_r0",
+        "source_text": "U1",
+        "approximate_split_geometry": false,
+        "prefix": "U",
+        "header_position": "top",
+        "local_observations": [
+          {
+            "text": "U1",
+            "bbox": [
+              272.0,
+              330.5,
+              303.0,
+              352.5
+            ],
+            "confidence": 0.99946,
+            "view": "tile_0_29_r0",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          },
+          {
+            "text": "U1",
+            "bbox": [
+              271.0,
+              329.5,
+              304.0,
+              353.0
+            ],
+            "confidence": 0.9992,
+            "view": "tile_0_0_r0",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          },
+          {
+            "text": "U1",
+            "bbox": [
+              270.0,
+              328.0,
+              306.0,
+              355.0
+            ],
+            "confidence": 0.99818,
+            "view": "global",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          }
+        ],
+        "source": "learned_tip_header_region_OCR",
+        "cost": 1.2950799999999996,
+        "global_assignment_margin": 63.70492,
+        "observations": [
+          {
+            "text": "U1",
+            "bbox": [
+              272.0,
+              330.5,
+              303.0,
+              352.5
+            ],
+            "confidence": 0.99946,
+            "view": "tile_0_29_r0",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          },
+          {
+            "text": "U1",
+            "bbox": [
+              271.0,
+              329.5,
+              304.0,
+              353.0
+            ],
+            "confidence": 0.9992,
+            "view": "tile_0_0_r0",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          },
+          {
+            "text": "U1",
+            "bbox": [
+              270.0,
+              328.0,
+              306.0,
+              355.0
+            ],
+            "confidence": 0.99818,
+            "view": "global",
+            "source_text": "U1",
+            "approximate_split_geometry": false,
+            "prefix": "U",
+            "header_position": "top"
+          }
+        ]
+      },
+      "changed": false
+    }
+  ],
+  "assignment_rejections": [],
+  "changed_Name_count": 0,
+  "full_OCR_log_required": true,
+  "OCR_row_count": 61,
+  "only_IC_Name_changed": true,
+  "reference_labels_or_model_dictionary_used": false
+}

@@ -1,0 +1,1246 @@
+{
+  "image_sha256": "327bb3df4187c4064630b2fea9baacc7f4320c3331b44ba92ef3a7298bebf650",
+  "models": {
+    "Det": {
+      "file": "PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f"
+    },
+    "Rec": {
+      "file": "PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+    },
+    "Cls": {
+      "file": "ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+    }
+  },
+  "rois": [
+    {
+      "candidate_id": "PIN_CAND_0084",
+      "owner": "U3",
+      "side": "left",
+      "part": 0,
+      "box": [
+        1310,
+        549,
+        1362,
+        573
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0084",
+      "owner": "U3",
+      "side": "left",
+      "part": 1,
+      "box": [
+        1310,
+        568,
+        1362,
+        592
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0093",
+      "owner": "U3",
+      "side": "left",
+      "part": 0,
+      "box": [
+        1310,
+        528,
+        1362,
+        552
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0093",
+      "owner": "U3",
+      "side": "left",
+      "part": 1,
+      "box": [
+        1310,
+        547,
+        1362,
+        571
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0098",
+      "owner": "USB1",
+      "side": "right",
+      "part": 0,
+      "box": [
+        252,
+        242,
+        304,
+        266
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0098",
+      "owner": "USB1",
+      "side": "right",
+      "part": 1,
+      "box": [
+        252,
+        261,
+        304,
+        285
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0107",
+      "owner": "USB2",
+      "side": "left",
+      "part": 0,
+      "box": [
+        1557,
+        104,
+        1609,
+        128
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0107",
+      "owner": "USB2",
+      "side": "left",
+      "part": 1,
+      "box": [
+        1557,
+        123,
+        1609,
+        147
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0135",
+      "owner": "USB2",
+      "side": "top",
+      "part": 0,
+      "box": [
+        1628,
+        46,
+        1673,
+        127
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0155",
+      "owner": "USB2",
+      "side": "bottom",
+      "part": 0,
+      "box": [
+        1623,
+        145,
+        1668,
+        226
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0158",
+      "owner": "USB1",
+      "side": "right",
+      "part": 0,
+      "box": [
+        252,
+        281,
+        304,
+        305
+      ]
+    },
+    {
+      "candidate_id": "PIN_CAND_0158",
+      "owner": "USB1",
+      "side": "right",
+      "part": 1,
+      "box": [
+        252,
+        300,
+        304,
+        324
+      ]
+    }
+  ],
+  "views": [
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          549,
+          1362,
+          573
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.003957600005378481
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          549,
+          1362,
+          573
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.034356399999524
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          549,
+          1362,
+          573
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.008602100002462976
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          549,
+          1362,
+          573
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.03181770000082906
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          568,
+          1362,
+          592
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.004514000000199303
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          568,
+          1362,
+          592
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.019061400002101436
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          568,
+          1362,
+          592
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.009195700004056562
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0084",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          568,
+          1362,
+          592
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.022197300000698306
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          528,
+          1362,
+          552
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.016889200000150595
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          528,
+          1362,
+          552
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.02794779999385355
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          528,
+          1362,
+          552
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.02434400000493042
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1310,
+          528,
+          1362,
+          552
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.03243820000352571
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          547,
+          1362,
+          571
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.004829600002267398
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          547,
+          1362,
+          571
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.030864599997585174
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          547,
+          1362,
+          571
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.007398499998089392
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0093",
+        "owner": "U3",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1310,
+          547,
+          1362,
+          571
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.031672699995397124
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          242,
+          304,
+          266
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.017937100004928652
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          242,
+          304,
+          266
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [
+        {
+          "text": "6",
+          "confidence": 0.99615,
+          "bbox": [
+            258.6666666666667,
+            251.66666666666666,
+            267.3333333333333,
+            262.0
+          ],
+          "view": "PIN_CAND_0098_p0_s3.0_r90",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.018648600002052262
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          242,
+          304,
+          266
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.021252099999401253
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          242,
+          304,
+          266
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.008657699996547308
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          261,
+          304,
+          285
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.024490900003002025
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          261,
+          304,
+          285
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.031546799997158814
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          261,
+          304,
+          285
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.03022680000140099
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0098",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          261,
+          304,
+          285
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.03673710000293795
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1557,
+          104,
+          1609,
+          128
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.056126000003132503
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1557,
+          104,
+          1609,
+          128
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.026286699998308904
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1557,
+          104,
+          1609,
+          128
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.047175600004266016
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 0,
+        "box": [
+          1557,
+          104,
+          1609,
+          128
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.03469440000480972
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1557,
+          123,
+          1609,
+          147
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.027181700002984144
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1557,
+          123,
+          1609,
+          147
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.027994700001727324
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1557,
+          123,
+          1609,
+          147
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.03706200000306126
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0107",
+        "owner": "USB2",
+        "side": "left",
+        "part": 1,
+        "box": [
+          1557,
+          123,
+          1609,
+          147
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.03408399999898393
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "side": "top",
+        "part": 0,
+        "box": [
+          1628,
+          46,
+          1673,
+          127
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [
+        {
+          "text": "6",
+          "confidence": 0.99615,
+          "bbox": [
+            1633.3333333333333,
+            70.33333333333333,
+            1650.0,
+            83.33333333333334
+          ],
+          "view": "PIN_CAND_0135_p0_s3.0_r0",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "6",
+          "confidence": 0.98479,
+          "bbox": [
+            1640.3333333333333,
+            92.66666666666666,
+            1656.6666666666667,
+            105.0
+          ],
+          "view": "PIN_CAND_0135_p0_s3.0_r0",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.03237779999471968
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "side": "top",
+        "part": 0,
+        "box": [
+          1628,
+          46,
+          1673,
+          127
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [
+        {
+          "text": "6",
+          "confidence": 0.99991,
+          "bbox": [
+            1634.0,
+            70.0,
+            1649.6666666666667,
+            82.33333333333334
+          ],
+          "view": "PIN_CAND_0135_p0_s3.0_r90",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "6",
+          "confidence": 0.99991,
+          "bbox": [
+            1641.0,
+            91.66666666666666,
+            1656.6666666666667,
+            104.33333333333333
+          ],
+          "view": "PIN_CAND_0135_p0_s3.0_r90",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.030515200000081677
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "side": "top",
+        "part": 0,
+        "box": [
+          1628,
+          46,
+          1673,
+          127
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [
+        {
+          "text": "9",
+          "confidence": 0.97476,
+          "bbox": [
+            1634.8,
+            71.8,
+            1649.0,
+            83.0
+          ],
+          "view": "PIN_CAND_0135_p0_s5.0_r0",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "9",
+          "confidence": 0.95727,
+          "bbox": [
+            1641.6,
+            94.0,
+            1656.0,
+            105.2
+          ],
+          "view": "PIN_CAND_0135_p0_s5.0_r0",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.050752199997077696
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0135",
+        "owner": "USB2",
+        "side": "top",
+        "part": 0,
+        "box": [
+          1628,
+          46,
+          1673,
+          127
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [
+        {
+          "text": "6",
+          "confidence": 0.99994,
+          "bbox": [
+            1634.8,
+            70.4,
+            1649.4,
+            81.2
+          ],
+          "view": "PIN_CAND_0135_p0_s5.0_r90",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "6",
+          "confidence": 0.99991,
+          "bbox": [
+            1641.8,
+            92.6,
+            1656.2,
+            103.6
+          ],
+          "view": "PIN_CAND_0135_p0_s5.0_r90",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.03990750000230037
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "side": "bottom",
+        "part": 0,
+        "box": [
+          1623,
+          145,
+          1668,
+          226
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [
+        {
+          "text": "5",
+          "confidence": 0.97107,
+          "bbox": [
+            1641.0,
+            176.33333333333334,
+            1656.0,
+            186.33333333333334
+          ],
+          "view": "PIN_CAND_0155_p0_s3.0_r0",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "5",
+          "confidence": 0.99997,
+          "bbox": [
+            1634.0,
+            197.66666666666666,
+            1649.6666666666667,
+            209.0
+          ],
+          "view": "PIN_CAND_0155_p0_s3.0_r0",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.04499090000172146
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "side": "bottom",
+        "part": 0,
+        "box": [
+          1623,
+          145,
+          1668,
+          226
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [
+        {
+          "text": "5",
+          "confidence": 0.99997,
+          "bbox": [
+            1634.3333333333333,
+            196.33333333333331,
+            1649.6666666666667,
+            208.33333333333331
+          ],
+          "view": "PIN_CAND_0155_p0_s3.0_r90",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "5",
+          "confidence": 0.99899,
+          "bbox": [
+            1641.3333333333333,
+            176.0,
+            1656.6666666666667,
+            186.33333333333334
+          ],
+          "view": "PIN_CAND_0155_p0_s3.0_r90",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.04613719999906607
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "side": "bottom",
+        "part": 0,
+        "box": [
+          1623,
+          145,
+          1668,
+          226
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [
+        {
+          "text": "5",
+          "confidence": 0.97189,
+          "bbox": [
+            1641.4,
+            177.0,
+            1655.2,
+            185.8
+          ],
+          "view": "PIN_CAND_0155_p0_s5.0_r0",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "5",
+          "confidence": 0.99995,
+          "bbox": [
+            1634.2,
+            197.4,
+            1648.8,
+            208.2
+          ],
+          "view": "PIN_CAND_0155_p0_s5.0_r0",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.06868010000471259
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0155",
+        "owner": "USB2",
+        "side": "bottom",
+        "part": 0,
+        "box": [
+          1623,
+          145,
+          1668,
+          226
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [
+        {
+          "text": "5",
+          "confidence": 0.99998,
+          "bbox": [
+            1634.4,
+            196.6,
+            1649.2,
+            207.4
+          ],
+          "view": "PIN_CAND_0155_p0_s5.0_r90",
+          "source": "targeted_strip"
+        },
+        {
+          "text": "5",
+          "confidence": 0.99977,
+          "bbox": [
+            1641.4,
+            175.4,
+            1655.2,
+            185.2
+          ],
+          "view": "PIN_CAND_0155_p0_s5.0_r90",
+          "source": "targeted_strip"
+        }
+      ],
+      "wall_seconds": 0.06158839999989141
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          281,
+          304,
+          305
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.003993700003775302
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          281,
+          304,
+          305
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.019555300001229625
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          281,
+          304,
+          305
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.008803600001556333
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 0,
+        "box": [
+          252,
+          281,
+          304,
+          305
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.006313500001851935
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          300,
+          304,
+          324
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.019350299997313414
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          300,
+          304,
+          324
+        ]
+      },
+      "scale": 3.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.02815250000276137
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          300,
+          304,
+          324
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 0,
+      "texts": [],
+      "wall_seconds": 0.023148000000219326
+    },
+    {
+      "roi": {
+        "candidate_id": "PIN_CAND_0158",
+        "owner": "USB1",
+        "side": "right",
+        "part": 1,
+        "box": [
+          252,
+          300,
+          304,
+          324
+        ]
+      },
+      "scale": 5.0,
+      "rotation": 90,
+      "texts": [],
+      "wall_seconds": 0.008541800001694355
+    }
+  ],
+  "new_ocr_calls": 47,
+  "reused_calls": 1,
+  "external_api_calls": 0,
+  "uses_reference_for_crop": false
+}
