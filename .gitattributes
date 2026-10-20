@@ -12,3 +12,4 @@
 *.jpg binary
 *.jpeg binary
 *.bmp binary
+pcb_parser_competition/live/weights/*.pt filter=lfs diff=lfs merge=lfs -text
