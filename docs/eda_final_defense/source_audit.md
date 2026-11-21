@@ -244,10 +244,11 @@ python agent.py -input <输入目录> -output <输出目录> --device cpu --work
 - 环境:Windows 11 + Git Bash;隔离 venv(Python 3.12.7)+ CPU torch 2.5.1 + requirements 全部钉死版本 + scipy(wire 模块依赖,requirements.txt 未列——镜像内已有,源码重装会缺)
 - 输入:从赛题 PDF 第 11 页提取的官方示例图(1190×845,即赛题附录用来演示 JSON 格式的那张 RP2350 原理图)与第 22 页图七(963×719)
 - **结果 A(管线可运行)**:两张图全部端到端跑完,无崩溃;12 项运行资产预检哈希校验通过;每图生成 20+ 份阶段审计 JSON(含前后 bbox、证据、哈希)
-- **结果 B(主例)**:1190×845 示例图 → **89 components / 165 pins / 63 nets**,耗时 1478 秒(纯 CPU);其中:
+- **结果 B(主例)**:1190×845 示例图 → **89 components / 165 pins / 63 nets**,L16 基础层 1478 秒、**最终 v102 合成态 2000.5 秒**(纯 CPU);其中:
   - **`U3(type=box, Name='RP2350A')` bbox=[539,281,689,731]——赛题 PDF 官方示例标注为 [540,280,690,730],误差 1~2 像素(官方 20px 容差)**;
   - IC 型号 OCR 正确:W25Q128JVSIQ、TLV62569DBVT、RP2350A;引脚名正确:XIN(pin_21)、USB_DM(pin_51,官方示例同为 pin_51/USB_DM)、USB_DP、GPIO27_ADC1、GPIO23;R7 value='10kΩ' 正确;
-  - 类型分布:gnd 29 / net_bidirection 17 / c 16 / v 11 / box 7 / r 7 / switch 2
+  - 类型分布:gnd 29 / net_bidirection 17 / c 16 / v 11 / box 7 / r 7 / switch 2;
+  - **v102 最终层 export_semantics(observed)实际生效 6 处**:SW1/SW2 的 Name 由错误回退值 'SW1'/'SW2' 修正为邻近文本堆栈识别的真实型号 **'PTS8153JK250SMTRLFS'**(旋转视角局部 OCR,置信 0.998/0.992;规则 designator_is_not_model + observed_switch_model);U8/U5 的 Name 由 'U8'/'U5' 置 null——可在答辩现场复现此前后对比。
 - **结果 C(降级路径)**:963×719 低清图 → 检测为空 → 输出合法空 JSON(success=True,无崩溃)——验证了"失败降级而不崩溃"的鲁棒性承诺;原因判断:PDF 缩略图分辨率远低于训练/评测页(评测原图引脚号约 8px 字形在此图上<2px)
 - 局限:CPU 推理耗时仅供量级参考;无法在本机评估精度(无 GT);L18 阶段(score_export_recovery/export_semantics)在该图上的增益需以 v102 合成运行输出为准(已在 output_v102 重跑验证)
 
@@ -339,6 +340,10 @@ python agent.py -input <输入目录> -output <输出目录> --device cpu --work
 
 ---
 
-## 附:冒烟测试执行记录(补记)
+## 附:冒烟测试执行记录(2026-11-21 实测完成)
 
-(待本机冒烟测试完成后填写)
+- 运行环境:Windows 11 / Git Bash;隔离 venv Python 3.12.7 + CPU torch 2.5.1 + requirements 钉死版本 + scipy
+- 输入 A(963×719,PDF 第 22 页图七):全链路成功,输出合法空 JSON(检测为空,降级不崩溃),L16 140.7s / v102 173.5s
+- 输入 B(1190×845,PDF 第 11 页官方示例图):L16 1478.2s → 89/165/63;v102 最终态 2000.5s → 89/165/63,export_semantics 6 处修正(SW1/SW2→PTS8153JK250SMTRLFS,U8/U5 Name→null)
+- 每图生成 20+ 份阶段审计 JSON;产物位于 `_audit_workspace/smoke/output_v102/`
+- 结论:**从 PNG 输入到最终 JSON 的完整链路在本机(无 Docker、CPU-only)可直接复现**,权重/资产全部随包自足;GPU(A800)下耗时预期大幅缩短(官方 2h 限制按 3 并发设计)
