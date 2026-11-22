@@ -112,3 +112,9 @@
 
 **一句话**:与官方 74 分口径不同(13 页公开集、开发评估),放主页会误导评委;已移至备份页 D 并标注"development only"。
 依据:defense_supplement.md §一.2;PPT P9 底部指引行。
+
+### Q18 页 13 展示用的是哪一套数据?为什么不用早期快照?
+
+**一句话**:用的是提交镜像内 `docs/network_junction_reconciliation.md` 记录的**同一次结点归并实验**——修复前 32/28/17(F1 58.72%、连通 67.14%、总分 82.871)→ 修复后 46/13/3(85.19%、87.53%、92.656)。
+展开:开发仓库的 `page13_status_20261020/status.json`(wire 13/22/36、F1 30.95%、总分 65.58)是**更早管线状态**的快照(pin_row_library 部署版),不是本次实验的"修复前";两套数据不得混用,展示图已按同一次实验统一。
+依据:提交镜像 docs/network_junction_reconciliation.md 第 18-19 行;status.json 原件。

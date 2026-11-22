@@ -25,3 +25,12 @@
 - 真实实验图与图组说明:`docs/eda_final_defense/assets/README.md`
 - 统一数据表与口径:`docs/eda_final_defense/defense_supplement.md` §三
 - 官方模板版逐页预览:`docs/eda_final_defense/slides/slide_previews/official-01..18.png`
+
+## 四、素材索引(onsite-final 新增)
+
+- `deck_workspace/p5_input.png / p5_wire.png / p5_pin.png`:fig2c 三联拆分(输入/导线概率/引脚热图)
+- `deck_workspace/p6_zoom_skeleton.png / p6_zoom_networks.png`:页 13 骨架与网络真实局部放大(裁自 fig3c/fig3d)
+- `deck_workspace/p7_gap_trim.png`:页 13 结点归并真实裁切(开发仓库 gap_crop_case13.png)
+- `deck_workspace/p8_u3_bbox_compare.png`:U3 区域真实对照(官方蓝框/我方橙框,差 1~2px)
+- `deck_workspace/d_recovery_flow_en.png`:重绘版(Checkpointed failure recovery)
+- 生成脚本:`scripts/gen_onsite_assets.py`
