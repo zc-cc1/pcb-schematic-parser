@@ -101,16 +101,52 @@
   "docker_build_verified": false,
   "files": {
     "adapter.py": {
-      "bytes": 19498,
-      "sha256": "2ff056b7e419513672d3e47da2adbc65c5c4fa570de8616ee2f048fe294264c2"
+      "bytes": 19489,
+      "sha256": "35965b99187d6d006b055a82383396862d02c2fc5f4656342a1c169196f11f14"
     },
     "agent.py": {
-      "bytes": 84430,
-      "sha256": "7531bd80b4cd38dada808f96f7e38f3b6a2c080d41fc3a9390cce6a1d2346d8e"
+      "bytes": 85422,
+      "sha256": "bdf1dc4df7faaa86806cb2a154262109a286274ebe8ae258ec436e8848a1997f"
     },
     "agent_system": {
       "bytes": 1827,
       "sha256": "f553f6775d34c32a9cd100ec9db451950f7bffd23717644b0b428f22dda967fc"
+    },
+    "component_export.py": {
+      "bytes": 14671,
+      "sha256": "546d63205a5bc09f52bb8269490910e1ed1ab9ff8fb8a158161b0f0660020dc2"
+    },
+    "Dockerfile": {
+      "bytes": 456,
+      "sha256": "b1faffe88337d340b1ae22bf13e7015147d3fe4b3bff131323c90a410b599dac"
+    },
+    "EXPORT_SEMANTICS.md": {
+      "bytes": 1286,
+      "sha256": "553ee5d1dd1f243bb4bc21015e55866a428d163894f51ac2dcdb066fc9548004"
+    },
+    "OPTIMIZATION.md": {
+      "bytes": 1419,
+      "sha256": "40574cab8acb9702693eab264b998d08c825e55ae1523cdffcd0ec4470290b62"
+    },
+    "overlay_check.py": {
+      "bytes": 2255,
+      "sha256": "a8150be59c9c2ee306aa70c191b6b9214422fdd1c9a17d103c4c0da3805d2bd2"
+    },
+    "README.md": {
+      "bytes": 3677,
+      "sha256": "055791eb26005341c9b3e523caa990ddc8f262e589b06fcc71b22a0e1bbdce5b"
+    },
+    "README_en.md": {
+      "bytes": 2960,
+      "sha256": "ab33c1d57dbbc469207e58d78ea5fc6ff867adecee06cacd90df04a6a56a1870"
+    },
+    "requirements.txt": {
+      "bytes": 158,
+      "sha256": "8b9db9b7f07d4bacb556840e33fae0ca7b7e46db9798452aab940df2d63fdb81"
+    },
+    "run.sh": {
+      "bytes": 87,
+      "sha256": "ff268d1a3947e9c76e8f4b8f92d1dc95e61879da69e7af0a1ce2ab8a936f5569"
     },
     "artifacts/ultralytics/Ultralytics/settings.json": {
       "bytes": 535,
@@ -136,10 +172,6 @@
       "bytes": 21234383,
       "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
     },
-    "component_export.py": {
-      "bytes": 14926,
-      "sha256": "50ff7a02c718916514e71cdddd463f39c142f7630cc93d8264bcbd7873421102"
-    },
     "configs/baseline.json": {
       "bytes": 762,
       "sha256": "a2c310b90548674c77a0d2de9bb42bf1da57162d513e04196fafa24d9f9410fa"
@@ -153,12 +185,12 @@
       "sha256": "f527e4c408a1dfec2305ce92ab5dd10364c65a72776ffb5d4f59cbadf2df22ba"
     },
     "configs/box_ic_library_v1.json": {
-      "bytes": 1363,
-      "sha256": "3eff3a72a2a83d46c630eb0f1d5e57005b35513f3b329deac489703cd05241a8"
+      "bytes": 1318,
+      "sha256": "968dbce600820829b36c82be84519a4cd920091c41e7edf11ccea0019b37458b"
     },
     "configs/capacitor_tip_geometry_v1.json": {
-      "bytes": 782,
-      "sha256": "3ed4b69155a752b79c993d21e7317ff4dc6f3457dc0eca643726a5b7c8fb927e"
+      "bytes": 783,
+      "sha256": "cb4a51c3fe5dd139d69e1dd01a317cb8117da6c1a246a12bcda76f3851e9a408"
     },
     "configs/component_kind_repair_v1.json": {
       "bytes": 139,
@@ -173,8 +205,8 @@
       "sha256": "74c54e5dcf370f45d2b57e9f217aea93795134d16fcb61acc421b57050f0efd1"
     },
     "configs/engineering_network_export_v1.json": {
-      "bytes": 849,
-      "sha256": "e20c6d94f407969d7f2d9fa45057b2ecb91eac652f813a20855c3463946b1889"
+      "bytes": 850,
+      "sha256": "182211fa53517b15fb053a21c755454b3292417e488d3e4a74ffcb390db13061"
     },
     "configs/nearby_tip_fields_v1.json": {
       "bytes": 617,
@@ -185,8 +217,8 @@
       "sha256": "892872354fa4ee01c4b22ed003a669918a29795ed93f40e27d5b3de1ad98e624"
     },
     "configs/observed_net_fields_v1.json": {
-      "bytes": 797,
-      "sha256": "e53bee1d53e775f62335cba2f02e16cdb6bd44e0bb367a768e80866dda222bf2"
+      "bytes": 798,
+      "sha256": "59cbf2d7e4a8f00fd7de475badca5c91c5cccc28ce78a2c778d28bd53095b05f"
     },
     "configs/pin_evidence_repair_v1.json": {
       "bytes": 188,
@@ -221,16 +253,16 @@
       "sha256": "b94e380537e8cefc4d94d17f10e0eb1c442b2b9039302d5ffec1de2b14b2b88c"
     },
     "configs/pin_output_rules_v1.json": {
-      "bytes": 884,
-      "sha256": "fe56f32d141f11f8a029fb919c3737098ed3523fe646ef9becf9cce4993d8810"
+      "bytes": 885,
+      "sha256": "7aff40b2f94deef963c4990b9f14b45c6434f4076dde1476cfd6308bfcba2948"
     },
     "configs/pin_ownership_detector_v3.json": {
       "bytes": 2487,
       "sha256": "be6591211d98196ca6f25466415d50cb8312e38b1ff96ed642c3265d8d16e404"
     },
     "configs/pin_ownership_v1.json": {
-      "bytes": 767,
-      "sha256": "d8229e50c87bc5df50fef5ba6cee77bd9f7b9daa6696de639c272ab5e1bc99f2"
+      "bytes": 750,
+      "sha256": "34145136f7e5ca451d3f4448b2a2c08dff1c74d99de49a3acaf5c47242259f35"
     },
     "configs/pin_pairing_v1.json": {
       "bytes": 113,
@@ -277,20 +309,20 @@
       "sha256": "a773be045920af40f16f31902003951685d0d71063e7570847a6bdc3710bfd56"
     },
     "configs/unet_inference_v2.json": {
-      "bytes": 935,
-      "sha256": "f498ce78fc1f4f7736ac0fbf7609f4f25008066ff7396c9513d33df64150770e"
+      "bytes": 890,
+      "sha256": "7592e6a35b6f46d52296832d6b0f4424b74cf0a04cb9cee4291e4a84e0bcab8c"
     },
     "configs/whole_network_export_v1.json": {
-      "bytes": 756,
-      "sha256": "9b70193b5f861726355852a606a7e5e6b0949e17c053e99117a6e89176366e96"
+      "bytes": 757,
+      "sha256": "bf1afad01263982a31e6adcae753e62851a69da3bfb6c57b83094bf55896d3dd"
     },
     "configs/wire_graph_v1.json": {
-      "bytes": 1003,
-      "sha256": "98b125903c10ad41e948fd8b15d9582d14cfa43081a42a91b45ce43f338f8146"
+      "bytes": 971,
+      "sha256": "9e3fade04d914ed6b32e25bf604a8b35b23e558b52026ecb78272c475b6346b2"
     },
     "configs/wire_graph_v2.json": {
-      "bytes": 939,
-      "sha256": "2336b0d7bbf352d327e4114e6dd53ee1bb34d71233c11ffe6c27f1749aa2a7ce"
+      "bytes": 915,
+      "sha256": "05964066055804ea0068474d097653b7de7b317f5a63a4bb34ed4b69e9e2c33c"
     },
     "data/component_library/BoxICLibrary.json": {
       "bytes": 3139669,
@@ -365,24 +397,24 @@
       "sha256": "bcbceb548e79acd8d5969627cc2cfa48ddf36e6b4e792b357c5e58bb7ed32f84"
     },
     "docs/pin_geometry_recovery.md": {
-      "bytes": 2568,
-      "sha256": "a7e891dfb5bd2f1d78ce9cbf8906b570202e1f2fd8425c2b87cdb4834967591c"
+      "bytes": 2561,
+      "sha256": "d1050d3c6b66415e33f2c1a55e793c79bc5b5b12bcaacb0d013bd3c23b7cdf7a"
     },
     "docs/pin_nc_recovery.md": {
       "bytes": 2205,
       "sha256": "936d8deeb0cfc46cec40c1989d6639570575bd108fb804e18887501a298f3087"
     },
     "docs/pin_number_cycle.md": {
-      "bytes": 3282,
-      "sha256": "14cef22e5188ee13d31fd2c2d0db0e39ec73f7e523a8c0663330f6f38e0d8159"
+      "bytes": 3275,
+      "sha256": "efb98b951da86ad6ced2855aa9f53d0f032a5c5a5dce2d5c93471c13bcec1f98"
     },
     "docs/pin_numeric_connector.md": {
       "bytes": 2662,
       "sha256": "1e414de9a7f28fc85f0dba8692e9d61d41582d11758cadc3fd731fbf843f2870"
     },
     "docs/pin_pairing.md": {
-      "bytes": 2985,
-      "sha256": "cf97baea92de64a09aeafba22a73ffa7c3879dada59f4d1ae8e0b4840dc74d9b"
+      "bytes": 2978,
+      "sha256": "792e6378c7a5c2da5c890583fcac31d6b9f691804743b6aef04b18fd93a5ea1f"
     },
     "docs/pin_position_consensus.md": {
       "bytes": 1442,
@@ -417,120 +449,92 @@
       "sha256": "75ec0faae43855169b80047cf1cb6f51a9fa851c7a68840a0154a20a65ec19c2"
     },
     "docs/wire_export_update_20261020.md": {
-      "bytes": 3044,
-      "sha256": "e9398374980cf5c31f3419fad59c9c3a84267b6daa5d920acf761d8a8072cc26"
+      "bytes": 3008,
+      "sha256": "6496a458d6cf60d058efc6479a478ed8f1a541430068480c7686a235fd7a1936"
     },
     "docs/wire_false_positive_cleanup.md": {
-      "bytes": 1356,
-      "sha256": "b3591779060acbf4d78398e66c7601b20474374c65edcfd913865a31205a115d"
-    },
-    "OPTIMIZATION.md": {
-      "bytes": 1158,
-      "sha256": "ef645aad7dca7efed9d019fe1a8ace0ea3e88dc1e303d9cee8d5cab2ae4222aa"
-    },
-    "overlay_check.py": {
-      "bytes": 2255,
-      "sha256": "a8150be59c9c2ee306aa70c191b6b9214422fdd1c9a17d103c4c0da3805d2bd2"
-    },
-    "README.md": {
-      "bytes": 7250,
-      "sha256": "0524c8b57fa3d0abe96fd0a75367c18ba2782ba8c143e047b9b570e5b1252074"
-    },
-    "README_en.md": {
-      "bytes": 2406,
-      "sha256": "8e4ecc22e04c8fb9d7c02c2e1cf67472d417b75004e1180583e584c541593d07"
-    },
-    "requirements.txt": {
-      "bytes": 158,
-      "sha256": "8b9db9b7f07d4bacb556840e33fae0ca7b7e46db9798452aab940df2d63fdb81"
-    },
-    "run.sh": {
-      "bytes": 87,
-      "sha256": "ff268d1a3947e9c76e8f4b8f92d1dc95e61879da69e7af0a1ce2ab8a936f5569"
+      "bytes": 1353,
+      "sha256": "700bdc63b7efa4733b0ce958003e5054420ddee5fe116cdcadc8672ccb1d93fa"
     },
     "scripts/run_baseline.py": {
-      "bytes": 17428,
-      "sha256": "1b596744fe9d8ec8f5cfa0642a07c7ddcb7e3f5a277226bad14374ea80824a02"
+      "bytes": 17429,
+      "sha256": "d9a2312aea9eff95abd58fb8e18bfb3144ebabe448ae01cdaa0a98c5323a8678"
     },
     "scripts/run_capacitor_tip_geometry.py": {
-      "bytes": 7055,
-      "sha256": "b6d324d306efdf32a58ea479587ae923f4a96a33b02f536478d1407d14d1520d"
+      "bytes": 7057,
+      "sha256": "93b0bb07f2a2aabd669c9405a3c4237ab6036095c60a5b565a98efa8926c887c"
     },
     "scripts/run_component_pin_library.py": {
-      "bytes": 9647,
-      "sha256": "928ecd05429e8120792745c70afb9a9f6d2c6ddc04115a6e80e74267728a6893"
+      "bytes": 9491,
+      "sha256": "8c6b504979ca828d900f4ef53c8e863ca2b3ecb1bcefc4bfb43b6012e5fb96af"
     },
     "scripts/run_engineering_networks.py": {
-      "bytes": 19732,
-      "sha256": "0a5fb4db9484b1ab255ec90ba74b8d55475f5af9c9b5b1a0d9348637e15d008f"
+      "bytes": 19398,
+      "sha256": "0e6418433b17082efc9f6b2a8522903fca9146588040f66cb78d071a5cb1aa15"
     },
     "scripts/run_nearby_tip_fields.py": {
-      "bytes": 5399,
-      "sha256": "708751c29608e1e0edc98aa0d4a9976f924a1fa12d72e17d02ffbbec435eb634"
+      "bytes": 5401,
+      "sha256": "746a8e0be3109987f8171511270a6d37339c922f58c731e52678d59ff53942d8"
     },
     "scripts/run_network_completion.py": {
-      "bytes": 6843,
-      "sha256": "83ef95796fe9a79601b8d30ce06b32174a0bbeff8d32529a69993ad7b4345c43"
+      "bytes": 6845,
+      "sha256": "acdf7695cbad028ec8b3fba2c9344168b82aac97fbea94c5f119eb57ff3b8bb6"
     },
     "scripts/run_network_labels.py": {
-      "bytes": 8760,
-      "sha256": "bb99939de8436258282814706771b620864cd3cfbedf5fb39fa248956722798e"
+      "bytes": 8765,
+      "sha256": "33599380386d728c072b8cea0a986df6204e5f0f66eea98d85a0a7306c25ad7f"
     },
     "scripts/run_observed_net_fields.py": {
-      "bytes": 9398,
-      "sha256": "5d3da925ee153f9be03ec34572d3c0cb91c7435a534ae7ba436c367af434237a"
+      "bytes": 9277,
+      "sha256": "284300d252da209ce0f87576c3188468bdf7c5ffacdc31a1280949bc8a0cc79b"
     },
     "scripts/run_pin_output_rules.py": {
-      "bytes": 11026,
-      "sha256": "760e9ae1720b963f1c130363c9ebb2737398b8b053adc117c6904b96ca855c70"
+      "bytes": 10874,
+      "sha256": "c7a6f43647a1900e946f75ea506c72b3184d889ac0dc520f9b8f144f6e761e30"
     },
     "scripts/run_pin_ownership.py": {
       "bytes": 7719,
       "sha256": "41a08c93c3958dfccbe0564596ba1b44114b4a19228e005efd876eaaebd43d9b"
     },
     "scripts/run_pin_semantics.py": {
-      "bytes": 2564,
-      "sha256": "914d04df3cb07f27236104b9b613450d896541dc0cab4b4d617ba9527688175f"
+      "bytes": 2566,
+      "sha256": "31ffcdf0cae79b2098e04e0cb5f42ca71767c2b492986e666bff2277809efc43"
     },
     "scripts/run_pin_text.py": {
-      "bytes": 8703,
-      "sha256": "cdc143f746d5d59bdd171e3fc2f7b4621b384832646ae46a7be49bde1a98faf3"
+      "bytes": 8705,
+      "sha256": "3e13a07329253cbb86b70d82e10953220ceeeffbf7454f1ef9a9ed9ff41a282c"
     },
     "scripts/run_pin_text_v2.py": {
-      "bytes": 5194,
-      "sha256": "84c326ac1a155409919378b0e80fc87a1cd4c4a0c13ad341ec988a484603ccaf"
+      "bytes": 5195,
+      "sha256": "6ee9cfe5fe509774ecbf8b0a9f60bbc298fd145c8b4e9436095ed00614ae6b72"
     },
     "scripts/run_power_caption_ocr.py": {
-      "bytes": 5550,
-      "sha256": "782a0bf3a778f4b22681fcd7121a5d8a44a43886b41775129da79e465cddbf07"
+      "bytes": 5552,
+      "sha256": "84e7811c4d5ba9baa9d65e8ef2fa9668e9612175ffd72f619f2e02e24be3c437"
     },
     "scripts/run_power_networks.py": {
-      "bytes": 7411,
-      "sha256": "b3487820a89681d94d15ff2f60df54022d5bee952ed1bdf3c36a46978da35128"
+      "bytes": 7409,
+      "sha256": "67b720ee6d82785e2b2c55c1fd67c9fb115986289e6def9d70ebbfe93a876999"
     },
     "scripts/run_submission_fields.py": {
-      "bytes": 8917,
-      "sha256": "1955378faf4ea95065bf203fd89947e51d34662357925c6519ae899d242f4b35"
+      "bytes": 8913,
+      "sha256": "304f7329f1faeb22a210fcf250298d3d7796b69dc56e8af8a081c40e866f5db0"
     },
     "scripts/run_targeted_pin_ocr.py": {
-      "bytes": 5482,
-      "sha256": "87f0c745b71064069c2927e93aef180306da59423ede2817ce422ec92388f177"
+      "bytes": 5484,
+      "sha256": "230120d1d8e4759a527db57604fe0e91254c4fe38b982838c78052b7cbaf57ca"
     },
     "scripts/run_whole_networks.py": {
-      "bytes": 7462,
-      "sha256": "181a63d93b3f24211f74be29247fa3a143d587805403f2fd2e3805872bbc52b5"
+      "bytes": 7459,
+      "sha256": "3ca089a3db8c746b2346433dd69672ce8d0f8d0f979dd292a3fedb0322bb8c45"
     },
     "scripts/run_wire_graph.py": {
-      "bytes": 9158,
-      "sha256": "169560ac1b98e5d2c5d5998a3b20f1d7e270dd313382ed4aa56c473e89f38de9"
-    },
-    "src/pcb_parser/__init__.py": {
-      "bytes": 82,
-      "sha256": "988daad95e6b652c592d4aa849c7aa3101ddc28f145921246e504bf3a44b4721"
+      "bytes": 9025,
+      "sha256": "1ffc7b2bdbfb7ef461b6a13c0d62e2fa739f6f991232da3c1d5bc94a27b92de9"
     },
     "src/pcb_parser/box_ic_library.py": {
-      "bytes": 25890,
-      "sha256": "f48a81e6f21226564fd0866bcfbea1256f6af969794724ef2e3dff5d11c5c380"
+      "bytes": 25371,
+      "sha256": "76959918f8153256f3f3636850a070f2510aa1277b69bc42934a4e5ed8c1c018"
     },
     "src/pcb_parser/capacitor_plate_axis.py": {
       "bytes": 1216,
@@ -585,20 +589,24 @@
       "sha256": "3b0d9870c1fabbb9a4f545297f81bcff827c5cbd7c1a13ad9be092af634db419"
     },
     "src/pcb_parser/dataset_converter.py": {
-      "bytes": 30171,
-      "sha256": "494bd9c829fe6770edc5146d1c0148b31b1b6c55b22bb5649e1619496e00cd4f"
+      "bytes": 30158,
+      "sha256": "60e311759d0811ee14624bfa0ded809eb4968eaa91815cb3899f09971c734219"
     },
     "src/pcb_parser/engineering_network_export.py": {
-      "bytes": 10309,
-      "sha256": "0a7cadab198d0159e7f44cc7b00583af20fc1fee11c8eed4ad1c05b46336b877"
+      "bytes": 10313,
+      "sha256": "cef9d8a712dc03be59bde0342f8525b9294c70c9ac9b6047ae0e8dc6c88a161c"
     },
     "src/pcb_parser/export_geometry.py": {
-      "bytes": 8023,
-      "sha256": "b31643029e90258afab8de20a9a63db9014f68f766f82920324f90990c9a756c"
+      "bytes": 8024,
+      "sha256": "87312edd67fe243b93bdefc50b0937d7ff97caf6f68e6841c49f106003e85886"
     },
     "src/pcb_parser/export_resilience.py": {
       "bytes": 4915,
       "sha256": "f443008bc934ede1de171fec9b038a4ddec56a052efd60ed6e45cfdb36e5e7b7"
+    },
+    "src/pcb_parser/export_semantics.py": {
+      "bytes": 8586,
+      "sha256": "42b4b9e33abcd22aa63e53b6033794257a5dcbc538ad12a2ef0b65526f948e67"
     },
     "src/pcb_parser/fusion.py": {
       "bytes": 3574,
@@ -649,16 +657,16 @@
       "sha256": "273d8cd641c62093727a8591088cf09947729c05b5147e4fab5e74035883d23d"
     },
     "src/pcb_parser/network_labels.py": {
-      "bytes": 22432,
-      "sha256": "cf55d49b1be39a074278f2c468a665dd82b3908af575ed87cdf28a54600102af"
+      "bytes": 22434,
+      "sha256": "fd15fd22d74734e61a28191e7891e00a1c874f05c1123acd6bee93b5a4fa62a5"
     },
     "src/pcb_parser/numeric_power_caption.py": {
       "bytes": 5725,
       "sha256": "0b6b3ae06204287461da5983a9ac6014872a9e404cf42d5b6567977be21b3b6b"
     },
     "src/pcb_parser/observed_net_fields.py": {
-      "bytes": 13621,
-      "sha256": "e050799bfc7f91c8bca077382f6924648570d15322022c50fda88b6521f7718a"
+      "bytes": 13625,
+      "sha256": "08637e93edc4f17ee5112e5ac0f5917ffc9af69f73743a489fd7176d40ca61b3"
     },
     "src/pcb_parser/observed_terminal_memberships.py": {
       "bytes": 14272,
@@ -684,6 +692,10 @@
       "bytes": 9821,
       "sha256": "730d66dd76055d2f40a03ec87846175ea99a7fa1e293cfb1956957cf5a9202ff"
     },
+    "src/pcb_parser/pin_numbering.py": {
+      "bytes": 7468,
+      "sha256": "9ef599b971e2d5f56058802bb89cc9af915edbacef5730bfd73cac3abbcc8bb5"
+    },
     "src/pcb_parser/pin_number_cycle.py": {
       "bytes": 10703,
       "sha256": "bb854ad9ebc070e62870ee7c49c524a4bd4a12b45facf630fd9c4c87697e4692"
@@ -697,24 +709,20 @@
       "sha256": "256cdd5e7c761f88b82c3486e57687f54859044d151fa5c5e8ef9da8a3174246"
     },
     "src/pcb_parser/pin_number_validation.py": {
-      "bytes": 4880,
-      "sha256": "67cf8a47cfa6c71112d4e5bd9f4c265cab7becdeb5a493721485c0a3ce874f10"
-    },
-    "src/pcb_parser/pin_numbering.py": {
-      "bytes": 7619,
-      "sha256": "5f63812dc3c3c863d0bf2f4b3b67e1fd76d2caa9aacd6bf18ac4be4bea8336e0"
+      "bytes": 4884,
+      "sha256": "a6f2cd70af644e8369c3ed5ac89236544c5d05ead6d6fe4dc7b1a5aca6fb1a3f"
     },
     "src/pcb_parser/pin_numeric_connector.py": {
       "bytes": 14390,
       "sha256": "e7e2d2af78774d40f645f43fc91e3c8f67a03a25338c650663a5138af47f1500"
     },
     "src/pcb_parser/pin_output_rules.py": {
-      "bytes": 15933,
-      "sha256": "7785bafbe4756382014193f8617d9b74cfd06958c89c353d486028ba18e5d082"
+      "bytes": 15916,
+      "sha256": "ccb013e2db73bbcc94819862c3efb7d5a710f6e68eea6c28c94d9ba2fe1fa94a"
     },
     "src/pcb_parser/pin_ownership.py": {
-      "bytes": 6435,
-      "sha256": "749a03b4464b0db83a9e764510ea473e56f0207d8680c82d4431de0fe14fc898"
+      "bytes": 6436,
+      "sha256": "0db4c0abf3291f48f44cc1f2cd8b148d47a1f76c44319e4cc998f3ee02402483"
     },
     "src/pcb_parser/pin_ownership_visual.py": {
       "bytes": 1811,
@@ -757,8 +765,8 @@
       "sha256": "731158a3daf72f8fc98d0c24680c9a54e996b1fbae354dc8774131fc0fd4f4a9"
     },
     "src/pcb_parser/power_networks.py": {
-      "bytes": 11471,
-      "sha256": "70de6889a95a65740455290bb8934259d1e4fb36afd257677b7337551921daf9"
+      "bytes": 11473,
+      "sha256": "d61c60c7a7a22d607ea273f3d1f07d3eb6b49be54d926793432d46a18e04cd93"
     },
     "src/pcb_parser/power_wire_export.py": {
       "bytes": 9584,
@@ -797,12 +805,12 @@
       "sha256": "00b9618a107618436b6462ad8adcc88a1a7c81cefd7384a4c5ace5d3c7c232a8"
     },
     "src/pcb_parser/submission_fields.py": {
-      "bytes": 19614,
-      "sha256": "74fc21d69fdcad0893055d607129f034ac1c8012e37ffe933e3346306271a92e"
+      "bytes": 19615,
+      "sha256": "483b8d586568b20b97e75584a8f9064391219466e219896958627e9d57fe0d6a"
     },
     "src/pcb_parser/targeted_pin_ocr.py": {
-      "bytes": 13117,
-      "sha256": "3e2dfb36b0137173f9d68140fb9d9d1ca38ca8b5ffe61dfcf33176bfa6a69cac"
+      "bytes": 13121,
+      "sha256": "55488c72afe672f92db75caf036867fb0f02806dfe7b04415e6c591462381d6c"
     },
     "src/pcb_parser/terminal_identity_recovery.py": {
       "bytes": 9338,
@@ -868,9 +876,41 @@
       "bytes": 1574,
       "sha256": "64e7902067b00c764647abaa1d07b6a8b08626174d96c2988034d3c6ed692ce8"
     },
-    "src/pcb_parser/vendor/pytorch_unet/__init__.py": {
-      "bytes": 75,
-      "sha256": "4fff92f8f70a63412561f69f32fc3c1ead5bcaadaebbb85a704a5a87fb5c915d"
+    "src/pcb_parser/whole_network_export.py": {
+      "bytes": 16276,
+      "sha256": "d54cb089aa287ffb701f0229cde748592f804623e351df750e67d77ce01b0be3"
+    },
+    "src/pcb_parser/wire_export_geometry.py": {
+      "bytes": 22611,
+      "sha256": "9b0caed2a6e51caf2b05e8aa0ec7bd7e36cadb1cad131e969d06993032f386b1"
+    },
+    "src/pcb_parser/wire_false_positive_cleanup.py": {
+      "bytes": 16732,
+      "sha256": "75cbc267fe9282be713bf720b0f33867414d2e698284651c8ae69c2e45b6a454"
+    },
+    "src/pcb_parser/wire_graph.py": {
+      "bytes": 27891,
+      "sha256": "1123f6de060f6f63bbb278d9057ea6fa60d8a194485fb374f63ee00ae68d1fda"
+    },
+    "src/pcb_parser/wire_graph_artifacts.py": {
+      "bytes": 10826,
+      "sha256": "7b9a0c90a7e33b0da689a19d805028042f5f54e73c279b622b027852bc4eb08b"
+    },
+    "src/pcb_parser/wire_segments.py": {
+      "bytes": 12602,
+      "sha256": "286ac9f80776ef225a46f04bfc0d2deb83599573e316d24a7e3523441cdee71d"
+    },
+    "src/pcb_parser/wire_segment_nodes.py": {
+      "bytes": 10499,
+      "sha256": "ca7ed192dc2edbfa4f5f2dc677ffafa59950f2fc2508e45433f4d11ae9de506b"
+    },
+    "src/pcb_parser/wire_span_consolidation.py": {
+      "bytes": 7273,
+      "sha256": "4f4f85560665b10b289cfef0bac2afd2e16ce1029ef45058820c34eeb5d081bc"
+    },
+    "src/pcb_parser/__init__.py": {
+      "bytes": 82,
+      "sha256": "988daad95e6b652c592d4aa849c7aa3101ddc28f145921246e504bf3a44b4721"
     },
     "src/pcb_parser/vendor/pytorch_unet/LICENSE": {
       "bytes": 35147,
@@ -888,45 +928,17 @@
       "bytes": 2602,
       "sha256": "4b0441f549caf588642f7e5ef3ba2dfb1032c1ded0ba350e46f96f43caa93ea1"
     },
-    "src/pcb_parser/whole_network_export.py": {
-      "bytes": 16517,
-      "sha256": "5b0e5fe008152dd75b569cbf6f37fd5a9ff69fce71cb4f69f807e583e755ea26"
-    },
-    "src/pcb_parser/wire_export_geometry.py": {
-      "bytes": 22611,
-      "sha256": "9b0caed2a6e51caf2b05e8aa0ec7bd7e36cadb1cad131e969d06993032f386b1"
-    },
-    "src/pcb_parser/wire_false_positive_cleanup.py": {
-      "bytes": 16732,
-      "sha256": "75cbc267fe9282be713bf720b0f33867414d2e698284651c8ae69c2e45b6a454"
-    },
-    "src/pcb_parser/wire_graph.py": {
-      "bytes": 28380,
-      "sha256": "279a78c8a54d4c0675f0453ff69db9ddbc05764b4a6094f7ad67f2027b73829c"
-    },
-    "src/pcb_parser/wire_graph_artifacts.py": {
-      "bytes": 10820,
-      "sha256": "22629556aa45bbd1c1a2ccde1462be2a2d6195a5e2d9f9d42f393ced41bc6aa7"
-    },
-    "src/pcb_parser/wire_segment_nodes.py": {
-      "bytes": 10499,
-      "sha256": "ca7ed192dc2edbfa4f5f2dc677ffafa59950f2fc2508e45433f4d11ae9de506b"
-    },
-    "src/pcb_parser/wire_segments.py": {
-      "bytes": 12606,
-      "sha256": "994a559f34076227df2559eba7c290a472a02000afbe7d39b008fe54afa5c40e"
-    },
-    "src/pcb_parser/wire_span_consolidation.py": {
-      "bytes": 7273,
-      "sha256": "4f4f85560665b10b289cfef0bac2afd2e16ce1029ef45058820c34eeb5d081bc"
+    "src/pcb_parser/vendor/pytorch_unet/__init__.py": {
+      "bytes": 75,
+      "sha256": "4fff92f8f70a63412561f69f32fc3c1ead5bcaadaebbb85a704a5a87fb5c915d"
     },
     "tests/test_component_caption_fields.py": {
-      "bytes": 7285,
-      "sha256": "0ac14438596eb752d296278ca3889b83a1c01250faee2d4e760baf68fe9903fd"
+      "bytes": 7432,
+      "sha256": "0eb15bd9ae6b139bc7a1282976ff63eb61ab16ad44e0b621c73ebeb5142055ee"
     },
     "tests/test_component_kind_repair.py": {
-      "bytes": 9908,
-      "sha256": "490169a6f66a3cb95111c303f954828283453e281212e954aa97042dfc2dc1ae"
+      "bytes": 9859,
+      "sha256": "f064e509122472d4e976d772b3b2fca8ff09c3a3864cbfba1287da79b2353280"
     },
     "tests/test_component_symbol_boxes.py": {
       "bytes": 6854,
@@ -939,6 +951,10 @@
     "tests/test_export_resilience.py": {
       "bytes": 7501,
       "sha256": "f5cdd8911dc0aaf52e6eff27bf3ba5ad8780276f88817ffd9dab42267605ce01"
+    },
+    "tests/test_export_semantics.py": {
+      "bytes": 6656,
+      "sha256": "bf68b6ace712fd376eaa0f0d44ecbb8a19706782ce40a832c994cfcda6f28fcb"
     },
     "tests/test_ground_symbol_identity.py": {
       "bytes": 4201,
@@ -977,52 +993,52 @@
       "sha256": "68eb6aa93c409057243377483799770939ed952f7d422d858721dae24862ea3a"
     },
     "tests/test_pin_evidence_repair.py": {
-      "bytes": 13590,
-      "sha256": "f399c914e4b3607fa24d6f9e3c6462ebbe987c790df83b1ea45611c8346b5e9c"
+      "bytes": 13541,
+      "sha256": "620db45b798875c81c50629832c793b3821212ae63a0dd19d55c82853c7c8ff6"
     },
     "tests/test_pin_field_recovery.py": {
-      "bytes": 9178,
-      "sha256": "a66237a606cd3652ffd6514995c1544b7df1cd7af8ddfb2d3512b6776994221d"
+      "bytes": 9110,
+      "sha256": "379b846c55e97754a718fd2dedee232ce539063c4ade8d6793ec6ff3d12703a6"
     },
     "tests/test_pin_geometry_recovery.py": {
-      "bytes": 8863,
-      "sha256": "fec861ac4e8ba47c5f11bdb6d713b02ac341a71cccdf8e31f0fa0c12633692e7"
+      "bytes": 8802,
+      "sha256": "de57a4a58c5da67fde482a5b38de0a6a6b55875063f9dd1a9708c8e00f51539d"
     },
     "tests/test_pin_nc_recovery.py": {
-      "bytes": 11336,
-      "sha256": "4839b9ba53c5dd94edcbf033e9a65623476b64cb86361c70353c196b401c0184"
+      "bytes": 11287,
+      "sha256": "f80ece3b2e05af34621c6b242dc0473030eef3ae11352e5082ad212df1039bc0"
     },
     "tests/test_pin_number_cycle.py": {
-      "bytes": 14398,
-      "sha256": "685bc9546b225c55097663af7378bfd6a984fa695f378f0f617185c04aea5195"
+      "bytes": 14349,
+      "sha256": "db693684d42bd4a9186ce5c6745ad5821a0cce459f4b4a28c8556676bbe51d4e"
     },
     "tests/test_pin_numeric_connector.py": {
-      "bytes": 11309,
-      "sha256": "3a9f9805422098446818fdd7c47b3008ce1d5d060ba4aa691a24802637a6df4c"
+      "bytes": 11260,
+      "sha256": "4db2cebae7a47b6207cee883f60082ef8ceefead7b57df82e2de7c2bef9a85c7"
     },
     "tests/test_pin_pairing.py": {
-      "bytes": 14568,
-      "sha256": "ecb3bc993db7da6e3380b5bef96cac0eb420c9e20360af45750b3132cef6aa61"
+      "bytes": 14519,
+      "sha256": "26f4a4e313221a6ede20201ca81256e2238f4043c46db5ed5466c9f3864be364"
     },
     "tests/test_pin_position_consensus.py": {
-      "bytes": 6331,
-      "sha256": "487f086c9f9a4a5aa8e94456d36021e046b68c2d26018e3f0b87ecf94cab9337"
+      "bytes": 6232,
+      "sha256": "3b6ee637709ac172788bb7b88413900ff4227a2c0ff124f0aaa116ecac4f737b"
     },
     "tests/test_pin_relocation.py": {
-      "bytes": 9207,
-      "sha256": "d6adec3288fbece35675016439178fe9ed972f448150871529982dc5d0bcb216"
+      "bytes": 9158,
+      "sha256": "9b0e4a08ff7bf862911d758cc547adafc02b4dbb4a5d135f131ba9bd32df2d90"
     },
     "tests/test_pin_row_library.py": {
-      "bytes": 16410,
-      "sha256": "6671913344977842e79ce3d27d77e7b2f2680d2ee9922630302a27c57c02a2fb"
+      "bytes": 16361,
+      "sha256": "5a80de27ca07112f3238408316cd6c9e1689ca7d3b54792fa1b64ab0c3fa52e4"
     },
     "tests/test_pin_vertical_repair.py": {
-      "bytes": 16033,
-      "sha256": "140273931374f3b3bf7b7da7fd5f74b4f6a75288e8af6848a1ca26b354f58592"
+      "bytes": 15984,
+      "sha256": "b494c4a0eaa2175311105ecb5ee323a4f957800ababebdd74c7fd5f4f93070b5"
     },
     "tests/test_precise_pin_contacts.py": {
-      "bytes": 6344,
-      "sha256": "e621861031568c3ac9f67cfbf18ccc435c1e10a7b98f463d618333c1e57d2b50"
+      "bytes": 6327,
+      "sha256": "a7bba46f50655968c160377f06133063be1d2cdf30a2be011d5749f035fd4e4a"
     },
     "tests/test_precise_wire_contacts.py": {
       "bytes": 7375,
@@ -1073,8 +1089,8 @@
       "sha256": "2bc859b55210d8e8189bd87f71aac9c59abf9ad1c5d190b3674bbf789b5017eb"
     },
     "tests/test_wire_export_regression.py": {
-      "bytes": 10743,
-      "sha256": "df12b315ec214ad329297980ec5b88d13a7897851329552f69cd06554ec52047"
+      "bytes": 10627,
+      "sha256": "589d6ba37271641492255330272345d5c4061054044e77190563d9b3b3afcb6e"
     },
     "tests/test_wire_false_positive_cleanup.py": {
       "bytes": 4744,
@@ -1085,8 +1101,8 @@
       "sha256": "cd45ca7dc8e506cae3b8f6680113c8dd09663a9cab86b6d033c56dbcb6049d86"
     },
     "weights/baseline_provenance.json": {
-      "bytes": 858,
-      "sha256": "23f8da65fc6c757880c2febba344de6cfe3755dacecc6772ea68e3b576dc5bb4"
+      "bytes": 731,
+      "sha256": "4379f538773a2c2747088315cfc27b3e98a58c0de5c94810bf7c6c6ddd0db2e6"
     },
     "weights/detector_dataset300_v3_nano.pt": {
       "bytes": 6482353,

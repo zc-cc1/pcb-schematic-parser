@@ -117,12 +117,18 @@ docker run --rm --gpus all \
 # 1. 安装 PyTorch(按官方渠道选择 CUDA 版本)
 pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 
-# 2. 安装其余依赖
+# 2. 安装其余依赖(Python ≥ 3.11)
 cd verified_application
 pip install -r requirements.txt
 
 # 3. 运行
 python agent.py -input <输入目录> -output <输出目录> --device cpu
+```
+
+**试跑样例**:仓库自带 `examples/rp2350_page1.png`(公开的 RP2350 开发板原理图第一页,嘉立创 EDA),clone 后即可零配置端到端试跑:
+
+```bash
+python agent.py -input examples -output <输出目录> --device cpu
 ```
 
 GPU 自动探测(先执行真实 CUDA 矩阵运算验证),驱动或架构不兼容时记录错误并回退 CPU。完整参数与运行细节见 [verified_application/README.md](verified_application/README.md)。
@@ -155,6 +161,8 @@ pcb-schematic-parser/
 ├── README.md / README_en.md      # 本文档(中 / 英)
 ├── LICENSE
 ├── assets/                       # 架构图与效果示例
+├── examples/                     # 可直接试跑的样例输入
+│   └── rp2350_page1.png
 └── verified_application/         # 完整推理包
     ├── agent.py                  # 推理入口
     ├── adapter.py / src/         # 目标格式转换与核心解析模块

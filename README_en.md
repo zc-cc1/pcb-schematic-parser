@@ -117,12 +117,18 @@ docker run --rm --gpus all \
 # 1. Install PyTorch (pick the CUDA build via the official channel)
 pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 
-# 2. Install the remaining dependencies
+# 2. Install the remaining dependencies (Python >= 3.11)
 cd verified_application
 pip install -r requirements.txt
 
 # 3. Run
 python agent.py -input <input-dir> -output <output-dir> --device cpu
+```
+
+**Try the bundled sample**: `examples/rp2350_page1.png` (page 1 of the public Raspberry Pi RP2350 dev-board schematic, LCEDA) runs end-to-end with zero configuration:
+
+```bash
+python agent.py -input examples -output <output-dir> --device cpu
 ```
 
 GPU is auto-detected (verified with a real CUDA matmul); on driver or architecture mismatch the exact error is logged and the run falls back to CPU. Full parameters and runtime details: [verified_application/README_en.md](verified_application/README_en.md).
@@ -155,6 +161,8 @@ pcb-schematic-parser/
 ├── README.md / README_en.md      # This documentation (en / zh)
 ├── LICENSE
 ├── assets/                       # Architecture diagram and result figures
+├── examples/                     # Ready-to-run sample input
+│   └── rp2350_page1.png
 └── verified_application/         # Complete inference package
     ├── agent.py                  # Inference entrypoint
     ├── adapter.py / src/         # Target-format conversion and core parsing modules
