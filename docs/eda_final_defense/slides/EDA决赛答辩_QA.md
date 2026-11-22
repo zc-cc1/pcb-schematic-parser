@@ -80,3 +80,35 @@
 - **"为什么封面是 EDA2606K5?"** 由本地提交目录名推断,报名记录为准(适配说明中已标注)。
 - **"Word 技术报告?"** 由 defense_supplement.md §三 + assets/ 图组生成,答辩必带。
 - **"页 13 案例的整页前后对比图?"** 原始页 13 PNG 未随包,当前用开发仓库真实裁剪 + 前后数字面板,来源已标注在图内。
+
+---
+
+## 叙事统一版补充问答(story-polish)
+
+### Q13 你们的核心主张用一句话说是什么?
+
+**一句话**:From Pixels to Connectivity —— We Don't Just Detect Symbols. We Reconstruct Electrical Connectivity(我们不是在堆视觉模型,而是在重建电气连接关系)。
+展开:三段主线 Perceive(识别)→ Connect(建几何与拓扑)→ Verify(证据修复与校准);四个官方难点的对策全部挂在这条线上。
+依据:PPT P3 横幅与三段线索行;`defense_slide_plan` 叙事统一节。
+
+### Q14 "Repair Without Guessing" 的四步是什么?为什么强调"不猜"?
+
+**一句话**:Detect(多视角定向 OCR,硬预算)→ Verify(≥2 视角@0.98 + 几何拓扑约束)→ Commit|Reject(原子事务、冲突全方否决)→ Rollback(失败回退最近有效预测)。
+展开:"不猜"指宁可漏也不编造——每个字段采纳都要证据、每次改动可审计可回滚;OCR 多视角被明确声明"非统计独立证据"。
+依据:repair_engine.py 能力白名单;agent.py remember();PPT P7 四步流程。
+
+### Q15 页 13 的 58.72%→85.19% 是官方整体指标吗?
+
+**一句话**:不是——这是**单页开发集案例**(冻结缓存回放、单页消融),官方整体成绩是 74 分。
+展开:其余 12 页逐字节不变证明修复是局部的;官方分项口径我们看不到。
+依据:PPT P7 斜体声明;docs/network_junction_reconciliation.md。
+
+### Q16 主页的四层架构和备份页的 11 阶段是什么关系?
+
+**一句话**:四层是叙事压缩(Perceive/Connect/Verify 的工程映射),11 阶段是完整实现;两级编排(S 阶段链 + 15 个 finalize)细节在备份页 A。
+依据:PPT P4 四层图;备份 B1;source_audit.md §4。
+
+### Q17 本地回放 98.93 为什么不在主页?
+
+**一句话**:与官方 74 分口径不同(13 页公开集、开发评估),放主页会误导评委;已移至备份页 D 并标注"development only"。
+依据:defense_supplement.md §一.2;PPT P9 底部指引行。
