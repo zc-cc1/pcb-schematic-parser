@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local environments
+.venv
+venv/
+node_modules/
+
+# Logs and temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,114 @@
+{
+  "version": "image-structural-patterns-v23-image-contact-precision",
+  "enabled": true,
+  "maximum_distance_px": 3.0,
+  "ambiguity_margin_px": 3.0,
+  "crossing_guard_px": 6.0,
+  "minimum_colored_wire_pixels": 200,
+  "minimum_red_pixels": 100,
+  "minimum_power_confidence": 0.9,
+  "restore_clear_branches": true,
+  "maximum_new_contacts": 64,
+  "maximum_new_branches": 16,
+  "prune_zero_wire_fragments": false,
+  "structural": {
+    "enabled": true,
+    "maximum_caption_views": 8,
+    "maximum_color_networks": 128,
+    "maximum_changes": 512,
+    "patterns": {
+      "opposed_inductor_endpoint": true,
+      "arrow_caption_identity": true,
+      "independent_led_symbols": true,
+      "visible_terminal_pair": true,
+      "typed_power_contact": true,
+      "colored_wire_network": true,
+      "outward_red_stem": true,
+      "zero_wire_fragment": true,
+      "numeric_power_caption": true,
+      "unidentified_capacitor_identity": true,
+      "ground_owner_arbitration": true,
+      "mixed_color_ground_branch": true,
+      "image_no_connect_marker": true,
+      "observed_resistor_terminals": true,
+      "single_filled_led_identity": true
+    }
+  },
+  "rules": {
+    "known_contact_membership": {
+      "enabled": true
+    },
+    "confirmed_physical_branch": {
+      "enabled": true
+    },
+    "zero_wire_fragment": {
+      "enabled": true
+    }
+  },
+  "wire_geometry": {
+    "enabled": true,
+    "source_path_turns": true,
+    "observed_junction_splits": true,
+    "collinear_cleanup": true,
+    "suppress_short_ground_stubs": true,
+    "suppress_red_terminal_leads": true,
+    "maximum_changes": 512
+  },
+  "network_junction_reconciliation": {
+    "enabled": true,
+    "minimum_overlap_px": 60.0,
+    "maximum_dot_gap_px": 30.0,
+    "minimum_ink_support": 0.95,
+    "maximum_groups": 8
+  },
+  "wire_false_positive_cleanup": {
+    "enabled": true,
+    "maximum_changes": 128
+  },
+  "wire_span_consolidation": {
+    "enabled": true,
+    "maximum_changes": 32
+  },
+  "junction_axis_offsets": {
+    "enabled": true,
+    "maximum_changes": 32
+  },
+  "observed_terminal_memberships": {
+    "enabled": true,
+    "maximum_axis_corrections": 8,
+    "maximum_attachments": 32,
+    "maximum_new_edges": 16
+  },
+  "oriented_port_contacts": {
+    "enabled": true,
+    "maximum_ports": 16,
+    "maximum_contacts": 8
+  },
+  "ground_symbol_identity": {
+    "enabled": true,
+    "maximum_new_symbols": 8
+  },
+  "component_caption_fields": {
+    "enabled": true,
+    "maximum_changes": 24,
+    "maximum_ocr_calls": 32
+  },
+  "component_symbol_boxes": {
+    "enabled": true,
+    "maximum_changes": 64
+  },
+  "local_symbol_contacts": {
+    "enabled": true,
+    "maximum_groups": 4,
+    "maximum_ocr_calls": 24
+  },
+  "precise_pin_contacts": {
+    "enabled": true,
+    "maximum_pins": 500
+  },
+  "precise_wire_contacts": {
+    "enabled": true,
+    "maximum_changes": 512,
+    "search_radius": 24
+  }
+}

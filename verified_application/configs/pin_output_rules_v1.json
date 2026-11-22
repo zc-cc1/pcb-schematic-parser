@@ -1,0 +1,25 @@
+{
+  "version": "pin-output-rules-v1-development",
+  "ordinary_label_types": ["vbus_in", "vbus_out", "vbus_bidirectional"],
+  "label_min_confidence": 0.95,
+  "label_min_views": 3,
+  "passive_candidate_numbers": {
+    "resistor": ["1", "2"],
+    "capacitor": ["1", "2"],
+    "inductor": ["1", "2"],
+    "crystal": ["1", "2", "3", "4"]
+  },
+  "passive_min_confidence": 0.98,
+  "passive_min_views": 2,
+  "passive_min_assignment_margin": 15.0,
+  "number_view_box_iou": 0.5,
+  "power_types": ["gnd", "vcc"],
+  "power_edge_guard_px": 6.0,
+  "candidate_edge_max_deviation_px": 1.0,
+  "review_network_count": 6,
+  "passive_name_policy": "candidate_only_number_as_name_example_extension",
+  "unobserved_two_terminal_number_policy": "keep_unresolved",
+  "unobserved_power_identity_policy": "keep_unresolved",
+  "blank_pinname_policy": "keep_unresolved",
+  "reference_evaluator_verified": false
+}

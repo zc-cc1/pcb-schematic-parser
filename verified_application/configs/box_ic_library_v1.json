@@ -1,0 +1,37 @@
+{
+  "version": "box-ic-library-v1-deployment",
+  "status": "deployment copy; every number it produces is a local reference figure, not an external score",
+  "note": "Deployment copy. Both library slices ship inside the image under data/component_library so the container needs no host paths.",
+  "libraries": [
+    "data/component_library/BoxICLibrary.json",
+    "data/component_library/cpntLibrary"
+  ],
+  "types": [
+    "ic",
+    "box",
+    "connector",
+    "raw_block",
+    "block"
+  ],
+  "model_search_margin_px": 40,
+  "min_pins": 3,
+  "min_name_matches": 1,
+  "min_model_chars": 4,
+  "require_digit_in_model": true,
+  "evidence_statuses": [
+    "observed_OCR_text"
+  ],
+  "fill_names_from_number": true,
+  "fill_missing_numbers_from_names": true,
+  "min_consistency": 0.6,
+  "min_consistency_pairs": 3,
+  "fill_remaining_numbers": false,
+  "evidence_prefixes": [
+    "observed_OCR",
+    "targeted_OCR"
+  ],
+  "model_fuzzy_match": true,
+  "name_set_pattern_match": true,
+  "fuzzy_note": "OCR truncation: HS96L03W2C0 vs the real HS96L03W2C03; only accepted when exactly one library key is within 2 characters and a read pin name is in that entry.",
+  "pattern_note": "No model name: an entry is accepted only when its pin names cover every name we read AND reproduce every pin number we also read (>=2 of them)."
+}

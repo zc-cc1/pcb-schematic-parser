@@ -1,0 +1,27 @@
+{
+  "version": "observed-net-fields-v1-development",
+  "profile": "engineering_observed_fields_only",
+  "name_min_confidence": 0.98,
+  "name_min_views": 3,
+  "name_assignment_margin": 5,
+  "body_half_guard_px": 1,
+  "conflict_min_confidence": 0.9,
+  "conflict_min_views": 2,
+  "header_min_confidence": 0.98,
+  "header_min_views": 3,
+  "header_assignment_margin": 5,
+  "header_unmatched_cost": 40,
+  "minimum_observed_numbers": 4,
+  "minimum_observed_names": 3,
+  "minimum_detection_confidence": 0.85,
+  "header_left_fraction": 0.4,
+  "header_left_padding_px": 10,
+  "header_geometry": {
+    "max_header_gap_px": 12,
+    "max_header_inset_px": 12,
+    "max_header_inset_fraction": 0.15,
+    "pin_header_guard_px": 3
+  },
+  "reference_identity_verified": false,
+  "default_pipeline_adopted": false
+}

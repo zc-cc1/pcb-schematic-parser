@@ -1,0 +1,73 @@
+{
+  "version": "pin-text-v2-development",
+  "min_confidence": 0.85,
+  "number_inner_band_px": 18,
+  "number_outer_band_px": 26,
+  "passive_number_outer_band_px": 12,
+  "passive_number_inner_band_px": 12,
+  "ball_number_max_inward_px": 8,
+  "name_min_inward_px": 10,
+  "name_max_inward_px": 160,
+  "tangent_limit_px": 22,
+  "dense_pin_spacing_fraction": 0.48,
+  "minimum_tangent_limit_px": 3,
+  "confidence_cost_px": 20,
+  "distance_cost_weight": 0.06,
+  "unmatched_cost": 38,
+  "ambiguity_margin": 3,
+  "spelling_margin": 2,
+  "name_component_types": [
+    "ic",
+    "connector",
+    "block",
+    "opamp"
+  ],
+  "ball_number_component_types": [
+    "ic",
+    "connector",
+    "block"
+  ],
+  "tip_hypothesis_cluster_px": 3.5,
+  "tip_hypothesis_normal_px": 18,
+  "min_vote_confidence": 0.95,
+  "full_spelling_min_views": 2,
+  "vote_min_views": 3,
+  "vote_min_lead": 2,
+  "identity_recovery": {
+    "component_types": [
+      "ic",
+      "connector",
+      "block",
+      "opamp"
+    ],
+    "min_ocr_confidence": 0.95,
+    "view_support_min_confidence": 0.9,
+    "min_distinct_views": 2,
+    "max_header_gap_px": 50,
+    "max_header_inset_px": 75,
+    "max_header_inset_fraction": 0.15,
+    "pin_header_guard_px": 3,
+    "reference_prefixes": [
+      "U",
+      "IC",
+      "H",
+      "CN",
+      "LD",
+      "J",
+      "P"
+    ],
+    "minimum_pins_special_prefix": 4,
+    "assignment_margin": 5,
+    "unmatched_cost": 65
+  },
+  "adoption": {
+    "number_policy": "preserve_v1_observed_numbers",
+    "name_policy": "preserve_v1_then_fill_unclaimed_glyphs",
+    "new_name_min_confidence": 0.97,
+    "new_name_min_views": 2
+  },
+  "onnx_threads": 4,
+  "status": "observed_OCR_and_learned_geometry_no_automatic_numbering_no_pinname_guess",
+  "allow_digit_pin_names": false,
+  "digit_name_max_inward_px": 40
+}
