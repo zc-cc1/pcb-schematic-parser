@@ -118,6 +118,10 @@ def clone_body(prs, src):
         if sh.name not in TEMPLATE_SHAPE_NAMES:
             continue
         el = copy.deepcopy(sh._element)
+        # strip template-internal tag references (custDataLst -> r:id) that would
+        # dangle in the cloned slide and trigger PowerPoint/WPS repair
+        for cd in el.findall('.//' + '{http://schemas.openxmlformats.org/presentationml/2006/main}custDataLst'):
+            cd.getparent().remove(cd)
         dest.shapes._spTree.append(el)
     return dest
 
