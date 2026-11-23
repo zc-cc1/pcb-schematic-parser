@@ -137,10 +137,10 @@ def set_title_subtitle(page, title=None, subtitle=None):
                 for r in list(p.runs):
                     r._r.getparent().remove(r._r)
                 r = p.add_run(); r.text = title
-                r.font.size = Pt(22); r.font.bold = True; r.font.name = FONT
+                r.font.size = Pt(26); r.font.bold = True; r.font.name = FONT
         elif sh.name == '内容占位符 5' and subtitle is not None:
             sh.width = Inches(9.6)
-            set_text(sh, subtitle, size=13, color=MUTED, font=FONT)
+            set_text(sh, subtitle, size=16, color=MUTED, font=FONT)
     return page
 
 
@@ -178,35 +178,52 @@ def new_body(title, subtitle):
 # ---------- Part I page: problem & strategy ----------
 set_title_subtitle(part1, None, 'Problem understanding & solution strategy')
 cx, cy, cw, ch = content_shapes(part1)
-add_text(part1, cx, cy + 0.02, cw, 0.6, 'The Hard Part Is Not Finding Symbols. ', size=22, bold=True, color=NAVY)
+add_text(part1, cx, cy + 0.02, cw, 0.56, 'The Hard Part Is Not Finding Symbols. ', size=22, bold=True, color=NAVY)
 tbx = part1.shapes[-1].text_frame
 r = tbx.paragraphs[0].add_run(); r.text = "It's Recovering Connectivity."
 r.font.size = Pt(22); r.font.bold = True; r.font.color.rgb = ORANGE; r.font.name = FONT
-add_text(part1, cx, cy + 0.64, cw, 0.36,
+add_text(part1, cx, cy + 0.62, cw, 0.32,
          [('Perceive', {'size': 15, 'bold': True, 'color': CYAN})], size=15)
 tbx = part1.shapes[-1].text_frame
-r = tbx.paragraphs[0].add_run(); r.text = '  identify parts, text, pins and wires      '; r.font.size = Pt(13); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = '  identify parts, text, pins, wires   '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
 r = tbx.paragraphs[0].add_run(); r.text = 'Connect'; r.font.size = Pt(15); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = '  build geometry and electrical topology      '; r.font.size = Pt(13); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = '  build geometry + electrical topology   '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
 r = tbx.paragraphs[0].add_run(); r.text = 'Verify'; r.font.size = Pt(15); r.font.bold = True; r.font.color.rgb = ORANGE; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = '  repair and calibrate with evidence'; r.font.size = Pt(13); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = '  repair + calibrate with evidence'; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
+
+# shared-ID strip: PNG -> Components/Pins/Nets -> Target JSON (teammate P3 idea, our real data)
+sy = cy + 1.00
+add_card(part1, cx, sy, cw, 0.84, fill=WHITE)
+place_pic(part1, rf'{D}\ti_p5_input.png', cx + 0.15, sy + 0.09, 1.26, 0.66)
+ar = part1.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(cx + 1.52), Inches(sy + 0.31), Inches(0.30), Inches(0.22))
+ar.fill.solid(); ar.fill.fore_color.rgb = CYAN; ar.line.fill.background()
+add_text(part1, cx + 1.94, sy + 0.13, 3.75, 0.32, 'Components · Pins · Nets', size=16, bold=True, color=NAVY)
+add_text(part1, cx + 1.94, sy + 0.47, 3.75, 0.28, 'linked by one shared component ID', size=14, color=MUTED)
+ar2 = part1.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(cx + 5.80), Inches(sy + 0.31), Inches(0.30), Inches(0.22))
+ar2.fill.solid(); ar2.fill.fore_color.rgb = CYAN; ar2.line.fill.background()
+add_text(part1, cx + 6.22, sy + 0.06, 5.15, 0.28, 'Target JSON', size=14, bold=True, color=NAVY)
+add_text(part1, cx + 6.22, sy + 0.36, 5.15, 0.26,
+         '"U3": {"bbox": [539,281,689,731]}', size=13.5, color=INK, font='Consolas')
+add_text(part1, cx + 6.22, sy + 0.62, 5.15, 0.26,
+         '"LOG_NET": ["C1.2", "U3.U3"]', size=13.5, color=INK, font='Consolas')
+
 ch_items = [
     ('Dense component detection', 'small SMD parts, missed / confused classes', 'Dual-path YOLO (whole + SAHI) + WBF fusion', 'per-class thresholds, detection F1 0.883'),
     ('Pin localization & ownership', 'multi-pin ICs, offsets, wrong binding', 'Dual-head U-Net heatmaps + cost assignment', 'peak decode with sub-pixel refinement'),
     ('Text - part association', 'crowded / tilted annotations', 'Multi-view OCR under evidence gates', '>=2 views @ 0.98 confidence, budgets'),
     ('Topology & connectivity', 'T/cross nodes, broken wires, flywires', 'Conservative graph + transactional repair', 'avoid false links before recovery'),
 ]
-row_h = 0.98
+row_h = 0.74
 for i, (ct, cd, st, sd) in enumerate(ch_items):
-    y = cy + 1.12 + i * (row_h + 0.09)
+    y = cy + 1.98 + i * (row_h + 0.10)
     add_card(part1, cx, y, 5.28, row_h, fill=WHITE)
-    add_text(part1, cx + 0.14, y + 0.08, 5.0, 0.36, ct, size=16, bold=True, color=NAVY)
-    add_text(part1, cx + 0.14, y + 0.48, 5.0, 0.42, cd, size=13.5, color=MUTED)
-    sld_arw = part1.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(cx + 5.44), Inches(y + row_h / 2 - 0.14), Inches(0.5), Inches(0.28))
+    add_text(part1, cx + 0.14, y + 0.05, 5.0, 0.32, ct, size=16, bold=True, color=NAVY)
+    add_text(part1, cx + 0.14, y + 0.40, 5.0, 0.30, cd, size=14, color=MUTED)
+    sld_arw = part1.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(cx + 5.44), Inches(y + row_h / 2 - 0.13), Inches(0.46), Inches(0.26))
     sld_arw.fill.solid(); sld_arw.fill.fore_color.rgb = CYAN; sld_arw.line.fill.background()
     add_card(part1, cx + 6.1, y, 5.4, row_h, fill=PANEL)
-    add_text(part1, cx + 6.24, y + 0.08, 5.15, 0.36, st, size=16, bold=True, color=INK)
-    add_text(part1, cx + 6.24, y + 0.48, 5.15, 0.42, sd, size=13.5, color=MUTED)
+    add_text(part1, cx + 6.24, y + 0.05, 5.15, 0.32, st, size=16, bold=True, color=INK)
+    add_text(part1, cx + 6.24, y + 0.40, 5.15, 0.30, sd, size=14, color=MUTED)
 
 
 # ---------- Part II page: four-layer architecture ----------
@@ -222,88 +239,126 @@ for i, (t, d, fc, ec) in enumerate(layers):
     y = cy + 0.02 + i * 1.25
     add_card(part2, cx, y, cw, 1.12, fill=fc, line_c=ec)
     add_text(part2, cx + 0.22, y + 0.16, 3.75, 0.8, t, size=20, bold=True, color=NAVY)
-    add_text(part2, cx + 4.05, y + 0.2, 7.3, 0.76, d, size=15, color=INK)
+    add_text(part2, cx + 4.05, y + 0.2, 7.3, 0.76, d, size=16, color=INK)
     if i < 3:
         da = part2.shapes.add_shape(MSO_SHAPE.DOWN_ARROW, Inches(cx + 1.55), Inches(y + 1.15), Inches(0.26), Inches(0.13))
         da.fill.solid(); da.fill.fore_color.rgb = CYAN; da.line.fill.background()
-add_text(part2, cx, cy + 5.12, cw, 0.32,
+add_text(part2, cx, cy + 5.12, cw, 0.34,
          'Full 11-stage detail: Backup A  ·  zero LLM tokens  ·  hash-locked & audited',
-         size=12, color=MUTED)
+         size=14, color=MUTED)
 
 
-# ---- P3 Visual Perception ----
+# ---- P3 Visual Perception (teammate-style: PNG -> modules -> evidence) ----
 pP3 = new_body('Visual Perception', 'Three default-on models produce candidates; conclusions come from evidence gates')
 p = pP3
 cx, cy, cw, ch = content_shapes(p)
-panels = [
-    (rf'{D}\p5_input.png', 'Input schematic PNG (official example page)'),
-    (rf'{D}\p5_wire.png', 'Wire probability map (threshold 0.35)'),
-    (rf'{D}\p5_pin.png', 'Pin heatmap → 431 candidates'),
-]
-for i, (img, cap) in enumerate(panels):
-    x = cx + i * 3.94
-    place_pic(p, img, x, cy, 3.78, 2.68)
-    add_text(p, x, cy + 2.74, 3.78, 0.3, cap, size=12, color=MUTED, align=PP_ALIGN.CENTER)
-add_text(p, cx, cy + 3.14, cw, 0.38,
-         [('431 pin candidates decoded:  ', {'size': 16, 'bold': True, 'color': INK})], size=16)
-tbx = p.shapes[-1].text_frame
-r = tbx.paragraphs[0].add_run(); r.text = '287'; r.font.size = Pt(16); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = ' assigned · '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = '115'; r.font.size = Pt(16); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = ' ambiguous · '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = '29'; r.font.size = Pt(16); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = ' unowned'; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
-flow = [('Whole-image YOLO', 'precision on large parts'), ('SAHI tiles', 'recall on small parts'), ('WBF fusion', 'score-weighted union')]
-for i, (t, d) in enumerate(flow):
-    x = cx + i * 3.2
-    add_card(p, x, cy + 3.62, 3.0, 0.92, fill=PANEL)
-    add_text(p, x + 0.12, cy + 3.68, 2.8, 0.34, t, size=15, bold=True, color=NAVY)
-    add_text(p, x + 0.12, cy + 4.04, 2.8, 0.32, d, size=11.5, color=MUTED)
-    if i < 2:
-        sld_arw = p.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(x + 3.02), Inches(cy + 3.94), Inches(0.34), Inches(0.26))
-        sld_arw.fill.solid(); sld_arw.fill.fore_color.rgb = CYAN; sld_arw.line.fill.background()
-chip(p, cx + 9.85, cy + 3.62, 1.7, 0.92, 'F1 0.883', 'detection, 59 cases', ORANGE, 19, 10.5)
+
+# left: input card + model-origin legend
+add_card(p, cx, cy + 0.08, 2.35, 2.30, fill=WHITE)
+add_text(p, cx + 0.12, cy + 0.16, 2.1, 0.32, 'Schematic PNG', size=16, bold=True, color=NAVY)
+place_pic(p, rf'{D}\ti_p5_input.png', cx + 0.12, cy + 0.56, 2.11, 1.13)
+add_text(p, cx + 0.12, cy + 1.78, 2.1, 0.26, 'official example page', size=14, color=MUTED)
+add_text(p, cx, cy + 2.60, 2.35, 0.30, 'Model origins', size=15, bold=True, color=INK)
 origins = [
-    ('YOLO nano', 'self-trained · F1 0.883 (59 cases)', 'WirePinUNet', 'self-trained (milesial U-Net parts)'),
-    ('PP-OCRv6', 'called open pre-trained (offline)', 'JunctionCNN', 'self-trained, OFF by default (optional)'),
+    ('YOLO nano', 'self-trained · F1 0.883', CYAN),
+    ('WirePinUNet', 'self-trained (milesial)', NAVY),
+    ('PP-OCRv6', 'open pre-trained (offline)', NAVY),
+    ('JunctionCNN', 'OFF by default (optional)', ORANGE),
 ]
-for i, (t1, d1, t2, d2) in enumerate(origins):
-    y = cy + 4.68 + i * 0.38
-    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 0.05), Inches(y + 0.06), Inches(0.12), Inches(0.12))
-    dot.fill.solid(); dot.fill.fore_color.rgb = NAVY; dot.line.fill.background()
-    add_text(p, cx + 0.26, y, 1.85, 0.3, t1, size=12.5, bold=True, color=INK)
-    add_text(p, cx + 2.15, y + 0.02, 3.55, 0.3, d1, size=11, color=MUTED)
-    dot2 = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 5.95), Inches(y + 0.06), Inches(0.12), Inches(0.12))
-    dot2.fill.solid(); dot2.fill.fore_color.rgb = ORANGE; dot2.line.fill.background()
-    add_text(p, cx + 6.16, y, 1.95, 0.3, t2, size=12.5, bold=True, color=INK)
-    add_text(p, cx + 8.15, y + 0.02, 4.35, 0.3, d2, size=11, color=MUTED)
+for i, (t1, d1, dc) in enumerate(origins):
+    y = cy + 2.98 + i * 0.60
+    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 0.02), Inches(y + 0.05), Inches(0.13), Inches(0.13))
+    dot.fill.solid(); dot.fill.fore_color.rgb = dc; dot.line.fill.background()
+    add_text(p, cx + 0.24, y, 2.1, 0.28, t1, size=15, bold=True, color=INK)
+    add_text(p, cx + 0.24, y + 0.30, 2.1, 0.26, d1, size=13.5, color=MUTED)
+
+# trunk from input card to the three module cards
+tr = p.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(cx + 2.51), Inches(cy + 0.48), Inches(0.025), Inches(3.42))
+tr.fill.solid(); tr.fill.fore_color.rgb = LINE; tr.line.fill.background()
+stub = p.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(cx + 2.37), Inches(cy + 1.18), Inches(0.15), Inches(0.025))
+stub.fill.solid(); stub.fill.fore_color.rgb = LINE; stub.line.fill.background()
+
+# middle: visual modules
+add_text(p, cx + 2.80, cy + 0.06, 3.30, 0.32, 'Visual modules', size=18, bold=True, color=NAVY)
+modules = [
+    ('YOLO nano detector', 'whole image + SAHI tiles; WBF fusion with per-class thresholds'),
+    ('PP-OCRv6 (RapidOCR)', 'multi-view OCR tokens beside parts, pins and text stacks'),
+    ('Dual-output U-Net', 'shared image features -> wire mask + pin-tip heatmap'),
+]
+mx = cx + 2.80
+for i, (t, d) in enumerate(modules):
+    y = cy + 0.50 + i * 1.24
+    add_card(p, mx, y, 3.30, 1.10, fill=PANEL)
+    add_text(p, mx + 0.14, y + 0.08, 3.0, 0.32, t, size=17, bold=True, color=NAVY)
+    add_text(p, mx + 0.14, y + 0.44, 3.02, 0.58, d, size=14, color=INK)
+    arw = p.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(mx - 0.28), Inches(y + 0.45), Inches(0.24), Inches(0.20))
+    arw.fill.solid(); arw.fill.fore_color.rgb = CYAN; arw.line.fill.background()
+
+# right: evidence passed downstream (real local crops)
+ex = cx + 6.50
+add_text(p, ex, cy + 0.06, 5.05, 0.32, 'Evidence passed downstream', size=18, bold=True, color=NAVY)
+ev_rows = [
+    ('ti_p5_yolo.png', 'Components', '35 classes with bounding boxes'),
+    ('ti_p5_ocr.png', 'OCR tokens', 'text · position · confidence (>=2 views @ 0.98)'),
+]
+for i, (img, t, d) in enumerate(ev_rows):
+    y = cy + 0.50 + i * 1.24
+    place_pic(p, os.path.join(D, img), ex, y + 0.02, 1.90, 0.96)
+    add_text(p, ex + 2.10, y + 0.06, 2.95, 0.30, t, size=16, bold=True, color=INK)
+    add_text(p, ex + 2.10, y + 0.40, 2.95, 0.56, d, size=14, color=MUTED)
+    arw = p.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(ex - 0.36), Inches(y + 0.40), Inches(0.32), Inches(0.20))
+    arw.fill.solid(); arw.fill.fore_color.rgb = CYAN; arw.line.fill.background()
+# dual-head evidence row: wire mask + pin heatmap minis
+y3 = cy + 0.50 + 2 * 1.24
+place_pic(p, rf'{D}\ti_p5_wire.png', ex, y3 + 0.10, 0.92, 0.49)
+place_pic(p, rf'{D}\ti_p5_pin.png', ex + 0.98, y3 + 0.10, 0.92, 0.49)
+add_text(p, ex, y3 + 0.64, 0.92, 0.24, 'wire mask', size=14, color=MUTED, align=PP_ALIGN.CENTER)
+add_text(p, ex + 0.98, y3 + 0.64, 0.92, 0.24, 'pin heatmap', size=14, color=MUTED, align=PP_ALIGN.CENTER)
+add_text(p, ex + 2.10, y3 + 0.06, 2.95, 0.30, 'Wires and pins', size=16, bold=True, color=INK)
+add_text(p, ex + 2.10, y3 + 0.40, 2.95, 0.56, 'operating wire mask + pin-tip heatmap (dual head)', size=14, color=MUTED)
+arw = p.shapes.add_shape(MSO_SHAPE.RIGHT_ARROW, Inches(ex - 0.36), Inches(y3 + 0.40), Inches(0.32), Inches(0.20))
+arw.fill.solid(); arw.fill.fore_color.rgb = CYAN; arw.line.fill.background()
+
+# bottom stats band
+add_text(p, cx + 2.80, cy + 4.22, 6.60, 0.32,
+         '431 pin candidates decoded:', size=16, bold=True, color=INK)
+add_text(p, cx + 2.80, cy + 4.58, 6.60, 0.34,
+         [('287', {'size': 17, 'bold': True, 'color': NAVY})], size=17)
+tbx = p.shapes[-1].text_frame
+r = tbx.paragraphs[0].add_run(); r.text = ' assigned  ·  '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = '115'; r.font.size = Pt(17); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = ' ambiguous  ·  '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = '29'; r.font.size = Pt(17); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = ' unowned'; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
+add_card(p, cx + 9.65, cy + 4.22, 2.85, 0.92, fill=WHITE)
+add_text(p, cx + 9.75, cy + 4.32, 2.65, 0.44, 'Detection F1 0.883', size=19, bold=True, color=ORANGE, align=PP_ALIGN.CENTER)
+add_text(p, cx + 9.75, cy + 4.80, 2.65, 0.28, '59 cases · fused config', size=14, color=MUTED, align=PP_ALIGN.CENTER)
 
 
-# ---- P4 Topology Reconstruction ----
+# ---- P4 Topology Reconstruction (teammate-style: big overlay + three steps) ----
 pP4 = new_body('Topology Reconstruction', 'Wire probability map -> skeleton -> segments -> networks')
 p = pP4
 cx, cy, cw, ch = content_shapes(p)
-add_text(p, cx, cy, cw, 0.4, 'Avoid False Connections Before Recovering Missing Links', size=17, bold=True, color=NAVY)
-place_pic(p, rf'{A}\fig3c_topology_real.png', cx, cy + 0.5, 4.01, 2.85)
-add_text(p, cx, cy + 3.4, 4.05, 0.3, 'Global context: wire skeleton + 39 junction nodes', size=11.5, color=MUTED, align=PP_ALIGN.CENTER)
-place_pic(p, rf'{D}\p6_zoom_skeleton.png', cx + 4.25, cy + 0.5, 3.32, 2.85)
-add_text(p, cx + 4.25, cy + 3.4, 3.35, 0.3, 'Zoom: junction nodes on the skeleton', size=11.5, color=MUTED, align=PP_ALIGN.CENTER)
-place_pic(p, rf'{D}\p6_zoom_networks.png', cx + 7.85, cy + 0.5, 3.32, 2.85)
-add_text(p, cx + 7.85, cy + 3.4, 3.35, 0.3, 'Zoom: per-net colored connectivity', size=11.5, color=MUTED, align=PP_ALIGN.CENTER)
-cases = [
-    ('T / cross nodes', 'conservative split, explicit uncertainty'),
-    ('Broken wires', 'recovered only by hard evidence'),
-    ('Net labels (flywires)', 'same-name labels merge; zero-length edges'),
-    ('Power nets (VCC/GND)', 'four gates before merging'),
+place_pic(p, rf'{D}\ti_p6_main.png', cx, cy + 0.02, 6.16, 4.91)
+add_text(p, cx, cy + 4.98, 6.16, 0.26,
+         'Local prediction overlay - markers 1/2/3 = steps at right',
+         size=14, color=MUTED, align=PP_ALIGN.CENTER)
+sx = cx + 6.45
+steps = [
+    ('1 · Pin ownership', 'Match each decoded endpoint to the component edge and its nearby lead direction - 287 of 431 candidates assigned.'),
+    ('2 · Wire tracing', 'Trace segments between endpoints, turns and junctions in the operating wire mask - T/cross nodes split conservatively, gaps recovered only by hard evidence.'),
+    ('3 · Net membership', 'Group terminals that share a supported path and keep the route geometry - same-name flywire labels and four-gate power merges included.'),
 ]
-for i, (t, s2) in enumerate(cases):
-    x = cx + i * 2.94
-    add_card(p, x, cy + 3.85, 2.78, 0.95, fill=PANEL)
-    add_text(p, x + 0.12, cy + 3.9, 2.55, 0.3, t, size=12.5, bold=True, color=NAVY)
-    add_text(p, x + 0.12, cy + 4.22, 2.55, 0.54, s2, size=11, color=INK)
-add_text(p, cx, cy + 4.95, cw, 0.32,
-         '238 Physical-Network Candidates / 362 Edges → 63 Logical Nets - candidates are the graph-stage intermediate; merges give the final output.',
-         size=12, color=INK)
+for i, (t, d) in enumerate(steps):
+    y = cy + 0.04 + i * 1.16
+    add_text(p, sx, y, 5.10, 0.34, t, size=18, bold=True, color=NAVY)
+    add_text(p, sx, y + 0.38, 5.10, 0.74, d, size=14.5, color=INK)
+add_card(p, sx, cy + 3.58, 5.10, 1.41, fill=PANEL)
+add_text(p, sx + 0.16, cy + 3.68, 4.8, 0.60,
+         [('238 Physical-Network Candidates / 362 Edges → 63 Logical Nets', {'size': 17, 'bold': True, 'color': NAVY})], size=17)
+add_text(p, sx + 0.16, cy + 4.34, 4.8, 0.56,
+         'Candidates are the graph-stage intermediate; merges give the final output.',
+         size=14, color=INK)
 
 
 # ---- P5 Evidence-Gated Repair ----
@@ -311,7 +366,7 @@ pP5 = new_body('Repair Without Guessing', 'Page-13 junction reconciliation - mer
 p = pP5
 cx, cy, cw, ch = content_shapes(p)
 place_pic(p, rf'{D}\p7_gap_trim.png', cx, cy + 0.1, 3.6, 3.6)
-add_text(p, cx, cy + 3.78, 3.65, 0.3, 'Real crop from page 13 (development record)', size=11.5, color=MUTED, align=PP_ALIGN.CENTER)
+add_text(p, cx, cy + 3.78, 3.65, 0.30, 'Real crop from page 13 (dev record)', size=14, color=MUTED, align=PP_ALIGN.CENTER)
 add_text(p, cx + 3.95, cy + 0.05, 8.55, 0.5, 'Page-13 wire repair', size=20, bold=True, color=NAVY)
 mets = [
     ('TP / FP / FN', '32/28/17', '46/13/3'),
@@ -326,65 +381,70 @@ for i, (m, b, a) in enumerate(mets):
     add_text(p, cx + 8.35, y, 0.6, 0.36, '→', size=15, bold=True, color=INK)
     add_text(p, cx + 8.95, y, 2.2, 0.36, a, size=16, bold=True, color=ORANGE)
 mech = [
-    'Merge evidence: ≥60 px collinear overlap (±3°, ≤2 px), or red dot + ≥95% ink support',
-    'Members and edges only - components and pins untouched; ≤8 merges per page',
+    'Merge evidence: >=60 px collinear overlap (+-3deg, <=2px) or red dot + 95% ink',
+    'Members and edges only - components and pins untouched; <=8 merges per page',
 ]
 for i, t in enumerate(mech):
-    add_text(p, cx + 3.95, cy + 2.85 + i * 0.4, 8.55, 0.36, t, size=12.5, color=INK)
-add_text(p, cx + 3.95, cy + 3.72, 8.55, 0.3,
-         'Other 12 pages byte-identical (frozen cache replay) - single-page development-set ablation, not an official overall metric.',
-         size=12, italic=True, color=MUTED)
-add_text(p, cx + 3.95, cy + 4.15, 8.55, 0.34,
-         [('The wire-F1 gain comes from junction reconciliation - not from the OCR confidence gate.', {'size': 13, 'bold': True, 'color': NAVY})], size=13)
-add_text(p, cx + 3.95, cy + 4.6, 8.55, 0.34,
-         [('Evidence-gated OCR (≥2 views @ 0.98) is a separate capability - see Backup E.', {'size': 12.5, 'color': MUTED})], size=12.5)
+    add_text(p, cx + 3.95, cy + 2.85 + i * 0.40, 7.70, 0.36, t, size=14, color=INK)
+add_text(p, cx + 3.95, cy + 3.72, 7.70, 0.52,
+         'Other 12 pages byte-identical (frozen cache replay) - single-page ablation, not an official metric.',
+         size=14, italic=True, color=MUTED)
+add_text(p, cx + 3.95, cy + 4.30, 7.70, 0.34,
+         [('The wire-F1 gain comes from junction reconciliation - not the OCR gate.', {'size': 14.5, 'bold': True, 'color': NAVY})], size=14.5)
+add_text(p, cx + 3.95, cy + 4.72, 7.70, 0.34,
+         [('Evidence-gated OCR (>=2 views @ 0.98) is a separate capability - see Backup E.', {'size': 14, 'color': MUTED})], size=14)
 
 
-# ---- P6 Output Calibration ----
+# ---- P6 Output Calibration (teammate P6 image-based export rules + our calibration) ----
 pP6 = new_body('Output Calibration for Official Evaluation',
                'Statistical calibration to the official annotation conventions - not per-image lookups')
 p = pP6
 cx, cy, cw, ch = content_shapes(p)
+
+# left: calibration cards (compact)
+add_text(p, cx, cy + 0.04, 5.25, 0.34, 'Calibration to official conventions', size=17, bold=True, color=NAVY)
 cards = [
-    ('Type & field conventions', 'resistor → r ... (verified on 145 matched parts) · Name==key convention from 9,186-component statistics (box keeps its part number)', CYAN),
-    ('Bounding-box calibration (two scopes)', 'canonical (40-page public subset): within-20px 0.905 → 1.000  ·  page-adaptive (13 released): 150/163 → 159/163', NAVY),
+    ('Type & field conventions', 'resistor -> r ... (145 matched parts) · Name==key from 9,186-part statistics - the box keeps its part number', CYAN),
+    ('Bounding-box calibration (two scopes)', 'canonical (40-page public subset): within-20px 0.905 -> 1.000 · page-adaptive (13 released): 150/163 -> 159/163', NAVY),
     ('Pin-tip alignment', '18 px tip snap (measured 16-22 px plateau) + 1000-part pin library', ORANGE),
 ]
 for i, (t, d, c) in enumerate(cards):
-    y = cy + i * 1.3
-    add_card(p, cx, y, 6.6, 1.15, fill=WHITE)
-    add_text(p, cx + 0.18, y + 0.08, 6.2, 0.36, t, size=15, bold=True, color=INK)
-    add_text(p, cx + 0.18, y + 0.5, 5.9, 0.6, d, size=12.5, color=MUTED)
-    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 6.24), Inches(y + 0.5), Inches(0.16), Inches(0.16))
+    y = cy + 0.44 + i * 1.16
+    add_card(p, cx, y, 5.25, 1.04, fill=WHITE)
+    add_text(p, cx + 0.16, y + 0.07, 4.9, 0.32, t, size=16, bold=True, color=INK)
+    add_text(p, cx + 0.16, y + 0.42, 4.95, 0.56, d, size=14, color=MUTED)
+    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 4.97), Inches(y + 0.10), Inches(0.14), Inches(0.14))
     dot.fill.solid(); dot.fill.fore_color.rgb = c; dot.line.fill.background()
-add_text(p, cx, cy + 3.98, 6.7, 0.6,
-         'Both bbox scopes are independent experiments - never multiplied.\nFull metric table: Backup D.',
-         size=12.5, color=MUTED)
-place_pic(p, rf'{D}\p8_u3_bbox_compare.png', cx + 7.0, cy, 1.5, 3.5)
+# U3 bbox strip (kept from our deck; not repeated on P11)
+uy = cy + 3.94
+add_card(p, cx, uy, 5.25, 1.00, fill=PANEL)
+place_pic(p, rf'{D}\p8_u3_bbox_compare.png', cx + 0.12, uy + 0.07, 0.50, 0.86)
+add_text(p, cx + 0.78, uy + 0.08, 1.55, 0.46, '1~2 px', size=28, bold=True, color=ORANGE)
+add_text(p, cx + 2.40, uy + 0.10, 2.75, 0.80,
+         'U3 (RP2350A) bbox vs official example annotation (official 20 px tolerance)', size=14, color=INK)
+add_text(p, cx, uy + 1.10, 5.25, 0.28,
+         'Both bbox scopes independent - see Backup D.', size=14, color=MUTED)
 
-add_text(p, cx + 8.75, cy + 0.35, 3.75, 0.62, '1~2 px', size=32, bold=True, color=ORANGE)
-add_text(p, cx + 8.75, cy + 1.05, 3.8, 0.66,
-         'U3 (RP2350A) bbox vs official example annotation (official 20 px tolerance)', size=12.5, color=INK)
-add_text(p, cx + 8.75, cy + 1.78, 3.8, 0.6,
-         'ours [539,281,689,731]\nofficial [540,280,690,730]', size=12, color=MUTED, font='Consolas')
-add_text(p, cx + 7.0, cy + 3.55, 5.55, 0.3, 'Output JSON (real fragments)', size=12.5, bold=True, color=INK)
-json_rows = [
-    ('components', '"U3": box RP2350A · bbox [539,281,689,731]', RGBColor(0x0E, 0x7C, 0x8C)),
-    ('pins', '"U3".pin_51: USB_DM @ (513, 561)', NAVY),
-    ('nets', '"LOG_NET": (C1.2, U3.U3) · 3 edges', ORANGE),
-]
-for i, (key, txt, c) in enumerate(json_rows):
-    y = cy + 3.88 + i * 0.46
-    kc = p.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(cx + 7.0), Inches(y), Inches(1.5), Inches(0.4))
-    kc.fill.solid(); kc.fill.fore_color.rgb = c; kc.line.fill.background()
-    try:
-        kc.shadow.inherit = False
-    except Exception:
-        pass
-    ktf = kc.text_frame; ktf.word_wrap = True
-    kpa = ktf.paragraphs[0]; kpa.alignment = PP_ALIGN.CENTER
-    kr = kpa.add_run(); kr.text = key; kr.font.size = Pt(11.5); kr.font.bold = True; kr.font.color.rgb = WHITE; kr.font.name = FONT
-    add_text(p, cx + 8.65, y + 0.03, 3.95, 0.3, txt, size=11.5, color=INK, font='Consolas')
+# right: directional port rule + its JSON fields
+rx = cx + 5.60
+add_text(p, rx, cy + 0.04, 5.95, 0.34, 'Image-based export rules - directional port', size=17, bold=True, color=NAVY)
+place_pic(p, rf'{D}\ti_p8_port.png', rx, cy + 0.46, 4.42, 1.35)
+add_text(p, rx - 0.36, cy + 1.86, 1.40, 0.28, 'Wired terminal', size=14, color=INK, align=PP_ALIGN.CENTER)
+add_text(p, rx + 2.33, cy + 1.86, 1.40, 0.28, 'Arrow tip', size=14, color=INK, align=PP_ALIGN.CENTER)
+add_text(p, rx, cy + 2.20, 5.90, 0.58,
+         'The terminal sits opposite the tip -> output port; on the tip side -> input. Caption stays in Name; value -> null.',
+         size=16, color=INK)
+add_text(p, rx, cy + 2.82, 5.90, 0.30,
+         'Fires only when flag and single terminal agree (14 unit tests).',
+         size=14, color=MUTED)
+add_card(p, rx, cy + 3.20, 5.95, 2.10, fill=PANEL)
+add_text(p, rx + 0.20, cy + 3.30, 5.5, 0.32, 'Port fields in Target JSON', size=16, bold=True, color=NAVY)
+add_text(p, rx + 0.20, cy + 3.66, 5.5, 0.32, '"type": "net_output"', size=17, color=INK, font='Consolas')
+add_text(p, rx + 0.20, cy + 4.02, 5.5, 0.32, '"Name": "VOUT"', size=17, color=INK, font='Consolas')
+add_text(p, rx + 0.20, cy + 4.38, 5.5, 0.32, '"value": null', size=17, color=INK, font='Consolas')
+add_text(p, rx + 0.20, cy + 4.74, 5.55, 0.50,
+         'Legacy net_bidirection -> observed geometry. Old labels: PCB_EXPORT_SEMANTICS=legacy.',
+         size=14, color=MUTED)
 
 
 # ---------- Part III page: official results ----------
@@ -397,15 +457,15 @@ add_card(part3, cx, cy + 2.3, 11.55, 1.42, fill=PANEL)
 add_text(part3, cx + 0.2, cy + 2.4, 11.2, 0.4, 'Version iteration', size=16, bold=True, color=INK)
 tbx = part3.shapes[-1].text_frame
 r = tbx.paragraphs[0].add_run(); r.text = '   28.92'; r.font.size = Pt(16); r.font.bold = True; r.font.color.rgb = NAVY; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = ' (old build 8422)   →   '; r.font.size = Pt(13); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = ' (old build 8422)   →   '; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
 r = tbx.paragraphs[0].add_run(); r.text = '74'; r.font.size = Pt(16); r.font.bold = True; r.font.color.rgb = ORANGE; r.font.name = FONT
-r = tbx.paragraphs[0].add_run(); r.text = ' (final submission, +45)'; r.font.size = Pt(13); r.font.color.rgb = MUTED; r.font.name = FONT
+r = tbx.paragraphs[0].add_run(); r.text = ' (final submission, +45)'; r.font.size = Pt(14); r.font.color.rgb = MUTED; r.font.name = FONT
 add_text(part3, cx + 0.2, cy + 2.82, 11.2, 0.8,
          'Fixes behind the jump: unnumbered power/ground exports · LED text & boxes · IC name priority & observed frames · engineering numbering · export semantics.',
-         size=12.5, color=INK)
+         size=14, color=INK)
 add_text(part3, cx, cy + 4.4, cw, 0.36,
          'Local development replay score (13-page public set): moved to Backup D - development only, not comparable with official results.',
-         size=12, color=MUTED)
+         size=14, color=MUTED)
 
 
 # ---- P8 Quantitative Results and Case Studies ----
@@ -428,41 +488,50 @@ for i, (dim, met, b, a, scope) in enumerate(mets):
     add_text(p, x + 0.2, y + 0.55, 2.1, 0.6, b, size=24, bold=True, color=MUTED)
     add_text(p, x + 2.15, y + 0.62, 0.7, 0.5, '→', size=22, bold=True, color=INK)
     add_text(p, x + 2.95, y + 0.55, 2.6, 0.6, a, size=24, bold=True, color=ORANGE)
-    add_text(p, x + 0.2, y + 1.25, 5.2, 0.3, met, size=12.5, color=INK)
-    add_text(p, x + 0.2, y + 1.55, 5.2, 0.3, scope, size=11.5, color=MUTED)
-add_text(p, cx, cy + 4.7, cw, 0.34,
+    add_text(p, x + 0.2, y + 1.25, 5.2, 0.30, met, size=14, color=INK)
+    add_text(p, x + 0.2, y + 1.57, 5.2, 0.30, scope, size=13.5, color=MUTED)
+add_text(p, cx, cy + 4.64, cw, 0.32,
          'Development-set experiments and single-case ablations - not official per-dimension scores. Full table: Backup D.',
-         size=13, bold=True, color=INK)
-add_text(p, cx, cy + 5.08, cw, 0.3,
+         size=14, bold=True, color=INK)
+add_text(p, cx, cy + 5.00, cw, 0.28,
          'Ablation protocol: one module toggled on a frozen model/OCR cache; the other 12 pages stay byte-identical.',
-         size=11.5, color=MUTED)
+         size=13.5, color=MUTED)
 
 
-# ---- P9 End-to-End Output and Engineering Validation ----
+# ---- P9 End-to-End Output (teammate P8: original | overlay + legend + counts) ----
 pP9 = new_body('End-to-End Output and Engineering Validation',
                'Official example page, full pipeline - from PNG to validated JSON')
 p = pP9
 cx, cy, cw, ch = content_shapes(p)
-place_pic(p, rf'{A}\fig1b_detection_clean.png', cx, cy, 4.09, 2.9)
-add_text(p, cx, cy + 2.94, 4.15, 0.28, 'Detection & recognition overlay (32 drawn-symbol parts)', size=11, color=MUTED, align=PP_ALIGN.CENTER)
-place_pic(p, rf'{A}\fig3b_network_overlay.png', cx + 4.35, cy, 4.09, 2.9)
-add_text(p, cx + 4.35, cy + 2.94, 4.15, 0.28, 'Final networks: 63 logical nets, edges color-coded', size=11, color=MUTED, align=PP_ALIGN.CENTER)
-stats = [('89', 'components'), ('165', 'pins'), ('63', 'logical nets')]
-for i, (n, lb) in enumerate(stats):
-    y = cy + 0.06 + i * 0.94
-    add_text(p, cx + 9.15, y, 2.2, 0.52, n, size=30, bold=True, color=NAVY)
-    add_text(p, cx + 9.15, y + 0.54, 2.2, 0.28, lb, size=11.5, color=MUTED)
-add_text(p, cx + 9.15, cy + 2.92, 2.3, 0.28, 'U3 bbox diff', size=11.5, color=INK)
-add_text(p, cx + 9.15, cy + 3.18, 2.3, 0.44, '1~2 px', size=20, bold=True, color=ORANGE)
-add_text(p, cx, cy + 3.28, cw, 0.32, 'Output JSON (real fragments, official example page)', size=12.5, bold=True, color=INK)
-json_rows = [
-    ('components', '"U3": box RP2350A · bbox [539,281,689,731]', RGBColor(0x0E, 0x7C, 0x8C)),
-    ('pins', '"U3".pin_51: USB_DM @ (513, 561)', NAVY),
-    ('nets', '"LOG_NET": (C1.2, U3.U3) · 3 edges', ORANGE),
-]
-for i, (key, l1, c) in enumerate(json_rows):
-    y = cy + 3.62 + i * 0.52
-    kc = p.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(cx), Inches(y), Inches(1.42), Inches(0.44))
+place_pic(p, rf'{D}\ti_p11_orig.png', cx, cy + 0.04, 4.25, 3.02)
+add_text(p, cx, cy + 3.14, 4.25, 0.30, 'Original schematic (official example page)', size=14, color=MUTED, align=PP_ALIGN.CENTER)
+place_pic(p, rf'{D}\ti_p11_overlay.png', cx + 5.60, cy + 0.04, 4.25, 3.02)
+add_text(p, cx + 5.60, cy + 3.14, 4.25, 0.30, 'Prediction overlay (same page)', size=14, color=MUTED, align=PP_ALIGN.CENTER)
+# stacked output records (right)
+recs = [('89', 'components'), ('165', 'pins'), ('63', 'logical nets')]
+for i, (n, lb) in enumerate(recs):
+    y = cy + 0.10 + i * 1.02
+    add_text(p, cx + 10.10, y, 2.35, 0.48, n, size=28, bold=True, color=NAVY)
+    add_text(p, cx + 10.10, y + 0.50, 2.35, 0.28, lb, size=14, color=MUTED)
+# legend row
+ly = cy + 3.62
+lg = p.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(cx), Inches(ly + 0.05), Inches(0.24), Inches(0.16))
+lg.fill.solid(); lg.fill.fore_color.rgb = RGBColor(0x00, 0x98, 0x51); lg.line.fill.background()
+add_text(p, cx + 0.34, ly, 1.85, 0.28, 'Component boxes', size=14, color=INK)
+dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 2.30), Inches(ly + 0.04), Inches(0.17), Inches(0.17))
+dot.fill.solid(); dot.fill.fore_color.rgb = RGBColor(0xC0, 0x39, 0x2B); dot.line.fill.background()
+add_text(p, cx + 2.57, ly, 1.60, 0.28, 'Pin endpoints', size=14, color=INK)
+ln = p.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(cx + 4.28), Inches(ly + 0.10), Inches(0.30), Inches(0.055))
+ln.fill.solid(); ln.fill.fore_color.rgb = ORANGE; ln.line.fill.background()
+add_text(p, cx + 4.68, ly, 2.45, 0.28, 'Wire paths (per-net color)', size=14, color=INK)
+add_text(p, cx + 7.35, ly, 5.15, 0.28, 'validated - never infers text, coordinates or joins', size=14, color=MUTED)
+# real JSON fragments
+for i, (key, l1, c) in enumerate([
+        ('components', '"U3": box RP2350A · bbox [539,281,689,731]', RGBColor(0x0E, 0x7C, 0x8C)),
+        ('pins', '"U3".pin_51: USB_DM @ (513, 561)', NAVY),
+        ('nets', '"LOG_NET": (C1.2, U3.U3) · 3 edges', ORANGE)]):
+    y = cy + 4.06 + i * 0.44
+    kc = p.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, Inches(cx), Inches(y), Inches(1.42), Inches(0.38))
     kc.fill.solid(); kc.fill.fore_color.rgb = c; kc.line.fill.background()
     try:
         kc.shadow.inherit = False
@@ -470,65 +539,69 @@ for i, (key, l1, c) in enumerate(json_rows):
         pass
     ktf = kc.text_frame; ktf.word_wrap = True
     kpa = ktf.paragraphs[0]; kpa.alignment = PP_ALIGN.CENTER
-    kr = kpa.add_run(); kr.text = key; kr.font.size = Pt(11.5); kr.font.bold = True; kr.font.color.rgb = WHITE; kr.font.name = FONT
-    add_text(p, cx + 1.6, y + 0.04, 4.35, 0.3, l1, size=12, color=INK, font='Consolas')
-add_text(p, cx + 5.95, cy + 3.7, 6.55, 0.4, 'Verified structured output - the deliverable', size=17, bold=True, color=NAVY)
-add_text(p, cx + 5.95, cy + 4.16, 6.55, 0.36,
-         'validate_target + sanitize: remove only invalid objects, never infer text, coordinates or joins.',
-         size=13, color=INK)
+    kr = kpa.add_run(); kr.text = key; kr.font.size = Pt(12.5); kr.font.bold = True; kr.font.color.rgb = WHITE; kr.font.name = FONT
+    add_text(p, cx + 1.60, y + 0.05, 6.20, 0.30, l1, size=14, color=INK, font='Consolas')
+add_text(p, cx + 8.10, cy + 4.14, 4.40, 0.70,
+         'Output JSON (real fragments, official example page) - IDs tie every record back to the image.',
+         size=14, color=INK)
 
 
-# ---------- Part IV page: conclusions ----------
+# ---------- Part IV page: conclusions (teammate P10 two columns) ----------
 set_title_subtitle(part4, None, 'Conclusions and future work')
 cx, cy, cw, ch = content_shapes(part4)
-add_text(part4, cx, cy + 0.02, cw, 0.42, 'Three Technical Contributions', size=19, bold=True, color=NAVY)
+add_text(part4, cx, cy + 0.04, 5.60, 0.36, 'What the system delivers', size=20, bold=True, color=NAVY)
+add_text(part4, cx + 6.10, cy + 0.04, 5.45, 0.36, 'Future development', size=20, bold=True, color=NAVY)
+div = part4.shapes.add_shape(MSO_SHAPE.RECTANGLE, Inches(cx + 5.82), Inches(cy + 0.10), Inches(0.014), Inches(4.62))
+div.fill.solid(); div.fill.fore_color.rgb = LINE; div.line.fill.background()
 contribs = [
-    ('Multi-model visual perception', 'self-trained YOLO nano / dual-head WirePinUNet / junction CNN - all sha256-traceable'),
-    ('Evidence-gated topology repair', '0.98 x 2-view OCR gates + transactional engine + rollback'),
-    ('Score-aware output calibration', 'bbox conventions / Name==key / pin-library mapping'),
+    ('Pin-to-net reconstruction', 'Symbol boundaries, pin locations and wire paths decide which pins share a net - merged only on hard evidence.'),
+    ('Traceable Target export', 'Component and pin IDs tie every attribute, net member and wire segment back to the source image.'),
+    ('Score-aware output calibration', 'bbox conventions · Name==key · pin-library mapping, fitted to official annotation statistics.'),
 ]
 for i, (t, d) in enumerate(contribs):
-    y = cy + 0.52 + i * 0.56
-    dot = part4.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx), Inches(y + 0.03), Inches(0.28), Inches(0.28))
+    y = cy + 0.56 + i * 1.16
+    dot = part4.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx), Inches(y + 0.02), Inches(0.30), Inches(0.30))
     dot.fill.solid(); dot.fill.fore_color.rgb = ORANGE; dot.line.fill.background()
-    add_text(part4, cx, y + 0.04, 0.28, 0.28, str(i + 1), size=11, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-    add_text(part4, cx + 0.4, y - 0.02, 11.1, 0.3, t, size=14.5, bold=True, color=INK)
-    add_text(part4, cx + 0.4, y + 0.27, 11.1, 0.3, d, size=11, color=MUTED)
-add_text(part4, cx, cy + 2.22, cw, 0.3,
-         'JunctionCNN: self-trained but OFF in the default pipeline - an optional enhancement, not the default inference backbone.',
-         size=12.5, italic=True, color=MUTED)
-add_text(part4, cx, cy + 2.6, cw, 0.42, 'Engineering Value', size=19, bold=True, color=NAVY)
-ev = [
-    ('Docker delivery on the official base image', 'SHA256 integrity: 249-file manifest + weight fingerprints'),
-    ('Per-stage audit logs (20+ JSONs per image)', 'validate/sanitize + rollback · 626+ unit tests · zero LLM tokens'),
+    add_text(part4, cx, y + 0.03, 0.30, 0.30, str(i + 1), size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text(part4, cx + 0.44, y, 5.15, 0.32, t, size=17, bold=True, color=INK)
+    add_text(part4, cx + 0.44, y + 0.36, 5.15, 0.70, d, size=14.5, color=MUTED)
+add_text(part4, cx, cy + 4.10, 5.55, 0.60,
+         'JunctionCNN: self-trained but OFF in the default pipeline - an optional enhancement, not the inference backbone.',
+         size=14, italic=True, color=MUTED)
+futures = [
+    ('Independent evaluation', 'Hold out schematics from unseen sources; measure transfer across unfamiliar symbols and drawing styles.'),
+    ('Dense pins & crossing wires', 'Audit missed pins and false junctions to target where local image evidence must improve.'),
+    ('Junction model & data growth', 'Promote the trained junction CNN after validation; expand hard-case and cross-domain datasets.'),
 ]
-for i, (a, b) in enumerate(ev):
-    col, row = i % 2, i // 2
-    x = cx + col * 5.95
-    y = cy + 3.06 + row * 0.42
-    dot = part4.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x), Inches(y + 0.06), Inches(0.12), Inches(0.12))
-    dot.fill.solid(); dot.fill.fore_color.rgb = NAVY; dot.line.fill.background()
-    add_text(part4, x + 0.24, y, 5.6, 0.32, a, size=12.5, color=INK)
-    add_text(part4, x + 0.24, y + 0.3, 5.6, 0.0, '', size=11)
-    add_text(part4, x + 0.24, y + 0.3, 5.6, 0.32, b, size=11, color=MUTED)
-add_text(part4, cx, cy + 4.02, cw, 0.42, 'Future Development', size=19, bold=True, color=NAVY)
-outs = ['Expand hard-case datasets and domain adaptation', 'Improve junction classification (promote the trained CNN)',
-        'Enhance cross-domain generalization for engineering drawings']
-for i, t in enumerate(outs):
-    y = cy + 4.48 + i * 0.34
-    dot = part4.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 0.06), Inches(y + 0.07), Inches(0.12), Inches(0.12))
+for i, (t, d) in enumerate(futures):
+    y = cy + 0.56 + i * 1.16
+    dot = part4.shapes.add_shape(MSO_SHAPE.OVAL, Inches(cx + 6.10), Inches(y + 0.02), Inches(0.30), Inches(0.30))
     dot.fill.solid(); dot.fill.fore_color.rgb = CYAN; dot.line.fill.background()
-    add_text(part4, cx + 0.3, y, 11.2, 0.3, t, size=12.5, color=INK)
+    add_text(part4, cx + 6.10, y + 0.03, 0.30, 0.30, str(i + 1), size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text(part4, cx + 6.54, y, 5.00, 0.32, t, size=17, bold=True, color=INK)
+    add_text(part4, cx + 6.54, y + 0.36, 5.00, 0.70, d, size=14.5, color=MUTED)
+add_text(part4, cx + 6.10, cy + 4.10, 5.45, 0.60,
+         'Reported aggregates apply to public development images; official 30~50-case set stays black-box.',
+         size=14, italic=True, color=MUTED)
+add_card(part4, cx, cy + 4.80, cw, 0.50, fill=PANEL)
+add_text(part4, cx + 0.2, cy + 4.90, cw - 0.4, 0.32,
+         'Engineering delivery: Docker pcb-parser:v102 · SHA256 manifest · audit logs · 626+ unit tests · zero LLM tokens',
+         size=14, bold=True, color=NAVY, align=PP_ALIGN.CENTER)
 
 
 # ---------- Backups B1-B5 ----------
-# B1 detailed architecture
+# B1 detailed architecture (+ topology detail: 39 junction nodes / skeleton)
 b1 = new_body('Backup A · Detailed Architecture',
              'The full 11-stage pipeline - compressed to four layers on the main deck (Part II)')
 p = b1
 p = b1
 cx, cy, cw, ch = content_shapes(p)
-place_pic(p, rf'{D}\arch_pipeline_en.png', cx - 0.1, cy - 0.05, cw + 0.2, ch + 0.1)
+place_pic(p, rf'{D}\arch_pipeline_en.png', cx - 0.10, cy - 0.05, 7.55, 5.34)
+place_pic(p, rf'{D}\ti_ba_skeleton.png', cx + 7.75, cy - 0.05, 3.75, 3.21)
+add_text(p, cx + 7.75, cy + 3.24, 3.75, 0.28, 'Junction nodes on the skeleton (U3 zoom)', size=14, color=MUTED, align=PP_ALIGN.CENTER)
+add_text(p, cx + 7.75, cy + 3.62, 3.75, 1.60,
+         'Operating wire mask -> skeleton: 7210 px + 39 junction nodes (magenta). Global per-net stage: main deck P6; merge policy: P7.',
+         size=14, color=INK)
 
 
 # B2 training
@@ -539,29 +612,33 @@ p = b2
 cx, cy, cw, ch = content_shapes(p)
 rows = [
     ('Model', 'Architecture', 'Training data', 'Key parameters', 'Origin'),
-    ('YOLO nano detector', 'Ultralytics YOLO nano, 35 classes', 'detection_balanced_v2 (local)', 'imgsz 1536 · 120 epochs · batch 4', 'self-trained (v2 warm start; HR-DONK initial baseline only)'),
-    ('WirePinUNet dual-head', 'base-32 shared decoder (wire+pin)', 'rasterized source annotations + reviewed masks', 'tiles 512/384 · 40 epochs · pos_weight 8/20 · epoch 32', 'self-trained (milesial parts, GPL-3 provenance)'),
-    ('JunctionCNN', '6-channel dual-view CNN', '1,024 synthetic renders + reviewed crops x12', '30 epochs · 0.95 threshold · 4-rotation agreement', 'self-trained (OFF in default pipeline)'),
-    ('PP-OCRv6 OCR', 'det/rec small + cls (ONNX)', 'open pre-trained', 'page 2048 px; pin 2/3/4x x 0/90°', 'called (rapidocr 3.9.2)'),
+    ('YOLO nano detector', 'Ultralytics YOLO nano · 35 classes', '238 train pages + 180 crops · 59 val pages', 'imgsz 1536 · 120 ep · batch 4', 'self-trained (HR-DONK warm start)'),
+    ('WirePinUNet dual-head', 'base-32 shared decoder (wire+pin)', 'rasterized source annotations + reviewed masks', 'tiles 512/384 · 40 ep · pos_weight 8/20', 'self-trained (milesial, GPL-3)'),
+    ('JunctionCNN', '6-channel dual-view CNN', '1,024 synthetic renders + reviewed crops ×12', '30 ep · 0.95 thr · 4-rotation agreement', 'self-trained (OFF by default)'),
+    ('PP-OCRv6 OCR', 'det/rec small + cls (ONNX)', 'open pre-trained', 'page 2048 px · pin 2/3/4× × 0/90°', 'called (rapidocr 3.9.2)'),
 ]
-tbl_shape = p.shapes.add_table(len(rows), 5, Inches(cx), Inches(cy + 0.05), Inches(11.55), Inches(3.4))
+tbl_shape = p.shapes.add_table(len(rows), 5, Inches(cx), Inches(cy + 0.05), Inches(11.55), Inches(3.30))
 tbl = tbl_shape.table
-for c, wd in zip(tbl.columns, [2.0, 2.5, 2.6, 2.5, 1.95]):
+for c, wd in zip(tbl.columns, [1.95, 2.30, 2.75, 2.60, 1.95]):
     c.width = Inches(wd)
 for ri, row in enumerate(rows):
     for ci, val in enumerate(row):
         cell = tbl.cell(ri, ci); cell.text = val
         r0 = cell.text_frame.paragraphs[0].runs[0]
-        r0.font.size = Pt(11 if ri else 12); r0.font.bold = (ri == 0) or (ci == 0)
+        r0.font.size = Pt(14); r0.font.bold = (ri == 0) or (ci == 0)
         r0.font.name = FONT
         r0.font.color.rgb = WHITE if ri == 0 else (NAVY if ci == 0 else INK)
         cell.fill.solid(); cell.fill.fore_color.rgb = NAVY if ri == 0 else (WHITE if ri % 2 else RGBColor(0xF6, 0xF9, 0xFC))
-add_text(p, cx, cy + 3.7, cw, 0.4,
-         'Data assets: 1000-part EasyEDA symbol library + 337-part slice + STM32F103C8T6 LQFP48 pin library (ST DS5319 datasheet) - all bundled, zero network access.',
-         size=11.5, color=INK)
-add_text(p, cx, cy + 4.14, cw, 0.4,
-         'Provenance: weights/baseline_provenance.json (HR-DONK initial baseline, MIT) · vendor/pytorch_unet provenance (milesial, GPL-3, per-file sha256) · no evaluation annotation leakage in training data.',
-         size=11, color=MUTED)
+add_text(p, cx, cy + 3.62, cw, 0.34,
+         'Detector split is original-page level: crop parents from the train split only; 0001/0002 fixed in validation (2462 val boxes).',
+         size=14, color=INK)
+add_text(p, cx, cy + 4.02, cw, 0.34,
+         'Data assets: 1000-part EasyEDA symbol library + 337-part slice + STM32F103C8T6 LQFP48 pin library, all bundled.',
+         size=14, color=INK)
+add_text(p, cx, cy + 4.42, cw, 0.60,
+         'Provenance: baseline_provenance.json (HR-DONK, MIT) · milesial U-Net parts GPL-3 (per-file sha256) · no evaluation-annotation leakage in training.',
+         size=14, color=MUTED)
+
 
 # B3 runtime
 ck()
@@ -578,32 +655,33 @@ add_text(p, cx + 0.25, cy + 0.2, 5.5, 2.4,
           ('# CPU fallback', {'color': MUTED, 'font': 'Consolas'}),
           ('python agent.py -input <dir> -output <dir> --device cpu', {'color': RGBColor(0x8F, 0xD8, 0xE2), 'font': 'Consolas'}),
           ('# ~30 PCB_* env switches; defaults are tuned values', {'color': MUTED, 'font': 'Consolas'})],
-         size=11.5)
+         size=13)
 place_pic(p, rf'{D}\d_recovery_flow_en.png', cx + 6.1, cy + 0.1, 5.6, 2.6)
 chain = [('run.sh', 'image entry'), ('agent.py', 'run_case per image'), ('S-stage chain', 'S14→S24 subprocess'),
          ('finalize x15', 'evidence-gated repair'), ('adapter', 'target calibration'), ('final_results', 'Pred.json')]
-for i, (t, s) in enumerate(chain):
+for i, (t, s2) in enumerate(chain):
     x = cx + i * 1.945
     cv = p.shapes.add_shape(MSO_SHAPE.CHEVRON, Inches(x), Inches(cy + 3.15), Inches(1.86), Inches(0.72))
     cv.fill.solid(); cv.fill.fore_color.rgb = PANEL; cv.line.color.rgb = LINE; cv.line.width = Pt(0.75)
     tf = cv.text_frame; tf.word_wrap = True
     tf.margin_left = Inches(0.14); tf.margin_right = Inches(0.03)
     pa = tf.paragraphs[0]; pa.alignment = PP_ALIGN.CENTER
-    r = pa.add_run(); r.text = t; r.font.size = Pt(9.5); r.font.bold = True; r.font.color.rgb = INK; r.font.name = FONT
+    r = pa.add_run(); r.text = t; r.font.size = Pt(11); r.font.bold = True; r.font.color.rgb = INK; r.font.name = FONT
     pb = tf.add_paragraph(); pb.alignment = PP_ALIGN.CENTER
-    r = pb.add_run(); r.text = s; r.font.size = Pt(7.2); r.font.color.rgb = MUTED; r.font.name = FONT
-add_text(p, cx, cy + 3.95, cw, 0.32,
+    r = pb.add_run(); r.text = s2; r.font.size = Pt(9); r.font.color.rgb = MUTED; r.font.name = FONT
+add_text(p, cx, cy + 3.95, cw, 0.30,
          'Smoke-replay artifacts archived: decision_log.json + final_results/rp2350_page11_Pred.json + logs/ (20+ audit JSONs).',
-         size=11.5, color=INK)
-add_text(p, cx, cy + 4.2, cw, 0.28,
+         size=13.5, color=INK)
+add_text(p, cx, cy + 4.27, cw, 0.30,
          'Entry semantics: ENTRYPOINT=/submission/run.sh (verified in OCI config); agent_system stays the official placeholder.',
-         size=11, color=MUTED)
-add_text(p, cx, cy + 4.52, cw, 0.44,
+         size=13.5, color=MUTED)
+add_text(p, cx, cy + 4.59, cw, 0.56,
          'Engineering reliability: Docker delivery · SHA256 integrity (249-file manifest, 3 weight fingerprints, 12-asset preflight) · per-stage audit logs (20+ JSONs/image) · output validation (validate_target + sanitize) · 626+ unit tests with a build-time gate.',
-         size=11.5, color=INK)
-add_text(p, cx, cy + 5.06, cw, 0.28,
-         'Runtime scope: CPU datum 2000.5 s/case (official example page); official GPU timing not measured - no 2-hour compliance claim.',
-         size=12, color=MUTED)
+         size=13.5, color=INK)
+add_text(p, cx, cy + 5.06, cw, 0.30,
+         'Runtime scope: CPU datum 2000.5 s/case (official example page); official GPU timing not measured.',
+         size=13.5, color=MUTED)
+
 
 # B4 metrics
 ck()
@@ -611,15 +689,15 @@ b4 = new_body('Backup D · Metrics & Ablation',
              'Every number traceable; full 17-row table in defense_supplement.md §3')
 p = b4
 cx, cy, cw, ch = content_shapes(p)
-add_text(p, cx, cy + 0.0, cw, 0.3,
-         'Caliber caution: canonical (40 pages) and page scaling (13 pages) are independent experiments; "+0.31" is the total-score delta (connectivity +0.7pp).',
-         size=12, color=MUTED)
-add_text(p, cx, cy + 0.32, cw, 0.3,
+add_text(p, cx, cy + 0.0, cw, 0.30,
+         'Caliber caution: canonical (40 pages) and page scaling (13 pages) are independent; "+0.31" is the total-score delta.',
+         size=13.5, color=MUTED)
+add_text(p, cx, cy + 0.32, cw, 0.32,
          'Local development replay: 98.93 (13-page public set, v101-score) - development only, not comparable with the official 74.',
-         size=12, color=INK)
+         size=14, bold=True, color=INK)
 rows = [
     ('Experiment', 'Scope', 'Metric', 'Result'),
-    ('Detection config selection', '59-case public micro-avg', 'detection F1', '0.883 (fused wins)'),
+    ('Detection config selection', '59-case micro-avg', 'detection F1', '0.883 (fused wins)'),
     ('Pin library mapping', '13 released pages', 'PinF1', '0.031 → 0.549 (+47)'),
     ('Unresolved-junction release', '13 released pages', 'connectivity', '0.188 → 0.612 @0.83'),
     ('Gapped-wire release', '13 released pages', 'connectivity / score', '0.569→0.576 / +0.31 pts'),
@@ -629,40 +707,43 @@ rows = [
     ('bbox page scaling', '13 released pages', 'templated parts within 20px', '150/163 → 159/163'),
     ('Local smoke reproduction', 'official example page', 'output scale · bbox check', '89/165/63 · U3 diff 1~2 px'),
 ]
-tbl_shape = p.shapes.add_table(len(rows), 4, Inches(cx), Inches(cy + 0.72), Inches(11.55), Inches(4.5))
+tbl_shape = p.shapes.add_table(len(rows), 4, Inches(cx), Inches(cy + 0.74), Inches(11.55), Inches(4.46))
 tbl = tbl_shape.table
-for c, wd in zip(tbl.columns, [2.6, 2.4, 2.75, 3.8]):
+for c, wd in zip(tbl.columns, [2.65, 2.05, 2.55, 4.30]):
     c.width = Inches(wd)
 for ri, row in enumerate(rows):
     for ci, val in enumerate(row):
         cell = tbl.cell(ri, ci); cell.text = val
+        cell.margin_left = Inches(0.06); cell.margin_right = Inches(0.06)
         para = cell.text_frame.paragraphs[0]
         para.alignment = PP_ALIGN.RIGHT if ci == 3 else PP_ALIGN.LEFT
-        r0 = para.runs[0]; r0.font.size = Pt(14 if ri == 0 else 13.5)
+        r0 = para.runs[0]; r0.font.size = Pt(14)
         r0.font.bold = (ri == 0) or (ci == 3); r0.font.name = FONT
         r0.font.color.rgb = WHITE if ri == 0 else (NAVY if ci == 3 else INK)
         cell.fill.solid(); cell.fill.fore_color.rgb = NAVY if ri == 0 else (WHITE if ri % 2 else RGBColor(0xF6, 0xF9, 0xFC))
 
+
 # B5 Q&A
 ck()
-b5 = new_body('Backup E · Technical Q&A', 'Full Chinese handbook: EDA决赛答辩_QA.md (10 questions with evidence-backed answers)')
+b5 = new_body('Backup E · Technical Q&A', 'Full Chinese handbook: EDA决赛答辩_QA.md (18 questions with evidence-backed answers)')
 p = b5
 cx, cy, cw, ch = content_shapes(p)
-qas = [('Why not an end-to-end LLM?', '95% of weight is pixel-level structural accuracy; LLM coordinates unreliable; tokens scored - we use 0'),
-       ('Gap between official 74 and local 98.93?', 'Different scopes: official includes 2/3 black-box (60% hard); local is a 13-page public replay'),
-       ('How are T/cross junctions handled?', 'Conservative split + red-dot detection; learned classifier kept optional (default off)'),
-       ('Broken / missed wires?', 'Gaps logged, never guessed; recovered by 60px collinear overlap or red-dot + 95% ink (+0.31 pts)'),
-       ('Tiny pin numbers unreadable?', 'Strip OCR (30-50px beyond lead) + row reread + 6-view targeted OCR + 1000-part library (PinF1 0.031→0.549)'),
-       ('How is a part number recovered?', 'SW1/SW2: wrong fallback "SW1" → real part "PTS8153JK250SMTRLFS" via nearby text stack, rotated views, conf 0.998/0.992')]
+qas = [('Why not an end-to-end LLM?', '95% of the score is pixel-level structural accuracy; LLM coordinates are unreliable and tokens are billed - we use 0.'),
+       ('Gap between official 74 and local 98.93?', 'Different scopes: official = 30~50 cases, 2/3 black-box (60% hard); local = 13-page public replay.'),
+       ('How are T/cross junctions handled?', 'Conservative split + red-dot detection; learned classifier kept optional (OFF in default pipeline).'),
+       ('Broken / missed wires?', 'Gaps logged, never guessed; recovered by >=60 px collinear overlap or red-dot + >=95% ink (+0.31 pts total).'),
+       ('Tiny pin numbers unreadable?', 'Strip OCR (30-50 px beyond lead) + row reread + 6-view targeted OCR + 1000-part library (PinF1 0.031->0.549).'),
+       ('How is a part number recovered?', 'SW1/SW2: fallback "SW1" -> real part "PTS8153JK250SMTRLFS" via nearby text stack, rotated views (conf 0.998/0.992).')]
 for i, (q, a) in enumerate(qas):
     col, row = i % 2, i // 2
     x = cx + col * 5.93; y = cy + row * 1.62
     add_card(p, x, y, 5.62, 1.46, fill=WHITE)
-    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x + 0.14), Inches(y + 0.16), Inches(0.3), Inches(0.3))
+    dot = p.shapes.add_shape(MSO_SHAPE.OVAL, Inches(x + 0.14), Inches(y + 0.16), Inches(0.30), Inches(0.30))
     dot.fill.solid(); dot.fill.fore_color.rgb = NAVY; dot.line.fill.background()
-    add_text(p, x + 0.14, y + 0.17, 0.3, 0.3, 'Q', size=12, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
-    add_text(p, x + 0.56, y + 0.1, 4.95, 0.4, q, size=13, bold=True, color=INK)
-    add_text(p, x + 0.56, y + 0.52, 4.95, 0.85, a, size=11, color=MUTED)
+    add_text(p, x + 0.14, y + 0.17, 0.30, 0.30, 'Q', size=13, bold=True, color=WHITE, align=PP_ALIGN.CENTER)
+    add_text(p, x + 0.56, y + 0.10, 4.95, 0.32, q, size=14, bold=True, color=INK)
+    add_text(p, x + 0.56, y + 0.46, 4.95, 0.94, a, size=14, color=MUTED)
+
 
 # ---------- delete requirements slide + reorder to final narrative order ----------
 from pptx.oxml.ns import qn as _qn
